@@ -1,5 +1,5 @@
 import '@/styles/globals.css';
-import { Inter } from '@next/font/google';
+// import { Inter } from '@next/font/google';
 import localFont from '@next/font/local';
 
 const bebas = localFont({
@@ -30,8 +30,8 @@ const bebas = localFont({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${bebas.variable} font-sans`}>
+    <div className={`${bebas.variable} font-sans`}>
       <Component {...pageProps} />
-    </main>
+    </div>
   );
 }
