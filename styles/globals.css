@@ -1,8 +1,24 @@
 @import url('../public/fonts/stylesheet.css');
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .title_main {
+    font-size: 9vw;
+    line-height: 1.2;
+  }
+  .subtitle_main {
+    font-size: 1.2vw;
+    line-height: 1.4;
+  }
+  .border_section {
+    @apply border-t-2 border-b-2 border-zinc-300 w-screen;
+  }
+}
 
 /* @layer base {
   html {
@@ -19,14 +35,14 @@
 } */
 
 :root {
-  --max-width: 1100px;
+  /* --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --foreground-rgb: 0, 0, 0; */
+  /* --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
   --primary-glow: conic-gradient(
@@ -57,10 +73,10 @@
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+  --card-border-rgb: 131, 134, 135; */
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -91,7 +107,7 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -106,7 +122,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: white;
   background-color: #1e191a;
 }
 

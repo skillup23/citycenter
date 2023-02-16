@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function Layout({ children, title }) {
   return (
-    <div className="min-h-screen flex flex-col justify-between ">
+    <div className="min-h-screen flex flex-col justify-start">
       <Head>
         <title>
           {title ? title + ' - ТРК "СИТИ ЦЕНТР"' : 'ТРК "СИТИ ЦЕНТР"'}
@@ -14,7 +14,7 @@ function Layout({ children, title }) {
         <link rel="icon" href="/favicon-9.ico" />
       </Head>
       <Header />
-      <main>{children}</main>
+      <main className="flex-auto">{children}</main>
       <Footer />
     </div>
   );
