@@ -1,6 +1,6 @@
-@import url('../public/fonts/stylesheet.css');
-@import '~slick-carousel/slick/slick.css';
-@import '~slick-carousel/slick/slick-theme.css';
+@import url("../public/fonts/stylesheet.css");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 @tailwind base;
 @tailwind components;
@@ -18,7 +18,7 @@
   .slick-active {
     width: 10px;
     height: 10px;
-    border-radius: '50px';
+    border-radius: "50px";
     background-color: black;
   }
   .border_section {
@@ -26,6 +26,9 @@
   }
   .background_scale {
     @apply absolute inset-0 bg-cover hover:scale-110 ease-in duration-200 flex justify-center items-center;
+  }
+  .link_kino {
+    @apply flex w-1/4 items-center justify-center py-4 text-2xl bg-white text-black ease-in duration-200 hover:bg-black hover:text-white;
   }
 }
 
@@ -140,8 +143,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */
