@@ -1,6 +1,6 @@
-@import url("../public/fonts/stylesheet.css");
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+@import url('../public/fonts/stylesheet.css');
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 
 @tailwind base;
 @tailwind components;
@@ -18,7 +18,7 @@
   .slick-active {
     width: 10px;
     height: 10px;
-    border-radius: "50px";
+    border-radius: '50px';
     background-color: black;
   }
   .border_section {
@@ -148,3 +148,9 @@ a {
     color-scheme: dark;
   }
 } */
+
+.yaMapMain {
+  box-sizing: border-box;
+  width: 55vw;
+  height: 500px;
+}
