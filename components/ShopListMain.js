@@ -7,7 +7,7 @@ const shopList = [
   {
     id: 1,
     title: 'Женская одежда',
-    link: '/',
+    link: '/women_clothing',
     url: 'bg-[url("../public/site_img/shop-1.png")]',
   },
   {

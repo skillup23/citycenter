@@ -21,7 +21,6 @@ export const getServerSideProps = async (context) => {
 function ButikWomen({ butik }) {
   const router = useRouter();
   const { url, description1, description2 } = butik || {};
-  //   const { street, suite, city, zipcode } = address || {};
 
   if (!butik) {
     return (
