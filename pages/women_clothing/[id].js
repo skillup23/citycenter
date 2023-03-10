@@ -1,6 +1,11 @@
 import React from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
+import Link from 'next/link';
+import SliderBytik from '@/components/SliderBytik';
+import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
 
 export const getServerSideProps = async (context) => {
   const { id } = context.params;
@@ -20,7 +25,18 @@ export const getServerSideProps = async (context) => {
 
 function ButikWomen({ butik }) {
   const router = useRouter();
-  const { url, description1, description2 } = butik || {};
+  const {
+    url,
+    logo,
+    description1,
+    description2,
+    floor,
+    tel,
+    telUrl,
+    istagram,
+    image,
+  } = butik || {};
+  // const { image1, image2 } = image || {};
 
   if (!butik) {
     return (
@@ -43,8 +59,46 @@ function ButikWomen({ butik }) {
 
   return (
     <Layout title={url}>
-      <div>{description1}</div>
-      <div>{description2}</div>
+      <section className="mt-10">
+        <div className="container mx-auto flex gap-10">
+          <div className="w-1/2">
+            <SliderBytik data={image} dots={true} />
+          </div>
+
+          <div className="w-1/2 flex flex-col justify-start items-start">
+            <Image
+              src={logo}
+              alt={url}
+              width={200}
+              height="0"
+              sizes="100%"
+              className="self-center"
+            />
+            <p className="text-2xl text-justify">{description1}</p>
+            <p className="text-2xl text-justify mt-6">{description2}</p>
+            <div className="flex flex-row w-fill items-center mt-6">
+              <FaMapMarkerAlt className="text-3xl mr-5" />
+              <h4 className="text-2xl">{floor}</h4>
+            </div>
+            <div className="flex flex-row w-fill items-center mt-2">
+              <FaPhoneAlt className="text-2xl mr-5" />
+              <Link href={telUrl} className="text-2xl">
+                {tel}
+              </Link>
+            </div>
+            <div className="flex flex-row w-fill items-center mt-2">
+              <BsInstagram className="text-3xl mr-5" />
+              <Link
+                href={`https://www.instagram.com/${istagram}`}
+                target="_blank"
+                className="text-2xl"
+              >
+                {istagram}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 }
