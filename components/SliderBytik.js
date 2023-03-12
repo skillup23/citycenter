@@ -1,6 +1,6 @@
-import React from 'react';
-import Slider from 'react-slick';
-import Image from 'next/image';
+import React from "react";
+import Slider from "react-slick";
+import Image from "next/image";
 
 const SliderBytik = ({ data, dots }) => {
   const settings = {
@@ -10,25 +10,25 @@ const SliderBytik = ({ data, dots }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 4000,
+    autoplay: true,
+    autoplaySpeed: 4000,
     appendDots: (dots) => (
       <div
         style={{
-          borderRadius: '10px',
-          padding: '10px',
+          borderRadius: "10px",
+          padding: "10px",
         }}
       >
-        <ul style={{ margin: '30px' }}> {dots} </ul>
+        <ul style={{ margin: "30px" }}> {dots} </ul>
       </div>
     ),
     customPaging: () => (
       <div
         style={{
-          width: '10px',
-          height: '10px',
-          borderRadius: '50px',
-          backgroundColor: '#ddd',
+          width: "5px",
+          height: "5px",
+          borderRadius: "50px",
+          backgroundColor: "#ddd",
         }}
       ></div>
     ),
@@ -37,15 +37,14 @@ const SliderBytik = ({ data, dots }) => {
     <section>
       <Slider {...settings}>
         {data.map(({ id, src, alt }) => (
-          <div key={id} className="h-[60vh] relative">
+          <div key={id} className='h-[70vh] relative overflow-hidden'>
             <Image
               src={src}
               alt={alt}
-              //   width="0"
-              //   height="0"
               fill
-              sizes="100vw"
-              //   className="w-full h-full"
+              cover
+              sizes='100vw'
+              className='object-cover'
               priority
             />
           </div>

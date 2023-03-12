@@ -1,11 +1,11 @@
-import ImageLink from '@/components/ImageLink';
-import Layout from '@/components/Layout';
-import React from 'react';
-import text from '../../public/butiks/Бренды.png';
-import Image from 'next/image';
+import ImageLink from "@/components/ImageLink";
+import Layout from "@/components/Layout";
+import React from "react";
+import text from "../../public/butiks/Бренды.png";
+import Image from "next/image";
 
 export const getStaticProps = async () => {
-  const response = await fetch('http://localhost:3000/api/butiks');
+  const response = await fetch("http://localhost:3000/api/butiks");
   const data = await response.json();
 
   if (!data) {
@@ -21,11 +21,11 @@ export const getStaticProps = async () => {
 
 const WomenClothing = ({ butiks }) => {
   return (
-    <Layout title="Женская одежда">
-      <section className="mt-10 relative">
-        <div className="container mx-auto">
-          <h1 className="title_main mt-10">Женская одежда</h1>
-          <div className="flex justify-between items-center my-24 mr-24">
+    <Layout title='Женская одежда'>
+      <section className='mt-10 relative'>
+        <div className='container mx-auto'>
+          <h1 className='title_main mt-10'>Женская одежда</h1>
+          <div className='grid grid-cols-3 gap-y-28 justify-between items-center my-24 mr-32 ml-5'>
             {butiks &&
               butiks.map(({ id, logo, url }) => (
                 <ImageLink
@@ -38,11 +38,11 @@ const WomenClothing = ({ butiks }) => {
               ))}
             <Image
               src={text}
-              alt="slide1"
-              width="0"
-              height="0"
-              sizes="100%"
-              className="absolute top-64 -right-5 w-1/12"
+              alt='slide1'
+              width='0'
+              height='0'
+              sizes='100%'
+              className='absolute top-64 -right-5 w-1/12'
             />
           </div>
         </div>
