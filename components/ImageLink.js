@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function ImageLink({ href, src, alt, width }) {
   return (
-    <Link href={href}>
+    <Link href={href} className="w-56">
       <Image
         src={src}
         alt={alt}
@@ -12,6 +12,7 @@ function ImageLink({ href, src, alt, width }) {
         height="0"
         sizes="100%"
         className="ease-in duration-200 hover:scale-105"
+        style={{ width: 'auto', height: 'auto' }}
       />
     </Link>
   );

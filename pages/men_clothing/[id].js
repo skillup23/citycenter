@@ -23,7 +23,7 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-function ButikWomen({ butik }) {
+function ButikMen({ butik }) {
   const router = useRouter();
   const {
     url,
@@ -73,7 +73,7 @@ function ButikWomen({ butik }) {
               width={200}
               height="0"
               sizes="100%"
-              className="self-center w-56"
+              className="self-center"
             />
             <div>
               <p className="text-xl text-justify tracking-wide">
@@ -117,4 +117,4 @@ function ButikWomen({ butik }) {
   );
 }
 
-export default ButikWomen;
+export default ButikMen;

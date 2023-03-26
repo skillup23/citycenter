@@ -13,7 +13,7 @@ const shopList = [
   {
     id: 2,
     title: 'Мужская одежда',
-    link: '/',
+    link: '/men_clothing',
     url: 'bg-[url("../public/site_img/shop-2.png")]',
   },
   {

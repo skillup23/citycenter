@@ -18,18 +18,18 @@ export const getStaticProps = async () => {
   };
 };
 
-const WomenClothing = ({ butiks }) => {
+const MenClothing = ({ butiks }) => {
   return (
-    <Layout title="Женская одежда">
+    <Layout title="Мужская одежда">
       <section className="mt-10 relative">
         <div className="container mx-auto">
-          <h1 className="title_main mt-10">Женская одежда</h1>
+          <h1 className="title_main mt-10">Мужская одежда</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
-          <ListButiks butiks={butiks} category={'women'} />
+          <ListButiks butiks={butiks} category={'men'} />
         </div>
       </section>
     </Layout>
   );
 };
 
-export default WomenClothing;
+export default MenClothing;
