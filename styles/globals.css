@@ -154,3 +154,10 @@ a {
   width: 55vw;
   height: 500px;
 }
+
+/*Page transition */
+.effect-1,
+.effect-2,
+.effect-3 {
+  overflow: hidden;
+}

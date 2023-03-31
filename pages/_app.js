@@ -1,3 +1,4 @@
+import Transition from '@/components/Transition';
 import '@/styles/globals.css';
 // import { Inter } from '@next/font/google';
 import localFont from '@next/font/local';
@@ -31,7 +32,9 @@ const bebas = localFont({
 export default function App({ Component, pageProps }) {
   return (
     <div className={`${bebas.variable} font-sans`}>
-      <Component {...pageProps} />
+      <Transition>
+        <Component {...pageProps} />
+      </Transition>
     </div>
   );
 }
