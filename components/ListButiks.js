@@ -4,7 +4,7 @@ import text from '../public/butiks/Бренды.png';
 import Image from 'next/image';
 
 //получаем данные со старниц бутиков и их категорию
-const ListButiks = ({ butiks, category }) => {
+const ListButiks = ({ butiks, category, butiksUrl }) => {
   return (
     <div className="grid grid-cols-3 gap-y-12 justify-between items-center my-24 mr-32 ml-5">
       {butiks &&
@@ -13,7 +13,7 @@ const ListButiks = ({ butiks, category }) => {
           .map(({ id, logo, url }) => (
             <ImageLink
               key={id}
-              href={`/women_clothing/${id}`}
+              href={`/${butiksUrl}/${id}`}
               src={logo}
               width={220}
               alt={url}

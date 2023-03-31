@@ -25,7 +25,11 @@ const MenClothing = ({ butiks }) => {
         <div className="container mx-auto">
           <h1 className="title_main mt-10">Мужская одежда</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
-          <ListButiks butiks={butiks} category={'men'} />
+          <ListButiks
+            butiks={butiks}
+            category={'men'}
+            butiksUrl={'men_clothing'}
+          />
         </div>
       </section>
     </Layout>

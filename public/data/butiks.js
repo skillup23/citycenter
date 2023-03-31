@@ -1,4 +1,5 @@
 export const butiks = [
+  //Женская одежда
   {
     id: 1,
     category: 'women',
@@ -603,10 +604,11 @@ export const butiks = [
     instagram: 'michaelkors',
   },
 
+  //Мужская одежда
   {
     id: 15,
     category: 'men',
-    url: 'cosmo-store111',
+    url: 'cosmo-store',
     logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
     image: [
       {
@@ -653,5 +655,366 @@ export const butiks = [
     tel: '+7 861 213 47 31',
     telUrl: '88612134731',
     instagram: 'cosmostore.krd',
+  },
+  {
+    id: 16,
+    category: 'men',
+    url: 'Cerruti 1881',
+    logo: '/butiks/menClothing/Cerruti1881/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/Cerruti1881/1.jpg',
+        alt: 'Cerruti 1881',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/Cerruti1881/2.jpg',
+        alt: 'Cerruti 1881',
+      },
+    ],
+    description1:
+      'Cerruti – это итальянский дом моды, основателем которого является легендарный кутюрье Нино Черрути. Итальянский бренд одежды специализируется на выпуске одежды и аксессуаров. Cerruti-символ высокого итальянского качества и настоящего европейского шика.',
+    floor: '2 этаж',
+    tel: '+7 953 090 67 23',
+    telUrl: '89530906723',
+    instagram: 'cerruti_1881_krd',
+  },
+  {
+    id: 17,
+    category: 'men',
+    url: 'Angelo Nardelli',
+    logo: '/butiks/menClothing/AngeloNardelli/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/AngeloNardelli/1.jpg',
+        alt: 'Angelo Nardelli',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/AngeloNardelli/2.jpg',
+        alt: 'Angelo Nardelli',
+      },
+    ],
+    description1:
+      'ANGELO NARDELLI – итальянский бренд, специализирующийся на производстве мужских костюмов, брюк, пиджаков, сорочек и аксессуаров. Отличительная особенность компании — безукоризненное следование традициям пошива одежды в сочетании с современной обработкой тканей, которая позволяет сделать изделия еще более долговечными.',
+    description2:
+      'Стильная классика ANGELO NARDELLI и одежда «на каждый день» отлично подойдут для активных, целеустремленных и уверенных в себе мужчин с безупречным вкусом.',
+    floor: '2 этаж',
+    tel: '+7 988 369 68 88',
+    telUrl: '89883696888',
+    instagram: 'angelonardelli51',
+  },
+  {
+    id: 18,
+    category: 'men',
+    url: 'Van Laack',
+    logo: '/butiks/menClothing/vanLaack/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/vanLaack/1.jpg',
+        alt: 'Van Laack',
+      },
+    ],
+    description1:
+      'Немецкий бренд Van Laack, выпускающий деловую и элегантную одежду класса люкс. Рубашки, брюки, платья, сорочки, блузки от Van Laack — это проявление идеального вкуса!',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 16',
+    telUrl: '88612134716',
+    instagram: 'vanlaack_krd',
+  },
+  {
+    id: 19,
+    category: 'men',
+    url: 'XO',
+    logo: '/butiks/menClothing/XO/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/XO/1.jpg',
+        alt: 'XO',
+      },
+    ],
+    description1:
+      'Сеть магазинов мужского белья X.O. — это философия оригинального стиля и исключительного вкуса.',
+    description2:
+      'В магазинах сети X.O. представлено более 30 всемирно известных марок мужского белья и домашней одежды: Ermenegildo Zegna, Roberto Cavalli, Bikkembergs, Moschino, Derek Rose, Falke, Hanro, Dsquared2, La Perla, Emporio Armani, Hugo Boss, Dolce&Gabbana, Guess, Bruno Banani, Olaf Benz, Calida, Zimmerli, Jockey.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 23',
+    telUrl: '88612134723',
+    instagram: 'xo_man_ru',
+  },
+  {
+    id: 20,
+    category: 'men',
+    url: 'Paul-shark',
+    logo: '/butiks/womenClothing/Paul-shark/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Paul-shark/1.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Paul-shark/2.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Paul-shark/3.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/Paul-shark/4.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/Paul-shark/5.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/Paul-shark/6.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/Paul-shark/7.jpg',
+        alt: 'Paul-shark',
+      },
+      {
+        id: 8,
+        src: '/butiks/womenClothing/Paul-shark/8.jpg',
+        alt: 'Paul-shark',
+      },
+    ],
+    description1:
+      'Paul&Shark – известный итальянский бренд, одежды, обуви и аксессуаров в стиле casual. Главные источники вдохновения бренда — морская стихия и яхтенный спорт. Для изготовления одежды используются натуральные материалы: лён, хлопок, кожа, шелк, мериносовая шерсть.',
+    description2:
+      'Разработка и применение новейших технологий обеспечивает функциональность и высокое качество изделий с логотипом Paul&Shark.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 25',
+    telUrl: '88612134725',
+    instagram: 'paulandshark',
+  },
+  {
+    id: 21,
+    category: 'men',
+    url: 'Versace-jeans',
+    logo: '/butiks/womenClothing/Versace-jeans/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Versace-jeans/1.jpg',
+        alt: 'Versace-jeans',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Versace-jeans/2.jpg',
+        alt: 'Versace-jeans',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Versace-jeans/3.jpg',
+        alt: 'Versace-jeans',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/Versace-jeans/4.jpg',
+        alt: 'Versace-jeans',
+      },
+    ],
+    description1:
+      'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
+    floor: '2 этаж',
+    tel: '+7 909 460 35 88',
+    telUrl: '89094603588',
+    instagram: 'v_с_krd',
+  },
+  {
+    id: 22,
+    category: 'men',
+    url: 'Bogner',
+    logo: '/butiks/womenClothing/Bogner/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Bogner/1.jpg',
+        alt: 'Bogner',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Bogner/2.jpg',
+        alt: 'Bogner',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Bogner/3.jpg',
+        alt: 'Bogner',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/Bogner/4.jpg',
+        alt: 'Bogner',
+      },
+    ],
+    description1:
+      'Спортивная мода премиального класса. Непревзойденное сочетание атлетического шика, функциональности и стиля.',
+    description2:
+      'Бренд BOGNER – это высочайшее качество, стиль, непохожий на другие, создаваемый теми, кто любит и понимает, что такое активный образ жизни, последние модные тенденции, и придерживается высокого уровня жизни.',
+    floor: '2 этаж',
+    tel: '+7 8612 13 47 27',
+    telUrl: '88612134727',
+    instagram: 'bogner_krasnodar',
+  },
+  {
+    id: 23,
+    category: 'men',
+    url: 'Replay',
+    logo: '/butiks/womenClothing/Replay/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Replay/1.jpg',
+        alt: 'Replay',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Replay/2.jpg',
+        alt: 'Replay',
+      },
+    ],
+    description1:
+      'Replay – итальянский бренд одежды, обуви и аксессуаров. Продукция ориентирована на поклонников яркого и молодежного стиля в духе casual. Компания выпускает футболки, блузы и толстовки, джемперы и платья, комбинируя различные материалы: шелк и хлопок, джерси и кашемир. Особое место в ассортименте отводится одежде из денима. Ее окрашивают применением сверхустойчивых красителей, по технологии, экономящей воду в рамках защиты окружающей среды. Под маркой Replay покупателям также предлагаются солнцезащитные очки, аксессуары и обувь, парфюмерия и украшения.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 92',
+    telUrl: '88612134792',
+    instagram: 'replay.mf',
+  },
+  {
+    id: 24,
+    category: 'men',
+    url: 'Energie',
+    logo: '/butiks/womenClothing/Energie/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Energie/1.jpg',
+        alt: 'Energie',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Energie/2.jpg',
+        alt: 'Energie',
+      },
+    ],
+    description1: 'В бутике ENERGIE представлен женский бренд Miss Sixty.',
+    description2:
+      'Miss Sixty — это сочетание сексуальной, жизнерадостной современной одежды и утонченности. Каждый сезон очаровательная смесь культур и идей характеризует коллекции одежды Miss Sixty, которой присущи чувственная женственность и дерзкий дизайн.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 67',
+    telUrl: '88612134767',
+    instagram: 'energie_citycentre_',
+  },
+  {
+    id: 25,
+    category: 'men',
+    url: 'Lab',
+    logo: '/butiks/menClothing/Lab/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/Lab/1.jpg',
+        alt: 'Lab',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/Lab/2.jpg',
+        alt: 'Lab',
+      },
+    ],
+    description1:
+      'LAB Pal Zileri — бутик брендовой итальянской мужской одежды, в котором представлены такие премиальные марки, как LAB Pal Zileri и Navigare.',
+    floor: '2 этаж',
+    tel: '+7 953 090 64 19',
+    telUrl: '89530906419',
+    instagram: 'lab_pal_zileri',
+  },
+  {
+    id: 26,
+    category: 'men',
+    url: 'PP',
+    logo: '/butiks/womenClothing/PP/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/PP/1.jpg',
+        alt: 'PP',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/PP/2.jpg',
+        alt: 'PP',
+      },
+    ],
+    description1:
+      'PHILIPP PLEIN – немецкий бренд, специализирующийся на производстве одежды, обуви и аксессуаров. Эстетика PHILIPP PLEIN в заклепках, шипах и черепах. Отличительной особенностью бренда является использование в коллекциях принтов в виде черепа.',
+    floor: '2 этаж',
+    tel: '+7 988 243 70 00',
+    telUrl: '89882437000',
+    instagram: 'plein_shop_',
+  },
+  {
+    id: 27,
+    category: 'men',
+    url: 'Richard',
+    logo: '/butiks/menClothing/Richard/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/Richard/1.jpg',
+        alt: 'Richard',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/Richard/2.jpg',
+        alt: 'Richard',
+      },
+    ],
+    description1:
+      'Индивидуальный пошив мужской классической одежды. Костюмы, сорочки, пальто, на заказ. Ателье работает только с премиальными тканями лучших фабрик мира: Loro Piana, Ermenegildo Zegna, Scabal, Holland&Sherry и др. Вся одежда шьется в Португалии и Италии на одних из лучших фабрик Европы, с многолетним опытом индивидуального пошива.',
+    floor: '2 этаж',
+    tel: '+7 861 205 14 36',
+    telUrl: '88612051436',
+    instagram: 'richardhampton_krd',
+  },
+  {
+    id: 28,
+    category: 'men',
+    url: 'Excelsior',
+    logo: '/butiks/menClothing/Excelsior/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/Excelsior/1.jpg',
+        alt: 'Excelsior',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/Excelsior/2.jpg',
+        alt: 'Excelsior',
+      },
+    ],
+    description1:
+      'Бутик EXCELSIOR является самым крупным ритейлером люксовых брендов на Юге России. На сегодняшний день, компания EXCELSIOR FASHION GROUP  включает в себя 11 бутиков, в которых представлено более 150 ведущих мировых брендов, такие как: ALEXANDER MCQUEEN, BURBERRY, CELINE, DOLCE & GABBANA, FENDI, PRADA, RED VALENTINO, STEFANO RICCI, SANTONI, VALENTINO.',
+    floor: '2 этаж',
+    tel: '+7 861 015 45 97',
+    telUrl: '88610154597',
+    instagram: 'excelsior_city',
   },
 ];
