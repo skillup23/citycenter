@@ -736,6 +736,11 @@ export const butiks = [
         src: '/butiks/menClothing/XO/1.jpg',
         alt: 'XO',
       },
+      {
+        id: 2,
+        src: '/butiks/menClothing/XO/2.jpg',
+        alt: 'XO',
+      },
     ],
     description1:
       'Сеть магазинов мужского белья X.O. — это философия оригинального стиля и исключительного вкуса.',
@@ -1016,5 +1021,602 @@ export const butiks = [
     tel: '+7 861 015 45 97',
     telUrl: '88610154597',
     instagram: 'excelsior_city',
+  },
+
+  //Детям
+  {
+    id: 29,
+    category: 'children',
+    url: 'LapinHouse',
+    logo: '/butiks/children/LapinHouse/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/LapinHouse/1.jpg',
+        alt: 'LapinHouse',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/LapinHouse/2.jpg',
+        alt: 'LapinHouse',
+      },
+      {
+        id: 3,
+        src: '/butiks/children/LapinHouse/3.jpg',
+        alt: 'LapinHouse',
+      },
+      {
+        id: 4,
+        src: '/butiks/children/LapinHouse/4.jpg',
+        alt: 'LapinHouse',
+      },
+    ],
+    description1:
+      'Бутик Lapin House — это эстетическое совершенство и качество. В фирменном магазине представлена  одежда и аксессуары для мальчиков и девочек от 0 до 14 лет. Вещи, купленные в Lapin House, становятся любимыми и остаются в памяти ребенка.',
+    description2: 'Lapin House – одежда для самых красивых детей в мире!',
+    floor: '3 этаж',
+    tel: '+7 928 433 30 37',
+    telUrl: '89284333037',
+    instagram: 'lapinhousekrd',
+  },
+  {
+    id: 30,
+    category: 'children',
+    url: 'MetroBaby',
+    logo: '/butiks/children/MetroBaby/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/MetroBaby/1.jpg',
+        alt: 'MetroBaby',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/MetroBaby/2.jpg',
+        alt: 'MetroBaby',
+      },
+    ],
+    description1: 'В MetroBaby представлена одежда для детей от 1 до 16. ',
+    description2:
+      'В бутике вы найдете такие бренды, как: il Gufo, Diesel, No.21, Stella Mc Cartney, Replay, Marcelo Burlon, Antony Morato, CDFD, Sonia Rykiel. MetroBaby — это история про мам и дочек, про пап и сыночков, про братьев, про сестер. ',
+    floor: '3 этаж',
+    tel: '+7 861 213 47 41',
+    telUrl: '88612134741',
+    instagram: 'metrofashion.ru',
+  },
+  {
+    id: 31,
+    category: 'children',
+    url: 'BookLab',
+    logo: '/butiks/children/BookLab/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/BookLab/1.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/BookLab/2.jpg',
+        alt: 'BookLab',
+      },
+    ],
+    description1:
+      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+    description2:
+      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+    floor: '3 этаж',
+    tel: '+7 861 299 71 83',
+    telUrl: '88612134741',
+    instagram: 'knizhnylabirintcity',
+  },
+
+  //Белье
+  {
+    id: 32,
+    category: 'underwear',
+    url: 'WildOrchid',
+    logo: '/butiks/underwear/WildOrchid/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/underwear/WildOrchid/1.jpg',
+        alt: 'WildOrchid',
+      },
+      {
+        id: 2,
+        src: '/butiks/underwear/WildOrchid/2.jpg',
+        alt: 'WildOrchid',
+      },
+    ],
+    description1:
+      '«Дикая Орхидея» – мультибрендовая сеть магазинов премиального женского белья, купальников и одежды. «Дикая Орхидея», основанная в 1993 году, предлагает женщинам трендовые коллекции, созданные для их красоты и комфорта.',
+    description2:
+      'Здесь вы найдете белье ведущих модных брендов, таких как RITRATTI MILANO, PLUTO, VIVIS, ANNETTE LINGERIE, MAX MOI PARIS сети магазинов «Дикая Орхидея» – изысканная и непревзойденная по комфорту марка Beatrice, сдержанно сексуальная Wild Orchid. Белье этих брендов разрабатывается в собственном дизайн-конструкторском бюро и производится из самых качественных материалов с использованием передовых технологий. Сегодня в магазинах сети кроме белья и купальников представлены и коллекции одежды. Женственные модели платьев и кардиганов, топов, жакетов и брюк помогают создать цельный гармоничный образ в едином изысканном стиле. Высококвалифицированный персонал обеспечит индивидуальный подход к каждому клиенту, поможет с подбором нужной модели и профессионально проконсультирует по бельевому стайлингу.',
+    floor: '1 этаж',
+    tel: '+7 495 775 50 32',
+    telUrl: '84957755032',
+    instagram: 'wildorchidofficial',
+  },
+  {
+    id: 33,
+    category: 'underwear',
+    url: 'Laperila',
+    logo: '/butiks/underwear/Laperila/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/underwear/Laperila/1.jpg',
+        alt: 'Laperila',
+      },
+      {
+        id: 2,
+        src: '/butiks/underwear/Laperila/2.jpg',
+        alt: 'Laperila',
+      },
+    ],
+    description1:
+      'La Perla – знаменитый итальянский бренд, выпускающий нижнее белье и купальные костюмы, женскую одежду и коллекции мужского белья. И уже не секрет, что каждая представительница прекрасного пола желает хотя бы в жизни раз стать обладательницей предмета коллекции La Perla.',
+    floor: '2 этаж',
+    tel: '+7 918 079 80 80',
+    telUrl: '89180798080',
+    instagram: 'lingerie_krd',
+  },
+  {
+    id: 34,
+    category: 'underwear',
+    url: 'EstelAdony',
+    logo: '/butiks/underwear/EstelAdony/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/underwear/EstelAdony/1.jpg',
+        alt: 'EstelAdony',
+      },
+      {
+        id: 2,
+        src: '/butiks/underwear/EstelAdony/2.jpg',
+        alt: 'EstelAdony',
+      },
+    ],
+    description1:
+      'Сеть салонов «Эстель Адони» — признанный лидер на рынке премиального  белья. Одним из основных преимуществ салонов «Эстель Адони» является многообразие брендов: Lise Charmel, Chantelle, Maison Lejaby, Ambra, Pleasure State и Freya и Fantasie, Moschino, Emporio Armani, Stella McCartney,DKNY, Max Mara, Andres Sarda , Chantal Thomass, Marlies Dekkers, и I.D. Sarrieri.',
+    floor: '2 этаж',
+    tel: '+7 861 213 48 55',
+    telUrl: '88612134855',
+    instagram: 'estelle_adony',
+  },
+  {
+    id: 35,
+    category: 'underwear',
+    url: 'XO',
+    logo: '/butiks/menClothing/XO/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/XO/1.jpg',
+        alt: 'XO',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/XO/2.jpg',
+        alt: 'XO',
+      },
+    ],
+    description1:
+      'Сеть магазинов мужского белья X.O. — это философия оригинального стиля и исключительного вкуса.',
+    description2:
+      'В магазинах сети X.O. представлено более 30 всемирно известных марок мужского белья и домашней одежды: Ermenegildo Zegna, Roberto Cavalli, Bikkembergs, Moschino, Derek Rose, Falke, Hanro, Dsquared2, La Perla, Emporio Armani, Hugo Boss, Dolce&Gabbana, Guess, Bruno Banani, Olaf Benz, Calida, Zimmerli, Jockey.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 23',
+    telUrl: '88612134723',
+    instagram: 'xo_man_ru',
+  },
+  {
+    id: 36,
+    category: 'underwear',
+    url: 'Wolford',
+    logo: '/butiks/womenClothing/Wolford/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Wolford/1.jpg',
+        alt: 'Wolford',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Wolford/2.jpg',
+        alt: 'Wolford',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Wolford/3.jpg',
+        alt: 'Wolford',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/Wolford/4.jpg',
+        alt: 'Wolford',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/Wolford/5.jpg',
+        alt: 'Wolford',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/Wolford/6.jpg',
+        alt: 'Wolford',
+      },
+    ],
+    description1:
+      'Компания Wolford – это всемирно известный бренд в сегменте доступной роскоши, один из лидеров индустрии. Wolford использует в производстве только лучшие ткани, которые облегают женское тело, украшая его и подчеркивая силуэт. Wolford – это всегда идеальное качество, легкий уход, комфорт в использовании, особенное ощущение тканей на коже и безупречный крой.',
+    floor: '1 этаж',
+    tel: '+7 861 213 47 77',
+    telUrl: '88612134767',
+    instagram: 'wolford_krasnodar',
+  },
+
+  //УКРАШЕНИЯ И АКСЕССУАРЫ
+  {
+    id: 37,
+    category: 'accessories',
+    url: 'Renaissance',
+    logo: '/butiks/accessories/Renaissance/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/Renaissance/1.jpg',
+        alt: 'Renaissance',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/Renaissance/2.jpg',
+        alt: 'Renaissance',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/Renaissance/3.jpg',
+        alt: 'Renaissance',
+      },
+    ],
+    description1:
+      'Ювелирный бутик Renaissance — новое прочтение роскоши. Украшения, вдохновленные образом современной женщины. В бутике представлены лучшие коллекции ювелирных брендов Европы и Азии: Giampiero Fiorini, Jjewels Milano, Annamaria Cammilli, Key Gems, Korloff Paris, Astorga. Особое место занимает приватная коллекция бутика Renaissance, в которой собраны выставочные экземпляры международных ювелирных выставок. Также, бутик предоставляет возможность приобретения отдельно драгоценных камней, как инвестиции или  изготовления эксклюзивных украшений с ними.',
+    description2:
+      'Все украшения ювелирного бутика Renaissance имеют различную философию, но призваны подчеркнуть женскую красоту, грациозность и величие.',
+    floor: '1 этаж',
+    tel: '+7 861 213 47 11',
+    telUrl: '88612134711',
+    instagram: 'renaissance_boutique',
+  },
+  {
+    id: 38,
+    category: 'accessories',
+    url: 'Freywille',
+    logo: '/butiks/accessories/Freywille/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/Freywille/1.jpg',
+        alt: 'Freywille',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/Freywille/2.jpg',
+        alt: 'Freywille',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/Freywille/3.jpg',
+        alt: 'Freywille',
+      },
+      {
+        id: 4,
+        src: '/butiks/accessories/Freywille/4.jpg',
+        alt: 'Freywille',
+      },
+      {
+        id: 5,
+        src: '/butiks/accessories/Freywille/5.jpg',
+        alt: 'Freywille',
+      },
+      {
+        id: 6,
+        src: '/butiks/accessories/Freywille/6.jpg',
+        alt: 'Freywille',
+      },
+    ],
+    description1:
+      'Австрийский ювелирный дом FREYWILLE создает высокохудожественные изделия из драгоценной эмали ручной работы. Лимитированные объемы производства – гарантия высочайших стандартов качества всех изделий. Художественный дизайн – главная деталь любого ювелирного изделия FREYWILLE.',
+    description2:
+      'В бутике вы можете приобрести: серьги, кулоны, браслеты, кольца, часы, броши, клатчи, шелковые шарфы, галстуки, запонки, зажимы для галстука и письменные принадлежности.',
+    floor: '2 этаж',
+    tel: '+7 861 213 48 58',
+    telUrl: '88612134858',
+    instagram: 'freywille_ru',
+  },
+  {
+    id: 39,
+    category: 'accessories',
+    url: 'GoldLarec',
+    logo: '/butiks/accessories/GoldLarec/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/GoldLarec/1.jpg',
+        alt: 'GoldLarec',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/GoldLarec/2.jpg',
+        alt: 'GoldLarec',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/GoldLarec/3.jpg',
+        alt: 'GoldLarec',
+      },
+      {
+        id: 4,
+        src: '/butiks/accessories/GoldLarec/4.jpg',
+        alt: 'GoldLarec',
+      },
+    ],
+    description1:
+      'Сеть ювелирных салонов “Золотой Ларец” — бренд с 26-летней историей. В бутике представлены эксклюзивные ювелирные украшения от известных мировых и российских брендов. Гибкая система лояльности и выгодные скидки, индивидуальный подход к каждому клиенту!',
+    floor: '1 этаж',
+    tel: '+7 861 213 47 97',
+    telUrl: '88612134797',
+    instagram: 'zolotoylarets',
+  },
+  {
+    id: 40,
+    category: 'accessories',
+    url: 'DecorBurgua',
+    logo: '/butiks/accessories/DecorBurgua/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/DecorBurgua/1.jpg',
+        alt: 'DecorBurgua',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/DecorBurgua/2.jpg',
+        alt: 'DecorBurgua',
+      },
+    ],
+    description1:
+      'В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.',
+    description2:
+      'Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.',
+    floor: '1 этаж',
+    tel: '+7 918 144 23 07',
+    telUrl: '89181442307',
+    instagram: 'decor_burgua',
+  },
+  {
+    id: 41,
+    category: 'accessories',
+    url: 'TimeGalery',
+    logo: '/butiks/accessories/TimeGalery/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/TimeGalery/1.jpg',
+        alt: 'TimeGalery',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/TimeGalery/2.jpg',
+        alt: 'TimeGalery',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/TimeGalery/3.jpg',
+        alt: 'TimeGalery',
+      },
+      {
+        id: 4,
+        src: '/butiks/accessories/TimeGalery/4.jpg',
+        alt: 'TimeGalery',
+      },
+      {
+        id: 5,
+        src: '/butiks/accessories/TimeGalery/5.jpg',
+        alt: 'TimeGalery',
+      },
+    ],
+    description1:
+      '«Галерея Времени» — сеть премиальных салонов швейцарских часов.',
+    description2:
+      'Вы можете быть абсолютно уверены в том, что покупаете подлинные швейцарские часы. «Галерея Времени» официально представляет примиальные бренды, такие как Zenith, Breitling, TAG Heuer, Frederique Constant, Longines, Rado, Raymond Weil, Alpina, Tissot,Casio, Orient, Festina,Jacques Lemans.',
+    floor: '1 этаж',
+    tel: '+7 861 213 47 76',
+    telUrl: '88612134776',
+    instagram: 'time_gallery.krasnodar',
+  },
+  {
+    id: 42,
+    category: 'accessories',
+    url: 'GMT',
+    logo: '/butiks/accessories/GMT/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/GMT/1.jpg',
+        alt: 'GMT',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/GMT/2.jpg',
+        alt: 'GMT',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/GMT/3.jpg',
+        alt: 'GMT',
+      },
+    ],
+    description1:
+      'GMT официально представляет ведущие часовые и ювелирные марки. Здесь представлены производители Швейцарии, Италии, США, Франции: Blancpain, Breitling, Chopard, Crivelli, Damiani, David Yurman, IWC, Jaeger-LeCoultre, Hublot, Pasquale Bruni, Vacheron Constantin, Zenith, а также Montegrappa и S.T.Dupont.',
+    description2:
+      'GMT воспринимается как знак качества, которому доверяют ведущие мировые бренды и клиенты.',
+    floor: '1 этаж',
+    tel: '+7 861 262 60 26',
+    telUrl: '88612626026',
+    instagram: 'gmt_krasnodar',
+  },
+  {
+    id: 43,
+    category: 'accessories',
+    url: 'Branche',
+    logo: '/butiks/accessories/Branche/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/Branche/1.jpg',
+        alt: 'Branche',
+      },
+    ],
+    description1:
+      'Бутик Branche´ – fashion проект, представляющий марки аксессуаров и украшений самых известных и актуальных мировых дизайнеров, таких как Rodrigo Otazu, MAWI, Nina Ricci, Valerie Valentine, Ben Amun, Jennifer Behr, Anton Heunis, Joanna Laura Constantine, Alexandre de Paris и многих других.',
+    description2:
+      'В коллекциях представлены те вещи, которые можно увидеть на международных подиумах, страницах глянцевых журналов, фотографиях мировых икон стиля, среди которых Madonna, Kylie Minogue, Kate Moss, Lady Gaga, Rihanna, Scarlett Johansson и др.',
+    floor: '2 этаж',
+    tel: '+7 861 213 48 13',
+    telUrl: '88612134813',
+    instagram: 'be.branche',
+  },
+  {
+    id: 44,
+    category: 'accessories',
+    url: 'PanChemodan',
+    logo: '/butiks/accessories/PanChemodan/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/PanChemodan/1.jpg',
+        alt: 'PanChemodan',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/PanChemodan/2.jpg',
+        alt: 'PanChemodan',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/PanChemodan/3.jpg',
+        alt: 'PanChemodan',
+      },
+      {
+        id: 4,
+        src: '/butiks/accessories/PanChemodan/4.jpg',
+        alt: 'PanChemodan',
+      },
+    ],
+    description1:
+      'Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.',
+    description2:
+      'Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.',
+    floor: '2 этаж',
+    tel: '+7 495 280 16 40',
+    telUrl: '84952801640',
+    instagram: 'panchemodan',
+  },
+  {
+    id: 45,
+    category: 'accessories',
+    url: 'cosmo-store',
+    logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
+        alt: 'cosmo-store',
+      },
+    ],
+    description1:
+      'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
+    description2:
+      'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 31',
+    telUrl: '88612134731',
+    instagram: 'cosmostore.krd',
+  },
+  {
+    id: 46,
+    category: 'accessories',
+    url: 'APhone',
+    logo: '/butiks/accessories/APhone/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/APhone/1.jpg',
+        alt: 'APhone',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/APhone/2.jpg',
+        alt: 'APhone',
+      },
+    ],
+    description1:
+      'В насыщенном рынке мобильных аксессуаров торговая марка «Apple» предлагает по-настоящему качественные фирменные и эксклюзивные товары для защиты мобильных устройств и придания им нового оригинального облика: кейсы и защитные стекла для для iphone, браслеты для iwatch и устройства для подключения и зарядки.',
+    description2:
+      'Приоритет салона — это предложение широкого выбора от фирменных аксессуаров высокого качества: «Apple», «Pitaka», «UAG» до эксклюзивных лимитированных изделий из кожи крокодила, карбона и драгоценных металлов.',
+    floor: '2 этаж',
+    tel: '+7 988 369 09 63',
+    telUrl: '89883690963',
+    instagram: 'a.phone',
+  },
+  {
+    id: 47,
+    category: 'accessories',
+    url: 'Antikvariat',
+    logo: '/butiks/accessories/Antikvariat/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/Antikvariat/1.jpg',
+        alt: 'Antikvariat',
+      },
+    ],
+    description1:
+      'В магазине «Антиквариат» представлены антикварные товары и предметы роскоши. Старинные иконы, ювелирные изделия, золотые монеты, бронза, фарфор и многое другое.',
+    floor: '2 этаж',
+    tel: '+7 967 300 11 18',
+    telUrl: '89673001118',
   },
 ];
