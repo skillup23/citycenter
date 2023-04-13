@@ -1,7 +1,7 @@
-// import Transition from '@/components/Transition';
 import '@/styles/globals.css';
 // import { Inter } from '@next/font/google';
 import localFont from '@next/font/local';
+import NavigationLoader from '../components/NavigationLoader';
 
 const bebas = localFont({
   src: '../public/fonts/BebasNeueRegular.woff2',
@@ -32,6 +32,7 @@ const bebas = localFont({
 export default function App({ Component, pageProps }) {
   return (
     <div className={`${bebas.variable} font-sans`}>
+      <NavigationLoader />
       <Component {...pageProps} />
     </div>
   );
