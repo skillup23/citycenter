@@ -3,7 +3,7 @@ import ImageLink from '@/components/ImageLink';
 import text from '../public/butiks/Бренды.png';
 import Image from 'next/image';
 
-//получаем данные со старниц бутиков и их категорию
+//получаем данные со страниц бутиков и их категорию
 const ListButiks = ({ butiks, category, butiksUrl }) => {
   return (
     <div className="grid grid-cols-3 gap-y-12 justify-between items-center my-24 mr-32 ml-5">
@@ -15,7 +15,7 @@ const ListButiks = ({ butiks, category, butiksUrl }) => {
               key={id}
               href={`/${butiksUrl}/${id}`}
               src={logo}
-              width={220}
+              width={56}
               alt={url}
             />
           ))}

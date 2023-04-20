@@ -1619,4 +1619,785 @@ export const butiks = [
     tel: '+7 967 300 11 18',
     telUrl: '89673001118',
   },
+
+  //Обувь и сумки
+  {
+    id: 48,
+    category: 'shoesAndBags',
+    url: 'VicMatie',
+    logo: '/butiks/shoesAndBags/VicMatie/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/shoesAndBags/VicMatie/1.jpg',
+        alt: 'VicMatie',
+      },
+      {
+        id: 2,
+        src: '/butiks/shoesAndBags/VicMatie/2.jpg',
+        alt: 'VicMatie',
+      },
+      {
+        id: 3,
+        src: '/butiks/shoesAndBags/VicMatie/3.jpg',
+        alt: 'VicMatie',
+      },
+      {
+        id: 4,
+        src: '/butiks/shoesAndBags/VicMatie/4.jpg',
+        alt: 'VicMatie',
+      },
+    ],
+    description1:
+      'Vic Matie – магазин мужской и женской обуви, в котором представлены модели креативных брендов из Италии –  Vic Matie, MoMa, Brecos, Voile Blanche и бренд ортопедической обуви из Германии — Birkenstock. Каждая пара обуви становится первоосновой итальянского стиля: дизайнеры с лёгкостью воплощают в жизнь актуальные тенденции сезонов.',
+    description2:
+      'Лоферы, туфли, сапоги, ботильоны, кроссовки, сандалии  –  не просто удобная обувь для жизни, а предмет модного искусства.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 31',
+    telUrl: '88612134731',
+    instagram: 'cosmostore.krd',
+  },
+  {
+    id: 49,
+    category: 'shoesAndBags',
+    url: 'Fabi',
+    logo: '/butiks/shoesAndBags/Fabi/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/shoesAndBags/Fabi/1.jpg',
+        alt: 'Fabi',
+      },
+      {
+        id: 2,
+        src: '/butiks/shoesAndBags/Fabi/2.jpg',
+        alt: 'Fabi',
+      },
+      {
+        id: 3,
+        src: '/butiks/shoesAndBags/Fabi/3.jpg',
+        alt: 'Fabi',
+      },
+      {
+        id: 4,
+        src: '/butiks/shoesAndBags/Fabi/4.jpg',
+        alt: 'Fabi',
+      },
+    ],
+    description1:
+      'Европейский бренд обуви Fabi – один из тех, чью новую коллекцию ждут с замиранием сердца.',
+    description2:
+      'Вся обувь Fabi проходит строгий контроль качества, поэтому обувь этой марки – не только роскошь, но и надежность. Продукция в бутике представлена в двух линейках: Fabi Couture, эксклюзивная обувь из которой сделана из экзотической кожи и богато декорирована, и Fabi Collection – на каждый день.',
+    floor: '2 этаж',
+    tel: '+7 861 231 47 86',
+    telUrl: '88612314786',
+    instagram: 'fabi_krd',
+  },
+  {
+    id: 50,
+    category: 'shoesAndBags',
+    url: 'cosmo-store',
+    logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
+        alt: 'cosmo-store',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
+        alt: 'cosmo-store',
+      },
+    ],
+    description1:
+      'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
+    description2:
+      'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 31',
+    telUrl: '88612134731',
+    instagram: 'cosmostore.krd',
+  },
+  {
+    id: 51,
+    category: 'shoesAndBags',
+    url: 'Baldini',
+    logo: '/butiks/shoesAndBags/Baldini/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/shoesAndBags/Baldini/1.jpg',
+        alt: 'Baldini',
+      },
+      {
+        id: 2,
+        src: '/butiks/shoesAndBags/Baldini/2.jpg',
+        alt: 'Baldini',
+      },
+      {
+        id: 3,
+        src: '/butiks/shoesAndBags/Baldini/3.jpg',
+        alt: 'Baldini',
+      },
+    ],
+    description1:
+      'Baldinini – это один из крупнейших и успешных итальянских брендов, специализирующихся на производстве высококачественной обуви преимущественно ручной работы.',
+    floor: '2 этаж',
+    tel: '+7 861 213 47 65',
+    telUrl: '88612134765',
+    instagram: 'baldinini_krd',
+  },
+  {
+    id: 52,
+    category: 'shoesAndBags',
+    url: 'Michael-kors',
+    logo: '/butiks/womenClothing/Michael-kors/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Michael-kors/1.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Michael-kors/2.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Michael-kors/3.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/Michael-kors/4.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/Michael-kors/5.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/Michael-kors/6.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/Michael-kors/7.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 8,
+        src: '/butiks/womenClothing/Michael-kors/5.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 9,
+        src: '/butiks/womenClothing/Michael-kors/6.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 10,
+        src: '/butiks/womenClothing/Michael-kors/7.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 11,
+        src: '/butiks/womenClothing/Michael-kors/5.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 12,
+        src: '/butiks/womenClothing/Michael-kors/6.jpg',
+        alt: 'Michael-kors',
+      },
+      {
+        id: 13,
+        src: '/butiks/womenClothing/Michael-kors/7.jpg',
+        alt: 'Michael-kors',
+      },
+    ],
+    description1:
+      'Michael Kors является американским модным брендом, который специализируется на производстве одежды, парфюмерии и аксессуаров.',
+    description2:
+      'При создании одежды и аксессуаров под маркой Michael Kors, дизайнер руководствуется желанием покупателей ощутить удовлетворение от покупки на эмоциональном уровне. В изделиях марки Michael Kors гармоничным образом сочетаются американское удобство и европейский шарм. Это универсальные вещи для тех, кто на первое место ставит индивидуальный стиль и качество на уровне деталей.',
+    floor: '2 этаж',
+    tel: '+7 861 298 08 46',
+    telUrl: '88612980846',
+    instagram: 'michaelkors',
+  },
+  {
+    id: 53,
+    category: 'shoesAndBags',
+    url: 'PanChemodan',
+    logo: '/butiks/accessories/PanChemodan/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/PanChemodan/1.jpg',
+        alt: 'PanChemodan',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/PanChemodan/2.jpg',
+        alt: 'PanChemodan',
+      },
+      {
+        id: 3,
+        src: '/butiks/accessories/PanChemodan/3.jpg',
+        alt: 'PanChemodan',
+      },
+      {
+        id: 4,
+        src: '/butiks/accessories/PanChemodan/4.jpg',
+        alt: 'PanChemodan',
+      },
+    ],
+    description1:
+      'Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.',
+    description2:
+      'Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.',
+    floor: '2 этаж',
+    tel: '+7 495 280 16 40',
+    telUrl: '84952801640',
+    instagram: 'panchemodan',
+  },
+
+  //КОСМЕТИКА
+  {
+    id: 54,
+    category: 'cosmetics',
+    url: 'ileDeBeaute',
+    logo: '/butiks/cosmetics/ileDeBeaute/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/cosmetics/ileDeBeaute/1.jpg',
+        alt: 'ileDeBeaute',
+      },
+      {
+        id: 2,
+        src: '/butiks/cosmetics/ileDeBeaute/2.jpg',
+        alt: 'ileDeBeaute',
+      },
+      {
+        id: 3,
+        src: '/butiks/cosmetics/ileDeBeaute/3.jpg',
+        alt: 'ileDeBeaute',
+      },
+    ],
+    description1: `ИЛЬ ДЕ БОТЭ – МИР РОСКОШНОЙ КРАСОТЫ. Парфюмерно-косметическая сеть ИЛЬ ДЕ БОТЭ была основана в 2001 году и покорила сердца ценителей красоты в России. За долгие годы сеть зарекомендовала себя лидером в сегменте премиум. Основной акцент в работе каждого магазина — высокое качество представленного ассортимента и приверженность профессиональным стандартам обслуживания.`,
+    description2:
+      'Открывая двери ИЛЬ ДЕ БОТЭ, каждый гость попадает в атмосферу спокойствия и комфорта, где ценят и уважают индивидуальные предпочтения и основательно подходят к рекомендациям продуктов. Наследием сети является широкий ассортимент всемирно известных мировых брендов красоты премиум класса, а также большая коллекция селективных марок, эксклюзивных предложений и нишевой парфюмерии.',
+    description3: `ИЛЬ ДЕ БОТЭ – это престижное и комфортное место для знакомства с ежедневными ритуалами и программами красоты, с последними тенденциями и разработками косметической индустрии. Магазины сети ИЛЬ ДЕ БОТЭ расположены в крупнейших городах по всей России.`,
+    floor: '1 этаж',
+    tel: '+7 861 213 48 48',
+    telUrl: '88612134848',
+    instagram: 'sephora_russia',
+  },
+  {
+    id: 55,
+    category: 'cosmetics',
+    url: 'Mac',
+    logo: '/butiks/cosmetics/Mac/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/cosmetics/Mac/1.jpg',
+        alt: 'Mac',
+      },
+      {
+        id: 2,
+        src: '/butiks/cosmetics/Mac/2.jpg',
+        alt: 'Mac',
+      },
+    ],
+    description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
+    floor: '1 этаж',
+    tel: '+7 861 213 47 05',
+    telUrl: '88612134705',
+    instagram: 'maccosmeticsrussia',
+  },
+
+  //ИНТЕРЬЕР
+  {
+    id: 56,
+    category: 'interior',
+    url: 'Renesans',
+    logo: '/butiks/interior/Renesans/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/interior/Renesans/1.jpg',
+        alt: 'Renesans',
+      },
+      {
+        id: 2,
+        src: '/butiks/interior/Renesans/2.jpg',
+        alt: 'Renesans',
+      },
+    ],
+    description1: `В арт-салоне «Ренессанс» вы найдете эксклюзивные подарки, сувениры и предметы интерьера, посуду из итальянского фарфора, бронзы и хрусталя. Роскошные и необычные вещи для самых важных людей.`,
+    floor: '3 этаж',
+    tel: '+7 918 697 04 77',
+    telUrl: '89186970477',
+    instagram: 'renaissance_boutique',
+  },
+  {
+    id: 57,
+    category: 'interior',
+    url: 'DC',
+    logo: '/butiks/interior/DC/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/interior/DC/1.jpg',
+        alt: 'DC',
+      },
+      {
+        id: 2,
+        src: '/butiks/interior/DC/2.jpg',
+        alt: 'DC',
+      },
+    ],
+    description1: `Уже более 20 лет «Dream Catchers» занимается созданием и продажей мягких кроватей и мебели для спальни с инновационным и функциональным дизайном в премиальном качестве исполнения. Домашний текстиль премиум класса, роскошные полотенца и мягчайшие пледы, удобные подушки и нежные одеяла, постельное белье из самых приятных тканей: бамбука, сатина, страйп сатина, египетского хлопка, тенселя и вискозы.`,
+    description2:
+      'Сегодня «Dream Catchers» производит свыше 100 дизайнерских моделей мебели в соответствии с вашими личными вкусами и потребностями. Вы можете выбрать свой вариант из более 1500 вариантов расцветок обивки мебели из коллекции тканей',
+    floor: '3 этаж',
+    tel: '+7 929 850 14 62',
+    telUrl: '89298501462',
+    instagram: 'dream_catchers_rus',
+  },
+  {
+    id: 58,
+    category: 'interior',
+    url: 'Raffinat',
+    logo: '/butiks/interior/Raffinat/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/interior/Raffinat/1.jpg',
+        alt: 'Raffinat',
+      },
+      {
+        id: 2,
+        src: '/butiks/interior/Raffinat/2.jpg',
+        alt: 'Raffinat',
+      },
+      {
+        id: 3,
+        src: '/butiks/interior/Raffinat/3.jpg',
+        alt: 'Raffinat',
+      },
+      {
+        id: 4,
+        src: '/butiks/interior/Raffinat/4.jpg',
+        alt: 'Raffinat',
+      },
+    ],
+    description1: `Бутик “RAFFINAT” существует на рынке уже 12 лет, чтобы каждый человек смог окружить себя изысканными предметами интерьера Европейского качества. В бутике представлены такие бренды, как: Yves Delorme Paris, Cote Noire, Fansy, Rudolf Kampf, Garnier-Thiebaut.`,
+    floor: '3 этаж',
+    tel: '+7 918 11 42 174',
+    telUrl: '89181142174',
+    instagram: 'raffinatcity',
+  },
+  {
+    id: 59,
+    category: 'interior',
+    url: 'DecorBurgua',
+    logo: '/butiks/accessories/DecorBurgua/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/DecorBurgua/1.jpg',
+        alt: 'DecorBurgua',
+      },
+      {
+        id: 2,
+        src: '/butiks/accessories/DecorBurgua/2.jpg',
+        alt: 'DecorBurgua',
+      },
+    ],
+    description1:
+      'В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.',
+    description2:
+      'Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.',
+    floor: '1 этаж',
+    tel: '+7 918 144 23 07',
+    telUrl: '89181442307',
+    instagram: 'decor_burgua',
+  },
+  {
+    id: 60,
+    category: 'interior',
+    url: 'Antikvariat',
+    logo: '/butiks/accessories/Antikvariat/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/accessories/Antikvariat/1.jpg',
+        alt: 'Antikvariat',
+      },
+    ],
+    description1:
+      'В магазине «Антиквариат» представлены антикварные товары и предметы роскоши. Старинные иконы, ювелирные изделия, золотые монеты, бронза, фарфор и многое другое.',
+    floor: '2 этаж',
+    tel: '+7 967 300 11 18',
+    telUrl: '89673001118',
+  },
+
+  //ЦВЕТЫ И ПОДАРКИ
+  {
+    id: 61,
+    category: 'flowersAndGifts',
+    url: 'Шипы и Розы',
+    logo: '/butiks/flowersAndGifts/ThornsAndRoses/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/flowersAndGifts/ThornsAndRoses/1.jpg',
+        alt: 'ThornsAndRoses',
+      },
+      {
+        id: 2,
+        src: '/butiks/flowersAndGifts/ThornsAndRoses/2.jpg',
+        alt: 'ThornsAndRoses',
+      },
+      {
+        id: 3,
+        src: '/butiks/flowersAndGifts/ThornsAndRoses/3.jpg',
+        alt: 'ThornsAndRoses',
+      },
+      {
+        id: 4,
+        src: '/butiks/flowersAndGifts/ThornsAndRoses/4.jpg',
+        alt: 'ThornsAndRoses',
+      },
+      {
+        id: 5,
+        src: '/butiks/flowersAndGifts/ThornsAndRoses/5.jpg',
+        alt: 'ThornsAndRoses',
+        instagram: 'shipirozi',
+      },
+    ],
+    description1:
+      '«Шипы и Розы» — магазин живых цветов, подарков и аксессуаров. В магазине «Шипы и Розы» представлен широкий выбор авторских композиций, всегда свежих и оригинальных букетов.',
+    floor: '1 этаж',
+    tel: '+7 928 411 30 31',
+    telUrl: '89284113031',
+  },
+  {
+    id: 62,
+    category: 'flowersAndGifts',
+    url: 'French Kiss',
+    logo: '/butiks/flowersAndGifts/FrenchKiss/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/flowersAndGifts/FrenchKiss/1.jpg',
+        alt: 'FrenchKiss',
+      },
+      {
+        id: 2,
+        src: '/butiks/flowersAndGifts/FrenchKiss/2.jpg',
+        alt: 'FrenchKiss',
+      },
+    ],
+    description1:
+      'French Kiss-шоколадный бутик премиум класса. Шоколад производится  в Бельгии по собственной рецептуре в различных вариациях от конфет ручной работы, до печенья с шоколадом, соленой карамелью и экзотическими орехами.',
+    floor: '1 этаж',
+    tel: '+7 929 838 80 78',
+    telUrl: '89298388078',
+    instagram: 'frenchkiss_krd',
+  },
+
+  //ОЧКИ
+  {
+    id: 63,
+    category: 'glasses',
+    url: 'French Kiss',
+    logo: '/butiks/glasses/Optika/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/glasses/Optika/1.jpg',
+        alt: 'Optika',
+      },
+      {
+        id: 2,
+        src: '/butiks/glasses/Optika/2.jpg',
+        alt: 'Optika',
+      },
+    ],
+    description1:
+      'Салон оптики «Оптрика» дает возможность смотреть на мир по-другому и предлагает самые качественные оптические услуги в городе.',
+    description2:
+      'Здесь вы всегда можете приобрести подходящие очки, проверить свое зрение и задать все интересующие вас вопросы оптику-консультанту. “Оптрика” производит очки для зрения только с сертифицированными линзами от мировых производителей.',
+    description3:
+      'В салоне представлены только оригинальные очки от мировых брендов: Cartier, Chrome-Hearts, Dior, Prada, D&G, Gucci, Roberto Cavalli, Tiffany&Co и многие другие.',
+    floor: '1 этаж',
+    tel: '+7 861 213 47 56',
+    telUrl: '88612134756',
+    instagram: 'optrika',
+  },
+
+  //КНИГИ
+  {
+    id: 64,
+    category: 'books',
+    url: 'BookLab',
+    logo: '/butiks/children/BookLab/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/BookLab/1.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/BookLab/2.jpg',
+        alt: 'BookLab',
+      },
+    ],
+    description1:
+      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+    description2:
+      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+    floor: '3 этаж',
+    tel: '+7 861 299 71 83',
+    telUrl: '88612134741',
+    instagram: 'knizhnylabirintcity',
+  },
+
+  //ПАРФЮМЕРИЯ
+  {
+    id: 65,
+    category: 'perfumery',
+    url: 'Perfumery',
+    logo: '/butiks/perfumery/Giorgio/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/perfumery/Giorgio/1.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 2,
+        src: '/butiks/perfumery/Giorgio/2.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 3,
+        src: '/butiks/perfumery/Giorgio/3.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 4,
+        src: '/butiks/perfumery/Giorgio/4.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 5,
+        src: '/butiks/perfumery/Giorgio/5.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 6,
+        src: '/butiks/perfumery/Giorgio/6.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 7,
+        src: '/butiks/perfumery/Giorgio/7.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 8,
+        src: '/butiks/perfumery/Giorgio/8.jpg',
+        alt: 'Giorgio',
+      },
+    ],
+    description1:
+      'Парфюмерный бутик Giorgio не продает, а подбирает аромат под настроение и образ жизни клиента.',
+    description2:
+      'Уникальный ассортимент ароматов, непревзойденное обслуживание и изысканная атмосфера позволяют создать ощущение праздника.',
+    floor: '3 этаж',
+    tel: '+7 861 213 47 40',
+    telUrl: '88612134740',
+    instagram: 'giorgio_boutique',
+  },
+  {
+    id: 66,
+    category: 'perfumery',
+    url: 'ileDeBeaute',
+    logo: '/butiks/cosmetics/ileDeBeaute/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/cosmetics/ileDeBeaute/1.jpg',
+        alt: 'ileDeBeaute',
+      },
+      {
+        id: 2,
+        src: '/butiks/cosmetics/ileDeBeaute/2.jpg',
+        alt: 'ileDeBeaute',
+      },
+      {
+        id: 3,
+        src: '/butiks/cosmetics/ileDeBeaute/3.jpg',
+        alt: 'ileDeBeaute',
+      },
+    ],
+    description1: `ИЛЬ ДЕ БОТЭ – МИР РОСКОШНОЙ КРАСОТЫ. Парфюмерно-косметическая сеть ИЛЬ ДЕ БОТЭ была основана в 2001 году и покорила сердца ценителей красоты в России. За долгие годы сеть зарекомендовала себя лидером в сегменте премиум. Основной акцент в работе каждого магазина — высокое качество представленного ассортимента и приверженность профессиональным стандартам обслуживания.`,
+    description2:
+      'Открывая двери ИЛЬ ДЕ БОТЭ, каждый гость попадает в атмосферу спокойствия и комфорта, где ценят и уважают индивидуальные предпочтения и основательно подходят к рекомендациям продуктов. Наследием сети является широкий ассортимент всемирно известных мировых брендов красоты премиум класса, а также большая коллекция селективных марок, эксклюзивных предложений и нишевой парфюмерии.',
+    description3: `ИЛЬ ДЕ БОТЭ – это престижное и комфортное место для знакомства с ежедневными ритуалами и программами красоты, с последними тенденциями и разработками косметической индустрии. Магазины сети ИЛЬ ДЕ БОТЭ расположены в крупнейших городах по всей России.`,
+    floor: '1 этаж',
+    tel: '+7 861 213 48 48',
+    telUrl: '88612134848',
+    instagram: 'sephora_russia',
+  },
+
+  //СЕРВИСЫ
+  {
+    id: 67,
+    category: 'services',
+    url: 'HimCLear',
+    logo: '/services/HimCLear/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/services/HimCLear/1.jpg',
+        alt: 'HimCLear',
+      },
+      {
+        id: 2,
+        src: '/services/HimCLear/2.jpg',
+        alt: 'HimCLear',
+      },
+    ],
+    description1:
+      'Сеть химчисток-прачечных Премиум занимается: стиркой белья, прачечными услугами, окраской, услугами химчистки одежды, химической стиркой, отбеливанием, стиркой полотенец, стиркой пледов, прачечной по невысокой стоимости, мойкой паласов, крашением одежды и обуви.',
+    description2:
+      'Также мы занимаемся: окраской одежды, выведением пятен, устранением запахов, профессиональной чисткой ковров, можно почистить пуховик, чисткой замши, реставрацией подушек, химчисткой спецодежды, чисткой штор, сетью химчисток, экспресс-химчисткой, недорогими услугами, профессиональной химчисткой.',
+    floor: '2 этаж',
+    tel: '+7 961 510 25 60',
+    telUrl: '89615102560',
+  },
+  {
+    id: 68,
+    category: 'services',
+    url: 'Igratoriya',
+    logo: '/services/Igratoriya/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/services/Igratoriya/1.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 2,
+        src: '/services/Igratoriya/2.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 3,
+        src: '/services/Igratoriya/3.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 4,
+        src: '/services/Igratoriya/4.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 5,
+        src: '/services/Igratoriya/5.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 6,
+        src: '/services/Igratoriya/6.jpg',
+        alt: 'Igratoriya',
+      },
+    ],
+    description1:
+      '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
+    description2:
+      'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
+    description3: 'Встречаемся в Игратории!',
+    floor: '3 этаж',
+    tel: '+7 988 470 19 63',
+    telUrl: '89884701963',
+    instagram: 'igratoria',
+  },
+
+  //ДЕТЯМ
+  {
+    id: 69,
+    category: 'children',
+    url: 'HouseChildrenModa',
+    logo: '/butiks/children/HouseChildrenModa/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/HouseChildrenModa/1.jpg',
+        alt: 'HouseChildrenModa',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/HouseChildrenModa/2.jpg',
+        alt: 'HouseChildrenModa',
+      },
+      {
+        id: 3,
+        src: '/butiks/children/HouseChildrenModa/3.jpg',
+        alt: 'HouseChildrenModa',
+      },
+      {
+        id: 4,
+        src: '/butiks/children/HouseChildrenModa/4.jpg',
+        alt: 'HouseChildrenModa',
+      },
+      {
+        id: 5,
+        src: '/butiks/children/HouseChildrenModa/5.jpg',
+        alt: 'HouseChildrenModa',
+      },
+    ],
+    description1:
+      'В фирменном магазине «Дом детской моды» представлена одежда и аксессуары для мальчиков и девочек от 0 до 14. Вся одежда произведена из натуральных тканей для того, чтобы дети чувствовали себя комфортно. Бутик представляет детскую одежду премиальных брендов: Burberry, Dior, Dolce & Gabbana, Sonia Rykel и других известных марок.',
+    floor: '3 этаж',
+    tel: '+7 861 213 47 57',
+    telUrl: '88612134757',
+    instagram: 'dom_detskoi_modi',
+  },
 ];

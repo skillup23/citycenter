@@ -8,13 +8,14 @@ import { menu } from '@/public/data/data';
 
 function Header() {
   return (
-    <header className="py-5 my-1 border_section">
+    <header className="py-5 my-1 border_section z-50">
       <nav className="container mx-auto px-5 flex justify-between content-center items-center">
-        {menu.slice(0, 4).map(({ id, name, link }) => {
+        {menu.slice(0, 5).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
               href={link}
+              scroll={false}
               className="text-3xl ease-in duration-200 hover:scale-105"
             >
               {name}
@@ -32,19 +33,20 @@ function Header() {
           />
         </Link>
 
-        {menu.slice(4, 7).map(({ id, name, link }) => {
+        {menu.slice(5, 8).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
               href={link}
-              className="text-3xl ease-in duration-200 hover:scale-105"
+              scroll={false}
+              className="text-3xl ease-in duration-200 hover:scale-105 mr-5"
             >
               {name}
             </Link>
           );
         })}
 
-        <ul className="flex gap-8">
+        <ul className="flex gap-10">
           <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
             <SlSocialVkontakte className="text-4xl ease-in duration-200 hover:scale-105" />
           </Link>

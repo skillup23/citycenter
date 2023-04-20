@@ -10,6 +10,7 @@ import event1 from '@/public/site_img/event1.png';
 import event2 from '@/public/site_img/event2.png';
 import event3 from '@/public/site_img/event3.png';
 import event4 from '@/public/site_img/event4.png';
+import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 import logoMonitor1 from '@/public/site_img/лого-монитор.png';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
 import cinemaIkon1 from '@/public/site_img/кино-иконка-1.png';
@@ -31,8 +32,13 @@ import YandexMap from '@/components/YandexMap';
 
 export default function Home() {
   return (
-    <Layout title="Главная">
+    <Layout title="ГЛАВНАЯ">
+      {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
+
       <SliderMain data={sliderTop} dots={false} />
+
+      {/*                      СЦЕНАРИИ                         */}
+
       <section className="border_section border-b-0">
         <div className="container mx-auto pr-5">
           <h2 className="title_main text-right mt-12">СЦЕНАРИИ</h2>
@@ -118,13 +124,19 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-28">
+
+      {/*                      БУТИКИ                         */}
+
+      <section className="mb-28" id="bitiki">
         <div className="container mx-auto">
           <h2 className="title_main mt-12">БУТИКИ</h2>
           <ShopListMain />
         </div>
       </section>
-      <section className="relative">
+
+      {/*                      СЛАЙДЕР КИНОТЕАТР                         */}
+
+      <section className="relative" id="kinoteatr">
         <SliderMain data={sliderCenter} dots={true} />
         <Image
           src={text2}
@@ -135,6 +147,9 @@ export default function Home() {
           className="absolute top-6 right-0 w-1/12"
         />
       </section>
+
+      {/*                      КИНОТЕАТР ИНФОРМАЦИЯ                        */}
+
       <section className="mt-20">
         <div className="container mx-auto pr-5 flex flex-row gap-12">
           <div className="flex flex-col w-1/2 pl-3">
@@ -225,6 +240,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/*                      КИНОТЕАТР ССЫЛКИ                        */}
+
       <section className="mt-20">
         <div className="container mx-auto">
           <ul className="flex w-full items-center justify-between">
@@ -255,7 +273,10 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      <section className="mb-28">
+
+      {/*                      РЕСТОРАНЫ                        */}
+
+      <section className="mb-28" id="restoran">
         <div className="container mx-auto">
           <h2 className="title_main mt-20">РЕСТОРАНЫ</h2>
           <div className="flex justify-center items-start gap-48 my-24">
@@ -272,7 +293,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-28">
+
+      {/*                      ДЕТЯМ                        */}
+
+      <section className="mb-28" id="detyam">
         <div className="container mx-auto">
           <h2 className="title_main mt-20">ДЕТЯМ</h2>
           <div className="flex justify-center items-center my-24 gap-36">
@@ -281,21 +305,37 @@ export default function Home() {
               src={children1}
               alt="Игратория"
             />
-            <ImageLink href="/" src={children2} alt="Lapin House" />
+            <ImageLink href="/children/29" src={children2} alt="Lapin House" />
             <Link
-              href="/"
+              href="/children/69"
               className="w-1/3 h-fill text-5xl ease-in duration-200 hover:scale-105"
             >
               Дом детской моды
             </Link>
           </div>
+          <Image
+            src={PrezentMain}
+            alt="ПОДАРКИ И ТОВАРЫ ДЛЯ ДЕТЕЙ"
+            width="fill"
+            height="0"
+            sizes="100%"
+            className=""
+            priority
+          />
           <div className="flex justify-center items-center my-24 gap-36">
-            <ImageLink href="/" src={children4} alt="Metro Baby" />
-            <ImageLink href="/" src={children5} alt="Книжный лабиринт" />
+            <ImageLink href="/children/30" src={children4} alt="Metro Baby" />
+            <ImageLink
+              href="/children/31"
+              src={children5}
+              alt="Книжный лабиринт"
+            />
             <div className="w-1/3"></div>
           </div>
         </div>
       </section>
+
+      {/*                      КОНТАКТЫ                        */}
+
       <section className="mt-20">
         <div className="container mx-auto">
           <h2 className="title_main mt-20">КОНТАКТЫ</h2>
@@ -343,7 +383,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="flex flex-row flex-wrap w-2/3 items-start content-start">
               <YandexMap />
             </div>

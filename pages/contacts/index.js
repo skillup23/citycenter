@@ -12,7 +12,7 @@ function Contacts() {
     <Layout title="Контакты">
       <section className="mt-10">
         <div className="container mx-auto">
-          <h1 className="title_main mt-20">Контакты</h1>
+          <h1 className="title_main mt-10">Контакты</h1>
 
           <div className="mt-10 w-11/12 m-auto flex flex-row justify-between">
             <h4 className="text-5xl w-1/3">ТРК «СИТИ ЦЕНТР»</h4>

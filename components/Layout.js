@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
+import ButtonRight from './ButtonRight';
 
 function Layout({ children, title }) {
   return (
@@ -16,6 +17,7 @@ function Layout({ children, title }) {
       <Header />
       <main className="flex-auto">{children}</main>
       <Footer />
+      <ButtonRight />
     </div>
   );
 }

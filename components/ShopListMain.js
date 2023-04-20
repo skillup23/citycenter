@@ -37,7 +37,7 @@ const shopList = [
   {
     id: 6,
     title: 'Обувь и сумки',
-    link: '/shoes-and-bags',
+    link: '/shoes_and_bags',
     url: 'bg-[url("../public/site_img/shop-6.png")]',
   },
   {
@@ -55,7 +55,7 @@ const shopList = [
   {
     id: 9,
     title: 'Цветы и подарки',
-    link: '/flowers-and-gifts',
+    link: '/flowers_and_gifts',
     url: 'bg-[url("../public/site_img/shop-9.png")]',
   },
   {

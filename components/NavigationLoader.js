@@ -40,7 +40,7 @@ export default function NavigationLoader() {
 
   return (
     <div className="navigation-loader">
-      <div class="preloader-4">
+      <div className="preloader-4">
         <div></div>
         <div></div>
         <div></div>
