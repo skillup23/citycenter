@@ -12,7 +12,7 @@ const menu = [
   {
     id: 3,
     name: 'Новости',
-    link: '/',
+    link: '/news',
   },
   {
     id: 4,

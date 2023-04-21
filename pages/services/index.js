@@ -50,7 +50,7 @@ export const getStaticProps = async () => {
 
 const Services = ({ butiks }) => {
   return (
-    <Layout title="Сервисы">
+    <Layout title="СЕРВИСЫ">
       <section className="mt-10 relative">
         <div className="container mx-auto">
           <h1 className="title_main mt-10">СЕРВИСЫ</h1>
