@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ['bit.ly'],
   },
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
 };
 
 module.exports = nextConfig;
