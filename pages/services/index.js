@@ -1,60 +1,47 @@
-// import ImageLink from '@/components/ImageLink';
-// import Layout from '@/components/Layout';
-// import Link from 'next/link';
-// import React from 'react';
-// import services1 from '@/public/services/играторияЛого.png';
-
-// function Services() {
-//   return (
-//     <Layout title="Сервисы">
-//       <section className="mt-10">
-//         <div className="container mx-auto">
-//           <h1 className="title_main mt-20">Сервисы</h1>
-//           <div className="flex justify-center items-center my-24 gap-36">
-//             <Link
-//               href="/"
-//               className="w-1/3 h-fill text-5xl ease-in duration-200 hover:scale-105 text-center"
-//             >
-//               ХИМЧИСТКА<br></br> «ПРЕМИУМ»
-//             </Link>
-//             <ImageLink href="/" src={services1} alt="Игратория" />
-//             <div className="w-1/3"></div>
-//           </div>
-//         </div>
-//       </section>
-//     </Layout>
-//   );
-// }
-
-// export default Services;
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import ImageLink from '@/components/ImageLink';
+// import { butiks } from '@/public/data/butiks';
 
 //получаем данные бутиков с локального api
-export const getStaticProps = async () => {
-  try {
-    const response = await fetch(`${process.env.API_HOST}/butiks`);
-    const data = await response.json();
+// export const getStaticProps = async () => {
+//   try {
+//     const response = await fetch(`${process.env.API_HOST}/butiks`);
+//     const data = await response.json();
 
-    if (!data) {
-      return {
-        notFound: true,
-      };
-    }
+//     if (!data) {
+//       return {
+//         notFound: true,
+//       };
+//     }
 
-    return {
-      props: { butiks: data },
-    };
-  } catch {
-    return {
-      props: { butiks: null },
-    };
-  }
-};
+//     return {
+//       props: { butiks: data },
+//     };
+//   } catch {
+//     return {
+//       props: { butiks: butiks },
+//     };
+//   }
+// };
 
-const Services = ({ butiks }) => {
+const Services = () => {
+  const [butiks, setButiks] = useState(null);
+  const [isLoading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    fetch(`/api/butiks`)
+      .then((res) => res.json())
+      .then((data) => {
+        setButiks(data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (isLoading) return <p>Loading...</p>;
+  if (!butiks) return <p>No profile data</p>;
+
   return (
     <Layout title="СЕРВИСЫ">
       <section className="mt-10 relative">
