@@ -4,18 +4,24 @@ import ListButiks from '@/components/ListButiks';
 
 //получаем данные бутиков с локального api
 export const getStaticProps = async () => {
-  const response = await fetch('http://localhost:3000/api/butiks');
-  const data = await response.json();
+  try {
+    const response = await fetch(`${process.env.API_HOST}/butiks`);
+    const data = await response.json();
 
-  if (!data) {
+    if (!data) {
+      return {
+        notFound: true,
+      };
+    }
+
     return {
-      notFound: true,
+      props: { butiks: data },
+    };
+  } catch {
+    return {
+      props: { butiks: null },
     };
   }
-
-  return {
-    props: { butiks: data },
-  };
 };
 
 const ShoesAndBags = ({ butiks }) => {

@@ -1,4 +1,4 @@
-import ImageGallery from '@/components/ImageGallery';
+// import ImageGallery from '@/components/ImageGallery';
 import Layout from '@/components/Layout';
 import React from 'react';
 
@@ -11,14 +11,14 @@ function VesnaVCitycenter() {
 
           <div className="w-full">
             <div className="grid grid-cols-2 gap-y-8 sm:grid-cols-3 gap-x-6 lg:grid-cols-4 xl:grid-cols-5 xl:gap-x-8">
+              {/* <ImageGallery />
               <ImageGallery />
               <ImageGallery />
               <ImageGallery />
               <ImageGallery />
               <ImageGallery />
               <ImageGallery />
-              <ImageGallery />
-              <ImageGallery />
+              <ImageGallery /> */}
             </div>
           </div>
         </div>

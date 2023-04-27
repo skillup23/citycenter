@@ -56,7 +56,7 @@ function Butik(butik) {
               src={logo}
               alt={url}
               width={200}
-              height="0"
+              height={0}
               sizes="100%"
               className="self-center"
             />
