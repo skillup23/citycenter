@@ -1,46 +1,46 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import ImageLink from '@/components/ImageLink';
 // import { butiks } from '@/public/data/butiks';
 
-//получаем данные бутиков с локального api
-// export const getStaticProps = async () => {
-//   try {
-//     const response = await fetch(`${process.env.API_HOST}/butiks`);
-//     const data = await response.json();
+// получаем данные бутиков с локального api
+export const getStaticProps = async () => {
+  try {
+    const response = await fetch(`${process.env.API_HOST}/butiks`);
+    const data = await response.json();
 
-//     if (!data) {
-//       return {
-//         notFound: true,
-//       };
-//     }
+    if (!data) {
+      return {
+        notFound: true,
+      };
+    }
 
-//     return {
-//       props: { butiks: data },
-//     };
-//   } catch {
-//     return {
-//       props: { butiks: butiks },
-//     };
-//   }
-// };
+    return {
+      props: { butiks: data },
+    };
+  } catch {
+    return {
+      props: { butiks: null },
+    };
+  }
+};
 
-const Services = () => {
-  const [butiks, setButiks] = useState(null);
-  const [isLoading, setLoading] = useState(false);
+const Services = ({ butiks }) => {
+  // const [butiks, setButiks] = useState(null);
+  // const [isLoading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    fetch(`/api/butiks`)
-      .then((res) => res.json())
-      .then((data) => {
-        setButiks(data);
-        setLoading(false);
-      });
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   fetch(`/api/butiks`)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setButiks(data);
+  //       setLoading(false);
+  //     });
+  // }, []);
 
-  if (isLoading) return <p>Loading...</p>;
-  if (!butiks) return <p>No profile data</p>;
+  // if (isLoading) return <p>Loading...</p>;
+  // if (!butiks) return <p>No profile data</p>;
 
   return (
     <Layout title="СЕРВИСЫ">
