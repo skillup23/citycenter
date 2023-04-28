@@ -1292,37 +1292,37 @@ export const butiks = [
   {
     id: 38,
     category: 'accessories',
-    url: 'Freywille',
-    logo: '/butiks/accessories/Freywille/logo.png',
+    url: 'FreyWille',
+    logo: '/butiks/accessories/FreyWille/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/Freywille/1.jpg',
+        src: '/butiks/accessories/FreyWille/1.jpg',
         alt: 'Freywille',
       },
       {
         id: 2,
-        src: '/butiks/accessories/Freywille/2.jpg',
+        src: '/butiks/accessories/FreyWille/2.jpg',
         alt: 'Freywille',
       },
       {
         id: 3,
-        src: '/butiks/accessories/Freywille/3.jpg',
+        src: '/butiks/accessories/FreyWille/3.jpg',
         alt: 'Freywille',
       },
       {
         id: 4,
-        src: '/butiks/accessories/Freywille/4.jpg',
+        src: '/butiks/accessories/FreyWille/4.jpg',
         alt: 'Freywille',
       },
       {
         id: 5,
-        src: '/butiks/accessories/Freywille/5.jpg',
+        src: '/butiks/accessories/FreyWille/5.jpg',
         alt: 'Freywille',
       },
       {
         id: 6,
-        src: '/butiks/accessories/Freywille/6.jpg',
+        src: '/butiks/accessories/FreyWille/6.jpg',
         alt: 'Freywille',
       },
     ],

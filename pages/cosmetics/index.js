@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import ListButiks from '@/components/ListButiks';
 
 //получаем данные бутиков с локального api
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   try {
     const response = await fetch(`${process.env.API_HOST}/butiks`);
     const data = await response.json();

@@ -3,8 +3,8 @@ import Layout from '@/components/Layout';
 import ImageLink from '@/components/ImageLink';
 // import { butiks } from '@/public/data/butiks';
 
-// получаем данные бутиков с локального api
-export const getStaticProps = async () => {
+// получаем данные бутиков с локального api Старая функция getStaticProps
+export const getServerSideProps = async () => {
   try {
     const response = await fetch(`${process.env.API_HOST}/butiks`);
     const data = await response.json();
