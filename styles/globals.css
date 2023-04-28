@@ -37,7 +37,7 @@
     font-family: 'Bebas Neue';
     font-weight: normal;
     src: local('BebasNeueRegular'),
-      url('../public/fonts/BebasNeueRegular.woff2') format('woff2');
+      url(/fonts/BebasNeueRegular.woff2) format('woff2');
   }
   @font-face {
     font-family: 'Bebas Neue';
@@ -47,6 +47,7 @@
 } */
 
 :root {
+  font-family: 'Bebas Neue';
 }
 
 * {
