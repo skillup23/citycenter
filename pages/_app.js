@@ -7,6 +7,7 @@ const bebas = localFont({
   src: '../public/fonts/BebasNeueRegular.woff2',
   variable: '--font-bebas',
   weight: 'normal',
+  display: 'swap',
 });
 
 // const bebas = localFont({
