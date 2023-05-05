@@ -13,7 +13,7 @@ const ListButiks = ({ butiks, category, butiksUrl }) => {
           .map(({ id, logo, url }) => (
             <ImageLink
               key={id}
-              href={`/${butiksUrl}/${id}`}
+              href={`/butiks/${butiksUrl}/${id}`}
               src={logo}
               width={56}
               alt={url}

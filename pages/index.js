@@ -62,7 +62,10 @@ export default function Home() {
           </p>
 
           <div className="flex flex-row mt-10">
-            <Link href="/" className="flex flex-col items-center -mt-96 z-10">
+            <Link
+              href="/scenarios/meeting"
+              className="flex flex-col items-center -mt-96 z-10"
+            >
               <Image
                 src={event1}
                 alt="событие 1"
@@ -77,7 +80,10 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/" className="flex flex-col items-center -mx-28 -mt-36">
+            <Link
+              href="/scenarios/holiday"
+              className="flex flex-col items-center -mx-28 -mt-36"
+            >
               <Image
                 src={event2}
                 alt="событие 2"
@@ -92,7 +98,10 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/" className="flex flex-col items-center -mt-10">
+            <Link
+              href="/scenarios/case"
+              className="flex flex-col items-center -mt-10"
+            >
               <Image
                 src={event3}
                 alt="событие 3"
@@ -107,7 +116,10 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/" className="flex flex-col items-center -ml-10 mt-10">
+            <Link
+              href="/scenarios/business"
+              className="flex flex-col items-center -ml-10 mt-10"
+            >
               <Image
                 src={event4}
                 alt="событие 4"
