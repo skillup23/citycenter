@@ -40,8 +40,8 @@ export default function Home() {
       {/*                      СЦЕНАРИИ                         */}
 
       <section className="border_section border-b-0">
-        <div className="container mx-auto pr-5">
-          <h2 className="title_main text-right mt-12">СЦЕНАРИИ</h2>
+        <div className="lg:container mx-auto pr-5">
+          <h2 className="title_main text-right mt-6 sm:mt-12">СЦЕНАРИИ</h2>
 
           <Image
             src={text1}
@@ -49,11 +49,11 @@ export default function Home() {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-3/5 h-auto block ml-auto mt-2"
+            className="w-10/12 sm:w-3/5 h-auto block ml-auto mt-2"
             priority
           />
 
-          <p className="w-2/5 text-right ml-auto subtitle_main mt-8">
+          <p className="w-full sm:w-2/5 text-right ml-auto subtitle_main mt-8">
             ТРК “СИТИ ЦЕНТР” — место притяжения успешных людей. В комплексе
             представлено большое количество премиальных брендов с разнообразным
             ассортиментом, рестораны итальянской кухни и VIP-кинотеатр. В ТРК
@@ -61,10 +61,10 @@ export default function Home() {
             обстановке спокойствия и люксового шоппинга.
           </p>
 
-          <div className="flex flex-row mt-10">
+          <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10">
             <Link
               href="/scenarios/meeting"
-              className="flex flex-col items-center -mt-96 z-10"
+              className="flex flex-col items-center sm:-mt-64 lg:-mt-96 z-10"
             >
               <Image
                 src={event1}
@@ -74,7 +74,7 @@ export default function Home() {
                 priority
               />
               <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-2xl text-black py-4 px-4">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
                   Проведите романтическое <br></br>свидание
                 </p>
               </div>
@@ -82,7 +82,7 @@ export default function Home() {
 
             <Link
               href="/scenarios/holiday"
-              className="flex flex-col items-center -mx-28 -mt-36"
+              className="flex flex-col items-center sm:-mx-24 sm:-mt-16 lg:-mt-36"
             >
               <Image
                 src={event2}
@@ -92,7 +92,7 @@ export default function Home() {
                 priority
               />
               <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-2xl text-black py-4 px-5">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
                   Семейный праздник и <br></br>детский день рождения
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function Home() {
 
             <Link
               href="/scenarios/case"
-              className="flex flex-col items-center -mt-10"
+              className="flex flex-col items-center lg:-mt-10"
             >
               <Image
                 src={event3}
@@ -110,7 +110,7 @@ export default function Home() {
                 priority
               />
               <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-2xl text-black py-4 px-5">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
                   Приготовьтесь <br></br>к особому случаю
                 </p>
               </div>
@@ -118,7 +118,7 @@ export default function Home() {
 
             <Link
               href="/scenarios/business"
-              className="flex flex-col items-center -ml-10 mt-10"
+              className="flex flex-col items-center sm:-ml-10 sm:mt-10"
             >
               <Image
                 src={event4}
@@ -128,7 +128,7 @@ export default function Home() {
                 priority
               />
               <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-2xl text-black py-4 px-5">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
                   Проведите <br></br>деловую встречу
                 </p>
               </div>
@@ -139,8 +139,8 @@ export default function Home() {
 
       {/*                      БУТИКИ                         */}
 
-      <section className="mb-28" id="bitiki">
-        <div className="container mx-auto">
+      <section className="mb-20 sm:mb-28" id="bitiki">
+        <div className="lg:container mx-auto">
           <h2 className="title_main mt-12">БУТИКИ</h2>
           <ShopListMain />
         </div>
@@ -163,9 +163,9 @@ export default function Home() {
       {/*                      КИНОТЕАТР ИНФОРМАЦИЯ                        */}
 
       <section className="mt-20">
-        <div className="container mx-auto pr-5 flex flex-row gap-12">
-          <div className="flex flex-col w-1/2 pl-3">
-            <div className="flex gap-12 w-1/2 mb-12 items-start">
+        <div className="lg:container mx-auto pr-5 flex flex-col lg:flex-row gap-12">
+          <div className="flex flex-col w-full lg:w-1/2 pl-3">
+            <div className="flex gap-12 w-1/2 mb-12 items-start px-5 sm:px-0">
               <Image
                 src={logoMonitor1}
                 alt="Лого Монитор"
@@ -183,14 +183,14 @@ export default function Home() {
                 className=""
               />
             </div>
-            <p className="mb-8 text-xl">
+            <p className="mb-5 sm:mb-8 text-l sm:text-xl">
               «МОНИТОР Сити de Luxe» — кинотеатр нового уровня, соответствующий
               актуальным трендам мирового кинопоказа и современного дизайна.
               Кинотеатр оборудован высококачественной кинопроекционной системой
               Sony Digital.Cinema 4K с функцией показа максимально чёткого
               изображения.
             </p>
-            <p className="mb-8 text-xl">
+            <p className="mb-5 sm:mb-8 text-l sm:text-xl">
               В двух комфортных залах на 62 и 64 места установлены удобные
               кресла с выдвижными столиками, огромным личным пространством и
               большим расстоянием между рядами. Все кресла имеют выдвижную
@@ -198,13 +198,13 @@ export default function Home() {
               креслами-реклайнерами с подставкой для ног, которые можно привести
               в полностью горизонтальное положение.
             </p>
-            <p className="mb-8 text-xl">
+            <p className="mb-5 sm:mb-8 text-l sm:text-xl">
               Также у нас вы можете заказать еду из ресторана прямо в кинозал.
               Официант принесёт заказ и разместит его на столике у кресла.
             </p>
           </div>
 
-          <div className="flex flex-row flex-wrap w-1/2 items-start content-start">
+          <div className="flex flex-row flex-wrap w-full lg:w-1/2 items-start content-start">
             <div className="flex flex-row w-1/2 items-center">
               <Image
                 src={cinemaIkon1}
@@ -212,9 +212,11 @@ export default function Home() {
                 width="100"
                 height="0"
                 sizes="100%"
-                className="pr-8"
+                className="px-4 sm:pl-0 sm:pr-8"
               />
-              <h4 className="w-3/5 text-4xl">Только Vip&#8209;кресла</h4>
+              <h4 className="sm:w-3/5 text-xl sm:text-3xl xl:text-4xl">
+                Только Vip&#8209;кресла
+              </h4>
             </div>
             <div className="flex flex-row w-1/2 items-center">
               <Image
@@ -223,31 +225,37 @@ export default function Home() {
                 width="100"
                 height="0"
                 sizes="100%"
-                className="pr-8"
+                className="px-4 sm:pl-0 sm:pr-8"
               />
-              <h4 className="w-3/5 text-4xl">Lounge-зона</h4>
+              <h4 className="sm:w-3/5 text-xl sm:text-3xl xl:text-4xl">
+                Lounge-зона
+              </h4>
             </div>
-            <div className="flex flex-row w-1/2 items-center mt-28">
+            <div className="flex flex-row w-1/2 items-center mt-12 sm:mt-28">
               <Image
                 src={cinemaIkon3}
                 alt="Кесло"
                 width="100"
                 height="0"
                 sizes="100%"
-                className="pr-8"
+                className="px-4 sm:pl-0 sm:pr-8"
               />
-              <h4 className="w-3/5 text-4xl">Sony digital cinema 4k</h4>
+              <h4 className="sm:w-3/5 text-xl sm:text-3xl xl:text-4xl">
+                Sony digital cinema 4k
+              </h4>
             </div>
-            <div className="flex flex-row w-1/2 items-center mt-28">
+            <div className="flex flex-row w-1/2 items-center mt-12 sm:mt-28">
               <Image
                 src={cinemaIkon4}
                 alt="Кесло"
                 width="100"
                 height="0"
                 sizes="100%"
-                className="pr-8"
+                className="px-5 sm:pl-0 sm:pr-8"
               />
-              <h4 className="w-3/5 text-4xl">Обслуживание официантами</h4>
+              <h4 className="sm:w-3/5 text-xl sm:text-3xl xl:text-4xl -ml-3 sm:ml-0">
+                Обслуживание официантами
+              </h4>
             </div>
           </div>
         </div>
@@ -256,7 +264,7 @@ export default function Home() {
       {/*                      КИНОТЕАТР ССЫЛКИ                        */}
 
       <section className="mt-20">
-        <div className="container mx-auto">
+        <div className="lg:container mx-auto">
           <ul className="flex w-full items-center justify-between">
             <Link
               href="https://kinomonitor.ru/cinemas/sity/schedule/#tabs"
@@ -289,7 +297,7 @@ export default function Home() {
       {/*                      РЕСТОРАНЫ                        */}
 
       <section className="mb-28" id="restoran">
-        <div className="container mx-auto">
+        <div className="lg:container mx-auto">
           <h2 className="title_main mt-20">РЕСТОРАНЫ</h2>
           <div className="flex justify-center items-start gap-48 my-24">
             <ImageLink
@@ -309,7 +317,7 @@ export default function Home() {
       {/*                      ДЕТЯМ                        */}
 
       <section className="mb-28" id="detyam">
-        <div className="container mx-auto">
+        <div className="lg:container mx-auto">
           <h2 className="title_main mt-20">ДЕТЯМ</h2>
           <div className="flex justify-center items-center my-24 gap-36">
             <ImageLink
@@ -349,7 +357,7 @@ export default function Home() {
       {/*                      КОНТАКТЫ                        */}
 
       <section className="mt-20">
-        <div className="container mx-auto">
+        <div className="lg:container mx-auto">
           <h2 className="title_main mt-20">КОНТАКТЫ</h2>
           <div className="pr-5 flex flex-row gap-12">
             <div className="flex flex-col w-1/3 pl-3 justify-between">
