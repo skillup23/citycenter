@@ -80,7 +80,7 @@ const shopList = [
 
 function ShopListMain() {
   return (
-    <div className="grid grid-cols-4 w-full">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full">
       {shopList.map(({ id, title, link, url }) => {
         return (
           <Link
@@ -97,7 +97,7 @@ function ShopListMain() {
               priority
             />
             <div
-              className={`background_scale duration-300 text-center text-4xl p-6 ${url}`}
+              className={`background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 ${url}`}
             >
               {title}
             </div>

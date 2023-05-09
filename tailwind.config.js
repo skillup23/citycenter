@@ -17,6 +17,19 @@ module.exports = {
         sans: ['var(--font-bebas)', ...fontFamily.sans],
         classic: ['Roboto', 'Arial'],
       },
+      animation: {
+        showmenu: 'showmenu 0.3s ease-in-out',
+      },
+      keyframes: {
+        // showmenu: {
+        //   '0%': { opacity: 0 },
+        //   '100%': { opacity: 1 },
+        // },
+        showmenu: {
+          '0%': { left: '-100vw' },
+          '100%': { left: '0' },
+        },
+      },
     },
   },
   plugins: [],

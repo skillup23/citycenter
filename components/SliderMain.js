@@ -1,6 +1,6 @@
-import React from "react";
-import Slider from "react-slick";
-import Image from "next/image";
+import React from 'react';
+import Slider from 'react-slick';
+import Image from 'next/image';
 
 const SliderMain = ({ data, dots }) => {
   const settings = {
@@ -15,20 +15,20 @@ const SliderMain = ({ data, dots }) => {
     appendDots: (dots) => (
       <div
         style={{
-          borderRadius: "10px",
-          padding: "10px",
+          borderRadius: '10px',
+          padding: '10px',
         }}
       >
-        <ul style={{ margin: "30px" }}> {dots} </ul>
+        <ul style={{ margin: '15px' }}> {dots} </ul>
       </div>
     ),
     customPaging: () => (
       <div
         style={{
-          width: "10px",
-          height: "10px",
-          borderRadius: "50px",
-          backgroundColor: "#ddd",
+          width: '8px',
+          height: '8px',
+          borderRadius: '50px',
+          backgroundColor: '#ddd',
         }}
       ></div>
     ),
@@ -41,10 +41,10 @@ const SliderMain = ({ data, dots }) => {
             <Image
               src={src}
               alt={alt}
-              width='0'
-              height='0'
-              sizes='100vw'
-              className='w-full h-auto'
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto"
               priority
             />
           </div>
