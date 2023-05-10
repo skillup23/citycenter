@@ -24,7 +24,7 @@ function Footer() {
           />
         </Link>
 
-        <div className="grid grid-cols-4 md:flex justify-between items-center gap-2 sm:gap-4 md:gap-4 lg:gap-6 xl:gap-8 2xl:gap-12">
+        <div className="grid grid-cols-4 md:flex items-center justify-between gap-2 sm:gap-4 md:gap-4 lg:gap-6 xl:gap-8 2xl:gap-12">
           {menu.map(({ id, name, link }) => {
             return (
               <Link
