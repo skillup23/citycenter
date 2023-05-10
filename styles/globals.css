@@ -28,7 +28,7 @@
     @apply absolute inset-0 bg-cover hover:scale-110 ease-in duration-200 flex justify-center items-center;
   }
   .link_kino {
-    @apply flex w-1/4 items-center justify-center py-4 text-2xl bg-white text-black ease-in duration-200 hover:bg-black hover:text-white;
+    @apply flex w-1/4 items-center justify-center py-4 bg-white text-black ease-in duration-200 hover:bg-black hover:text-white;
   }
 
   @media (min-width: 640px) {
@@ -86,7 +86,7 @@ a {
 
 .yaMapMain {
   box-sizing: border-box;
-  width: 55vw;
+  width: 100vw;
   height: 500px;
 }
 
@@ -153,5 +153,13 @@ a {
   }
   100% {
     transform: scale(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .yaMapMain {
+    box-sizing: border-box;
+    width: 55vw;
+    height: 500px;
   }
 }

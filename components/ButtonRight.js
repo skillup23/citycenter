@@ -6,7 +6,7 @@ import ImageLink from './ImageLink';
 
 function ButtonRight() {
   return (
-    <div className="fixed top-1/3 right-2 z-50 w-20">
+    <div className="fixed top-1/3 right-2 z-50 w-12 md:w-16 lg:w-20">
       <ImageLink
         href="tel:88612134705"
         src={phone}

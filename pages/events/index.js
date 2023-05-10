@@ -124,15 +124,6 @@ function Events() {
                   8 (861) 213-48-42
                 </Link>
               </li>
-              <li className="flex flex-row w-fill items-center mt-5">
-                <BsFillHexagonFill className="text-3xl mr-5 text-[#1e191a]" />
-                <Link
-                  href="mailto:E.PRITOTSKAYA@CITICENTER.RU"
-                  className="text-2xl"
-                >
-                  E.PRITOTSKAYA@CITICENTER.RU
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

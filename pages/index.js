@@ -156,7 +156,7 @@ export default function Home() {
           width="0"
           height="0"
           sizes="100%"
-          className="absolute top-6 right-0 w-1/12"
+          className="absolute top-2 md:top-6 right-0 w-1/12"
         />
       </section>
 
@@ -263,30 +263,33 @@ export default function Home() {
 
       {/*                      КИНОТЕАТР ССЫЛКИ                        */}
 
-      <section className="mt-20">
+      <section className="mt-10 sm:mt-20">
         <div className="lg:container mx-auto">
           <ul className="flex w-full items-center justify-between">
             <Link
               href="https://kinomonitor.ru/cinemas/sity/schedule/#tabs"
               target="_blank"
-              className="link_kino"
+              className="link_kino text-base sm:text-xl mb:text-2xl"
             >
               Расписание
             </Link>
-            <Link href="/events" className="link_kino">
+            <Link
+              href="/events"
+              className="link_kino text-base sm:text-xl mb:text-2xl"
+            >
               События
             </Link>
             <Link
               href="https://kinomonitor.ru/cinemas/sity/hallplans/"
               target="_blank"
-              className="link_kino"
+              className="link_kino text-base sm:text-xl mb:text-2xl"
             >
               Схема зала
             </Link>
             <Link
               href="https://kinomonitor.ru/cinemas/sity/#tabs"
               target="_blank"
-              className="link_kino"
+              className="link_kino text-base sm:text-xl mb:text-2xl"
             >
               Контакты
             </Link>
@@ -296,10 +299,10 @@ export default function Home() {
 
       {/*                      РЕСТОРАНЫ                        */}
 
-      <section className="mb-28" id="restoran">
+      <section className="mb-20 sm:mb-28" id="restoran">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-20">РЕСТОРАНЫ</h2>
-          <div className="flex justify-center items-start gap-48 my-24">
+          <h2 className="title_main mt-14 sm:mt-20">РЕСТОРАНЫ</h2>
+          <div className="flex justify-center items-start gap-10 sm:gap-48 my-10 sm:my-24">
             <ImageLink
               href="http://donbazilio.ru/"
               src={restoran1}
@@ -316,19 +319,25 @@ export default function Home() {
 
       {/*                      ДЕТЯМ                        */}
 
-      <section className="mb-28" id="detyam">
+      <section className="mb-20 sm:mb-28" id="detyam">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-20">ДЕТЯМ</h2>
-          <div className="flex justify-center items-center my-24 gap-36">
+          <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
+          <div className="flex justify-center items-center my-4 sm:my-24 gap-2 sm:gap-36">
             <ImageLink
               href="https://www.igratoria.com/tarify"
               src={children1}
               alt="Игратория"
+              cssClass="mr-auto ml-auto -mt-1"
             />
-            <ImageLink href="/children/29" src={children2} alt="Lapin House" />
+            <ImageLink
+              href="/children/29"
+              src={children2}
+              alt="Lapin House"
+              cssClass="mr-auto ml-auto"
+            />
             <Link
               href="/children/69"
-              className="w-1/3 h-fill text-5xl ease-in duration-200 hover:scale-105"
+              className="w-1/3 h-fill text-base sm:text-3xl lg:text-5xl ease-in duration-200 hover:scale-105"
             >
               Дом детской моды
             </Link>
@@ -342,7 +351,7 @@ export default function Home() {
             className=""
             priority
           />
-          <div className="flex justify-center items-center my-24 gap-36">
+          <div className="flex justify-center items-center my-6 sm:my-24 gap-8 sm:gap-36">
             <ImageLink href="/children/30" src={children4} alt="Metro Baby" />
             <ImageLink
               href="/children/31"
@@ -358,52 +367,63 @@ export default function Home() {
 
       <section className="mt-20">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-20">КОНТАКТЫ</h2>
-          <div className="pr-5 flex flex-row gap-12">
-            <div className="flex flex-col w-1/3 pl-3 justify-between">
+          <h2 className="title_main mt-20 mb-10 md:mb-0">КОНТАКТЫ</h2>
+          <div className="pr-5 flex flex-col md:flex-row gap-12">
+            <div className="flex flex-col w-fill md:w-1/3 pl-3 justify-between gap-5">
               <div className="flex flex-row w-fill items-center">
-                <HiLocationMarker className="text-xl mr-5" />
-                <h4 className="text-xl">Г. КРАСНОДАР, УЛ. ИНДУСТРИАЛЬНАЯ, 2</h4>
+                <HiLocationMarker className="text-lg md:text-xl mr-5" />
+                <h4 className="text-lg md:text-xl">
+                  Г. КРАСНОДАР, УЛ. ИНДУСТРИАЛЬНАЯ, 2
+                </h4>
               </div>
               <div className="flex flex-row w-fill items-center">
-                <FaPhoneAlt className="text-xl mr-5" />
-                <Link href="tel:88612134700" className="text-xl">
+                <FaPhoneAlt className="text-lg md:text-xl mr-5" />
+                <Link href="tel:88612134700" className="text-lg md:text-xl">
                   8 (861) 213 47 00
                 </Link>
               </div>
               <div className="flex flex-row w-fill items-center">
-                <MdEmail className="text-xl mr-5" />
-                <Link href="mailto:info@citycenter.ru" className="text-xl">
+                <MdEmail className="text-lg md:text-xl mr-5" />
+                <Link
+                  href="mailto:info@citycenter.ru"
+                  className="text-lg md:text-xl"
+                >
                   INFO@CITYCENTER.RU
                 </Link>
               </div>
               <div className="flex flex-row w-fill items-start">
-                <RiTimeFill className="text-xl mr-5 mt-1" />
+                <RiTimeFill className="text-lg md:text-xl mr-5 mt-1" />
                 <div>
-                  <h4 className="text-xl">ЧАСЫ РАБОТЫ:</h4>
-                  <h4 className="text-xl mt-2">
+                  <h4 className="text-lg md:text-xl">ЧАСЫ РАБОТЫ:</h4>
+                  <h4 className="text-lg md:text-xl mt-2">
                     УНИВЕРСАМ «ПЕРЕКРЕСТОК» - КРУГЛОСУТОЧНО
                   </h4>
-                  <h4 className="text-xl mt-2">
+                  <h4 className="text-lg md:text-xl mt-2">
                     КИНОТЕАТР «CITI DE LUXE» - ДО ОКОНЧАНИЯ ПОСЛЕДНЕГО СЕАНСА
                   </h4>
-                  <h4 className="text-xl mt-2">КАФЕ И РЕСТОРАН - ДО 23:00</h4>
-                  <h4 className="text-xl mt-2">МАГАЗИНЫ - С 10:00 ДО 22:00</h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    КАФЕ И РЕСТОРАН - ДО 23:00
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    МАГАЗИНЫ - С 10:00 ДО 22:00
+                  </h4>
                 </div>
               </div>
               <div className="flex flex-row w-fill items-start">
-                <FaBus className="text-xl mr-5 mt-1" />
+                <FaBus className="text-lg md:text-xl mr-5 mt-1" />
                 <div>
-                  <h4 className="text-xl">КАК ДОБРАТЬСЯ:</h4>
-                  <h4 className="text-xl mt-2">
+                  <h4 className="text-lg md:text-xl">КАК ДОБРАТЬСЯ:</h4>
+                  <h4 className="text-lg md:text-xl mt-2">
                     МАРШРУТНОЕ ТАКСИ № 3, 5А, 7А, 8А, 21, 26А, 44, 95
                   </h4>
-                  <h4 className="text-xl mt-2">ТРОЛЛЕЙБУСОМ № 9, 10, 15</h4>
-                  <h4 className="text-xl mt-2">ТРАМВАЕМ № 4, 2</h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    ТРОЛЛЕЙБУСОМ № 9, 10, 15
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">ТРАМВАЕМ № 4, 2</h4>
                 </div>
               </div>
             </div>
-            <div className="flex flex-row flex-wrap w-2/3 items-start content-start">
+            <div className="flex flex-row flex-wrap w-full md:w-2/3 items-start content-start">
               <YandexMap />
             </div>
           </div>
