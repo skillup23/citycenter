@@ -52,6 +52,7 @@ function Header() {
             alt="logo"
             fill
             priority
+            sizes="100%"
             className="ease-in duration-200 hover:scale-105"
           />
         </Link>
@@ -100,6 +101,7 @@ function Header() {
                 alt="logo"
                 fill
                 priority
+                sizes="100%"
                 className="ease-in duration-200 hover:scale-105"
               />
             </Link>
