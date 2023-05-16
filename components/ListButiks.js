@@ -6,7 +6,7 @@ import Image from 'next/image';
 //получаем данные со страниц бутиков и их категорию
 const ListButiks = ({ butiks, category, butiksUrl }) => {
   return (
-    <div className="grid grid-cols-3 gap-y-12 justify-between items-center my-24 mr-32 ml-5">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-y-12 justify-between items-center justify-items-center lg:justify-items-start my-12 md:my-24 mx-5 lg:mr-32 lg:ml-5">
       {butiks &&
         butiks
           .filter((item) => item.category === `${category}`) //*фильтруем по категории для отображения нужных на странице
@@ -25,7 +25,7 @@ const ListButiks = ({ butiks, category, butiksUrl }) => {
         width="0"
         height="0"
         sizes="100%"
-        className="absolute top-1/4 -right-5 w-1/12"
+        className="absolute top-1/4 -right-5 w-1/12 hidden lg:block"
       />
     </div>
   );

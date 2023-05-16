@@ -58,7 +58,10 @@ const SliderBytik = ({ data, dots }) => {
     <section>
       <Slider {...settings}>
         {data.map(({ id, src, alt }) => (
-          <div key={id} className="h-[70vh] relative overflow-hidden">
+          <div
+            key={id}
+            className="h-[30vh] sm:h-[50vh] md:h-[70vh] relative overflow-hidden"
+          >
             <Image
               src={src}
               alt={alt}
