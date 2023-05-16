@@ -46,41 +46,41 @@ function Butik(butik) {
     //Возвращаем бутик
     return (
       <section className="mt-10">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-1/2">
+        <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap gap-10 px-5 md:px-0">
+          <div className="w-full md:w-1/2 order-last md:order-first">
             <SliderBytik data={image} dots={true} />
           </div>
 
-          <div className="w-1/2 flex flex-col justify-between items-start mr-8 pb-2">
+          <div className="w-full md:w-1/2 flex flex-col justify-between items-start pr-0 md:pr-8 pb-2">
             <Image
               src={logo}
               alt={url}
               width={200}
               height={0}
               sizes="100%"
-              className="self-center"
+              className="self-center w-52 h-auto"
             />
-            <div>
-              <p className="text-xl text-justify tracking-wide">
+            <div className="mt-5 md:mt-0">
+              <p className="text-lg sm:text-xl text-justify tracking-wide">
                 {!description1
                   ? 'Описание временно отсутствует'
                   : `${description1}`}
               </p>
-              <p className="text-xl text-justify tracking-wide mt-6">
+              <p className="text-lg sm:text-xl text-justify tracking-wide mt-6">
                 {!description2 ? '' : `${description2}`}
               </p>
-              <p className="text-xl text-justify tracking-wide mt-6">
+              <p className="text-lg sm:text-xl text-justify tracking-wide mt-6">
                 {!description3 ? '' : `${description3}`}
               </p>
             </div>
             <div>
               <div className="flex flex-row w-fill items-center mt-6">
-                <FaMapMarkerAlt className="text-3xl mr-5" />
-                <h4 className="text-2xl">{floor}</h4>
+                <FaMapMarkerAlt className="text-2xl sm:text-3xl mr-5" />
+                <h4 className="text-xl sm:text-2xl">{floor}</h4>
               </div>
               <div className="flex flex-row w-fill items-center mt-2">
-                <FaPhoneAlt className="text-2xl mr-5" />
-                <Link href={telUrl} className="text-2xl">
+                <FaPhoneAlt className="text-xl sm:text-2xl mr-5" />
+                <Link href={telUrl} className="text-xl sm:text-2xl">
                   {tel}
                 </Link>
               </div>
@@ -88,11 +88,11 @@ function Butik(butik) {
                 ''
               ) : (
                 <div className="flex flex-row w-fill items-center mt-2">
-                  <BsInstagram className="text-3xl mr-5" />
+                  <BsInstagram className="text-2xl sm:text-3xl mr-5" />
                   <Link
                     href={`https://www.instagram.com/${instagram}`}
                     target="_blank"
-                    className="text-2xl"
+                    className="text-xl sm:text-2xl"
                   >
                     @{instagram}
                   </Link>

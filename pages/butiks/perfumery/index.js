@@ -28,7 +28,7 @@ const Perfumery = ({ butiks }) => {
   return (
     <Layout title="ПАРФЮМЕРИЯ">
       <section className="mt-10 relative">
-        <div className="container mx-auto">
+        <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">ПАРФЮМЕРИЯ</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
           <ListButiks
