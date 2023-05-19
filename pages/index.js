@@ -324,19 +324,19 @@ export default function Home() {
           <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
           <div className="flex justify-center items-center my-4 sm:my-24 gap-2 sm:gap-36">
             <ImageLink
-              href="https://www.igratoria.com/tarify"
+              href="/services/68"
               src={children1}
               alt="Игратория"
               cssClass="mr-auto ml-auto -mt-1"
             />
             <ImageLink
-              href="/children/29"
+              href="/butiks/children/29"
               src={children2}
               alt="Lapin House"
               cssClass="mr-auto ml-auto"
             />
             <Link
-              href="/children/69"
+              href="/butiks/children/69"
               className="w-1/3 h-fill text-base sm:text-3xl lg:text-5xl ease-in duration-200 hover:scale-105"
             >
               Дом детской моды
@@ -352,9 +352,13 @@ export default function Home() {
             priority
           />
           <div className="flex justify-center items-center my-6 sm:my-24 gap-8 sm:gap-36">
-            <ImageLink href="/children/30" src={children4} alt="Metro Baby" />
             <ImageLink
-              href="/children/31"
+              href="/butiks/children/30"
+              src={children4}
+              alt="Metro Baby"
+            />
+            <ImageLink
+              href="/butiks/children/31"
               src={children5}
               alt="Книжный лабиринт"
             />

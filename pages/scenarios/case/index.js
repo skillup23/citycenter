@@ -1,6 +1,7 @@
 import Layout from '@/components/Layout';
 import React from 'react';
 import schema from '@/public/scenarios/Сase.png';
+import schemaMob from '@/public/scenarios/Сase_mob.png';
 import Scenario from '@/components/Scenario';
 
 function Case() {
@@ -8,7 +9,7 @@ function Case() {
     <Layout title="ОСОБЫЙ СЛУЧАЙ">
       <section className="mt-10">
         <div className="container mx-auto">
-          <Scenario scena={schema} />
+          <Scenario schema={schema} schemaMob={schemaMob} />
         </div>
       </section>
     </Layout>
