@@ -15,7 +15,7 @@ const ListButiks = ({ butiks, category, butiksUrl }) => {
               key={id}
               href={`/butiks/${butiksUrl}/${id}`}
               src={logo}
-              width={56}
+              // width={56}
               alt={url}
             />
           ))}

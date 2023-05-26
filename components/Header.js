@@ -9,6 +9,7 @@ import { GrFormClose } from 'react-icons/gr';
 import { MdArrowRight } from 'react-icons/md';
 import { BsPinMap } from 'react-icons/bs';
 import { TbMapPins } from 'react-icons/tb';
+import { FiMenu } from 'react-icons/fi';
 import { menu } from '@/public/data/data';
 
 function Header() {
@@ -35,12 +36,16 @@ function Header() {
         })}
 
         {/* Мобильное меню */}
-        <h3
+        <FiMenu
+          onClick={() => visibleMenu()}
+          className="ml-3 mr-10 cursor-pointer text-3xl md:text-4xl block lg:hidden"
+        />
+        {/* <h3
           onClick={() => visibleMenu()}
           className="bg-white text-black ml-0 sm:ml-5 py-2 px-8 cursor-pointer text-xl md:text-2xl block lg:hidden"
         >
           Меню
-        </h3>
+        </h3> */}
         {/* Конец Мобильное меню*/}
 
         <Link
