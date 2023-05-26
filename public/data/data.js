@@ -209,8 +209,23 @@ const news = [
 const galleryVesna = [
   {
     id: 1,
-    src: '/slide_main/сайт_1-2022.jpg',
-    alt: 'Изображение 1',
+    src: '/gallery/vesna/1.jpg',
+  },
+  {
+    id: 2,
+    src: '/gallery/vesna/2.jpg',
+  },
+  {
+    id: 3,
+    src: '/gallery/vesna/3.jpg',
+  },
+  {
+    id: 4,
+    src: '/gallery/vesna/4.jpg',
+  },
+  {
+    id: 5,
+    src: '/gallery/vesna/5.jpg',
   },
 ];
 
