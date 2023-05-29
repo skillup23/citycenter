@@ -20,7 +20,7 @@ function Header() {
   }
 
   return (
-    <header className="py-3 sm:py-5 my-1 border_section z-50">
+    <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
       <nav className="lg:container flex mx-auto px-5 justify-between content-center items-center">
         {menu.slice(0, 5).map(({ id, name, link }) => {
           return (
@@ -40,17 +40,10 @@ function Header() {
           onClick={() => visibleMenu()}
           className="ml-3 mr-10 cursor-pointer text-3xl md:text-4xl block lg:hidden"
         />
-        {/* <h3
-          onClick={() => visibleMenu()}
-          className="bg-white text-black ml-0 sm:ml-5 py-2 px-8 cursor-pointer text-xl md:text-2xl block lg:hidden"
-        >
-          Меню
-        </h3> */}
-        {/* Конец Мобильное меню*/}
 
         <Link
           href="/"
-          className="w-[120px] h-[62px] xl:w-[150px] xl:h-[77px] relative"
+          className="w-[100px] h-[50px] xl:w-[120px] xl:h-[58px] relative"
         >
           <Image
             src={logo}

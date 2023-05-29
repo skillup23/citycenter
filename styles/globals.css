@@ -22,7 +22,7 @@
     background-color: black;
   }
   .border_section {
-    @apply border-t-2 border-b-2 border-zinc-300 w-screen;
+    @apply border-t-2 border-b-2 border-zinc-300 w-full;
   }
   .background_scale {
     @apply absolute inset-0 bg-cover hover:scale-110 ease-in duration-200 flex justify-center items-center;
@@ -70,7 +70,7 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 
