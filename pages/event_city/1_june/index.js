@@ -31,7 +31,7 @@ function June() {
                   src={`https://thumb.cloud.mail.ru/weblink/thumb/xw1/Ru3j/CZ6AJNw8A/foto%20%28${item}%29.jpg`}
                   alt="Фото"
                   fill
-                  sizes="100%"
+                  sizes="20vw"
                   className="object-cover ease-in duration-200 hover:scale-105"
                   priority
                 />

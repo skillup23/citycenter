@@ -31,7 +31,7 @@ function OtherCinema() {
                   src={`https://thumb.cloud.mail.ru/weblink/thumb/xw1/n4Dm/adEDR43bB/IMG_${item}.jpg`}
                   alt="Фото"
                   fill
-                  sizes="100%"
+                  sizes="20vw"
                   className="object-cover ease-in duration-200 hover:scale-105"
                   priority
                 />
