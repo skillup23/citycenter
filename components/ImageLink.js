@@ -3,19 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 
 function ImageLink({ href, src, alt, width, cssClass }) {
-  // let widthImg
-  // function test(width) {
-  //   if (width = 'undefined') {
-  //     widthImg = width
-  //   } else {
-  //     widthImg = `w-36 sm:w-48 md:w-56`
-  //   }
-
-  //   return (widthImg)
-  // }
-
-  // console.log(!width);
-
   const widthImg = !width ? `w-36 sm:w-48 md:w-56` : `w-${width}`;
   // const widthImg = width ? `w-${width}` : 'w-36 sm:w-56';
   const otherClass = cssClass

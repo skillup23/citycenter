@@ -26,15 +26,15 @@ export const getServerSideProps = async () => {
 
 const FlowersAndGifts = ({ butiks }) => {
   return (
-    <Layout title="ЦВЕТЫ И ПОДАРКИ">
-      <section className="mt-10 relative">
+    <Layout title="ПОДАРКИ И КНИГИ">
+      <section className="mt-10 relative overflow-hidden min-h-[60vh]">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">ЦВЕТЫ И ПОДАРКИ</h1>
+          <h1 className="title_main mt-10">ПОДАРКИ И КНИГИ</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
           <ListButiks
             butiks={butiks}
-            category={'flowersAndGifts'}
-            butiksUrl={'flowers_and_gifts'}
+            category={'giftsAndBook'}
+            butiksUrl={'gifts_and_books'}
           />
         </div>
       </section>

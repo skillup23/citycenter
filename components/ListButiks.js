@@ -25,7 +25,7 @@ const ListButiks = ({ butiks, category, butiksUrl }) => {
         width="0"
         height="0"
         sizes="100%"
-        className="absolute top-1/4 -right-5 w-1/12 hidden lg:block"
+        className="absolute top-[10%] -right-5 w-1/12 hidden lg:block"
       />
     </div>
   );
