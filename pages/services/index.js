@@ -26,22 +26,6 @@ export const getServerSideProps = async () => {
 };
 
 const Services = ({ butiks }) => {
-  // const [butiks, setButiks] = useState(null);
-  // const [isLoading, setLoading] = useState(false);
-
-  // useEffect(() => {
-  //   setLoading(true);
-  //   fetch(`/api/butiks`)
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setButiks(data);
-  //       setLoading(false);
-  //     });
-  // }, []);
-
-  // if (isLoading) return <p>Loading...</p>;
-  // if (!butiks) return <p>No profile data</p>;
-
   return (
     <Layout title="СЕРВИСЫ">
       <section className="mt-10 relative">
@@ -57,7 +41,7 @@ const Services = ({ butiks }) => {
                     key={id}
                     href={`/services/${id}`}
                     src={logo}
-                    width={220}
+                    // width={20}
                     alt={url}
                   />
                 ))}

@@ -2074,36 +2074,36 @@ export const butiks = [
     telUrl: '89673001118',
   },
 
-  //ЦВЕТЫ И ПОДАРКИ
+  //ПОДАРКИ И КНИГИ
   {
     id: 61,
-    category: 'flowersAndGifts',
+    category: 'giftsAndBook',
     url: 'Шипы и Розы',
-    logo: '/butiks/flowersAndGifts/ThornsAndRoses/logo.png',
+    logo: '/butiks/giftsAndBook/ThornsAndRoses/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/flowersAndGifts/ThornsAndRoses/1.jpg',
+        src: '/butiks/giftsAndBook/ThornsAndRoses/1.jpg',
         alt: 'ThornsAndRoses',
       },
       {
         id: 2,
-        src: '/butiks/flowersAndGifts/ThornsAndRoses/2.jpg',
+        src: '/butiks/giftsAndBook/ThornsAndRoses/2.jpg',
         alt: 'ThornsAndRoses',
       },
       {
         id: 3,
-        src: '/butiks/flowersAndGifts/ThornsAndRoses/3.jpg',
+        src: '/butiks/giftsAndBook/ThornsAndRoses/3.jpg',
         alt: 'ThornsAndRoses',
       },
       {
         id: 4,
-        src: '/butiks/flowersAndGifts/ThornsAndRoses/4.jpg',
+        src: '/butiks/giftsAndBook/ThornsAndRoses/4.jpg',
         alt: 'ThornsAndRoses',
       },
       {
         id: 5,
-        src: '/butiks/flowersAndGifts/ThornsAndRoses/5.jpg',
+        src: '/butiks/giftsAndBook/ThornsAndRoses/5.jpg',
         alt: 'ThornsAndRoses',
         instagram: 'shipirozi',
       },
@@ -2116,18 +2116,18 @@ export const butiks = [
   },
   {
     id: 62,
-    category: 'flowersAndGifts',
+    category: 'giftsAndBook',
     url: 'French Kiss',
-    logo: '/butiks/flowersAndGifts/FrenchKiss/logo.png',
+    logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/flowersAndGifts/FrenchKiss/1.jpg',
+        src: '/butiks/giftsAndBook/FrenchKiss/1.jpg',
         alt: 'FrenchKiss',
       },
       {
         id: 2,
-        src: '/butiks/flowersAndGifts/FrenchKiss/2.jpg',
+        src: '/butiks/giftsAndBook/FrenchKiss/2.jpg',
         alt: 'FrenchKiss',
       },
     ],
@@ -2172,7 +2172,7 @@ export const butiks = [
   //КНИГИ
   {
     id: 64,
-    category: 'books',
+    category: 'giftsAndBook',
     url: 'BookLab',
     logo: '/butiks/children/BookLab/logo.png',
     image: [
@@ -2399,5 +2399,52 @@ export const butiks = [
     tel: '+7 861 213 47 57',
     telUrl: '88612134757',
     instagram: 'dom_detskoi_modi',
+  },
+  {
+    id: 70,
+    category: 'children',
+    url: 'ИГРАТОРИЯ',
+    logo: '/services/Igratoriya/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/services/Igratoriya/1.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 2,
+        src: '/services/Igratoriya/2.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 3,
+        src: '/services/Igratoriya/3.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 4,
+        src: '/services/Igratoriya/4.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 5,
+        src: '/services/Igratoriya/5.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 6,
+        src: '/services/Igratoriya/6.jpg',
+        alt: 'Igratoriya',
+      },
+    ],
+    description1:
+      '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
+    description2:
+      'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
+    description3: 'Встречаемся в Игратории!',
+    floor: '3 этаж',
+    tel: '+7 988 470 19 63',
+    telUrl: '89884701963',
+    instagram: 'igratoria',
   },
 ];

@@ -18,19 +18,19 @@ const shopList = [
   },
   {
     id: 3,
-    title: 'Детское',
+    title: 'Для детей',
     link: '/butiks/children',
     url: 'bg-[url("../public/site_img/shop-3.png")]',
   },
   {
     id: 4,
-    title: 'Белье',
+    title: 'Купальники и нижнее белье',
     link: '/butiks/underwear',
     url: 'bg-[url("../public/site_img/shop-4.png")]',
   },
   {
     id: 5,
-    title: 'Украшение и аксессуары',
+    title: 'Ювелирные изделия и часы',
     link: '/butiks/accessories',
     url: 'bg-[url("../public/site_img/shop-5.png")]',
   },
@@ -54,27 +54,27 @@ const shopList = [
   },
   {
     id: 9,
-    title: 'Цветы и подарки',
-    link: '/butiks/flowers_and_gifts',
+    title: 'Подарки и книги',
+    link: '/butiks/gifts_and_books',
     url: 'bg-[url("../public/site_img/shop-9.png")]',
   },
   {
     id: 10,
-    title: 'Очки',
+    title: 'Очки и аксессуары',
     link: '/butiks/glasses',
     url: 'bg-[url("../public/site_img/shop-10.png")]',
   },
   {
     id: 11,
-    title: 'Книги',
-    link: '/butiks/books',
-    url: 'bg-[url("../public/site_img/shop-11.png")]',
-  },
-  {
-    id: 12,
     title: 'Парфюмерия',
     link: '/butiks/perfumery',
     url: 'bg-[url("../public/site_img/shop-12.png")]',
+  },
+  {
+    id: 12,
+    title: 'Развлечения',
+    link: '/butiks/razvlecheniya',
+    url: 'bg-[url("../public/site_img/shop-11.png")]',
   },
 ];
 

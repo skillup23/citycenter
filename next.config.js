@@ -7,6 +7,8 @@ const nextConfig = {
       'disk.yandex.ru',
       'downloader.disk.yandex.ru',
       'nextcloud900.myvnc.com',
+      'cloud.mail.ru',
+      'thumb.cloud.mail.ru',
     ],
     remotePatterns: [
       {

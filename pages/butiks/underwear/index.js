@@ -26,10 +26,10 @@ export const getServerSideProps = async () => {
 
 const Underwear = ({ butiks }) => {
   return (
-    <Layout title="Белье">
-      <section className="mt-10 relative">
+    <Layout title="КУПАЛЬНИКИ И НИЖНЕЕ БЕЛЬЕ">
+      <section className="mt-10 relative overflow-hidden min-h-[60vh]">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">Белье</h1>
+          <h1 className="title_main mt-10">КУПАЛЬНИКИ И НИЖНЕЕ БЕЛЬЕ</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
           <ListButiks
             butiks={butiks}
