@@ -31,7 +31,7 @@ function Champion() {
                   src={`https://thumb.cloud.mail.ru/weblink/thumb/xw1/8v8i/Ctwd1WPQh/${item}.jpg`}
                   alt="Фото"
                   fill
-                  sizes="100%"
+                  sizes="20vw"
                   className="object-cover ease-in duration-200 hover:scale-105"
                   priority
                 />
