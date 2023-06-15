@@ -63,7 +63,7 @@ function News() {
             {isModal.title}
           </h5>
           {isModal.text.map(({ id, t1 }) => (
-            <p key={id} className="text-sm sm:text-base text-left mt-1">
+            <p key={id} className="text-sm sm:text-base text-left mt-3">
               {t1}
             </p>
           ))}
