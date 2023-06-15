@@ -13,12 +13,12 @@ function News() {
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
-    img: news1,
+    imgm: news1,
     text: [{ t1: '111', id: 1 }],
   });
 
-  function test(img, title, text) {
-    setIsModal({ img, title, text });
+  function test(imgm, title, text) {
+    setIsModal({ imgm, title, text });
     setOpen(true);
   }
 
@@ -26,13 +26,13 @@ function News() {
     <Layout title="НОВОСТИ">
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">НОВОСТИ</h1>
+          <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
           <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-8 sm:px-0">
             {news
-              .map(({ id, img, title, text }) => (
+              .map(({ id, img, imgm, title, text }) => (
                 <li
                   // onClick={() => setOpen(true)}
-                  onClick={() => test(img, title, text)}
+                  onClick={() => test(imgm, title, text)}
                   key={id}
                   className="h-80 sm:h-96 w-full relative overflow-hidden cursor-pointer"
                 >
@@ -51,13 +51,13 @@ function News() {
         </div>
       </section>
       <Popup isOpen={isOpen} setOpen={setOpen}>
-        <div className="flex flex-col justify-center font-classic max-w-4xl p-3 sm:p-10 bg-[#1e191a]">
+        <div className="flex flex-col justify-center font-classic max-w-4xl p-8 sm:p-10 bg-[#1e191a]">
           <Image
-            src={isModal.img}
+            src={isModal.imgm}
             alt="Новость"
-            width={400}
+            width={600}
             height={0}
-            className="w-2/3 sm:w-1/2 m-auto"
+            className="w-full sm:w-2/3 m-auto"
           />
           <h5 className="text-base sm:text-xl text-center mt-2">
             {isModal.title}

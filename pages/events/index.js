@@ -81,13 +81,13 @@ function Events() {
               <li className="flex flex-row w-fill items-center mt-5">
                 <BsFillHexagonFill className="text-2xl sm:text-3xl mr-5 text-[#1e191a]" />
                 <h4 className="text-xl sm:text-2xl">
-                  УЛ. ИНДУСТРИАЛЬНАЯ, 2, ЭТАЖ 2
+                  УЛ. ИНДУСТРИАЛЬНАЯ, 2, ЭТАЖ 3
                 </h4>
               </li>
               <li className="flex flex-row w-fill items-center mt-5">
                 <BsFillHexagonFill className="text-2xl sm:text-3xl mr-5 text-[#1e191a]" />
-                <Link href="tel:89676513344" className="text-xl sm:text-2xl">
-                  +7 967 651 33 44
+                <Link href="tel:89994120012 " className="text-xl sm:text-2xl">
+                  +7 999 412 00 12
                 </Link>
               </li>
               <li className="flex flex-row w-fill items-center mt-5">
@@ -105,7 +105,8 @@ function Events() {
                 <h4 className="text-xl sm:text-2xl">ЕЖЕДНЕВНО, 10:00-02:00</h4>
               </li>
             </ul>
-            <ul className="flex flex-col pl-3 w-full sm:w-1/2 mt-10 sm:mt-0">
+
+            {/* <ul className="flex flex-col pl-3 w-full sm:w-1/2 mt-10 sm:mt-0">
               <li className="flex flex-row w-fill items-center">
                 <BsFillHexagonFill className="text-2xl sm:text-3xl mr-5" />
                 <h4 className="text-4xl sm:text-5xl">ОТДЕЛЫ РЕКЛАМЫ</h4>
@@ -128,7 +129,7 @@ function Events() {
                   8 (861) 213-48-42
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </section>
