@@ -31,9 +31,9 @@ function OtherCinema() {
                   src={`https://thumb.cloud.mail.ru/weblink/thumb/xw1/n4Dm/adEDR43bB/IMG_${item}.jpg`}
                   alt="Фото"
                   fill
-                  sizes="20vw"
+                  sizes="(max-width: 768px) 40vw, 30vw"
                   className="object-cover ease-in duration-200 hover:scale-105"
-                  priority
+                  loading="lazy"
                 />
               </li>
             ))}
@@ -57,8 +57,8 @@ function OtherCinema() {
             alt="Фото"
             width="0"
             height="0"
-            sizes="100%"
-            className="m-auto w-auto max-h-[80vh]"
+            sizes="(max-width: 768px) 80vw, 60vw"
+            className="m-auto w-auto max-h-[75vh]"
           />
         </div>
       </Popup>

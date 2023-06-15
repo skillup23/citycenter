@@ -31,9 +31,9 @@ function Champion() {
                   src={`https://thumb.cloud.mail.ru/weblink/thumb/xw1/8v8i/Ctwd1WPQh/${item}.jpg`}
                   alt="Фото"
                   fill
-                  sizes="20vw"
+                  sizes="(max-width: 768px) 40vw, 30vw"
                   className="object-cover ease-in duration-200 hover:scale-105"
-                  priority
+                  loading="lazy"
                 />
               </li>
             ))}
@@ -57,7 +57,7 @@ function Champion() {
             alt="Фото"
             width="0"
             height="0"
-            sizes="100%"
+            sizes="(max-width: 768px) 80vw, 60vw"
             className="m-auto w-auto max-h-[80vh]"
           />
         </div>
