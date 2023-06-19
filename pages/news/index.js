@@ -51,13 +51,13 @@ function News() {
         </div>
       </section>
       <Popup isOpen={isOpen} setOpen={setOpen}>
-        <div className="flex flex-col justify-center font-classic max-w-4xl p-8 sm:p-10 bg-[#1e191a]">
+        <div className="flex flex-col justify-center font-classic max-w-4xl p-4 sm:p-10 bg-[#1e191a]">
           <Image
             src={isModal.imgm}
             alt="Новость"
             width={600}
             height={0}
-            className="w-full sm:w-2/3 m-auto"
+            className="w-10/12 sm:w-2/3 m-auto"
           />
           <h5 className="text-base sm:text-xl text-center mt-2">
             {isModal.title}
