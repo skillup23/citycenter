@@ -1257,26 +1257,26 @@ export const butiks = [
     instagram: 'wolford_krasnodar',
   },
 
-  //УКРАШЕНИЯ И АКСЕССУАРЫ
+  //ЮВЕЛИРНЫЕ ИЗДЕЛИЯ И ЧАСЫ
   {
     id: 37,
-    category: 'accessories',
+    category: 'clocks',
     url: 'Renaissance',
-    logo: '/butiks/accessories/Renaissance/logo.png',
+    logo: '/butiks/clocks/Renaissance/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/Renaissance/1.jpg',
+        src: '/butiks/clocks/Renaissance/1.jpg',
         alt: 'Renaissance',
       },
       {
         id: 2,
-        src: '/butiks/accessories/Renaissance/2.jpg',
+        src: '/butiks/clocks/Renaissance/2.jpg',
         alt: 'Renaissance',
       },
       {
         id: 3,
-        src: '/butiks/accessories/Renaissance/3.jpg',
+        src: '/butiks/clocks/Renaissance/3.jpg',
         alt: 'Renaissance',
       },
     ],
@@ -1291,38 +1291,38 @@ export const butiks = [
   },
   {
     id: 38,
-    category: 'accessories',
+    category: 'clocks',
     url: 'FreyWille',
-    logo: '/butiks/accessories/FreyWille/logo.png',
+    logo: '/butiks/clocks/FreyWille/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/FreyWille/1.jpg',
+        src: '/butiks/clocks/FreyWille/1.jpg',
         alt: 'Freywille',
       },
       {
         id: 2,
-        src: '/butiks/accessories/FreyWille/2.jpg',
+        src: '/butiks/clocks/FreyWille/2.jpg',
         alt: 'Freywille',
       },
       {
         id: 3,
-        src: '/butiks/accessories/FreyWille/3.jpg',
+        src: '/butiks/clocks/FreyWille/3.jpg',
         alt: 'Freywille',
       },
       {
         id: 4,
-        src: '/butiks/accessories/FreyWille/4.jpg',
+        src: '/butiks/clocks/FreyWille/4.jpg',
         alt: 'Freywille',
       },
       {
         id: 5,
-        src: '/butiks/accessories/FreyWille/5.jpg',
+        src: '/butiks/clocks/FreyWille/5.jpg',
         alt: 'Freywille',
       },
       {
         id: 6,
-        src: '/butiks/accessories/FreyWille/6.jpg',
+        src: '/butiks/clocks/FreyWille/6.jpg',
         alt: 'Freywille',
       },
     ],
@@ -1337,28 +1337,28 @@ export const butiks = [
   },
   {
     id: 39,
-    category: 'accessories',
+    category: 'clocks',
     url: 'GoldLarec',
-    logo: '/butiks/accessories/GoldLarec/logo.png',
+    logo: '/butiks/clocks/GoldLarec/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/GoldLarec/1.jpg',
+        src: '/butiks/clocks/GoldLarec/1.jpg',
         alt: 'GoldLarec',
       },
       {
         id: 2,
-        src: '/butiks/accessories/GoldLarec/2.jpg',
+        src: '/butiks/clocks/GoldLarec/2.jpg',
         alt: 'GoldLarec',
       },
       {
         id: 3,
-        src: '/butiks/accessories/GoldLarec/3.jpg',
+        src: '/butiks/clocks/GoldLarec/3.jpg',
         alt: 'GoldLarec',
       },
       {
         id: 4,
-        src: '/butiks/accessories/GoldLarec/4.jpg',
+        src: '/butiks/clocks/GoldLarec/4.jpg',
         alt: 'GoldLarec',
       },
     ],
@@ -1371,18 +1371,18 @@ export const butiks = [
   },
   {
     id: 40,
-    category: 'accessories',
+    category: 'clocks',
     url: 'DecorBurgua',
-    logo: '/butiks/accessories/DecorBurgua/logo.png',
+    logo: '/butiks/clocks/DecorBurgua/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/DecorBurgua/1.jpg',
+        src: '/butiks/clocks/DecorBurgua/1.jpg',
         alt: 'DecorBurgua',
       },
       {
         id: 2,
-        src: '/butiks/accessories/DecorBurgua/2.jpg',
+        src: '/butiks/clocks/DecorBurgua/2.jpg',
         alt: 'DecorBurgua',
       },
     ],
@@ -1397,33 +1397,33 @@ export const butiks = [
   },
   {
     id: 41,
-    category: 'accessories',
+    category: 'clocks',
     url: 'TimeGalery',
-    logo: '/butiks/accessories/TimeGalery/logo.png',
+    logo: '/butiks/clocks/TimeGalery/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/TimeGalery/1.jpg',
+        src: '/butiks/clocks/TimeGalery/1.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 2,
-        src: '/butiks/accessories/TimeGalery/2.jpg',
+        src: '/butiks/clocks/TimeGalery/2.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 3,
-        src: '/butiks/accessories/TimeGalery/3.jpg',
+        src: '/butiks/clocks/TimeGalery/3.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 4,
-        src: '/butiks/accessories/TimeGalery/4.jpg',
+        src: '/butiks/clocks/TimeGalery/4.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 5,
-        src: '/butiks/accessories/TimeGalery/5.jpg',
+        src: '/butiks/clocks/TimeGalery/5.jpg',
         alt: 'TimeGalery',
       },
     ],
@@ -1438,23 +1438,23 @@ export const butiks = [
   },
   {
     id: 42,
-    category: 'accessories',
+    category: 'clocks',
     url: 'GMT',
-    logo: '/butiks/accessories/GMT/logo.png',
+    logo: '/butiks/clocks/GMT/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/GMT/1.jpg',
+        src: '/butiks/clocks/GMT/1.jpg',
         alt: 'GMT',
       },
       {
         id: 2,
-        src: '/butiks/accessories/GMT/2.jpg',
+        src: '/butiks/clocks/GMT/2.jpg',
         alt: 'GMT',
       },
       {
         id: 3,
-        src: '/butiks/accessories/GMT/3.jpg',
+        src: '/butiks/clocks/GMT/3.jpg',
         alt: 'GMT',
       },
     ],
@@ -1469,13 +1469,13 @@ export const butiks = [
   },
   {
     id: 43,
-    category: 'accessories',
+    category: 'clocks',
     url: 'Branche',
-    logo: '/butiks/accessories/Branche/logo.png',
+    logo: '/butiks/clocks/Branche/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/Branche/1.jpg',
+        src: '/butiks/clocks/Branche/1.jpg',
         alt: 'Branche',
       },
     ],
@@ -1489,127 +1489,14 @@ export const butiks = [
     instagram: 'be.branche',
   },
   {
-    id: 44,
-    category: 'accessories',
-    url: 'PanChemodan',
-    logo: '/butiks/accessories/PanChemodan/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/accessories/PanChemodan/1.jpg',
-        alt: 'PanChemodan',
-      },
-      {
-        id: 2,
-        src: '/butiks/accessories/PanChemodan/2.jpg',
-        alt: 'PanChemodan',
-      },
-      {
-        id: 3,
-        src: '/butiks/accessories/PanChemodan/3.jpg',
-        alt: 'PanChemodan',
-      },
-      {
-        id: 4,
-        src: '/butiks/accessories/PanChemodan/4.jpg',
-        alt: 'PanChemodan',
-      },
-    ],
-    description1:
-      'Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.',
-    description2:
-      'Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.',
-    floor: '2 этаж',
-    tel: '+7 495 280 16 40',
-    telUrl: '84952801640',
-    instagram: 'panchemodan',
-  },
-  {
-    id: 45,
-    category: 'accessories',
-    url: 'cosmo-store',
-    logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
-        alt: 'cosmo-store',
-      },
-    ],
-    description1:
-      'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
-    description2:
-      'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 31',
-    telUrl: '88612134731',
-    instagram: 'cosmostore.krd',
-  },
-  {
-    id: 46,
-    category: 'accessories',
-    url: 'APhone',
-    logo: '/butiks/accessories/APhone/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/accessories/APhone/1.jpg',
-        alt: 'APhone',
-      },
-      {
-        id: 2,
-        src: '/butiks/accessories/APhone/2.jpg',
-        alt: 'APhone',
-      },
-    ],
-    description1:
-      'В насыщенном рынке мобильных аксессуаров торговая марка «Apple» предлагает по-настоящему качественные фирменные и эксклюзивные товары для защиты мобильных устройств и придания им нового оригинального облика: кейсы и защитные стекла для для iphone, браслеты для iwatch и устройства для подключения и зарядки.',
-    description2:
-      'Приоритет салона — это предложение широкого выбора от фирменных аксессуаров высокого качества: «Apple», «Pitaka», «UAG» до эксклюзивных лимитированных изделий из кожи крокодила, карбона и драгоценных металлов.',
-    floor: '2 этаж',
-    tel: '+7 988 369 09 63',
-    telUrl: '89883690963',
-    instagram: 'a.phone',
-  },
-  {
     id: 47,
-    category: 'accessories',
+    category: 'clocks',
     url: 'Antikvariat',
-    logo: '/butiks/accessories/Antikvariat/logo.png',
+    logo: '/butiks/clocks/Antikvariat/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/Antikvariat/1.jpg',
+        src: '/butiks/clocks/Antikvariat/1.jpg',
         alt: 'Antikvariat',
       },
     ],
@@ -1858,26 +1745,26 @@ export const butiks = [
     id: 53,
     category: 'shoesAndBags',
     url: 'PanChemodan',
-    logo: '/butiks/accessories/PanChemodan/logo.png',
+    logo: '/butiks/clocks/PanChemodan/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/PanChemodan/1.jpg',
+        src: '/butiks/clocks/PanChemodan/1.jpg',
         alt: 'PanChemodan',
       },
       {
         id: 2,
-        src: '/butiks/accessories/PanChemodan/2.jpg',
+        src: '/butiks/clocks/PanChemodan/2.jpg',
         alt: 'PanChemodan',
       },
       {
         id: 3,
-        src: '/butiks/accessories/PanChemodan/3.jpg',
+        src: '/butiks/clocks/PanChemodan/3.jpg',
         alt: 'PanChemodan',
       },
       {
         id: 4,
-        src: '/butiks/accessories/PanChemodan/4.jpg',
+        src: '/butiks/clocks/PanChemodan/4.jpg',
         alt: 'PanChemodan',
       },
     ],
@@ -2033,16 +1920,16 @@ export const butiks = [
     id: 59,
     category: 'interior',
     url: 'DecorBurgua',
-    logo: '/butiks/accessories/DecorBurgua/logo.png',
+    logo: '/butiks/clocks/DecorBurgua/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/DecorBurgua/1.jpg',
+        src: '/butiks/clocks/DecorBurgua/1.jpg',
         alt: 'DecorBurgua',
       },
       {
         id: 2,
-        src: '/butiks/accessories/DecorBurgua/2.jpg',
+        src: '/butiks/clocks/DecorBurgua/2.jpg',
         alt: 'DecorBurgua',
       },
     ],
@@ -2059,11 +1946,11 @@ export const butiks = [
     id: 60,
     category: 'interior',
     url: 'Antikvariat',
-    logo: '/butiks/accessories/Antikvariat/logo.png',
+    logo: '/butiks/clocks/Antikvariat/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/accessories/Antikvariat/1.jpg',
+        src: '/butiks/clocks/Antikvariat/1.jpg',
         alt: 'Antikvariat',
       },
     ],
@@ -2139,7 +2026,7 @@ export const butiks = [
     instagram: 'frenchkiss_krd',
   },
 
-  //ОЧКИ
+  //ОЧКИ И АКСЕССУАРЫ
   {
     id: 63,
     category: 'glasses',
@@ -2167,6 +2054,32 @@ export const butiks = [
     tel: '+7 861 213 47 56',
     telUrl: '88612134756',
     instagram: 'optrika',
+  },
+  {
+    id: 46,
+    category: 'glasses',
+    url: 'APhone',
+    logo: '/butiks/clocks/APhone/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/clocks/APhone/1.jpg',
+        alt: 'APhone',
+      },
+      {
+        id: 2,
+        src: '/butiks/clocks/APhone/2.jpg',
+        alt: 'APhone',
+      },
+    ],
+    description1:
+      'В насыщенном рынке мобильных аксессуаров торговая марка «Apple» предлагает по-настоящему качественные фирменные и эксклюзивные товары для защиты мобильных устройств и придания им нового оригинального облика: кейсы и защитные стекла для для iphone, браслеты для iwatch и устройства для подключения и зарядки.',
+    description2:
+      'Приоритет салона — это предложение широкого выбора от фирменных аксессуаров высокого качества: «Apple», «Pitaka», «UAG» до эксклюзивных лимитированных изделий из кожи крокодила, карбона и драгоценных металлов.',
+    floor: '2 этаж',
+    tel: '+7 988 369 09 63',
+    telUrl: '89883690963',
+    instagram: 'a.phone',
   },
 
   //КНИГИ
@@ -2404,6 +2317,81 @@ export const butiks = [
     id: 70,
     category: 'children',
     url: 'ИГРАТОРИЯ',
+    logo: '/services/Igratoriya/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/services/Igratoriya/1.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 2,
+        src: '/services/Igratoriya/2.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 3,
+        src: '/services/Igratoriya/3.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 4,
+        src: '/services/Igratoriya/4.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 5,
+        src: '/services/Igratoriya/5.jpg',
+        alt: 'Igratoriya',
+      },
+      {
+        id: 6,
+        src: '/services/Igratoriya/6.jpg',
+        alt: 'Igratoriya',
+      },
+    ],
+    description1:
+      '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
+    description2:
+      'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
+    description3: 'Встречаемся в Игратории!',
+    floor: '3 этаж',
+    tel: '+7 988 470 19 63',
+    telUrl: '89884701963',
+    instagram: 'igratoria',
+  },
+
+  //РАЗВЛЕЧЕНИЯ
+  {
+    id: 71,
+    category: 'game',
+    url: 'BookLab',
+    logo: '/butiks/children/BookLab/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/BookLab/1.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/BookLab/2.jpg',
+        alt: 'BookLab',
+      },
+    ],
+    description1:
+      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+    description2:
+      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+    floor: '3 этаж',
+    tel: '+7 861 299 71 83',
+    telUrl: '88612134741',
+    instagram: 'knizhnylabirintcity',
+  },
+  {
+    id: 72,
+    category: 'game',
+    url: 'Igratoriya',
     logo: '/services/Igratoriya/logo.png',
     image: [
       {

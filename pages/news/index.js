@@ -57,7 +57,7 @@ function News() {
             alt="Новость"
             width={600}
             height={0}
-            className="w-10/12 sm:w-2/3 m-auto"
+            className="w-10/12 sm:w-1/2 m-auto"
           />
           <h5 className="text-base sm:text-xl text-center mt-2">
             {isModal.title}

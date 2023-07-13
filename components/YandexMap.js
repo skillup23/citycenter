@@ -2,7 +2,9 @@ import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
 const YandexMap = () => (
   <div className="map">
-    <YMaps>
+    <YMaps
+      query={{ apikey: '512911d1-c285-41eb-9c9e-b0b85de92905', lang: 'en_RU' }}
+    >
       <Map
         defaultState={{
           center: [45.001269, 38.961937],
