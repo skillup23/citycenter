@@ -24,17 +24,17 @@ export const getServerSideProps = async () => {
   }
 };
 
-const Glasses = ({ butiks }) => {
+const Accessories = ({ butiks }) => {
   return (
-    <Layout title="ОЧКИ И АКСЕССУАРЫ">
+    <Layout title="ЮВЕЛИРНЫЕ ИЗДЕЛИЯ И ЧАСЫ">
       <section className="mt-10 relative overflow-hidden">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">ОЧКИ И АКСЕССУАРЫ</h1>
+          <h1 className="title_main mt-10">ЮВЕЛИРНЫЕ ИЗДЕЛИЯ И ЧАСЫ</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
           <ListButiks
             butiks={butiks}
-            category={'glasses'}
-            butiksUrl={'glasses'}
+            category={'clocks'}
+            butiksUrl={'clocks'}
           />
         </div>
       </section>
@@ -42,4 +42,4 @@ const Glasses = ({ butiks }) => {
   );
 };
 
-export default Glasses;
+export default Accessories;

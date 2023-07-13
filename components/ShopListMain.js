@@ -31,7 +31,7 @@ const shopList = [
   {
     id: 5,
     title: 'Ювелирные изделия и часы',
-    link: '/butiks/accessories',
+    link: '/butiks/clocks',
     url: 'bg-[url("../public/site_img/shop-5.png")]',
   },
   {
@@ -73,7 +73,7 @@ const shopList = [
   {
     id: 12,
     title: 'Развлечения',
-    link: '/butiks/razvlecheniya',
+    link: '/butiks/game',
     url: 'bg-[url("../public/site_img/shop-11.png")]',
   },
 ];
