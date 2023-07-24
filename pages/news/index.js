@@ -27,19 +27,19 @@ function News() {
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
-          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-8 sm:px-0">
+          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-8 sm:px-0">
             {news
               .map(({ id, img, imgm, title, text }) => (
                 <li
                   // onClick={() => setOpen(true)}
                   onClick={() => test(imgm, title, text)}
                   key={id}
-                  className="h-80 sm:h-96 w-full relative overflow-hidden cursor-pointer"
+                  className="h-full w-full relative overflow-hidden cursor-pointer"
                 >
                   <Image
                     src={img}
                     alt="Новость"
-                    fill
+                    width={420}
                     sizes="100%"
                     className="object-cover ease-in duration-200 hover:scale-105"
                     priority
@@ -51,13 +51,13 @@ function News() {
         </div>
       </section>
       <Popup isOpen={isOpen} setOpen={setOpen}>
-        <div className="flex flex-col justify-center font-classic max-w-4xl p-4 sm:p-10 bg-[#1e191a]">
+        <div className="flex flex-col justify-center font-classic max-w-4xl p-4 sm:p-10 bg-[#1e191a] ">
           <Image
             src={isModal.imgm}
             alt="Новость"
             width={600}
             height={0}
-            className="w-10/12 sm:w-1/2 m-auto"
+            className="w-7/12 sm:w-1/2 m-auto"
           />
           <h5 className="text-base sm:text-xl text-center mt-2">
             {isModal.title}

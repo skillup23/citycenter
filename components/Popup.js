@@ -5,7 +5,7 @@ function Popup({ children, isOpen, setOpen }) {
   return (
     <div
       onClick={(e) => e.currentTarget === e.target && setOpen(false)}
-      className={`fixed w-full h-screen top-0 left-0 bg-black/[.9] flex items-center justify-center z-[55] ${
+      className={`fixed w-full h-full top-0 left-0 bg-black/[.9] flex items-center justify-center z-[55] ${
         isOpen ? 'block overflow-auto' : 'hidden'
       } `}
     >
