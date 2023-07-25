@@ -86,7 +86,7 @@ function EventCity() {
 
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-20">
               <ImageLink
-                href="/event_city/foto_flamenko/"
+                href="/event_city/flamenko/"
                 src={event1}
                 width="72"
                 alt="Фламенко"
@@ -95,7 +95,7 @@ function EventCity() {
               <h4 className="text-center text-2xl md:text-4xl mt-3 sm:mt-6">
                 ФОТОВЫСТАВКА «ФЛАМЕНКО»
               </h4>
-              <Link href="/event_city/foto_flamenko/">
+              <Link href="/event_city/flamenko/">
                 <Image
                   src={eventText}
                   alt="Событие 1"
