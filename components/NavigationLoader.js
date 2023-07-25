@@ -51,7 +51,6 @@ export default function NavigationLoader() {
         <div></div>
         <div></div>
       </div>
-      ;
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Popup({ children, isOpen, setOpen }) {
     >
       <div className="relative">
         <VscClose
-          className="absolute top-1 sm:top-2 right-1 sm:right-2 text-3xl cursor-pointer"
+          className="absolute top-1 sm:top-5 right-1 sm:right-5 text-4xl cursor-pointer"
           onClick={() => setOpen(false)}
         />
         {children}
