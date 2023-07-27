@@ -288,8 +288,7 @@ export default function Home() {
               Схема зала
             </Link>
             <Link
-              href="https://kinomonitor.ru/cinemas/sity/#tabs"
-              target="_blank"
+              href="/events/#cinemacontacts"
               className="link_kino text-base sm:text-xl mb:text-2xl"
             >
               Контакты

@@ -27,7 +27,7 @@ function Events() {
           className="absolute top-2 sm:top-6 right-0 w-1/12"
         />
       </section>
-      <section className="mt-20">
+      <section className="mt-20" id="cinemacontacts">
         <div className="lg:container mx-auto pr-5 flex flex-row gap-12">
           <div className="pl-3">
             <div className="flex gap-12 w-1/2 mb-12 items-start">
