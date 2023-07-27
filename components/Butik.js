@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SliderBytik from '@/components/SliderBytik';
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
-import { BsInstagram } from 'react-icons/bs';
+// import { BsInstagram } from 'react-icons/bs';
 import Layout from './Layout';
 
 function Butik(butik) {
@@ -20,7 +20,7 @@ function Butik(butik) {
     floor,
     tel,
     telUrl,
-    instagram,
+    // instagram,
     image,
   } = butik.butik || {};
 
@@ -84,7 +84,7 @@ function Butik(butik) {
                   {tel}
                 </Link>
               </div>
-              {!instagram ? (
+              {/* {!instagram ? (
                 ''
               ) : (
                 <div className="flex flex-row w-fill items-center mt-2">
@@ -97,7 +97,7 @@ function Butik(butik) {
                     @{instagram}
                   </Link>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>

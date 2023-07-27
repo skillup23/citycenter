@@ -11,7 +11,7 @@ function Flamenko() {
         'https://thumb.cloud.mail.ru/weblink/thumb/xw1/TfHX/NzSFysuJg/foto%20%28'
       }
       linkEnd={'%29.jpg'}
-      linkCloud={'https://cloud.mail.ru/public/TfHX/NzSFysuJg'}
+      linkCloud={'https://disk.yandex.ru/d/nYTfCpB6X5B98Q'}
     />
   );
 }

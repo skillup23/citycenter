@@ -42,7 +42,7 @@ const shopList = [
   },
   {
     id: 7,
-    title: 'Косметика',
+    title: 'КОСМЕТИКА И ПАРФЮМЕРИЯ',
     link: '/butiks/cosmetics',
     url: 'bg-[url("../public/site_img/shop-7.png")]',
   },
@@ -66,8 +66,8 @@ const shopList = [
   },
   {
     id: 11,
-    title: 'Парфюмерия',
-    link: '/butiks/perfumery',
+    title: 'РЕСТОРАНЫ И КАФЕ',
+    link: '/butiks/kafe',
     url: 'bg-[url("../public/site_img/shop-12.png")]',
   },
   {
