@@ -2,7 +2,7 @@ export const butiks = [
   //Женская одежда
   {
     id: 1,
-    category: 'women',
+    category: 'women man',
     url: 'cosmo-store',
     logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
     image: [
@@ -87,30 +87,30 @@ export const butiks = [
     telUrl: '88612134782',
     instagram: 'twin_set_krasnodar',
   },
-  {
-    id: 3,
-    category: 'women',
-    url: 'Modus-fashion',
-    logo: '/butiks/womenClothing/Modus-fashion/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Modus-fashion/1.jpg',
-        alt: 'Modus-fashion',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Modus-fashion/2.jpg',
-        alt: 'Modus-fashion',
-      },
-    ],
-    description1:
-      'Modus Fashion — бренд эксклюзивной одежды для женщин с собственным производством и уникальным дизайном. Бренд создан для уверенных в себе женщин, следящих за модными тенденциями и любительниц быть в центре внимания.',
-    floor: '3 этаж',
-    tel: '+7 938 411 55 03',
-    telUrl: '89384115503',
-    instagram: 'modus_fashion.krd',
-  },
+  // {
+  //   id: 3,
+  //   category: 'women',
+  //   url: 'Modus-fashion',
+  //   logo: '/butiks/womenClothing/Modus-fashion/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Modus-fashion/1.jpg',
+  //       alt: 'Modus-fashion',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Modus-fashion/2.jpg',
+  //       alt: 'Modus-fashion',
+  //     },
+  //   ],
+  //   description1:
+  //     'Modus Fashion — бренд эксклюзивной одежды для женщин с собственным производством и уникальным дизайном. Бренд создан для уверенных в себе женщин, следящих за модными тенденциями и любительниц быть в центре внимания.',
+  //   floor: '3 этаж',
+  //   tel: '+7 938 411 55 03',
+  //   telUrl: '89384115503',
+  //   instagram: 'modus_fashion.krd',
+  // },
   {
     id: 4,
     category: 'women',
@@ -286,40 +286,40 @@ export const butiks = [
     telUrl: '88612134725',
     instagram: 'paulandshark',
   },
-  {
-    id: 7,
-    category: 'women',
-    url: 'Versace-jeans',
-    logo: '/butiks/womenClothing/Versace-jeans/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Versace-jeans/1.jpg',
-        alt: 'Versace-jeans',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Versace-jeans/2.jpg',
-        alt: 'Versace-jeans',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Versace-jeans/3.jpg',
-        alt: 'Versace-jeans',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Versace-jeans/4.jpg',
-        alt: 'Versace-jeans',
-      },
-    ],
-    description1:
-      'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
-    floor: '2 этаж',
-    tel: '+7 909 460 35 88',
-    telUrl: '89094603588',
-    instagram: 'v_с_krd',
-  },
+  // {
+  //   id: 7,
+  //   category: 'women',
+  //   url: 'Versace-jeans',
+  //   logo: '/butiks/womenClothing/Versace-jeans/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Versace-jeans/1.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Versace-jeans/2.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Versace-jeans/3.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Versace-jeans/4.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //   ],
+  //   description1:
+  //     'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
+  //   floor: '2 этаж',
+  //   tel: '+7 909 460 35 88',
+  //   telUrl: '89094603588',
+  //   instagram: 'v_с_krd',
+  // },
   {
     id: 8,
     category: 'women',
@@ -605,60 +605,60 @@ export const butiks = [
   },
 
   //Мужская одежда
-  {
-    id: 15,
-    category: 'men',
-    url: 'cosmo-store',
-    logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
-        alt: 'cosmo-store',
-      },
-    ],
-    description1:
-      'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
-    description2:
-      'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 31',
-    telUrl: '88612134731',
-    instagram: 'cosmostore.krd',
-  },
+  // {
+  //   id: 15,
+  //   category: 'man',
+  //   url: 'cosmo-store',
+  //   logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //   ],
+  //   description1:
+  //     'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
+  //   description2:
+  //     'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 31',
+  //   telUrl: '88612134731',
+  //   instagram: 'cosmostore.krd',
+  // },
   {
     id: 16,
-    category: 'men',
+    category: 'man',
     url: 'Cerruti 1881',
     logo: '/butiks/menClothing/Cerruti1881/logo.png',
     image: [
@@ -682,7 +682,7 @@ export const butiks = [
   },
   {
     id: 17,
-    category: 'men',
+    category: 'man',
     url: 'Angelo Nardelli',
     logo: '/butiks/menClothing/AngeloNardelli/logo.png',
     image: [
@@ -708,7 +708,7 @@ export const butiks = [
   },
   {
     id: 18,
-    category: 'men',
+    category: 'man',
     url: 'Van Laack',
     logo: '/butiks/menClothing/vanLaack/logo.png',
     image: [
@@ -727,7 +727,7 @@ export const butiks = [
   },
   {
     id: 19,
-    category: 'men',
+    category: 'man',
     url: 'XO',
     logo: '/butiks/menClothing/XO/logo.png',
     image: [
@@ -753,7 +753,7 @@ export const butiks = [
   },
   {
     id: 20,
-    category: 'men',
+    category: 'man',
     url: 'Paul-shark',
     logo: '/butiks/womenClothing/Paul-shark/logo.png',
     image: [
@@ -809,7 +809,7 @@ export const butiks = [
   },
   {
     id: 21,
-    category: 'men',
+    category: 'man',
     url: 'Versace-jeans',
     logo: '/butiks/womenClothing/Versace-jeans/logo.png',
     image: [
@@ -843,7 +843,7 @@ export const butiks = [
   },
   {
     id: 22,
-    category: 'men',
+    category: 'man',
     url: 'Bogner',
     logo: '/butiks/womenClothing/Bogner/logo.png',
     image: [
@@ -879,7 +879,7 @@ export const butiks = [
   },
   {
     id: 23,
-    category: 'men',
+    category: 'man',
     url: 'Replay',
     logo: '/butiks/womenClothing/Replay/logo.png',
     image: [
@@ -903,7 +903,7 @@ export const butiks = [
   },
   {
     id: 24,
-    category: 'men',
+    category: 'man',
     url: 'Energie',
     logo: '/butiks/womenClothing/Energie/logo.png',
     image: [
@@ -928,7 +928,7 @@ export const butiks = [
   },
   {
     id: 25,
-    category: 'men',
+    category: 'man',
     url: 'Lab',
     logo: '/butiks/menClothing/Lab/logo.png',
     image: [
@@ -952,7 +952,7 @@ export const butiks = [
   },
   {
     id: 26,
-    category: 'men',
+    category: 'man',
     url: 'PP',
     logo: '/butiks/womenClothing/PP/logo.png',
     image: [
@@ -976,7 +976,7 @@ export const butiks = [
   },
   {
     id: 27,
-    category: 'men',
+    category: 'man',
     url: 'Richard',
     logo: '/butiks/menClothing/Richard/logo.png',
     image: [
@@ -1000,7 +1000,7 @@ export const butiks = [
   },
   {
     id: 28,
-    category: 'men',
+    category: 'man',
     url: 'Excelsior',
     logo: '/butiks/menClothing/Excelsior/logo.png',
     image: [
@@ -1778,7 +1778,7 @@ export const butiks = [
     instagram: 'panchemodan',
   },
 
-  //КОСМЕТИКА
+  //КОСМЕТИКА И ПАРФЮМЕРИЯ
   {
     id: 54,
     category: 'cosmetics',
@@ -1810,28 +1810,84 @@ export const butiks = [
     telUrl: '88612134848',
     instagram: 'sephora_russia',
   },
+  // {
+  //   id: 55,
+  //   category: 'cosmetics',
+  //   url: 'Mac',
+  //   logo: '/butiks/cosmetics/Mac/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/cosmetics/Mac/1.jpg',
+  //       alt: 'Mac',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/cosmetics/Mac/2.jpg',
+  //       alt: 'Mac',
+  //     },
+  //   ],
+  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
+  //   floor: '1 этаж',
+  //   tel: '+7 861 213 47 05',
+  //   telUrl: '88612134705',
+  //   instagram: 'maccosmeticsrussia',
+  // },
   {
-    id: 55,
+    id: 65,
     category: 'cosmetics',
-    url: 'Mac',
-    logo: '/butiks/cosmetics/Mac/logo.png',
+    url: 'Perfumery',
+    logo: '/butiks/cosmetics/Giorgio/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/cosmetics/Mac/1.jpg',
-        alt: 'Mac',
+        src: '/butiks/cosmetics/Giorgio/1.jpg',
+        alt: 'Giorgio',
       },
       {
         id: 2,
-        src: '/butiks/cosmetics/Mac/2.jpg',
-        alt: 'Mac',
+        src: '/butiks/cosmetics/Giorgio/2.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 3,
+        src: '/butiks/cosmetics/Giorgio/3.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 4,
+        src: '/butiks/cosmetics/Giorgio/4.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 5,
+        src: '/butiks/cosmetics/Giorgio/5.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 6,
+        src: '/butiks/cosmetics/Giorgio/6.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 7,
+        src: '/butiks/cosmetics/Giorgio/7.jpg',
+        alt: 'Giorgio',
+      },
+      {
+        id: 8,
+        src: '/butiks/cosmetics/Giorgio/8.jpg',
+        alt: 'Giorgio',
       },
     ],
-    description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
-    floor: '1 этаж',
-    tel: '+7 861 213 47 05',
-    telUrl: '88612134705',
-    instagram: 'maccosmeticsrussia',
+    description1:
+      'Парфюмерный бутик Giorgio не продает, а подбирает аромат под настроение и образ жизни клиента.',
+    description2:
+      'Уникальный ассортимент ароматов, непревзойденное обслуживание и изысканная атмосфера позволяют создать ощущение праздника.',
+    floor: '3 этаж',
+    tel: '+7 861 213 47 40',
+    telUrl: '88612134740',
+    instagram: 'giorgio_boutique',
   },
 
   //ИНТЕРЬЕР
@@ -2110,94 +2166,7 @@ export const butiks = [
     instagram: 'knizhnylabirintcity',
   },
 
-  //ПАРФЮМЕРИЯ
-  {
-    id: 65,
-    category: 'perfumery',
-    url: 'Perfumery',
-    logo: '/butiks/perfumery/Giorgio/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/perfumery/Giorgio/1.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 2,
-        src: '/butiks/perfumery/Giorgio/2.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 3,
-        src: '/butiks/perfumery/Giorgio/3.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 4,
-        src: '/butiks/perfumery/Giorgio/4.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 5,
-        src: '/butiks/perfumery/Giorgio/5.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 6,
-        src: '/butiks/perfumery/Giorgio/6.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 7,
-        src: '/butiks/perfumery/Giorgio/7.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 8,
-        src: '/butiks/perfumery/Giorgio/8.jpg',
-        alt: 'Giorgio',
-      },
-    ],
-    description1:
-      'Парфюмерный бутик Giorgio не продает, а подбирает аромат под настроение и образ жизни клиента.',
-    description2:
-      'Уникальный ассортимент ароматов, непревзойденное обслуживание и изысканная атмосфера позволяют создать ощущение праздника.',
-    floor: '3 этаж',
-    tel: '+7 861 213 47 40',
-    telUrl: '88612134740',
-    instagram: 'giorgio_boutique',
-  },
-  {
-    id: 66,
-    category: 'perfumery',
-    url: 'ileDeBeaute',
-    logo: '/butiks/cosmetics/ileDeBeaute/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/cosmetics/ileDeBeaute/1.jpg',
-        alt: 'ileDeBeaute',
-      },
-      {
-        id: 2,
-        src: '/butiks/cosmetics/ileDeBeaute/2.jpg',
-        alt: 'ileDeBeaute',
-      },
-      {
-        id: 3,
-        src: '/butiks/cosmetics/ileDeBeaute/3.jpg',
-        alt: 'ileDeBeaute',
-      },
-    ],
-    description1: `ИЛЬ ДЕ БОТЭ – МИР РОСКОШНОЙ КРАСОТЫ. Парфюмерно-косметическая сеть ИЛЬ ДЕ БОТЭ была основана в 2001 году и покорила сердца ценителей красоты в России. За долгие годы сеть зарекомендовала себя лидером в сегменте премиум. Основной акцент в работе каждого магазина — высокое качество представленного ассортимента и приверженность профессиональным стандартам обслуживания.`,
-    description2:
-      'Открывая двери ИЛЬ ДЕ БОТЭ, каждый гость попадает в атмосферу спокойствия и комфорта, где ценят и уважают индивидуальные предпочтения и основательно подходят к рекомендациям продуктов. Наследием сети является широкий ассортимент всемирно известных мировых брендов красоты премиум класса, а также большая коллекция селективных марок, эксклюзивных предложений и нишевой парфюмерии.',
-    description3: `ИЛЬ ДЕ БОТЭ – это престижное и комфортное место для знакомства с ежедневными ритуалами и программами красоты, с последними тенденциями и разработками косметической индустрии. Магазины сети ИЛЬ ДЕ БОТЭ расположены в крупнейших городах по всей России.`,
-    floor: '1 этаж',
-    tel: '+7 861 213 48 48',
-    telUrl: '88612134848',
-    instagram: 'sephora_russia',
-  },
+  //КАФЕ
 
   //СЕРВИСЫ
   {
