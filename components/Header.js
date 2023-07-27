@@ -27,7 +27,7 @@ function Header() {
             <Link
               key={id}
               href={link}
-              scroll={false}
+              scroll={true}
               className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-2 xl:mr-0 hidden lg:block"
             >
               {name}
@@ -60,7 +60,7 @@ function Header() {
             <Link
               key={id}
               href={link}
-              scroll={false}
+              scroll={true}
               className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-5 hidden lg:block"
             >
               {name}
