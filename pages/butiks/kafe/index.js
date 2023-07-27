@@ -31,7 +31,11 @@ const Perfumery = ({ butiks }) => {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">РЕСТОРАНЫ И КАФЕ</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
-          <ListButiks butiks={butiks} category={'kafe'} butiksUrl={'kafe'} />
+          <ListButiks
+            butiks={butiks}
+            category={'kafeAndRestoran'}
+            butiksUrl={'kafe'}
+          />
         </div>
       </section>
     </Layout>

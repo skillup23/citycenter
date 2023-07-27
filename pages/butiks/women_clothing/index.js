@@ -33,7 +33,7 @@ const WomenClothing = ({ butiks }) => {
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
           <ListButiks
             butiks={butiks}
-            category={'women'}
+            category={'womenClothing'}
             butiksUrl={'women_clothing'}
           />
         </div>

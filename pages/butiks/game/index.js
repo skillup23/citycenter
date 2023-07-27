@@ -31,7 +31,11 @@ const Cosmetics = ({ butiks }) => {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">РАЗВЛЕЧЕНИЯ</h1>
           {/* Передаем данные бутиков и категорию для фильтра в компонент */}
-          <ListButiks butiks={butiks} category={'game'} butiksUrl={'game'} />
+          <ListButiks
+            butiks={butiks}
+            category={'gameCategory'}
+            butiksUrl={'game'}
+          />
         </div>
       </section>
     </Layout>

@@ -1,8 +1,22 @@
 export const butiks = [
-  //Женская одежда
+  //Женская одежда    womenClothing
+  //Мужская одежда    manClothing
+  //Для детей         children
+  //Купальники        underwear
+  //Ювелирка и часы   clocks
+  //Обувь и сумки     shoesAndBags
+  //Косметика         cosmetics
+  //Интерьер          interior
+  //Подарки и книги   giftsAndBook
+  //Очки и аксесс     glasses
+  //Рестораны и кафе  kafeAndRestoran
+  //Развлечения       gameCategory
+
+  //Сервисы           services
+
   {
     id: 1,
-    category: 'women man',
+    category: 'womenClothing manClothing shoesAndBags',
     url: 'cosmo-store',
     logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
     image: [
@@ -53,7 +67,7 @@ export const butiks = [
   },
   {
     id: 2,
-    category: 'women',
+    category: 'womenClothing',
     url: 'Twinset-milano',
     logo: '/butiks/womenClothing/Twinset-milano/logo.png',
     image: [
@@ -87,33 +101,9 @@ export const butiks = [
     telUrl: '88612134782',
     instagram: 'twin_set_krasnodar',
   },
-  // {
-  //   id: 3,
-  //   category: 'women',
-  //   url: 'Modus-fashion',
-  //   logo: '/butiks/womenClothing/Modus-fashion/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/womenClothing/Modus-fashion/1.jpg',
-  //       alt: 'Modus-fashion',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/womenClothing/Modus-fashion/2.jpg',
-  //       alt: 'Modus-fashion',
-  //     },
-  //   ],
-  //   description1:
-  //     'Modus Fashion — бренд эксклюзивной одежды для женщин с собственным производством и уникальным дизайном. Бренд создан для уверенных в себе женщин, следящих за модными тенденциями и любительниц быть в центре внимания.',
-  //   floor: '3 этаж',
-  //   tel: '+7 938 411 55 03',
-  //   telUrl: '89384115503',
-  //   instagram: 'modus_fashion.krd',
-  // },
   {
-    id: 4,
-    category: 'women',
+    id: 3,
+    category: 'womenClothing',
     url: 'Marccain',
     logo: '/butiks/womenClothing/Marccain/logo.png',
     image: [
@@ -173,8 +163,8 @@ export const butiks = [
     instagram: 'krd_marccain',
   },
   {
-    id: 5,
-    category: 'women',
+    id: 4,
+    category: 'womenClothing',
     url: 'Laurel',
     logo: '/butiks/womenClothing/Laurel/logo.png',
     image: [
@@ -231,8 +221,8 @@ export const butiks = [
     instagram: 'laurel_store_krd',
   },
   {
-    id: 6,
-    category: 'women',
+    id: 5,
+    category: 'womenClothing manClothing',
     url: 'Paul-shark',
     logo: '/butiks/womenClothing/Paul-shark/logo.png',
     image: [
@@ -286,43 +276,9 @@ export const butiks = [
     telUrl: '88612134725',
     instagram: 'paulandshark',
   },
-  // {
-  //   id: 7,
-  //   category: 'women',
-  //   url: 'Versace-jeans',
-  //   logo: '/butiks/womenClothing/Versace-jeans/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/womenClothing/Versace-jeans/1.jpg',
-  //       alt: 'Versace-jeans',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/womenClothing/Versace-jeans/2.jpg',
-  //       alt: 'Versace-jeans',
-  //     },
-  //     {
-  //       id: 3,
-  //       src: '/butiks/womenClothing/Versace-jeans/3.jpg',
-  //       alt: 'Versace-jeans',
-  //     },
-  //     {
-  //       id: 4,
-  //       src: '/butiks/womenClothing/Versace-jeans/4.jpg',
-  //       alt: 'Versace-jeans',
-  //     },
-  //   ],
-  //   description1:
-  //     'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
-  //   floor: '2 этаж',
-  //   tel: '+7 909 460 35 88',
-  //   telUrl: '89094603588',
-  //   instagram: 'v_с_krd',
-  // },
   {
-    id: 8,
-    category: 'women',
+    id: 6,
+    category: 'womenClothing manClothing',
     url: 'Bogner',
     logo: '/butiks/womenClothing/Bogner/logo.png',
     image: [
@@ -357,8 +313,8 @@ export const butiks = [
     instagram: 'bogner_krasnodar',
   },
   {
-    id: 9,
-    category: 'women',
+    id: 7,
+    category: 'womenClothing manClothing',
     url: 'Replay',
     logo: '/butiks/womenClothing/Replay/logo.png',
     image: [
@@ -381,8 +337,8 @@ export const butiks = [
     instagram: 'replay.mf',
   },
   {
-    id: 10,
-    category: 'women',
+    id: 8,
+    category: 'womenClothing manClothing',
     url: 'Energie',
     logo: '/butiks/womenClothing/Energie/logo.png',
     image: [
@@ -406,8 +362,8 @@ export const butiks = [
     instagram: 'energie_citycentre_',
   },
   {
-    id: 11,
-    category: 'women',
+    id: 9,
+    category: 'womenClothing underwear',
     url: 'Wolford',
     logo: '/butiks/womenClothing/Wolford/logo.png',
     image: [
@@ -450,8 +406,8 @@ export const butiks = [
     instagram: 'wolford_krasnodar',
   },
   {
-    id: 12,
-    category: 'women',
+    id: 10,
+    category: 'womenClothing manClothing',
     url: 'PP',
     logo: '/butiks/womenClothing/PP/logo.png',
     image: [
@@ -474,8 +430,8 @@ export const butiks = [
     instagram: 'plein_shop_',
   },
   {
-    id: 13,
-    category: 'women',
+    id: 11,
+    category: 'womenClothing',
     url: 'Elizabetta-franchi',
     logo: '/butiks/womenClothing/Elizabetta-franchi/logo.png',
     image: [
@@ -523,8 +479,8 @@ export const butiks = [
     instagram: 'fashion_brands_krd',
   },
   {
-    id: 14,
-    category: 'women',
+    id: 12,
+    category: 'womenClothing shoesAndBags',
     url: 'Michael-kors',
     logo: '/butiks/womenClothing/Michael-kors/logo.png',
     image: [
@@ -603,86 +559,9 @@ export const butiks = [
     telUrl: '88612980846',
     instagram: 'michaelkors',
   },
-
-  //Мужская одежда
-  // {
-  //   id: 15,
-  //   category: 'man',
-  //   url: 'cosmo-store',
-  //   logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //     {
-  //       id: 3,
-  //       src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //     {
-  //       id: 4,
-  //       src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //     {
-  //       id: 5,
-  //       src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //     {
-  //       id: 6,
-  //       src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //     {
-  //       id: 7,
-  //       src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
-  //       alt: 'cosmo-store',
-  //     },
-  //   ],
-  //   description1:
-  //     'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
-  //   description2:
-  //     'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
-  //   floor: '2 этаж',
-  //   tel: '+7 861 213 47 31',
-  //   telUrl: '88612134731',
-  //   instagram: 'cosmostore.krd',
-  // },
   {
-    id: 16,
-    category: 'man',
-    url: 'Cerruti 1881',
-    logo: '/butiks/menClothing/Cerruti1881/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/menClothing/Cerruti1881/1.jpg',
-        alt: 'Cerruti 1881',
-      },
-      {
-        id: 2,
-        src: '/butiks/menClothing/Cerruti1881/2.jpg',
-        alt: 'Cerruti 1881',
-      },
-    ],
-    description1:
-      'Cerruti – это итальянский дом моды, основателем которого является легендарный кутюрье Нино Черрути. Итальянский бренд одежды специализируется на выпуске одежды и аксессуаров. Cerruti-символ высокого итальянского качества и настоящего европейского шика.',
-    floor: '2 этаж',
-    tel: '+7 953 090 67 23',
-    telUrl: '89530906723',
-    instagram: 'cerruti_1881_krd',
-  },
-  {
-    id: 17,
-    category: 'man',
+    id: 13,
+    category: 'manClothing',
     url: 'Angelo Nardelli',
     logo: '/butiks/menClothing/AngeloNardelli/logo.png',
     image: [
@@ -707,8 +586,8 @@ export const butiks = [
     instagram: 'angelonardelli51',
   },
   {
-    id: 18,
-    category: 'man',
+    id: 14,
+    category: 'manClothing',
     url: 'Van Laack',
     logo: '/butiks/menClothing/vanLaack/logo.png',
     image: [
@@ -726,8 +605,8 @@ export const butiks = [
     instagram: 'vanlaack_krd',
   },
   {
-    id: 19,
-    category: 'man',
+    id: 15,
+    category: 'manClothing underwear',
     url: 'XO',
     logo: '/butiks/menClothing/XO/logo.png',
     image: [
@@ -752,183 +631,8 @@ export const butiks = [
     instagram: 'xo_man_ru',
   },
   {
-    id: 20,
-    category: 'man',
-    url: 'Paul-shark',
-    logo: '/butiks/womenClothing/Paul-shark/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Paul-shark/1.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Paul-shark/2.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Paul-shark/3.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Paul-shark/4.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Paul-shark/5.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Paul-shark/6.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Paul-shark/7.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Paul-shark/8.jpg',
-        alt: 'Paul-shark',
-      },
-    ],
-    description1:
-      'Paul&Shark – известный итальянский бренд, одежды, обуви и аксессуаров в стиле casual. Главные источники вдохновения бренда — морская стихия и яхтенный спорт. Для изготовления одежды используются натуральные материалы: лён, хлопок, кожа, шелк, мериносовая шерсть.',
-    description2:
-      'Разработка и применение новейших технологий обеспечивает функциональность и высокое качество изделий с логотипом Paul&Shark.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 25',
-    telUrl: '88612134725',
-    instagram: 'paulandshark',
-  },
-  {
-    id: 21,
-    category: 'man',
-    url: 'Versace-jeans',
-    logo: '/butiks/womenClothing/Versace-jeans/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Versace-jeans/1.jpg',
-        alt: 'Versace-jeans',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Versace-jeans/2.jpg',
-        alt: 'Versace-jeans',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Versace-jeans/3.jpg',
-        alt: 'Versace-jeans',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Versace-jeans/4.jpg',
-        alt: 'Versace-jeans',
-      },
-    ],
-    description1:
-      'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
-    floor: '2 этаж',
-    tel: '+7 909 460 35 88',
-    telUrl: '89094603588',
-    instagram: 'v_с_krd',
-  },
-  {
-    id: 22,
-    category: 'man',
-    url: 'Bogner',
-    logo: '/butiks/womenClothing/Bogner/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Bogner/1.jpg',
-        alt: 'Bogner',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Bogner/2.jpg',
-        alt: 'Bogner',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Bogner/3.jpg',
-        alt: 'Bogner',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Bogner/4.jpg',
-        alt: 'Bogner',
-      },
-    ],
-    description1:
-      'Спортивная мода премиального класса. Непревзойденное сочетание атлетического шика, функциональности и стиля.',
-    description2:
-      'Бренд BOGNER – это высочайшее качество, стиль, непохожий на другие, создаваемый теми, кто любит и понимает, что такое активный образ жизни, последние модные тенденции, и придерживается высокого уровня жизни.',
-    floor: '2 этаж',
-    tel: '+7 8612 13 47 27',
-    telUrl: '88612134727',
-    instagram: 'bogner_krasnodar',
-  },
-  {
-    id: 23,
-    category: 'man',
-    url: 'Replay',
-    logo: '/butiks/womenClothing/Replay/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Replay/1.jpg',
-        alt: 'Replay',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Replay/2.jpg',
-        alt: 'Replay',
-      },
-    ],
-    description1:
-      'Replay – итальянский бренд одежды, обуви и аксессуаров. Продукция ориентирована на поклонников яркого и молодежного стиля в духе casual. Компания выпускает футболки, блузы и толстовки, джемперы и платья, комбинируя различные материалы: шелк и хлопок, джерси и кашемир. Особое место в ассортименте отводится одежде из денима. Ее окрашивают применением сверхустойчивых красителей, по технологии, экономящей воду в рамках защиты окружающей среды. Под маркой Replay покупателям также предлагаются солнцезащитные очки, аксессуары и обувь, парфюмерия и украшения.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 92',
-    telUrl: '88612134792',
-    instagram: 'replay.mf',
-  },
-  {
-    id: 24,
-    category: 'man',
-    url: 'Energie',
-    logo: '/butiks/womenClothing/Energie/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Energie/1.jpg',
-        alt: 'Energie',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Energie/2.jpg',
-        alt: 'Energie',
-      },
-    ],
-    description1: 'В бутике ENERGIE представлен женский бренд Miss Sixty.',
-    description2:
-      'Miss Sixty — это сочетание сексуальной, жизнерадостной современной одежды и утонченности. Каждый сезон очаровательная смесь культур и идей характеризует коллекции одежды Miss Sixty, которой присущи чувственная женственность и дерзкий дизайн.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 67',
-    telUrl: '88612134767',
-    instagram: 'energie_citycentre_',
-  },
-  {
-    id: 25,
-    category: 'man',
+    id: 16,
+    category: 'manClothing',
     url: 'Lab',
     logo: '/butiks/menClothing/Lab/logo.png',
     image: [
@@ -951,32 +655,8 @@ export const butiks = [
     instagram: 'lab_pal_zileri',
   },
   {
-    id: 26,
-    category: 'man',
-    url: 'PP',
-    logo: '/butiks/womenClothing/PP/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/PP/1.jpg',
-        alt: 'PP',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/PP/2.jpg',
-        alt: 'PP',
-      },
-    ],
-    description1:
-      'PHILIPP PLEIN – немецкий бренд, специализирующийся на производстве одежды, обуви и аксессуаров. Эстетика PHILIPP PLEIN в заклепках, шипах и черепах. Отличительной особенностью бренда является использование в коллекциях принтов в виде черепа.',
-    floor: '2 этаж',
-    tel: '+7 988 243 70 00',
-    telUrl: '89882437000',
-    instagram: 'plein_shop_',
-  },
-  {
-    id: 27,
-    category: 'man',
+    id: 17,
+    category: 'manClothing',
     url: 'Richard',
     logo: '/butiks/menClothing/Richard/logo.png',
     image: [
@@ -999,8 +679,8 @@ export const butiks = [
     instagram: 'richardhampton_krd',
   },
   {
-    id: 28,
-    category: 'man',
+    id: 18,
+    category: 'manClothing',
     url: 'Excelsior',
     logo: '/butiks/menClothing/Excelsior/logo.png',
     image: [
@@ -1022,10 +702,8 @@ export const butiks = [
     telUrl: '88610154597',
     instagram: 'excelsior_city',
   },
-
-  //Детям
   {
-    id: 29,
+    id: 19,
     category: 'children',
     url: 'LapinHouse',
     logo: '/butiks/children/LapinHouse/logo.png',
@@ -1060,33 +738,8 @@ export const butiks = [
     instagram: 'lapinhousekrd',
   },
   {
-    id: 30,
-    category: 'children',
-    url: 'MetroBaby',
-    logo: '/butiks/children/MetroBaby/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/children/MetroBaby/1.jpg',
-        alt: 'MetroBaby',
-      },
-      {
-        id: 2,
-        src: '/butiks/children/MetroBaby/2.jpg',
-        alt: 'MetroBaby',
-      },
-    ],
-    description1: 'В MetroBaby представлена одежда для детей от 1 до 16. ',
-    description2:
-      'В бутике вы найдете такие бренды, как: il Gufo, Diesel, No.21, Stella Mc Cartney, Replay, Marcelo Burlon, Antony Morato, CDFD, Sonia Rykiel. MetroBaby — это история про мам и дочек, про пап и сыночков, про братьев, про сестер. ',
-    floor: '3 этаж',
-    tel: '+7 861 213 47 41',
-    telUrl: '88612134741',
-    instagram: 'metrofashion.ru',
-  },
-  {
-    id: 31,
-    category: 'children',
+    id: 20,
+    category: 'children gameCategory giftsAndBook',
     url: 'BookLab',
     logo: '/butiks/children/BookLab/logo.png',
     image: [
@@ -1110,10 +763,8 @@ export const butiks = [
     telUrl: '88612134741',
     instagram: 'knizhnylabirintcity',
   },
-
-  //Белье
   {
-    id: 32,
+    id: 21,
     category: 'underwear',
     url: 'WildOrchid',
     logo: '/butiks/underwear/WildOrchid/logo.png',
@@ -1139,7 +790,7 @@ export const butiks = [
     instagram: 'wildorchidofficial',
   },
   {
-    id: 33,
+    id: 22,
     category: 'underwear',
     url: 'Laperila',
     logo: '/butiks/underwear/Laperila/logo.png',
@@ -1163,7 +814,7 @@ export const butiks = [
     instagram: 'lingerie_krd',
   },
   {
-    id: 34,
+    id: 23,
     category: 'underwear',
     url: 'EstelAdony',
     logo: '/butiks/underwear/EstelAdony/logo.png',
@@ -1187,79 +838,7 @@ export const butiks = [
     instagram: 'estelle_adony',
   },
   {
-    id: 35,
-    category: 'underwear',
-    url: 'XO',
-    logo: '/butiks/menClothing/XO/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/menClothing/XO/1.jpg',
-        alt: 'XO',
-      },
-      {
-        id: 2,
-        src: '/butiks/menClothing/XO/2.jpg',
-        alt: 'XO',
-      },
-    ],
-    description1:
-      'Сеть магазинов мужского белья X.O. — это философия оригинального стиля и исключительного вкуса.',
-    description2:
-      'В магазинах сети X.O. представлено более 30 всемирно известных марок мужского белья и домашней одежды: Ermenegildo Zegna, Roberto Cavalli, Bikkembergs, Moschino, Derek Rose, Falke, Hanro, Dsquared2, La Perla, Emporio Armani, Hugo Boss, Dolce&Gabbana, Guess, Bruno Banani, Olaf Benz, Calida, Zimmerli, Jockey.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 23',
-    telUrl: '88612134723',
-    instagram: 'xo_man_ru',
-  },
-  {
-    id: 36,
-    category: 'underwear',
-    url: 'Wolford',
-    logo: '/butiks/womenClothing/Wolford/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Wolford/1.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Wolford/2.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Wolford/3.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Wolford/4.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Wolford/5.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Wolford/6.jpg',
-        alt: 'Wolford',
-      },
-    ],
-    description1:
-      'Компания Wolford – это всемирно известный бренд в сегменте доступной роскоши, один из лидеров индустрии. Wolford использует в производстве только лучшие ткани, которые облегают женское тело, украшая его и подчеркивая силуэт. Wolford – это всегда идеальное качество, легкий уход, комфорт в использовании, особенное ощущение тканей на коже и безупречный крой.',
-    floor: '1 этаж',
-    tel: '+7 861 213 47 77',
-    telUrl: '88612134767',
-    instagram: 'wolford_krasnodar',
-  },
-
-  //ЮВЕЛИРНЫЕ ИЗДЕЛИЯ И ЧАСЫ
-  {
-    id: 37,
+    id: 24,
     category: 'clocks',
     url: 'Renaissance',
     logo: '/butiks/clocks/Renaissance/logo.png',
@@ -1290,7 +869,7 @@ export const butiks = [
     instagram: 'renaissance_boutique',
   },
   {
-    id: 38,
+    id: 25,
     category: 'clocks',
     url: 'FreyWille',
     logo: '/butiks/clocks/FreyWille/logo.png',
@@ -1336,7 +915,7 @@ export const butiks = [
     instagram: 'freywille_ru',
   },
   {
-    id: 39,
+    id: 26,
     category: 'clocks',
     url: 'GoldLarec',
     logo: '/butiks/clocks/GoldLarec/logo.png',
@@ -1370,8 +949,8 @@ export const butiks = [
     instagram: 'zolotoylarets',
   },
   {
-    id: 40,
-    category: 'clocks',
+    id: 27,
+    category: 'clocks interior',
     url: 'DecorBurgua',
     logo: '/butiks/clocks/DecorBurgua/logo.png',
     image: [
@@ -1396,7 +975,7 @@ export const butiks = [
     instagram: 'decor_burgua',
   },
   {
-    id: 41,
+    id: 28,
     category: 'clocks',
     url: 'TimeGalery',
     logo: '/butiks/clocks/TimeGalery/logo.png',
@@ -1437,7 +1016,7 @@ export const butiks = [
     instagram: 'time_gallery.krasnodar',
   },
   {
-    id: 42,
+    id: 29,
     category: 'clocks',
     url: 'GMT',
     logo: '/butiks/clocks/GMT/logo.png',
@@ -1468,7 +1047,7 @@ export const butiks = [
     instagram: 'gmt_krasnodar',
   },
   {
-    id: 43,
+    id: 30,
     category: 'clocks',
     url: 'Branche',
     logo: '/butiks/clocks/Branche/logo.png',
@@ -1489,27 +1068,7 @@ export const butiks = [
     instagram: 'be.branche',
   },
   {
-    id: 47,
-    category: 'clocks',
-    url: 'Antikvariat',
-    logo: '/butiks/clocks/Antikvariat/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/clocks/Antikvariat/1.jpg',
-        alt: 'Antikvariat',
-      },
-    ],
-    description1:
-      'В магазине «Антиквариат» представлены антикварные товары и предметы роскоши. Старинные иконы, ювелирные изделия, золотые монеты, бронза, фарфор и многое другое.',
-    floor: '2 этаж',
-    tel: '+7 967 300 11 18',
-    telUrl: '89673001118',
-  },
-
-  //Обувь и сумки
-  {
-    id: 48,
+    id: 31,
     category: 'shoesAndBags',
     url: 'VicMatie',
     logo: '/butiks/shoesAndBags/VicMatie/logo.png',
@@ -1545,7 +1104,7 @@ export const butiks = [
     instagram: 'cosmostore.krd',
   },
   {
-    id: 49,
+    id: 32,
     category: 'shoesAndBags',
     url: 'Fabi',
     logo: '/butiks/shoesAndBags/Fabi/logo.png',
@@ -1581,168 +1140,7 @@ export const butiks = [
     instagram: 'fabi_krd',
   },
   {
-    id: 50,
-    category: 'shoesAndBags',
-    url: 'cosmo-store',
-    logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
-        alt: 'cosmo-store',
-      },
-    ],
-    description1:
-      'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
-    description2:
-      'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 31',
-    telUrl: '88612134731',
-    instagram: 'cosmostore.krd',
-  },
-  {
-    id: 51,
-    category: 'shoesAndBags',
-    url: 'Baldini',
-    logo: '/butiks/shoesAndBags/Baldini/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/shoesAndBags/Baldini/1.jpg',
-        alt: 'Baldini',
-      },
-      {
-        id: 2,
-        src: '/butiks/shoesAndBags/Baldini/2.jpg',
-        alt: 'Baldini',
-      },
-      {
-        id: 3,
-        src: '/butiks/shoesAndBags/Baldini/3.jpg',
-        alt: 'Baldini',
-      },
-    ],
-    description1:
-      'Baldinini – это один из крупнейших и успешных итальянских брендов, специализирующихся на производстве высококачественной обуви преимущественно ручной работы.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 65',
-    telUrl: '88612134765',
-    instagram: 'baldinini_krd',
-  },
-  {
-    id: 52,
-    category: 'shoesAndBags',
-    url: 'Michael-kors',
-    logo: '/butiks/womenClothing/Michael-kors/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Michael-kors/1.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Michael-kors/2.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Michael-kors/3.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Michael-kors/4.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Michael-kors/5.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Michael-kors/6.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Michael-kors/7.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Michael-kors/5.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 9,
-        src: '/butiks/womenClothing/Michael-kors/6.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 10,
-        src: '/butiks/womenClothing/Michael-kors/7.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 11,
-        src: '/butiks/womenClothing/Michael-kors/5.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 12,
-        src: '/butiks/womenClothing/Michael-kors/6.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 13,
-        src: '/butiks/womenClothing/Michael-kors/7.jpg',
-        alt: 'Michael-kors',
-      },
-    ],
-    description1:
-      'Michael Kors является американским модным брендом, который специализируется на производстве одежды, парфюмерии и аксессуаров.',
-    description2:
-      'При создании одежды и аксессуаров под маркой Michael Kors, дизайнер руководствуется желанием покупателей ощутить удовлетворение от покупки на эмоциональном уровне. В изделиях марки Michael Kors гармоничным образом сочетаются американское удобство и европейский шарм. Это универсальные вещи для тех, кто на первое место ставит индивидуальный стиль и качество на уровне деталей.',
-    floor: '2 этаж',
-    tel: '+7 861 298 08 46',
-    telUrl: '88612980846',
-    instagram: 'michaelkors',
-  },
-  {
-    id: 53,
+    id: 33,
     category: 'shoesAndBags',
     url: 'PanChemodan',
     logo: '/butiks/clocks/PanChemodan/logo.png',
@@ -1777,10 +1175,8 @@ export const butiks = [
     telUrl: '84952801640',
     instagram: 'panchemodan',
   },
-
-  //КОСМЕТИКА И ПАРФЮМЕРИЯ
   {
-    id: 54,
+    id: 34,
     category: 'cosmetics',
     url: 'ileDeBeaute',
     logo: '/butiks/cosmetics/ileDeBeaute/logo.png',
@@ -1810,31 +1206,8 @@ export const butiks = [
     telUrl: '88612134848',
     instagram: 'sephora_russia',
   },
-  // {
-  //   id: 55,
-  //   category: 'cosmetics',
-  //   url: 'Mac',
-  //   logo: '/butiks/cosmetics/Mac/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/cosmetics/Mac/1.jpg',
-  //       alt: 'Mac',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/cosmetics/Mac/2.jpg',
-  //       alt: 'Mac',
-  //     },
-  //   ],
-  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
-  //   floor: '1 этаж',
-  //   tel: '+7 861 213 47 05',
-  //   telUrl: '88612134705',
-  //   instagram: 'maccosmeticsrussia',
-  // },
   {
-    id: 65,
+    id: 35,
     category: 'cosmetics',
     url: 'Perfumery',
     logo: '/butiks/cosmetics/Giorgio/logo.png',
@@ -1889,10 +1262,8 @@ export const butiks = [
     telUrl: '88612134740',
     instagram: 'giorgio_boutique',
   },
-
-  //ИНТЕРЬЕР
   {
-    id: 56,
+    id: 36,
     category: 'interior',
     url: 'Renesans',
     logo: '/butiks/interior/Renesans/logo.png',
@@ -1915,7 +1286,7 @@ export const butiks = [
     instagram: 'renaissance_boutique',
   },
   {
-    id: 57,
+    id: 37,
     category: 'interior',
     url: 'DC',
     logo: '/butiks/interior/DC/logo.png',
@@ -1940,7 +1311,7 @@ export const butiks = [
     instagram: 'dream_catchers_rus',
   },
   {
-    id: 58,
+    id: 38,
     category: 'interior',
     url: 'Raffinat',
     logo: '/butiks/interior/Raffinat/logo.png',
@@ -1973,92 +1344,7 @@ export const butiks = [
     instagram: 'raffinatcity',
   },
   {
-    id: 59,
-    category: 'interior',
-    url: 'DecorBurgua',
-    logo: '/butiks/clocks/DecorBurgua/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/clocks/DecorBurgua/1.jpg',
-        alt: 'DecorBurgua',
-      },
-      {
-        id: 2,
-        src: '/butiks/clocks/DecorBurgua/2.jpg',
-        alt: 'DecorBurgua',
-      },
-    ],
-    description1:
-      'В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.',
-    description2:
-      'Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.',
-    floor: '1 этаж',
-    tel: '+7 918 144 23 07',
-    telUrl: '89181442307',
-    instagram: 'decor_burgua',
-  },
-  {
-    id: 60,
-    category: 'interior',
-    url: 'Antikvariat',
-    logo: '/butiks/clocks/Antikvariat/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/clocks/Antikvariat/1.jpg',
-        alt: 'Antikvariat',
-      },
-    ],
-    description1:
-      'В магазине «Антиквариат» представлены антикварные товары и предметы роскоши. Старинные иконы, ювелирные изделия, золотые монеты, бронза, фарфор и многое другое.',
-    floor: '2 этаж',
-    tel: '+7 967 300 11 18',
-    telUrl: '89673001118',
-  },
-
-  //ПОДАРКИ И КНИГИ
-  {
-    id: 61,
-    category: 'giftsAndBook',
-    url: 'Шипы и Розы',
-    logo: '/butiks/giftsAndBook/ThornsAndRoses/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/giftsAndBook/ThornsAndRoses/1.jpg',
-        alt: 'ThornsAndRoses',
-      },
-      {
-        id: 2,
-        src: '/butiks/giftsAndBook/ThornsAndRoses/2.jpg',
-        alt: 'ThornsAndRoses',
-      },
-      {
-        id: 3,
-        src: '/butiks/giftsAndBook/ThornsAndRoses/3.jpg',
-        alt: 'ThornsAndRoses',
-      },
-      {
-        id: 4,
-        src: '/butiks/giftsAndBook/ThornsAndRoses/4.jpg',
-        alt: 'ThornsAndRoses',
-      },
-      {
-        id: 5,
-        src: '/butiks/giftsAndBook/ThornsAndRoses/5.jpg',
-        alt: 'ThornsAndRoses',
-        instagram: 'shipirozi',
-      },
-    ],
-    description1:
-      '«Шипы и Розы» — магазин живых цветов, подарков и аксессуаров. В магазине «Шипы и Розы» представлен широкий выбор авторских композиций, всегда свежих и оригинальных букетов.',
-    floor: '1 этаж',
-    tel: '+7 928 411 30 31',
-    telUrl: '89284113031',
-  },
-  {
-    id: 62,
+    id: 39,
     category: 'giftsAndBook',
     url: 'French Kiss',
     logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
@@ -2081,96 +1367,8 @@ export const butiks = [
     telUrl: '89298388078',
     instagram: 'frenchkiss_krd',
   },
-
-  //ОЧКИ И АКСЕССУАРЫ
   {
-    id: 63,
-    category: 'glasses',
-    url: 'French Kiss',
-    logo: '/butiks/glasses/Optika/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/glasses/Optika/1.jpg',
-        alt: 'Optika',
-      },
-      {
-        id: 2,
-        src: '/butiks/glasses/Optika/2.jpg',
-        alt: 'Optika',
-      },
-    ],
-    description1:
-      'Салон оптики «Оптрика» дает возможность смотреть на мир по-другому и предлагает самые качественные оптические услуги в городе.',
-    description2:
-      'Здесь вы всегда можете приобрести подходящие очки, проверить свое зрение и задать все интересующие вас вопросы оптику-консультанту. “Оптрика” производит очки для зрения только с сертифицированными линзами от мировых производителей.',
-    description3:
-      'В салоне представлены только оригинальные очки от мировых брендов: Cartier, Chrome-Hearts, Dior, Prada, D&G, Gucci, Roberto Cavalli, Tiffany&Co и многие другие.',
-    floor: '1 этаж',
-    tel: '+7 861 213 47 56',
-    telUrl: '88612134756',
-    instagram: 'optrika',
-  },
-  {
-    id: 46,
-    category: 'glasses',
-    url: 'APhone',
-    logo: '/butiks/clocks/APhone/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/clocks/APhone/1.jpg',
-        alt: 'APhone',
-      },
-      {
-        id: 2,
-        src: '/butiks/clocks/APhone/2.jpg',
-        alt: 'APhone',
-      },
-    ],
-    description1:
-      'В насыщенном рынке мобильных аксессуаров торговая марка «Apple» предлагает по-настоящему качественные фирменные и эксклюзивные товары для защиты мобильных устройств и придания им нового оригинального облика: кейсы и защитные стекла для для iphone, браслеты для iwatch и устройства для подключения и зарядки.',
-    description2:
-      'Приоритет салона — это предложение широкого выбора от фирменных аксессуаров высокого качества: «Apple», «Pitaka», «UAG» до эксклюзивных лимитированных изделий из кожи крокодила, карбона и драгоценных металлов.',
-    floor: '2 этаж',
-    tel: '+7 988 369 09 63',
-    telUrl: '89883690963',
-    instagram: 'a.phone',
-  },
-
-  //КНИГИ
-  {
-    id: 64,
-    category: 'giftsAndBook',
-    url: 'BookLab',
-    logo: '/butiks/children/BookLab/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/children/BookLab/1.jpg',
-        alt: 'BookLab',
-      },
-      {
-        id: 2,
-        src: '/butiks/children/BookLab/2.jpg',
-        alt: 'BookLab',
-      },
-    ],
-    description1:
-      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
-    description2:
-      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
-    floor: '3 этаж',
-    tel: '+7 861 299 71 83',
-    telUrl: '88612134741',
-    instagram: 'knizhnylabirintcity',
-  },
-
-  //КАФЕ
-
-  //СЕРВИСЫ
-  {
-    id: 67,
+    id: 40,
     category: 'services',
     url: 'HimCLear',
     logo: '/services/HimCLear/logo.png',
@@ -2195,8 +1393,8 @@ export const butiks = [
     telUrl: '89615102560',
   },
   {
-    id: 68,
-    category: 'services',
+    id: 41,
+    category: 'services gameCategory children',
     url: 'Igratoriya',
     logo: '/services/Igratoriya/logo.png',
     image: [
@@ -2241,10 +1439,8 @@ export const butiks = [
     telUrl: '89884701963',
     instagram: 'igratoria',
   },
-
-  //ДЕТЯМ
   {
-    id: 69,
+    id: 42,
     category: 'children',
     url: 'HouseChildrenModa',
     logo: '/butiks/children/HouseChildrenModa/logo.png',
@@ -2282,126 +1478,900 @@ export const butiks = [
     telUrl: '88612134757',
     instagram: 'dom_detskoi_modi',
   },
-  {
-    id: 70,
-    category: 'children',
-    url: 'ИГРАТОРИЯ',
-    logo: '/services/Igratoriya/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/services/Igratoriya/1.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 2,
-        src: '/services/Igratoriya/2.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 3,
-        src: '/services/Igratoriya/3.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 4,
-        src: '/services/Igratoriya/4.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 5,
-        src: '/services/Igratoriya/5.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 6,
-        src: '/services/Igratoriya/6.jpg',
-        alt: 'Igratoriya',
-      },
-    ],
-    description1:
-      '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
-    description2:
-      'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
-    description3: 'Встречаемся в Игратории!',
-    floor: '3 этаж',
-    tel: '+7 988 470 19 63',
-    telUrl: '89884701963',
-    instagram: 'igratoria',
-  },
 
-  //РАЗВЛЕЧЕНИЯ
-  {
-    id: 71,
-    category: 'game',
-    url: 'BookLab',
-    logo: '/butiks/children/BookLab/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/children/BookLab/1.jpg',
-        alt: 'BookLab',
-      },
-      {
-        id: 2,
-        src: '/butiks/children/BookLab/2.jpg',
-        alt: 'BookLab',
-      },
-    ],
-    description1:
-      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
-    description2:
-      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
-    floor: '3 этаж',
-    tel: '+7 861 299 71 83',
-    telUrl: '88612134741',
-    instagram: 'knizhnylabirintcity',
-  },
-  {
-    id: 72,
-    category: 'game',
-    url: 'Igratoriya',
-    logo: '/services/Igratoriya/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/services/Igratoriya/1.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 2,
-        src: '/services/Igratoriya/2.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 3,
-        src: '/services/Igratoriya/3.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 4,
-        src: '/services/Igratoriya/4.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 5,
-        src: '/services/Igratoriya/5.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 6,
-        src: '/services/Igratoriya/6.jpg',
-        alt: 'Igratoriya',
-      },
-    ],
-    description1:
-      '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
-    description2:
-      'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
-    description3: 'Встречаемся в Игратории!',
-    floor: '3 этаж',
-    tel: '+7 988 470 19 63',
-    telUrl: '89884701963',
-    instagram: 'igratoria',
-  },
+  //Удаленные
+  // {
+  //   id: 3,
+  //   category: 'womenClothing',
+  //   url: 'Modus-fashion',
+  //   logo: '/butiks/womenClothing/Modus-fashion/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Modus-fashion/1.jpg',
+  //       alt: 'Modus-fashion',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Modus-fashion/2.jpg',
+  //       alt: 'Modus-fashion',
+  //     },
+  //   ],
+  //   description1:
+  //     'Modus Fashion — бренд эксклюзивной одежды для женщин с собственным производством и уникальным дизайном. Бренд создан для уверенных в себе женщин, следящих за модными тенденциями и любительниц быть в центре внимания.',
+  //   floor: '3 этаж',
+  //   tel: '+7 938 411 55 03',
+  //   telUrl: '89384115503',
+  //   instagram: 'modus_fashion.krd',
+  // },
+  // {
+  //   id: 7,
+  //   category: 'womenClothing',
+  //   url: 'Versace-jeans',
+  //   logo: '/butiks/womenClothing/Versace-jeans/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Versace-jeans/1.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Versace-jeans/2.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Versace-jeans/3.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Versace-jeans/4.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //   ],
+  //   description1:
+  //     'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
+  //   floor: '2 этаж',
+  //   tel: '+7 909 460 35 88',
+  //   telUrl: '89094603588',
+  //   instagram: 'v_с_krd',
+  // },
+  // {
+  //   id: 15,
+  //   category: 'manClothing',
+  //   url: 'cosmo-store',
+  //   logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //   ],
+  //   description1:
+  //     'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
+  //   description2:
+  //     'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 31',
+  //   telUrl: '88612134731',
+  //   instagram: 'cosmostore.krd',
+  // },
+  // {
+  //   id: 16,
+  //   category: 'manClothing',
+  //   url: 'Cerruti 1881',
+  //   logo: '/butiks/menClothing/Cerruti1881/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/menClothing/Cerruti1881/1.jpg',
+  //       alt: 'Cerruti 1881',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/menClothing/Cerruti1881/2.jpg',
+  //       alt: 'Cerruti 1881',
+  //     },
+  //   ],
+  //   description1:
+  //     'Cerruti – это итальянский дом моды, основателем которого является легендарный кутюрье Нино Черрути. Итальянский бренд одежды специализируется на выпуске одежды и аксессуаров. Cerruti-символ высокого итальянского качества и настоящего европейского шика.',
+  //   floor: '2 этаж',
+  //   tel: '+7 953 090 67 23',
+  //   telUrl: '89530906723',
+  //   instagram: 'cerruti_1881_krd',
+  // },
+  // {
+  //   id: 20,
+  //   category: 'manClothing',
+  //   url: 'Paul-shark',
+  //   logo: '/butiks/womenClothing/Paul-shark/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Paul-shark/1.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Paul-shark/2.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Paul-shark/3.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Paul-shark/4.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/Paul-shark/5.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Paul-shark/6.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/Paul-shark/7.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //     {
+  //       id: 8,
+  //       src: '/butiks/womenClothing/Paul-shark/8.jpg',
+  //       alt: 'Paul-shark',
+  //     },
+  //   ],
+  //   description1:
+  //     'Paul&Shark – известный итальянский бренд, одежды, обуви и аксессуаров в стиле casual. Главные источники вдохновения бренда — морская стихия и яхтенный спорт. Для изготовления одежды используются натуральные материалы: лён, хлопок, кожа, шелк, мериносовая шерсть.',
+  //   description2:
+  //     'Разработка и применение новейших технологий обеспечивает функциональность и высокое качество изделий с логотипом Paul&Shark.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 25',
+  //   telUrl: '88612134725',
+  //   instagram: 'paulandshark',
+  // },
+  // {
+  //   id: 21,
+  //   category: 'manClothing',
+  //   url: 'Versace-jeans',
+  //   logo: '/butiks/womenClothing/Versace-jeans/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Versace-jeans/1.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Versace-jeans/2.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Versace-jeans/3.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Versace-jeans/4.jpg',
+  //       alt: 'Versace-jeans',
+  //     },
+  //   ],
+  //   description1:
+  //     'Премиальный итальянский бренд Versace специализируется на производстве одежды, нижнего белья, обуви, аксессуаров и парфюмерии. Регулярные обновление ассортимента и профессиональная работа консультантов сделали бутик Versace Collection местом притяжения поклонников этого бренда.',
+  //   floor: '2 этаж',
+  //   tel: '+7 909 460 35 88',
+  //   telUrl: '89094603588',
+  //   instagram: 'v_с_krd',
+  // },
+  // {
+  //   id: 22,
+  //   category: 'manClothing',
+  //   url: 'Bogner',
+  //   logo: '/butiks/womenClothing/Bogner/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Bogner/1.jpg',
+  //       alt: 'Bogner',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Bogner/2.jpg',
+  //       alt: 'Bogner',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Bogner/3.jpg',
+  //       alt: 'Bogner',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Bogner/4.jpg',
+  //       alt: 'Bogner',
+  //     },
+  //   ],
+  //   description1:
+  //     'Спортивная мода премиального класса. Непревзойденное сочетание атлетического шика, функциональности и стиля.',
+  //   description2:
+  //     'Бренд BOGNER – это высочайшее качество, стиль, непохожий на другие, создаваемый теми, кто любит и понимает, что такое активный образ жизни, последние модные тенденции, и придерживается высокого уровня жизни.',
+  //   floor: '2 этаж',
+  //   tel: '+7 8612 13 47 27',
+  //   telUrl: '88612134727',
+  //   instagram: 'bogner_krasnodar',
+  // },
+  // {
+  //   id: 23,
+  //   category: 'manClothing',
+  //   url: 'Replay',
+  //   logo: '/butiks/womenClothing/Replay/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Replay/1.jpg',
+  //       alt: 'Replay',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Replay/2.jpg',
+  //       alt: 'Replay',
+  //     },
+  //   ],
+  //   description1:
+  //     'Replay – итальянский бренд одежды, обуви и аксессуаров. Продукция ориентирована на поклонников яркого и молодежного стиля в духе casual. Компания выпускает футболки, блузы и толстовки, джемперы и платья, комбинируя различные материалы: шелк и хлопок, джерси и кашемир. Особое место в ассортименте отводится одежде из денима. Ее окрашивают применением сверхустойчивых красителей, по технологии, экономящей воду в рамках защиты окружающей среды. Под маркой Replay покупателям также предлагаются солнцезащитные очки, аксессуары и обувь, парфюмерия и украшения.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 92',
+  //   telUrl: '88612134792',
+  //   instagram: 'replay.mf',
+  // },
+  // {
+  //   id: 24,
+  //   category: 'manClothing',
+  //   url: 'Energie',
+  //   logo: '/butiks/womenClothing/Energie/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Energie/1.jpg',
+  //       alt: 'Energie',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Energie/2.jpg',
+  //       alt: 'Energie',
+  //     },
+  //   ],
+  //   description1: 'В бутике ENERGIE представлен женский бренд Miss Sixty.',
+  //   description2:
+  //     'Miss Sixty — это сочетание сексуальной, жизнерадостной современной одежды и утонченности. Каждый сезон очаровательная смесь культур и идей характеризует коллекции одежды Miss Sixty, которой присущи чувственная женственность и дерзкий дизайн.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 67',
+  //   telUrl: '88612134767',
+  //   instagram: 'energie_citycentre_',
+  // },
+  // {
+  //   id: 26,
+  //   category: 'manClothing',
+  //   url: 'PP',
+  //   logo: '/butiks/womenClothing/PP/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/PP/1.jpg',
+  //       alt: 'PP',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/PP/2.jpg',
+  //       alt: 'PP',
+  //     },
+  //   ],
+  //   description1:
+  //     'PHILIPP PLEIN – немецкий бренд, специализирующийся на производстве одежды, обуви и аксессуаров. Эстетика PHILIPP PLEIN в заклепках, шипах и черепах. Отличительной особенностью бренда является использование в коллекциях принтов в виде черепа.',
+  //   floor: '2 этаж',
+  //   tel: '+7 988 243 70 00',
+  //   telUrl: '89882437000',
+  //   instagram: 'plein_shop_',
+  // },
+  // {
+  //   id: 55,
+  //   category: 'cosmetics',
+  //   url: 'Mac',
+  //   logo: '/butiks/cosmetics/Mac/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/cosmetics/Mac/1.jpg',
+  //       alt: 'Mac',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/cosmetics/Mac/2.jpg',
+  //       alt: 'Mac',
+  //     },
+  //   ],
+  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
+  //   floor: '1 этаж',
+  //   tel: '+7 861 213 47 05',
+  //   telUrl: '88612134705',
+  //   instagram: 'maccosmeticsrussia',
+  // },
+  // {
+  //   id: 50,
+  //   category: 'shoesAndBags',
+  //   url: 'cosmo-store',
+  //   logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
+  //       alt: 'cosmo-store',
+  //     },
+  //   ],
+  //   description1:
+  //     'В бутике COSMO STORE  представлены эксклюзивные бренды, такие как Diesel, Vic Matie, C.P. Company, Fred Perry, MOMA, Edwin, Blauer, Birkenstock, а также успешно развивающиеся молодые российские бренды Atelier18, SHU.',
+  //   description2:
+  //     'Компания COSMO STORE остается верной трем главным принципам: высокое качество продукта, актуальный европейский стиль и уникальный ассортимент.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 31',
+  //   telUrl: '88612134731',
+  //   instagram: 'cosmostore.krd',
+  // },
+  // {
+  //   id: 64,
+  //   category: 'giftsAndBook',
+  //   url: 'BookLab',
+  //   logo: '/butiks/children/BookLab/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/children/BookLab/1.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/children/BookLab/2.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //   ],
+  //   description1:
+  //     '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+  //   description2:
+  //     'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+  //   floor: '3 этаж',
+  //   tel: '+7 861 299 71 83',
+  //   telUrl: '88612134741',
+  //   instagram: 'knizhnylabirintcity',
+  // },
+  // {
+  //   id: 71,
+  //   category: 'gameCategory',
+  //   url: 'BookLab',
+  //   logo: '/butiks/children/BookLab/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/children/BookLab/1.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/children/BookLab/2.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //   ],
+  //   description1:
+  //     '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+  //   description2:
+  //     'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+  //   floor: '3 этаж',
+  //   tel: '+7 861 299 71 83',
+  //   telUrl: '88612134741',
+  //   instagram: 'knizhnylabirintcity',
+  // },
+  // {
+  //   id: 35,
+  //   category: 'underwear',
+  //   url: 'XO',
+  //   logo: '/butiks/menClothing/XO/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/menClothing/XO/1.jpg',
+  //       alt: 'XO',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/menClothing/XO/2.jpg',
+  //       alt: 'XO',
+  //     },
+  //   ],
+  //   description1:
+  //     'Сеть магазинов мужского белья X.O. — это философия оригинального стиля и исключительного вкуса.',
+  //   description2:
+  //     'В магазинах сети X.O. представлено более 30 всемирно известных марок мужского белья и домашней одежды: Ermenegildo Zegna, Roberto Cavalli, Bikkembergs, Moschino, Derek Rose, Falke, Hanro, Dsquared2, La Perla, Emporio Armani, Hugo Boss, Dolce&Gabbana, Guess, Bruno Banani, Olaf Benz, Calida, Zimmerli, Jockey.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 23',
+  //   telUrl: '88612134723',
+  //   instagram: 'xo_man_ru',
+  // },
+  // {
+  //   id: 36,
+  //   category: 'underwear',
+  //   url: 'Wolford',
+  //   logo: '/butiks/womenClothing/Wolford/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Wolford/1.jpg',
+  //       alt: 'Wolford',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Wolford/2.jpg',
+  //       alt: 'Wolford',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Wolford/3.jpg',
+  //       alt: 'Wolford',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Wolford/4.jpg',
+  //       alt: 'Wolford',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/Wolford/5.jpg',
+  //       alt: 'Wolford',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Wolford/6.jpg',
+  //       alt: 'Wolford',
+  //     },
+  //   ],
+  //   description1:
+  //     'Компания Wolford – это всемирно известный бренд в сегменте доступной роскоши, один из лидеров индустрии. Wolford использует в производстве только лучшие ткани, которые облегают женское тело, украшая его и подчеркивая силуэт. Wolford – это всегда идеальное качество, легкий уход, комфорт в использовании, особенное ощущение тканей на коже и безупречный крой.',
+  //   floor: '1 этаж',
+  //   tel: '+7 861 213 47 77',
+  //   telUrl: '88612134767',
+  //   instagram: 'wolford_krasnodar',
+  // },
+  // {
+  //   id: 30,
+  //   category: 'children',
+  //   url: 'MetroBaby',
+  //   logo: '/butiks/children/MetroBaby/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/children/MetroBaby/1.jpg',
+  //       alt: 'MetroBaby',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/children/MetroBaby/2.jpg',
+  //       alt: 'MetroBaby',
+  //     },
+  //   ],
+  //   description1: 'В MetroBaby представлена одежда для детей от 1 до 16. ',
+  //   description2:
+  //     'В бутике вы найдете такие бренды, как: il Gufo, Diesel, No.21, Stella Mc Cartney, Replay, Marcelo Burlon, Antony Morato, CDFD, Sonia Rykiel. MetroBaby — это история про мам и дочек, про пап и сыночков, про братьев, про сестер. ',
+  //   floor: '3 этаж',
+  //   tel: '+7 861 213 47 41',
+  //   telUrl: '88612134741',
+  //   instagram: 'metrofashion.ru',
+  // },
+  // {
+  //   id: 47,
+  //   category: 'clocks',
+  //   url: 'Antikvariat',
+  //   logo: '/butiks/clocks/Antikvariat/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/clocks/Antikvariat/1.jpg',
+  //       alt: 'Antikvariat',
+  //     },
+  //   ],
+  //   description1:
+  //     'В магазине «Антиквариат» представлены антикварные товары и предметы роскоши. Старинные иконы, ювелирные изделия, золотые монеты, бронза, фарфор и многое другое.',
+  //   floor: '2 этаж',
+  //   tel: '+7 967 300 11 18',
+  //   telUrl: '89673001118',
+  // },
+  // {
+  //   id: 51,
+  //   category: 'shoesAndBags',
+  //   url: 'Baldini',
+  //   logo: '/butiks/shoesAndBags/Baldini/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/shoesAndBags/Baldini/1.jpg',
+  //       alt: 'Baldini',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/shoesAndBags/Baldini/2.jpg',
+  //       alt: 'Baldini',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/shoesAndBags/Baldini/3.jpg',
+  //       alt: 'Baldini',
+  //     },
+  //   ],
+  //   description1:
+  //     'Baldinini – это один из крупнейших и успешных итальянских брендов, специализирующихся на производстве высококачественной обуви преимущественно ручной работы.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 65',
+  //   telUrl: '88612134765',
+  //   instagram: 'baldinini_krd',
+  // },
+  // {
+  //   id: 61,
+  //   category: 'giftsAndBook',
+  //   url: 'Шипы и Розы',
+  //   logo: '/butiks/giftsAndBook/ThornsAndRoses/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/giftsAndBook/ThornsAndRoses/1.jpg',
+  //       alt: 'ThornsAndRoses',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/giftsAndBook/ThornsAndRoses/2.jpg',
+  //       alt: 'ThornsAndRoses',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/giftsAndBook/ThornsAndRoses/3.jpg',
+  //       alt: 'ThornsAndRoses',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/giftsAndBook/ThornsAndRoses/4.jpg',
+  //       alt: 'ThornsAndRoses',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/giftsAndBook/ThornsAndRoses/5.jpg',
+  //       alt: 'ThornsAndRoses',
+  //       instagram: 'shipirozi',
+  //     },
+  //   ],
+  //   description1:
+  //     '«Шипы и Розы» — магазин живых цветов, подарков и аксессуаров. В магазине «Шипы и Розы» представлен широкий выбор авторских композиций, всегда свежих и оригинальных букетов.',
+  //   floor: '1 этаж',
+  //   tel: '+7 928 411 30 31',
+  //   telUrl: '89284113031',
+  // },
+  // {
+  //   id: 46,
+  //   category: 'glasses',
+  //   url: 'APhone',
+  //   logo: '/butiks/clocks/APhone/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/clocks/APhone/1.jpg',
+  //       alt: 'APhone',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/clocks/APhone/2.jpg',
+  //       alt: 'APhone',
+  //     },
+  //   ],
+  //   description1:
+  //     'В насыщенном рынке мобильных аксессуаров торговая марка «Apple» предлагает по-настоящему качественные фирменные и эксклюзивные товары для защиты мобильных устройств и придания им нового оригинального облика: кейсы и защитные стекла для для iphone, браслеты для iwatch и устройства для подключения и зарядки.',
+  //   description2:
+  //     'Приоритет салона — это предложение широкого выбора от фирменных аксессуаров высокого качества: «Apple», «Pitaka», «UAG» до эксклюзивных лимитированных изделий из кожи крокодила, карбона и драгоценных металлов.',
+  //   floor: '2 этаж',
+  //   tel: '+7 988 369 09 63',
+  //   telUrl: '89883690963',
+  //   instagram: 'a.phone',
+  // },
+  // {
+  //   id: 52,
+  //   category: 'shoesAndBags',
+  //   url: 'Michael-kors',
+  //   logo: '/butiks/womenClothing/Michael-kors/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Michael-kors/1.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Michael-kors/2.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Michael-kors/3.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Michael-kors/4.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/Michael-kors/5.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Michael-kors/6.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/Michael-kors/7.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 8,
+  //       src: '/butiks/womenClothing/Michael-kors/5.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 9,
+  //       src: '/butiks/womenClothing/Michael-kors/6.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 10,
+  //       src: '/butiks/womenClothing/Michael-kors/7.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 11,
+  //       src: '/butiks/womenClothing/Michael-kors/5.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 12,
+  //       src: '/butiks/womenClothing/Michael-kors/6.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //     {
+  //       id: 13,
+  //       src: '/butiks/womenClothing/Michael-kors/7.jpg',
+  //       alt: 'Michael-kors',
+  //     },
+  //   ],
+  //   description1:
+  //     'Michael Kors является американским модным брендом, который специализируется на производстве одежды, парфюмерии и аксессуаров.',
+  //   description2:
+  //     'При создании одежды и аксессуаров под маркой Michael Kors, дизайнер руководствуется желанием покупателей ощутить удовлетворение от покупки на эмоциональном уровне. В изделиях марки Michael Kors гармоничным образом сочетаются американское удобство и европейский шарм. Это универсальные вещи для тех, кто на первое место ставит индивидуальный стиль и качество на уровне деталей.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 298 08 46',
+  //   telUrl: '88612980846',
+  //   instagram: 'michaelkors',
+  // },
+  // {
+  //   id: 59,
+  //   category: 'interior',
+  //   url: 'DecorBurgua',
+  //   logo: '/butiks/clocks/DecorBurgua/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/clocks/DecorBurgua/1.jpg',
+  //       alt: 'DecorBurgua',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/clocks/DecorBurgua/2.jpg',
+  //       alt: 'DecorBurgua',
+  //     },
+  //   ],
+  //   description1:
+  //     'В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.',
+  //   description2:
+  //     'Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.',
+  //   floor: '1 этаж',
+  //   tel: '+7 918 144 23 07',
+  //   telUrl: '89181442307',
+  //   instagram: 'decor_burgua',
+  // },
+  // {
+  //   id: 63,
+  //   category: 'glasses',
+  //   url: 'French Kiss',
+  //   logo: '/butiks/glasses/Optika/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/glasses/Optika/1.jpg',
+  //       alt: 'Optika',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/glasses/Optika/2.jpg',
+  //       alt: 'Optika',
+  //     },
+  //   ],
+  //   description1:
+  //     'Салон оптики «Оптрика» дает возможность смотреть на мир по-другому и предлагает самые качественные оптические услуги в городе.',
+  //   description2:
+  //     'Здесь вы всегда можете приобрести подходящие очки, проверить свое зрение и задать все интересующие вас вопросы оптику-консультанту. “Оптрика” производит очки для зрения только с сертифицированными линзами от мировых производителей.',
+  //   description3:
+  //     'В салоне представлены только оригинальные очки от мировых брендов: Cartier, Chrome-Hearts, Dior, Prada, D&G, Gucci, Roberto Cavalli, Tiffany&Co и многие другие.',
+  //   floor: '1 этаж',
+  //   tel: '+7 861 213 47 56',
+  //   telUrl: '88612134756',
+  //   instagram: 'optrika',
+  // },
+  // {
+  //   id: 72,
+  //   category: 'gameCategory',
+  //   url: 'Igratoriya',
+  //   logo: '/services/Igratoriya/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/services/Igratoriya/1.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/services/Igratoriya/2.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/services/Igratoriya/3.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/services/Igratoriya/4.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/services/Igratoriya/5.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/services/Igratoriya/6.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //   ],
+  //   description1:
+  //     '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
+  //   description2:
+  //     'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
+  //   description3: 'Встречаемся в Игратории!',
+  //   floor: '3 этаж',
+  //   tel: '+7 988 470 19 63',
+  //   telUrl: '89884701963',
+  //   instagram: 'igratoria',
+  // },
+  // {
+  //   id: 43,
+  //   category: 'children',
+  //   url: 'ИГРАТОРИЯ',
+  //   logo: '/services/Igratoriya/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/services/Igratoriya/1.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/services/Igratoriya/2.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/services/Igratoriya/3.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/services/Igratoriya/4.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/services/Igratoriya/5.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/services/Igratoriya/6.jpg',
+  //       alt: 'Igratoriya',
+  //     },
+  //   ],
+  //   description1:
+  //     '«Игратория» — это сеть современных детских игровых центров для игры и творчества. Здесь есть все, что так нравится детям: Игровой лабиринт, горки, бассейн с шариками, батут, а так же самые интересные игрушки. Во всех центрах «Игратория» работают педагоги- аниматоры, которые активно играют с детками. Они знают 1000 игр и сумеют развеселить даже самого сурового малыша.',
+  //   description2:
+  //     'Для наших маленьких гостей мы ежедневно проводим увлекательные мастер-классы, мини-диско, зарядку и множество подвижных игр. Каждые выходные мы приглашаем Ваших малышей принять участие в программе «Выходные с Играторией», где ребят ждет бесплатный аквагрим, квест, игровая программа, творческий мастер класс и много других веселых сюрпризов. Все активности входят в стоимость посещения и не требуют дополнительной оплаты! А еще в «Игратории» можно отметить самый веселый и яркий день рождения, который точно понравится имениннику и запомниться всем гостям.',
+  //   description3: 'Встречаемся в Игратории!',
+  //   floor: '3 этаж',
+  //   tel: '+7 988 470 19 63',
+  //   telUrl: '89884701963',
+  //   instagram: 'igratoria',
+  // },
 ];
