@@ -93,11 +93,11 @@ function Events() {
               <li className="flex flex-row w-fill items-center mt-5">
                 <BsFillHexagonFill className="text-2xl sm:text-3xl mr-5 text-[#1e191a]" />
                 <Link
-                  href="https://www.instagram.com/kinomonitor/"
+                  href="https://kinomonitor.ru/"
                   target="_blank"
                   className="text-xl sm:text-2xl"
                 >
-                  @KINOMONITOR
+                  KINOMONITOR.RU
                 </Link>
               </li>
               <li className="flex flex-row w-fill items-center mt-5">

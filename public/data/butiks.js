@@ -950,7 +950,7 @@ export const butiks = [
   },
   {
     id: 27,
-    category: 'clocks interior',
+    category: 'clocks interior giftsAndBook',
     url: 'DecorBurgua',
     logo: '/butiks/clocks/DecorBurgua/logo.png',
     image: [
@@ -976,7 +976,7 @@ export const butiks = [
   },
   {
     id: 28,
-    category: 'clocks',
+    category: 'clocks giftsAndBook',
     url: 'TimeGalery',
     logo: '/butiks/clocks/TimeGalery/logo.png',
     image: [
@@ -1017,7 +1017,7 @@ export const butiks = [
   },
   {
     id: 29,
-    category: 'clocks',
+    category: 'clocks giftsAndBook',
     url: 'GMT',
     logo: '/butiks/clocks/GMT/logo.png',
     image: [
@@ -1141,7 +1141,7 @@ export const butiks = [
   },
   {
     id: 33,
-    category: 'shoesAndBags',
+    category: 'shoesAndBags glasses',
     url: 'PanChemodan',
     logo: '/butiks/clocks/PanChemodan/logo.png',
     image: [
@@ -1264,7 +1264,7 @@ export const butiks = [
   },
   {
     id: 36,
-    category: 'interior',
+    category: 'interior giftsAndBook',
     url: 'Renesans',
     logo: '/butiks/interior/Renesans/logo.png',
     image: [
@@ -1477,6 +1477,49 @@ export const butiks = [
     tel: '+7 861 213 47 57',
     telUrl: '88612134757',
     instagram: 'dom_detskoi_modi',
+  },
+  {
+    id: 43,
+    category: 'glasses',
+    url: 'Mac',
+    logo: '/butiks/cosmetics/Mac/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/cosmetics/Mac/1.jpg',
+        alt: 'Mac',
+      },
+      {
+        id: 2,
+        src: '/butiks/cosmetics/Mac/2.jpg',
+        alt: 'Mac',
+      },
+    ],
+    description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
+    floor: '1 этаж',
+    tel: '+7 861 213 47 05',
+    telUrl: '88612134705',
+    instagram: 'maccosmeticsrussia',
+  },
+  {
+    id: 44,
+    category: 'gameCategory',
+    url: 'Cinema',
+    logo: '/butiks/gameCategory/cinema/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/gameCategory/cinema/logo.png',
+        alt: 'Cinema',
+      },
+    ],
+    description1: `«МОНИТОР Сити de Luxe» — кинотеатр нового уровня, соответствующий актуальным трендам мирового кинопоказа и современного дизайна. Кинотеатр оборудован высококачественной кинопроекционной системой Sony Digital.Cinema 4K с функцией показа максимально чёткого изображения.`,
+    description2: `В двух комфортных залах на 62 и 64 места установлены удобные кресла с выдвижными столиками, огромным личным пространством и большим расстоянием между рядами. Все кресла имеют выдвижную слайдер-систему. Последний ряд оборудован раскладывающимися креслами-реклайнерами с подставкой для ног, которые можно привести в полностью горизонтальное положение.`,
+    description3: `Также у нас вы можете заказать еду из ресторана прямо в кинозал. Официант принесёт заказ и разместит его на столике у кресла.`,
+    floor: '3 этаж',
+    tel: '+7 999 412 00 12',
+    telUrl: '89994120012',
+    instagram: 'KINOMONITOR',
   },
 
   //Удаленные
@@ -1811,29 +1854,6 @@ export const butiks = [
   //   tel: '+7 988 243 70 00',
   //   telUrl: '89882437000',
   //   instagram: 'plein_shop_',
-  // },
-  // {
-  //   id: 55,
-  //   category: 'cosmetics',
-  //   url: 'Mac',
-  //   logo: '/butiks/cosmetics/Mac/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/cosmetics/Mac/1.jpg',
-  //       alt: 'Mac',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/cosmetics/Mac/2.jpg',
-  //       alt: 'Mac',
-  //     },
-  //   ],
-  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
-  //   floor: '1 этаж',
-  //   tel: '+7 861 213 47 05',
-  //   telUrl: '88612134705',
-  //   instagram: 'maccosmeticsrussia',
   // },
   // {
   //   id: 50,
