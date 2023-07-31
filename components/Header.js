@@ -118,7 +118,7 @@ function Header() {
               <Link
                 key={id}
                 href={link}
-                scroll={false}
+                scroll={true}
                 onClick={() => visibleMenu()}
                 className="group text-xl sm:text-2xl ml-3 mb-3 flex justify-between"
               >
