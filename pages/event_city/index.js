@@ -4,7 +4,7 @@ import ImageLink from '@/components/ImageLink';
 import event1 from '@/public/event_city/Flamenko/1.jpg';
 import event2 from '@/public/event_city/Vesna/1.jpg';
 import event3 from '@/public/event_city/OtherCinema/1.jpg';
-import event4 from '@/public/event_city/Champion/1.jpg';
+// import event4 from '@/public/event_city/Champion/1.jpg';
 import event5 from '@/public/event_city/1_june/1.jpg';
 import eventText from '@/public/event_city/смотреть-фотоотчет.png';
 import Link from 'next/link';
@@ -17,7 +17,7 @@ function EventCity() {
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-10">МЕРОПРИЯТИЯ</h2>
 
-          <div className="flex mt-14 flex-wrap">
+          <div className="flex mt-2 sm:mt-14 flex-wrap gap-y-6 sm:gap-y-14">
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
                 href="/event_city/other_cinema"
@@ -40,7 +40,7 @@ function EventCity() {
               </Link>
             </div>
 
-            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
+            {/* <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
                 href="/event_city/champion"
                 src={event4}
@@ -60,7 +60,7 @@ function EventCity() {
                   className="hover:scale-95 ease-in duration-200 m-auto mt-3 sm:mt-6"
                 />
               </Link>
-            </div>
+            </div> */}
 
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
@@ -84,7 +84,7 @@ function EventCity() {
               </Link>
             </div>
 
-            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-20">
+            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
                 href="/event_city/flamenko/"
                 src={event1}
@@ -106,7 +106,7 @@ function EventCity() {
               </Link>
             </div>
 
-            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-20">
+            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
                 href="/event_city/vesna_v_citycenter/"
                 src={event2}
