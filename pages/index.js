@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 import SliderMain from '@/components/SliderMain';
 import ShopListMain from '@/components/ShopListMain';
 import ImageLink from '@/components/ImageLink';
-import text1 from '@/public/site_img/текст-1.png';
+// import text1 from '@/public/site_img/текст-1.png';
 import text2 from '@/public/site_img/текст-2.png';
 import event1 from '@/public/site_img/event1.png';
 import event2 from '@/public/site_img/event2.png';
@@ -41,8 +41,8 @@ export default function Home() {
       {/*                      СЦЕНАРИИ                         */}
 
       <section className="border_section border-b-0">
-        <div className="lg:container mx-auto pr-5">
-          <h2 className="title_main text-right mt-6 sm:mt-12">СЦЕНАРИИ</h2>
+        <div className="lg:container mx-auto sm:pr-5">
+          {/* <h2 className="title_main text-right mt-6 sm:mt-12">СЦЕНАРИИ</h2>
 
           <Image
             src={text1}
@@ -52,14 +52,13 @@ export default function Home() {
             sizes="100vw"
             className="w-10/12 sm:w-3/5 h-auto block ml-auto mt-2"
             priority
-          />
+          /> */}
 
-          <p className="w-full sm:w-2/5 text-right ml-auto subtitle_main mt-8">
-            ТРК “СИТИ ЦЕНТР” — место притяжения успешных людей. В комплексе
-            представлено большое количество премиальных брендов с разнообразным
-            ассортиментом, рестораны итальянской кухни и VIP-кинотеатр. В ТРК
-            «СИТИ ЦЕНТР» вы с удовольствием проведёте время в комфортной
-            обстановке спокойствия и люксового шоппинга.
+          <p className="w-full sm:w-3/5 text-right ml-auto text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-20 md:mb-20 lg:mb-48 px-3 sm:px-0">
+            ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
+            впечатлений и эстетики. Здесь Вас ждут магазины премиальных брендов,
+            ресторан итальянской кухни и VIP-кинотеатр, а также уникальные
+            Event-мероприятия для Вас и Ваших близких!
           </p>
 
           <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10">
