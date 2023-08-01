@@ -29,7 +29,6 @@ import { RiTimeFill } from 'react-icons/ri';
 import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 import { sliderTop, sliderCenter } from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
-// import NewsMain from '@/components/NewsMain';
 
 export default function Home() {
   return (
