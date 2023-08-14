@@ -19,6 +19,7 @@ import cinemaIkon3 from '@/public/site_img/кино-иконка-3.png';
 import cinemaIkon4 from '@/public/site_img/кино-иконка-4.png';
 import restoran1 from '@/public/site_img/1-дон-базилио.png';
 import restoran2 from '@/public/site_img/3-френч-кис.png';
+import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 import children1 from '@/public/site_img/игратория.png';
 import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
@@ -310,6 +311,11 @@ export default function Home() {
               href="https://frenchkiss.ru/stores/"
               src={restoran2}
               alt="French kiss"
+            />
+            <ImageLink
+              href="/butiks/kafe/45"
+              src={restoran3}
+              alt="Любовь и Трюфель"
             />
           </div>
         </div>
