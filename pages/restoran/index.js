@@ -3,6 +3,7 @@ import Layout from '@/components/Layout';
 import React from 'react';
 import restoran1 from '@/public/site_img/1-дон-базилио.png';
 import restoran2 from '@/public/site_img/3-френч-кис.png';
+import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 
 function Restoran() {
   return (
@@ -20,6 +21,11 @@ function Restoran() {
               href="https://frenchkiss.ru/stores/"
               src={restoran2}
               alt="French kiss"
+            />
+            <ImageLink
+              href="/butiks/kafe/45"
+              src={restoran3}
+              alt="Любовь и Трюфель"
             />
           </div>
         </div>

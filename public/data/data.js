@@ -8,7 +8,7 @@ const menu = [
   {
     id: 2,
     name: 'Рестораны',
-    link: '/restoran',
+    link: '/butiks/kafe',
   },
   {
     id: 3,
