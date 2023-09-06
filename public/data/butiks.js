@@ -1846,6 +1846,46 @@ export const butiks = [
     telUrl: '89673050209',
     instagram: '',
   },
+  {
+    id: 53,
+    category: 'children',
+    url: 'MagicToys',
+    logo: '/butiks/children/MagisToys/logo1.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/MagisToys/1.jpg',
+        alt: 'MagisToys',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/MagisToys/2.jpg',
+        alt: 'MagisToys',
+      },
+      {
+        id: 3,
+        src: '/butiks/children/MagisToys/3.jpg',
+        alt: 'MagisToys',
+      },
+      {
+        id: 4,
+        src: '/butiks/children/MagisToys/4.jpg',
+        alt: 'MagisToys',
+      },
+      {
+        id: 5,
+        src: '/butiks/children/MagisToys/5.jpg',
+        alt: 'MagisToys',
+      },
+    ],
+    description1: `Мы любим дарить детям радость настолько , что решили превратить это в свою работу.`,
+    description2: `Игрушки и игры способствуют развитию воображения ребенка и открываем ему двери в другие , волшебные миры.`,
+    description3: `Кубики и фигурки любимых героев , машинки и куклы , товары для малышей и младенцев : у нас собран самый широкий ассортимент игрушек в городе Краснодаре.`,
+    floor: '3 этаж',
+    tel: '+7 918 026 00 06',
+    telUrl: '89180260006',
+    instagram: '',
+  },
 
   //Удаленные
   // {
