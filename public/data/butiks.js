@@ -1247,11 +1247,6 @@ export const butiks = [
         src: '/butiks/cosmetics/Giorgio/7.jpg',
         alt: 'Giorgio',
       },
-      {
-        id: 8,
-        src: '/butiks/cosmetics/Giorgio/8.jpg',
-        alt: 'Giorgio',
-      },
     ],
     description1:
       'Парфюмерный бутик Giorgio не продает, а подбирает аромат под настроение и образ жизни клиента.',
