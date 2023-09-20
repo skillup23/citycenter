@@ -162,64 +162,64 @@ export const butiks = [
     telUrl: '88612134755',
     instagram: 'krd_marccain',
   },
-  {
-    id: 4,
-    category: 'womenClothing',
-    url: 'Laurel',
-    logo: '/butiks/womenClothing/Laurel/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Laurel/1.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Laurel/2.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Laurel/3.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Laurel/4.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Laurel/5.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Laurel/6.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Laurel/7.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Laurel/8.jpg',
-        alt: 'Laurel',
-      },
-    ],
-    description1:
-      'Мультибрендовый бутик женской одежды Laurèl — официальный представитель премиум брендов из Германии: Luisa Cerano, Laurel, Riani, Mark Aurel и многие других.',
-    description2:
-      'Laurèl специально создан для леди, сочетающей в себе лидерские качества и активную жизненную позицию с утонченностью и романтизмом.',
-    description3:
-      'В бутике Laurèl представлены коллекции одежды непревзойденного качества для истинных ценителей стиля и комфорта!',
-    floor: '2 этаж',
-    tel: '+7 918 151 23 23',
-    telUrl: '89181512323',
-    instagram: 'laurel_store_krd',
-  },
+  // {
+  //   id: 4,
+  //   category: 'womenClothing',
+  //   url: 'Laurel',
+  //   logo: '/butiks/womenClothing/Laurel/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Laurel/1.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Laurel/2.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Laurel/3.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Laurel/4.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/Laurel/5.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Laurel/6.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/Laurel/7.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //     {
+  //       id: 8,
+  //       src: '/butiks/womenClothing/Laurel/8.jpg',
+  //       alt: 'Laurel',
+  //     },
+  //   ],
+  //   description1:
+  //     'Мультибрендовый бутик женской одежды Laurèl — официальный представитель премиум брендов из Германии: Luisa Cerano, Laurel, Riani, Mark Aurel и многие других.',
+  //   description2:
+  //     'Laurèl специально создан для леди, сочетающей в себе лидерские качества и активную жизненную позицию с утонченностью и романтизмом.',
+  //   description3:
+  //     'В бутике Laurèl представлены коллекции одежды непревзойденного качества для истинных ценителей стиля и комфорта!',
+  //   floor: '2 этаж',
+  //   tel: '+7 918 151 23 23',
+  //   telUrl: '89181512323',
+  //   instagram: 'laurel_store_krd',
+  // },
   {
     id: 5,
     category: 'womenClothing manClothing',
