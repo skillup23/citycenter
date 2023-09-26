@@ -28,6 +28,9 @@ function News() {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
           <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-8 sm:px-0">
+            <h3 className="text-xl md:text-2xl mt-10 mb-5 sm:mb-0">
+              На данный момент новости отсутствуют. Следите за обновлениями...
+            </h3>
             {news
               .map(({ id, img, imgm, title, text }) => (
                 <li
