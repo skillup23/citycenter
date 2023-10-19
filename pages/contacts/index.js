@@ -57,8 +57,14 @@ function Contacts() {
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <Link href="tel:88612134733" className="text-lg md:text-xl">
-                    +7 (861) 213 47 33
+                  <Link href="tel:88612134844" className="text-lg md:text-xl">
+                    +7 (861) 213 48 44
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link href="tel:89193500771" className="text-lg md:text-xl">
+                    +7 (919) 350 07 71
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
@@ -80,8 +86,14 @@ function Contacts() {
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <Link href="tel:88612134700" className="text-lg md:text-xl">
-                    +7 (861) 213 47 00
+                  <Link href="tel:88612134844" className="text-lg md:text-xl">
+                    +7 (861) 213 48 44
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link href="tel:89189370965" className="text-lg md:text-xl">
+                    +7 (918) 937 09 65
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">

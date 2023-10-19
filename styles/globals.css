@@ -8,7 +8,7 @@
 
 @layer components {
   .title_main {
-    font-size: 70px;
+    font-size: 60px;
     line-height: 1.2;
   }
   .subtitle_main {

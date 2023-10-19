@@ -15,6 +15,7 @@ const menu = [
     name: 'Новости',
     link: '/news',
   },
+
   {
     id: 4,
     name: 'Кинотеатр',
@@ -39,6 +40,16 @@ const menu = [
     id: 8,
     name: 'Парковка',
     link: '/parking',
+  },
+  {
+    id: 9,
+    name: 'Арендаторам',
+    link: '/rent',
+  },
+  {
+    id: 10,
+    name: 'Рекламодателям',
+    link: '/marketing',
   },
 ];
 

@@ -34,7 +34,6 @@ function News() {
             {news
               .map(({ id, img, imgm, title, text }) => (
                 <li
-                  // onClick={() => setOpen(true)}
                   onClick={() => test(imgm, title, text)}
                   key={id}
                   className="h-full w-full relative overflow-hidden cursor-pointer"
