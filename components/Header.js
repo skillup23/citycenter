@@ -10,35 +10,53 @@ import { MdArrowRight } from 'react-icons/md';
 import { BsPinMap } from 'react-icons/bs';
 import { TbMapPins } from 'react-icons/tb';
 import { FiMenu } from 'react-icons/fi';
+// import { BiCaretDown } from 'react-icons/bi';
 import { menu } from '@/public/data/data';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  // const [isServiseMenu, setServiseMenu] = useState(false);
 
   function visibleMenu() {
     setMenuOpen(!isMenuOpen);
   }
 
+  // function visibleServiseMenu() {
+  //   setServiseMenu(!isServiseMenu);
+  // }
+
+  // function hiddenServiseMenu() {
+  //   setServiseMenu(false);
+  // }
+
   return (
     <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
-      <nav className="lg:container flex mx-auto px-5 justify-between content-center items-center">
-        {menu.slice(0, 5).map(({ id, name, link }) => {
+      <nav className="lg:container flex mx-auto px-5 justify-between content-center items-center relative">
+        <ul className="flex gap-5 xl:gap-8">
+          <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
+            <SlSocialVkontakte className="text-3xl xl:text-4xl ease-in duration-200 hover:scale-105" />
+          </Link>
+          <Link href="https://t.me/ciiitycenter" target={'_blank'}>
+            <FaTelegramPlane className="text-3xl xl:text-4xl ease-in duration-200 hover:scale-105 mr-3" />
+          </Link>
+        </ul>
+        {menu.slice(0, 4).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
               href={link}
               scroll={true}
-              className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-2 xl:mr-0 hidden lg:block"
+              className="text-xl xl:text-2xl ease-in duration-200 hover:scale-105 xl:mr-0 hidden lg:block"
             >
               {name}
             </Link>
           );
         })}
 
-        {/* Мобильное меню */}
+        {/* Мобильная бургкр кнопка */}
         <FiMenu
           onClick={() => visibleMenu()}
-          className="ml-3 mr-10 cursor-pointer text-3xl md:text-4xl block lg:hidden"
+          className="ml-3 mr-3 cursor-pointer text-3xl md:text-4xl block lg:hidden"
         />
 
         <Link
@@ -55,27 +73,49 @@ function Header() {
           />
         </Link>
 
-        {menu.slice(5, 8).map(({ id, name, link }) => {
+        {menu.slice(5, 10).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
               href={link}
               scroll={true}
-              className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-5 hidden lg:block"
+              className="text-xl xl:text-2xl ease-in duration-200 hover:scale-105 hidden lg:block"
             >
               {name}
             </Link>
           );
         })}
 
-        <ul className="flex gap-5 xl:gap-10">
-          <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
-            <SlSocialVkontakte className="text-3xl xl:text-4xl ease-in duration-200 hover:scale-105" />
-          </Link>
-          <Link href="https://t.me/ciiitycenter" target={'_blank'}>
-            <FaTelegramPlane className="text-3xl xl:text-4xl ease-in duration-200 hover:scale-105 mr-3" />
-          </Link>
-        </ul>
+        {/* <div
+          className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-5 hidden lg:block cursor-pointer"
+          onClick={() => visibleServiseMenu()}
+          // onMouseLeave={() => hiddenServiseMenu()}
+        >
+          <div className="flex gap-1">
+            Услуги
+            <BiCaretDown className="" />
+          </div>
+        </div> */}
+
+        {/* Раскрывающиеся меню Услуги на ПК*/}
+        {/* <div
+          className={`${
+            isServiseMenu ? 'block' : 'hidden'
+          } bg-[#1e191a] p-3 pt-1 absolute right-0 lg:top-[68px] xl:top-[76px] border-b-2 border-l-2 border-r-2 border-zinc-300`}
+        >
+          {menu.slice(7, 10).map(({ id, name, link }) => {
+            return (
+              <Link
+                key={id}
+                href={link}
+                scroll={true}
+                className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mt-2 hidden lg:block text-center"
+              >
+                {name}
+              </Link>
+            );
+          })}
+        </div> */}
       </nav>
 
       {/* Мобильное раскрывающиеся меню */}

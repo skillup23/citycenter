@@ -1,0 +1,176 @@
+import Layout from '@/components/Layout';
+import Popup from '@/components/Popup';
+import Image from 'next/image';
+import React, { useState } from 'react';
+import noimg from '@/public/butiks/loaderImg.png';
+import Link from 'next/link';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { BsFilePdf } from 'react-icons/bs';
+
+function Rent() {
+  const [isOpen, setOpen] = useState(false);
+  const [isModal, setIsModal] = useState({
+    id: 1,
+    src: noimg,
+    alt: 'Описание',
+  });
+
+  function test(id, src, alt) {
+    setIsModal({ id, src, alt });
+    setOpen(true);
+  }
+
+  const foto = [
+    {
+      id: 1,
+      src: '/butiks/loaderImg.png',
+      alt: '1 этаж',
+    },
+    {
+      id: 2,
+      src: '/butiks/loaderImg.png',
+      alt: '2 этаж',
+    },
+    {
+      id: 3,
+      src: '/butiks/loaderImg.png',
+      alt: '3 этаж',
+    },
+  ];
+
+  return (
+    <Layout title="Арендаторам">
+      <section className="mt-10">
+        <div className="lg:container mx-auto px-4 lg:px-0">
+          <h1 className="title_main mt-10">Арендаторам</h1>
+          <div className="text-lg sm:text-2xl md:text-3xl text-justify tracking-wide indent-8">
+            <p>
+              ТРК «СИТИ ЦЕНТР» АКТИВНО СОТРУДНИЧАЕТ С РЕКЛАМОДАТЕЛЯМИ ДЛЯ
+              УСПЕШНОГО ПРОДВИЖЕНИЯ ИХ БИЗНЕСА. ЭТО ЭФЕКТИВНЫЙ СПОСОБ ПРИВЛЕЧ
+              ВНИМАНИЕ ТЫСЯЧ ПОСЕТИТЕЛЕЙ ЕЖЕДНЕВНО. РАЗМЕЩАЙТЕ ВАШУ РЕКЛАМУ НА
+              ЛАЙТБОКСАХ, БАННЕРАХ И МЕДИАЭКРАНЕ, ЧТОБЫ ОХВАТИТЬ САМУЮ
+              КАЧЕСТВЕННУЮ АУДИТОРИЮ И УВЕЛИЧИТЬ СВОЮ ВИДИМОСТЬ.
+            </p>
+          </div>
+          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-8 sm:px-0 mt-20">
+            {foto.map(({ id, src, alt }) => (
+              <li
+                onClick={() => test(id, src, alt)}
+                key={id}
+                className="h-full w-full relative overflow-hidden cursor-pointer"
+              >
+                <h3 className="text-2xl sm:text-3xl md:text-4xl text-center">
+                  {alt}
+                </h3>
+                <Image
+                  src={src}
+                  alt={alt}
+                  width={420}
+                  height={200}
+                  sizes="100%"
+                  className="object-cover ease-in duration-200 hover:scale-105 m-auto"
+                  priority
+                />
+              </li>
+            ))}
+          </ul>
+          <h3 className="text-xl sm:text-3xl md:text-4xl my-10">
+            БОНУС: бесплатная рекламная поддрежка в течении 2 месяцев для новых
+            Арендаторов
+          </h3>
+          <Link
+            href="#"
+            target="_blank"
+            className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
+          >
+            <BsFilePdf className="mr-4 text-3xl" />
+            Презентация ТРК «СИТИ ЦЕНТР»
+          </Link>
+
+          <h2 className="title_main mt-10">Контакты</h2>
+          <div className="mt-10 w-fill md:w-11/12 m-auto inline-flex flex-row flex-wrap justify-between px-6 md:px-0">
+            <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
+              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+                ТРК «СИТИ ЦЕНТР»
+              </h4>
+              <ul>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <HiLocationMarker className="text-xl mr-5" />
+                  <h4 className="text-lg md:text-xl">
+                    350007, Г. КРАСНОДАР, УЛ. ИНДУСТРИАЛЬНАЯ, 2
+                  </h4>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link href="tel:88612134700" className="text-lg md:text-xl">
+                    +7 (861) 213 47 00
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <h4 className="text-lg md:text-xl">
+                    +7 (861) 213 47 06 (ФАКС)
+                  </h4>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <MdEmail className="text-xl mr-5" />
+                  <Link
+                    href="mailto:INFO@CITYCENTER.RU"
+                    className="text-lg md:text-xl"
+                  >
+                    INFO@CITYCENTER.RU
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-10 sm:mt-0">
+              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+                ОТДЕЛ АРЕНДНЫХ <br></br>ОТНОШЕНИЙ
+              </h4>
+              <ul>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link href="tel:88612134844" className="text-lg md:text-xl">
+                    +7 (861) 213 48 44
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link href="tel:89193500771" className="text-lg md:text-xl">
+                    +7 (919) 350 07 71
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <MdEmail className="text-xl mr-5" />
+                  <Link
+                    href="mailto:INFO@CITYCENTER.RU"
+                    className="text-lg md:text-xl"
+                  >
+                    INFO@CITYCENTER.RU
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-col w-full sm:w-1/2 md:w-1/3"></div>
+          </div>
+        </div>
+      </section>
+      <Popup isOpen={isOpen} setOpen={setOpen}>
+        <div className="flex flex-col justify-center font-classic w-full p-4 sm:p-10 bg-[#1e191a] ">
+          <Image
+            src={isModal.src}
+            alt={isModal.alt}
+            width={1200}
+            height={0}
+            className="w-11/12 sm:w-11/12 m-auto"
+          />
+        </div>
+      </Popup>
+    </Layout>
+  );
+}
+
+export default Rent;
