@@ -63,8 +63,8 @@ function Contacts() {
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <Link href="tel:89193500771" className="text-lg md:text-xl">
-                    +7 (919) 350 07 71
+                  <Link href="tel:89183500771" className="text-lg md:text-xl">
+                    +7 (918) 350 07 71
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
