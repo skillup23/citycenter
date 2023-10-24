@@ -1473,29 +1473,29 @@ export const butiks = [
     telUrl: '88612134757',
     instagram: 'dom_detskoi_modi',
   },
-  {
-    id: 43,
-    category: 'glasses',
-    url: 'Mac',
-    logo: '/butiks/cosmetics/Mac/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/cosmetics/Mac/1.jpg',
-        alt: 'Mac',
-      },
-      {
-        id: 2,
-        src: '/butiks/cosmetics/Mac/2.jpg',
-        alt: 'Mac',
-      },
-    ],
-    description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
-    floor: '1 этаж',
-    tel: '+7 861 213 47 05',
-    telUrl: '88612134705',
-    instagram: 'maccosmeticsrussia',
-  },
+  // {
+  //   id: 43,
+  //   category: 'glasses',
+  //   url: 'Mac',
+  //   logo: '/butiks/cosmetics/Mac/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/cosmetics/Mac/1.jpg',
+  //       alt: 'Mac',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/cosmetics/Mac/2.jpg',
+  //       alt: 'Mac',
+  //     },
+  //   ],
+  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
+  //   floor: '1 этаж',
+  //   tel: '+7 861 213 47 05',
+  //   telUrl: '88612134705',
+  //   instagram: 'maccosmeticsrussia',
+  // },
   {
     id: 44,
     category: 'gameCategory',
