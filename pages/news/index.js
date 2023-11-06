@@ -7,7 +7,7 @@ import React from 'react';
 import news4 from '@/public/news/4.jpg';
 import Image from 'next/image';
 // import Popup from '@/components/Popup';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { BsFilePdf } from 'react-icons/bs';
 // import documentDownload from '@/public/news/Polojenie-o-stimulirushei-akcii.docx';
 // import { news } from '@/public/data/data';
