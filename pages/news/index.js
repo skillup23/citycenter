@@ -87,6 +87,16 @@ function News() {
                 Мы с радостью ждем вас 11.11 на праздновании Дня Рождения ТРК
                 «СИТИ ЦЕНТР»!
               </p>
+              <div>
+                <p>
+                  Организатор:
+                  ООО&nbsp;ГК&nbsp;«СИТИ&nbsp;ЦЕНТР»&nbsp;ИНН&nbsp;2309076513
+                </p>
+                <p>
+                  Период проведения акции:
+                  с&nbsp;04.11.2023&nbsp;г.&nbsp;по&nbsp;11.11.2023 г.
+                </p>
+              </div>
               <div className="inline-block">
                 <a
                   href="/news/Polojenie-o-stimulirushei-akcii.docx"
