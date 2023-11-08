@@ -1881,6 +1881,42 @@ export const butiks = [
     telUrl: '89180260006',
     instagram: '',
   },
+  {
+    id: 54,
+    category: 'kafeAndRestoran',
+    url: 'DonBazilio',
+    logo: '/butiks/kafe/DonBazilio/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/kafe/DonBazilio/1.jpg',
+        alt: 'DonBazilio',
+      },
+      {
+        id: 2,
+        src: '/butiks/kafe/DonBazilio/2.jpg',
+        alt: 'DonBazilio',
+      },
+      {
+        id: 3,
+        src: '/butiks/kafe/DonBazilio/3.jpg',
+        alt: 'DonBazilio',
+      },
+      {
+        id: 4,
+        src: '/butiks/kafe/DonBazilio/4.jpg',
+        alt: 'DonBazilio',
+      },
+    ],
+    description1: `Don Bazilio — уютный семейный ресторан, здесь вы можете насладиться неаполитанской пиццей из настоящей дровяной печи, заказать хрустящую брускетту, аппетитную пасту и окунуться в атмосферу солнечной Италии.`,
+    description2: `Для юных гостей в семейном ресторане Don Bazilio есть специальное детское меню с полезными и вкусными блюдами. Для любителей кинопремьер - это уникальная возможность наслаждаться настоящими итальянскими блюдами от шефа в кинотеатре Монитор Сити De Luxe.`,
+    description3: `Романтические свидания, любые семейные мероприятия, деловые встречи - все это с огромным удовольствием устроит команда  ресторана Don Bazilio.`,
+    floor: '3 этаж',
+    tel: '+7 918 120 00 13',
+    telUrl: '89181200013',
+    instagram: '',
+    video: '/butiks/kafe/DonBazilio/video2.mp4',
+  },
 
   //Удаленные
   // {
