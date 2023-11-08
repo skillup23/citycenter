@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import { useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import SliderBytik from '@/components/SliderBytik';
@@ -8,6 +9,13 @@ import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 import Layout from './Layout';
 
 function Butik(butik) {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef && videoRef.current) {
+      videoRef.current.play();
+    }
+  }, [videoRef]);
   //используется для кнопки назад
   const router = useRouter();
   //вытаскиваем данные из объекта
@@ -22,6 +30,7 @@ function Butik(butik) {
     telUrl,
     // instagram,
     image,
+    video,
   } = butik.butik || {};
 
   //Если объекта нет, то указать что Бутика не существует и предложить вернуться назад
@@ -48,7 +57,21 @@ function Butik(butik) {
       <section className="mt-10">
         <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap gap-10 px-5 md:px-0">
           <div className="w-full md:w-1/2 order-last md:order-first">
-            <SliderBytik data={image} dots={true} />
+            {!video ? (
+              <SliderBytik data={image} dots={true} />
+            ) : (
+              <video
+                controls
+                ref={videoRef}
+                loop
+                muted
+                style={{ width: '500px', height: '500px' }}
+                type="video/mp4"
+                className="mt-0 sm:mt-9"
+              >
+                <source src={video} />
+              </video>
+            )}
           </div>
 
           <div className="w-full md:w-1/2 flex flex-col justify-between items-start pr-0 md:pr-8 pb-2">
