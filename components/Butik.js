@@ -65,6 +65,7 @@ function Butik(butik) {
                 ref={videoRef}
                 loop
                 muted
+                playsinline
                 style={{ width: '500px', height: '500px' }}
                 type="video/mp4"
                 className="mt-0 sm:mt-9"
