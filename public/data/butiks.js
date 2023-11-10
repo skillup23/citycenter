@@ -1555,6 +1555,7 @@ export const butiks = [
     tel: '+7 928 424 42 42',
     telUrl: '89284244242',
     instagram: '',
+    video: '/butiks/kafe/LoveAndTrufel/video2.mp4',
   },
   {
     id: 46,
@@ -1915,7 +1916,8 @@ export const butiks = [
     tel: '+7 918 120 00 13',
     telUrl: '89181200013',
     instagram: '',
-    video: '/butiks/kafe/DonBazilio/video2.mp4',
+    otherInfo: 'https://madyar.ru/ru/restaurants/don-bazilio/dishes',
+    textOtherInfo: 'Меню ресторана'
   },
 
   //Удаленные

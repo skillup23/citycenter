@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SliderBytik from '@/components/SliderBytik';
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
+import { BiFoodMenu } from 'react-icons/bi';
 // import { BsInstagram } from 'react-icons/bs';
 import Layout from './Layout';
 
@@ -31,6 +32,8 @@ function Butik(butik) {
     // instagram,
     image,
     video,
+    otherInfo,
+    textOtherInfo,
   } = butik.butik || {};
 
   //Если объекта нет, то указать что Бутика не существует и предложить вернуться назад
@@ -108,6 +111,21 @@ function Butik(butik) {
                   {tel}
                 </Link>
               </div>
+              {!otherInfo ? (
+                ''
+              ) : (
+                <div className="flex flex-row w-fill items-center mt-2">
+                  <BiFoodMenu className="text-xl sm:text-2xl mr-5" />
+                  <Link
+                    href={otherInfo}
+                    className="text-xl sm:text-2xl"
+                    target="_blank"
+                  >
+                    {textOtherInfo}
+                  </Link>
+                </div>
+              )}
+
               {/* {!instagram ? (
                 ''
               ) : (
