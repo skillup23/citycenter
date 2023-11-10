@@ -42,6 +42,7 @@ const Perfumery = ({ butiks }) => {
             <ImageLink
               href="https://frenchkiss.ru/stores/"
               src={restoran2}
+              target="_blank"
               alt="French kiss"
             />
           </ListButiks>
