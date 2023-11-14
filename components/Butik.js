@@ -69,9 +69,9 @@ function Butik(butik) {
                 loop
                 muted
                 playsinline
-                style={{ width: '500px', height: '500px' }}
+                style={{ width: '100%', height: '100%' }}
                 type="video/mp4"
-                className="mt-0 sm:mt-9"
+                className=""
               >
                 <source src={video} />
               </video>
