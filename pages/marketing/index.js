@@ -1,14 +1,23 @@
 import Layout from '@/components/Layout';
 import Popup from '@/components/Popup';
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import noimg from '@/public/butiks/loaderImg.png';
+// import video from '/marketing_img/video1.mp4';
 import Link from 'next/link';
 import { BsFilePdf } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 function Marketing() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef && videoRef.current) {
+      videoRef.current.play();
+    }
+  }, [videoRef]);
+
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
@@ -21,21 +30,28 @@ function Marketing() {
     setOpen(true);
   }
 
+  const video = '/marketing_img/video1.mp4';
+
   const foto = [
     {
       id: 1,
-      src: '/butiks/loaderImg.png',
+      src: '/marketing_img/1-1.jpg',
       alt: 'Изображение 1',
     },
     {
       id: 2,
-      src: '/butiks/loaderImg.png',
+      src: '/marketing_img/3-1.jpg',
       alt: 'Изображение 2',
     },
     {
       id: 3,
-      src: '/butiks/loaderImg.png',
+      src: '/marketing_img/3-1.jpg',
       alt: 'Изображение 3',
+    },
+    {
+      id: 4,
+      src: '/marketing_img/1-1.jpg',
+      alt: 'Изображение 4',
     },
   ];
 
@@ -54,28 +70,45 @@ function Marketing() {
             </p>
             <p>Приглашаем Вас стать частью ТРК «СИТИ ЦЕНТР».</p>
           </div>
-          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-8 sm:px-0">
-            {foto.map(({ id, src, alt }) => (
-              <li
-                onClick={() => test(id, src, alt)}
-                key={id}
-                className="h-full w-full relative overflow-hidden cursor-pointer"
-              >
-                <Image
-                  src={src}
-                  alt={alt}
-                  width={420}
-                  height={200}
-                  sizes="100%"
-                  className="object-cover ease-in duration-200 hover:scale-105 m-auto"
-                  priority
-                />
-              </li>
-            ))}
-          </ul>
+          <div className="grid sm:gap-4 grid-cols-1 sm:grid-cols-3 mt-8">
+            <video
+              controls
+              ref={videoRef}
+              loop
+              muted
+              playsinline
+              style={{ width: '100%', height: '100%' }}
+              type="video/mp4"
+              className=""
+            >
+              <source src={video} />
+            </video>
+            <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 px-0 col-span-2 mt-4 sm:mt-0 content-between">
+              {foto.map(({ id, src, alt }) => (
+                <li
+                  onClick={() => test(id, src, alt)}
+                  key={id}
+                  className="h-full w-full relative overflow-hidden cursor-pointer"
+                >
+                  <Image
+                    src={src}
+                    alt={alt}
+                    width={500}
+                    height={200}
+                    sizes="100%"
+                    className="object-cover ease-in duration-200 hover:scale-105 m-auto"
+                    priority
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <Link
-            href="#"
+            href="/marketing_img/KatalogMarketing.pdf"
+            alt="Каталог рекламных поверхностей"
+            rel="noopener noreferrer"
+            locale="false"
             target="_blank"
             className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex my-10 items-center mx-4 sm:mx-0"
           >

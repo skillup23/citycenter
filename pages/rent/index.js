@@ -25,17 +25,17 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/butiks/loaderImg.png',
+      src: '/rent_img/1-1-floor.jpg',
       alt: '1 этаж',
     },
     {
       id: 2,
-      src: '/butiks/loaderImg.png',
+      src: '/rent_img/2-floor.jpg',
       alt: '2 этаж',
     },
     {
       id: 3,
-      src: '/butiks/loaderImg.png',
+      src: '/rent_img/3-floor.jpg',
       alt: '3 этаж',
     },
   ];
@@ -56,7 +56,7 @@ function Rent() {
               высокий показатель конверсии.
             </p>
           </div>
-          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-8 sm:px-0 mt-20">
+          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-0 mt-10 sm:mt-20">
             {foto.map(({ id, src, alt }) => (
               <li
                 onClick={() => test(id, src, alt)}
@@ -72,7 +72,7 @@ function Rent() {
                   width={420}
                   height={200}
                   sizes="100%"
-                  className="object-cover ease-in duration-200 hover:scale-105 m-auto"
+                  className="object-cover ease-in duration-200 hover:scale-105 m-auto mt-4"
                   priority
                 />
               </li>
@@ -165,7 +165,7 @@ function Rent() {
           <Image
             src={isModal.src}
             alt={isModal.alt}
-            width={1200}
+            width={1100}
             height={0}
             className="w-11/12 sm:w-11/12 m-auto"
           />

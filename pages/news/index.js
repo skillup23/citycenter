@@ -1,36 +1,35 @@
 import Layout from '@/components/Layout';
 import React from 'react';
-// import { useState } from 'react';
-// import news1 from '@/public/news/1.jpg';
+import { useState } from 'react';
+import news1 from '@/public/news/1.jpg';
 // import news2 from '@/public/news/2.jpg';
 // import news3 from '@/public/news/3.jpg';
-import news4 from '@/public/news/4.jpg';
+// import news4 from '@/public/news/4.jpg';
 import Image from 'next/image';
-// import Popup from '@/components/Popup';
+import Popup from '@/components/Popup';
 // import Link from 'next/link';
-import { BsFilePdf } from 'react-icons/bs';
+// import { BsFilePdf } from 'react-icons/bs';
 // import documentDownload from '@/public/news/Polojenie-o-stimulirushei-akcii.docx';
-// import { news } from '@/public/data/data';
-// import Link from 'next/link';
+import { news } from '@/public/data/data';
 
 function News() {
-  // const [isOpen, setOpen] = useState(false);
-  // const [isModal, setIsModal] = useState({
-  //   id: 1,
-  //   imgm: news1,
-  //   text: [{ t1: '111', id: 1 }],
-  // });
+  const [isOpen, setOpen] = useState(false);
+  const [isModal, setIsModal] = useState({
+    id: 1,
+    imgm: news1,
+    text: [{ t1: '111', id: 1 }],
+  });
 
-  // function test(imgm, title, text) {
-  //   setIsModal({ imgm, title, text });
-  //   setOpen(true);
-  // }
+  function test(imgm, title, text) {
+    setIsModal({ imgm, title, text });
+    setOpen(true);
+  }
 
   return (
     <Layout title="НОВОСТИ">
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
+          {/* <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
           <div className="flex flex-col sm:flex-row gap-8">
             <Image
               src={news4}
@@ -111,9 +110,9 @@ function News() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          {/* <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-8 sm:px-0">
+          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-8 sm:px-0">
             <h3 className="text-xl md:text-2xl mt-10 mb-5 sm:mb-0">
               На данный момент новости отсутствуют. Следите за обновлениями...
             </h3>
@@ -135,10 +134,10 @@ function News() {
                 </li>
               ))
               .reverse()}
-          </ul> */}
+          </ul>
         </div>
       </section>
-      {/* <Popup isOpen={isOpen} setOpen={setOpen}>
+      <Popup isOpen={isOpen} setOpen={setOpen}>
         <div className="flex flex-col justify-center font-classic max-w-4xl p-4 sm:p-10 bg-[#1e191a] ">
           <Image
             src={isModal.imgm}
@@ -156,7 +155,7 @@ function News() {
             </p>
           ))}
         </div>
-      </Popup> */}
+      </Popup>
     </Layout>
   );
 }
