@@ -83,7 +83,7 @@ function Rent() {
             Арендаторов
           </h3>
           <Link
-            href="#"
+            href="/rent_img/prezentRent.pdf"
             target="_blank"
             className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
           >
@@ -100,19 +100,22 @@ function Rent() {
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <HiLocationMarker className="text-xl mr-5" />
-                  <h4 className="text-lg md:text-xl">
+                  <h4 className="text-lg md:text-xl lg:text-2xl">
                     350007, Г. КРАСНОДАР, УЛ. ИНДУСТРИАЛЬНАЯ, 2
                   </h4>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <Link href="tel:88612134700" className="text-lg md:text-xl">
+                  <Link
+                    href="tel:88612134700"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
                     +7 (861) 213 47 00
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <h4 className="text-lg md:text-xl">
+                  <h4 className="text-lg md:text-xl lg:text-2xl">
                     +7 (861) 213 47 06 (ФАКС)
                   </h4>
                 </li>
@@ -120,7 +123,7 @@ function Rent() {
                   <MdEmail className="text-xl mr-5" />
                   <Link
                     href="mailto:INFO@CITYCENTER.RU"
-                    className="text-lg md:text-xl"
+                    className="text-lg md:text-xl lg:text-2xl"
                   >
                     INFO@CITYCENTER.RU
                   </Link>
@@ -135,13 +138,19 @@ function Rent() {
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <Link href="tel:88612134844" className="text-lg md:text-xl">
+                  <Link
+                    href="tel:88612134844"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
                     +7 (861) 213 48 44
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
-                  <Link href="tel:89183500771" className="text-lg md:text-xl">
+                  <Link
+                    href="tel:89183500771"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
                     +7 (918) 350 07 71
                   </Link>
                 </li>
@@ -149,7 +158,7 @@ function Rent() {
                   <MdEmail className="text-xl mr-5" />
                   <Link
                     href="mailto:INFO@CITYCENTER.RU"
-                    className="text-lg md:text-xl"
+                    className="text-lg md:text-xl lg:text-2xl"
                   >
                     INFO@CITYCENTER.RU
                   </Link>
