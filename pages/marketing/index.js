@@ -45,12 +45,12 @@ function Marketing() {
     },
     {
       id: 3,
-      src: '/marketing_img/3-1.jpg',
+      src: '/marketing_img/4-1.jpg',
       alt: 'Изображение 3',
     },
     {
       id: 4,
-      src: '/marketing_img/1-1.jpg',
+      src: '/marketing_img/5-1.jpg',
       alt: 'Изображение 4',
     },
   ];
@@ -76,7 +76,7 @@ function Marketing() {
               ref={videoRef}
               loop
               muted
-              playsinline
+              playsInline
               style={{ width: '100%', height: '100%' }}
               type="video/mp4"
               className=""
@@ -124,13 +124,19 @@ function Marketing() {
             <ul>
               <li className="flex flex-row w-fill items-center mt-1">
                 <FaPhoneAlt className="text-xl mr-5" />
-                <Link href="tel:88612134844" className="text-lg md:text-xl">
+                <Link
+                  href="tel:88612134844"
+                  className="text-lg md:text-xl lg:text-2xl"
+                >
                   +7 (861) 213 48 44
                 </Link>
               </li>
               <li className="flex flex-row w-fill items-center mt-1">
                 <FaPhoneAlt className="text-xl mr-5" />
-                <Link href="tel:89189370965" className="text-lg md:text-xl">
+                <Link
+                  href="tel:89189370965"
+                  className="text-lg md:text-xl lg:text-2xl"
+                >
                   +7 (918) 937 09 65
                 </Link>
               </li>
@@ -138,13 +144,13 @@ function Marketing() {
                 <MdEmail className="text-xl mr-5" />
                 <Link
                   href="mailto:ADMINCC@CITYCENTER.RU"
-                  className="text-lg md:text-xl"
+                  className="text-lg md:text-xl lg:text-2xl"
                 >
                   ADMINCC@CITYCENTER.RU
                 </Link>
               </li>
               <li className="flex flex-row w-fill items-center mt-1">
-                <h4 className="text-lg md:text-xl">
+                <h4 className="text-lg md:text-xl lg:text-2xl">
                   ОТДЕЛ РЕКЛАМЫ, МАРКЕТИНГА И PR ГОТОВ ПРЕДОСТАВИТЬ САМЫЕ
                   ШИРОКИЕ ВОЗМОЖНОСТИ ДЛЯ ПРОДВИЖЕНИЯ ВАШЕГО БРЕНДА НА
                   ТЕРРИТОРИИ ТРК «СИТИ ЦЕНТР»
