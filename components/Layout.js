@@ -4,14 +4,17 @@ import Header from './Header';
 import Footer from './Footer';
 import ButtonRight from './ButtonRight';
 
-function Layout({ children, title }) {
+function Layout({ children, title, description }) {
   return (
     <div className="min-h-screen flex flex-col justify-start">
       <Head>
         <title>
           {title ? title + ' - ТРК "СИТИ ЦЕНТР"' : 'ТРК "СИТИ ЦЕНТР"'}
         </title>
-        <meta name="description" content="Официальный сайт" />
+        <meta
+          name="description"
+          content={description ? description : 'Официальный сайт'}
+        />
         <link rel="icon" href="/favicon-9.ico" />
       </Head>
       <Header />
