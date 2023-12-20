@@ -4,7 +4,7 @@ import React from 'react';
 // import news1 from '@/public/news/1.jpg';
 // import news2 from '@/public/news/2.jpg';
 // import news3 from '@/public/news/3.jpg';
-import news4 from '@/public/news/4.jpg';
+import news4 from '@/public/news/4-2.jpg';
 import Image from 'next/image';
 // import Popup from '@/components/Popup';
 // import Link from 'next/link';
