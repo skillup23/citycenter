@@ -81,7 +81,7 @@ function ImageGallery({ title, array, linkBegin, linkEnd, linkCloud }) {
             </div>
           </div>
           <Image
-            src={`${linkBegin}${isModal}${linkEnd}`}
+            src={`${linkBegin}${array[isModal - 1]}${linkEnd}`}
             alt="Фото"
             width="0"
             height="0"
