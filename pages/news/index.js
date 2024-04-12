@@ -2,9 +2,11 @@ import Layout from '@/components/Layout';
 import React from 'react';
 // import { useState } from 'react';
 // import news1 from '@/public/news/1.jpg';
-import news2 from '@/public/news/2.jpg';
+// import news2 from '@/public/news/2.jpg';
 // import news3 from '@/public/news/3.jpg';
-// import news4 from '@/public/news/4-2.jpg';
+import news4 from '@/public/news/4.jpg';
+import news5 from '@/public/news/5.jpg';
+import news6 from '@/public/news/6.jpg';
 import Image from 'next/image';
 // import Popup from '@/components/Popup';
 // import Link from 'next/link';
@@ -33,48 +35,44 @@ function News() {
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch">
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap xl:flex-nowrap">
             <Image
-              src={news2}
+              src={news4}
               alt="Новость"
               width={420}
               height={420}
               sizes="100%"
-              className="h-[420px]"
+              className="max-h-[420px]"
+              priority
+            />
+            <Image
+              src={news5}
+              alt="Новость"
+              width={420}
+              height={420}
+              sizes="100%"
+              className="max-h-[420px]"
               priority
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left">
                 <p>
-                  Вдохновение природы: новые коллекции женского белья в «Эстель
-                  Адони»
+                  В салоне Эстель Адони появились пляжные новинки от Lise
+                  Charmel, Gottex, Maryan Mehlhorn и других модных брендов,
+                  самое время выбрать новый купальник и запланировать поездку на
+                  море или визит в SPA!!
                 </p>
                 <p>
-                  В салоне «Эстель Адони» появились коллекции женского белья и
-                  купальников сезона весна-лето 2024!
+                  В этом сезоне в трендах изысканная сексуальность и акцентные
+                  украшения: кольца, пряжки, пояса, декоративные цепочки,
+                  шнуровки, а также глубокие вырезы. Среди принтов актуальны
+                  графичные, цветочные, анималистические и этнические рисунки.
                 </p>
                 <p>
-                  При создании белья дизайнеры вдохновились красотой природы,
-                  поэтому во многих коллекциях вы найдете изящные цветочные
-                  вышивки, изысканные вставки из кружева и гипюра, рисунок
-                  которых напоминает резные листья растений, а также принты с
-                  цветочными и тропическими узорами.
-                </p>
-                <p>
-                  Для купальников также актуален природный тренд, который
-                  дополняется архитектурной графикой, модной в этом сезоне
-                  перфорацией, а также принтами с изображениями животных.
-                </p>
-                <p>
-                  В дизайне силуэтов, кроме минималистичного, выделяются
-                  ретро-тренд и тренд на соблазнительные детали, такие как
-                  глубокие вырезы и бретели на одно плечо. Эффектные акценты
-                  расставляются с помощью поясов, колец, цепей, шнуровок и
-                  оригинальных брошей.
-                </p>
-                <p>
-                  Подарите себе яркие эмоции от самого захватывающего шопинга в
-                  «Эстель Адони»!
+                  У нас вы можете собрать полноценный пляжный гардероб, включая
+                  туники, парео, пляжные платья и шорты, а также аксессуары,
+                  среди которых стильные шляпы, сумки и пляжная обувь. Ждем на
+                  вдохновляющий летний шопинг!
                 </p>
               </div>
               {/* <div className="text-sm">
@@ -84,6 +82,28 @@ function News() {
                 </p>
                 <p>**Подробности акции узнавайте у консультантов салонов.</p>
               </div> */}
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-20">
+            <Image
+              src={news6}
+              alt="Новость"
+              width={420}
+              sizes="100%"
+              priority
+            />
+            <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+              <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
+                <p>Новая коллекция Bikkembergs SS24 в салонах Х.О.</p>
+                <p>
+                  Дирк Биккембергс — бельгийский дизайнер, который сумел
+                  объединить высокую моду и спорт, создав уникальное направление
+                  — спортивный шик. Его работы стали символом брутального
+                  сексуального тела и постоянного движения вперёд. Коллекции
+                  последних лет только подтверждают это.
+                </p>
+              </div>
             </div>
           </div>
 
