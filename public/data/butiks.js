@@ -162,64 +162,74 @@ export const butiks = [
     telUrl: '88612134755',
     instagram: 'krd_marccain',
   },
-  // {
-  //   id: 4,
-  //   category: 'womenClothing',
-  //   url: 'Laurel',
-  //   logo: '/butiks/womenClothing/Laurel/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/womenClothing/Laurel/1.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/womenClothing/Laurel/2.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 3,
-  //       src: '/butiks/womenClothing/Laurel/3.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 4,
-  //       src: '/butiks/womenClothing/Laurel/4.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 5,
-  //       src: '/butiks/womenClothing/Laurel/5.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 6,
-  //       src: '/butiks/womenClothing/Laurel/6.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 7,
-  //       src: '/butiks/womenClothing/Laurel/7.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //     {
-  //       id: 8,
-  //       src: '/butiks/womenClothing/Laurel/8.jpg',
-  //       alt: 'Laurel',
-  //     },
-  //   ],
-  //   description1:
-  //     'Мультибрендовый бутик женской одежды Laurèl — официальный представитель премиум брендов из Германии: Luisa Cerano, Laurel, Riani, Mark Aurel и многие других.',
-  //   description2:
-  //     'Laurèl специально создан для леди, сочетающей в себе лидерские качества и активную жизненную позицию с утонченностью и романтизмом.',
-  //   description3:
-  //     'В бутике Laurèl представлены коллекции одежды непревзойденного качества для истинных ценителей стиля и комфорта!',
-  //   floor: '2 этаж',
-  //   tel: '+7 918 151 23 23',
-  //   telUrl: '89181512323',
-  //   instagram: 'laurel_store_krd',
-  // },
+  {
+    id: 4,
+    category: 'womenClothing',
+    url: 'Papaya',
+    logo: '/butiks/womenClothing/Papaya/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Papaya/1.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Papaya/2.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Papaya/3.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/Papaya/4.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/Papaya/5.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/Papaya/6.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/Papaya/7.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 8,
+        src: '/butiks/womenClothing/Papaya/8.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 9,
+        src: '/butiks/womenClothing/Papaya/9.jpg',
+        alt: 'Laurel',
+      },
+      {
+        id: 10,
+        src: '/butiks/womenClothing/Papaya/10.jpg',
+        alt: 'Laurel',
+      },
+    ],
+    description1:
+      'PAPAYA - российский бренд одежды родом из солнечного региона России - Краснодара.',
+    description2:
+      'Главная идея, ставшая основой бренда - создавать многогранный, качественный и продуманный гардероб-конструктор, избегая наполнения лишними вещами.',
+    description3:
+      'Гардероб, который будет радовать свою обладательницу многие годы благодаря отличному крою, универсальному дизайну, созданному с использованием лучших импортных материалов. Основу коллекций составляют женственные и изящные вещи, выполненные в монохромных оттенках и сдержанной цветовой палитре.',
+    floor: '2 этаж',
+    tel: '+7 918 009-30-57 ',
+    telUrl: '89180093057 ',
+    instagram: '',
+  },
   {
     id: 5,
     category: 'womenClothing manClothing',
@@ -1917,7 +1927,7 @@ export const butiks = [
     telUrl: '89181200013',
     instagram: '',
     otherInfo: 'https://madyar.ru/ru/restaurants/don-bazilio/dishes',
-    textOtherInfo: 'Меню ресторана'
+    textOtherInfo: 'Меню ресторана',
   },
 
   //Удаленные
