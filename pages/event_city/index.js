@@ -4,7 +4,7 @@ import ImageLink from '@/components/ImageLink';
 import event1 from '@/public/event_city/Flamenko/1.jpg';
 import event2 from '@/public/event_city/Vesna/1.jpg';
 // import event3 from '@/public/event_city/OtherCinema/1.jpg';
-// import event4 from '@/public/event_city/Champion/1.jpg';
+import event4 from '@/public/event_city/Pasxa/1.jpg';
 import event5 from '@/public/event_city/1_june/1.jpg';
 import event6 from '@/public/event_city/Birthday/1.jpg';
 import eventText from '@/public/event_city/смотреть-фотоотчет.png';
@@ -62,6 +62,32 @@ function EventCity() {
                 />
               </Link>
             </div> */}
+
+            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
+              <ImageLink
+                href="https://geometria.ru/reportage/782706-paskhalnye-master-klassy-v-trk-siti-tsentr/"
+                src={event4}
+                width="72"
+                alt="Пасхальный мастер класс"
+                cssClass=""
+                target="_blank"
+              />
+              <h4 className="text-center text-2xl md:text-4xl mt-3 sm:mt-6">
+                Пасхальный мастер класс
+              </h4>
+              <Link
+                href="https://geometria.ru/reportage/782706-paskhalnye-master-klassy-v-trk-siti-tsentr/"
+                target="_blank"
+              >
+                <Image
+                  src={eventText}
+                  alt="Событие 1"
+                  width={300}
+                  sizes="100%"
+                  className="hover:scale-95 ease-in duration-200 m-auto mt-3 sm:mt-6"
+                />
+              </Link>
+            </div>
 
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
