@@ -93,7 +93,7 @@ function Rent() {
               Презентация ТРК «СИТИ ЦЕНТР»
             </Link>
             <Link
-              href="/rent_img/rulesRent.pdf"
+              href="/rent_img/rulesRent1.pdf"
               target="_blank"
               className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
             >
@@ -101,7 +101,7 @@ function Rent() {
               Правила для Арендаторов
             </Link>
             <Link
-              href="/rent_img/reglamentRabot.pdf"
+              href="/rent_img/reglamentRabot1.pdf"
               target="_blank"
               className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
             >
