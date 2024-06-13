@@ -1929,6 +1929,75 @@ export const butiks = [
     otherInfo: 'https://madyar.ru/ru/restaurants/don-bazilio/dishes',
     textOtherInfo: 'Меню ресторана',
   },
+  {
+    id: 55,
+    category: 'children gameCategory',
+    url: 'ChildrenInCity',
+    logo: '/butiks/children/ChildrenInCity/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/ChildrenInCity/1.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/ChildrenInCity/2.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 3,
+        src: '/butiks/children/ChildrenInCity/3.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 4,
+        src: '/butiks/children/ChildrenInCity/4.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 5,
+        src: '/butiks/children/ChildrenInCity/5.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 6,
+        src: '/butiks/children/ChildrenInCity/6.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 7,
+        src: '/butiks/children/ChildrenInCity/7.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 8,
+        src: '/butiks/children/ChildrenInCity/8.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 9,
+        src: '/butiks/children/ChildrenInCity/9.jpg',
+        alt: 'ChildrenInCity',
+      },
+      {
+        id: 10,
+        src: '/butiks/children/ChildrenInCity/10.jpg',
+        alt: 'ChildrenInCity',
+      },
+    ],
+    description1:
+      '«Дети в Сити» — это уникальный проект премиального уровня, который предлагает высококлассный отдых и развлечения детям до 12 лет.',
+    description2:
+      'Площадь центра составляет более 1 000 кв.м. игрового пространства, уединенных комнат для проведения Дней рождения и других мероприятий, кафе и бара для детей, а также зон для мастер-классов.',
+    description3: `Кроме того, в «Дети в Сити» на постоянной основе работает профессиональная команда аниматоров, которые помогают в организации детского досуга и его воплощении в жизнь.`,
+    floor: '3 этаж',
+    tel: '+7 918 012 26 23',
+    telUrl: '89180122623',
+    instagram: '',
+    otherInfo: 'https://detivcity.ru/',
+    textOtherInfo: 'Сайт «Дети В СИТИ»',
+  },
 
   //Удаленные
   // {
