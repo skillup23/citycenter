@@ -24,6 +24,7 @@ import children1 from '@/public/site_img/игратория.png';
 import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
 import children5 from '@/public/site_img/2-книжный-лабиринт.png';
+import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
 import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
@@ -326,7 +327,7 @@ export default function Home() {
       <section className="mb-20 sm:mb-28" id="detyam">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
-          <div className="flex justify-center items-center my-4 sm:my-24 gap-8 sm:gap-36 flex-wrap md:flex-nowrap">
+          <div className="flex justify-center items-center my-4 sm:my-24 gap-8 sm:gap-24 flex-wrap md:flex-nowrap">
             <ImageLink
               href="/butiks/game/41"
               src={children1}
@@ -345,9 +346,16 @@ export default function Home() {
               alt="Книжный лабиринт"
               className=""
             />
+            <ImageLink
+              href="/butiks/children/55"
+              src={children6}
+              alt="Дети в СИТИ"
+              className=""
+              width="36"
+            />
             <Link
               href="/butiks/children/42"
-              className="w-1/3 h-fill text-base sm:text-3xl lg:text-5xl ease-in duration-200 hover:scale-105"
+              className="h-fill text-3xl sm:text-3xl lg:text-5xl ease-in duration-200 hover:scale-105 mt-8 mb-12 sm:mt-0 sm:mb-0"
             >
               Дом детской моды
             </Link>
