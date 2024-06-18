@@ -208,16 +208,6 @@ export const butiks = [
         src: '/butiks/womenClothing/Papaya/8.jpg',
         alt: 'Laurel',
       },
-      {
-        id: 9,
-        src: '/butiks/womenClothing/Papaya/9.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 10,
-        src: '/butiks/womenClothing/Papaya/10.jpg',
-        alt: 'Laurel',
-      },
     ],
     description1:
       'PAPAYA - российский бренд одежды родом из солнечного региона России - Краснодара.',
