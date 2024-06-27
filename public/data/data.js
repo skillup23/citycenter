@@ -64,19 +64,19 @@ const menu = [
 const sliderTop = [
   {
     id: 1,
-    src: '/slide_main/сайт_1-2022.jpg',
+    src: '/slide_main/m_1.jpg',
     alt: 'Изображение 1',
   },
   {
     id: 2,
-    src: '/slide_main/сайт_2-2022.jpg',
+    src: '/slide_main/m_2.jpg',
     alt: 'Изображение 2',
   },
-  // {
-  //   id: 3,
-  //   src: '/slide_main/сайт_3-2022.jpg',
-  //   alt: 'Изображение 3',
-  // },
+  {
+    id: 3,
+    src: '/slide_main/m_3.jpg',
+    alt: 'Изображение 3',
+  },
 ];
 
 // __________________Слайдер Кино____________________
