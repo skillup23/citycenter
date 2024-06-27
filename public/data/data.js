@@ -67,16 +67,16 @@ const sliderTop = [
     src: '/slide_main/m_1.jpg',
     alt: 'Изображение 1',
   },
-  {
-    id: 2,
-    src: '/slide_main/m_2.jpg',
-    alt: 'Изображение 2',
-  },
-  {
-    id: 3,
-    src: '/slide_main/m_3.jpg',
-    alt: 'Изображение 3',
-  },
+  // {
+  //   id: 2,
+  //   src: '/slide_main/m_2.jpg',
+  //   alt: 'Изображение 2',
+  // },
+  // {
+  //   id: 3,
+  //   src: '/slide_main/m_3.jpg',
+  //   alt: 'Изображение 3',
+  // },
 ];
 
 // __________________Слайдер Кино____________________
