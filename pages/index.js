@@ -140,7 +140,7 @@ export default function Home() {
 
       {/*                      БУТИКИ                         */}
 
-      <section className="mb-20 sm:mb-28" id="bitiki">
+      <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-12">БУТИКИ</h2>
           <ShopListMain />
