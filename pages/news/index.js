@@ -3,7 +3,7 @@ import React from 'react';
 // import { useState } from 'react';
 // import news1 from '@/public/news/1.jpg';
 // import news2 from '@/public/news/2.jpg';
-// import news3 from '@/public/news/3.jpg';
+import news3 from '@/public/news/3.jpg';
 import news4 from '@/public/news/4.jpg';
 import news5 from '@/public/news/5.jpg';
 import news6 from '@/public/news/6.jpg';
@@ -35,7 +35,16 @@ function News() {
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap xl:flex-nowrap">
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
+            <Image
+              src={news3}
+              alt="Новость"
+              width={420}
+              height={420}
+              sizes="100%"
+              className="max-h-[420px]"
+              priority
+            />
             <Image
               src={news4}
               alt="Новость"
