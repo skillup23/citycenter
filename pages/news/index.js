@@ -1,7 +1,8 @@
 import Layout from '@/components/Layout';
 import React from 'react';
 // import { useState } from 'react';
-// import news1 from '@/public/news/1.jpg';
+import news1 from '@/public/news/1.jpg';
+import news1_1 from '@/public/news/1-1.jpg';
 // import news2 from '@/public/news/2.jpg';
 import news3 from '@/public/news/3.jpg';
 import news4 from '@/public/news/4.jpg';
@@ -36,6 +37,58 @@ function News() {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
           <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
+            <Image
+              src={news1}
+              alt="Новость"
+              width={420}
+              height={420}
+              sizes="100%"
+              className="max-h-[420px]"
+              priority
+            />
+            <Image
+              src={news1_1}
+              alt="Новость"
+              width={420}
+              height={420}
+              sizes="100%"
+              className="max-h-[420px]"
+              priority
+            />
+            <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+              <div className="flex flex-col gap-4 text-center sm:text-left">
+                <p>Летняя распродажа в салонах Х.О.: скидки до 40%!</p>
+                <p>
+                  Ищете идеальный подарок для мужчины? Или, может быть, хотите
+                  обновить свой гардероб стильной одеждой и аксессуарами? Тогда
+                  вам точно стоит заглянуть в салоны Х.О., где проходит
+                  грандиозная распродажа!
+                </p>
+                <p>
+                  Вас ждут мужские коллекции от ведущих мировых брендов: Aubade,
+                  KARL LAGERFELD, Zegna, Bikkembergs, DIESEL, Moschino, Derek
+                  Rose, Hanro, Calida, Emporio Armani, Bluemint, Hugo, Iceberg,
+                  Dolce&Gabbana, Olaf Benz, Zimmerli и многих других. Не
+                  упустите возможность приобрести качественные вещи по приятным
+                  летним ценам!
+                </p>
+                <p>
+                  Скидки до 40% действуют на всё: мужское бельё, домашнюю и
+                  верхнюю одежду, спортивные костюмы, брюки, рубашки, футболки,
+                  пляжную коллекцию и аксессуары.
+                </p>
+                <p>
+                  Также в этот период в салонах Х.О. за каждые купленные 3
+                  единицы товара вы получите 1000 бонусов в подарок!
+                  Воспользоваться этими бонусами можно будет в сентябре (50% от
+                  стоимости новой коллекции).
+                </p>
+                <p>Ждём вас в салонах Х.О.!</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
             <Image
               src={news3}
               alt="Новость"
@@ -94,7 +147,7 @@ function News() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-20">
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 border-t-2">
             <Image
               src={news6}
               alt="Новость"
