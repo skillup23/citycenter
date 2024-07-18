@@ -8,6 +8,7 @@ import news3 from '@/public/news/3.jpg';
 import news4 from '@/public/news/4.jpg';
 import news5 from '@/public/news/5.jpg';
 import news6 from '@/public/news/6.jpg';
+import news7 from '@/public/news/7.jpg';
 import Image from 'next/image';
 // import Popup from '@/components/Popup';
 // import Link from 'next/link';
@@ -36,7 +37,31 @@ function News() {
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10">
+            <Image
+              src={news7}
+              alt="Новость"
+              width={420}
+              sizes="100%"
+              priority
+            />
+            <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+              <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
+                <p>
+                  Модные , локальные, премиальные бренды в одном пространстве в
+                  ТРК «СИТИ ЦЕНТР»!
+                </p>
+                <p>
+                  20 июля открытие POP UP STORE - пространства с уникальными
+                  локальными дизайнерами. Следите за подробностями в наших
+                  социальных сетях.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
             <Image
               src={news1}
               alt="Новость"
