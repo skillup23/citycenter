@@ -29,6 +29,7 @@ import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
 import { FaBus, FaPhoneAlt } from 'react-icons/fa';
+import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 import { sliderTop, sliderCenter } from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
 
@@ -318,6 +319,36 @@ export default function Home() {
               src={restoran3}
               alt="Любовь и Трюфель"
             />
+          </div>
+        </div>
+      </section>
+
+      {/*                      АРЕНДАТОРАМ                        */}
+
+      <section className="mb-20 sm:mb-28" id="restoran">
+        <div className="lg:container mx-auto">
+          <h1 className="title_main mt-10">Арендаторам</h1>
+          <div className="mt-8 px-3 md:px-0 text-lg sm:text-2xl md:text-3xl text-justify tracking-wide indent-8 flex flex-col">
+            <p>
+              ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
+              впечатлений и эстетики. Торговый центр отличается особым составом
+              арендаторов, эксклюзивно представленных в городе в премиальном
+              сегменте. Показатель среднего чека ТРК «СИТИ ЦЕНТР» является самым
+              высоким в городе. Нас посещают около 3500 человек в будний день и
+              5000 в выходной. Также отличительной особенностью ТРК является
+              высокий показатель конверсии.
+            </p>
+            <p className="mt-8">
+              ТРК Сити Центр приглашает к сотрудничеству цветочные магазины,
+              кафе и рестораны
+            </p>
+            <Link
+              href="/rent"
+              className="m-auto mt-4 sm:mt-2 sm:mr-0 flex items-center gap-2 underline text-2xl sm:text-2xl md:text-3xl ease-in duration-200 hover:scale-105"
+            >
+              Подробнее
+              <FaExternalLinkSquareAlt />
+            </Link>
           </div>
         </div>
       </section>
