@@ -10,10 +10,7 @@ import event1 from '@/public/site_img/event1.png';
 import event2 from '@/public/site_img/event2.png';
 import event3 from '@/public/site_img/event3.png';
 import event4 from '@/public/site_img/event4.png';
-import news1 from '@/public/news/1.jpg';
-import news1_1 from '@/public/news/1-1.jpg';
-import news3 from '@/public/news/3.jpg';
-import news7 from '@/public/news/7.jpg';
+// import news1 from '@/public/news/1.jpg';
 import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 import logoMonitor1 from '@/public/site_img/лого-монитор.png';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
@@ -34,7 +31,7 @@ import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
 import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
-import { sliderTop, sliderCenter } from '@/public/data/data';
+import { sliderTop, sliderCenter, shopList, news } from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
 
 export default function Home() {
@@ -148,7 +145,7 @@ export default function Home() {
       <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-12 mb-10">БУТИКИ</h2>
-          <ShopListMain />
+          <ShopListMain items={shopList} />
         </div>
       </section>
 
@@ -157,7 +154,8 @@ export default function Home() {
       <section className="mb-20 sm:mb-28">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">Новости и акции</h1>
-          <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
+          <ShopListMain items={news} classItem="mt-10" />
+          {/* <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
             <Link
               href="/news"
               className="block relative w-full overflow-hidden h-full"
@@ -214,11 +212,13 @@ export default function Home() {
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/3.jpg")]'></div>
             </Link>
-          </div>
-          <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
-            ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
-            кафе и рестораны
-          </div>
+          </div> */}
+          <Link href="/rent">
+            <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
+              кафе и рестораны
+            </div>
+          </Link>
         </div>
       </section>
 
