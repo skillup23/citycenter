@@ -49,7 +49,7 @@ function News() {
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
                 <p>
-                  Модные , локальные, премиальные бренды в одном пространстве в
+                  Модные, локальные, премиальные бренды в одном пространстве в
                   ТРК «СИТИ ЦЕНТР»!
                 </p>
                 <p>

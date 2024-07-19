@@ -55,6 +55,10 @@ function Rent() {
               5000 в выходной. Также отличительной особенностью ТРК является
               высокий показатель конверсии.
             </p>
+            <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
+              кафе и рестораны
+            </div>
           </div>
           <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-0 mt-10 sm:mt-20">
             {foto.map(({ id, src, alt }) => (

@@ -10,6 +10,10 @@ import event1 from '@/public/site_img/event1.png';
 import event2 from '@/public/site_img/event2.png';
 import event3 from '@/public/site_img/event3.png';
 import event4 from '@/public/site_img/event4.png';
+import news1 from '@/public/news/1.jpg';
+import news1_1 from '@/public/news/1-1.jpg';
+import news3 from '@/public/news/3.jpg';
+import news7 from '@/public/news/7.jpg';
 import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 import logoMonitor1 from '@/public/site_img/лого-монитор.png';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
@@ -143,8 +147,78 @@ export default function Home() {
 
       <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-12">БУТИКИ</h2>
+          <h2 className="title_main mt-12 mb-10">БУТИКИ</h2>
           <ShopListMain />
+        </div>
+      </section>
+
+      {/*                      НОВОСТИ И АКЦИИ                        */}
+
+      <section className="mb-20 sm:mb-28">
+        <div className="lg:container mx-auto">
+          <h1 className="title_main mt-10">Новости и акции</h1>
+          <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news7}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/7.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news1}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news1_1}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1-1.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news3}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/3.jpg")]'></div>
+            </Link>
+          </div>
+          <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+            ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
+            кафе и рестораны
+          </div>
         </div>
       </section>
 
@@ -325,7 +399,7 @@ export default function Home() {
 
       {/*                      АРЕНДАТОРАМ                        */}
 
-      <section className="mb-20 sm:mb-28" id="restoran">
+      {/* <section className="mb-20 sm:mb-28">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">Арендаторам</h1>
           <div className="mt-8 px-3 md:px-0 text-lg sm:text-2xl md:text-3xl text-justify tracking-wide indent-8 flex flex-col">
@@ -351,7 +425,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*                      ДЕТЯМ                        */}
 
