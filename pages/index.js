@@ -33,7 +33,7 @@ import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
 import { FaBus, FaPhoneAlt } from 'react-icons/fa';
-import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+// import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 import { sliderTop, sliderCenter } from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
 
