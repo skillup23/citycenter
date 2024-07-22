@@ -10,7 +10,10 @@ import event1 from '@/public/site_img/event1.png';
 import event2 from '@/public/site_img/event2.png';
 import event3 from '@/public/site_img/event3.png';
 import event4 from '@/public/site_img/event4.png';
-// import news1 from '@/public/news/1.jpg';
+import news7 from '@/public/news/7.jpg';
+import news1 from '@/public/news/1.jpg';
+import news1_1 from '@/public/news/1-1.jpg';
+import news3 from '@/public/news/3.jpg';
 import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 import logoMonitor1 from '@/public/site_img/лого-монитор.png';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
@@ -31,7 +34,7 @@ import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
 import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
-import { sliderTop, sliderCenter, shopList, news } from '@/public/data/data';
+import { sliderTop, sliderCenter, shopList } from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
 
 export default function Home() {
@@ -45,6 +48,12 @@ export default function Home() {
 
       <section className="border_section border-b-0">
         <div className="lg:container mx-auto sm:pr-5">
+          <Link href="/rent">
+            <div className="w-fill mt-10 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
+              кафе и рестораны
+            </div>
+          </Link>
           {/* <h2 className="title_main text-right mt-6 sm:mt-12">СЦЕНАРИИ</h2>
 
           <Image
@@ -153,14 +162,66 @@ export default function Home() {
 
       <section className="mb-20 sm:mb-28">
         <div className="lg:container mx-auto">
-          <Link href="/rent">
-            <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center indent-0">
-              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
-              кафе и рестораны
-            </div>
-          </Link>
-          <h1 className="title_main mt-20">Новости и акции</h1>
-          <ShopListMain items={news} classItem="mt-10" />
+          <h1 className="title_main mt-10">Новости и акции</h1>
+          {/* <ShopListMain items={news} classItem="mt-10" /> */}
+          <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news7}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/7.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news1}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news1_1}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1-1.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news3}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/3.jpg")]'></div>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -338,36 +399,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/*                      АРЕНДАТОРАМ                        */}
-
-      {/* <section className="mb-20 sm:mb-28">
-        <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">Арендаторам</h1>
-          <div className="mt-8 px-3 md:px-0 text-lg sm:text-2xl md:text-3xl text-justify tracking-wide indent-8 flex flex-col">
-            <p>
-              ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
-              впечатлений и эстетики. Торговый центр отличается особым составом
-              арендаторов, эксклюзивно представленных в городе в премиальном
-              сегменте. Показатель среднего чека ТРК «СИТИ ЦЕНТР» является самым
-              высоким в городе. Нас посещают около 3500 человек в будний день и
-              5000 в выходной. Также отличительной особенностью ТРК является
-              высокий показатель конверсии.
-            </p>
-            <p className="mt-8">
-              ТРК Сити Центр приглашает к сотрудничеству цветочные магазины,
-              кафе и рестораны
-            </p>
-            <Link
-              href="/rent"
-              className="m-auto mt-4 sm:mt-2 sm:mr-0 flex items-center gap-2 underline text-2xl sm:text-2xl md:text-3xl ease-in duration-200 hover:scale-105"
-            >
-              Подробнее
-              <FaExternalLinkSquareAlt />
-            </Link>
-          </div>
-        </div>
-      </section> */}
 
       {/*                      ДЕТЯМ                        */}
 
