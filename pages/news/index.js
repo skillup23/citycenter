@@ -10,6 +10,7 @@ import news5 from '@/public/news/5.jpg';
 import news6 from '@/public/news/6.jpg';
 import news7 from '@/public/news/7.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
 // import Popup from '@/components/Popup';
 // import Link from 'next/link';
 // import { BsFilePdf } from 'react-icons/bs';
@@ -54,8 +55,14 @@ function News() {
                 </p>
                 <p>
                   20 июля открытие POP UP STORE - пространства с уникальными
-                  локальными дизайнерами. Следите за подробностями в наших
-                  социальных сетях.
+                  локальными дизайнерами. Следите за подробностями{' '}
+                  <Link
+                    href="https://vk.com/trkcitycentr"
+                    target="_blank"
+                    className="underline"
+                  >
+                    в&nbsp;наших&nbsp;социальных&nbsp;сетях.
+                  </Link>
                 </p>
               </div>
             </div>

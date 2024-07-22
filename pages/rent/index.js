@@ -55,10 +55,14 @@ function Rent() {
               5000 в выходной. Также отличительной особенностью ТРК является
               высокий показатель конверсии.
             </p>
-            <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
-              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
-              кафе и рестораны
-            </div>
+            <Link href="/rent#rent-contact">
+              <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center indent-0">
+                <h5>
+                  ТРК «СИТИ ЦЕНТР» приглашает к&nbsp;сотрудничеству цветочные
+                  магазины, кафе&nbsp;и&nbsp;рестораны
+                </h5>
+              </div>
+            </Link>
           </div>
           <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-0 mt-10 sm:mt-20">
             {foto.map(({ id, src, alt }) => (
@@ -154,7 +158,10 @@ function Rent() {
               </ul>
             </div>
 
-            <div className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-10 sm:mt-0">
+            <div
+              className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-10 sm:mt-0"
+              id="rent-contact"
+            >
               <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
                 ОТДЕЛ АРЕНДНЫХ <br></br>ОТНОШЕНИЙ
               </h4>
