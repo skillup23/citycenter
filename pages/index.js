@@ -153,72 +153,14 @@ export default function Home() {
 
       <section className="mb-20 sm:mb-28">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">Новости и акции</h1>
-          <ShopListMain items={news} classItem="mt-10" />
-          {/* <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news7}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/7.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news1}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news1_1}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1-1.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news3}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/3.jpg")]'></div>
-            </Link>
-          </div> */}
           <Link href="/rent">
-            <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+            <div className="w-fill mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center indent-0">
               ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
               кафе и рестораны
             </div>
           </Link>
+          <h1 className="title_main mt-20">Новости и акции</h1>
+          <ShopListMain items={news} classItem="mt-10" />
         </div>
       </section>
 
