@@ -9,6 +9,7 @@ import news4 from '@/public/news/4.jpg';
 import news5 from '@/public/news/5.jpg';
 import news6 from '@/public/news/6.jpg';
 import news7 from '@/public/news/7.jpg';
+import news8 from '@/public/news/8.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 // import Popup from '@/components/Popup';
@@ -40,6 +41,31 @@ function News() {
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
 
           <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10">
+            <Image
+              src={news8}
+              alt="Новость"
+              width={420}
+              sizes="100%"
+              priority
+            />
+            <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+              <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
+                <p>27 июля в ТРК «СИТИ ЦЕНТР» состоится модный показ.</p>
+                <p>
+                  Вас ждет незабываемое погружение в мир высокой моды.
+                  Стилист-имиджмейкер расскажет все о трендах 2024, проведёт
+                  стильный мастер-класс. Также вы сможете собрать красивый букет
+                  и получить уникальные призы от наших партнеров.
+                </p>
+                <p>
+                  Не упустите возможность стать частью этого события и окунуться
+                  в атмосферу роскоши, элегантности и стиля.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
             <Image
               src={news7}
               alt="Новость"
