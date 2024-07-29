@@ -1,3 +1,5 @@
+let id = 1;
+
 export const butiks = [
   //Женская одежда    womenClothing
   //Мужская одежда    manClothing
@@ -15,7 +17,7 @@ export const butiks = [
   //Сервисы           services
 
   {
-    id: 1,
+    id: id++,
     category: 'womenClothing manClothing shoesAndBags',
     url: 'cosmo-store',
     logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
@@ -66,7 +68,7 @@ export const butiks = [
     instagram: 'cosmostore.krd',
   },
   {
-    id: 2,
+    id: id++,
     category: 'womenClothing',
     url: 'Twinset-milano',
     logo: '/butiks/womenClothing/Twinset-milano/logo.png',
@@ -102,7 +104,7 @@ export const butiks = [
     instagram: 'twin_set_krasnodar',
   },
   {
-    id: 3,
+    id: id++,
     category: 'womenClothing',
     url: 'Marccain',
     logo: '/butiks/womenClothing/Marccain/logo.png',
@@ -163,7 +165,7 @@ export const butiks = [
     instagram: 'krd_marccain',
   },
   {
-    id: 4,
+    id: id++,
     category: 'womenClothing',
     url: 'Papaya',
     logo: '/butiks/womenClothing/Papaya/logo.png',
@@ -221,7 +223,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 5,
+    id: id++,
     category: 'womenClothing manClothing',
     url: 'Paul-shark',
     logo: '/butiks/womenClothing/Paul-shark/logo.png',
@@ -277,7 +279,7 @@ export const butiks = [
     instagram: 'paulandshark',
   },
   {
-    id: 6,
+    id: id++,
     category: 'womenClothing manClothing',
     url: 'Bogner',
     logo: '/butiks/womenClothing/Bogner/logo.png',
@@ -306,63 +308,14 @@ export const butiks = [
     description1:
       'Спортивная мода премиального класса. Непревзойденное сочетание атлетического шика, функциональности и стиля.',
     description2:
-      'Бренд BOGNER – это высочайшее качество, стиль, непохожий на другие, создаваемый теми, кто любит и понимает, что такое активный образ жизни, последние модные тенденции, и придерживается высокого уровня жизни.',
+      'Бренд BOGNER - это высочайшее качество, стиль, непохожий на другие, создаваемый теми, кто любит и понимает, что такое активный образ жизни, последние модные тенденции, и придерживается высокого уровня жизни.',
     floor: '2 этаж',
     tel: '+7 8612 13 47 27',
     telUrl: '88612134727',
     instagram: 'bogner_krasnodar',
   },
   {
-    id: 7,
-    category: 'womenClothing manClothing',
-    url: 'Replay',
-    logo: '/butiks/womenClothing/Replay/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Replay/1.jpg',
-        alt: 'Replay',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Replay/2.jpg',
-        alt: 'Replay',
-      },
-    ],
-    description1:
-      'Replay – итальянский бренд одежды, обуви и аксессуаров. Продукция ориентирована на поклонников яркого и молодежного стиля в духе casual. Компания выпускает футболки, блузы и толстовки, джемперы и платья, комбинируя различные материалы: шелк и хлопок, джерси и кашемир. Особое место в ассортименте отводится одежде из денима. Ее окрашивают применением сверхустойчивых красителей, по технологии, экономящей воду в рамках защиты окружающей среды. Под маркой Replay покупателям также предлагаются солнцезащитные очки, аксессуары и обувь, парфюмерия и украшения.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 92',
-    telUrl: '88612134792',
-    instagram: 'replay.mf',
-  },
-  {
-    id: 8,
-    category: 'womenClothing manClothing',
-    url: 'Energie',
-    logo: '/butiks/womenClothing/Energie/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Energie/1.jpg',
-        alt: 'Energie',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Energie/2.jpg',
-        alt: 'Energie',
-      },
-    ],
-    description1: 'В бутике ENERGIE представлен женский бренд Miss Sixty.',
-    description2:
-      'Miss Sixty — это сочетание сексуальной, жизнерадостной современной одежды и утонченности. Каждый сезон очаровательная смесь культур и идей характеризует коллекции одежды Miss Sixty, которой присущи чувственная женственность и дерзкий дизайн.',
-    floor: '2 этаж',
-    tel: '+7 861 213 47 67',
-    telUrl: '88612134767',
-    instagram: 'energie_citycentre_',
-  },
-  {
-    id: 9,
+    id: id++,
     category: 'womenClothing underwear',
     url: 'Wolford',
     logo: '/butiks/womenClothing/Wolford/logo.png',
@@ -406,7 +359,7 @@ export const butiks = [
     instagram: 'wolford_krasnodar',
   },
   {
-    id: 10,
+    id: id++,
     category: 'womenClothing manClothing',
     url: 'PP',
     logo: '/butiks/womenClothing/PP/logo.png',
@@ -430,7 +383,7 @@ export const butiks = [
     instagram: 'plein_shop_',
   },
   {
-    id: 11,
+    id: id++,
     category: 'womenClothing',
     url: 'Elizabetta-franchi',
     logo: '/butiks/womenClothing/Elizabetta-franchi/logo.png',
@@ -479,7 +432,7 @@ export const butiks = [
     instagram: 'fashion_brands_krd',
   },
   {
-    id: 12,
+    id: id++,
     category: 'womenClothing shoesAndBags',
     url: 'Michael-kors',
     logo: '/butiks/womenClothing/Michael-kors/logo.png',
@@ -560,7 +513,7 @@ export const butiks = [
     instagram: 'michaelkors',
   },
   {
-    id: 13,
+    id: id++,
     category: 'manClothing',
     url: 'Angelo Nardelli',
     logo: '/butiks/menClothing/AngeloNardelli/logo.png',
@@ -586,7 +539,7 @@ export const butiks = [
     instagram: 'angelonardelli51',
   },
   {
-    id: 14,
+    id: id++,
     category: 'manClothing',
     url: 'Van Laack',
     logo: '/butiks/menClothing/vanLaack/logo.png',
@@ -605,7 +558,7 @@ export const butiks = [
     instagram: 'vanlaack_krd',
   },
   {
-    id: 15,
+    id: id++,
     category: 'manClothing underwear',
     url: 'XO',
     logo: '/butiks/menClothing/XO/logo.png',
@@ -631,7 +584,7 @@ export const butiks = [
     instagram: 'xo_man_ru',
   },
   {
-    id: 16,
+    id: id++,
     category: 'manClothing',
     url: 'Lab',
     logo: '/butiks/menClothing/Lab/logo.png',
@@ -655,7 +608,7 @@ export const butiks = [
     instagram: 'lab_pal_zileri',
   },
   {
-    id: 17,
+    id: id++,
     category: 'manClothing',
     url: 'Richard',
     logo: '/butiks/menClothing/Richard/logo.png',
@@ -679,7 +632,7 @@ export const butiks = [
     instagram: 'richardhampton_krd',
   },
   {
-    id: 18,
+    id: id++,
     category: 'manClothing',
     url: 'Excelsior',
     logo: '/butiks/menClothing/Excelsior/logo.png',
@@ -703,68 +656,7 @@ export const butiks = [
     instagram: 'excelsior_city',
   },
   {
-    id: 19,
-    category: 'children',
-    url: 'LapinHouse',
-    logo: '/butiks/children/LapinHouse/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/children/LapinHouse/1.jpg',
-        alt: 'LapinHouse',
-      },
-      {
-        id: 2,
-        src: '/butiks/children/LapinHouse/2.jpg',
-        alt: 'LapinHouse',
-      },
-      {
-        id: 3,
-        src: '/butiks/children/LapinHouse/3.jpg',
-        alt: 'LapinHouse',
-      },
-      {
-        id: 4,
-        src: '/butiks/children/LapinHouse/4.jpg',
-        alt: 'LapinHouse',
-      },
-    ],
-    description1:
-      'Бутик Lapin House — это эстетическое совершенство и качество. В фирменном магазине представлена  одежда и аксессуары для мальчиков и девочек от 0 до 14 лет. Вещи, купленные в Lapin House, становятся любимыми и остаются в памяти ребенка.',
-    description2: 'Lapin House – одежда для самых красивых детей в мире!',
-    floor: '3 этаж',
-    tel: '+7 928 433 30 37',
-    telUrl: '89284333037',
-    instagram: 'lapinhousekrd',
-  },
-  {
-    id: 20,
-    category: 'children gameCategory giftsAndBook',
-    url: 'BookLab',
-    logo: '/butiks/children/BookLab/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/children/BookLab/1.jpg',
-        alt: 'BookLab',
-      },
-      {
-        id: 2,
-        src: '/butiks/children/BookLab/2.jpg',
-        alt: 'BookLab',
-      },
-    ],
-    description1:
-      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
-    description2:
-      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
-    floor: '3 этаж',
-    tel: '+7 861 299 71 83',
-    telUrl: '88612134741',
-    instagram: 'knizhnylabirintcity',
-  },
-  {
-    id: 21,
+    id: id++,
     category: 'underwear',
     url: 'WildOrchid',
     logo: '/butiks/underwear/WildOrchid/logo.png',
@@ -790,7 +682,7 @@ export const butiks = [
     instagram: 'wildorchidofficial',
   },
   {
-    id: 22,
+    id: id++,
     category: 'underwear',
     url: 'Laperila',
     logo: '/butiks/underwear/Laperila/logo.png',
@@ -814,7 +706,7 @@ export const butiks = [
     instagram: 'lingerie_krd',
   },
   {
-    id: 23,
+    id: id++,
     category: 'underwear',
     url: 'EstelAdony',
     logo: '/butiks/underwear/EstelAdony/logo.png',
@@ -838,7 +730,7 @@ export const butiks = [
     instagram: 'estelle_adony',
   },
   {
-    id: 24,
+    id: id++,
     category: 'clocks',
     url: 'Renaissance',
     logo: '/butiks/clocks/Renaissance/logo.png',
@@ -869,7 +761,7 @@ export const butiks = [
     instagram: 'renaissance_boutique',
   },
   {
-    id: 25,
+    id: id++,
     category: 'clocks',
     url: 'FreyWille',
     logo: '/butiks/clocks/FreyWille/logo.png',
@@ -915,7 +807,7 @@ export const butiks = [
     instagram: 'freywille_ru',
   },
   {
-    id: 26,
+    id: id++,
     category: 'clocks',
     url: 'GoldLarec',
     logo: '/butiks/clocks/GoldLarec/logo.png',
@@ -949,7 +841,7 @@ export const butiks = [
     instagram: 'zolotoylarets',
   },
   {
-    id: 27,
+    id: id++,
     category: 'clocks interior giftsAndBook',
     url: 'DecorBurgua',
     logo: '/butiks/clocks/DecorBurgua/logo.png',
@@ -975,7 +867,7 @@ export const butiks = [
     instagram: 'decor_burgua',
   },
   {
-    id: 28,
+    id: id++,
     category: 'clocks giftsAndBook',
     url: 'TimeGalery',
     logo: '/butiks/clocks/TimeGalery/logo.png',
@@ -1016,7 +908,7 @@ export const butiks = [
     instagram: 'time_gallery.krasnodar',
   },
   {
-    id: 29,
+    id: id++,
     category: 'clocks giftsAndBook',
     url: 'GMT',
     logo: '/butiks/clocks/GMT/logo.png',
@@ -1047,8 +939,8 @@ export const butiks = [
     instagram: 'gmt_krasnodar',
   },
   {
-    id: 30,
-    category: 'clocks',
+    id: id++,
+    category: 'giftsAndBook',
     url: 'Branche',
     logo: '/butiks/clocks/Branche/logo.png',
     image: [
@@ -1068,7 +960,7 @@ export const butiks = [
     instagram: 'be.branche',
   },
   {
-    id: 31,
+    id: id++,
     category: 'shoesAndBags',
     url: 'VicMatie',
     logo: '/butiks/shoesAndBags/VicMatie/logo.png',
@@ -1104,7 +996,7 @@ export const butiks = [
     instagram: 'cosmostore.krd',
   },
   {
-    id: 32,
+    id: id++,
     category: 'shoesAndBags',
     url: 'Fabi',
     logo: '/butiks/shoesAndBags/Fabi/logo.png',
@@ -1140,7 +1032,7 @@ export const butiks = [
     instagram: 'fabi_krd',
   },
   {
-    id: 33,
+    id: id++,
     category: 'shoesAndBags glasses',
     url: 'PanChemodan',
     logo: '/butiks/clocks/PanChemodan/logo.png',
@@ -1176,7 +1068,7 @@ export const butiks = [
     instagram: 'panchemodan',
   },
   {
-    id: 34,
+    id: id++,
     category: 'cosmetics',
     url: 'ileDeBeaute',
     logo: '/butiks/cosmetics/ileDeBeaute/logo.png',
@@ -1207,7 +1099,7 @@ export const butiks = [
     instagram: 'sephora_russia',
   },
   {
-    id: 35,
+    id: id++,
     category: 'cosmetics',
     url: 'Perfumery',
     logo: '/butiks/cosmetics/Giorgio/logo.png',
@@ -1258,7 +1150,7 @@ export const butiks = [
     instagram: 'giorgio_boutique',
   },
   {
-    id: 36,
+    id: id++,
     category: 'interior giftsAndBook',
     url: 'Renesans',
     logo: '/butiks/interior/Renesans/logo.png',
@@ -1281,7 +1173,7 @@ export const butiks = [
     instagram: 'renaissance_boutique',
   },
   {
-    id: 37,
+    id: id++,
     category: 'interior',
     url: 'DC',
     logo: '/butiks/interior/DC/logo.png',
@@ -1306,7 +1198,7 @@ export const butiks = [
     instagram: 'dream_catchers_rus',
   },
   {
-    id: 38,
+    id: id++,
     category: 'interior',
     url: 'Raffinat',
     logo: '/butiks/interior/Raffinat/logo.png',
@@ -1339,7 +1231,7 @@ export const butiks = [
     instagram: 'raffinatcity',
   },
   {
-    id: 39,
+    id: id++,
     category: 'giftsAndBook',
     url: 'French Kiss',
     logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
@@ -1363,7 +1255,7 @@ export const butiks = [
     instagram: 'frenchkiss_krd',
   },
   {
-    id: 40,
+    id: id++,
     category: 'services',
     url: 'HimCLear',
     logo: '/services/HimCLear/logo.png',
@@ -1388,7 +1280,7 @@ export const butiks = [
     telUrl: '89615102560',
   },
   {
-    id: 41,
+    id: id++,
     category: 'services gameCategory children',
     url: 'Igratoriya',
     logo: '/services/Igratoriya/logo.png',
@@ -1435,7 +1327,7 @@ export const butiks = [
     instagram: 'igratoria',
   },
   {
-    id: 42,
+    id: id++,
     category: 'children',
     url: 'HouseChildrenModa',
     logo: '/butiks/children/HouseChildrenModa/logo.png',
@@ -1473,31 +1365,8 @@ export const butiks = [
     telUrl: '88612134757',
     instagram: 'dom_detskoi_modi',
   },
-  // {
-  //   id: 43,
-  //   category: 'glasses',
-  //   url: 'Mac',
-  //   logo: '/butiks/cosmetics/Mac/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/cosmetics/Mac/1.jpg',
-  //       alt: 'Mac',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/cosmetics/Mac/2.jpg',
-  //       alt: 'Mac',
-  //     },
-  //   ],
-  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
-  //   floor: '1 этаж',
-  //   tel: '+7 861 213 47 05',
-  //   telUrl: '88612134705',
-  //   instagram: 'maccosmeticsrussia',
-  // },
   {
-    id: 44,
+    id: id++,
     category: 'gameCategory',
     url: 'Cinema',
     logo: '/butiks/gameCategory/cinema/logo.png',
@@ -1517,7 +1386,7 @@ export const butiks = [
     instagram: 'KINOMONITOR',
   },
   {
-    id: 45,
+    id: id++,
     category: 'kafeAndRestoran',
     url: 'LoveAndTrufel',
     logo: '/butiks/kafe/LoveAndTrufel/logo.png',
@@ -1558,7 +1427,7 @@ export const butiks = [
     video: '/butiks/kafe/LoveAndTrufel/video2.mp4',
   },
   {
-    id: 46,
+    id: id++,
     category: 'glasses giftsAndBook',
     url: 'IqMac',
     logo: '/butiks/glasses/IqMac/logo.png',
@@ -1587,7 +1456,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 47,
+    id: id++,
     category: 'manClothing',
     url: 'Studio',
     logo: '/butiks/menClothing/Studio/logo.png',
@@ -1621,7 +1490,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 48,
+    id: id++,
     category: 'manClothing',
     url: 'Gabbiacci',
     logo: '/butiks/menClothing/Gabbiaacci/logo.png',
@@ -1666,7 +1535,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 49,
+    id: id++,
     category: 'womenClothing manClothing',
     url: 'ConceptStore',
     logo: '/butiks/womenClothing/ConceptStore/logo1.png',
@@ -1726,7 +1595,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 50,
+    id: id++,
     category: 'womenClothing',
     url: 'ConceptStoreW',
     logo: '/butiks/womenClothing/ConceptStoreW/logo1.png',
@@ -1781,7 +1650,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 51,
+    id: id++,
     category: 'womenClothing',
     url: 'Braschi',
     logo: '/butiks/womenClothing/Braschi/logo.png',
@@ -1824,7 +1693,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 52,
+    id: id++,
     category: 'womenClothing',
     url: 'Sisal',
     logo: '/butiks/womenClothing/Sisal/logo.png',
@@ -1843,7 +1712,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 53,
+    id: id++,
     category: 'children',
     url: 'MagicToys',
     logo: '/butiks/children/MagisToys/logo1.png',
@@ -1883,7 +1752,7 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: 54,
+    id: id++,
     category: 'kafeAndRestoran',
     url: 'DonBazilio',
     logo: '/butiks/kafe/DonBazilio/logo.png',
@@ -1920,7 +1789,7 @@ export const butiks = [
     textOtherInfo: 'Меню ресторана',
   },
   {
-    id: 55,
+    id: id++,
     category: 'children gameCategory',
     url: 'ChildrenInCity',
     logo: '/butiks/children/ChildrenInCity/logo.png',
@@ -1987,6 +1856,34 @@ export const butiks = [
     instagram: '',
     otherInfo: 'https://detivcity.ru/',
     textOtherInfo: 'Сайт «Дети В СИТИ»',
+  },
+  {
+    id: id++,
+    category: 'glasses',
+    url: 'Optika',
+    logo: '/butiks/glasses/Optika/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/glasses/Optika/1.jpg',
+        alt: 'Optika',
+      },
+      {
+        id: 2,
+        src: '/butiks/glasses/Optika/2.jpg',
+        alt: 'Optika',
+      },
+    ],
+    description1:
+      'Салон оптики «Оптрика» дает возможность смотреть на мир по-другому и предлагает самые качественные оптические услуги в городе.',
+    description2:
+      'Здесь вы всегда можете приобрести подходящие очки, проверить свое зрение и задать все интересующие вас вопросы оптику-консультанту. “Оптрика” производит очки для зрения только с сертифицированными линзами от мировых производителей.',
+    description3:
+      'В салоне представлены только оригинальные очки от мировых брендов: Cartier, Chrome-Hearts, Dior, Prada, D&G, Gucci, Roberto Cavalli, Tiffany&Co и многие другие.',
+    floor: '1 этаж',
+    tel: '+7 861 213 47 56',
+    telUrl: '88612134756',
+    instagram: 'optrika',
   },
 
   //Удаленные
@@ -2740,33 +2637,67 @@ export const butiks = [
   //   instagram: 'decor_burgua',
   // },
   // {
-  //   id: 63,
-  //   category: 'glasses',
-  //   url: 'French Kiss',
-  //   logo: '/butiks/glasses/Optika/logo.png',
+  //   id: 19,
+  //   category: 'children',
+  //   url: 'LapinHouse',
+  //   logo: '/butiks/children/LapinHouse/logo.png',
   //   image: [
   //     {
   //       id: 1,
-  //       src: '/butiks/glasses/Optika/1.jpg',
-  //       alt: 'Optika',
+  //       src: '/butiks/children/LapinHouse/1.jpg',
+  //       alt: 'LapinHouse',
   //     },
   //     {
   //       id: 2,
-  //       src: '/butiks/glasses/Optika/2.jpg',
-  //       alt: 'Optika',
+  //       src: '/butiks/children/LapinHouse/2.jpg',
+  //       alt: 'LapinHouse',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/children/LapinHouse/3.jpg',
+  //       alt: 'LapinHouse',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/children/LapinHouse/4.jpg',
+  //       alt: 'LapinHouse',
   //     },
   //   ],
   //   description1:
-  //     'Салон оптики «Оптрика» дает возможность смотреть на мир по-другому и предлагает самые качественные оптические услуги в городе.',
-  //   description2:
-  //     'Здесь вы всегда можете приобрести подходящие очки, проверить свое зрение и задать все интересующие вас вопросы оптику-консультанту. “Оптрика” производит очки для зрения только с сертифицированными линзами от мировых производителей.',
-  //   description3:
-  //     'В салоне представлены только оригинальные очки от мировых брендов: Cartier, Chrome-Hearts, Dior, Prada, D&G, Gucci, Roberto Cavalli, Tiffany&Co и многие другие.',
-  //   floor: '1 этаж',
-  //   tel: '+7 861 213 47 56',
-  //   telUrl: '88612134756',
-  //   instagram: 'optrika',
+  //     'Бутик Lapin House — это эстетическое совершенство и качество. В фирменном магазине представлена  одежда и аксессуары для мальчиков и девочек от 0 до 14 лет. Вещи, купленные в Lapin House, становятся любимыми и остаются в памяти ребенка.',
+  //   description2: 'Lapin House – одежда для самых красивых детей в мире!',
+  //   floor: '3 этаж',
+  //   tel: '+7 928 433 30 37',
+  //   telUrl: '89284333037',
+  //   instagram: 'lapinhousekrd',
   // },
+  // {
+  //   id: 20,
+  //   category: 'children gameCategory giftsAndBook',
+  //   url: 'BookLab',
+  //   logo: '/butiks/children/BookLab/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/children/BookLab/1.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/children/BookLab/2.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //   ],
+  //   description1:
+  //     '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+  //   description2:
+  //     'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+  //   floor: '3 этаж',
+  //   tel: '+7 861 299 71 83',
+  //   telUrl: '88612134741',
+  //   instagram: 'knizhnylabirintcity',
+  // },
+
   // {
   //   id: 72,
   //   category: 'gameCategory',
@@ -2860,5 +2791,77 @@ export const butiks = [
   //   tel: '+7 988 470 19 63',
   //   telUrl: '89884701963',
   //   instagram: 'igratoria',
+  // },
+  // {
+  //   id: 43,
+  //   category: 'glasses',
+  //   url: 'Mac',
+  //   logo: '/butiks/cosmetics/Mac/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/cosmetics/Mac/1.jpg',
+  //       alt: 'Mac',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/cosmetics/Mac/2.jpg',
+  //       alt: 'Mac',
+  //     },
+  //   ],
+  //   description1: `MAC Cosmetics – известный во всём мире косметический бренд, представленый в ТРК «СИТИ ЦЕНТР». M·A·C создает модные тенденции, сотрудничая с талантливыми представителями поп-культуры, искусства и моды. А также ценит разнообразие и индивидуальность, поэтому косметическая продукция предназначена для людей всех возрастов, всех национальностей и всех полов.`,
+  //   floor: '1 этаж',
+  //   tel: '+7 861 213 47 05',
+  //   telUrl: '88612134705',
+  //   instagram: 'maccosmeticsrussia',
+  // },
+  // {
+  //   id: 7,
+  //   category: 'womenClothing manClothing',
+  //   url: 'Replay',
+  //   logo: '/butiks/womenClothing/Replay/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Replay/1.jpg',
+  //       alt: 'Replay',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Replay/2.jpg',
+  //       alt: 'Replay',
+  //     },
+  //   ],
+  //   description1:
+  //     'Replay – итальянский бренд одежды, обуви и аксессуаров. Продукция ориентирована на поклонников яркого и молодежного стиля в духе casual. Компания выпускает футболки, блузы и толстовки, джемперы и платья, комбинируя различные материалы: шелк и хлопок, джерси и кашемир. Особое место в ассортименте отводится одежде из денима. Ее окрашивают применением сверхустойчивых красителей, по технологии, экономящей воду в рамках защиты окружающей среды. Под маркой Replay покупателям также предлагаются солнцезащитные очки, аксессуары и обувь, парфюмерия и украшения.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 92',
+  //   telUrl: '88612134792',
+  //   instagram: 'replay.mf',
+  // },
+  // {
+  //   id: 8,
+  //   category: 'womenClothing manClothing',
+  //   url: 'Energie',
+  //   logo: '/butiks/womenClothing/Energie/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Energie/1.jpg',
+  //       alt: 'Energie',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Energie/2.jpg',
+  //       alt: 'Energie',
+  //     },
+  //   ],
+  //   description1: 'В бутике ENERGIE представлен женский бренд Miss Sixty.',
+  //   description2:
+  //     'Miss Sixty — это сочетание сексуальной, жизнерадостной современной одежды и утонченности. Каждый сезон очаровательная смесь культур и идей характеризует коллекции одежды Miss Sixty, которой присущи чувственная женственность и дерзкий дизайн.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 47 67',
+  //   telUrl: '88612134767',
+  //   instagram: 'energie_citycentre_',
   // },
 ];
