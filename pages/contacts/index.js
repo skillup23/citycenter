@@ -32,12 +32,12 @@ function Contacts() {
                     +7 (861) 213 47 00
                   </Link>
                 </li>
-                <li className="flex flex-row w-fill items-center mt-1">
+                {/* <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <h4 className="text-lg md:text-xl">
                     +7 (861) 213 47 06 (ФАКС)
                   </h4>
-                </li>
+                </li> */}
                 <li className="flex flex-row w-fill items-center mt-1">
                   <MdEmail className="text-xl mr-5" />
                   <Link
@@ -146,7 +146,7 @@ function Contacts() {
                 <li className="flex flex-row w-fill items-center mt-1">
                   <RiTimeFill className="text-xl mr-5" />
                   <h4 className="text-lg md:text-xl">
-                    КАФЕ И РЕСТОРАН - ДО 23:00
+                    КАФЕ И РЕСТОРАН - ДО 22:00
                   </h4>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">

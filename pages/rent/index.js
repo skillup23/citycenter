@@ -25,17 +25,17 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-1-floor.jpg',
+      src: '/rent_img/1-2-floor.jpg',
       alt: '1 этаж',
     },
     {
       id: 2,
-      src: '/rent_img/2-floor.jpg',
+      src: '/rent_img/2-1-floor.jpg',
       alt: '2 этаж',
     },
     {
       id: 3,
-      src: '/rent_img/3-floor.jpg',
+      src: '/rent_img/3-1-floor.jpg',
       alt: '3 этаж',
     },
   ];
@@ -140,12 +140,12 @@ function Rent() {
                     +7 (861) 213 47 00
                   </Link>
                 </li>
-                <li className="flex flex-row w-fill items-center mt-1">
+                {/* <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <h4 className="text-lg md:text-xl lg:text-2xl">
                     +7 (861) 213 47 06 (ФАКС)
                   </h4>
-                </li>
+                </li> */}
                 <li className="flex flex-row w-fill items-center mt-1">
                   <MdEmail className="text-xl mr-5" />
                   <Link

@@ -7,6 +7,7 @@ import event2 from '@/public/event_city/Vesna/1.jpg';
 import event4 from '@/public/event_city/Pasxa/1.jpg';
 import event5 from '@/public/event_city/1_june/1.jpg';
 import event6 from '@/public/event_city/Birthday/1.jpg';
+import event7 from '@/public/event_city/KUBAN_DESIGNSTORE_open/1.jpg';
 import eventText from '@/public/event_city/смотреть-фотоотчет.png';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -62,6 +63,32 @@ function EventCity() {
                 />
               </Link>
             </div> */}
+
+            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
+              <ImageLink
+                href="https://disk.yandex.ru/d/04js8nS1uPlafg"
+                src={event7}
+                width="72"
+                alt="Пасхальный мастер класс"
+                cssClass=""
+                target="_blank"
+              />
+              <h4 className="text-center text-2xl md:text-4xl mt-3 sm:mt-6">
+                KUBAN DESIGNSTORE OPEN
+              </h4>
+              <Link
+                href="https://disk.yandex.ru/d/04js8nS1uPlafg"
+                target="_blank"
+              >
+                <Image
+                  src={eventText}
+                  alt="Событие 1"
+                  width={300}
+                  sizes="100%"
+                  className="hover:scale-95 ease-in duration-200 m-auto mt-3 sm:mt-6"
+                />
+              </Link>
+            </div>
 
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
