@@ -1232,6 +1232,24 @@ export const butiks = [
   },
   {
     id: id++,
+    category: 'interior giftsAndBook',
+    url: 'LuxuryLiving',
+    logo: '/butiks/interior/LuxuryLiving/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'LuxuryLiving',
+      },
+    ],
+    description1: ` `,
+    floor: '1 этаж',
+    tel: '',
+    telUrl: '',
+    instagram: '',
+  },
+  {
+    id: id++,
     category: 'giftsAndBook',
     url: 'French Kiss',
     logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
@@ -1325,6 +1343,74 @@ export const butiks = [
     tel: '+7 988 470 19 63',
     telUrl: '89884701963',
     instagram: 'igratoria',
+  },
+  {
+    id: id++,
+    category: 'services',
+    url: 'Perekrestok',
+    logo: '/services/Perekrestok/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'Perekrestok',
+      },
+    ],
+    description1: ' ',
+    floor: '1 этаж',
+    tel: '',
+    telUrl: '',
+  },
+  {
+    id: id++,
+    category: 'services',
+    url: 'ATMs',
+    logo: '/services/ATMs/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'ATMs',
+      },
+    ],
+    description1: ' ',
+    floor: '1 этаж',
+    tel: '',
+    telUrl: '',
+  },
+  {
+    id: id++,
+    category: 'services',
+    url: 'Pharmacy',
+    logo: '/services/Pharmacy/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'Pharmacy',
+      },
+    ],
+    description1: 'Аптека',
+    floor: '1 этаж',
+    tel: '',
+    telUrl: '',
+  },
+  {
+    id: id++,
+    category: 'services',
+    url: 'Repassaj',
+    logo: '/services/Repassaj/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'Repassaj',
+      },
+    ],
+    description1: 'Ремонт часов',
+    floor: '1 этаж',
+    tel: '',
+    telUrl: '',
   },
   {
     id: id++,
@@ -1596,6 +1682,24 @@ export const butiks = [
   },
   {
     id: id++,
+    category: 'manClothing',
+    url: 'NAPAPIJRI',
+    logo: '/butiks/menClothing/NAPAPIJRI/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'NAPAPIJRI',
+      },
+    ],
+    description1: ` `,
+    floor: '2 этаж',
+    tel: '',
+    telUrl: '',
+    instagram: '',
+  },
+  {
+    id: id++,
     category: 'womenClothing',
     url: 'ConceptStoreW',
     logo: '/butiks/womenClothing/ConceptStoreW/logo1.png',
@@ -1695,20 +1799,55 @@ export const butiks = [
   {
     id: id++,
     category: 'womenClothing',
-    url: 'Sisal',
-    logo: '/butiks/womenClothing/Sisal/logo.png',
+    url: 'MesDemoiselles',
+    logo: '/butiks/womenClothing/MesDemoiselles/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
-        alt: 'Sisal',
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'MesDemoiselles',
       },
     ],
-    description1: `Бутик SIZAL  представляет российского дизайнера - Викторию Андреянову, чья эстетика OVERSIZE МИНИМАЛИЗМА С 1992 ГОДА СОБИРАЕТ СВОИХ АДЕПТОВ ПО ВСЕМУ МИРУ.`,
-    description2: `Также мы представляем Caterina Leman - это европейский бренд швейцарского качеста.`,
+    description1: ` `,
     floor: '2 этаж',
-    tel: '+7 967 30 50 209',
-    telUrl: '89673050209',
+    tel: '',
+    telUrl: '',
+    instagram: '',
+  },
+  {
+    id: id++,
+    category: 'womenClothing',
+    url: 'KubanDesignStore',
+    logo: '/butiks/womenClothing/KubanDesignStore/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'KubanDesignStore',
+      },
+    ],
+    description1: ` `,
+    floor: '2 этаж',
+    tel: '',
+    telUrl: '',
+    instagram: '',
+  },
+  {
+    id: id++,
+    category: 'womenClothing',
+    url: 'SOLine',
+    logo: '/butiks/womenClothing/SOLine/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'SOLine',
+      },
+    ],
+    description1: ` `,
+    floor: '2 этаж',
+    tel: '',
+    telUrl: '',
     instagram: '',
   },
   {
@@ -1884,6 +2023,32 @@ export const butiks = [
     tel: '+7 861 213 47 56',
     telUrl: '88612134756',
     instagram: 'optrika',
+  },
+  {
+    id: id++,
+    category: 'giftsAndBook',
+    url: 'BookLab',
+    logo: '/butiks/children/BookLab/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/children/BookLab/1.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 2,
+        src: '/butiks/children/BookLab/2.jpg',
+        alt: 'BookLab',
+      },
+    ],
+    description1:
+      '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+    description2:
+      'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+    floor: '3 этаж',
+    tel: '+7 861 299 71 83',
+    telUrl: '88612134741',
+    instagram: 'knizhnylabirintcity',
   },
 
   //Удаленные
@@ -2863,5 +3028,24 @@ export const butiks = [
   //   tel: '+7 861 213 47 67',
   //   telUrl: '88612134767',
   //   instagram: 'energie_citycentre_',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'Sisal',
+  //   logo: '/butiks/womenClothing/Sisal/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/loaderImg.png',
+  //       alt: 'Sisal',
+  //     },
+  //   ],
+  //   description1: `Бутик SIZAL  представляет российского дизайнера - Викторию Андреянову, чья эстетика OVERSIZE МИНИМАЛИЗМА С 1992 ГОДА СОБИРАЕТ СВОИХ АДЕПТОВ ПО ВСЕМУ МИРУ.`,
+  //   description2: `Также мы представляем Caterina Leman - это европейский бренд швейцарского качеста.`,
+  //   floor: '2 этаж',
+  //   tel: '+7 967 30 50 209',
+  //   telUrl: '89673050209',
+  //   instagram: '',
   // },
 ];

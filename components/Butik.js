@@ -105,12 +105,17 @@ function Butik(butik) {
                 <FaMapMarkerAlt className="text-2xl sm:text-3xl mr-5" />
                 <h4 className="text-xl sm:text-2xl">{floor}</h4>
               </div>
-              <div className="flex flex-row w-fill items-center mt-2">
-                <FaPhoneAlt className="text-xl sm:text-2xl mr-5" />
-                <Link href={telUrl} className="text-xl sm:text-2xl">
-                  {tel}
-                </Link>
-              </div>
+              {!telUrl ? (
+                ''
+              ) : (
+                <div className="flex flex-row w-fill items-center mt-2">
+                  <FaPhoneAlt className="text-xl sm:text-2xl mr-5" />
+                  <Link href={telUrl} className="text-xl sm:text-2xl">
+                    {tel}
+                  </Link>
+                </div>
+              )}
+
               {!otherInfo ? (
                 ''
               ) : (
