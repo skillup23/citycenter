@@ -66,10 +66,10 @@ function EventCity() {
 
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
-                href="https://disk.yandex.ru/d/04js8nS1uPlafg"
+                href="https://geometria.ru/reportage/786030-kuban-design-store-otkrytie/"
                 src={event7}
                 width="72"
-                alt="Пасхальный мастер класс"
+                alt="KUBAN DESIGNSTORE OPEN"
                 cssClass=""
                 target="_blank"
               />
@@ -77,7 +77,7 @@ function EventCity() {
                 KUBAN DESIGNSTORE OPEN
               </h4>
               <Link
-                href="https://disk.yandex.ru/d/04js8nS1uPlafg"
+                href="https://geometria.ru/reportage/786030-kuban-design-store-otkrytie/"
                 target="_blank"
               >
                 <Image

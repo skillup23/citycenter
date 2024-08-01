@@ -35,7 +35,7 @@ const Services = ({ butiks }) => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-y-12 justify-between items-center justify-items-center lg:justify-items-start my-12 md:my-24 mx-5 lg:mr-32 lg:ml-5">
             {butiks &&
               butiks
-                .filter((item) => item.category === `services`) //*фильтруем по категории для отображения нужных на странице
+                .filter((item) => item.category.includes(`services`)) //*фильтруем по категории для отображения нужных на странице
                 .map(({ id, logo, url }) => (
                   <ImageLink
                     key={id}
