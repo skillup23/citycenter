@@ -1692,7 +1692,7 @@ export const butiks = [
         alt: 'NAPAPIJRI',
       },
     ],
-    description1: ` `,
+    description1: `СКОРО ОТКРЫТИЕ!`,
     floor: '2 этаж',
     tel: '',
     telUrl: '',
