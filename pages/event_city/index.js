@@ -8,6 +8,8 @@ import event4 from '@/public/event_city/Pasxa/1.jpg';
 import event5 from '@/public/event_city/1_june/1.jpg';
 import event6 from '@/public/event_city/Birthday/1.jpg';
 import event7 from '@/public/event_city/KUBAN_DESIGNSTORE_open/1.jpg';
+import event8 from '@/public/event_city/ModniyBrend/1.jpg';
+import event9 from '@/public/event_city/StarsInCity/1.jpg';
 import eventText from '@/public/event_city/смотреть-фотоотчет.png';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -20,40 +22,23 @@ function EventCity() {
           <h2 className="title_main mt-10">МЕРОПРИЯТИЯ</h2>
 
           <div className="flex mt-2 sm:mt-14 flex-wrap gap-y-6 sm:gap-y-14">
-            {/* <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
+            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
-                href="/event_city/other_cinema"
-                src={event3}
+                href="https://disk.yandex.ru/d/AMGu9T02KSimpw"
+                src={event9}
                 width="72"
-                alt="Другое кино"
+                alt="KUBAN DESIGNSTORE OPEN"
                 cssClass=""
+                target="_blank"
               />
-              <h4 className="text-center text-2xl md:text-4xl mt-3 sm:mt-6">
-                ДРУГОЕ КИНО
-              </h4>
-              <Link href="/event_city/other_cinema">
-                <Image
-                  src={eventText}
-                  alt="Событие 1"
-                  width={300}
-                  sizes="100%"
-                  className="hover:scale-95 ease-in duration-200 m-auto mt-3 sm:mt-6"
-                />
-              </Link>
-            </div> */}
 
-            {/* <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
-              <ImageLink
-                href="/event_city/champion"
-                src={event4}
-                width="72"
-                alt="Как воспитать чемпиона"
-                cssClass=""
-              />
               <h4 className="text-center text-2xl md:text-4xl mt-3 sm:mt-6">
-                КАК ВОСПИТАТЬ ЧЕМПИОНА
+                Звезды в Сити
               </h4>
-              <Link href="/event_city/champion">
+              <Link
+                href="https://disk.yandex.ru/d/AMGu9T02KSimpw"
+                target="_blank"
+              >
                 <Image
                   src={eventText}
                   alt="Событие 1"
@@ -62,7 +47,36 @@ function EventCity() {
                   className="hover:scale-95 ease-in duration-200 m-auto mt-3 sm:mt-6"
                 />
               </Link>
-            </div> */}
+            </div>
+
+            <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
+              <ImageLink
+                href="https://disk.yandex.ru/d/OtbyPzp5u2nJ_A"
+                src={event8}
+                width="72"
+                alt="KUBAN DESIGNSTORE OPEN"
+                cssClass=""
+                target="_blank"
+              />
+              <h4 className="text-center text-2xl md:text-4xl mt-1 sm:mt-1">
+                День модного бренда
+              </h4>
+              <h4 className="text-center text-2xl md:text-2xl mt-1 sm:mt-1">
+                C Ксенией Генераленко Дата 27.07.2024
+              </h4>
+              <Link
+                href="https://disk.yandex.ru/d/OtbyPzp5u2nJ_A"
+                target="_blank"
+              >
+                <Image
+                  src={eventText}
+                  alt="Событие 1"
+                  width={300}
+                  sizes="100%"
+                  className="hover:scale-95 ease-in duration-200 m-auto mt-2 sm:mt-2"
+                />
+              </Link>
+            </div>
 
             <div className="w-full sm:w-1/2 md:w-1/3 px-1 md:px-10 flex flex-col items-center mt-10 sm:mt-0">
               <ImageLink
