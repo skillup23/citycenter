@@ -515,6 +515,180 @@ const birthday = [
   188, 189,
 ];
 
+const dayYoungBrand = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+  23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41,
+  42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60,
+  61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79,
+  80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98,
+  99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114,
+  115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,
+];
+
+const starsInCity = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+  23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41,
+  42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60,
+  61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73,
+];
+
+import event1 from '@/public/event_city/Flamenko/1.jpg';
+import event2 from '@/public/event_city/Vesna/1.jpg';
+import event3 from '@/public/event_city/ONEDAYkids/1.jpg';
+import event4 from '@/public/event_city/Pasxa/1.jpg';
+import event5 from '@/public/event_city/1_june/1.jpg';
+import event6 from '@/public/event_city/Birthday/1.jpg';
+import event7 from '@/public/event_city/KUBAN_DESIGNSTORE_open/1.jpg';
+import event8 from '@/public/event_city/ModniyBrend/1.jpg';
+import event9 from '@/public/event_city/StarsInCity/1.jpg';
+import event10 from '@/public/event_city/Papaya/1.jpg';
+import event11 from '@/public/event_city/ConceptStore/1.jpg';
+import event12 from '@/public/event_city/OtherCinema/1.jpg';
+import event13 from '@/public/event_city/Giorgio/1.jpg';
+import event14 from '@/public/event_city/CinemaVine/1.jpg';
+import event15 from '@/public/event_city/ParfumeGiorgio/1.jpg';
+import event16 from '@/public/event_city/Miller/1.jpg';
+import event17 from '@/public/event_city/Audi/1.jpg';
+import event18 from '@/public/event_city/Aromat/1.jpg';
+import event19 from '@/public/event_city/Zabeg/1.jpg';
+
+//              Мероприятия
+const eventArray = [
+  {
+    id: id++,
+    link: '/event_city/stars_in_city/',
+    img: event9,
+    text: 'Звезды в Сити',
+    target: '',
+  },
+  {
+    id: id++,
+    link: '/event_city/day_young_brand/',
+    img: event8,
+    text: 'День Модного Бренда',
+    target: '',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/786030-kuban-design-store-otkrytie/',
+    img: event7,
+    text: 'KUBAN DESIGNSTORE OPEN',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/783594-odin-den-s-blogerami-i-detmi-siti-tsentr/',
+    img: event3,
+    text: 'ONE DAY kids',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/782706-paskhalnye-master-klassy-v-trk-siti-tsentr/',
+    img: event4,
+    text: 'Пасхальный мастер класс',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: '/event_city/birthday',
+    img: event6,
+    text: 'День рождения сити центра',
+    target: '',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/775785-otkrytie-flagmanskogo-magazina-rossiyskogo-brenda-zhenskoy-odezhdy-papaya-papaya/',
+    img: event10,
+    text: 'Открытие магазина PAPAYA',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/774521-den-rozhdeniya-concept-store-1god/',
+    img: event11,
+    text: 'День Рождения Concept Store',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: '/event_city/1_june',
+    img: event5,
+    text: 'День защиты детей',
+    target: '',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/727490-monitor-siti-de-luxe-drugoe-kino/',
+    img: event12,
+    text: 'МОНИТОР «Другое Кино»',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: '/event_city/vesna_v_citycenter/',
+    img: event2,
+    text: 'ВЕСНА В ТРК «СИТИ ЦЕНТР»',
+    target: '',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/723868-sedmaya-vesna-v-giorgio-siti-tsentr/',
+    img: event13,
+    text: 'Седьмая весна в GIORGIO',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: '/event_city/flamenko/',
+    img: event1,
+    text: 'ФОТОВЫСТАВКА «ФЛАМЕНКО»',
+    target: '',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/684923-zvyezdnaya-premera-filma-v-vinnom-otrazhenii-v-kinoteatre-monitor-siti-de-luxe/',
+    img: event14,
+    text: 'Фильм "В винном отражении"',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/683920-parfyumernyi-butik-giorgio-seks-kotiki-i-rock-n-roll/',
+    img: event15,
+    text: 'Парфюмерный бутик Giorgio',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/26696-pervaya-personalnaya-vystavka-khudozhnitsy-aleksandry-miller/',
+    img: event16,
+    text: 'Выставка Александры Миллер',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/7082-siti-tsentr-zakrytyi-pokaz-filma-mstiteli-final-ot-audi-tsentra-kuban-i-audi-tsentra-krasnodar/',
+    img: event17,
+    text: 'Показ фильма от Ауди Центра',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/434733-prezentatsiya-aromata-ot-maestro-laurent-mazzone-korolevskie-grezy-v-parfyumernom-butike-giorgio/',
+    img: event18,
+    text: 'Презентация аромата Giorgio',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/139510-trk-siti-tsentr-zabeg-na-shpilkakh/',
+    img: event19,
+    text: 'Забег на шпильках',
+    target: '_blank',
+  },
+];
+
 export {
   menu,
   sliderTop,
@@ -528,4 +702,7 @@ export {
   flamenko,
   birthday,
   shopList,
+  dayYoungBrand,
+  starsInCity,
+  eventArray,
 };
