@@ -548,9 +548,10 @@ import event13 from '@/public/event_city/Giorgio/1.jpg';
 import event14 from '@/public/event_city/CinemaVine/1.jpg';
 import event15 from '@/public/event_city/ParfumeGiorgio/1.jpg';
 import event16 from '@/public/event_city/Miller/1.jpg';
-import event17 from '@/public/event_city/Audi/1.jpg';
+import event17 from '@/public/event_city/Audi/2.jpg';
 import event18 from '@/public/event_city/Aromat/1.jpg';
-import event19 from '@/public/event_city/Zabeg/1.jpg';
+import event19 from '@/public/event_city/MissKrasnodar/1.jpg';
+import event20 from '@/public/event_city/Zabeg/1.jpg';
 
 //              Мероприятия
 const eventArray = [
@@ -682,8 +683,15 @@ const eventArray = [
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/139510-trk-siti-tsentr-zabeg-na-shpilkakh/',
+    link: 'https://geometria.ru/reportage/149162-1-08-trk-siti-tsentr-miss-krasnodar-2008/',
     img: event19,
+    text: 'МИСС КРАСНОДАР 2008',
+    target: '_blank',
+  },
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/139510-trk-siti-tsentr-zabeg-na-shpilkakh/',
+    img: event20,
     text: 'Забег на шпильках',
     target: '_blank',
   },

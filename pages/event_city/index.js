@@ -38,7 +38,7 @@ function EventCity() {
                   target={item.target}
                 />
 
-                <h4 className="text-center text-2xl md:text-4xl mt-3 sm:mt-6">
+                <h4 className="text-center text-3xl md:text-4xl mt-3 sm:mt-6">
                   {item.text}
                 </h4>
                 <Link href={item.link}>
@@ -47,7 +47,7 @@ function EventCity() {
                     alt="Событие 1"
                     width={300}
                     sizes="100%"
-                    className="hover:scale-95 ease-in duration-200 m-auto mt-3 sm:mt-6"
+                    className="m-auto mt-3 sm:mt-6 hover:scale-95 ease-in duration-200"
                     target={item.target}
                   />
                 </Link>
