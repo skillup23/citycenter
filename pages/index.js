@@ -58,16 +58,19 @@ export default function Home() {
             </div>
           </Link>
 
+          {/*                      АНОНСЫ КИНО                         */}
+
           <h2 className="title_main text-[50px] sm:text-[7vw] mt-12 mb-10">
             Анонсы кинопоказов
           </h2>
-          <div className="grid grid-cols-3 sm:grid-cols-6 justify-between gap-3">
+          <div className="grid grid-cols-3 sm:grid-cols-6 justify-between gap-2 sm:gap-3">
             {kinoAfisha.map(({ id, img }) => {
               return (
                 <Link
                   key={id}
                   href="https://kinomonitor.ru/vip/afisha"
                   className="block relative w-full overflow-hidden h-full"
+                  target={'_blank'}
                 >
                   <Image
                     src={img}

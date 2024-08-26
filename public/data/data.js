@@ -556,9 +556,17 @@ import event17 from '@/public/event_city/Audi/2.jpg';
 import event18 from '@/public/event_city/Aromat/1.jpg';
 import event19 from '@/public/event_city/MissKrasnodar/1.jpg';
 import event20 from '@/public/event_city/Zabeg/1.jpg';
+import event21 from '@/public/event_city/FashionDay/1.jpg';
 
 //              Мероприятия
 const eventArray = [
+  {
+    id: id++,
+    link: 'https://vk.com/album-16899955_303885732',
+    img: event21,
+    text: 'CITY FASHION DAY',
+    target: '_blank',
+  },
   {
     id: id++,
     link: '/event_city/stars_in_city/',
