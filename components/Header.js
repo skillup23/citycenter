@@ -12,6 +12,8 @@ import { TbMapPins } from 'react-icons/tb';
 import { FiMenu } from 'react-icons/fi';
 // import { BiCaretDown } from 'react-icons/bi';
 import { menu } from '@/public/data/data';
+import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
+import logoMonitor2m from '@/public/site_img/лого-монитор-2-black.png';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -73,7 +75,7 @@ function Header() {
           />
         </Link>
 
-        {menu.slice(5, 10).map(({ id, name, link }) => {
+        {menu.slice(6, 10).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
@@ -85,6 +87,21 @@ function Header() {
             </Link>
           );
         })}
+
+        <Link
+          href="https://kinomonitor.ru/vip/afisha"
+          className="hidden lg:flex h-full items-center justify-center"
+          target={'_blank'}
+        >
+          <Image
+            src={logoMonitor2}
+            alt="Лого Монитор Делюкс"
+            width="110"
+            height="0"
+            sizes="100%"
+            className=""
+          />
+        </Link>
 
         {/* <div
           className="text-2xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-5 hidden lg:block cursor-pointer"
@@ -167,6 +184,20 @@ function Header() {
               </Link>
             );
           })}
+          <Link
+            href="https://kinomonitor.ru/vip/afisha"
+            className="mt-4 ml-4 flex items-start"
+            target={'_blank'}
+          >
+            <Image
+              src={logoMonitor2m}
+              alt="Лого Монитор Делюкс"
+              width="110"
+              height="0"
+              sizes="100%"
+              className=""
+            />
+          </Link>
           <div className="w-full absolute left-0 bottom-0">
             <Link
               href="#"

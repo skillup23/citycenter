@@ -34,7 +34,12 @@ import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
 import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
-import { sliderTop, sliderCenter, shopList } from '@/public/data/data';
+import {
+  sliderTop,
+  sliderCenter,
+  shopList,
+  kinoAfisha,
+} from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
 
 export default function Home() {
@@ -44,8 +49,6 @@ export default function Home() {
 
       <SliderMain data={sliderTop} dots={false} />
 
-      {/*                      СЦЕНАРИИ                         */}
-
       <section className="border_section border-b-0">
         <div className="lg:container mx-auto sm:pr-5">
           <Link href="/rent">
@@ -54,6 +57,37 @@ export default function Home() {
               кафе и рестораны
             </div>
           </Link>
+
+          <h2 className="title_main text-[50px] sm:text-[7vw] mt-12 mb-10">
+            Анонсы кинопоказов
+          </h2>
+          <div className="grid grid-cols-3 sm:grid-cols-6 justify-between gap-3">
+            {kinoAfisha.map(({ id, img }) => {
+              return (
+                <Link
+                  key={id}
+                  href="https://kinomonitor.ru/vip/afisha"
+                  className="block relative w-full overflow-hidden h-full"
+                >
+                  <Image
+                    src={img}
+                    alt="Киноафиша"
+                    width="0"
+                    height="0"
+                    className="ease-in duration-150 md:grayscale hover:grayscale-0"
+                    priority
+                  />
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/*                      СЦЕНАРИИ                         */}
+
+      <section className="">
+        <div className="lg:container mx-auto sm:pr-5">
           {/* <h2 className="title_main text-right mt-6 sm:mt-12">СЦЕНАРИИ</h2>
 
           <Image
@@ -245,22 +279,33 @@ export default function Home() {
         <div className="lg:container mx-auto pr-5 flex flex-col lg:flex-row gap-12">
           <div className="flex flex-col w-full lg:w-1/2 pl-3">
             <div className="flex gap-12 w-1/2 mb-12 items-start px-5 sm:px-0">
-              <Image
-                src={logoMonitor1}
-                alt="Лого Монитор"
-                width="200"
-                height="0"
-                sizes="100%"
-                className=""
-              />
-              <Image
-                src={logoMonitor2}
-                alt="Лого Монитор Делюкс"
-                width="150"
-                height="0"
-                sizes="100%"
-                className=""
-              />
+              <Link
+                href="/events"
+                className="h-full flex items-center justify-center"
+              >
+                <Image
+                  src={logoMonitor1}
+                  alt="Лого Монитор"
+                  width="200"
+                  height="0"
+                  sizes="100%"
+                  className=""
+                />
+              </Link>
+              <Link
+                href="https://kinomonitor.ru/vip/afisha"
+                className="h-full flex items-center justify-center"
+                target={'_blank'}
+              >
+                <Image
+                  src={logoMonitor2}
+                  alt="Лого Монитор Делюкс"
+                  width="150"
+                  height="0"
+                  sizes="100%"
+                  className=""
+                />
+              </Link>
             </div>
             <p className="mb-5 sm:mb-8 text-l sm:text-xl">
               «МОНИТОР Сити de Luxe» — кинотеатр нового уровня, соответствующий

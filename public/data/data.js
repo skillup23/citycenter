@@ -17,7 +17,11 @@ const menu = [
     name: 'Новости',
     link: '/news',
   },
-
+  {
+    id: id++,
+    name: 'Сервисы',
+    link: '/services',
+  },
   {
     id: id++,
     name: 'Кинотеатр',
@@ -697,6 +701,41 @@ const eventArray = [
   },
 ];
 
+// __________________Афиша кино____________________
+import kino1 from '@/public/kino/kino-1.jpg';
+import kino2 from '@/public/kino/kino-2.jpg';
+import kino3 from '@/public/kino/kino-3.jpg';
+import kino4 from '@/public/kino/kino-4.jpg';
+import kino5 from '@/public/kino/kino-5.jpg';
+import kino6 from '@/public/kino/kino-6.jpg';
+
+const kinoAfisha = [
+  {
+    id: id++,
+    img: kino1,
+  },
+  {
+    id: id++,
+    img: kino2,
+  },
+  {
+    id: id++,
+    img: kino3,
+  },
+  {
+    id: id++,
+    img: kino4,
+  },
+  {
+    id: id++,
+    img: kino5,
+  },
+  {
+    id: id++,
+    img: kino6,
+  },
+];
+
 export {
   menu,
   sliderTop,
@@ -713,4 +752,5 @@ export {
   dayYoungBrand,
   starsInCity,
   eventArray,
+  kinoAfisha,
 };
