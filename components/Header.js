@@ -75,7 +75,7 @@ function Header() {
           />
         </Link>
 
-        {menu.slice(6, 10).map(({ id, name, link }) => {
+        {menu.slice(7, 11).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
@@ -142,7 +142,7 @@ function Header() {
         } fixed top-0 h-full text-black w-full bg-black/[.9]`}
       >
         <div className="fixed top-0 p-3 sm:p-5 flex flex-col h-full bg-white w-4/5 animate-showmenu">
-          <div className="flex justify-between items-center pb-8">
+          <div className="flex justify-between items-center pb-4">
             <GrFormClose
               onClick={() => visibleMenu()}
               className="text-5xl cursor-pointer"
@@ -186,7 +186,7 @@ function Header() {
           })}
           <Link
             href="https://kinomonitor.ru/vip/afisha"
-            className="mt-4 ml-4 flex items-start"
+            className="mt-2 ml-4 flex items-start"
             target={'_blank'}
           >
             <Image
