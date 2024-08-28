@@ -186,7 +186,7 @@ function Header() {
           })}
           <Link
             href="https://kinomonitor.ru/vip/afisha"
-            className="mt-2 ml-4 flex items-start"
+            className="mt-1 ml-4 flex items-start"
             target={'_blank'}
           >
             <Image

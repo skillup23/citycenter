@@ -25,7 +25,7 @@ function Footer() {
         </Link>
 
         <div className="grid grid-cols-3 sm:grid-cols-4 md:flex items-center justify-between gap-x-8 gap-y-4 sm:gap-4 md:gap-4 lg:gap-6 xl:gap-8 2xl:gap-12">
-          {menu.slice(0, 4).map(({ id, name, link }) => {
+          {menu.slice(0, 5).map(({ id, name, link }) => {
             return (
               <Link
                 key={id}
@@ -36,7 +36,7 @@ function Footer() {
               </Link>
             );
           })}
-          {menu.slice(6, 8).map(({ id, name, link }) => {
+          {menu.slice(7, 8).map(({ id, name, link }) => {
             return (
               <Link
                 key={id}
@@ -47,7 +47,7 @@ function Footer() {
               </Link>
             );
           })}
-          {menu.slice(10, 11).map(({ id, name, link }) => {
+          {menu.slice(11, 12).map(({ id, name, link }) => {
             return (
               <Link
                 key={id}
