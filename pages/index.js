@@ -25,7 +25,7 @@ import restoran1 from '@/public/site_img/1-дон-базилио.png';
 import restoran2 from '@/public/site_img/3-френч-кис.png';
 import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 import children1 from '@/public/site_img/игратория.png';
-import children2 from '@/public/site_img/LapinHouse.png';
+// import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
 import children5 from '@/public/site_img/2-книжный-лабиринт.png';
 import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
@@ -455,32 +455,26 @@ export default function Home() {
           <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
           <div className="flex justify-center items-center my-4 sm:my-24 gap-8 sm:gap-24 flex-wrap md:flex-nowrap">
             <ImageLink
-              href="/butiks/game/41"
+              href="/butiks/game/38"
               src={children1}
               alt="Игратория"
               cssClass="mr-auto ml-auto -mt-1"
             />
             <ImageLink
-              href="/butiks/children/19"
-              src={children2}
-              alt="Lapin House"
-              cssClass="mr-auto ml-auto"
-            />
-            <ImageLink
-              href="/butiks/game/20"
+              href="/butiks/game/60"
               src={children5}
               alt="Книжный лабиринт"
               className=""
             />
             <ImageLink
-              href="/butiks/children/55"
+              href="/butiks/children/58"
               src={children6}
               alt="Дети в СИТИ"
               className=""
-              width="36"
+              width=""
             />
             <Link
-              href="/butiks/children/42"
+              href="/butiks/children/43"
               className="h-fill text-3xl sm:text-3xl lg:text-5xl ease-in duration-200 hover:scale-105 mt-8 mb-12 sm:mt-0 sm:mb-0"
             >
               Дом детской моды
