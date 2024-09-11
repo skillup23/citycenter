@@ -24,37 +24,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/COSMO-STORE/1.jpg',
+        src: '/butiks/womenClothing/COSMO-STORE/1n.jpg',
         alt: 'cosmo-store',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/COSMO-STORE/2.jpg',
+        src: '/butiks/womenClothing/COSMO-STORE/2n.jpg',
         alt: 'cosmo-store',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/COSMO-STORE/3.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/COSMO-STORE/4.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/COSMO-STORE/5.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/COSMO-STORE/6.jpg',
-        alt: 'cosmo-store',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/COSMO-STORE/7.jpg',
+        src: '/butiks/womenClothing/COSMO-STORE/3n.jpg',
         alt: 'cosmo-store',
       },
     ],
@@ -286,22 +266,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Bogner/1.jpg',
+        src: '/butiks/womenClothing/Bogner/1n.jpg',
         alt: 'Bogner',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Bogner/2.jpg',
+        src: '/butiks/womenClothing/Bogner/2n.jpg',
         alt: 'Bogner',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Bogner/3.jpg',
+        src: '/butiks/womenClothing/Bogner/3n.jpg',
         alt: 'Bogner',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Bogner/4.jpg',
+        src: '/butiks/womenClothing/Bogner/4n.jpg',
         alt: 'Bogner',
       },
     ],
@@ -520,12 +500,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/AngeloNardelli/1.jpg',
+        src: '/butiks/menClothing/AngeloNardelli/1n.jpg',
         alt: 'Angelo Nardelli',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/AngeloNardelli/2.jpg',
+        src: '/butiks/menClothing/AngeloNardelli/2n.jpg',
+        alt: 'Angelo Nardelli',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/AngeloNardelli/3n.jpg',
+        alt: 'Angelo Nardelli',
+      },
+      {
+        id: 4,
+        src: '/butiks/menClothing/AngeloNardelli/4n.jpg',
         alt: 'Angelo Nardelli',
       },
     ],
@@ -756,8 +746,8 @@ export const butiks = [
     description2:
       'Все украшения ювелирного бутика Renaissance имеют различную философию, но призваны подчеркнуть женскую красоту, грациозность и величие.',
     floor: '1 этаж',
-    tel: '+7 861 213 47 11',
-    telUrl: '88612134711',
+    tel: '+7 995 169 85 80',
+    telUrl: '89951698580',
     instagram: 'renaissance_boutique',
   },
   {
@@ -848,12 +838,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/DecorBurgua/1.jpg',
+        src: '/butiks/clocks/DecorBurgua/1n.jpg',
         alt: 'DecorBurgua',
       },
       {
         id: 2,
-        src: '/butiks/clocks/DecorBurgua/2.jpg',
+        src: '/butiks/clocks/DecorBurgua/2n.jpg',
+        alt: 'DecorBurgua',
+      },
+      {
+        id: 3,
+        src: '/butiks/clocks/DecorBurgua/3n.jpg',
+        alt: 'DecorBurgua',
+      },
+      {
+        id: 4,
+        src: '/butiks/clocks/DecorBurgua/4n.jpg',
         alt: 'DecorBurgua',
       },
     ],
@@ -946,7 +946,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/Branche/1.jpg',
+        src: '/butiks/clocks/Branche/1n.jpg',
+        alt: 'Branche',
+      },
+      {
+        id: 1,
+        src: '/butiks/clocks/Branche/2n.jpg',
+        alt: 'Branche',
+      },
+      {
+        id: 1,
+        src: '/butiks/clocks/Branche/3n.jpg',
         alt: 'Branche',
       },
     ],
@@ -993,7 +1003,7 @@ export const butiks = [
     floor: '2 этаж',
     tel: '+7 861 213 47 31',
     telUrl: '88612134731',
-    instagram: 'cosmostore.krd',
+    instagram: '',
   },
   {
     id: id++,
@@ -1628,47 +1638,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/ConceptStore/1.jpg',
+        src: '/butiks/womenClothing/ConceptStore/1n.jpg',
         alt: 'ConceptStore',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/ConceptStore/2.jpg',
+        src: '/butiks/womenClothing/ConceptStore/2n.jpg',
         alt: 'ConceptStore',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/ConceptStore/3.jpg',
+        src: '/butiks/womenClothing/ConceptStore/3n.jpg',
         alt: 'ConceptStore',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/ConceptStore/4.jpg',
-        alt: 'ConceptStore',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/ConceptStore/5.jpg',
-        alt: 'ConceptStore',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/ConceptStore/6.jpg',
-        alt: 'ConceptStore',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/ConceptStore/7.jpg',
-        alt: 'ConceptStore',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/ConceptStore/8.jpg',
-        alt: 'ConceptStore',
-      },
-      {
-        id: 9,
-        src: '/butiks/womenClothing/ConceptStore/9.jpg',
+        src: '/butiks/womenClothing/ConceptStore/4n.jpg',
         alt: 'ConceptStore',
       },
     ],
@@ -1706,42 +1691,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/ConceptStoreW/1.jpg',
+        src: '/butiks/womenClothing/ConceptStoreW/1n.jpg',
         alt: 'ConceptStoreW',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/ConceptStoreW/2.jpg',
+        src: '/butiks/womenClothing/ConceptStoreW/2n.jpg',
         alt: 'ConceptStoreW',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/ConceptStoreW/3.jpg',
+        src: '/butiks/womenClothing/ConceptStoreW/3n.jpg',
         alt: 'ConceptStoreW',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/ConceptStoreW/4.jpg',
-        alt: 'ConceptStoreW',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/ConceptStoreW/5.jpg',
-        alt: 'ConceptStoreW',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/ConceptStoreW/6.jpg',
-        alt: 'ConceptStoreW',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/ConceptStoreW/7.jpg',
-        alt: 'ConceptStoreW',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/ConceptStoreW/8.jpg',
+        src: '/butiks/womenClothing/ConceptStoreW/4n.jpg',
         alt: 'ConceptStoreW',
       },
     ],
@@ -1761,32 +1726,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Braschi/1.jpg',
+        src: '/butiks/womenClothing/Braschi/1n.jpg',
         alt: 'Braschi',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Braschi/2.jpg',
+        src: '/butiks/womenClothing/Braschi/2n.jpg',
         alt: 'Braschi',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Braschi/3.jpg',
-        alt: 'Braschi',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Braschi/4.jpg',
-        alt: 'Braschi',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Braschi/5.jpg',
-        alt: 'Braschi',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Braschi/6.jpg',
+        src: '/butiks/womenClothing/Braschi/3n.jpg',
         alt: 'Braschi',
       },
     ],
