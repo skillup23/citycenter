@@ -87,29 +87,55 @@ const sliderTop = [
 const sliderCenter = [
   {
     id: 1,
-    src: '/slide_main/kino-banner-1.jpg',
+    src: '/slide_main/kino-banner-6.jpg',
     alt: 'Кинобаннер 1',
   },
   {
     id: 2,
-    src: '/slide_main/kino-banner-2.jpg',
+    src: '/slide_main/kino-banner-7.jpg',
     alt: 'Кинобаннер 2',
   },
   {
     id: 3,
-    src: '/slide_main/kino-banner-3.jpg',
+    src: '/slide_main/kino-banner-8.jpg',
     alt: 'Кинобаннер 3',
   },
   {
     id: 4,
-    src: '/slide_main/kino-banner-4.jpg',
+    src: '/slide_main/kino-banner-9.jpg',
     alt: 'Кинобаннер 4',
   },
   {
     id: 5,
-    src: '/slide_main/kino-banner-5.jpg',
+    src: '/slide_main/kino-banner-10.jpg',
     alt: 'Кинобаннер 5',
   },
+
+  // {
+  //   id: 1,
+  //   src: '/slide_main/kino-banner-1.jpg',
+  //   alt: 'Кинобаннер 1',
+  // },
+  // {
+  //   id: 2,
+  //   src: '/slide_main/kino-banner-2.jpg',
+  //   alt: 'Кинобаннер 2',
+  // },
+  // {
+  //   id: 3,
+  //   src: '/slide_main/kino-banner-3.jpg',
+  //   alt: 'Кинобаннер 3',
+  // },
+  // {
+  //   id: 4,
+  //   src: '/slide_main/kino-banner-4.jpg',
+  //   alt: 'Кинобаннер 4',
+  // },
+  // {
+  //   id: 5,
+  //   src: '/slide_main/kino-banner-5.jpg',
+  //   alt: 'Кинобаннер 5',
+  // },
 ];
 
 // _______Список Бутиков на Главной_____________
