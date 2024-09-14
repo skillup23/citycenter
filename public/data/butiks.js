@@ -55,22 +55,32 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Twinset-milano/1.jpg',
+        src: '/butiks/womenClothing/Twinset-milano/1n.jpg',
         alt: 'Twinset-milano',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Twinset-milano/2.jpg',
+        src: '/butiks/womenClothing/Twinset-milano/2n.jpg',
         alt: 'Twinset-milano',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Twinset-milano/3.jpg',
+        src: '/butiks/womenClothing/Twinset-milano/3n.jpg',
         alt: 'Twinset-milano',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Twinset-milano/4.jpg',
+        src: '/butiks/womenClothing/Twinset-milano/4n.jpg',
+        alt: 'Twinset-milano',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/Twinset-milano/5n.jpg',
+        alt: 'Twinset-milano',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/Twinset-milano/6n.jpg',
         alt: 'Twinset-milano',
       },
     ],
@@ -91,47 +101,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Marccain/1.jpg',
+        src: '/butiks/womenClothing/Marccain/1n.jpg',
         alt: 'Marccain',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Marccain/2.jpg',
+        src: '/butiks/womenClothing/Marccain/2n.jpg',
         alt: 'Marccain',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Marccain/3.jpg',
+        src: '/butiks/womenClothing/Marccain/3n.jpg',
         alt: 'Marccain',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Marccain/4.jpg',
+        src: '/butiks/womenClothing/Marccain/4n.jpg',
         alt: 'Marccain',
       },
       {
         id: 5,
-        src: '/butiks/womenClothing/Marccain/5.jpg',
-        alt: 'Marccain',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Marccain/6.jpg',
-        alt: 'Marccain',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Marccain/7.jpg',
-        alt: 'Marccain',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Marccain/8.jpg',
-        alt: 'Marccain',
-      },
-      {
-        id: 9,
-        src: '/butiks/womenClothing/Marccain/9.jpg',
+        src: '/butiks/womenClothing/Marccain/5n.jpg',
         alt: 'Marccain',
       },
     ],
@@ -152,43 +142,33 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Papaya/1.jpg',
-        alt: 'Laurel',
+        src: '/butiks/womenClothing/Papaya/1n.jpg',
+        alt: 'Papaya',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Papaya/2.jpg',
-        alt: 'Laurel',
+        src: '/butiks/womenClothing/Papaya/2n.jpg',
+        alt: 'Papaya',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Papaya/3.jpg',
-        alt: 'Laurel',
+        src: '/butiks/womenClothing/Papaya/3n.jpg',
+        alt: 'Papaya',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Papaya/4.jpg',
-        alt: 'Laurel',
+        src: '/butiks/womenClothing/Papaya/4n.jpg',
+        alt: 'Papaya',
       },
       {
         id: 5,
-        src: '/butiks/womenClothing/Papaya/5.jpg',
-        alt: 'Laurel',
+        src: '/butiks/womenClothing/Papaya/5n.jpg',
+        alt: 'Papaya',
       },
       {
         id: 6,
-        src: '/butiks/womenClothing/Papaya/6.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Papaya/7.jpg',
-        alt: 'Laurel',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Papaya/8.jpg',
-        alt: 'Laurel',
+        src: '/butiks/womenClothing/Papaya/6n.jpg',
+        alt: 'Papaya',
       },
     ],
     description1:
@@ -210,42 +190,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Paul-shark/1.jpg',
+        src: '/butiks/womenClothing/Paul-shark/1n.jpg',
         alt: 'Paul-shark',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Paul-shark/2.jpg',
+        src: '/butiks/womenClothing/Paul-shark/2n.jpg',
         alt: 'Paul-shark',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Paul-shark/3.jpg',
+        src: '/butiks/womenClothing/Paul-shark/3n.jpg',
         alt: 'Paul-shark',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Paul-shark/4.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Paul-shark/5.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Paul-shark/6.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Paul-shark/7.jpg',
-        alt: 'Paul-shark',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Paul-shark/8.jpg',
+        src: '/butiks/womenClothing/Paul-shark/4n.jpg',
         alt: 'Paul-shark',
       },
     ],
@@ -302,32 +262,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Wolford/1.jpg',
+        src: '/butiks/womenClothing/Wolford/1n.jpg',
         alt: 'Wolford',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Wolford/2.jpg',
+        src: '/butiks/womenClothing/Wolford/2n.jpg',
         alt: 'Wolford',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Wolford/3.jpg',
+        src: '/butiks/womenClothing/Wolford/3n.jpg',
         alt: 'Wolford',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Wolford/4.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Wolford/5.jpg',
-        alt: 'Wolford',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Wolford/6.jpg',
+        src: '/butiks/womenClothing/Wolford/4n.jpg',
         alt: 'Wolford',
       },
     ],
@@ -346,12 +296,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/PP/1.jpg',
+        src: '/butiks/womenClothing/PP/1n.jpg',
         alt: 'PP',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/PP/2.jpg',
+        src: '/butiks/womenClothing/PP/2n.jpg',
+        alt: 'PP',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/PP/3n.jpg',
+        alt: 'PP',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/PP/4n.jpg',
         alt: 'PP',
       },
     ],
@@ -370,37 +330,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Elizabetta-franchi/1.jpg',
+        src: '/butiks/womenClothing/Elizabetta-franchi/1n.jpg',
         alt: 'Elizabetta-franchi',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Elizabetta-franchi/2.jpg',
+        src: '/butiks/womenClothing/Elizabetta-franchi/2n.jpg',
         alt: 'Elizabetta-franchi',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Elizabetta-franchi/3.jpg',
+        src: '/butiks/womenClothing/Elizabetta-franchi/3n.jpg',
         alt: 'Elizabetta-franchi',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Elizabetta-franchi/4.jpg',
-        alt: 'Elizabetta-franchi',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Elizabetta-franchi/5.jpg',
-        alt: 'Elizabetta-franchi',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Elizabetta-franchi/6.jpg',
-        alt: 'Elizabetta-franchi',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Elizabetta-franchi/7.jpg',
+        src: '/butiks/womenClothing/Elizabetta-franchi/4n.jpg',
         alt: 'Elizabetta-franchi',
       },
     ],
@@ -419,67 +364,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Michael-kors/1.jpg',
+        src: '/butiks/womenClothing/Michael-kors/1n.jpg',
         alt: 'Michael-kors',
       },
       {
         id: 2,
-        src: '/butiks/womenClothing/Michael-kors/2.jpg',
+        src: '/butiks/womenClothing/Michael-kors/2n.jpg',
         alt: 'Michael-kors',
       },
       {
         id: 3,
-        src: '/butiks/womenClothing/Michael-kors/3.jpg',
+        src: '/butiks/womenClothing/Michael-kors/3n.jpg',
         alt: 'Michael-kors',
       },
       {
         id: 4,
-        src: '/butiks/womenClothing/Michael-kors/4.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Michael-kors/5.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Michael-kors/6.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Michael-kors/7.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Michael-kors/5.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 9,
-        src: '/butiks/womenClothing/Michael-kors/6.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 10,
-        src: '/butiks/womenClothing/Michael-kors/7.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 11,
-        src: '/butiks/womenClothing/Michael-kors/5.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 12,
-        src: '/butiks/womenClothing/Michael-kors/6.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 13,
-        src: '/butiks/womenClothing/Michael-kors/7.jpg',
+        src: '/butiks/womenClothing/Michael-kors/4n.jpg',
         alt: 'Michael-kors',
       },
     ],
@@ -555,12 +455,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/XO/1.jpg',
+        src: '/butiks/menClothing/XO/1n.jpg',
         alt: 'XO',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/XO/2.jpg',
+        src: '/butiks/menClothing/XO/2n.jpg',
+        alt: 'XO',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/XO/3n.jpg',
+        alt: 'XO',
+      },
+      {
+        id: 4,
+        src: '/butiks/menClothing/XO/4n.jpg',
+        alt: 'XO',
+      },
+      {
+        id: 5,
+        src: '/butiks/menClothing/XO/5n.jpg',
         alt: 'XO',
       },
     ],
@@ -605,12 +520,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/Richard/1.jpg',
+        src: '/butiks/menClothing/Richard/1n.jpg',
         alt: 'Richard',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/Richard/2.jpg',
+        src: '/butiks/menClothing/Richard/2n.jpg',
+        alt: 'Richard',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/Richard/3n.jpg',
+        alt: 'Richard',
+      },
+      {
+        id: 4,
+        src: '/butiks/menClothing/Richard/4n.jpg',
         alt: 'Richard',
       },
     ],
@@ -653,12 +578,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/underwear/WildOrchid/1.jpg',
+        src: '/butiks/underwear/WildOrchid/1n.jpg',
         alt: 'WildOrchid',
       },
       {
         id: 2,
-        src: '/butiks/underwear/WildOrchid/2.jpg',
+        src: '/butiks/underwear/WildOrchid/2n.jpg',
+        alt: 'WildOrchid',
+      },
+      {
+        id: 3,
+        src: '/butiks/underwear/WildOrchid/3n.jpg',
+        alt: 'WildOrchid',
+      },
+      {
+        id: 4,
+        src: '/butiks/underwear/WildOrchid/4n.jpg',
         alt: 'WildOrchid',
       },
     ],
@@ -679,12 +614,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/underwear/Laperila/1.jpg',
+        src: '/butiks/underwear/Laperila/1n.jpg',
         alt: 'Laperila',
       },
       {
         id: 2,
-        src: '/butiks/underwear/Laperila/2.jpg',
+        src: '/butiks/underwear/Laperila/2n.jpg',
+        alt: 'Laperila',
+      },
+      {
+        id: 3,
+        src: '/butiks/underwear/Laperila/3n.jpg',
+        alt: 'Laperila',
+      },
+      {
+        id: 4,
+        src: '/butiks/underwear/Laperila/4n.jpg',
         alt: 'Laperila',
       },
     ],
@@ -703,12 +648,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/underwear/EstelAdony/1.jpg',
+        src: '/butiks/underwear/EstelAdony/1n.jpg',
         alt: 'EstelAdony',
       },
       {
         id: 2,
-        src: '/butiks/underwear/EstelAdony/2.jpg',
+        src: '/butiks/underwear/EstelAdony/2n.jpg',
+        alt: 'EstelAdony',
+      },
+      {
+        id: 3,
+        src: '/butiks/underwear/EstelAdony/3n.jpg',
+        alt: 'EstelAdony',
+      },
+      {
+        id: 4,
+        src: '/butiks/underwear/EstelAdony/4n.jpg',
         alt: 'EstelAdony',
       },
     ],
@@ -727,17 +682,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/Renaissance/1.jpg',
+        src: '/butiks/clocks/Renaissance/1n.jpg',
         alt: 'Renaissance',
       },
       {
         id: 2,
-        src: '/butiks/clocks/Renaissance/2.jpg',
+        src: '/butiks/clocks/Renaissance/2n.jpg',
         alt: 'Renaissance',
       },
       {
         id: 3,
-        src: '/butiks/clocks/Renaissance/3.jpg',
+        src: '/butiks/clocks/Renaissance/3n.jpg',
+        alt: 'Renaissance',
+      },
+      {
+        id: 4,
+        src: '/butiks/clocks/Renaissance/4n.jpg',
         alt: 'Renaissance',
       },
     ],
@@ -758,32 +718,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/FreyWille/1.jpg',
+        src: '/butiks/clocks/FreyWille/1n.jpg',
         alt: 'Freywille',
       },
       {
         id: 2,
-        src: '/butiks/clocks/FreyWille/2.jpg',
+        src: '/butiks/clocks/FreyWille/2n.jpg',
         alt: 'Freywille',
       },
       {
         id: 3,
-        src: '/butiks/clocks/FreyWille/3.jpg',
+        src: '/butiks/clocks/FreyWille/3n.jpg',
         alt: 'Freywille',
       },
       {
         id: 4,
-        src: '/butiks/clocks/FreyWille/4.jpg',
-        alt: 'Freywille',
-      },
-      {
-        id: 5,
-        src: '/butiks/clocks/FreyWille/5.jpg',
-        alt: 'Freywille',
-      },
-      {
-        id: 6,
-        src: '/butiks/clocks/FreyWille/6.jpg',
+        src: '/butiks/clocks/FreyWille/4n.jpg',
         alt: 'Freywille',
       },
     ],
@@ -804,22 +754,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/GoldLarec/1.jpg',
+        src: '/butiks/clocks/GoldLarec/1n.jpg',
         alt: 'GoldLarec',
       },
       {
         id: 2,
-        src: '/butiks/clocks/GoldLarec/2.jpg',
+        src: '/butiks/clocks/GoldLarec/2n.jpg',
         alt: 'GoldLarec',
       },
       {
         id: 3,
-        src: '/butiks/clocks/GoldLarec/3.jpg',
-        alt: 'GoldLarec',
-      },
-      {
-        id: 4,
-        src: '/butiks/clocks/GoldLarec/4.jpg',
+        src: '/butiks/clocks/GoldLarec/3n.jpg',
         alt: 'GoldLarec',
       },
     ],
@@ -874,27 +819,32 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/TimeGalery/1.jpg',
+        src: '/butiks/clocks/TimeGalery/1n.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 2,
-        src: '/butiks/clocks/TimeGalery/2.jpg',
+        src: '/butiks/clocks/TimeGalery/2n.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 3,
-        src: '/butiks/clocks/TimeGalery/3.jpg',
+        src: '/butiks/clocks/TimeGalery/3n.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 4,
-        src: '/butiks/clocks/TimeGalery/4.jpg',
+        src: '/butiks/clocks/TimeGalery/4n.jpg',
         alt: 'TimeGalery',
       },
       {
         id: 5,
-        src: '/butiks/clocks/TimeGalery/5.jpg',
+        src: '/butiks/clocks/TimeGalery/5n.jpg',
+        alt: 'TimeGalery',
+      },
+      {
+        id: 5,
+        src: '/butiks/clocks/TimeGalery/6n.jpg',
         alt: 'TimeGalery',
       },
     ],
@@ -915,17 +865,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/GMT/1.jpg',
+        src: '/butiks/clocks/GMT/1n.jpg',
         alt: 'GMT',
       },
       {
         id: 2,
-        src: '/butiks/clocks/GMT/2.jpg',
+        src: '/butiks/clocks/GMT/2n.jpg',
         alt: 'GMT',
       },
       {
         id: 3,
-        src: '/butiks/clocks/GMT/3.jpg',
+        src: '/butiks/clocks/GMT/3n.jpg',
+        alt: 'GMT',
+      },
+      {
+        id: 4,
+        src: '/butiks/clocks/GMT/4n.jpg',
+        alt: 'GMT',
+      },
+      {
+        id: 5,
+        src: '/butiks/clocks/GMT/5n.jpg',
         alt: 'GMT',
       },
     ],
@@ -950,12 +910,12 @@ export const butiks = [
         alt: 'Branche',
       },
       {
-        id: 1,
+        id: 2,
         src: '/butiks/clocks/Branche/2n.jpg',
         alt: 'Branche',
       },
       {
-        id: 1,
+        id: 3,
         src: '/butiks/clocks/Branche/3n.jpg',
         alt: 'Branche',
       },
@@ -977,22 +937,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/shoesAndBags/VicMatie/1.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/1n.jpg',
         alt: 'VicMatie',
       },
       {
         id: 2,
-        src: '/butiks/shoesAndBags/VicMatie/2.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/2n.jpg',
         alt: 'VicMatie',
       },
       {
         id: 3,
-        src: '/butiks/shoesAndBags/VicMatie/3.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/3n.jpg',
         alt: 'VicMatie',
       },
       {
         id: 4,
-        src: '/butiks/shoesAndBags/VicMatie/4.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/4n.jpg',
         alt: 'VicMatie',
       },
     ],
@@ -1013,22 +973,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/shoesAndBags/Fabi/1.jpg',
+        src: '/butiks/shoesAndBags/Fabi/1n.jpg',
         alt: 'Fabi',
       },
       {
         id: 2,
-        src: '/butiks/shoesAndBags/Fabi/2.jpg',
+        src: '/butiks/shoesAndBags/Fabi/2n.jpg',
         alt: 'Fabi',
       },
       {
         id: 3,
-        src: '/butiks/shoesAndBags/Fabi/3.jpg',
-        alt: 'Fabi',
-      },
-      {
-        id: 4,
-        src: '/butiks/shoesAndBags/Fabi/4.jpg',
+        src: '/butiks/shoesAndBags/Fabi/3n.jpg',
         alt: 'Fabi',
       },
     ],
@@ -1049,22 +1004,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/PanChemodan/1.jpg',
+        src: '/butiks/clocks/PanChemodan/1n.jpg',
         alt: 'PanChemodan',
       },
       {
         id: 2,
-        src: '/butiks/clocks/PanChemodan/2.jpg',
+        src: '/butiks/clocks/PanChemodan/2n.jpg',
         alt: 'PanChemodan',
       },
       {
         id: 3,
-        src: '/butiks/clocks/PanChemodan/3.jpg',
+        src: '/butiks/clocks/PanChemodan/3n.jpg',
         alt: 'PanChemodan',
       },
       {
         id: 4,
-        src: '/butiks/clocks/PanChemodan/4.jpg',
+        src: '/butiks/clocks/PanChemodan/4n.jpg',
         alt: 'PanChemodan',
       },
     ],
@@ -1085,17 +1040,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/cosmetics/ileDeBeaute/1.jpg',
+        src: '/butiks/cosmetics/ileDeBeaute/1n.jpg',
         alt: 'ileDeBeaute',
       },
       {
         id: 2,
-        src: '/butiks/cosmetics/ileDeBeaute/2.jpg',
+        src: '/butiks/cosmetics/ileDeBeaute/2n.jpg',
         alt: 'ileDeBeaute',
       },
       {
         id: 3,
-        src: '/butiks/cosmetics/ileDeBeaute/3.jpg',
+        src: '/butiks/cosmetics/ileDeBeaute/3n.jpg',
+        alt: 'ileDeBeaute',
+      },
+      {
+        id: 4,
+        src: '/butiks/cosmetics/ileDeBeaute/4n.jpg',
         alt: 'ileDeBeaute',
       },
     ],
@@ -1116,37 +1076,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/cosmetics/Giorgio/1.jpg',
+        src: '/butiks/cosmetics/Giorgio/1n.jpg',
         alt: 'Giorgio',
       },
       {
         id: 2,
-        src: '/butiks/cosmetics/Giorgio/2.jpg',
+        src: '/butiks/cosmetics/Giorgio/2n.jpg',
         alt: 'Giorgio',
       },
       {
         id: 3,
-        src: '/butiks/cosmetics/Giorgio/3.jpg',
+        src: '/butiks/cosmetics/Giorgio/3n.jpg',
         alt: 'Giorgio',
       },
       {
         id: 4,
-        src: '/butiks/cosmetics/Giorgio/4.jpg',
+        src: '/butiks/cosmetics/Giorgio/4n.jpg',
         alt: 'Giorgio',
       },
       {
         id: 5,
-        src: '/butiks/cosmetics/Giorgio/5.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 6,
-        src: '/butiks/cosmetics/Giorgio/6.jpg',
-        alt: 'Giorgio',
-      },
-      {
-        id: 7,
-        src: '/butiks/cosmetics/Giorgio/7.jpg',
+        src: '/butiks/cosmetics/Giorgio/5n.jpg',
         alt: 'Giorgio',
       },
     ],
@@ -1167,12 +1117,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/interior/Renesans/1.jpg',
+        src: '/butiks/interior/Renesans/1n.jpg',
         alt: 'Renesans',
       },
       {
         id: 2,
-        src: '/butiks/interior/Renesans/2.jpg',
+        src: '/butiks/interior/Renesans/2n.jpg',
+        alt: 'Renesans',
+      },
+      {
+        id: 3,
+        src: '/butiks/interior/Renesans/3n.jpg',
+        alt: 'Renesans',
+      },
+      {
+        id: 4,
+        src: '/butiks/interior/Renesans/4n.jpg',
         alt: 'Renesans',
       },
     ],
@@ -1248,7 +1208,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/interior/LuxuryLiving/1n.jpg',
+        alt: 'LuxuryLiving',
+      },
+      {
+        id: 2,
+        src: '/butiks/interior/LuxuryLiving/2n.jpg',
+        alt: 'LuxuryLiving',
+      },
+      {
+        id: 3,
+        src: '/butiks/interior/LuxuryLiving/3n.jpg',
+        alt: 'LuxuryLiving',
+      },
+      {
+        id: 4,
+        src: '/butiks/interior/LuxuryLiving/4n.jpg',
         alt: 'LuxuryLiving',
       },
     ],
@@ -1266,12 +1241,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/giftsAndBook/FrenchKiss/1.jpg',
-        alt: 'FrenchKiss',
-      },
-      {
-        id: 2,
-        src: '/butiks/giftsAndBook/FrenchKiss/2.jpg',
+        src: '/butiks/giftsAndBook/FrenchKiss/1n.jpg',
         alt: 'FrenchKiss',
       },
     ],
@@ -1290,12 +1260,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/services/HimCLear/1.jpg',
+        src: '/services/HimCLear/1n.jpg',
         alt: 'HimCLear',
       },
       {
         id: 2,
-        src: '/services/HimCLear/2.jpg',
+        src: '/services/HimCLear/2n.jpg',
         alt: 'HimCLear',
       },
     ],
@@ -1315,32 +1285,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/services/Igratoriya/1.jpg',
+        src: '/services/Igratoriya/1n.jpg',
         alt: 'Igratoriya',
       },
       {
         id: 2,
-        src: '/services/Igratoriya/2.jpg',
+        src: '/services/Igratoriya/2n.jpg',
         alt: 'Igratoriya',
       },
       {
         id: 3,
-        src: '/services/Igratoriya/3.jpg',
+        src: '/services/Igratoriya/3n.jpg',
         alt: 'Igratoriya',
       },
       {
         id: 4,
-        src: '/services/Igratoriya/4.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 5,
-        src: '/services/Igratoriya/5.jpg',
-        alt: 'Igratoriya',
-      },
-      {
-        id: 6,
-        src: '/services/Igratoriya/6.jpg',
+        src: '/services/Igratoriya/4n.jpg',
         alt: 'Igratoriya',
       },
     ],
@@ -1379,7 +1339,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/services/ATMs/1n.jpg',
+        alt: 'ATMs',
+      },
+      {
+        id: 2,
+        src: '/services/ATMs/2n.jpg',
+        alt: 'ATMs',
+      },
+      {
+        id: 3,
+        src: '/services/ATMs/3n.jpg',
         alt: 'ATMs',
       },
     ],
@@ -1489,27 +1459,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/kafe/LoveAndTrufel/1.jpg',
+        src: '/butiks/kafe/LoveAndTrufel/1n.jpg',
         alt: 'LoveAndTrufel',
       },
       {
         id: 2,
-        src: '/butiks/kafe/LoveAndTrufel/2.jpg',
+        src: '/butiks/kafe/LoveAndTrufel/2n.jpg',
         alt: 'LoveAndTrufel',
       },
       {
         id: 3,
-        src: '/butiks/kafe/LoveAndTrufel/3.jpg',
+        src: '/butiks/kafe/LoveAndTrufel/3n.jpg',
         alt: 'LoveAndTrufel',
       },
       {
         id: 4,
-        src: '/butiks/kafe/LoveAndTrufel/4.jpg',
+        src: '/butiks/kafe/LoveAndTrufel/4n.jpg',
         alt: 'LoveAndTrufel',
       },
       {
         id: 5,
-        src: '/butiks/kafe/LoveAndTrufel/5.jpg',
+        src: '/butiks/kafe/LoveAndTrufel/5n.jpg',
         alt: 'LoveAndTrufel',
       },
     ],
@@ -1530,17 +1500,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/glasses/IqMac/1.jpg',
+        src: '/butiks/glasses/IqMac/1n.jpg',
         alt: 'IqMac',
       },
       {
         id: 2,
-        src: '/butiks/glasses/IqMac/2.jpg',
-        alt: 'IqMac',
-      },
-      {
-        id: 3,
-        src: '/butiks/glasses/IqMac/3.jpg',
+        src: '/butiks/glasses/IqMac/2n.jpg',
         alt: 'IqMac',
       },
     ],
@@ -1559,22 +1524,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/Studio/1.jpg',
+        src: '/butiks/menClothing/Studio/1n.jpg',
         alt: 'Studio',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/Studio/2.jpg',
+        src: '/butiks/menClothing/Studio/2n.jpg',
         alt: 'Studio',
       },
       {
         id: 3,
-        src: '/butiks/menClothing/Studio/3.jpg',
+        src: '/butiks/menClothing/Studio/3n.jpg',
         alt: 'Studio',
       },
       {
         id: 4,
-        src: '/butiks/menClothing/Studio/4.jpg',
+        src: '/butiks/menClothing/Studio/4n.jpg',
         alt: 'Studio',
       },
     ],
@@ -1593,32 +1558,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/Gabbiaacci/1n.jpg',
+        src: '/butiks/menClothing/Gabbiaacci/1n1.jpg',
         alt: 'Gabbiacci',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/Gabbiaacci/2.jpg',
+        src: '/butiks/menClothing/Gabbiaacci/2n.jpg',
         alt: 'Gabbiacci',
       },
       {
         id: 3,
-        src: '/butiks/menClothing/Gabbiaacci/3.jpg',
+        src: '/butiks/menClothing/Gabbiaacci/3n.jpg',
         alt: 'Gabbiacci',
       },
       {
         id: 4,
-        src: '/butiks/menClothing/Gabbiaacci/4.jpg',
-        alt: 'Gabbiacci',
-      },
-      {
-        id: 5,
-        src: '/butiks/menClothing/Gabbiaacci/5.jpg',
-        alt: 'Gabbiacci',
-      },
-      {
-        id: 6,
-        src: '/butiks/menClothing/Gabbiaacci/6.jpg',
+        src: '/butiks/menClothing/Gabbiaacci/4n.jpg',
         alt: 'Gabbiacci',
       },
     ],
@@ -1754,7 +1709,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/womenClothing/MesDemoiselles/1n.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/MesDemoiselles/2n.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/MesDemoiselles/3n.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/MesDemoiselles/4n.jpg',
         alt: 'MesDemoiselles',
       },
     ],
@@ -1772,7 +1742,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/womenClothing/KubanDesignStore/1n.jpg',
+        alt: 'KubanDesignStore',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/KubanDesignStore/2n.jpg',
+        alt: 'KubanDesignStore',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/KubanDesignStore/3n.jpg',
+        alt: 'KubanDesignStore',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/KubanDesignStore/4n.jpg',
+        alt: 'KubanDesignStore',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/KubanDesignStore/5n.jpg',
         alt: 'KubanDesignStore',
       },
     ],
@@ -1790,7 +1780,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/womenClothing/SOLine/1n.jpg',
+        alt: 'SOLine',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/SOLine/2n.jpg',
+        alt: 'SOLine',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/SOLine/3n.jpg',
         alt: 'SOLine',
       },
     ],
@@ -1808,27 +1808,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/children/MagisToys/1.jpg',
+        src: '/butiks/children/MagisToys/1n.jpg',
         alt: 'MagisToys',
       },
       {
         id: 2,
-        src: '/butiks/children/MagisToys/2.jpg',
+        src: '/butiks/children/MagisToys/2n.jpg',
         alt: 'MagisToys',
       },
       {
         id: 3,
-        src: '/butiks/children/MagisToys/3.jpg',
+        src: '/butiks/children/MagisToys/3n.jpg',
         alt: 'MagisToys',
       },
       {
         id: 4,
-        src: '/butiks/children/MagisToys/4.jpg',
-        alt: 'MagisToys',
-      },
-      {
-        id: 5,
-        src: '/butiks/children/MagisToys/5.jpg',
+        src: '/butiks/children/MagisToys/4n.jpg',
         alt: 'MagisToys',
       },
     ],
@@ -1885,52 +1880,37 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/children/ChildrenInCity/1.jpg',
+        src: '/butiks/children/ChildrenInCity/1n.jpg',
         alt: 'ChildrenInCity',
       },
       {
         id: 2,
-        src: '/butiks/children/ChildrenInCity/2.jpg',
+        src: '/butiks/children/ChildrenInCity/2n.jpg',
         alt: 'ChildrenInCity',
       },
       {
         id: 3,
-        src: '/butiks/children/ChildrenInCity/3.jpg',
+        src: '/butiks/children/ChildrenInCity/3n.jpg',
         alt: 'ChildrenInCity',
       },
       {
         id: 4,
-        src: '/butiks/children/ChildrenInCity/4.jpg',
+        src: '/butiks/children/ChildrenInCity/4n.jpg',
         alt: 'ChildrenInCity',
       },
       {
         id: 5,
-        src: '/butiks/children/ChildrenInCity/5.jpg',
+        src: '/butiks/children/ChildrenInCity/5n.jpg',
         alt: 'ChildrenInCity',
       },
       {
         id: 6,
-        src: '/butiks/children/ChildrenInCity/6.jpg',
+        src: '/butiks/children/ChildrenInCity/6n.jpg',
         alt: 'ChildrenInCity',
       },
       {
         id: 7,
-        src: '/butiks/children/ChildrenInCity/7.jpg',
-        alt: 'ChildrenInCity',
-      },
-      {
-        id: 8,
-        src: '/butiks/children/ChildrenInCity/8.jpg',
-        alt: 'ChildrenInCity',
-      },
-      {
-        id: 9,
-        src: '/butiks/children/ChildrenInCity/9.jpg',
-        alt: 'ChildrenInCity',
-      },
-      {
-        id: 10,
-        src: '/butiks/children/ChildrenInCity/10.jpg',
+        src: '/butiks/children/ChildrenInCity/7n.jpg',
         alt: 'ChildrenInCity',
       },
     ],
@@ -1954,12 +1934,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/glasses/Optika/1.jpg',
+        src: '/butiks/glasses/Optika/1n.jpg',
         alt: 'Optika',
       },
       {
         id: 2,
-        src: '/butiks/glasses/Optika/2.jpg',
+        src: '/butiks/glasses/Optika/2n.jpg',
+        alt: 'Optika',
+      },
+      {
+        id: 3,
+        src: '/butiks/glasses/Optika/3n.jpg',
+        alt: 'Optika',
+      },
+      {
+        id: 4,
+        src: '/butiks/glasses/Optika/4n.jpg',
         alt: 'Optika',
       },
     ],
@@ -1982,12 +1972,27 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/children/BookLab/1.jpg',
+        src: '/butiks/children/BookLab/1n.jpg',
         alt: 'BookLab',
       },
       {
         id: 2,
-        src: '/butiks/children/BookLab/2.jpg',
+        src: '/butiks/children/BookLab/2n.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 3,
+        src: '/butiks/children/BookLab/3n.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 4,
+        src: '/butiks/children/BookLab/4n.jpg',
+        alt: 'BookLab',
+      },
+      {
+        id: 5,
+        src: '/butiks/children/BookLab/5n.jpg',
         alt: 'BookLab',
       },
     ],
@@ -1999,6 +2004,35 @@ export const butiks = [
     tel: '+7 861 299 71 83',
     telUrl: '88612134741',
     instagram: 'knizhnylabirintcity',
+  },
+  {
+    id: id++,
+    category: 'womenClothing',
+    url: 'Sisal',
+    logo: '/butiks/womenClothing/Sisal/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Sisal/1n.jpg',
+        alt: 'Sisal',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Sisal/2n.jpg',
+        alt: 'Sisal',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/Sisal/3n.jpg',
+        alt: 'Sisal',
+      },
+    ],
+    description1: `Бутик SIZAL  представляет российского дизайнера - Викторию Андреянову, чья эстетика OVERSIZE МИНИМАЛИЗМА С 1992 ГОДА СОБИРАЕТ СВОИХ АДЕПТОВ ПО ВСЕМУ МИРУ.`,
+    description2: `Также мы представляем Caterina Leman - это европейский бренд швейцарского качеста.`,
+    floor: '2 этаж',
+    tel: '+7 967 30 50 209',
+    telUrl: '89673050209',
+    instagram: '',
   },
 
   //Удаленные
