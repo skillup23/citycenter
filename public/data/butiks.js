@@ -436,7 +436,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/vanLaack/1.jpg',
+        src: '/butiks/menClothing/vanLaack/1n.jpg',
+        alt: 'Van Laack',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/vanLaack/2n.jpg',
+        alt: 'Van Laack',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/vanLaack/3n.jpg',
+        alt: 'Van Laack',
+      },
+      {
+        id: 4,
+        src: '/butiks/menClothing/vanLaack/4n.jpg',
         alt: 'Van Laack',
       },
     ],
