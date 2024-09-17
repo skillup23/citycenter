@@ -11,7 +11,7 @@ import event2 from '@/public/site_img/event2.png';
 import event3 from '@/public/site_img/event3.png';
 import event4 from '@/public/site_img/event4.png';
 import news7 from '@/public/news/7.jpg';
-import news1 from '@/public/news/1.jpg';
+import news10 from '@/public/news/10.jpg';
 import news8 from '@/public/news/8.jpg';
 import news9 from '@/public/news/9.jpg';
 import PrezentMain from '@/public/site_img/PrezentMain.jpg';
@@ -213,6 +213,20 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news10}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/10.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news9}
                 alt="Новость"
                 width="0"
@@ -249,20 +263,6 @@ export default function Home() {
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/7.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news1}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/1.jpg")]'></div>
             </Link>
           </div>
         </div>
