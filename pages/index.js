@@ -41,6 +41,7 @@ import {
   kinoAfisha,
 } from '@/public/data/data';
 import YandexMap from '@/components/YandexMap';
+import VideoMain from '@/components/VideoMain';
 
 export default function Home() {
   return (
@@ -103,17 +104,22 @@ export default function Home() {
             priority
           /> */}
 
-          <p className="w-full sm:w-3/5 text-right ml-auto text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-20 md:mb-20 lg:mb-48 px-3 sm:px-0">
-            ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
-            впечатлений и эстетики. Здесь Вас ждут магазины премиальных брендов,
-            ресторан итальянской кухни и VIP-кинотеатр, а также уникальные
-            Event-мероприятия для Вас и Ваших близких!
-          </p>
+          <div className="flex flex-col sm:flex-row mt-12 sm:mt-20 md:mb-20 lg:mb-80 xl:mb-40 px-3 sm:px-0 gap-10">
+            <p className="w-full sm:w-[55%] text-left mr-auto text-2xl sm:text-3xl lg:text-4xl ">
+              ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
+              впечатлений и эстетики. Здесь Вас ждут магазины премиальных
+              брендов, ресторан итальянской кухни и VIP-кинотеатр, а также
+              уникальные Event-мероприятия для Вас и Ваших близких!
+            </p>
+            <div className="w-full sm:w-[45%]">
+              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
+            </div>
+          </div>
 
-          <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10">
+          <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10 sm:mt-28 lg:mt-64 2xl:mt-40">
             <Link
               href="/scenarios/meeting"
-              className="flex flex-col items-center sm:-mt-64 lg:-mt-96 z-10"
+              className="flex flex-col items-center sm:-mt-20 lg:-mt-72 z-10"
             >
               <Image
                 src={event1}
@@ -131,12 +137,12 @@ export default function Home() {
 
             <Link
               href="/scenarios/holiday"
-              className="flex flex-col items-center sm:-mx-24 sm:-mt-16 lg:-mt-36"
+              className="flex flex-col items-center sm:-mx-10 sm:-mt-14 lg:-mt-56 2xl:-mt-40"
             >
               <Image
                 src={event2}
                 alt="событие 2"
-                width={700}
+                width={500}
                 className="ease-in duration-300 grayscale hover:grayscale-0"
                 priority
               />
@@ -149,7 +155,7 @@ export default function Home() {
 
             <Link
               href="/scenarios/case"
-              className="flex flex-col items-center lg:-mt-10"
+              className="flex flex-col items-center lg:-mt-40 2xl:-mt-10"
             >
               <Image
                 src={event3}
@@ -167,7 +173,7 @@ export default function Home() {
 
             <Link
               href="/scenarios/business"
-              className="flex flex-col items-center sm:-ml-10 sm:mt-10"
+              className="flex flex-col items-center sm:-ml-10 lg:-mt-20 2xl:mt-10"
             >
               <Image
                 src={event4}
@@ -190,7 +196,7 @@ export default function Home() {
 
       <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-12 mb-10">БУТИКИ</h2>
+          <h2 className="title_main mt-12 sm:-mt-10 mb-10">БУТИКИ</h2>
           <ShopListMain items={shopList} />
         </div>
       </section>
