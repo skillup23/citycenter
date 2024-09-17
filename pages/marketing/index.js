@@ -1,23 +1,15 @@
 import Layout from '@/components/Layout';
 import Popup from '@/components/Popup';
 import Image from 'next/image';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import noimg from '@/public/butiks/loaderImg.png';
-// import video from '/marketing_img/video1.mp4';
 import Link from 'next/link';
 import { BsFilePdf } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import VideoMain from '@/components/VideoMain';
 
 function Marketing() {
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (videoRef && videoRef.current) {
-      videoRef.current.play();
-    }
-  }, [videoRef]);
-
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
@@ -29,8 +21,6 @@ function Marketing() {
     setIsModal({ id, src, alt });
     setOpen(true);
   }
-
-  const video = '/marketing_img/video1.mp4';
 
   const foto = [
     {
@@ -71,18 +61,7 @@ function Marketing() {
             <p>Приглашаем Вас стать частью ТРК «СИТИ ЦЕНТР».</p>
           </div>
           <div className="grid sm:gap-4 grid-cols-1 sm:grid-cols-3 mt-8">
-            <video
-              controls
-              ref={videoRef}
-              loop
-              muted
-              playsInline
-              style={{ width: '100%', height: '100%' }}
-              type="video/mp4"
-              className=""
-            >
-              <source src={video} />
-            </video>
+            <VideoMain videoLink={'/marketing_img/video1.mp4'} />
             <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 px-0 col-span-2 mt-4 sm:mt-0 content-between">
               {foto.map(({ id, src, alt }) => (
                 <li
