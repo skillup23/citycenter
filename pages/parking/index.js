@@ -27,9 +27,9 @@ function Parking() {
             ТОРГОВО-РАЗВЛЕКАТЕЛЬНОГО КОМПЛЕКСА «СИТИ ЦЕНТР»*
           </h2>
 
-          <div className="w-11/12 sm:w-4/5 m-auto mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center indent-0">
+          {/* <div className="w-11/12 sm:w-4/5 m-auto mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center indent-0">
             <h5>Внимание! До конца лета парковка бесплатная!</h5>
-          </div>
+          </div> */}
 
           <div className="font-classic w-11/12 sm:w-4/5 m-auto mt-10 text-justify text-sm sm:text-base">
             <div>

@@ -467,13 +467,13 @@ export default function Home() {
               cssClass="mr-auto ml-auto -mt-1"
             />
             <ImageLink
-              href="/butiks/game/60"
+              href="/butiks/game/59"
               src={children5}
               alt="Книжный лабиринт"
               className=""
             />
             <ImageLink
-              href="/butiks/children/58"
+              href="/butiks/children/57"
               src={children6}
               alt="Дети в СИТИ"
               className=""
