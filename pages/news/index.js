@@ -12,6 +12,7 @@ import news7 from '@/public/news/7.jpg';
 import news8 from '@/public/news/8.jpg';
 import news9 from '@/public/news/9.jpg';
 import news10 from '@/public/news/10.jpg';
+import news11 from '@/public/news/11.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 // import Popup from '@/components/Popup';
@@ -43,6 +44,16 @@ function News() {
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
 
           <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
+            <Image
+              src={news11}
+              alt="Новость"
+              width={420}
+              sizes="100%"
+              priority
+            />
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
             <Image
               src={news10}
               alt="Новость"

@@ -2022,35 +2022,6 @@ export const butiks = [
     telUrl: '88612134741',
     instagram: 'knizhnylabirintcity',
   },
-  // {
-  //   id: id++,
-  //   category: 'womenClothing',
-  //   url: 'Sisal',
-  //   logo: '/butiks/womenClothing/Sisal/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/womenClothing/Sisal/1n.jpg',
-  //       alt: 'Sisal',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/womenClothing/Sisal/2n.jpg',
-  //       alt: 'Sisal',
-  //     },
-  //     {
-  //       id: 3,
-  //       src: '/butiks/womenClothing/Sisal/3n.jpg',
-  //       alt: 'Sisal',
-  //     },
-  //   ],
-  //   description1: `Бутик SIZAL  представляет российского дизайнера - Викторию Андреянову, чья эстетика OVERSIZE МИНИМАЛИЗМА С 1992 ГОДА СОБИРАЕТ СВОИХ АДЕПТОВ ПО ВСЕМУ МИРУ.`,
-  //   description2: `Также мы представляем Caterina Leman - это европейский бренд швейцарского качеста.`,
-  //   floor: '2 этаж',
-  //   tel: '+7 967 30 50 209',
-  //   telUrl: '89673050209',
-  //   instagram: '',
-  // },
   {
     id: id++,
     category: 'womenClothing',
@@ -2091,8 +2062,65 @@ export const butiks = [
     telUrl: '89827822230',
     instagram: '',
   },
+  {
+    id: id++,
+    category: 'manClothing',
+    url: 'Vilebrequin',
+    logo: '/butiks/menClothing/Vilebrequin/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/Vilebrequin/1n.jpg',
+        alt: 'Vilebrequin',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/Vilebrequin/2n.jpg',
+        alt: 'Vilebrequin',
+      },
+    ],
+    description1:
+      '15 октября 2024 года французский бренд пляжной моды Vilebrequin открыл новый магазин в ТРК Сити Центр Краснодар (2 этаж). Это событие стало важным шагом в расширении розничной сети бренда и укреплении его позиций на российском рынке.',
+    description2:
+      'Посетители магазина смогут ознакомиться с полным ассортиментом Vilebrequin, включая эксклюзивную капсульную коллекцию Rayures. Особого внимания заслуживает материал, используемый в коллекции — мягкий полиамид с добавлением эластана. Он быстро сохнет и сохраняет форму даже после длительного пребывания в воде, что делает его идеальным для активного пляжного отдыха.',
+    description3:
+      'Открытие магазина Vilebrequin в ТРК Сити Центр Краснодар дает жителям и гостям города уникальную возможность приобщиться к элегантному французскому пляжному стилю, воплощенному в коллекции 2024 года.',
+    floor: '2 этаж',
+    tel: '',
+    telUrl: '',
+    instagram: '',
+  },
 
   //Удаленные
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'Sisal',
+  //   logo: '/butiks/womenClothing/Sisal/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Sisal/1n.jpg',
+  //       alt: 'Sisal',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Sisal/2n.jpg',
+  //       alt: 'Sisal',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Sisal/3n.jpg',
+  //       alt: 'Sisal',
+  //     },
+  //   ],
+  //   description1: `Бутик SIZAL  представляет российского дизайнера - Викторию Андреянову, чья эстетика OVERSIZE МИНИМАЛИЗМА С 1992 ГОДА СОБИРАЕТ СВОИХ АДЕПТОВ ПО ВСЕМУ МИРУ.`,
+  //   description2: `Также мы представляем Caterina Leman - это европейский бренд швейцарского качеста.`,
+  //   floor: '2 этаж',
+  //   tel: '+7 967 30 50 209',
+  //   telUrl: '89673050209',
+  //   instagram: '',
+  // },
   // {
   //   id: 3,
   //   category: 'womenClothing',
