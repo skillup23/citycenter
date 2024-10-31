@@ -14,6 +14,7 @@ import { FiMenu } from 'react-icons/fi';
 import { menu } from '@/public/data/data';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
 import logoMonitor2m from '@/public/site_img/лого-монитор-2-black.png';
+import logoKrd from '@/public/site_img/logoKrd.png';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -48,14 +49,14 @@ function Header() {
               key={id}
               href={link}
               scroll={true}
-              className="text-xl xl:text-2xl ease-in duration-200 hover:scale-105 xl:mr-0 hidden lg:block"
+              className="text-xl xl:text-xl ease-in duration-200 hover:scale-105 xl:mr-0 hidden lg:block"
             >
               {name}
             </Link>
           );
         })}
 
-        {/* Мобильная бургкр кнопка */}
+        {/* Мобильная бургер кнопка */}
         <FiMenu
           onClick={() => visibleMenu()}
           className="ml-3 mr-3 cursor-pointer text-3xl md:text-4xl block lg:hidden"
@@ -63,7 +64,7 @@ function Header() {
 
         <Link
           href="/"
-          className="w-[100px] h-[50px] xl:w-[120px] xl:h-[58px] relative"
+          className="w-[100px] h-[50px] xl:w-[110px] xl:h-[52px] relative"
         >
           <Image
             src={logo}
@@ -75,13 +76,22 @@ function Header() {
           />
         </Link>
 
+        <Image
+          src={logoKrd}
+          alt="Лого Краснодар"
+          width="50"
+          height="0"
+          sizes="100%"
+          className=""
+        />
+
         {menu.slice(7, 11).map(({ id, name, link }) => {
           return (
             <Link
               key={id}
               href={link}
               scroll={true}
-              className="text-xl xl:text-2xl ease-in duration-200 hover:scale-105 hidden lg:block"
+              className="text-xl xl:text-xl ease-in duration-200 hover:scale-105 hidden lg:block"
             >
               {name}
             </Link>
@@ -96,7 +106,7 @@ function Header() {
           <Image
             src={logoMonitor2}
             alt="Лого Монитор Делюкс"
-            width="110"
+            width="100"
             height="0"
             sizes="100%"
             className=""
