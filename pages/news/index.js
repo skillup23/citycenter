@@ -13,6 +13,7 @@ import news8 from '@/public/news/8.jpg';
 import news9 from '@/public/news/9.jpg';
 import news10 from '@/public/news/10.jpg';
 import news11 from '@/public/news/11.jpg';
+import news12 from '@/public/news/12.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 // import Popup from '@/components/Popup';
@@ -44,6 +45,57 @@ function News() {
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
 
           <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
+            <Image
+              src={news12}
+              alt="Новость"
+              width={420}
+              sizes="100%"
+              priority
+            />
+            <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+              <div className="flex flex-col gap-4 text-center sm:text-left">
+                <p>
+                  Vilebrequin расширяет присутствие в России: новый магазин в
+                  Краснодаре СИТИ
+                </p>
+                <p>
+                  15 октября 2024 года французский бренд пляжной моды
+                  Vilebrequin открыл новый магазин в ТРК Сити Центр Краснодар (2
+                  этаж). Это событие стало важным шагом в расширении розничной
+                  сети бренда и укреплении его позиций на российском рынке.
+                </p>
+                <p>
+                  Посетители магазина смогут ознакомиться с полным ассортиментом
+                  Vilebrequin, включая эксклюзивную капсульную коллекцию
+                  Rayures. Эта коллекция, воплощающая элегантность морского
+                  стиля, включает в себя:
+                </p>
+                <p>
+                  Мужскую линию: Популярные шорты MOOREA в белую полоску —
+                  идеальное сочетание комфорта и стиля для пляжного отдыха
+                </p>
+                <p>
+                  Женскую линию: Стильный черно-белый слитный купальник Rayures
+                  с асимметричным декольте. Раздельный купальник в стиле 1950-х
+                  с кроп-топом и бикини
+                </p>
+                <p>
+                  Особого внимания заслуживает материал, используемый в
+                  коллекции — мягкий полиамид с добавлением эластана. Он быстро
+                  сохнет и сохраняет форму даже после длительного пребывания в
+                  воде, что делает его идеальным для активного пляжного отдыха.
+                </p>
+                <p>
+                  Открытие магазина Vilebrequin в ТРК Сити Центр Краснодар дает
+                  жителям и гостям города уникальную возможность приобщиться к
+                  элегантному французскому пляжному стилю, воплощенному в
+                  коллекции 2024 года.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
             <Image
               src={news11}
               alt="Новость"
