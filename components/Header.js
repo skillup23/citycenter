@@ -35,6 +35,15 @@ function Header() {
   return (
     <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
       <nav className="lg:container flex mx-auto px-5 justify-between content-center items-center relative">
+        <Image
+          src={logoKrd}
+          alt="Лого Краснодар"
+          width="50"
+          height="0"
+          sizes="100%"
+          className="-mr-6"
+        />
+
         <ul className="flex gap-5 xl:gap-8">
           <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
             <SlSocialVkontakte className="text-3xl xl:text-4xl ease-in duration-200 hover:scale-105" />
@@ -43,6 +52,7 @@ function Header() {
             <FaTelegramPlane className="text-3xl xl:text-4xl ease-in duration-200 hover:scale-105 mr-3" />
           </Link>
         </ul>
+
         {menu.slice(0, 4).map(({ id, name, link }) => {
           return (
             <Link
@@ -55,12 +65,6 @@ function Header() {
             </Link>
           );
         })}
-
-        {/* Мобильная бургер кнопка */}
-        <FiMenu
-          onClick={() => visibleMenu()}
-          className="ml-3 mr-3 cursor-pointer text-3xl md:text-4xl block lg:hidden"
-        />
 
         <Link
           href="/"
@@ -76,13 +80,10 @@ function Header() {
           />
         </Link>
 
-        <Image
-          src={logoKrd}
-          alt="Лого Краснодар"
-          width="50"
-          height="0"
-          sizes="100%"
-          className=""
+        {/* Мобильная бургер кнопка */}
+        <FiMenu
+          onClick={() => visibleMenu()}
+          className="ml-3 mr-3 cursor-pointer text-3xl md:text-4xl block lg:hidden"
         />
 
         {menu.slice(7, 11).map(({ id, name, link }) => {
