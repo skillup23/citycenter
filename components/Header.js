@@ -14,7 +14,7 @@ import { FiMenu } from 'react-icons/fi';
 import { menu } from '@/public/data/data';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
 import logoMonitor2m from '@/public/site_img/лого-монитор-2-black.png';
-import logoKrd from '@/public/site_img/logoKrd.png';
+import logoKrd from '@/public/site_img/logoKrdWhite.png';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -41,7 +41,7 @@ function Header() {
           width="50"
           height="0"
           sizes="100%"
-          className="-mr-6"
+          className="-mr-2"
         />
 
         <ul className="flex gap-5 xl:gap-8">
