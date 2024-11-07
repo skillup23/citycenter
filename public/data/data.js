@@ -583,9 +583,17 @@ import event18 from '@/public/event_city/Aromat/1.jpg';
 import event19 from '@/public/event_city/MissKrasnodar/1.jpg';
 import event20 from '@/public/event_city/Zabeg/1.jpg';
 import event21 from '@/public/event_city/FashionDay/1.jpg';
+import event22 from '@/public/event_city/OtherCinema2/1.jpg';
 
 //              Мероприятия
 const eventArray = [
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447',
+    img: event22,
+    text: 'Другое Кино',
+    target: '_blank',
+  },
   {
     id: id++,
     link: 'https://vk.com/album-16899955_303885732',
