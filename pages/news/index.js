@@ -45,7 +45,7 @@ function News() {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 mb-5 sm:mb-0">НОВОСТИ</h1>
 
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
+          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-nowrap">
             <Image
               src={news13}
               alt="Новость"
@@ -54,6 +54,23 @@ function News() {
               priority
               className="w-full sm:w-1/3"
             />
+            <div className="w-full sm:w-2/3 font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+              <div className="flex flex-col gap-4 text-center sm:text-left max-w-[450px]">
+                <p>Театральные сезоны в ТРК «СИТИ ЦЕНТР» 🎭</p>
+                <p>
+                  Мы рады сообщить, что 9 ноября в 13:00 состоится уникальное
+                  событие, которое объединит магию музыки и балета.
+                </p>
+                <p>
+                  Приготовьтесь погрузиться в мир искусства, где мелодии оживут
+                  через каждое движение танцоров!
+                </p>
+                <p>
+                  Приходите сами и приглашайте друзей — вместе мы создадим
+                  неповторимый день 🤍
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="w-full flex flex-col items-start sm:flex-row gap-8 mt-10 pt-10 flex-nowrap border-t-2">

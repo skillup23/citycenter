@@ -38,10 +38,10 @@ function Header() {
         <Image
           src={logoKrd}
           alt="Лого Краснодар"
-          width="50"
+          width="45"
           height="0"
           sizes="100%"
-          className=""
+          className="mr-2 xl:mr-0"
         />
 
         <ul className="flex gap-5 xl:gap-8">
