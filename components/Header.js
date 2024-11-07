@@ -41,7 +41,7 @@ function Header() {
           width="50"
           height="0"
           sizes="100%"
-          className="-mr-2"
+          className=""
         />
 
         <ul className="flex gap-5 xl:gap-8">

@@ -14,6 +14,7 @@ import news9 from '@/public/news/9.jpg';
 import news10 from '@/public/news/10.jpg';
 import news11 from '@/public/news/11.jpg';
 import news12 from '@/public/news/12.jpg';
+import news13 from '@/public/news/13.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 // import Popup from '@/components/Popup';
@@ -46,13 +47,25 @@ function News() {
 
           <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 flex-wrap">
             <Image
+              src={news13}
+              alt="Новость"
+              width={420}
+              sizes="100%"
+              priority
+              className="w-full sm:w-1/3"
+            />
+          </div>
+
+          <div className="w-full flex flex-col items-start sm:flex-row gap-8 mt-10 pt-10 flex-nowrap border-t-2">
+            <Image
               src={news12}
               alt="Новость"
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
-            <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
+            <div className="w-2/3 font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left">
                 <p>
                   Vilebrequin расширяет присутствие в России: новый магазин в
@@ -95,23 +108,25 @@ function News() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
+          <div className="w-full flex flex-col items-start sm:flex-row gap-8 mt-10 pt-10 flex-nowrap border-t-2">
             <Image
               src={news11}
               alt="Новость"
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-8 items-stretch mt-10 pt-10 flex-wrap border-t-2">
+          <div className="w-full flex flex-col items-start sm:flex-row gap-8 mt-10 pt-10 flex-nowrap border-t-2">
             <Image
               src={news10}
               alt="Новость"
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left">
@@ -157,6 +172,7 @@ function News() {
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
@@ -180,7 +196,7 @@ function News() {
               width={420}
               height={420}
               sizes="100%"
-              className="max-h-[420px]"
+              className="w-full sm:w-1/3"
               priority
             />
             <Image
@@ -189,7 +205,7 @@ function News() {
               width={420}
               height={420}
               sizes="100%"
-              className="max-h-[420px]"
+              className="w-full sm:w-1/3"
               priority
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
@@ -232,7 +248,7 @@ function News() {
               width={420}
               height={420}
               sizes="100%"
-              className="max-h-[420px]"
+              className="w-full sm:w-1/3"
               priority
             />
             <Image
@@ -241,7 +257,7 @@ function News() {
               width={420}
               height={420}
               sizes="100%"
-              className="max-h-[420px]"
+              className="w-full sm:w-1/3"
               priority
             />
             <Image
@@ -250,7 +266,7 @@ function News() {
               width={420}
               height={420}
               sizes="100%"
-              className="max-h-[420px]"
+              className="w-full sm:w-1/3"
               priority
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
@@ -291,6 +307,7 @@ function News() {
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
@@ -316,6 +333,7 @@ function News() {
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
@@ -345,6 +363,7 @@ function News() {
               width={420}
               sizes="100%"
               priority
+              className="w-full sm:w-1/3"
             />
             <div className="font-classic text-base md:text-xl flex flex-col justify-between gap-12 p-4 sm:p-0">
               <div className="flex flex-col gap-4 text-center sm:text-left max-w-[420px]">
