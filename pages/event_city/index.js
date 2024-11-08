@@ -38,7 +38,7 @@ function EventCity() {
                   target={item.target}
                 />
 
-                <h4 className="text-center text-3xl md:text-4xl mt-3 sm:mt-6">
+                <h4 className="max-w-[432px] text-center text-3xl md:text-4xl mt-3 sm:mt-6 overflow-hidden whitespace-nowrap text-ellipsis">
                   {item.text}
                 </h4>
                 <Link href={item.link}>

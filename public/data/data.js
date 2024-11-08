@@ -584,9 +584,17 @@ import event19 from '@/public/event_city/MissKrasnodar/1.jpg';
 import event20 from '@/public/event_city/Zabeg/1.jpg';
 import event21 from '@/public/event_city/FashionDay/1.jpg';
 import event22 from '@/public/event_city/OtherCinema2/1.jpg';
+import event23 from '@/public/event_city/FirstLady/1.jpg';
 
 //              Мероприятия
 const eventArray = [
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447',
+    img: event23,
+    text: 'Клуб первых леди',
+    target: '_blank',
+  },
   {
     id: id++,
     link: 'https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447',
