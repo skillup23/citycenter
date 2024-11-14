@@ -359,38 +359,21 @@ export const butiks = [
   {
     id: id++,
     category: 'womenClothing shoesAndBags',
-    url: 'Michael-kors',
-    logo: '/butiks/womenClothing/Michael-kors/logo.png',
+    url: 'Karl-Lagerfeld',
+    logo: '/butiks/womenClothing/KarlLagerfeld/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/Michael-kors/1n.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Michael-kors/2n.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Michael-kors/3n.jpg',
-        alt: 'Michael-kors',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Michael-kors/4n.jpg',
-        alt: 'Michael-kors',
+        src: '/butiks/loaderImgSmall.png',
+        alt: 'KarlLagerfeld',
       },
     ],
     description1:
-      'Michael Kors является американским модным брендом, который специализируется на производстве одежды, парфюмерии и аксессуаров.',
-    description2:
-      'При создании одежды и аксессуаров под маркой Michael Kors, дизайнер руководствуется желанием покупателей ощутить удовлетворение от покупки на эмоциональном уровне. В изделиях марки Michael Kors гармоничным образом сочетаются американское удобство и европейский шарм. Это универсальные вещи для тех, кто на первое место ставит индивидуальный стиль и качество на уровне деталей.',
+      'Сегодня открылся монобрендовый бутик Karl Lagerfeld. В магазине представлена женская и мужская одежда, а также нижнее белье, обувь и аксессуары.',
     floor: '2 этаж',
     tel: '+7 861 298 08 46',
     telUrl: '88612980846',
-    instagram: 'michaelkors',
+    instagram: '',
   },
   {
     id: id++,
