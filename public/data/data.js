@@ -352,9 +352,17 @@ import event21 from '@/public/event_city/FashionDay/1.jpg';
 import event22 from '@/public/event_city/OtherCinema2/1.jpg';
 import event23 from '@/public/event_city/FirstLady/1.jpg';
 import event24 from '@/public/event_city/MysikaBalet/1.jpg';
+import event25 from '@/public/event_city/Teatr/1.jpg';
 
 //              Мероприятия
 const eventArray = [
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/790257-seriya-immersivnykh-sobytiy-teatralnye-sezony-postanovka-teatra-veritas-v-trk-siti-tsentr/',
+    img: event25,
+    text: '«Театральные сезоны»',
+    target: '_blank',
+  },
   {
     id: id++,
     link: 'https://yanaaleksann18.wfolio.pro/disk/09-11-2024-siti-tsentr-ok-3-n77ksf',
