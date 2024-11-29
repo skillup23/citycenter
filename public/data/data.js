@@ -353,9 +353,17 @@ import event22 from '@/public/event_city/OtherCinema2/1.jpg';
 import event23 from '@/public/event_city/FirstLady/1.jpg';
 import event24 from '@/public/event_city/MysikaBalet/1.jpg';
 import event25 from '@/public/event_city/Teatr/1.jpg';
+import event26 from '@/public/event_city/HappyBith2024/1.jpg';
 
 //              Мероприятия
 const eventArray = [
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/790551-den-rozhdeniya-trk-siti-tsentr-20-let/',
+    img: event26,
+    text: 'ДЕНЬ РОЖДЕНИЯ ТРК «СИТИ ЦЕНТР»',
+    target: '_blank',
+  },
   {
     id: id++,
     link: 'https://geometria.ru/reportage/790257-seriya-immersivnykh-sobytiy-teatralnye-sezony-postanovka-teatra-veritas-v-trk-siti-tsentr/',
