@@ -12,7 +12,7 @@ import event3 from '@/public/site_img/event3.png';
 import event4 from '@/public/site_img/event4.png';
 import news15 from '@/public/news/15.jpg';
 import news14 from '@/public/news/14.jpg';
-import news16 from '@/public/news/16.jpg';
+import news12 from '@/public/news/12.jpg';
 import news13 from '@/public/news/13.jpg';
 import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 import logoMonitor1 from '@/public/site_img/лого-монитор.png';
@@ -213,20 +213,6 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
-                src={news16}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/16.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
                 src={news15}
                 alt="Новость"
                 width="0"
@@ -263,6 +249,20 @@ export default function Home() {
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/13.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news12}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/12.jpg")]'></div>
             </Link>
           </div>
         </div>
