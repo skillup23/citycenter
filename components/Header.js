@@ -14,7 +14,7 @@ import { FiMenu } from 'react-icons/fi';
 import { menu } from '@/public/data/data';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
 import logoMonitor2m from '@/public/site_img/лого-монитор-2-black.png';
-import logoKrd from '@/public/site_img/logoKrdWhite.png';
+import logoKrd from '@/public/site_img/logoKrdRed.png';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
