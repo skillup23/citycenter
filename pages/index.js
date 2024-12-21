@@ -8,8 +8,8 @@ import Link from "next/link";
 import restoran3 from "@/public/butiks/kafe/LoveAndTrufel/logo.png";
 import news14 from "@/public/news/14.jpg";
 import news15 from "@/public/news/15.jpg";
-import news16 from "@/public/news/16.webp";
-import news17 from "@/public/news/17.webp";
+import news16 from "@/public/news/16.jpg";
+import news17 from "@/public/news/17.jpg";
 import restoran1 from "@/public/site_img/1-дон-базилио.png";
 import restoran2 from "@/public/site_img/3-френч-кис.png";
 import event1 from "@/public/site_img/event1.png";
@@ -220,7 +220,7 @@ export default function Home() {
                 style={{ width: "100%", height: "100%" }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/17.webp")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/17.jpg")]'></div>
             </Link>
             <Link
               href="/news"
@@ -234,7 +234,7 @@ export default function Home() {
                 style={{ width: "100%", height: "100%" }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/16.webp")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/16.jpg")]'></div>
             </Link>
             <Link
               href="/news"
