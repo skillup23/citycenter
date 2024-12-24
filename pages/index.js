@@ -7,7 +7,7 @@ import Link from 'next/link';
 // import text1 from '@/public/site_img/текст-1.png';
 import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 import news18 from '@/public/news/18.jpg';
-import news15 from '@/public/news/15.jpg';
+import news19 from '@/public/news/19.jpg';
 import news16 from '@/public/news/16.jpg';
 import news17 from '@/public/news/17.jpg';
 import restoran1 from '@/public/site_img/1-дон-базилио.png';
@@ -213,6 +213,20 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news19}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/19.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news18}
                 alt="Новость"
                 width="0"
@@ -249,20 +263,6 @@ export default function Home() {
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/16.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news15}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/15.jpg")]'></div>
             </Link>
           </div>
         </div>
