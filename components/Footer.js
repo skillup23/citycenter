@@ -9,10 +9,11 @@ import { SlSocialVkontakte } from 'react-icons/sl';
 function Footer() {
   return (
     <footer className="shrink-0 bg-white py-5 mt-16">
-      <nav className="lg:container mx-auto flex justify-between items-center min-[320px]:px-2 min-[400px]:px-6 sm:px-2 lg:pr-5">
+      <nav className="lg:container mx-auto flex justify-between items-center min-[320px]:px-3 min-[400px]:px-6 sm:px-2 lg:pr-5">
         <Link
           href="/"
-          className="w-[75px] h-[35px] lg:w-[100px] lg:h-[51px] xl:w-[125px] xl:h-[62px] relative"
+          // className="w-[75px] h-[35px] lg:w-[100px] lg:h-[51px] xl:w-[62px] xl:h-[80px] relative"
+          className="w-[70px] h-[70px] md:w-[59px] md:h-[78px] xl:w-[62px] xl:h-[62px] relative"
         >
           <Image
             src={logoBlack}
