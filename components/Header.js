@@ -68,7 +68,7 @@ function Header() {
 
         <Link
           href="/"
-          className="w-[100px] h-[50px] xl:w-[110px] xl:h-[52px] relative"
+          className="w-[50px] h-[50px] xl:w-[65px] xl:h-[65px] relative"
         >
           <Image
             src={logo}
