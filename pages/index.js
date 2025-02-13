@@ -1,47 +1,47 @@
-import ImageLink from "@/components/ImageLink";
-import Layout from "@/components/Layout";
-import ShopListMain from "@/components/ShopListMain";
-import SliderMain from "@/components/SliderMain";
-import Image from "next/image";
-import Link from "next/link";
+import ImageLink from '@/components/ImageLink';
+import Layout from '@/components/Layout';
+import ShopListMain from '@/components/ShopListMain';
+import SliderMain from '@/components/SliderMain';
+import Image from 'next/image';
+import Link from 'next/link';
 // import text1 from '@/public/site_img/текст-1.png';
-import restoran3 from "@/public/butiks/kafe/LoveAndTrufel/logo.png";
-import news17 from "@/public/news/17.jpg";
-import news18 from "@/public/news/18.jpg";
-import news19 from "@/public/news/19.jpg";
-import news22 from "@/public/news/22.jpg";
-import restoran1 from "@/public/site_img/1-дон-базилио.png";
-import restoran2 from "@/public/site_img/3-френч-кис.png";
-import event1 from "@/public/site_img/event1.png";
-import event2 from "@/public/site_img/event2.png";
-import event3 from "@/public/site_img/event3.png";
-import event4 from "@/public/site_img/event4.png";
-import PrezentMain from "@/public/site_img/PrezentMain.jpg";
-import children1 from "@/public/site_img/игратория.png";
-import cinemaIkon1 from "@/public/site_img/кино-иконка-1.png";
-import cinemaIkon2 from "@/public/site_img/кино-иконка-2.png";
-import cinemaIkon3 from "@/public/site_img/кино-иконка-3.png";
-import cinemaIkon4 from "@/public/site_img/кино-иконка-4.png";
-import logoMonitor2 from "@/public/site_img/лого-монитор-2.png";
-import logoMonitor1 from "@/public/site_img/лого-монитор.png";
-import text2 from "@/public/site_img/текст-2.png";
+import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
+import news23 from '@/public/news/23.jpg';
+import news18 from '@/public/news/18.jpg';
+import news19 from '@/public/news/19.jpg';
+import news22 from '@/public/news/22.jpg';
+import restoran1 from '@/public/site_img/1-дон-базилио.png';
+import restoran2 from '@/public/site_img/3-френч-кис.png';
+import event1 from '@/public/site_img/event1.png';
+import event2 from '@/public/site_img/event2.png';
+import event3 from '@/public/site_img/event3.png';
+import event4 from '@/public/site_img/event4.png';
+import PrezentMain from '@/public/site_img/PrezentMain.jpg';
+import children1 from '@/public/site_img/игратория.png';
+import cinemaIkon1 from '@/public/site_img/кино-иконка-1.png';
+import cinemaIkon2 from '@/public/site_img/кино-иконка-2.png';
+import cinemaIkon3 from '@/public/site_img/кино-иконка-3.png';
+import cinemaIkon4 from '@/public/site_img/кино-иконка-4.png';
+import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
+import logoMonitor1 from '@/public/site_img/лого-монитор.png';
+import text2 from '@/public/site_img/текст-2.png';
 // import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
-import children6 from "@/public/butiks/children/ChildrenInCity/logo.png";
-import children5 from "@/public/site_img/2-книжный-лабиринт.png";
-import { FaBus, FaPhoneAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import { RiTimeFill } from "react-icons/ri";
+import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
+import children5 from '@/public/site_img/2-книжный-лабиринт.png';
+import { FaBus, FaPhoneAlt } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { RiTimeFill } from 'react-icons/ri';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
-import VideoMain from "@/components/VideoMain";
-import YandexMap from "@/components/YandexMap";
+import VideoMain from '@/components/VideoMain';
+import YandexMap from '@/components/YandexMap';
 import {
   kinoAfisha,
   shopList,
   sliderCenter,
   sliderTop,
-} from "@/public/data/data";
+} from '@/public/data/data';
 
 export default function Home() {
   return (
@@ -71,7 +71,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/vip/afisha"
                   className="block relative w-full overflow-hidden h-full"
-                  target={"_blank"}
+                  target={'_blank'}
                 >
                   <Image
                     src={img}
@@ -112,7 +112,7 @@ export default function Home() {
               уникальные Event-мероприятия для Вас и Ваших близких!
             </p>
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={"/site_img/city_FHD_1.mp4"} />
+              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
             </div>
           </div>
 
@@ -213,11 +213,25 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news23}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/23.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news22}
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/22.jpg")]'></div>
@@ -231,7 +245,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/19.jpg")]'></div>
@@ -245,24 +259,10 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/18.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news17}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: "100%", height: "100%" }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/17.jpg")]'></div>
             </Link>
           </div>
         </div>
@@ -304,7 +304,7 @@ export default function Home() {
               <Link
                 href="https://kinomonitor.ru/vip/afisha"
                 className="h-full flex items-center justify-center"
-                target={"_blank"}
+                target={'_blank'}
               >
                 <Image
                   src={logoMonitor2}
