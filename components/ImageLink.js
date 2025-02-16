@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Image from "next/image";
+import Link from "next/link";
 
 function ImageLink({ href, src, alt, width, cssClass, target }) {
   const widthImg = !width ? `m-auto w-36 sm:w-48 md:w-56` : `m-auto w-${width}`;
@@ -20,7 +19,7 @@ function ImageLink({ href, src, alt, width, cssClass, target }) {
         sizes="100%"
         // className="ease-in duration-200 hover:scale-105"
         className={otherClass}
-        style={{ width: 'auto', height: 'auto' }}
+        style={{ width: "100%", height: "auto" }}
         priority
       />
     </Link>
