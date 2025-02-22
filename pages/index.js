@@ -445,7 +445,7 @@ export default function Home() {
               alt="French kiss"
             />
             <ImageLink
-              href="/butiks/kafe/45"
+              href="/butiks/kafe/39"
               src={restoran3}
               alt="Любовь и Трюфель"
             />
@@ -459,7 +459,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
           <div className="flex justify-between items-center my-4 sm:my-24 gap-2 sm:gap-24 flex-nowrap">
-            <ImageLink href="/butiks/game/38" src={children1} alt="Игратория" />
+            <ImageLink href="/butiks/game/33" src={children1} alt="Игратория" />
             {/* <ImageLink
               href="/butiks/game/59"
               src={children5}
@@ -467,7 +467,7 @@ export default function Home() {
               className=""
             /> */}
             <ImageLink
-              href="/butiks/children/57"
+              href="/butiks/children/50"
               src={children6}
               alt="Дети в СИТИ"
             />
