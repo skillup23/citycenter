@@ -375,42 +375,42 @@ export const butiks = [
     telUrl: "88612980846",
     instagram: "",
   },
-  {
-    id: id++,
-    category: "manClothing",
-    url: "Angelo Nardelli",
-    logo: "/butiks/menClothing/AngeloNardelli/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/menClothing/AngeloNardelli/1n.jpg",
-        alt: "Angelo Nardelli",
-      },
-      {
-        id: 2,
-        src: "/butiks/menClothing/AngeloNardelli/2n.jpg",
-        alt: "Angelo Nardelli",
-      },
-      {
-        id: 3,
-        src: "/butiks/menClothing/AngeloNardelli/3n.jpg",
-        alt: "Angelo Nardelli",
-      },
-      {
-        id: 4,
-        src: "/butiks/menClothing/AngeloNardelli/4n.jpg",
-        alt: "Angelo Nardelli",
-      },
-    ],
-    description1:
-      "ANGELO NARDELLI – итальянский бренд, специализирующийся на производстве мужских костюмов, брюк, пиджаков, сорочек и аксессуаров. Отличительная особенность компании — безукоризненное следование традициям пошива одежды в сочетании с современной обработкой тканей, которая позволяет сделать изделия еще более долговечными.",
-    description2:
-      "Стильная классика ANGELO NARDELLI и одежда «на каждый день» отлично подойдут для активных, целеустремленных и уверенных в себе мужчин с безупречным вкусом.",
-    floor: "2 этаж",
-    tel: "+7 988 369 68 88",
-    telUrl: "89883696888",
-    instagram: "angelonardelli51",
-  },
+  // {
+  //   id: id++,
+  //   category: "manClothing",
+  //   url: "Angelo Nardelli",
+  //   logo: "/butiks/menClothing/AngeloNardelli/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/menClothing/AngeloNardelli/1n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/menClothing/AngeloNardelli/2n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/menClothing/AngeloNardelli/3n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/menClothing/AngeloNardelli/4n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //   ],
+  //   description1:
+  //     "ANGELO NARDELLI – итальянский бренд, специализирующийся на производстве мужских костюмов, брюк, пиджаков, сорочек и аксессуаров. Отличительная особенность компании — безукоризненное следование традициям пошива одежды в сочетании с современной обработкой тканей, которая позволяет сделать изделия еще более долговечными.",
+  //   description2:
+  //     "Стильная классика ANGELO NARDELLI и одежда «на каждый день» отлично подойдут для активных, целеустремленных и уверенных в себе мужчин с безупречным вкусом.",
+  //   floor: "2 этаж",
+  //   tel: "+7 988 369 68 88",
+  //   telUrl: "89883696888",
+  //   instagram: "angelonardelli51",
+  // },
   {
     id: id++,
     category: "manClothing",
@@ -486,30 +486,30 @@ export const butiks = [
     telUrl: "88612134723",
     instagram: "xo_man_ru",
   },
-  {
-    id: id++,
-    category: "manClothing",
-    url: "Lab",
-    logo: "/butiks/menClothing/Lab/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/menClothing/Lab/1.jpg",
-        alt: "Lab",
-      },
-      {
-        id: 2,
-        src: "/butiks/menClothing/Lab/2.jpg",
-        alt: "Lab",
-      },
-    ],
-    description1:
-      "LAB Pal Zileri — бутик брендовой итальянской мужской одежды, в котором представлены такие премиальные марки, как LAB Pal Zileri и Navigare.",
-    floor: "2 этаж",
-    tel: "+7 953 090 64 19",
-    telUrl: "89530906419",
-    instagram: "lab_pal_zileri",
-  },
+  // {
+  //   id: id++,
+  //   category: "manClothing",
+  //   url: "Lab",
+  //   logo: "/butiks/menClothing/Lab/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/menClothing/Lab/1.jpg",
+  //       alt: "Lab",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/menClothing/Lab/2.jpg",
+  //       alt: "Lab",
+  //     },
+  //   ],
+  //   description1:
+  //     "LAB Pal Zileri — бутик брендовой итальянской мужской одежды, в котором представлены такие премиальные марки, как LAB Pal Zileri и Navigare.",
+  //   floor: "2 этаж",
+  //   tel: "+7 953 090 64 19",
+  //   telUrl: "89530906419",
+  //   instagram: "lab_pal_zileri",
+  // },
   {
     id: id++,
     category: "manClothing",
@@ -606,7 +606,7 @@ export const butiks = [
   },
   {
     id: id++,
-    category: "underwear",
+    category: "underwear womenClothing",
     url: "Laperila",
     logo: "/butiks/underwear/Laperila/logo.png",
     image: [
@@ -775,42 +775,42 @@ export const butiks = [
     telUrl: "89892902504",
     instagram: "zolotoylarets",
   },
-  {
-    id: id++,
-    category: "clocks interior giftsAndBook",
-    url: "DecorBurgua",
-    logo: "/butiks/clocks/DecorBurgua/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/clocks/DecorBurgua/1n.jpg",
-        alt: "DecorBurgua",
-      },
-      {
-        id: 2,
-        src: "/butiks/clocks/DecorBurgua/2n.jpg",
-        alt: "DecorBurgua",
-      },
-      {
-        id: 3,
-        src: "/butiks/clocks/DecorBurgua/3n.jpg",
-        alt: "DecorBurgua",
-      },
-      {
-        id: 4,
-        src: "/butiks/clocks/DecorBurgua/4n.jpg",
-        alt: "DecorBurgua",
-      },
-    ],
-    description1:
-      "В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.",
-    description2:
-      "Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.",
-    floor: "1 этаж",
-    tel: "+7 918 144 23 07",
-    telUrl: "89181442307",
-    instagram: "decor_burgua",
-  },
+  // {
+  //   id: id++,
+  //   category: "clocks interior giftsAndBook",
+  //   url: "DecorBurgua",
+  //   logo: "/butiks/clocks/DecorBurgua/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/clocks/DecorBurgua/1n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/clocks/DecorBurgua/2n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/clocks/DecorBurgua/3n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/clocks/DecorBurgua/4n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //   ],
+  //   description1:
+  //     "В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.",
+  //   description2:
+  //     "Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.",
+  //   floor: "1 этаж",
+  //   tel: "+7 918 144 23 07",
+  //   telUrl: "89181442307",
+  //   instagram: "decor_burgua",
+  // },
   {
     id: id++,
     category: "clocks giftsAndBook",
@@ -996,42 +996,42 @@ export const butiks = [
     telUrl: "88612314786",
     instagram: "fabi_krd",
   },
-  {
-    id: id++,
-    category: "shoesAndBags glasses",
-    url: "PanChemodan",
-    logo: "/butiks/clocks/PanChemodan/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/clocks/PanChemodan/1n.jpg",
-        alt: "PanChemodan",
-      },
-      {
-        id: 2,
-        src: "/butiks/clocks/PanChemodan/2n.jpg",
-        alt: "PanChemodan",
-      },
-      {
-        id: 3,
-        src: "/butiks/clocks/PanChemodan/3n.jpg",
-        alt: "PanChemodan",
-      },
-      {
-        id: 4,
-        src: "/butiks/clocks/PanChemodan/4n.jpg",
-        alt: "PanChemodan",
-      },
-    ],
-    description1:
-      "Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.",
-    description2:
-      "Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.",
-    floor: "2 этаж",
-    tel: "+7 495 280 16 40",
-    telUrl: "84952801640",
-    instagram: "panchemodan",
-  },
+  // {
+  //   id: id++,
+  //   category: "shoesAndBags glasses",
+  //   url: "PanChemodan",
+  //   logo: "/butiks/clocks/PanChemodan/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/clocks/PanChemodan/1n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/clocks/PanChemodan/2n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/clocks/PanChemodan/3n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/clocks/PanChemodan/4n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //   ],
+  //   description1:
+  //     "Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.",
+  //   description2:
+  //     "Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.",
+  //   floor: "2 этаж",
+  //   tel: "+7 495 280 16 40",
+  //   telUrl: "84952801640",
+  //   instagram: "panchemodan",
+  // },
   {
     id: id++,
     category: "cosmetics",
@@ -1167,39 +1167,39 @@ export const butiks = [
     telUrl: "89298501462",
     instagram: "dream_catchers_rus",
   },
-  {
-    id: id++,
-    category: "interior",
-    url: "Raffinat",
-    logo: "/butiks/interior/Raffinat/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/interior/Raffinat/1.jpg",
-        alt: "Raffinat",
-      },
-      {
-        id: 2,
-        src: "/butiks/interior/Raffinat/2.jpg",
-        alt: "Raffinat",
-      },
-      {
-        id: 3,
-        src: "/butiks/interior/Raffinat/3.jpg",
-        alt: "Raffinat",
-      },
-      {
-        id: 4,
-        src: "/butiks/interior/Raffinat/4.jpg",
-        alt: "Raffinat",
-      },
-    ],
-    description1: `Бутик “RAFFINAT” существует на рынке уже 12 лет, чтобы каждый человек смог окружить себя изысканными предметами интерьера Европейского качества. В бутике представлены такие бренды, как: Yves Delorme Paris, Cote Noire, Fansy, Rudolf Kampf, Garnier-Thiebaut.`,
-    floor: "3 этаж",
-    tel: "+7 964 901 92 21",
-    telUrl: "89649019221",
-    instagram: "raffinatcity",
-  },
+  // {
+  //   id: id++,
+  //   category: "interior",
+  //   url: "Raffinat",
+  //   logo: "/butiks/interior/Raffinat/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/interior/Raffinat/1.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/interior/Raffinat/2.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/interior/Raffinat/3.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/interior/Raffinat/4.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //   ],
+  //   description1: `Бутик “RAFFINAT” существует на рынке уже 12 лет, чтобы каждый человек смог окружить себя изысканными предметами интерьера Европейского качества. В бутике представлены такие бренды, как: Yves Delorme Paris, Cote Noire, Fansy, Rudolf Kampf, Garnier-Thiebaut.`,
+  //   floor: "3 этаж",
+  //   tel: "+7 964 901 92 21",
+  //   telUrl: "89649019221",
+  //   instagram: "raffinatcity",
+  // },
   {
     id: id++,
     category: "interior giftsAndBook",
@@ -1392,45 +1392,45 @@ export const butiks = [
     tel: "",
     telUrl: "",
   },
-  {
-    id: id++,
-    category: "children",
-    url: "HouseChildrenModa",
-    logo: "/butiks/children/HouseChildrenModa/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/children/HouseChildrenModa/1.jpg",
-        alt: "HouseChildrenModa",
-      },
-      {
-        id: 2,
-        src: "/butiks/children/HouseChildrenModa/2.jpg",
-        alt: "HouseChildrenModa",
-      },
-      {
-        id: 3,
-        src: "/butiks/children/HouseChildrenModa/3.jpg",
-        alt: "HouseChildrenModa",
-      },
-      {
-        id: 4,
-        src: "/butiks/children/HouseChildrenModa/4.jpg",
-        alt: "HouseChildrenModa",
-      },
-      {
-        id: 5,
-        src: "/butiks/children/HouseChildrenModa/5.jpg",
-        alt: "HouseChildrenModa",
-      },
-    ],
-    description1:
-      "В фирменном магазине «Дом детской моды» представлена одежда и аксессуары для мальчиков и девочек от 0 до 14. Вся одежда произведена из натуральных тканей для того, чтобы дети чувствовали себя комфортно. Бутик представляет детскую одежду премиальных брендов: Burberry, Dior, Dolce & Gabbana, Sonia Rykel и других известных марок.",
-    floor: "3 этаж",
-    tel: "+7 861 213 47 57",
-    telUrl: "88612134757",
-    instagram: "dom_detskoi_modi",
-  },
+  // {
+  //   id: id++,
+  //   category: "children",
+  //   url: "HouseChildrenModa",
+  //   logo: "/butiks/children/HouseChildrenModa/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/children/HouseChildrenModa/1.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/children/HouseChildrenModa/2.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/children/HouseChildrenModa/3.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/children/HouseChildrenModa/4.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 5,
+  //       src: "/butiks/children/HouseChildrenModa/5.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //   ],
+  //   description1:
+  //     "В фирменном магазине «Дом детской моды» представлена одежда и аксессуары для мальчиков и девочек от 0 до 14. Вся одежда произведена из натуральных тканей для того, чтобы дети чувствовали себя комфортно. Бутик представляет детскую одежду премиальных брендов: Burberry, Dior, Dolce & Gabbana, Sonia Rykel и других известных марок.",
+  //   floor: "3 этаж",
+  //   tel: "+7 861 213 47 57",
+  //   telUrl: "88612134757",
+  //   instagram: "dom_detskoi_modi",
+  // },
   {
     id: id++,
     category: "gameCategory",
@@ -1772,34 +1772,34 @@ export const butiks = [
   //   telUrl: '',
   //   instagram: '',
   // },
-  {
-    id: id++,
-    category: "womenClothing",
-    url: "SOLine",
-    logo: "/butiks/womenClothing/SOLine/logo.png",
-    image: [
-      {
-        id: 1,
-        src: "/butiks/womenClothing/SOLine/1n.jpg",
-        alt: "SOLine",
-      },
-      {
-        id: 2,
-        src: "/butiks/womenClothing/SOLine/2n.jpg",
-        alt: "SOLine",
-      },
-      {
-        id: 3,
-        src: "/butiks/womenClothing/SOLine/3n.jpg",
-        alt: "SOLine",
-      },
-    ],
-    description1: ` `,
-    floor: "2 этаж",
-    tel: "",
-    telUrl: "",
-    instagram: "",
-  },
+  // {
+  //   id: id++,
+  //   category: "womenClothing",
+  //   url: "SOLine",
+  //   logo: "/butiks/womenClothing/SOLine/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/womenClothing/SOLine/1n.jpg",
+  //       alt: "SOLine",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/womenClothing/SOLine/2n.jpg",
+  //       alt: "SOLine",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/womenClothing/SOLine/3n.jpg",
+  //       alt: "SOLine",
+  //     },
+  //   ],
+  //   description1: ` `,
+  //   floor: "2 этаж",
+  //   tel: "",
+  //   telUrl: "",
+  //   instagram: "",
+  // },
   {
     id: id++,
     category: "children",
@@ -2047,7 +2047,7 @@ export const butiks = [
   },
   {
     id: id++,
-    category: "manClothing",
+    category: "manClothing underwear",
     url: "Vilebrequin",
     logo: "/butiks/menClothing/Vilebrequin/logo.png",
     image: [
@@ -2072,6 +2072,43 @@ export const butiks = [
     tel: "",
     telUrl: "",
     instagram: "",
+  },
+  {
+    id: id++,
+    category: "womenClothing",
+    url: "ElenaMiro",
+    logo: "/butiks/womenClothing/ElenaMiro/logo.png",
+    image: [
+      {
+        id: 1,
+        src: "/butiks/womenClothing/ElenaMiro/1n.jpeg",
+        alt: "ElenaMiro",
+      },
+      {
+        id: 2,
+        src: "/butiks/womenClothing/ElenaMiro/2n.jpeg",
+        alt: "ElenaMiro",
+      },
+      {
+        id: 3,
+        src: "/butiks/womenClothing/ElenaMiro/3n.jpeg",
+        alt: "ElenaMiro",
+      },
+      {
+        id: 4,
+        src: "/butiks/womenClothing/ElenaMiro/4n.jpeg",
+        alt: "ElenaMiro",
+      },
+    ],
+    description1:
+      "Elena Miro – премиальный бренд женской одежды и аксессуаров родом из Италии.",
+    description2:
+      "В основе ДНК бренда – женственный, элегантный стиль, безупречные выверенные лекала, подчеркивающие все достоинства фигуры, а также инклюзивность и универсальность.",
+    description3: "",
+    floor: "2 этаж",
+    tel: "elenamiro.ru",
+    telUrl: "https://elenamiro.ru/",
+    instagram: "https://elenamiro.ru/",
   },
 
   //Удаленные
