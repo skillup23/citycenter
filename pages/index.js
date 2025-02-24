@@ -1,46 +1,48 @@
-import ImageLink from "@/components/ImageLink";
-import Layout from "@/components/Layout";
-import ShopListMain from "@/components/ShopListMain";
-import SliderMain from "@/components/SliderMain";
-import Image from "next/image";
-import Link from "next/link";
+import ImageLink from '@/components/ImageLink';
+import Layout from '@/components/Layout';
+import ShopListMain from '@/components/ShopListMain';
+import SliderMain from '@/components/SliderMain';
+import Image from 'next/image';
+import Link from 'next/link';
 // import text1 from '@/public/site_img/текст-1.png';
-import restoran3 from "@/public/butiks/kafe/LoveAndTrufel/logo.png";
-import news19 from "@/public/news/19.jpg";
-import news22 from "@/public/news/22.jpg";
-import news23 from "@/public/news/23.jpg";
-import news25 from "@/public/news/25.jpg";
-import restoran1 from "@/public/site_img/1-дон-базилио.png";
-import restoran2 from "@/public/site_img/3-френч-кис.png";
-import event1 from "@/public/site_img/event1.png";
-import event2 from "@/public/site_img/event2.png";
-import event3 from "@/public/site_img/event3.png";
-import event4 from "@/public/site_img/event4.png";
-import PrezentMain from "@/public/site_img/PrezentMain.jpg";
-import children1 from "@/public/site_img/игратория.png";
-import cinemaIkon1 from "@/public/site_img/кино-иконка-1.png";
-import cinemaIkon2 from "@/public/site_img/кино-иконка-2.png";
-import cinemaIkon3 from "@/public/site_img/кино-иконка-3.png";
-import cinemaIkon4 from "@/public/site_img/кино-иконка-4.png";
-import logoMonitor2 from "@/public/site_img/лого-монитор-2.png";
-import logoMonitor1 from "@/public/site_img/лого-монитор.png";
-import text2 from "@/public/site_img/текст-2.png";
+// import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
+import news19 from '@/public/news/19.jpg';
+import news22 from '@/public/news/22.jpg';
+import news23 from '@/public/news/23.jpg';
+import news25 from '@/public/news/25.jpg';
+// import restoran1 from '@/public/site_img/1-дон-базилио.png';
+import restoran2 from '@/public/site_img/3-френч-кис.png';
+import event1 from '@/public/site_img/event1.png';
+import event2 from '@/public/site_img/event2.png';
+import event3 from '@/public/site_img/event3.png';
+import event4 from '@/public/site_img/event4.png';
+import PrezentMain from '@/public/site_img/PrezentMain.jpg';
+// import children1 from '@/public/site_img/игратория.png';
+import cinemaIkon1 from '@/public/site_img/кино-иконка-1.png';
+import cinemaIkon2 from '@/public/site_img/кино-иконка-2.png';
+import cinemaIkon3 from '@/public/site_img/кино-иконка-3.png';
+import cinemaIkon4 from '@/public/site_img/кино-иконка-4.png';
+import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
+import logoMonitor1 from '@/public/site_img/лого-монитор.png';
+import text2 from '@/public/site_img/текст-2.png';
 // import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
-import children6 from "@/public/butiks/children/ChildrenInCity/logo.png";
-import { FaBus, FaPhoneAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import { RiTimeFill } from "react-icons/ri";
+// import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
+import { FaBus, FaPhoneAlt } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { RiTimeFill } from 'react-icons/ri';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
-import VideoMain from "@/components/VideoMain";
-import YandexMap from "@/components/YandexMap";
+import VideoMain from '@/components/VideoMain';
+import YandexMap from '@/components/YandexMap';
 import {
   kinoAfisha,
   shopList,
   sliderCenter,
   sliderTop,
-} from "@/public/data/data";
+} from '@/public/data/data';
+import ListButiks from '@/components/ListButiks';
+import { butiks } from '@/public/data/butiks';
 
 export default function Home() {
   return (
@@ -68,9 +70,9 @@ export default function Home() {
               return (
                 <Link
                   key={id}
-                  href="https://kinomonitor.ru/vip/afisha"
+                  href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden h-full"
-                  target={"_blank"}
+                  target={'_blank'}
                 >
                   <Image
                     src={img}
@@ -111,7 +113,7 @@ export default function Home() {
               уникальные Event-мероприятия для Вас и Ваших близких!
             </p>
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={"/site_img/city_FHD_1.mp4"} />
+              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
             </div>
           </div>
 
@@ -216,7 +218,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/25.jpg")]'></div>
@@ -230,7 +232,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/23.jpg")]'></div>
@@ -244,7 +246,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/22.jpg")]'></div>
@@ -258,7 +260,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/19.jpg")]'></div>
@@ -303,7 +305,7 @@ export default function Home() {
               <Link
                 href="https://kinomonitor.ru/vip/afisha"
                 className="h-full flex items-center justify-center"
-                target={"_blank"}
+                target={'_blank'}
               >
                 <Image
                   src={logoMonitor2}
@@ -433,8 +435,20 @@ export default function Home() {
       <section className="mb-20 sm:mb-28" id="restoran">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-14 sm:mt-20">РЕСТОРАНЫ</h2>
-          <div className="flex justify-center items-start gap-10 sm:gap-48 my-10 sm:my-24">
+          {/* <div className="w-full flex justify-between items-center gap-10 sm:gap-48 my-10 sm:my-24"> */}
+          <ListButiks
+            butiks={butiks}
+            category={'kafeAndRestoran'}
+            butiksUrl={'kafe'}
+          >
             <ImageLink
+              href="https://frenchkiss.ru/stores/"
+              src={restoran2}
+              target="_blank"
+              alt="French kiss"
+            />
+          </ListButiks>
+          {/* <ImageLink
               href="http://donbazilio.ru/"
               src={restoran1}
               alt="Дон Базилио"
@@ -448,8 +462,8 @@ export default function Home() {
               href="/butiks/kafe/39"
               src={restoran3}
               alt="Любовь и Трюфель"
-            />
-          </div>
+            /> */}
+          {/* </div> */}
         </div>
       </section>
 
@@ -458,26 +472,31 @@ export default function Home() {
       <section className="mb-20 sm:mb-28" id="detyam">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
-          <div className="flex justify-between items-center my-4 sm:my-24 gap-2 sm:gap-24 flex-nowrap">
+          <ListButiks
+            butiks={butiks}
+            category={'children'}
+            butiksUrl={'children'}
+          />
+          {/* <div className="flex justify-between items-center my-4 sm:my-24 gap-2 sm:gap-24 flex-nowrap">
             <ImageLink href="/butiks/game/33" src={children1} alt="Игратория" />
-            {/* <ImageLink
+            <ImageLink
               href="/butiks/game/59"
               src={children5}
               alt="Книжный лабиринт"
               className=""
-            /> */}
+            />
             <ImageLink
               href="/butiks/children/50"
               src={children6}
               alt="Дети в СИТИ"
             />
-            {/* <Link
+            <Link
               href="/butiks/children/43"
               className="h-fill text-3xl sm:text-3xl lg:text-5xl text-center ease-in duration-200 hover:scale-105 mt-8 mb-12 sm:mt-0 sm:mb-0"
             >
               Дом детской моды
-            </Link> */}
-          </div>
+            </Link>
+          </div> */}
           <Image
             src={PrezentMain}
             alt="ПОДАРКИ И ТОВАРЫ ДЛЯ ДЕТЕЙ"

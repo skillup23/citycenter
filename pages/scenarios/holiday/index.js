@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout';
 import React from 'react';
-import schema from '@/public/scenarios/Holyday.png';
-import schemaMob from '@/public/scenarios/Holyday_mob.png';
+import schema from '@/public/scenarios/Holyday2025.png';
+import schemaMob from '@/public/scenarios/Holyday_mob2025.png';
 import Scenario from '@/components/Scenario';
 
 function Holyday() {

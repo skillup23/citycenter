@@ -92,21 +92,31 @@ const sliderCenter = [
   },
   {
     id: 2,
+    src: '/slide_main/kino-banner-1.jpg',
+    alt: 'Кинобаннер 1',
+  },
+  {
+    id: 3,
+    src: '/slide_main/kino-banner-2.jpg',
+    alt: 'Кинобаннер 1',
+  },
+  {
+    id: 4,
     src: '/slide_main/kino-banner-7.jpg',
     alt: 'Кинобаннер 2',
   },
   {
-    id: 3,
+    id: 5,
     src: '/slide_main/kino-banner-8.jpg',
     alt: 'Кинобаннер 3',
   },
   {
-    id: 4,
+    id: 6,
     src: '/slide_main/kino-banner-9.jpg',
     alt: 'Кинобаннер 4',
   },
   {
-    id: 5,
+    id: 7,
     src: '/slide_main/kino-banner-10.jpg',
     alt: 'Кинобаннер 5',
   },
