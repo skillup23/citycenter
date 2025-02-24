@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout';
 import React from 'react';
-import schema from '@/public/scenarios/Romantik.png';
-import schemaMob from '@/public/scenarios/Romantik_mob.png';
+import schema from '@/public/scenarios/Romantik2025.png';
+import schemaMob from '@/public/scenarios/Romantik_mob2025.png';
 import Scenario from '@/components/Scenario';
 
 function Metting() {

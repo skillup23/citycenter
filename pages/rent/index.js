@@ -25,17 +25,17 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-2-floor.jpg',
+      src: '/rent_img/1-3-floor.jpg',
       alt: '1 этаж',
     },
     {
       id: 2,
-      src: '/rent_img/2-1-floor.jpg',
+      src: '/rent_img/2-3-floor.jpg',
       alt: '2 этаж',
     },
     {
       id: 3,
-      src: '/rent_img/3-1-floor.jpg',
+      src: '/rent_img/3-3-floor.jpg',
       alt: '3 этаж',
     },
   ];
@@ -93,7 +93,7 @@ function Rent() {
 
           <div className="flex flex-wrap gap-6 justify-center">
             <Link
-              href="/rent_img/prezentRent.pdf"
+              href="/docs/Презентация СИТИЦЕНТР 24.02.2025.pdf"
               target="_blank"
               className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
             >

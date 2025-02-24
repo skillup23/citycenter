@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import ListButiks from '@/components/ListButiks';
 
-//получаем данные буков с локальной api
+//получаем данные бутиков с локальной api
 export const getServerSideProps = async () => {
   try {
     const response = await fetch(`${process.env.API_HOST}/butiks`);
