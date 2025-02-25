@@ -92,12 +92,12 @@ const sliderCenter = [
   },
   {
     id: 2,
-    src: '/slide_main/kino-banner-1.jpg',
+    src: '/slide_main/kino-banner-1n.jpg',
     alt: 'Кинобаннер 1',
   },
   {
     id: 3,
-    src: '/slide_main/kino-banner-2.jpg',
+    src: '/slide_main/kino-banner-2n.jpg',
     alt: 'Кинобаннер 1',
   },
   {

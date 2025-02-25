@@ -135,7 +135,7 @@ function Events() {
       </section>
       <section className="my-20">
         <div className="lg:container mx-auto flex md:gap-6 flex-wrap md:flex-nowrap">
-          <div className="flex flex-col gap-4 sm:gap-6 w-full sm:w-1/2 md:w-1/3 px-3 md:px-0">
+          <div className="flex flex-col items-center gap-4 sm:gap-6 w-full sm:w-1/2 md:w-1/3 px-3 md:px-0">
             <Link href="https://geo.pro/reportage/509063-master-klass-i-chapurin-tendentsii-mody-2019/?sphrase_id=394720">
               <Image
                 src={event1}
@@ -145,20 +145,21 @@ function Events() {
                 className="w-full"
               />
             </Link>
-            <h4 className="text-2xl">
+            <h4 className="text-xl md:text-2xl">
               МАСТЕР-КЛАСС I.CHAPURIN «ТЕНДЕНЦИИ МОДЫ 2019»
             </h4>
             <Link href="https://geo.pro/reportage/509063-master-klass-i-chapurin-tendentsii-mody-2019/?sphrase_id=394720">
               <Image
                 src={eventText}
                 alt="Событие 1"
-                width={300}
+                width={250}
                 sizes="100%"
-                className="hover:scale-95 ease-in duration-200"
+                className="mx-auto hover:scale-95 ease-in duration-200"
               />
             </Link>
           </div>
-          <div className="flex flex-col gap-4 sm:gap-6 w-full sm:w-1/2 md:w-1/3 px-3 md:px-0 mt-14 sm:mt-0">
+
+          <div className="flex flex-col items-center gap-4 sm:gap-6 w-full sm:w-1/2 md:w-1/3 px-3 md:px-0 mt-14 sm:mt-0">
             <Link href="https://geo.pro/reportage/523593-fashion-cinema-de-luxe/?sphrase_id=394720">
               <Image
                 src={event2}
@@ -168,20 +169,19 @@ function Events() {
                 className="w-full"
               />
             </Link>
-            <div className="flex flex-col gap-4 sm:gap-6 justify-between h-full">
-              <h4 className="text-2xl">#WEEKEND С НАДЕЖДОЙ МЕЙХЕР</h4>
-              <Link href="https://geo.pro/reportage/523593-fashion-cinema-de-luxe/?sphrase_id=394720">
-                <Image
-                  src={eventText}
-                  alt="Событие 1"
-                  width={300}
-                  sizes="100%"
-                  className="hover:scale-95 ease-in duration-200 justify-self-end"
-                />
-              </Link>
-            </div>
+            <h4 className="text-xl md:text-2xl">#WEEKEND С НАДЕЖДОЙ МЕЙХЕР</h4>
+            <Link href="https://geo.pro/reportage/523593-fashion-cinema-de-luxe/?sphrase_id=394720">
+              <Image
+                src={eventText}
+                alt="Событие 1"
+                width={250}
+                sizes="100%"
+                className="hover:scale-95 ease-in duration-200 justify-self-end"
+              />
+            </Link>
           </div>
-          <div className="flex flex-col gap-4 sm:gap-6 w-full sm:w-1/2 md:w-1/3 px-3 md:px-0 mt-14 md:mt-0">
+
+          <div className="flex flex-col items-center gap-4 sm:gap-6 w-full sm:w-1/2 md:w-1/3 px-3 md:px-0 mt-14 md:mt-0">
             <Link href="https://geo.pro/reportage/522435-fashion-cinema-de-luxe/?sphrase_id=394720">
               <Image
                 src={event3}
@@ -191,14 +191,14 @@ function Events() {
                 className="w-full"
               />
             </Link>
-            <h4 className="text-2xl">
+            <h4 className="text-xl md:text-2xl">
               МАСТЕР-КЛАСС I.CHAPURIN «ТЕНДЕНЦИИ МОДЫ 2019»
             </h4>
             <Link href="https://geo.pro/reportage/522435-fashion-cinema-de-luxe/?sphrase_id=394720">
               <Image
                 src={eventText}
                 alt="Событие 1"
-                width={300}
+                width={250}
                 sizes="100%"
                 className="hover:scale-95 ease-in duration-200"
               />
