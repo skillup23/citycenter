@@ -369,82 +369,12 @@ export const butiks = [
       },
     ],
     description1:
-      'Сегодня открылся монобрендовый бутик Karl Lagerfeld. В магазине представлена женская и мужская одежда, а также нижнее белье, обувь и аксессуары.',
+      'Сегодня открылся монобрендовый бутик Karl Lagerfeld. В магазине представлена женская и мужская одежда, а также нижнее белье, обувь и аксессуары.',
     floor: '2 этаж',
     tel: '+7 861 298 08 46',
     telUrl: '88612980846',
     instagram: '',
   },
-  // {
-  //   id: id++,
-  //   category: "manClothing",
-  //   url: "Angelo Nardelli",
-  //   logo: "/butiks/menClothing/AngeloNardelli/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/menClothing/AngeloNardelli/1n.jpg",
-  //       alt: "Angelo Nardelli",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/menClothing/AngeloNardelli/2n.jpg",
-  //       alt: "Angelo Nardelli",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/menClothing/AngeloNardelli/3n.jpg",
-  //       alt: "Angelo Nardelli",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/menClothing/AngeloNardelli/4n.jpg",
-  //       alt: "Angelo Nardelli",
-  //     },
-  //   ],
-  //   description1:
-  //     "ANGELO NARDELLI – итальянский бренд, специализирующийся на производстве мужских костюмов, брюк, пиджаков, сорочек и аксессуаров. Отличительная особенность компании — безукоризненное следование традициям пошива одежды в сочетании с современной обработкой тканей, которая позволяет сделать изделия еще более долговечными.",
-  //   description2:
-  //     "Стильная классика ANGELO NARDELLI и одежда «на каждый день» отлично подойдут для активных, целеустремленных и уверенных в себе мужчин с безупречным вкусом.",
-  //   floor: "2 этаж",
-  //   tel: "+7 988 369 68 88",
-  //   telUrl: "89883696888",
-  //   instagram: "angelonardelli51",
-  // },
-  // {
-  //   id: id++,
-  //   category: "manClothing",
-  //   url: "Van Laack",
-  //   logo: "/butiks/menClothing/vanLaack/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/menClothing/vanLaack/1n.jpg",
-  //       alt: "Van Laack",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/menClothing/vanLaack/2n.jpg",
-  //       alt: "Van Laack",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/menClothing/vanLaack/3n.jpg",
-  //       alt: "Van Laack",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/menClothing/vanLaack/4n.jpg",
-  //       alt: "Van Laack",
-  //     },
-  //   ],
-  //   description1:
-  //     "Немецкий бренд Van Laack, выпускающий деловую и элегантную одежду класса люкс. Рубашки, брюки, платья, сорочки, блузки от Van Laack — это проявление идеального вкуса!",
-  //   floor: "2 этаж",
-  //   tel: "+7 861 213 47 16",
-  //   telUrl: "88612134716",
-  //   instagram: "vanlaack_krd",
-  // },
   {
     id: id++,
     category: 'manClothing underwear',
@@ -486,30 +416,6 @@ export const butiks = [
     telUrl: '88612134723',
     instagram: 'xo_man_ru',
   },
-  // {
-  //   id: id++,
-  //   category: "manClothing",
-  //   url: "Lab",
-  //   logo: "/butiks/menClothing/Lab/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/menClothing/Lab/1.jpg",
-  //       alt: "Lab",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/menClothing/Lab/2.jpg",
-  //       alt: "Lab",
-  //     },
-  //   ],
-  //   description1:
-  //     "LAB Pal Zileri — бутик брендовой итальянской мужской одежды, в котором представлены такие премиальные марки, как LAB Pal Zileri и Navigare.",
-  //   floor: "2 этаж",
-  //   tel: "+7 953 090 64 19",
-  //   telUrl: "89530906419",
-  //   instagram: "lab_pal_zileri",
-  // },
   {
     id: id++,
     category: 'manClothing',
@@ -544,30 +450,6 @@ export const butiks = [
     telUrl: '88612051436',
     instagram: 'richardhampton_krd',
   },
-  // {
-  //   id: id++,
-  //   category: 'manClothing',
-  //   url: 'Excelsior',
-  //   logo: '/butiks/menClothing/Excelsior/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/menClothing/Excelsior/1.jpg',
-  //       alt: 'Excelsior',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/menClothing/Excelsior/2.jpg',
-  //       alt: 'Excelsior',
-  //     },
-  //   ],
-  //   description1:
-  //     'Бутик EXCELSIOR является самым крупным ритейлером люксовых брендов на Юге России. На сегодняшний день, компания EXCELSIOR FASHION GROUP  включает в себя 11 бутиков, в которых представлено более 150 ведущих мировых брендов, такие как: ALEXANDER MCQUEEN, BURBERRY, CELINE, DOLCE & GABBANA, FENDI, PRADA, RED VALENTINO, STEFANO RICCI, SANTONI, VALENTINO.',
-  //   floor: '2 этаж',
-  //   tel: '+7 861 015 45 97',
-  //   telUrl: '88610154597',
-  //   instagram: 'excelsior_city',
-  // },
   {
     id: id++,
     category: 'underwear',
@@ -775,42 +657,6 @@ export const butiks = [
     telUrl: '89892902504',
     instagram: 'zolotoylarets',
   },
-  // {
-  //   id: id++,
-  //   category: "clocks interior giftsAndBook",
-  //   url: "DecorBurgua",
-  //   logo: "/butiks/clocks/DecorBurgua/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/clocks/DecorBurgua/1n.jpg",
-  //       alt: "DecorBurgua",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/clocks/DecorBurgua/2n.jpg",
-  //       alt: "DecorBurgua",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/clocks/DecorBurgua/3n.jpg",
-  //       alt: "DecorBurgua",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/clocks/DecorBurgua/4n.jpg",
-  //       alt: "DecorBurgua",
-  //     },
-  //   ],
-  //   description1:
-  //     "В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.",
-  //   description2:
-  //     "Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.",
-  //   floor: "1 этаж",
-  //   tel: "+7 918 144 23 07",
-  //   telUrl: "89181442307",
-  //   instagram: "decor_burgua",
-  // },
   {
     id: id++,
     category: 'clocks giftsAndBook',
@@ -996,42 +842,6 @@ export const butiks = [
     telUrl: '88612314786',
     instagram: 'fabi_krd',
   },
-  // {
-  //   id: id++,
-  //   category: "shoesAndBags glasses",
-  //   url: "PanChemodan",
-  //   logo: "/butiks/clocks/PanChemodan/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/clocks/PanChemodan/1n.jpg",
-  //       alt: "PanChemodan",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/clocks/PanChemodan/2n.jpg",
-  //       alt: "PanChemodan",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/clocks/PanChemodan/3n.jpg",
-  //       alt: "PanChemodan",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/clocks/PanChemodan/4n.jpg",
-  //       alt: "PanChemodan",
-  //     },
-  //   ],
-  //   description1:
-  //     "Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.",
-  //   description2:
-  //     "Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.",
-  //   floor: "2 этаж",
-  //   tel: "+7 495 280 16 40",
-  //   telUrl: "84952801640",
-  //   instagram: "panchemodan",
-  // },
   {
     id: id++,
     category: 'cosmetics',
@@ -1167,39 +977,6 @@ export const butiks = [
     telUrl: '89298501462',
     instagram: 'dream_catchers_rus',
   },
-  // {
-  //   id: id++,
-  //   category: "interior",
-  //   url: "Raffinat",
-  //   logo: "/butiks/interior/Raffinat/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/interior/Raffinat/1.jpg",
-  //       alt: "Raffinat",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/interior/Raffinat/2.jpg",
-  //       alt: "Raffinat",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/interior/Raffinat/3.jpg",
-  //       alt: "Raffinat",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/interior/Raffinat/4.jpg",
-  //       alt: "Raffinat",
-  //     },
-  //   ],
-  //   description1: `Бутик “RAFFINAT” существует на рынке уже 12 лет, чтобы каждый человек смог окружить себя изысканными предметами интерьера Европейского качества. В бутике представлены такие бренды, как: Yves Delorme Paris, Cote Noire, Fansy, Rudolf Kampf, Garnier-Thiebaut.`,
-  //   floor: "3 этаж",
-  //   tel: "+7 964 901 92 21",
-  //   telUrl: "89649019221",
-  //   instagram: "raffinatcity",
-  // },
   {
     id: id++,
     category: 'interior giftsAndBook',
@@ -1397,45 +1174,6 @@ export const butiks = [
     tel: '',
     telUrl: '',
   },
-  // {
-  //   id: id++,
-  //   category: "children",
-  //   url: "HouseChildrenModa",
-  //   logo: "/butiks/children/HouseChildrenModa/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/children/HouseChildrenModa/1.jpg",
-  //       alt: "HouseChildrenModa",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/children/HouseChildrenModa/2.jpg",
-  //       alt: "HouseChildrenModa",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/children/HouseChildrenModa/3.jpg",
-  //       alt: "HouseChildrenModa",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/children/HouseChildrenModa/4.jpg",
-  //       alt: "HouseChildrenModa",
-  //     },
-  //     {
-  //       id: 5,
-  //       src: "/butiks/children/HouseChildrenModa/5.jpg",
-  //       alt: "HouseChildrenModa",
-  //     },
-  //   ],
-  //   description1:
-  //     "В фирменном магазине «Дом детской моды» представлена одежда и аксессуары для мальчиков и девочек от 0 до 14. Вся одежда произведена из натуральных тканей для того, чтобы дети чувствовали себя комфортно. Бутик представляет детскую одежду премиальных брендов: Burberry, Dior, Dolce & Gabbana, Sonia Rykel и других известных марок.",
-  //   floor: "3 этаж",
-  //   tel: "+7 861 213 47 57",
-  //   telUrl: "88612134757",
-  //   instagram: "dom_detskoi_modi",
-  // },
   {
     id: id++,
     category: 'gameCategory',
@@ -1739,72 +1477,6 @@ export const butiks = [
     telUrl: '',
     instagram: '',
   },
-  // {
-  //   id: id++,
-  //   category: 'womenClothing',
-  //   url: 'KubanDesignStore',
-  //   logo: '/butiks/womenClothing/KubanDesignStore/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/womenClothing/KubanDesignStore/1n.jpg',
-  //       alt: 'KubanDesignStore',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/womenClothing/KubanDesignStore/2n.jpg',
-  //       alt: 'KubanDesignStore',
-  //     },
-  //     {
-  //       id: 3,
-  //       src: '/butiks/womenClothing/KubanDesignStore/3n.jpg',
-  //       alt: 'KubanDesignStore',
-  //     },
-  //     {
-  //       id: 4,
-  //       src: '/butiks/womenClothing/KubanDesignStore/4n.jpg',
-  //       alt: 'KubanDesignStore',
-  //     },
-  //     {
-  //       id: 5,
-  //       src: '/butiks/womenClothing/KubanDesignStore/5n.jpg',
-  //       alt: 'KubanDesignStore',
-  //     },
-  //   ],
-  //   description1: ` `,
-  //   floor: '2 этаж',
-  //   tel: '',
-  //   telUrl: '',
-  //   instagram: '',
-  // },
-  // {
-  //   id: id++,
-  //   category: "womenClothing",
-  //   url: "SOLine",
-  //   logo: "/butiks/womenClothing/SOLine/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/womenClothing/SOLine/1n.jpg",
-  //       alt: "SOLine",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/womenClothing/SOLine/2n.jpg",
-  //       alt: "SOLine",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/womenClothing/SOLine/3n.jpg",
-  //       alt: "SOLine",
-  //     },
-  //   ],
-  //   description1: ` `,
-  //   floor: "2 этаж",
-  //   tel: "",
-  //   telUrl: "",
-  //   instagram: "",
-  // },
   {
     id: id++,
     category: 'children',
@@ -1969,47 +1641,6 @@ export const butiks = [
     telUrl: '88612134756',
     instagram: 'optrika',
   },
-  // {
-  //   id: id++,
-  //   category: 'giftsAndBook',
-  //   url: 'BookLab',
-  //   logo: '/butiks/children/BookLab/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/children/BookLab/1n.jpg',
-  //       alt: 'BookLab',
-  //     },
-  //     {
-  //       id: 2,
-  //       src: '/butiks/children/BookLab/2n.jpg',
-  //       alt: 'BookLab',
-  //     },
-  //     {
-  //       id: 3,
-  //       src: '/butiks/children/BookLab/3n.jpg',
-  //       alt: 'BookLab',
-  //     },
-  //     {
-  //       id: 4,
-  //       src: '/butiks/children/BookLab/4n.jpg',
-  //       alt: 'BookLab',
-  //     },
-  //     {
-  //       id: 5,
-  //       src: '/butiks/children/BookLab/5n.jpg',
-  //       alt: 'BookLab',
-  //     },
-  //   ],
-  //   description1:
-  //     '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
-  //   description2:
-  //     'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
-  //   floor: '3 этаж',
-  //   tel: '+7 861 299 71 83',
-  //   telUrl: '88612134741',
-  //   instagram: 'knizhnylabirintcity',
-  // },
   {
     id: id++,
     category: 'womenClothing',
@@ -2147,6 +1778,30 @@ export const butiks = [
   //   instagram: '',
   // },
   // {
+  //   id: id++,
+  //   category: 'manClothing',
+  //   url: 'Excelsior',
+  //   logo: '/butiks/menClothing/Excelsior/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/menClothing/Excelsior/1.jpg',
+  //       alt: 'Excelsior',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/menClothing/Excelsior/2.jpg',
+  //       alt: 'Excelsior',
+  //     },
+  //   ],
+  //   description1:
+  //     'Бутик EXCELSIOR является самым крупным ритейлером люксовых брендов на Юге России. На сегодняшний день, компания EXCELSIOR FASHION GROUP  включает в себя 11 бутиков, в которых представлено более 150 ведущих мировых брендов, такие как: ALEXANDER MCQUEEN, BURBERRY, CELINE, DOLCE & GABBANA, FENDI, PRADA, RED VALENTINO, STEFANO RICCI, SANTONI, VALENTINO.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 015 45 97',
+  //   telUrl: '88610154597',
+  //   instagram: 'excelsior_city',
+  // },
+  // {
   //   id: 3,
   //   category: 'womenClothing',
   //   url: 'Modus-fashion',
@@ -2256,6 +1911,39 @@ export const butiks = [
   //   instagram: 'cosmostore.krd',
   // },
   // {
+  //   id: id++,
+  //   category: "interior",
+  //   url: "Raffinat",
+  //   logo: "/butiks/interior/Raffinat/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/interior/Raffinat/1.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/interior/Raffinat/2.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/interior/Raffinat/3.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/interior/Raffinat/4.jpg",
+  //       alt: "Raffinat",
+  //     },
+  //   ],
+  //   description1: `Бутик “RAFFINAT” существует на рынке уже 12 лет, чтобы каждый человек смог окружить себя изысканными предметами интерьера Европейского качества. В бутике представлены такие бренды, как: Yves Delorme Paris, Cote Noire, Fansy, Rudolf Kampf, Garnier-Thiebaut.`,
+  //   floor: "3 этаж",
+  //   tel: "+7 964 901 92 21",
+  //   telUrl: "89649019221",
+  //   instagram: "raffinatcity",
+  // },
+  // {
   //   id: 16,
   //   category: 'manClothing',
   //   url: 'Cerruti 1881',
@@ -2334,6 +2022,72 @@ export const butiks = [
   //   tel: '+7 861 213 47 25',
   //   telUrl: '88612134725',
   //   instagram: 'paulandshark',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'KubanDesignStore',
+  //   logo: '/butiks/womenClothing/KubanDesignStore/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/KubanDesignStore/1n.jpg',
+  //       alt: 'KubanDesignStore',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/KubanDesignStore/2n.jpg',
+  //       alt: 'KubanDesignStore',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/KubanDesignStore/3n.jpg',
+  //       alt: 'KubanDesignStore',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/KubanDesignStore/4n.jpg',
+  //       alt: 'KubanDesignStore',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/KubanDesignStore/5n.jpg',
+  //       alt: 'KubanDesignStore',
+  //     },
+  //   ],
+  //   description1: ` `,
+  //   floor: '2 этаж',
+  //   tel: '',
+  //   telUrl: '',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: "womenClothing",
+  //   url: "SOLine",
+  //   logo: "/butiks/womenClothing/SOLine/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/womenClothing/SOLine/1n.jpg",
+  //       alt: "SOLine",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/womenClothing/SOLine/2n.jpg",
+  //       alt: "SOLine",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/womenClothing/SOLine/3n.jpg",
+  //       alt: "SOLine",
+  //     },
+  //   ],
+  //   description1: ` `,
+  //   floor: "2 этаж",
+  //   tel: "",
+  //   telUrl: "",
+  //   instagram: "",
   // },
   // {
   //   id: 21,
@@ -2428,6 +2182,42 @@ export const butiks = [
   //   tel: '+7 861 213 47 92',
   //   telUrl: '88612134792',
   //   instagram: 'replay.mf',
+  // },
+  // {
+  //   id: id++,
+  //   category: "shoesAndBags glasses",
+  //   url: "PanChemodan",
+  //   logo: "/butiks/clocks/PanChemodan/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/clocks/PanChemodan/1n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/clocks/PanChemodan/2n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/clocks/PanChemodan/3n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/clocks/PanChemodan/4n.jpg",
+  //       alt: "PanChemodan",
+  //     },
+  //   ],
+  //   description1:
+  //     "Сеть современных бутиков «Пан Чемодан» специализируется на аксессуарах для женщин и мужчин. В ассортименте представлены чемоданы, дамские и мужские сумки, бумажники, ремни, зонты и перчатки известных мировых брендов.",
+  //   description2:
+  //     "Торговые марки, представленные в бутиках, тщательно выбираются среди известных европейских дизайнеров, чтобы каждый нашел себе что-то по вкусу.",
+  //   floor: "2 этаж",
+  //   tel: "+7 495 280 16 40",
+  //   telUrl: "84952801640",
+  //   instagram: "panchemodan",
   // },
   // {
   //   id: 24,
@@ -2543,6 +2333,47 @@ export const butiks = [
   //     {
   //       id: 2,
   //       src: '/butiks/children/BookLab/2.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //   ],
+  //   description1:
+  //     '“КНИЖНЫЙ ЛАБИРИНТ” — сеть книжных магазинов, предлагающих широкий ассортимент книг любой тематики, канцтоваров и товаров детского творчества. ',
+  //   description2:
+  //     'В магазине  регулярно проводятся различные мероприятия и акции, благодаря которым посетители могут познакомиться с известными авторами, приобрести книжные новинки и просто пообщаться друг с другом.',
+  //   floor: '3 этаж',
+  //   tel: '+7 861 299 71 83',
+  //   telUrl: '88612134741',
+  //   instagram: 'knizhnylabirintcity',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'giftsAndBook',
+  //   url: 'BookLab',
+  //   logo: '/butiks/children/BookLab/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/children/BookLab/1n.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/children/BookLab/2n.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/children/BookLab/3n.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/children/BookLab/4n.jpg',
+  //       alt: 'BookLab',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/children/BookLab/5n.jpg',
   //       alt: 'BookLab',
   //     },
   //   ],
@@ -3052,6 +2883,81 @@ export const butiks = [
   //   instagram: 'igratoria',
   // },
   // {
+  //   id: id++,
+  //   category: "children",
+  //   url: "HouseChildrenModa",
+  //   logo: "/butiks/children/HouseChildrenModa/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/children/HouseChildrenModa/1.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/children/HouseChildrenModa/2.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/children/HouseChildrenModa/3.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/children/HouseChildrenModa/4.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //     {
+  //       id: 5,
+  //       src: "/butiks/children/HouseChildrenModa/5.jpg",
+  //       alt: "HouseChildrenModa",
+  //     },
+  //   ],
+  //   description1:
+  //     "В фирменном магазине «Дом детской моды» представлена одежда и аксессуары для мальчиков и девочек от 0 до 14. Вся одежда произведена из натуральных тканей для того, чтобы дети чувствовали себя комфортно. Бутик представляет детскую одежду премиальных брендов: Burberry, Dior, Dolce & Gabbana, Sonia Rykel и других известных марок.",
+  //   floor: "3 этаж",
+  //   tel: "+7 861 213 47 57",
+  //   telUrl: "88612134757",
+  //   instagram: "dom_detskoi_modi",
+  // },
+  // {
+  //   id: id++,
+  //   category: "clocks interior giftsAndBook",
+  //   url: "DecorBurgua",
+  //   logo: "/butiks/clocks/DecorBurgua/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/clocks/DecorBurgua/1n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/clocks/DecorBurgua/2n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/clocks/DecorBurgua/3n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/clocks/DecorBurgua/4n.jpg",
+  //       alt: "DecorBurgua",
+  //     },
+  //   ],
+  //   description1:
+  //     "В салоне «ДЕКОР БУРЖУА» представлены такие бренды, как элитный испанский фарфор Lladro, итальянский фарфор Richard Ginori, ювелирные украшения Gucci, Pasquale Bruni, Ponte Veccio, Mario Panelli, La Nordica, JV, Lisa Colpo, Garavelli, Piero Milano, предметы интерьера и сервировки 4 Nero, Mario Cioni, Faberge.",
+  //   description2:
+  //     "Элитный фарфор, хрусталь ручной работы — символ достатка и хорошего вкуса, поэтому эти предметы достойны украшать самые дорогие апартаменты.",
+  //   floor: "1 этаж",
+  //   tel: "+7 918 144 23 07",
+  //   telUrl: "89181442307",
+  //   instagram: "decor_burgua",
+  // },
+  // {
   //   id: 43,
   //   category: 'glasses',
   //   url: 'Mac',
@@ -3099,6 +3005,30 @@ export const butiks = [
   //   instagram: 'replay.mf',
   // },
   // {
+  //   id: id++,
+  //   category: "manClothing",
+  //   url: "Lab",
+  //   logo: "/butiks/menClothing/Lab/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/menClothing/Lab/1.jpg",
+  //       alt: "Lab",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/menClothing/Lab/2.jpg",
+  //       alt: "Lab",
+  //     },
+  //   ],
+  //   description1:
+  //     "LAB Pal Zileri — бутик брендовой итальянской мужской одежды, в котором представлены такие премиальные марки, как LAB Pal Zileri и Navigare.",
+  //   floor: "2 этаж",
+  //   tel: "+7 953 090 64 19",
+  //   telUrl: "89530906419",
+  //   instagram: "lab_pal_zileri",
+  // },
+  // {
   //   id: 8,
   //   category: 'womenClothing manClothing',
   //   url: 'Energie',
@@ -3141,5 +3071,75 @@ export const butiks = [
   //   tel: '+7 967 30 50 209',
   //   telUrl: '89673050209',
   //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: "manClothing",
+  //   url: "Angelo Nardelli",
+  //   logo: "/butiks/menClothing/AngeloNardelli/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/menClothing/AngeloNardelli/1n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/menClothing/AngeloNardelli/2n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/menClothing/AngeloNardelli/3n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/menClothing/AngeloNardelli/4n.jpg",
+  //       alt: "Angelo Nardelli",
+  //     },
+  //   ],
+  //   description1:
+  //     "ANGELO NARDELLI – итальянский бренд, специализирующийся на производстве мужских костюмов, брюк, пиджаков, сорочек и аксессуаров. Отличительная особенность компании — безукоризненное следование традициям пошива одежды в сочетании с современной обработкой тканей, которая позволяет сделать изделия еще более долговечными.",
+  //   description2:
+  //     "Стильная классика ANGELO NARDELLI и одежда «на каждый день» отлично подойдут для активных, целеустремленных и уверенных в себе мужчин с безупречным вкусом.",
+  //   floor: "2 этаж",
+  //   tel: "+7 988 369 68 88",
+  //   telUrl: "89883696888",
+  //   instagram: "angelonardelli51",
+  // },
+  // {
+  //   id: id++,
+  //   category: "manClothing",
+  //   url: "Van Laack",
+  //   logo: "/butiks/menClothing/vanLaack/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/menClothing/vanLaack/1n.jpg",
+  //       alt: "Van Laack",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/menClothing/vanLaack/2n.jpg",
+  //       alt: "Van Laack",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/menClothing/vanLaack/3n.jpg",
+  //       alt: "Van Laack",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/menClothing/vanLaack/4n.jpg",
+  //       alt: "Van Laack",
+  //     },
+  //   ],
+  //   description1:
+  //     "Немецкий бренд Van Laack, выпускающий деловую и элегантную одежду класса люкс. Рубашки, брюки, платья, сорочки, блузки от Van Laack — это проявление идеального вкуса!",
+  //   floor: "2 этаж",
+  //   tel: "+7 861 213 47 16",
+  //   telUrl: "88612134716",
+  //   instagram: "vanlaack_krd",
   // },
 ];
