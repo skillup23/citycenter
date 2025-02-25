@@ -1182,7 +1182,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/gameCategory/cinema/logo.png',
+        src: '/butiks/gameCategory/cinema/1.jpg',
+        alt: 'Cinema',
+      },
+      {
+        id: 2,
+        src: '/butiks/gameCategory/cinema/2.jpg',
+        alt: 'Cinema',
+      },
+      {
+        id: 3,
+        src: '/butiks/gameCategory/cinema/3.jpg',
+        alt: 'Cinema',
+      },
+      {
+        id: 4,
+        src: '/butiks/gameCategory/cinema/4.jpg',
         alt: 'Cinema',
       },
     ],
