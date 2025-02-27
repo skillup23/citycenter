@@ -435,11 +435,11 @@ export default function Home() {
       <section className="mb-20 sm:mb-28" id="restoran">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-14 sm:mt-20">РЕСТОРАНЫ</h2>
-          {/* <div className="w-full flex justify-between items-center gap-10 sm:gap-48 my-10 sm:my-24"> */}
           <ListButiks
             butiks={butiks}
             category={"kafeAndRestoran"}
             butiksUrl={"kafe"}
+            noBrend={true}
           >
             <ImageLink
               href="https://frenchkiss.ru/stores/"
@@ -448,22 +448,6 @@ export default function Home() {
               alt="French kiss"
             />
           </ListButiks>
-          {/* <ImageLink
-              href="http://donbazilio.ru/"
-              src={restoran1}
-              alt="Дон Базилио"
-            />
-            <ImageLink
-              href="https://frenchkiss.ru/stores/"
-              src={restoran2}
-              alt="French kiss"
-            />
-            <ImageLink
-              href="/butiks/kafe/39"
-              src={restoran3}
-              alt="Любовь и Трюфель"
-            /> */}
-          {/* </div> */}
         </div>
       </section>
 
@@ -476,27 +460,9 @@ export default function Home() {
             butiks={butiks}
             category={"children"}
             butiksUrl={"children"}
+            noBrend={true}
           />
-          {/* <div className="flex justify-between items-center my-4 sm:my-24 gap-2 sm:gap-24 flex-nowrap">
-            <ImageLink href="/butiks/game/33" src={children1} alt="Игратория" />
-            <ImageLink
-              href="/butiks/game/59"
-              src={children5}
-              alt="Книжный лабиринт"
-              className=""
-            />
-            <ImageLink
-              href="/butiks/children/50"
-              src={children6}
-              alt="Дети в СИТИ"
-            />
-            <Link
-              href="/butiks/children/43"
-              className="h-fill text-3xl sm:text-3xl lg:text-5xl text-center ease-in duration-200 hover:scale-105 mt-8 mb-12 sm:mt-0 sm:mb-0"
-            >
-              Дом детской моды
-            </Link>
-          </div> */}
+
           <Image
             src={PrezentMain}
             alt="ПОДАРКИ И ТОВАРЫ ДЛЯ ДЕТЕЙ"
@@ -506,23 +472,6 @@ export default function Home() {
             className=""
             priority
           />
-
-          {/* <div className="flex justify-center items-center my-6 sm:my-24 gap-8 sm:gap-36">
-            <ImageLink
-              href="/butiks/children/30"
-              src={children4}
-              alt="Metro Baby"
-            />
-            <ImageLink
-              href="/butiks/game/20"
-              src={children5}
-              alt="Книжный лабиринт"
-              className="w-1/3"
-            />
-            <div className="w-1/3"></div>
-            <div className="w-1/3"></div>
-            <div className="w-1/3"></div>
-          </div> */}
         </div>
       </section>
 
