@@ -364,9 +364,17 @@ import event23 from '@/public/event_city/FirstLady/1.jpg';
 import event24 from '@/public/event_city/MysikaBalet/1.jpg';
 import event25 from '@/public/event_city/Teatr/1.jpg';
 import event26 from '@/public/event_city/HappyBith2024/1.jpg';
+import event27 from '@/public/event_city/GastroKod/1.jpg';
 
 //              Мероприятия
 const eventArray = [
+  {
+    id: id++,
+    link: 'https://geometria.ru/reportage/793928-proekt-gastro-kod-yuga/',
+    img: event27,
+    text: 'Проект Гастро Код Юга',
+    target: '_blank',
+  },
   {
     id: id++,
     link: 'https://geometria.ru/reportage/790551-den-rozhdeniya-trk-siti-tsentr-20-let/',
