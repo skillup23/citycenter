@@ -109,7 +109,7 @@ function Rent() {
               Правила для Арендаторов
             </Link>
             <Link
-              href="/docs/Регламент Работ для Арендаторов ТРК «Сити Центр». Версия от 27.05.2024.pdf"
+              href="/docs/РЕГЛАМЕНТ РАБОТ ДЛЯ АРЕНДАТОРОВ ТРК СИТИЦЕНТР. ВЕРСИЯ ОТ 25.02.2025.pdf"
               target="_blank"
               className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
             >
