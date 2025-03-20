@@ -364,7 +364,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/womenClothing/KarlLagerfeld/1.jpg',
         alt: 'KarlLagerfeld',
       },
     ],
@@ -1846,7 +1846,27 @@ export const butiks = [
     description2:
       'Золотое кружево FerriFirenze, брутальный Zankan для настоящих мужчин, шёлковые кольца CASHMERE, необычные оттенки золота от Annamaria Cammilli, крупное и яркое серебро Fraleone, это лишь небольшая часть украшений, представленных в бутике Дома Ювелирной Моды ZOTTY. Вы найдёте здесь любимый комплект на каждый день, подберёте изюминку для ювелирного гардероба и особое украшение, достойное передать Ваши чувства любимому человеку.',
     description3: '',
-    floor: '2 этаж',
+    floor: '1 этаж',
+    tel: '',
+    telUrl: '',
+    instagram: '',
+  },
+  {
+    id: id++,
+    category: 'womenClothing',
+    url: 'Fresh',
+    logo: '/butiks/womenClothing/Fresh/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImg.png',
+        alt: 'Fresh',
+      },
+    ],
+    description1: '',
+    description2: '',
+    description3: '',
+    floor: '3 этаж',
     tel: '',
     telUrl: '',
     instagram: '',

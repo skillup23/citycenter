@@ -15,7 +15,7 @@ function Layout({ children, title, description }) {
           name="description"
           content={description ? description : 'Официальный сайт'}
         />
-        <link rel="icon" href="/favicon-9.ico" />
+        <link rel="icon" href="/favicon-10.ico" />
       </Head>
       <Header />
       <main className="flex-auto">{children}</main>
