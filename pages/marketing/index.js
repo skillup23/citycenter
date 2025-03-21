@@ -1,20 +1,20 @@
-import Layout from "@/components/Layout";
-import Popup from "@/components/Popup";
-import VideoMain from "@/components/VideoMain";
-import noimg from "@/public/butiks/loaderImg.png";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { BsFilePdf } from "react-icons/bs";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import Layout from '@/components/Layout';
+import Popup from '@/components/Popup';
+import VideoMain from '@/components/VideoMain';
+import noimg from '@/public/butiks/loaderImg.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { BsFilePdf } from 'react-icons/bs';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 function Marketing() {
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
     src: noimg,
-    alt: "Описание",
+    alt: 'Описание',
   });
 
   function test(id, src, alt) {
@@ -25,23 +25,23 @@ function Marketing() {
   const foto = [
     {
       id: 1,
-      src: "/marketing_img/1-1.jpg",
-      alt: "Изображение 1",
+      src: '/marketing_img/1-2.jpg',
+      alt: 'Изображение 1',
     },
     {
       id: 2,
-      src: "/marketing_img/3-1.jpg",
-      alt: "Изображение 2",
+      src: '/marketing_img/3-2.jpg',
+      alt: 'Изображение 2',
     },
     {
       id: 3,
-      src: "/marketing_img/4-1.jpg",
-      alt: "Изображение 3",
+      src: '/marketing_img/4-2.jpg',
+      alt: 'Изображение 3',
     },
     {
       id: 4,
-      src: "/marketing_img/5-1.jpg",
-      alt: "Изображение 4",
+      src: '/marketing_img/5-2.jpg',
+      alt: 'Изображение 4',
     },
   ];
 
@@ -61,7 +61,7 @@ function Marketing() {
             <p>Приглашаем Вас стать частью ТРК «СИТИ ЦЕНТР».</p>
           </div>
           <div className="grid sm:gap-4 grid-cols-1 sm:grid-cols-3 mt-8">
-            <VideoMain videoLink={"/marketing_img/video1.mp4"} />
+            <VideoMain videoLink={'/marketing_img/video1.mp4'} />
             <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 px-0 col-span-2 mt-4 sm:mt-0 content-between">
               {foto.map(({ id, src, alt }) => (
                 <li
