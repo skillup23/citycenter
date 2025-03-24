@@ -8,8 +8,8 @@ import Link from 'next/link';
 // import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 import news27 from '@/public/news/27.jpg';
 import news29 from '@/public/news/29.jpg';
-import news25 from '@/public/news/25.jpg';
-import news26 from '@/public/news/26.jpg';
+import news28 from '@/public/news/28.jpg';
+import news30 from '@/public/news/30.jpg';
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
 import restoran2 from '@/public/site_img/3-френч-кис.png';
 import event1 from '@/public/site_img/event1.png';
@@ -210,7 +210,35 @@ export default function Home() {
           {/* <ShopListMain items={news} classItem="mt-10" /> */}
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
             <Link
-              href="/news"
+              href="/news#new1"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news30}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/30.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new2"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news28}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/28.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new3"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -224,7 +252,7 @@ export default function Home() {
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/29.jpg")]'></div>
             </Link>
             <Link
-              href="/news"
+              href="/news#new4"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -236,34 +264,6 @@ export default function Home() {
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/27.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news26}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/26.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news25}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/25.jpg")]'></div>
             </Link>
           </div>
         </div>

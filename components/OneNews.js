@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 
-function OneNews({ img1, img2, img3, img4, text }) {
+function OneNews({ id, img1, img2, img3, img4, text }) {
   return (
-    <div className="w-full flex flex-col items-start sm:flex-row gap-8 py-8 sm:py-10 flex-wrap border-b-2">
+    <div
+      className="w-full flex flex-col items-start sm:flex-row gap-8 py-8 sm:py-10 flex-wrap border-b-2 scroll-mt-20"
+      id={`new${id}`}
+    >
       {!img1 ? (
         ''
       ) : (
