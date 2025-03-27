@@ -1,4 +1,4 @@
-import ImageLink from '@/components/ImageLink';
+// import ImageLink from '@/components/ImageLink';
 import Layout from '@/components/Layout';
 import ShopListMain from '@/components/ShopListMain';
 import SliderMain from '@/components/SliderMain';
@@ -11,12 +11,12 @@ import news29 from '@/public/news/29.jpg';
 import news28 from '@/public/news/28.jpg';
 import news30 from '@/public/news/30.jpg';
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
-import restoran2 from '@/public/site_img/3-френч-кис.png';
-import event1 from '@/public/site_img/event1.png';
-import event2 from '@/public/site_img/event2.png';
-import event3 from '@/public/site_img/event3.png';
-import event4 from '@/public/site_img/event4.png';
-import PrezentMain from '@/public/site_img/PrezentMain.jpg';
+// import restoran2 from '@/public/site_img/3-френч-кис.png';
+// import event1 from '@/public/site_img/event1.png';
+// import event2 from '@/public/site_img/event2.png';
+// import event3 from '@/public/site_img/event3.png';
+// import event4 from '@/public/site_img/event4.png';
+// import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 // import children1 from '@/public/site_img/игратория.png';
 import cinemaIkon1 from '@/public/site_img/кино-иконка-1.png';
 import cinemaIkon2 from '@/public/site_img/кино-иконка-2.png';
@@ -33,16 +33,17 @@ import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
-import ListButiks from '@/components/ListButiks';
+// import ListButiks from '@/components/ListButiks';
 import VideoMain from '@/components/VideoMain';
 import YandexMap from '@/components/YandexMap';
-import { butiks } from '@/public/data/butiks';
+// import { butiks } from '@/public/data/butiks';
 import {
   kinoAfisha,
   shopList,
   sliderCenter,
   sliderTop,
 } from '@/public/data/data';
+import DocumentsPage from '@/components/DocumentsPage';
 
 export default function Home() {
   return (
@@ -86,119 +87,6 @@ export default function Home() {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/*                      СЦЕНАРИИ                         */}
-
-      <section className="">
-        <div className="lg:container mx-auto sm:pr-5">
-          {/* <h2 className="title_main text-right mt-6 sm:mt-12">СЦЕНАРИИ</h2>
-
-          <Image
-            src={text1}
-            alt="slide1"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-10/12 sm:w-3/5 h-auto block ml-auto mt-2"
-            priority
-          /> */}
-
-          <div className="flex flex-col sm:flex-row mt-12 sm:mt-20 md:mb-20 lg:mb-80 xl:mb-40 px-3 sm:px-0 gap-10">
-            <p className="w-full sm:w-[55%] text-left mr-auto text-2xl sm:text-3xl lg:text-4xl ">
-              ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
-              впечатлений и эстетики. Здесь Вас ждут магазины премиальных
-              брендов, ресторан итальянской кухни и VIP-кинотеатр, а также
-              уникальные Event-мероприятия для Вас и Ваших близких!
-            </p>
-            <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10 sm:mt-28 lg:mt-64 2xl:mt-40">
-            <Link
-              href="/scenarios/meeting"
-              className="flex flex-col items-center sm:-mt-20 lg:-mt-72 z-10"
-            >
-              <Image
-                src={event1}
-                alt="событие 1"
-                width={450}
-                className="ease-in duration-300 grayscale hover:grayscale-0"
-                priority
-              />
-              <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
-                  Проведите романтическое <br></br>свидание
-                </p>
-              </div>
-            </Link>
-
-            <Link
-              href="/scenarios/holiday"
-              className="flex flex-col items-center sm:-mx-10 sm:-mt-14 lg:-mt-56 2xl:-mt-40"
-            >
-              <Image
-                src={event2}
-                alt="событие 2"
-                width={500}
-                className="ease-in duration-300 grayscale hover:grayscale-0"
-                priority
-              />
-              <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
-                  Семейный праздник и <br></br>детский день рождения
-                </p>
-              </div>
-            </Link>
-
-            <Link
-              href="/scenarios/case"
-              className="flex flex-col items-center lg:-mt-40 2xl:-mt-10"
-            >
-              <Image
-                src={event3}
-                alt="событие 3"
-                width={500}
-                className="ease-in duration-300 grayscale hover:grayscale-0"
-                priority
-              />
-              <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
-                  Приготовьтесь <br></br>к особому случаю
-                </p>
-              </div>
-            </Link>
-
-            <Link
-              href="/scenarios/business"
-              className="flex flex-col items-center sm:-ml-10 lg:-mt-20 2xl:mt-10"
-            >
-              <Image
-                src={event4}
-                alt="событие 4"
-                width={500}
-                className="ease-in duration-300 grayscale hover:grayscale-0"
-                priority
-              />
-              <div className="bg-white max-w-xs -mt-12 z-20">
-                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
-                  Проведите <br></br>деловую встречу
-                </p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/*                      БУТИКИ                         */}
-
-      <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
-        <div className="lg:container mx-auto">
-          <h2 className="title_main mt-12 sm:-mt-10 mb-10">БУТИКИ</h2>
-          <ShopListMain items={shopList} />
         </div>
       </section>
 
@@ -266,6 +154,15 @@ export default function Home() {
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/27.jpg")]'></div>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/*                      БУТИКИ                         */}
+
+      <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
+        <div className="lg:container mx-auto">
+          <h2 className="title_main mt-12 sm:-mt-10 mb-10">БУТИКИ</h2>
+          <ShopListMain items={shopList} />
         </div>
       </section>
 
@@ -432,7 +329,7 @@ export default function Home() {
 
       {/*                      РЕСТОРАНЫ                        */}
 
-      <section className="mb-20 sm:mb-28" id="restoran">
+      {/* <section className="mb-20 sm:mb-28" id="restoran">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-14 sm:mt-20">РЕСТОРАНЫ</h2>
           <ListButiks
@@ -449,11 +346,11 @@ export default function Home() {
             />
           </ListButiks>
         </div>
-      </section>
+      </section> */}
 
       {/*                      ДЕТЯМ                        */}
 
-      <section className="mb-20 sm:mb-28" id="detyam">
+      {/* <section className="mb-20 sm:mb-28" id="detyam">
         <div className="lg:container mx-auto">
           <h2 className="title_main mt-4 sm:mt-20">ДЕТЯМ</h2>
           <ListButiks
@@ -473,6 +370,108 @@ export default function Home() {
             priority
           />
         </div>
+      </section> */}
+
+      {/*                      СЦЕНАРИИ                         */}
+
+      <section className="mt-10 sm:mt-24">
+        <div className="lg:container mx-auto sm:pr-5">
+          <div className="flex flex-col sm:flex-row mt-12 sm:mt-20 px-3 sm:px-0 gap-10">
+            <div className="w-full sm:w-[55%]">
+              <h2 className="title_main mb-10 -mt-4">О НАС</h2>
+              <p className="text-left mr-auto text-2xl sm:text-3xl lg:text-4xl ">
+                ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
+                впечатлений и эстетики. Здесь Вас ждут магазины премиальных
+                брендов, ресторан итальянской кухни и VIP-кинотеатр, а также
+                уникальные Event-мероприятия для Вас и Ваших близких!
+              </p>
+            </div>
+
+            <div className="w-full sm:w-[45%]">
+              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
+            </div>
+          </div>
+
+          {/* <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10 sm:mt-28 lg:mt-64 2xl:mt-40">
+            <Link
+              href="/scenarios/meeting"
+              className="flex flex-col items-center sm:-mt-20 lg:-mt-72 z-10"
+            >
+              <Image
+                src={event1}
+                alt="событие 1"
+                width={450}
+                className="ease-in duration-300 grayscale hover:grayscale-0"
+                priority
+              />
+              <div className="bg-white max-w-xs -mt-12 z-20">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
+                  Проведите романтическое <br></br>свидание
+                </p>
+              </div>
+            </Link>
+
+            <Link
+              href="/scenarios/holiday"
+              className="flex flex-col items-center sm:-mx-10 sm:-mt-14 lg:-mt-56 2xl:-mt-40"
+            >
+              <Image
+                src={event2}
+                alt="событие 2"
+                width={500}
+                className="ease-in duration-300 grayscale hover:grayscale-0"
+                priority
+              />
+              <div className="bg-white max-w-xs -mt-12 z-20">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
+                  Семейный праздник и <br></br>детский день рождения
+                </p>
+              </div>
+            </Link>
+
+            <Link
+              href="/scenarios/case"
+              className="flex flex-col items-center lg:-mt-40 2xl:-mt-10"
+            >
+              <Image
+                src={event3}
+                alt="событие 3"
+                width={500}
+                className="ease-in duration-300 grayscale hover:grayscale-0"
+                priority
+              />
+              <div className="bg-white max-w-xs -mt-12 z-20">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
+                  Приготовьтесь <br></br>к особому случаю
+                </p>
+              </div>
+            </Link>
+
+            <Link
+              href="/scenarios/business"
+              className="flex flex-col items-center sm:-ml-10 lg:-mt-20 2xl:mt-10"
+            >
+              <Image
+                src={event4}
+                alt="событие 4"
+                width={500}
+                className="ease-in duration-300 grayscale hover:grayscale-0"
+                priority
+              />
+              <div className="bg-white max-w-xs -mt-12 z-20">
+                <p className="text-center text-base mb:text-xl lg:text-2xl text-black py-2 px-3 mb:py-4 mb:px-5">
+                  Проведите <br></br>деловую встречу
+                </p>
+              </div>
+            </Link>
+          </div> */}
+        </div>
+      </section>
+
+      {/*                      ДОКУМЕНТЫ                        */}
+
+      <section className="mt-20">
+        <DocumentsPage />
       </section>
 
       {/*                      КОНТАКТЫ                        */}
