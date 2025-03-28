@@ -3,8 +3,24 @@ import news27 from '@/public/news/27.jpg';
 import news28 from '@/public/news/28.jpg';
 import news29 from '@/public/news/29.jpg';
 import news30 from '@/public/news/30.jpg';
+import news31 from '@/public/news/31.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news31,
+    text: [
+      'СКОРО',
+      'Открытие премиального фитнес-клуба KINEXT',
+      '- Персональные тренировки',
+      '- SPA',
+      '- ТОП-тренеры',
+      '- Технологичные залы ',
+      '- Recovery-зона с массажем и сауной',
+      '- Nutrition-сопровождение',
+      'Забронируйте доступ → kinext.ru ',
+    ],
+  },
   {
     id: id++,
     img1: news30,
