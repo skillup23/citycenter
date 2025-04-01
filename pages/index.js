@@ -1,15 +1,15 @@
 // import ImageLink from '@/components/ImageLink';
-import Layout from '@/components/Layout';
-import ShopListMain from '@/components/ShopListMain';
-import SliderMain from '@/components/SliderMain';
-import Image from 'next/image';
-import Link from 'next/link';
+import Layout from "@/components/Layout";
+import ShopListMain from "@/components/ShopListMain";
+import SliderMain from "@/components/SliderMain";
+import Image from "next/image";
+import Link from "next/link";
 // import text1 from '@/public/site_img/текст-1.png';
 // import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
-import news31 from '@/public/news/31.jpg';
-import news29 from '@/public/news/29.jpg';
-import news28 from '@/public/news/28.jpg';
-import news30 from '@/public/news/30.jpg';
+import news28 from "@/public/news/28.jpg";
+import news29 from "@/public/news/29.jpg";
+import news30 from "@/public/news/30.jpg";
+import news31 from "@/public/news/31.jpg";
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
 // import restoran2 from '@/public/site_img/3-френч-кис.png';
 // import event1 from '@/public/site_img/event1.png';
@@ -18,32 +18,31 @@ import news30 from '@/public/news/30.jpg';
 // import event4 from '@/public/site_img/event4.png';
 // import PrezentMain from '@/public/site_img/PrezentMain.jpg';
 // import children1 from '@/public/site_img/игратория.png';
-import cinemaIkon1 from '@/public/site_img/кино-иконка-1.png';
-import cinemaIkon2 from '@/public/site_img/кино-иконка-2.png';
-import cinemaIkon3 from '@/public/site_img/кино-иконка-3.png';
-import cinemaIkon4 from '@/public/site_img/кино-иконка-4.png';
-import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
-import logoMonitor1 from '@/public/site_img/лого-монитор.png';
-import text2 from '@/public/site_img/текст-2.png';
+// import cinemaIkon1 from "@/public/site_img/кино-иконка-1.png";
+// import cinemaIkon2 from "@/public/site_img/кино-иконка-2.png";
+// import cinemaIkon3 from "@/public/site_img/кино-иконка-3.png";
+// import cinemaIkon4 from "@/public/site_img/кино-иконка-4.png";
+// import logoMonitor2 from "@/public/site_img/лого-монитор-2.png";
+// import logoMonitor1 from "@/public/site_img/лого-монитор.png";
 // import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
 // import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
-import { FaBus, FaPhoneAlt } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { RiTimeFill } from 'react-icons/ri';
+import { FaBus, FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
+import { RiTimeFill } from "react-icons/ri";
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 // import ListButiks from '@/components/ListButiks';
-import VideoMain from '@/components/VideoMain';
-import YandexMap from '@/components/YandexMap';
+import VideoMain from "@/components/VideoMain";
+import YandexMap from "@/components/YandexMap";
 // import { butiks } from '@/public/data/butiks';
+import DocumentsPage from "@/components/DocumentsPage";
 import {
   kinoAfisha,
   shopList,
   sliderCenter,
   sliderTop,
-} from '@/public/data/data';
-import DocumentsPage from '@/components/DocumentsPage';
+} from "@/public/data/data";
 
 export default function Home() {
   return (
@@ -73,7 +72,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden h-full"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   <Image
                     src={img}
@@ -88,6 +87,20 @@ export default function Home() {
             })}
           </div>
         </div>
+      </section>
+
+      {/*                      СЛАЙДЕР КИНОТЕАТР                         */}
+
+      <section className="relative mt-20 sm:mt-28" id="kinoteatr">
+        <SliderMain data={sliderCenter} dots={true} />
+        {/* <Image
+          src={text2}
+          alt="slide1"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="absolute top-2 md:top-6 right-0 w-1/12"
+        /> */}
       </section>
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
@@ -106,7 +119,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/31.jpg")]'></div>
@@ -120,7 +133,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/30.jpg")]'></div>
@@ -134,7 +147,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/28.jpg")]'></div>
@@ -148,7 +161,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/29.jpg")]'></div>
@@ -166,23 +179,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/*                      СЛАЙДЕР КИНОТЕАТР                         */}
-
-      <section className="relative" id="kinoteatr">
-        <SliderMain data={sliderCenter} dots={true} />
-        <Image
-          src={text2}
-          alt="slide1"
-          width="0"
-          height="0"
-          sizes="100%"
-          className="absolute top-2 md:top-6 right-0 w-1/12"
-        />
-      </section>
-
       {/*                      КИНОТЕАТР ИНФОРМАЦИЯ                        */}
 
-      <section className="mt-20">
+      {/* <section className="mt-20">
         <div className="lg:container mx-auto pr-5 flex flex-col lg:flex-row gap-12">
           <div className="flex flex-col w-full lg:w-1/2 pl-3">
             <div className="flex gap-12 w-1/2 mb-12 items-start px-5 sm:px-0">
@@ -202,7 +201,7 @@ export default function Home() {
               <Link
                 href="https://kinomonitor.ru/vip/afisha"
                 className="h-full flex items-center justify-center"
-                target={'_blank'}
+                target={"_blank"}
               >
                 <Image
                   src={logoMonitor2}
@@ -290,11 +289,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*                      КИНОТЕАТР ССЫЛКИ                        */}
 
-      <section className="mt-10 sm:mt-20">
+      {/* <section className="mt-10 sm:mt-20">
         <div className="lg:container mx-auto">
           <ul className="flex w-full items-center justify-between">
             <Link
@@ -325,7 +324,7 @@ export default function Home() {
             </Link>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       {/*                      РЕСТОРАНЫ                        */}
 
@@ -388,7 +387,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
+              <VideoMain videoLink={"/site_img/city_FHD_1.mp4"} />
             </div>
           </div>
 
