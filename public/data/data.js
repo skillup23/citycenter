@@ -68,19 +68,19 @@ const menu = [
 const sliderTop = [
   {
     id: 1,
-    src: "/slide_main/m_8.jpg",
+    src: "/slide_main/m_10.jpg",
     alt: "Изображение 1",
   },
-  // {
-  //   id: 4,
-  //   src: '/slide_main/m_1.jpg',
-  //   alt: 'Изображение 1',
-  // },
-  // {
-  //   id: 2,
-  //   src: '/slide_main/m_2.jpg',
-  //   alt: 'Изображение 2',
-  // },
+  {
+    id: 4,
+    src: "/slide_main/m_9.jpg",
+    alt: "Изображение 3",
+  },
+  {
+    id: 2,
+    src: "/slide_main/m_11.jpg",
+    alt: "Изображение 2",
+  },
 ];
 
 // __________________Слайдер Кино____________________
