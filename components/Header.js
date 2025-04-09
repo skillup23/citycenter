@@ -10,32 +10,21 @@ import { GrFormClose } from 'react-icons/gr';
 import { MdArrowRight } from 'react-icons/md';
 import { SlSocialVkontakte } from 'react-icons/sl';
 import { TbMapPins } from 'react-icons/tb';
-// import { BiCaretDown } from 'react-icons/bi';
 import { menu } from '@/public/data/data';
 import logoMonitor2m from '@/public/site_img/лого-монитор-2-black.png';
 import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
-// import logoKrd from '@/public/site_img/logoKrdRed.png';
 import logoKinext from '@/public/site_img/KINEXT-logo.png';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  // const [isServiseMenu, setServiseMenu] = useState(false);
 
   function visibleMenu() {
     setMenuOpen(!isMenuOpen);
   }
 
-  // function visibleServiseMenu() {
-  //   setServiseMenu(!isServiseMenu);
-  // }
-
-  // function hiddenServiseMenu() {
-  //   setServiseMenu(false);
-  // }
-
   return (
     <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
-      <nav className="lg:container flex mx-auto px-5 justify-between content-center items-center relative">
+      <nav className="lg:container flex mx-auto px-1 px-3 md:px-5 justify-between content-center items-center relative">
         <Image
           src={logoKinext}
           alt="Лого Kinext"
@@ -44,6 +33,41 @@ function Header() {
           sizes="100%"
           className="mr-2 xl:mr-0"
         />
+
+        {/* <div className="mr-4 w-8/12 flex justify-between items-center md:hidden gap-3">
+          <Image
+            src={logoKinext}
+            alt="Лого Kinext"
+            width="80"
+            height="0"
+            sizes="100%"
+            className=""
+          />
+          <Link
+            href="/"
+            scroll={true}
+            className="flex flex-col items-center text-md xl:text-xl ease-in duration-200 hover:scale-105 xl:mr-0"
+          >
+            <MdOutlineShoppingBag className="text-3xl" />
+            <h6>Бутики</h6>
+          </Link>
+          <Link
+            href="/"
+            scroll={true}
+            className="flex flex-col items-center text-md xl:text-xl ease-in duration-200 hover:scale-105 xl:mr-0"
+          >
+            <BiCameraMovie className="text-3xl" />
+            <h6>Кинотеатр</h6>
+          </Link>
+          <Link
+            href="/"
+            scroll={true}
+            className="flex flex-col items-center text-md xl:text-xl ease-in duration-200 hover:scale-105 xl:mr-0"
+          >
+            <RiParkingBoxLine className="text-3xl" />
+            <h6>Парковка</h6>
+          </Link>
+        </div> */}
 
         <ul className="hidden sm:flex gap-3 xl:gap-4">
           <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
@@ -69,7 +93,7 @@ function Header() {
 
         <Link
           href="/"
-          className="-ml-10 sm:ml-0 w-[50px] h-[50px] xl:w-[65px] xl:h-[65px] relative"
+          className="-ml-9 w-[50px] h-[50px] xl:w-[65px] xl:h-[65px] relative"
         >
           <Image
             src={logo}
