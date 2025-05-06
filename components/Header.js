@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
-      <nav className="lg:container flex mx-auto px-1 px-3 md:px-5 justify-between content-center items-center relative">
+      <nav className="lg:container flex mx-auto px-3 md:px-5 justify-between content-center items-center relative">
         <Image
           src={logoKinext}
           alt="Лого Kinext"
