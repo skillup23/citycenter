@@ -1,16 +1,16 @@
 // import ImageLink from '@/components/ImageLink';
-import Layout from '@/components/Layout';
-import ShopListMain from '@/components/ShopListMain';
-import SliderMain from '@/components/SliderMain';
-import Image from 'next/image';
-import Link from 'next/link';
+import Layout from "@/components/Layout";
+import ShopListMain from "@/components/ShopListMain";
+import SliderMain from "@/components/SliderMain";
+import Image from "next/image";
+import Link from "next/link";
 // import text1 from '@/public/site_img/текст-1.png';
 // import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
-import news33 from '@/public/news/33.jpg';
-import news30 from '@/public/news/30.jpg';
-import news31 from '@/public/news/31.jpg';
-import news32 from '@/public/news/32.jpg';
-import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
+import news31 from "@/public/news/31.jpg";
+import news32 from "@/public/news/32.jpg";
+import news33 from "@/public/news/33.jpg";
+import news34 from "@/public/news/34.jpg";
+import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
 // import restoran2 from '@/public/site_img/3-френч-кис.png';
 // import event1 from '@/public/site_img/event1.png';
@@ -28,17 +28,17 @@ import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
 // import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
 // import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
-import { FaBus, FaPhoneAlt } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { RiTimeFill } from 'react-icons/ri';
+import { FaBus, FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
+import { RiTimeFill } from "react-icons/ri";
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 // import ListButiks from '@/components/ListButiks';
-import VideoMain from '@/components/VideoMain';
-import YandexMap from '@/components/YandexMap';
+import VideoMain from "@/components/VideoMain";
+import YandexMap from "@/components/YandexMap";
 // import { butiks } from '@/public/data/butiks';
-import DocumentsPage from '@/components/DocumentsPage';
-import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
+import DocumentsPage from "@/components/DocumentsPage";
+import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
 
 export default function Home() {
   return (
@@ -68,7 +68,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden h-full"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   <Image
                     src={img}
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={'_blank'}
+            target={"_blank"}
           >
             <Image
               src={kinoBanner}
@@ -127,17 +127,31 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news34}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: "100%", height: "100%" }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/34.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new2"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news33}
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/33.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new2"
+              href="/news#new3"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -145,13 +159,13 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/32.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new3"
+              href="/news#new4"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -159,24 +173,10 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/31.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new4"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news30}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/30.jpg")]'></div>
             </Link>
           </div>
         </div>
@@ -399,7 +399,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
+              <VideoMain videoLink={"/site_img/city_FHD_1.mp4"} />
             </div>
           </div>
 
