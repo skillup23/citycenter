@@ -95,36 +95,36 @@ function Marketing() {
             Презентация по рекламным возможностям ТРК «СИТИ ЦЕНТР»
           </Link>
 
-          <h2 className="title_main mt-10">Контакты</h2>
-          <div className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-5 md:mt-0">
-            <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
-              ОТДЕЛ РЕКЛАМЫ,<br></br> МАРКЕТИНГА И PR
+          <h2 className="title_main">Контакты</h2>
+          <div className="flex flex-col w-full mt-1 md:mt-0 mb-10 gap-2">
+            <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+              ОТДЕЛ РЕКЛАМЫ, МАРКЕТИНГА И PR
             </h4>
             <ul>
               <li className="flex flex-row w-fill items-center mt-1">
                 <FaPhoneAlt className="text-xl mr-5" />
                 <Link
-                  href="tel:89165964075"
+                  href="tel:89183500771"
                   className="text-lg md:text-xl lg:text-2xl"
                 >
-                  +7 (916) 596 40 75
+                  +7 (918) 350 07 71
                 </Link>
               </li>
               <li className="flex flex-row w-fill items-center mt-1">
                 <MdEmail className="text-xl mr-5" />
                 <Link
-                  href="mailto:a.pantyuhina@inside-development.ru"
+                  href="mailto:info@citycenter.ru"
                   className="text-lg md:text-xl lg:text-2xl"
                 >
-                  a.pantyuhina@inside-development.ru
+                  info@citycenter.ru
                 </Link>
               </li>
-              <li className="flex flex-row w-fill items-center mt-1">
+              {/* <li className="flex flex-row w-fill items-center mt-1">
                 <h4 className="text-lg md:text-xl lg:text-2xl">
                   Инсайд девелопмент - оператор по продаже рекламы и промо в ТРК
                   «СИТИ ЦЕНТР»
                 </h4>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

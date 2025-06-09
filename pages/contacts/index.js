@@ -1,10 +1,10 @@
-import Layout from "@/components/Layout";
-import Link from "next/link";
-import { FaBus, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import { RiTimeFill } from "react-icons/ri";
-import { SlSocialVkontakte } from "react-icons/sl";
+import Layout from '@/components/Layout';
+import Link from 'next/link';
+import { FaBus, FaPhoneAlt, FaTelegramPlane } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { RiTimeFill } from 'react-icons/ri';
+import { SlSocialVkontakte } from 'react-icons/sl';
 
 function Contacts() {
   return (
@@ -15,8 +15,8 @@ function Contacts() {
 
           <div className="mt-5 w-fill md:w-11/12 m-auto flex flex-row flex-wrap justify-between px-6 md:px-0">
             <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
-                ТРК «СИТИ ЦЕНТР»
+              <h4 className="text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+                ТРК <br></br>«СИТИ ЦЕНТР»
               </h4>
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
@@ -50,7 +50,7 @@ function Contacts() {
             </div>
 
             <div className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-10 sm:mt-0">
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+              <h4 className="text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
                 ОТДЕЛ АРЕНДНЫХ <br></br>ОТНОШЕНИЙ
               </h4>
               <ul>
@@ -106,41 +106,41 @@ function Contacts() {
                   </h4>
                 </li>
               </ul> */}
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+              <h4 className="text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
                 ОТДЕЛ РЕКЛАМЫ,<br></br> МАРКЕТИНГА И PR
               </h4>
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <Link
-                    href="tel:89165964075"
+                    href="tel:89183500771"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    +7 (916) 596 40 75
+                    +7 (918) 350 07 71
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <MdEmail className="text-xl mr-5" />
                   <Link
-                    href="mailto:a.pantyuhina@inside-development.ru"
+                    href="mailto:info@citycenter.ru"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    a.pantyuhina@inside-development.ru
+                    info@citycenter.ru
                   </Link>
                 </li>
-                <li className="flex flex-row w-fill items-center mt-1">
+                {/* <li className="flex flex-row w-fill items-center mt-1">
                   <h4 className="text-lg md:text-xl lg:text-2xl">
                     Инсайд девелопмент - оператор по продаже рекламы и промо в
                     ТРК «СИТИ ЦЕНТР»
                   </h4>
-                </li>
+                </li> */}
               </ul>
             </div>
-            <ul className="flex md:hidden gap-8 w-1/2 mt-16">
-              <Link href="https://vk.com/trkcitycentr" target={"_blank"}>
+            <ul className="flex md:hidden gap-8 w-1/2 mt-12">
+              <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
                 <SlSocialVkontakte className="text-5xl ease-in duration-200 hover:scale-105" />
               </Link>
-              <Link href="https://t.me/ciiitycenter" target={"_blank"}>
+              <Link href="https://t.me/ciiitycenter" target={'_blank'}>
                 <FaTelegramPlane className="text-5xl ease-in duration-200 hover:scale-105 mr-5" />
               </Link>
             </ul>
@@ -148,7 +148,7 @@ function Contacts() {
 
           <div className="my-10 md:my-20 w-fill md:w-11/12 m-auto flex flex-row flex-wrap justify-between px-6 md:px-0">
             <div className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-5 md:mt-0">
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-2 sm:mb-5">
+              <h4 className="text-3xl md:text-4xl lg:text-5xl mb-2 sm:mb-5">
                 ЧАСЫ РАБОТЫ
               </h4>
               <ul>
@@ -181,7 +181,7 @@ function Contacts() {
             </div>
 
             <div className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-10 md:mt-0">
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-2 sm:mb-5">
+              <h4 className="text-3xl md:text-4xl lg:text-5xl mb-2 sm:mb-5">
                 КАК ДОБРАТЬСЯ
               </h4>
               <ul>
@@ -205,10 +205,10 @@ function Contacts() {
             </div>
 
             <ul className="hidden md:flex gap-8 w-1/3 pl-10">
-              <Link href="https://vk.com/trkcitycentr" target={"_blank"}>
+              <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
                 <SlSocialVkontakte className="text-5xl ease-in duration-200 hover:scale-105" />
               </Link>
-              <Link href="https://t.me/ciiitycenter" target={"_blank"}>
+              <Link href="https://t.me/ciiitycenter" target={'_blank'}>
                 <FaTelegramPlane className="text-5xl ease-in duration-200 hover:scale-105 mr-5" />
               </Link>
             </ul>
