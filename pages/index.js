@@ -4,7 +4,6 @@ import ShopListMain from "@/components/ShopListMain";
 import SliderMain from "@/components/SliderMain";
 import Image from "next/image";
 import Link from "next/link";
-// import text1 from '@/public/site_img/текст-1.png';
 // import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 import news36 from "@/public/news/36.jpg";
 import news37 from "@/public/news/37.jpg";
