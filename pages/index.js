@@ -2,14 +2,13 @@
 import Layout from "@/components/Layout";
 import ShopListMain from "@/components/ShopListMain";
 import SliderMain from "@/components/SliderMain";
-import Image from "next/image";
-import Link from "next/link";
-// import restoran3 from '@/public/butiks/kafe/LoveAndTrufel/logo.png';
 import news36 from "@/public/news/36.jpg";
 import news37 from "@/public/news/37.jpg";
 import news38 from "@/public/news/38.jpg";
 import news39 from "@/public/news/39.jpg";
 import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
+import Image from "next/image";
+import Link from "next/link";
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
 // import restoran2 from '@/public/site_img/3-френч-кис.png';
 // import event1 from '@/public/site_img/event1.png';
