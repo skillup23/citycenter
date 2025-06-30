@@ -1,10 +1,10 @@
-import Layout from '@/components/Layout';
-import Link from 'next/link';
-import { FaBus, FaPhoneAlt, FaTelegramPlane } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { RiTimeFill } from 'react-icons/ri';
-import { SlSocialVkontakte } from 'react-icons/sl';
+import Layout from "@/components/Layout";
+import Link from "next/link";
+import { FaBus, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
+import { RiTimeFill } from "react-icons/ri";
+import { SlSocialVkontakte } from "react-icons/sl";
 
 function Contacts() {
   return (
@@ -113,19 +113,19 @@ function Contacts() {
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <Link
-                    href="tel:89183500771"
+                    href="tel:899649049146"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    +7 (918) 350 07 71
+                    +7 (964) 90 49 146
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <MdEmail className="text-xl mr-5" />
                   <Link
-                    href="mailto:info@citycenter.ru"
+                    href="mailto:aliona.ch@expertmedia-ug.ru"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    info@citycenter.ru
+                    aliona.ch@expertmedia-ug.ru
                   </Link>
                 </li>
                 {/* <li className="flex flex-row w-fill items-center mt-1">
@@ -137,10 +137,10 @@ function Contacts() {
               </ul>
             </div>
             <ul className="flex md:hidden gap-8 w-1/2 mt-12">
-              <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
+              <Link href="https://vk.com/trkcitycentr" target={"_blank"}>
                 <SlSocialVkontakte className="text-5xl ease-in duration-200 hover:scale-105" />
               </Link>
-              <Link href="https://t.me/ciiitycenter" target={'_blank'}>
+              <Link href="https://t.me/ciiitycenter" target={"_blank"}>
                 <FaTelegramPlane className="text-5xl ease-in duration-200 hover:scale-105 mr-5" />
               </Link>
             </ul>
@@ -205,10 +205,10 @@ function Contacts() {
             </div>
 
             <ul className="hidden md:flex gap-8 w-1/3 pl-10">
-              <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
+              <Link href="https://vk.com/trkcitycentr" target={"_blank"}>
                 <SlSocialVkontakte className="text-5xl ease-in duration-200 hover:scale-105" />
               </Link>
-              <Link href="https://t.me/ciiitycenter" target={'_blank'}>
+              <Link href="https://t.me/ciiitycenter" target={"_blank"}>
                 <FaTelegramPlane className="text-5xl ease-in duration-200 hover:scale-105 mr-5" />
               </Link>
             </ul>
