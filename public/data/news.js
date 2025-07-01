@@ -13,8 +13,18 @@ import news37 from "@/public/news/37.jpg";
 import news38 from "@/public/news/38.jpg";
 import news39 from "@/public/news/39.jpg";
 import news40 from "@/public/news/40.jpg";
+import news41 from "@/public/news/41.jpg";
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news41,
+    text: [
+      "D.Exterior — уже в ТРК «СИТИ ЦЕНТР»",
+      "Бренд создаёт коллекции для женщин, которые ценят элегантность, утончённость и комфорт. В каждой вещи — ДНК высокой моды и энергия современной Италии.",
+      "Приходите за образами, в которых легко быть собой — уверенной и стильной.",
+    ],
+  },
   {
     id: id++,
     img1: news40,
