@@ -1,14 +1,14 @@
 // import ImageLink from '@/components/ImageLink';
-import Layout from "@/components/Layout";
-import ShopListMain from "@/components/ShopListMain";
-import SliderMain from "@/components/SliderMain";
-import news36 from "@/public/news/36.jpg";
-import news37 from "@/public/news/37.jpg";
-import news40 from "@/public/news/40.jpg";
-import news41 from "@/public/news/41.jpg";
-import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
-import Image from "next/image";
-import Link from "next/link";
+import Layout from '@/components/Layout';
+import ShopListMain from '@/components/ShopListMain';
+import SliderMain from '@/components/SliderMain';
+import news36 from '@/public/news/36.jpg';
+import news37 from '@/public/news/37.jpg';
+import news40 from '@/public/news/40.jpg';
+import news41 from '@/public/news/41.jpg';
+import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
+import Image from 'next/image';
+import Link from 'next/link';
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
 // import restoran2 from '@/public/site_img/3-френч-кис.png';
 // import event1 from '@/public/site_img/event1.png';
@@ -26,17 +26,17 @@ import Link from "next/link";
 // import children2 from '@/public/site_img/LapinHouse.png';
 // import children4 from '@/public/site_img/3-метро-беби.png';
 // import children6 from '@/public/butiks/children/ChildrenInCity/logo.png';
-import { FaBus, FaPhoneAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import { RiTimeFill } from "react-icons/ri";
+import { FaBus, FaPhoneAlt } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { RiTimeFill } from 'react-icons/ri';
 // import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 // import ListButiks from '@/components/ListButiks';
-import VideoMain from "@/components/VideoMain";
-import YandexMap from "@/components/YandexMap";
+import VideoMain from '@/components/VideoMain';
+import YandexMap from '@/components/YandexMap';
 // import { butiks } from '@/public/data/butiks';
-import DocumentsPage from "@/components/DocumentsPage";
-import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
+import DocumentsPage from '@/components/DocumentsPage';
+import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
 
 export default function Home() {
   return (
@@ -66,7 +66,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden h-full"
-                  target={"_blank"}
+                  target={'_blank'}
                 >
                   <Image
                     src={img}
@@ -90,7 +90,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={"_blank"}
+            target={'_blank'}
           >
             <Image
               src={kinoBanner}
@@ -129,7 +129,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/41.jpg")]'></div>
@@ -143,7 +143,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/40.jpg")]'></div>
@@ -157,7 +157,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/36.jpg")]'></div>
@@ -171,7 +171,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/37.jpg")]'></div>
@@ -397,7 +397,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={"/site_img/city_FHD_1.mp4"} />
+              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
             </div>
           </div>
 
@@ -519,10 +519,11 @@ export default function Home() {
                     УНИВЕРСАМ «ПЕРЕКРЕСТОК» - КРУГЛОСУТОЧНО
                   </h4>
                   <h4 className="text-lg md:text-xl mt-2">
-                    КИНОТЕАТР «CITI DE LUXE» - ДО ОКОНЧАНИЯ ПОСЛЕДНЕГО СЕАНСА
+                    КИНОТЕАТР «МОНИТОР CITI DE LUXE» - ДО ОКОНЧАНИЯ ПОСЛЕДНЕГО
+                    СЕАНСА
                   </h4>
                   <h4 className="text-lg md:text-xl mt-2">
-                    КАФЕ И РЕСТОРАН - ДО 23:00
+                    КАФЕ И РЕСТОРАН - ДО 22:00
                   </h4>
                   <h4 className="text-lg md:text-xl mt-2">
                     МАГАЗИНЫ - С 10:00 ДО 22:00
