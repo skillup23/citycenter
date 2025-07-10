@@ -134,54 +134,54 @@ export const butiks = [
     telUrl: '89898104161',
     instagram: 'krd_marccain',
   },
-  {
-    id: id++,
-    category: 'womenClothing',
-    url: 'Papaya',
-    logo: '/butiks/womenClothing/Papaya/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Papaya/1n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Papaya/2n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Papaya/3n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Papaya/4n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Papaya/5n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Papaya/6n.jpg',
-        alt: 'Papaya',
-      },
-    ],
-    description1:
-      'PAPAYA - российский бренд одежды родом из солнечного региона России - Краснодара.',
-    description2:
-      'Главная идея, ставшая основой бренда - создавать многогранный, качественный и продуманный гардероб-конструктор, избегая наполнения лишними вещами.',
-    description3:
-      'Гардероб, который будет радовать свою обладательницу многие годы благодаря отличному крою, универсальному дизайну, созданному с использованием лучших импортных материалов. Основу коллекций составляют женственные и изящные вещи, выполненные в монохромных оттенках и сдержанной цветовой палитре.',
-    floor: '2 этаж',
-    tel: '+7 918 009-30-57 ',
-    telUrl: '89180093057 ',
-    instagram: '',
-  },
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'Papaya',
+  //   logo: '/butiks/womenClothing/Papaya/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Papaya/1n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Papaya/2n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Papaya/3n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Papaya/4n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/Papaya/5n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Papaya/6n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //   ],
+  //   description1:
+  //     'PAPAYA - российский бренд одежды родом из солнечного региона России - Краснодара.',
+  //   description2:
+  //     'Главная идея, ставшая основой бренда - создавать многогранный, качественный и продуманный гардероб-конструктор, избегая наполнения лишними вещами.',
+  //   description3:
+  //     'Гардероб, который будет радовать свою обладательницу многие годы благодаря отличному крою, универсальному дизайну, созданному с использованием лучших импортных материалов. Основу коллекций составляют женственные и изящные вещи, выполненные в монохромных оттенках и сдержанной цветовой палитре.',
+  //   floor: '2 этаж',
+  //   tel: '+7 918 009-30-57 ',
+  //   telUrl: '89180093057 ',
+  //   instagram: '',
+  // },
   {
     id: id++,
     category: 'womenClothing manClothing',
