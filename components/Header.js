@@ -1,19 +1,19 @@
-import { menu } from "@/public/data/data";
-import logoKinext from "@/public/site_img/KINEXT-logo.png";
-import logo from "@/public/site_img/logo-nav.png";
-import logoBlack from "@/public/site_img/logoBlackMob.png";
-import logoMonitor2m from "@/public/site_img/лого-монитор-2-black.png";
-import logoMonitor2 from "@/public/site_img/лого-монитор-2.png";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { BsPinMap } from "react-icons/bs";
-import { FaTelegramPlane } from "react-icons/fa";
-import { FiMenu } from "react-icons/fi";
-import { GrFormClose } from "react-icons/gr";
-import { MdArrowRight } from "react-icons/md";
-import { SlSocialVkontakte } from "react-icons/sl";
-import { TbMapPins } from "react-icons/tb";
+import { menu } from '@/public/data/data';
+import logoKinext from '@/public/site_img/KINEXT-logo.png';
+import logo from '@/public/site_img/logo-nav.png';
+import logoBlack from '@/public/site_img/logoBlackMob.png';
+import logoMonitor2m from '@/public/site_img/лого-монитор-2-black.png';
+import logoMonitor2 from '@/public/site_img/лого-монитор-2.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { BsPinMap } from 'react-icons/bs';
+import { FaTelegramPlane } from 'react-icons/fa';
+import { FiMenu } from 'react-icons/fi';
+import { GrFormClose } from 'react-icons/gr';
+import { MdArrowRight } from 'react-icons/md';
+import { SlSocialVkontakte } from 'react-icons/sl';
+import { TbMapPins } from 'react-icons/tb';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -25,14 +25,16 @@ function Header() {
   return (
     <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
       <nav className="lg:container flex mx-auto px-3 md:px-5 justify-between content-center items-center relative">
-        <Image
-          src={logoKinext}
-          alt="Лого Kinext"
-          width="95"
-          height="0"
-          sizes="100%"
-          className="mr-2 xl:mr-0"
-        />
+        <Link href="https://kinext.ru" target={'_blank'}>
+          <Image
+            src={logoKinext}
+            alt="Лого Kinext"
+            width="95"
+            height="0"
+            sizes="100%"
+            className="mr-2 xl:mr-0"
+          />
+        </Link>
 
         {/* <div className="mr-4 w-8/12 flex justify-between items-center md:hidden gap-3">
           <Image
@@ -70,10 +72,10 @@ function Header() {
         </div> */}
 
         <ul className="hidden sm:flex gap-3 xl:gap-4">
-          <Link href="https://vk.com/trkcitycentr" target={"_blank"}>
+          <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
             <SlSocialVkontakte className="text-3xl xl:text-3xl ease-in duration-200 hover:scale-105" />
           </Link>
-          <Link href="https://t.me/ciiitycenter" target={"_blank"}>
+          <Link href="https://t.me/ciiitycenter" target={'_blank'}>
             <FaTelegramPlane className="text-3xl xl:text-3xl ease-in duration-200 hover:scale-105 mr-1" />
           </Link>
         </ul>
@@ -127,7 +129,7 @@ function Header() {
         <Link
           href="https://kinomonitor.ru/vip/afisha"
           className="hidden lg:flex h-full items-center justify-center"
-          target={"_blank"}
+          target={'_blank'}
         >
           <Image
             src={logoMonitor2}
@@ -174,7 +176,7 @@ function Header() {
       {/* Мобильное раскрывающиеся меню */}
       <div
         className={`${
-          isMenuOpen ? "block lg:hidden" : "hidden"
+          isMenuOpen ? 'block lg:hidden' : 'hidden'
         } fixed top-0 h-full text-black w-full bg-black/[.9]`}
       >
         <div className="fixed top-0 p-3 sm:p-5 flex flex-col h-full bg-white w-4/5 animate-showmenu">
@@ -198,10 +200,10 @@ function Header() {
             </Link>
 
             <ul className="flex gap-3 sm:gap-6">
-              <Link href="https://vk.com/trkcitycentr" target={"_blank"}>
+              <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
                 <SlSocialVkontakte className="text-2xl sm:text-3xl ease-in duration-200 hover:scale-105" />
               </Link>
-              <Link href="https://t.me/ciiitycenter" target={"_blank"}>
+              <Link href="https://t.me/ciiitycenter" target={'_blank'}>
                 <FaTelegramPlane className="text-2xl sm:text-3xl ease-in duration-200 hover:scale-105 mr-3" />
               </Link>
             </ul>
@@ -223,7 +225,7 @@ function Header() {
           <Link
             href="https://kinomonitor.ru/vip/afisha"
             className="mt-1 ml-4 flex items-start"
-            target={"_blank"}
+            target={'_blank'}
           >
             <Image
               src={logoMonitor2m}
