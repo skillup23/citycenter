@@ -1033,7 +1033,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/giftsAndBook/FrenchKiss/1n.jpg',
+        src: '/butiks/giftsAndBook/FrenchKiss/3.jpg',
+        alt: 'FrenchKiss',
+      },
+      {
+        id: 2,
+        src: '/butiks/giftsAndBook/FrenchKiss/2.jpg',
         alt: 'FrenchKiss',
       },
     ],
@@ -1054,12 +1059,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/services/HimCLear/1n.jpg',
+        src: '/services/HimCLear/3.jpg',
         alt: 'HimCLear',
       },
       {
         id: 2,
-        src: '/services/HimCLear/2n.jpg',
+        src: '/services/HimCLear/4.jpg',
         alt: 'HimCLear',
       },
     ],
@@ -1116,7 +1121,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/services/Perekrestok/1.jpg',
         alt: 'Perekrestok',
       },
     ],
@@ -1182,7 +1187,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/services/Repassaj/1.jpg',
         alt: 'Repassaj',
       },
     ],
@@ -1403,7 +1408,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/menClothing/NAPAPIJRI/1.jpg',
+        alt: 'NAPAPIJRI',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/NAPAPIJRI/2.jpg',
+        alt: 'NAPAPIJRI',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/NAPAPIJRI/3.jpg',
         alt: 'NAPAPIJRI',
       },
     ],
@@ -1501,6 +1516,21 @@ export const butiks = [
       {
         id: 4,
         src: '/butiks/womenClothing/MesDemoiselles/4n.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/MesDemoiselles/5.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/MesDemoiselles/6.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/MesDemoiselles/7.jpg',
         alt: 'MesDemoiselles',
       },
     ],
@@ -1707,6 +1737,16 @@ export const butiks = [
         src: '/butiks/womenClothing/Kiara/6.jpg',
         alt: 'Kiara',
       },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/Kiara/7.jpg',
+        alt: 'Kiara',
+      },
+      {
+        id: 8,
+        src: '/butiks/womenClothing/Kiara/8.jpg',
+        alt: 'Kiara',
+      },
     ],
     description1: `KIARA — это баланс между комфортом и красотой, женственные силуэты в сочетании с авторскими элементами дизайна.`,
     description2: `Одежда KIARA это изысканность минимализма, простота линий в сочетании с привлекательностью модных тенденций. Особенность коллекций KIARA в том, что изделия можно надеть, как на выход, так и в повседневной жизни, это всегда будет выглядеть уместно, стильно и изысканно. Классный аутфит откроет любые двери в деловой и личной жизни. Приносит хорошее настроение, уверенность в себе. Эффектные наряды акцентируют внимание на достоинствах фигуры. Коллекции привлекают оригинальностью, необычными фасонами.`,
@@ -1724,12 +1764,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/Vilebrequin/1n.jpg',
+        src: '/butiks/menClothing/Vilebrequin/3.jpg',
         alt: 'Vilebrequin',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/Vilebrequin/2n.jpg',
+        src: '/butiks/menClothing/Vilebrequin/4.jpg',
         alt: 'Vilebrequin',
       },
     ],
@@ -1789,7 +1829,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/MAXCo/logo.png',
+        src: '/butiks/womenClothing/MAXCo/1.jpg',
+        alt: 'MAXCo',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/MAXCo/2.jpg',
+        alt: 'MAXCo',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/MAXCo/3.jpg',
         alt: 'MAXCo',
       },
     ],
@@ -1811,7 +1861,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/WeekendMaxMara/logo.png',
+        src: '/butiks/womenClothing/WeekendMaxMara/1.jpg',
+        alt: 'WeekendMaxMara',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/WeekendMaxMara/2.jpg',
+        alt: 'WeekendMaxMara',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/WeekendMaxMara/3.jpg',
+        alt: 'WeekendMaxMara',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/WeekendMaxMara/4.jpg',
         alt: 'WeekendMaxMara',
       },
     ],
@@ -1833,7 +1898,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/shoesAndBags/Dance/logo.png',
+        src: '/butiks/shoesAndBags/Dance/1.jpg',
         alt: 'Dance',
       },
     ],
@@ -1855,7 +1920,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/clocks/ZOTTY/1.jpg',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 2,
+        src: '/butiks/clocks/ZOTTY/2.jpg',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 3,
+        src: '/butiks/clocks/ZOTTY/3.jpg',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 4,
+        src: '/butiks/clocks/ZOTTY/4.jpg',
         alt: 'ZOTTY',
       },
     ],
@@ -1877,7 +1957,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/womenClothing/Fresh/1.jpg',
+        alt: 'Fresh',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Fresh/2.jpg',
         alt: 'Fresh',
       },
     ],
