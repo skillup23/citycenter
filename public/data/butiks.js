@@ -1027,7 +1027,7 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'giftsAndBook',
+    category: 'giftsAndBook kafeAndRestoran',
     url: 'French Kiss',
     logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
     image: [
