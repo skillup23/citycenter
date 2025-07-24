@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '@/components/Layout';
 import ListButiks from '@/components/ListButiks';
-import ImageLink from '@/components/ImageLink';
+// import ImageLink from '@/components/ImageLink';
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
-import restoran2 from '@/public/site_img/3-френч-кис.png';
+// import restoran2 from '@/public/site_img/3-френч-кис.png';
 
 //получаем данные бутиков с локального api
 export const getServerSideProps = async () => {
@@ -39,12 +39,12 @@ const Perfumery = ({ butiks }) => {
             category={'kafeAndRestoran'}
             butiksUrl={'kafe'}
           >
-            <ImageLink
+            {/* <ImageLink
               href="https://frenchkiss.ru/stores/"
               src={restoran2}
               target="_blank"
               alt="French kiss"
-            />
+            /> */}
           </ListButiks>
         </div>
       </section>
