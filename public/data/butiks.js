@@ -134,54 +134,54 @@ export const butiks = [
     telUrl: '89898104161',
     instagram: 'krd_marccain',
   },
-  {
-    id: id++,
-    category: 'womenClothing',
-    url: 'Papaya',
-    logo: '/butiks/womenClothing/Papaya/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Papaya/1n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Papaya/2n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Papaya/3n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Papaya/4n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 5,
-        src: '/butiks/womenClothing/Papaya/5n.jpg',
-        alt: 'Papaya',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Papaya/6n.jpg',
-        alt: 'Papaya',
-      },
-    ],
-    description1:
-      'PAPAYA - российский бренд одежды родом из солнечного региона России - Краснодара.',
-    description2:
-      'Главная идея, ставшая основой бренда - создавать многогранный, качественный и продуманный гардероб-конструктор, избегая наполнения лишними вещами.',
-    description3:
-      'Гардероб, который будет радовать свою обладательницу многие годы благодаря отличному крою, универсальному дизайну, созданному с использованием лучших импортных материалов. Основу коллекций составляют женственные и изящные вещи, выполненные в монохромных оттенках и сдержанной цветовой палитре.',
-    floor: '2 этаж',
-    tel: '+7 918 009-30-57 ',
-    telUrl: '89180093057 ',
-    instagram: '',
-  },
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'Papaya',
+  //   logo: '/butiks/womenClothing/Papaya/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Papaya/1n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Papaya/2n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Papaya/3n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Papaya/4n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/womenClothing/Papaya/5n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Papaya/6n.jpg',
+  //       alt: 'Papaya',
+  //     },
+  //   ],
+  //   description1:
+  //     'PAPAYA - российский бренд одежды родом из солнечного региона России - Краснодара.',
+  //   description2:
+  //     'Главная идея, ставшая основой бренда - создавать многогранный, качественный и продуманный гардероб-конструктор, избегая наполнения лишними вещами.',
+  //   description3:
+  //     'Гардероб, который будет радовать свою обладательницу многие годы благодаря отличному крою, универсальному дизайну, созданному с использованием лучших импортных материалов. Основу коллекций составляют женственные и изящные вещи, выполненные в монохромных оттенках и сдержанной цветовой палитре.',
+  //   floor: '2 этаж',
+  //   tel: '+7 918 009-30-57 ',
+  //   telUrl: '89180093057 ',
+  //   instagram: '',
+  // },
   {
     id: id++,
     category: 'womenClothing manClothing',
@@ -1027,22 +1027,28 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'giftsAndBook',
+    category: 'giftsAndBook kafeAndRestoran',
     url: 'French Kiss',
     logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
     image: [
       {
         id: 1,
-        src: '/butiks/giftsAndBook/FrenchKiss/1n.jpg',
+        src: '/butiks/giftsAndBook/FrenchKiss/3.jpg',
+        alt: 'FrenchKiss',
+      },
+      {
+        id: 2,
+        src: '/butiks/giftsAndBook/FrenchKiss/2.jpg',
         alt: 'FrenchKiss',
       },
     ],
-    description1: 'Бутик десертов из премиального шоколада.',
-    description2:
-      'Десерты FRENCH KISS – это натуральные ингредиенты, ручная работа, авторские рецепты',
+    description1:
+      'Конфеты, печенье и сладости ручной работы. Бутик и интернет-магазин десертов из премиального шоколада.',
+    description2: 'Десерты FRENCH KISS – это:',
+    description3: 'Натуральные ингредиенты, ручная работа, авторские рецепты',
     floor: '1 этаж',
-    tel: '+7 929 838 80 78',
-    telUrl: '89298388078',
+    tel: '+7 938 43 07 564',
+    telUrl: '89384307564',
     instagram: 'frenchkiss_krd',
   },
   {
@@ -1053,12 +1059,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/services/HimCLear/1n.jpg',
+        src: '/services/HimCLear/3.jpg',
         alt: 'HimCLear',
       },
       {
         id: 2,
-        src: '/services/HimCLear/2n.jpg',
+        src: '/services/HimCLear/4.jpg',
         alt: 'HimCLear',
       },
     ],
@@ -1115,7 +1121,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/services/Perekrestok/1.jpg',
         alt: 'Perekrestok',
       },
     ],
@@ -1181,7 +1187,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/services/Repassaj/1.jpg',
         alt: 'Repassaj',
       },
     ],
@@ -1402,15 +1408,25 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/menClothing/NAPAPIJRI/1.jpg',
+        alt: 'NAPAPIJRI',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/NAPAPIJRI/2.jpg',
+        alt: 'NAPAPIJRI',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/NAPAPIJRI/3.jpg',
         alt: 'NAPAPIJRI',
       },
     ],
     description1: `Итальянский бренд Napapijri зародился у подножия горы Монблан. Вдохновением его создательницы стали холодный север и исследователи Арктики. Само название Napapijri — вариация финского слова, которое переводится как «Северный полярный круг». Один из фирменных элементов бренда — флаг Норвегии, самой северной страны Европы, а первым изделием марки стала сумка Bering из вощёного хлопка, названная в честь Витуса Беринга.`,
     description2: `Napapijri задумывался как бренд для покорителей вершин. Но сегодня теплейшие куртки-анораки, парки, флисовые толстовки, рюкзаки и сумки бренда носят не только путешественники и спортсмены: бренд полюбился многим и в городских условиях. Поэтому Napapijri соединяет в своих коллекциях outdoor-эстетику и стиль urban. Одежда и обувь от Napapijri подойдут и для повседневной жизни, и для активного отдыха.`,
     floor: '2 этаж',
-    tel: '',
-    telUrl: '',
+    tel: '+7 967 663 99 95',
+    telUrl: '89676639995',
     instagram: '',
   },
   {
@@ -1502,11 +1518,28 @@ export const butiks = [
         src: '/butiks/womenClothing/MesDemoiselles/4n.jpg',
         alt: 'MesDemoiselles',
       },
+      {
+        id: 5,
+        src: '/butiks/womenClothing/MesDemoiselles/5.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 6,
+        src: '/butiks/womenClothing/MesDemoiselles/6.jpg',
+        alt: 'MesDemoiselles',
+      },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/MesDemoiselles/7.jpg',
+        alt: 'MesDemoiselles',
+      },
     ],
-    description1: ` `,
+    description1: `Mes Demoiselles Paris... — это воплощение женственности. Создательница бренда — Анита Радованович, французский модельер и дизайнер. В 2006 году она выпустила свою первую коллекцию и получила абсолютное признание в мировой модной индустрии. Отличительная черта бренда — бессменный стиль бохо-шик. Классические и романтические образы, в которых есть элегантность, свобода, легкость много света и воздуха.`,
+    description2: `Философия Mes Demoiselles Paris... вдохновлена природой: все принты и оттенки повторяют сезонные цвета и узоры. `,
+    description3: `Мы рады пригласить вас в богемный мир французской моды!`,
     floor: '2 этаж',
-    tel: '',
-    telUrl: '',
+    tel: '+7 861 213 47 82',
+    telUrl: '88612134782',
     instagram: '',
   },
   {
@@ -1704,6 +1737,16 @@ export const butiks = [
         src: '/butiks/womenClothing/Kiara/6.jpg',
         alt: 'Kiara',
       },
+      {
+        id: 7,
+        src: '/butiks/womenClothing/Kiara/7.jpg',
+        alt: 'Kiara',
+      },
+      {
+        id: 8,
+        src: '/butiks/womenClothing/Kiara/8.jpg',
+        alt: 'Kiara',
+      },
     ],
     description1: `KIARA — это баланс между комфортом и красотой, женственные силуэты в сочетании с авторскими элементами дизайна.`,
     description2: `Одежда KIARA это изысканность минимализма, простота линий в сочетании с привлекательностью модных тенденций. Особенность коллекций KIARA в том, что изделия можно надеть, как на выход, так и в повседневной жизни, это всегда будет выглядеть уместно, стильно и изысканно. Классный аутфит откроет любые двери в деловой и личной жизни. Приносит хорошее настроение, уверенность в себе. Эффектные наряды акцентируют внимание на достоинствах фигуры. Коллекции привлекают оригинальностью, необычными фасонами.`,
@@ -1721,12 +1764,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/Vilebrequin/1n.jpg',
+        src: '/butiks/menClothing/Vilebrequin/3.jpg',
         alt: 'Vilebrequin',
       },
       {
         id: 2,
-        src: '/butiks/menClothing/Vilebrequin/2n.jpg',
+        src: '/butiks/menClothing/Vilebrequin/4.jpg',
         alt: 'Vilebrequin',
       },
     ],
@@ -1786,7 +1829,17 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/MAXCo/logo.png',
+        src: '/butiks/womenClothing/MAXCo/1.jpg',
+        alt: 'MAXCo',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/MAXCo/2.jpg',
+        alt: 'MAXCo',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/MAXCo/3.jpg',
         alt: 'MAXCo',
       },
     ],
@@ -1808,7 +1861,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/WeekendMaxMara/logo.png',
+        src: '/butiks/womenClothing/WeekendMaxMara/1.jpg',
+        alt: 'WeekendMaxMara',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/WeekendMaxMara/2.jpg',
+        alt: 'WeekendMaxMara',
+      },
+      {
+        id: 3,
+        src: '/butiks/womenClothing/WeekendMaxMara/3.jpg',
+        alt: 'WeekendMaxMara',
+      },
+      {
+        id: 4,
+        src: '/butiks/womenClothing/WeekendMaxMara/4.jpg',
         alt: 'WeekendMaxMara',
       },
     ],
@@ -1830,7 +1898,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/shoesAndBags/Dance/logo.png',
+        src: '/butiks/shoesAndBags/Dance/1.jpg',
         alt: 'Dance',
       },
     ],
@@ -1852,7 +1920,22 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/clocks/ZOTTY/1.jpg',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 2,
+        src: '/butiks/clocks/ZOTTY/2.jpg',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 3,
+        src: '/butiks/clocks/ZOTTY/3.jpg',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 4,
+        src: '/butiks/clocks/ZOTTY/4.jpg',
         alt: 'ZOTTY',
       },
     ],
@@ -1874,7 +1957,12 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/womenClothing/Fresh/1.jpg',
+        alt: 'Fresh',
+      },
+      {
+        id: 2,
+        src: '/butiks/womenClothing/Fresh/2.jpg',
         alt: 'Fresh',
       },
     ],
@@ -1882,8 +1970,8 @@ export const butiks = [
     description2: '',
     description3: '',
     floor: '3 этаж',
-    tel: '',
-    telUrl: '',
+    tel: '+7 988 244 07 43',
+    telUrl: '89882440743',
     instagram: '',
   },
   {
@@ -1904,8 +1992,8 @@ export const butiks = [
       'Guess объединил голливудский шик и европейскую элегантность, а звёздные кампании с Клаудией Шиффер, Летицией Каста, Наоми Кэмпбелл и другими сделали глэм-эстетику от Guess известной на весь мир. Сегодня бренд с узнаваемым треугольным лого верен себе и выпускает мужские, женские и детские коллекции одежды, обуви и аксессуаров для тех, кто хочет выглядеть эффектно и неотразимо.',
     description3: '',
     floor: '2 этаж',
-    tel: '',
-    telUrl: '',
+    tel: '+7 967 663 99 95',
+    telUrl: '89676639995',
     instagram: '',
   },
 
