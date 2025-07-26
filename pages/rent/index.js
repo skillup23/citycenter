@@ -1,20 +1,20 @@
-import Layout from '@/components/Layout';
-import Popup from '@/components/Popup';
-import Image from 'next/image';
-import React, { useState } from 'react';
-import noimg from '@/public/butiks/loaderImg.png';
-import Link from 'next/link';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { BsFilePdf } from 'react-icons/bs';
+import Layout from "@/components/Layout";
+import Popup from "@/components/Popup";
+import noimg from "@/public/butiks/loaderImg.png";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import { BsFilePdf } from "react-icons/bs";
+import { FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
 
 function Rent() {
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
     src: noimg,
-    alt: 'Описание',
+    alt: "Описание",
   });
 
   function test(id, src, alt) {
@@ -25,18 +25,18 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-4-floor.jpg',
-      alt: '1 этаж',
+      src: "/rent_img/1-4-floor.jpg",
+      alt: "1 этаж",
     },
     {
       id: 2,
-      src: '/rent_img/2-4-floor.jpg',
-      alt: '2 этаж',
+      src: "/rent_img/2-4-floor.jpg",
+      alt: "2 этаж",
     },
     {
       id: 3,
-      src: '/rent_img/3-4-floor.jpg',
-      alt: '3 этаж',
+      src: "/rent_img/3-4-floor.jpg",
+      alt: "3 этаж",
     },
   ];
 
@@ -93,7 +93,7 @@ function Rent() {
 
           <div className="flex flex-wrap gap-6 justify-center">
             <Link
-              href="/docs/Презентация СИТИЦЕНТР 24.02.2025.pdf"
+              href="/docs/Презентация СИТИЦЕНТР 26.07.2025.pdf"
               target="_blank"
               className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
             >
