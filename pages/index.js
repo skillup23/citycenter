@@ -377,7 +377,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_1.mp4'} />
+              <VideoMain videoLink={'/site_img/city_FHD_4.mp4'} />
             </div>
           </div>
 
