@@ -7,7 +7,7 @@ import VideoMain from '@/components/VideoMain';
 import YandexMap from '@/components/YandexMap';
 import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
 import news45 from '@/public/news/45.jpg';
-import news46 from '@/public/news/46.jpg';
+import news46 from '@/public/news/43.jpg';
 import news47 from '@/public/news/47.jpg';
 import news44 from '@/public/news/44.jpg';
 import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
@@ -126,7 +126,7 @@ export default function Home() {
                 style={{ width: '100%', height: '100%' }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/46.jpg")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/43.jpg")]'></div>
             </Link>
             <Link
               href="/news#new3"
