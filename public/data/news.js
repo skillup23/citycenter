@@ -20,8 +20,18 @@ import news44 from '@/public/news/44.jpg';
 import news45 from '@/public/news/45.jpg';
 import news46 from '@/public/news/46.jpg';
 import news47 from '@/public/news/47.jpg';
+import news48 from '@/public/news/48.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news48,
+    text: [
+      'Яркие краски осени с FREYWILLE',
+      'Только с 27 августа по 10 сентября 2025 при покупке двух изделий действует дополнительная скидка 10% к карте клиента',
+      'Раскрасьте свою осень красками, дополнив свой образ украшениями с драгоценной эмалью от австрийского бренда FREYWILLE',
+    ],
+  },
   {
     id: id++,
     img1: news47,
