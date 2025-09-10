@@ -1920,22 +1920,47 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/clocks/ZOTTY/1.jpg',
+        src: '/butiks/clocks/ZOTTY/1n.webp',
         alt: 'ZOTTY',
       },
       {
         id: 2,
-        src: '/butiks/clocks/ZOTTY/2.jpg',
+        src: '/butiks/clocks/ZOTTY/2n.webp',
         alt: 'ZOTTY',
       },
       {
         id: 3,
-        src: '/butiks/clocks/ZOTTY/3.jpg',
+        src: '/butiks/clocks/ZOTTY/3n.webp',
         alt: 'ZOTTY',
       },
       {
         id: 4,
-        src: '/butiks/clocks/ZOTTY/4.jpg',
+        src: '/butiks/clocks/ZOTTY/4n.webp',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 5,
+        src: '/butiks/clocks/ZOTTY/5n.webp',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 6,
+        src: '/butiks/clocks/ZOTTY/6n.webp',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 7,
+        src: '/butiks/clocks/ZOTTY/7n.webp',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 8,
+        src: '/butiks/clocks/ZOTTY/8n.webp',
+        alt: 'ZOTTY',
+      },
+      {
+        id: 9,
+        src: '/butiks/clocks/ZOTTY/9n.webp',
         alt: 'ZOTTY',
       },
     ],
