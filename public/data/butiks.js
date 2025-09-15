@@ -1930,7 +1930,7 @@ export const butiks = [
       },
       {
         id: 3,
-        src: '/butiks/clocks/ZOTTY/3n.webp',
+        src: '/butiks/clocks/ZOTTY/3nn.webp',
         alt: 'ZOTTY',
       },
       {
@@ -1940,12 +1940,12 @@ export const butiks = [
       },
       {
         id: 5,
-        src: '/butiks/clocks/ZOTTY/5n.webp',
+        src: '/butiks/clocks/ZOTTY/5nn.webp',
         alt: 'ZOTTY',
       },
       {
         id: 6,
-        src: '/butiks/clocks/ZOTTY/6n.webp',
+        src: '/butiks/clocks/ZOTTY/6nn.webp',
         alt: 'ZOTTY',
       },
       {
