@@ -6,7 +6,7 @@ import SliderMain from '@/components/SliderMain';
 import VideoMain from '@/components/VideoMain';
 import YandexMap from '@/components/YandexMap';
 import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
-import news45 from '@/public/news/45.jpg';
+import news50 from '@/public/news/50.jpg';
 import news48 from '@/public/news/48.jpg';
 import news47 from '@/public/news/47.jpg';
 import news49 from '@/public/news/49.jpg';
@@ -105,6 +105,20 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news50}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/50.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new2"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news49}
                 alt="Новость"
                 width="0"
@@ -115,7 +129,7 @@ export default function Home() {
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/49.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new2"
+              href="/news#new3"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -129,7 +143,7 @@ export default function Home() {
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/48.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new3"
+              href="/news#new4"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -141,21 +155,6 @@ export default function Home() {
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/47.jpg")]'></div>
-            </Link>
-
-            <Link
-              href="/news#new4"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news45}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/45.jpg")]'></div>
             </Link>
           </div>
         </div>

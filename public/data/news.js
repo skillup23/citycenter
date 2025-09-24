@@ -22,8 +22,20 @@ import news46 from '@/public/news/46.jpg';
 import news47 from '@/public/news/47.jpg';
 import news48 from '@/public/news/48.jpg';
 import news49 from '@/public/news/49.jpg';
+import news50 from '@/public/news/50.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news50,
+    text: [
+      'Открытие Магазина Evergreen',
+      '3 этаж',
+      <a href="#" key={'1'} className="underline-news">
+        Ознакомиться с информацией
+      </a>,
+    ],
+  },
   {
     id: id++,
     img1: news49,

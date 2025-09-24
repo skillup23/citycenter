@@ -2021,6 +2021,46 @@ export const butiks = [
     telUrl: '89676639995',
     instagram: '',
   },
+  {
+    id: id++,
+    category: 'interior',
+    url: 'Evergreen',
+    logo: '/butiks/interior/Evergreen/logo.jpg',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImg.png',
+        alt: 'Evergreen',
+      },
+    ],
+    description1: '',
+    description2: '',
+    description3: '',
+    floor: '3 этаж',
+    tel: '+7 918 137 12 04',
+    telUrl: '89181371204',
+    instagram: '',
+  },
+  //   {
+  //   id: id++,
+  //   category: 'kafeAndRestoran',
+  //   url: 'MiuCity',
+  //   logo: '/butiks/kafe/MiuCity/logo.jpg',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/loaderImg.png',
+  //       alt: 'MiuCity',
+  //     },
+  //   ],
+  //   description1: '',
+  //   description2: '',
+  //   description3: '',
+  //   floor: '1 этаж',
+  //   tel: '+7 918 120 00 13',
+  //   telUrl: '89181200013',
+  //   instagram: '',
+  // },
 
   //Удаленные
   // {

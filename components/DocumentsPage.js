@@ -57,7 +57,7 @@ function DocumentsPage() {
       <div
         className={`${
           isGeneralDocs ? '' : 'hidden'
-        } mt-14 flex flex-col gap-4 md:gap-8`}
+        } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
           href={
@@ -78,12 +78,19 @@ function DocumentsPage() {
           title={'Правила посещения ТРК\u00A0«Сити\u00A0Центр»'}
           date={'Версия от 31.07.2025'}
         />
+        <DocumentPdf
+          href={'/docs/archive25-09-23.zip'}
+          title={
+            'СТИМУЛИРУЮЩАЯ АКЦИЯ «День рождения ТРК\u00A0«Сити\u00A0Центр»'
+          }
+          date={'скачать zip-архив с информацией'}
+        />
       </div>
 
       <div
         className={`${
           isPersonalData ? '' : 'hidden'
-        } mt-14 flex flex-col gap-4 md:gap-8`}
+        } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
           href={'/docs/Политика перс данных.pdf'}
@@ -100,7 +107,7 @@ function DocumentsPage() {
       <div
         className={`${
           isArchDocs ? '' : 'hidden'
-        } mt-14 flex flex-col gap-4 md:gap-8`}
+        } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
           href={
