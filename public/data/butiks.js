@@ -2029,13 +2029,24 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/interior/Evergreen/1.jpg',
+        alt: 'Evergreen',
+      },
+      {
+        id: 2,
+        src: '/butiks/interior/Evergreen/2.jpg',
+        alt: 'Evergreen',
+      },
+      {
+        id: 3,
+        src: '/butiks/interior/Evergreen/3.jpg',
         alt: 'Evergreen',
       },
     ],
-    description1: '',
-    description2: '',
-    description3: '',
+    description1: 'Новая локация в ТРК «СИТИ ЦЕНТР» — Evergreen 🪴',
+    description2:
+      'Букеты и композиции, фитостены, озеленение интерьеров, стильные кашпо и растения для любых пространств. Здесь каждая деталь создана для того, чтобы наполнять жизнь гармонией и эстетикой!',
+    description3: 'Evergreen ждёт вас на 3 этаже 🤍',
     floor: '3 этаж',
     tel: '+7 918 137 12 04',
     telUrl: '89181371204',
