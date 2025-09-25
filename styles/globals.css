@@ -30,6 +30,15 @@
   .link_kino {
     @apply flex w-1/4 items-center justify-center py-4 bg-white text-black ease-in duration-200 hover:bg-black hover:text-white;
   }
+  .show_room_title {
+    @apply text-4xl md:text-5xl lg:text-6xl xl:text-[5.5vw] 2xl:text-[5.3vw] leading-none;
+  }
+  .show_room_subtitle {
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-[5.1vw] 2xl:text-[5vw] leading-none;
+  }
+  .show_room_text {
+    @apply text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none;
+  }
 
   @media (min-width: 640px) {
     .title_main {
@@ -100,6 +109,12 @@ a {
 
 ::-webkit-scrollbar-thumb {
   background-color: #1e191a;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }
 
 .yaMapMain {
