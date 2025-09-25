@@ -127,6 +127,43 @@ const sliderCenter = [
   // },
 ];
 
+// __________________Стилисты Шоурум____________________
+const stilistShowRoom = [
+  {
+    id: 1,
+    foto: '/showroom_img/s1.png',
+    title: 'АННА ПИНЧУК',
+    subtitle: 'СТИЛИСТ-ИМИДЖМЕЙКЕР',
+    text: [
+      'Аудитория: мужчины и женщины 35-40+',
+      'Шопинг занимает 2 часа',
+      'Стоимость: 7.800₽/час ( для нас 5.000₽/час )',
+    ],
+    image: [
+      {
+        id: 1,
+        src: '/showroom_img/s1-1.png',
+        alt: 'пример 1',
+      },
+      {
+        id: 2,
+        src: '/showroom_img/s1-2.png',
+        alt: 'пример 2',
+      },
+      {
+        id: 3,
+        src: '/showroom_img/s1-3.png',
+        alt: 'пример 3',
+      },
+      {
+        id: 4,
+        src: '/showroom_img/s1-4.png',
+        alt: 'пример 4',
+      },
+    ],
+  },
+];
+
 // _______Список Бутиков на Главной_____________
 
 const shopList = [
@@ -597,4 +634,5 @@ export {
   sliderCenter,
   sliderTop,
   starsInCity,
+  stilistShowRoom,
 };
