@@ -1,13 +1,13 @@
-import FormShowRoom from '@/components/FormShowRoom';
-import Layout from '@/components/Layout';
-import { stilistShowRoom } from '@/public/data/data';
-import Image from 'next/image';
-import Link from 'next/link';
+import FormShowRoom from "@/components/FormShowRoom";
+import Layout from "@/components/Layout";
+import { stilistShowRoom } from "@/public/data/data";
+import Image from "next/image";
+import Link from "next/link";
 
 function ShowRoom() {
   return (
     <Layout title="Шоурум для VIP‑клиентов">
-      <div className="h-[89vh] bg-[url('/showroom_img/showroomMain.png')]"></div>
+      <div className="h-[89vh] bg-[url('/showroom_img/showroomMain.png')] bg-cover"></div>
 
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
@@ -58,7 +58,7 @@ function ShowRoom() {
                         alt={id}
                         width="700"
                         height="700"
-                        style={{ width: '100%', height: '100%' }}
+                        style={{ width: "100%", height: "100%" }}
                         priority
                       />
                     </div>
@@ -72,7 +72,7 @@ function ShowRoom() {
                         alt={alt}
                         width="500"
                         height="500"
-                        style={{ width: '100%', height: '100%' }}
+                        style={{ width: "100%", height: "100%" }}
                         priority
                       />
                     ))}

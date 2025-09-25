@@ -1,23 +1,23 @@
-import { useState } from 'react';
-import axios from 'axios';
-import Link from 'next/link';
+import axios from "axios";
+import Link from "next/link";
+import { useState } from "react";
 
 function FormShowRoom() {
   const [userInput, setUserInput] = useState({
-    nameClient: '',
-    phone: '',
-    stilist: '',
+    nameClient: "",
+    phone: "",
+    stilist: "",
     agreement: false,
-    error: '',
+    error: "",
     success: false,
   });
 
-  const [toastMessage, setToastMessage] = useState('');
-  const [toastType, setToastType] = useState('');
+  const [toastMessage, setToastMessage] = useState("");
+  const [toastType, setToastType] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    if (name === 'agreement') {
+    if (name === "agreement") {
       setUserInput({
         ...userInput,
         [name]: e.target.checked,
@@ -35,28 +35,28 @@ function FormShowRoom() {
     clearToast();
 
     if (!userInput.agreement) {
-      showToast('Необходимо согласиться с обработкой данных', 'error');
+      showToast("Необходимо согласиться с обработкой данных", "error");
       return;
     }
 
     try {
-      const response = await axios.post('/api/send-telegram', userInput);
+      const response = await axios.post("/api/send-telegram", userInput);
 
       if (response.status === 200) {
-        showToast('Сообщение успешно отправлено!', 'success');
+        showToast("Сообщение успешно отправлено!", "success");
         setUserInput({
-          nameClient: '',
-          phone: '',
-          stilist: '',
+          nameClient: "",
+          phone: "",
+          stilist: "",
           agreement: false,
-          error: '',
+          error: "",
           success: false,
         });
       } else {
-        showToast('Произошла ошибка при отправке', 'error');
+        showToast("Произошла ошибка при отправке", "error");
       }
     } catch (error) {
-      showToast('Произошла ошибка при отправке', 'error');
+      showToast("Произошла ошибка при отправке", "error");
     }
   };
 
@@ -69,8 +69,8 @@ function FormShowRoom() {
   };
 
   const clearToast = () => {
-    setToastMessage('');
-    setToastType('');
+    setToastMessage("");
+    setToastType("");
   };
 
   return (
@@ -108,7 +108,7 @@ function FormShowRoom() {
             className="w-1/3 px-2 text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
             required
           >
-            <option value="">выбрать стилиста</option>
+            <option value="">ВЫБРАТЬ СТИЛИСТА</option>
             <option value="АННА ПИНЧУК">АННА ПИНЧУК</option>
             <option value="ГАЛИНА ДЕБРОВА">ГАЛИНА ДЕБРОВА</option>
             <option value="МАРИНА КЛИМЕНКО">МАРИНА КЛИМЕНКО</option>
@@ -128,9 +128,9 @@ function FormShowRoom() {
               required
             />
             <p className="text-[1.4vw]">
-              Я согласен на обработку{' '}
+              Я согласен на обработку{" "}
               <Link
-                href={'/docs/Политика перс данных.pdf'}
+                href={"/docs/Политика перс данных.pdf"}
                 target="_blank"
                 className="hover:underline"
               >
@@ -140,7 +140,7 @@ function FormShowRoom() {
           </label>
           <button
             type="submit"
-            className="w-1/3 text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
+            className="w-1/3 py-1 text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
           >
             Отправить
           </button>
