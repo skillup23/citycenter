@@ -1618,7 +1618,7 @@ export const butiks = [
     id: id++,
     category: 'children gameCategory',
     url: 'ChildrenInCity',
-    logo: '/butiks/children/ChildrenInCity/logo.png',
+    logo: '/butiks/children/ChildrenInCity/logo1.png',
     image: [
       {
         id: 1,
@@ -1657,16 +1657,16 @@ export const butiks = [
       },
     ],
     description1:
-      '«Дети в Сити» — это уникальный проект премиального уровня, который предлагает высококлассный отдых и развлечения детям до 12 лет.',
+      'Популярные в Сити — это уникальный проект премиального уровня, который предлагает высококлассный отдых и развлечения детям до 12 лет.',
     description2:
       'Площадь центра составляет более 1 000 кв.м. игрового пространства, уединенных комнат для проведения Дней рождения и других мероприятий, кафе и бара для детей, а также зон для мастер-классов.',
-    description3: `Кроме того, в «Дети в Сити» на постоянной основе работает профессиональная команда аниматоров, которые помогают в организации детского досуга и его воплощении в жизнь.`,
+    description3: `Кроме того, в Популярные в Сити на постоянной основе работает профессиональная команда аниматоров, которые помогают в организации детского досуга и его воплощении в жизнь.`,
     floor: '3 этаж',
-    tel: '+7 918 012 26 23',
-    telUrl: '89180122623',
+    tel: '+7 918 333 17 77',
+    telUrl: '89183331777',
     instagram: '',
-    otherInfo: 'https://detivcity.ru/',
-    textOtherInfo: 'Сайт «Дети В СИТИ»',
+    // otherInfo: 'https://detivcity.ru/',
+    // textOtherInfo: 'Сайт «Дети В СИТИ»',
   },
   {
     id: id++,
@@ -2052,26 +2052,26 @@ export const butiks = [
     telUrl: '89181371204',
     instagram: '',
   },
-  //   {
-  //   id: id++,
-  //   category: 'kafeAndRestoran',
-  //   url: 'MiuCity',
-  //   logo: '/butiks/kafe/MiuCity/logo.jpg',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/loaderImg.png',
-  //       alt: 'MiuCity',
-  //     },
-  //   ],
-  //   description1: '',
-  //   description2: '',
-  //   description3: '',
-  //   floor: '1 этаж',
-  //   tel: '+7 918 120 00 13',
-  //   telUrl: '89181200013',
-  //   instagram: '',
-  // },
+  {
+    id: id++,
+    category: 'kafeAndRestoran',
+    url: 'MiuCity',
+    logo: '/butiks/kafe/MiuCity/logo1.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/loaderImg.png',
+        alt: 'MiuCity',
+      },
+    ],
+    description1: '',
+    description2: '',
+    description3: '',
+    floor: '1 этаж',
+    tel: '+7 918 120 00 13',
+    telUrl: '89181200013',
+    instagram: '',
+  },
 
   //Удаленные
   // {
