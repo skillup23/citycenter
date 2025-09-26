@@ -162,6 +162,171 @@ const stilistShowRoom = [
       },
     ],
   },
+  {
+    id: 2,
+    foto: '/showroom_img/s2.png',
+    title: 'ГАЛИНА ДЕБРОВА',
+    subtitle: 'МУЖСКОЙ СТИЛИСТ',
+    text: [
+      'Аудитория: мужчины 38+',
+      'Шопинг занимает 2-3 часа',
+      'Стоимость: 30.000₽ ( для нас 15.000-20.000₽ )',
+    ],
+    image: [
+      {
+        id: 1,
+        src: '/showroom_img/s2-1.jpg',
+        alt: 'пример 1',
+      },
+      {
+        id: 2,
+        src: '/showroom_img/s2-2.jpg',
+        alt: 'пример 2',
+      },
+      {
+        id: 3,
+        src: '/showroom_img/s2-3.jpg',
+        alt: 'пример 3',
+      },
+      {
+        id: 4,
+        src: '/showroom_img/s2-4.jpg',
+        alt: 'пример 4',
+      },
+    ],
+  },
+  {
+    id: 3,
+    foto: '/showroom_img/s3.png',
+    title: 'МАРИНА КЛИМЕНКО',
+    subtitle: 'СТИЛИСТ',
+    text: [
+      'Аудитория: женщины и мужчины 30+',
+      'Шопинг занимает 2-3 часа',
+      'Стоимость: 5.000₽/час',
+    ],
+    image: [
+      {
+        id: 1,
+        src: '/showroom_img/s3-1.png',
+        alt: 'пример 1',
+      },
+      {
+        id: 2,
+        src: '/showroom_img/s3-2.png',
+        alt: 'пример 2',
+      },
+      {
+        id: 3,
+        src: '/showroom_img/s3-3.png',
+        alt: 'пример 3',
+      },
+      {
+        id: 4,
+        src: '/showroom_img/s3-4.png',
+        alt: 'пример 4',
+      },
+    ],
+  },
+  {
+    id: 4,
+    foto: '/showroom_img/s4.png',
+    title: 'АНЖЕЛИКА ВАРТАНЬЯН',
+    subtitle: 'СТИЛИСТ',
+    text: [
+      'Аудитория: женщины и мужчины от 23 до 60 лет',
+      'Шопинг занимает 2-3 часа',
+      'Стоимость: 20.000₽/час ( для нас каждый последующий 3.000₽ )',
+    ],
+    image: [
+      {
+        id: 1,
+        src: '/showroom_img/s4-1.jpg',
+        alt: 'пример 1',
+      },
+      {
+        id: 2,
+        src: '/showroom_img/s4-2.jpg',
+        alt: 'пример 2',
+      },
+      {
+        id: 3,
+        src: '/showroom_img/s4-3.jpg',
+        alt: 'пример 3',
+      },
+      {
+        id: 4,
+        src: '/showroom_img/s4-4.jpg',
+        alt: 'пример 4',
+      },
+    ],
+  },
+  {
+    id: 5,
+    foto: '/showroom_img/s5.png',
+    title: 'ЛИЛИАНА МУС',
+    subtitle: 'СТИЛИСТ',
+    text: [
+      'Аудитория: женщины любого возраста',
+      'Шопинг занимает 2-3 часа, возможен онлайн персональный шопинг',
+      'Стоимость: Образ - от 5.000₽, подбор гардероба - от 20.000₽',
+    ],
+    image: [
+      {
+        id: 1,
+        src: '/showroom_img/s5-1.jpg',
+        alt: 'пример 1',
+      },
+      {
+        id: 2,
+        src: '/showroom_img/s5-2.jpg',
+        alt: 'пример 2',
+      },
+      {
+        id: 3,
+        src: '/showroom_img/s5-3.jpg',
+        alt: 'пример 3',
+      },
+      {
+        id: 4,
+        src: '/showroom_img/s5-4.jpg',
+        alt: 'пример 4',
+      },
+    ],
+  },
+  {
+    id: 6,
+    foto: '/showroom_img/s6.png',
+    title: 'СВЕТЛАНА КОШИКОВА',
+    subtitle: 'СТИЛИСТ',
+    text: [
+      'Аудитория: мужчины и женщины любого возраста',
+      'Шопинг занимает 1,5 часа',
+      'Стоимость: 15.000₽',
+    ],
+    image: [
+      {
+        id: 1,
+        src: '/showroom_img/s6-1.jpg',
+        alt: 'пример 1',
+      },
+      {
+        id: 2,
+        src: '/showroom_img/s6-2.jpg',
+        alt: 'пример 2',
+      },
+      {
+        id: 3,
+        src: '/showroom_img/s6-3.jpg',
+        alt: 'пример 3',
+      },
+      {
+        id: 4,
+        src: '/showroom_img/s6-4.jpg',
+        alt: 'пример 4',
+      },
+    ],
+  },
 ];
 
 // _______Список Бутиков на Главной_____________

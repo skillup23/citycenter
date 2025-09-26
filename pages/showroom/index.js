@@ -1,8 +1,8 @@
-import FormShowRoom from "@/components/FormShowRoom";
-import Layout from "@/components/Layout";
-import { stilistShowRoom } from "@/public/data/data";
-import Image from "next/image";
-import Link from "next/link";
+import FormShowRoom from '@/components/FormShowRoom';
+import Layout from '@/components/Layout';
+import { stilistShowRoom } from '@/public/data/data';
+import Image from 'next/image';
+import Link from 'next/link';
 
 function ShowRoom() {
   return (
@@ -11,7 +11,7 @@ function ShowRoom() {
 
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
-          <h1 className="mt-20 mb-20 show_room_title text-center">
+          <h1 className="mt-20 mb-20 show_room_title">
             VIP SHowroom - это новый уровень шопинга
           </h1>
 
@@ -35,46 +35,47 @@ function ShowRoom() {
           <div>
             {stilistShowRoom.map(
               ({ id, foto, title, subtitle, image, text }) => (
-                <div key={id}>
-                  <div className="flex justify-between gap-36">
+                <div key={id} className="mb-40 flex justify-between gap-5">
+                  <div className="w-1/2 flex flex-col justify-between">
+                    <div className="w-full">
+                      <Image
+                        src={foto}
+                        alt={id}
+                        width="400"
+                        height="800"
+                        style={{ width: '100%', height: '100%' }}
+                        priority
+                      />
+                    </div>
+                    <h4 className="show_room_title">{title}</h4>
+                    <p className="show_room_text">{subtitle}</p>
                     <div>
-                      <h4 className="mt-24 show_room_title">{title}</h4>
-                      <p className="mb-20 show_room_text">{subtitle}</p>
                       {text.map((item, index) => (
                         <p key={index} className="show_room_text">
                           {item}
                         </p>
                       ))}
+                    </div>
 
-                      <Link href="/showroom#formfeed">
-                        <div className="mt-20 py-4 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center hover:bg-[#1e1a1b] hover:text-white border-white border">
-                          заказать услугу
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="w-2/5">
-                      <Image
-                        src={foto}
-                        alt={id}
-                        width="700"
-                        height="700"
-                        style={{ width: "100%", height: "100%" }}
-                        priority
-                      />
-                    </div>
+                    <Link href="/showroom#formfeed">
+                      <div className="py-4 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center hover:bg-[#1e1a1b] hover:text-white border-white border">
+                        заказать услугу
+                      </div>
+                    </Link>
                   </div>
 
-                  <div className="mt-20 flex gap-4">
+                  <div className="w-1/2 grid grid-cols-2 gap-5">
                     {image.map(({ src, alt, id }) => (
-                      <Image
-                        key={id}
-                        src={src}
-                        alt={alt}
-                        width="500"
-                        height="500"
-                        style={{ width: "100%", height: "100%" }}
-                        priority
-                      />
+                      <div key={id}>
+                        <Image
+                          src={src}
+                          alt={alt}
+                          width="416"
+                          height="834"
+                          style={{ width: '100%', height: '100%' }}
+                          priority
+                        />
+                      </div>
                     ))}
                   </div>
                 </div>
