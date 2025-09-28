@@ -77,13 +77,13 @@ function FormShowRoom() {
     <>
       <form
         onSubmit={handleSubmit}
-        className="w-full mt-20 flex flex-col gap-16"
+        className="w-full mt-6 sm:mt-20 flex flex-col gap-8 sm:gap-16"
       >
-        <div className="flex gap-40">
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-20 lg:gap-40">
           <input
             type="text"
             name="nameClient"
-            className="w-1/3 px-2 text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
+            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
             value={userInput.nameClient}
             onChange={handleChange}
             required
@@ -91,21 +91,22 @@ function FormShowRoom() {
           />
           <input
             type="tel"
+            pattern="[0-9]*"
             name="phone"
             value={userInput.phone}
             onChange={handleChange}
-            className="w-1/3 px-2 text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
+            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
             required
             placeholder="ТЕЛЕФОН"
           />
         </div>
-        <div className="flex w-full">
+        <div className="w-full flex flex-col sm:flex-row ">
           <select
             name="stilist"
             id="stilist"
             value={userInput.stilist}
             onChange={handleChange}
-            className="w-1/3 px-2 text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
+            className="w-full sm:w-1/3 px-1 sm:px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
             required
           >
             <option value="">ВЫБРАТЬ СТИЛИСТА</option>
@@ -117,17 +118,17 @@ function FormShowRoom() {
             <option value="СВЕТЛАНА КОШИКОВА">СВЕТЛАНА КОШИКОВА</option>
           </select>
         </div>
-        <div className="w-full flex gap-40">
-          <label className="flex w-1/3 gap-4 items-center">
+        <div className="w-full flex flex-col sm:flex-row gap-20 lg:gap-40">
+          <label className="flex w-full sm:w-1/3 gap-4 items-center">
             <input
               type="checkbox"
               name="agreement"
               checked={userInput.agreement}
               onChange={handleChange}
-              className="w-8 h-8"
+              className="w-8 h-8 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
               required
             />
-            <p className="text-[1.4vw]">
+            <p className="text-xl sm:text-[1.4vw]">
               Я согласен на обработку{" "}
               <Link
                 href={"/docs/Политика перс данных.pdf"}
@@ -140,7 +141,7 @@ function FormShowRoom() {
           </label>
           <button
             type="submit"
-            className="w-1/3 py-1 text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
+            className="w-full sm:w-1/3 py-2 sm:py-1 mb-20 sm:mb-0 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
           >
             Отправить
           </button>
@@ -161,9 +162,9 @@ export default FormShowRoom;
 export const styles = {
   toast: `
  position: fixed;
- bottom: 20px;
+ bottom: 10px;
  right: 20px;
- padding: 15px 20px;
+ padding: 10px 15px;
  border-radius: 5px;
  font-size: 14px;
  cursor: pointer;
