@@ -1,23 +1,23 @@
-import axios from "axios";
-import Link from "next/link";
-import { useState } from "react";
+import axios from 'axios';
+import Link from 'next/link';
+import { useState } from 'react';
 
 function FormShowRoom() {
   const [userInput, setUserInput] = useState({
-    nameClient: "",
-    phone: "",
-    stilist: "",
+    nameClient: '',
+    phone: '',
+    stilist: '',
     agreement: false,
-    error: "",
+    error: '',
     success: false,
   });
 
-  const [toastMessage, setToastMessage] = useState("");
-  const [toastType, setToastType] = useState("");
+  const [toastMessage, setToastMessage] = useState('');
+  const [toastType, setToastType] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    if (name === "agreement") {
+    if (name === 'agreement') {
       setUserInput({
         ...userInput,
         [name]: e.target.checked,
@@ -35,28 +35,28 @@ function FormShowRoom() {
     clearToast();
 
     if (!userInput.agreement) {
-      showToast("Необходимо согласиться с обработкой данных", "error");
+      showToast('Необходимо согласиться с обработкой данных', 'error');
       return;
     }
 
     try {
-      const response = await axios.post("/api/send-telegram", userInput);
+      const response = await axios.post('/api/send-telegram', userInput);
 
       if (response.status === 200) {
-        showToast("Сообщение успешно отправлено!", "success");
+        showToast('Сообщение успешно отправлено!', 'success');
         setUserInput({
-          nameClient: "",
-          phone: "",
-          stilist: "",
+          nameClient: '',
+          phone: '',
+          stilist: '',
           agreement: false,
-          error: "",
+          error: '',
           success: false,
         });
       } else {
-        showToast("Произошла ошибка при отправке", "error");
+        showToast('Произошла ошибка при отправке', 'error');
       }
     } catch (error) {
-      showToast("Произошла ошибка при отправке", "error");
+      showToast('Произошла ошибка при отправке', 'error');
     }
   };
 
@@ -69,8 +69,8 @@ function FormShowRoom() {
   };
 
   const clearToast = () => {
-    setToastMessage("");
-    setToastType("");
+    setToastMessage('');
+    setToastType('');
   };
 
   return (
@@ -83,7 +83,7 @@ function FormShowRoom() {
           <input
             type="text"
             name="nameClient"
-            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
+            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b-2 border-white"
             value={userInput.nameClient}
             onChange={handleChange}
             required
@@ -95,7 +95,7 @@ function FormShowRoom() {
             name="phone"
             value={userInput.phone}
             onChange={handleChange}
-            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
+            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b-2 border-white"
             required
             placeholder="ТЕЛЕФОН"
           />
@@ -106,7 +106,7 @@ function FormShowRoom() {
             id="stilist"
             value={userInput.stilist}
             onChange={handleChange}
-            className="w-full sm:w-1/3 px-1 sm:px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white border-b-2 border-white"
+            className="w-full sm:w-1/3 px-1 sm:px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b-2 border-white"
             required
           >
             <option value="">ВЫБРАТЬ СТИЛИСТА</option>
@@ -118,7 +118,7 @@ function FormShowRoom() {
             <option value="СВЕТЛАНА КОШИКОВА">СВЕТЛАНА КОШИКОВА</option>
           </select>
         </div>
-        <div className="w-full flex flex-col sm:flex-row gap-20 lg:gap-40">
+        <div className="w-full flex flex-col sm:flex-row gap-12 lg:gap-40">
           <label className="flex w-full sm:w-1/3 gap-4 items-center">
             <input
               type="checkbox"
@@ -128,12 +128,12 @@ function FormShowRoom() {
               className="w-8 h-8 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
               required
             />
-            <p className="text-xl sm:text-[1.4vw]">
-              Я согласен на обработку{" "}
+            <p className="text-lg sm:text-[1.4vw]">
+              Я согласен на обработку{' '}
               <Link
-                href={"/docs/Политика перс данных.pdf"}
+                href={'/docs/Политика перс данных.pdf'}
                 target="_blank"
-                className="hover:underline"
+                className="underline"
               >
                 персональных данных
               </Link>
@@ -141,7 +141,7 @@ function FormShowRoom() {
           </label>
           <button
             type="submit"
-            className="w-full sm:w-1/3 py-2 sm:py-1 mb-20 sm:mb-0 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
+            className="w-full sm:w-1/3 py-2 sm:py-2 mb-10 sm:mb-0 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
           >
             Отправить
           </button>
@@ -149,7 +149,10 @@ function FormShowRoom() {
       </form>
 
       {toastMessage && (
-        <div className={`toast text-[2vw] ${toastType}`} onClick={clearToast}>
+        <div
+          className={`toast mb-4 text-lg text-center sm:text-start sm:text-[2vw] ${toastType}`}
+          onClick={clearToast}
+        >
           {toastMessage}
         </div>
       )}
@@ -166,7 +169,7 @@ export const styles = {
  right: 20px;
  padding: 10px 15px;
  border-radius: 5px;
- font-size: 14px;
+ font-size: 16px;
  cursor: pointer;
  z-index: 9999;
  `,
