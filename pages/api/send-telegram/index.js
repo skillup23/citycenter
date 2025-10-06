@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
-    const { nameClient, phone, stilist, agreement } = req.body;
+    const { nameClient, phone, stilist, comment, agreement } = req.body;
 
     // Replace with your actual bot token and chat ID
     const botToken = process.env.TELEGRAM_BOT_TOKEN;
@@ -14,6 +14,7 @@ export default async function handler(req, res) {
       Новое сообщение от ${nameClient} \n
 Телефон: ${phone} \n
 Выбранный стилист: ${stilist} \n
+Комментарий: ${comment} \n
 Согласие на обработку ПД: ${agreement}
     `;
 
