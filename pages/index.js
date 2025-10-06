@@ -17,6 +17,8 @@ import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
+import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
+import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
 
 export default function Home() {
   return (
@@ -164,8 +166,29 @@ export default function Home() {
 
       <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-12 sm:-mt-10 mb-10">БУТИКИ</h2>
+          <h2 className="title_main mt-12 sm:-mt-10 mb-6 sm:mb-10">БУТИКИ</h2>
           <ShopListMain items={shopList} />
+        </div>
+
+        <div className="lg:container mx-auto mt-10 sm:mt-20">
+          <Link href="/showroom">
+            <Image
+              src={imgShowroom}
+              alt="Шоурум ссылка"
+              width="0"
+              height="0"
+              className="hidden sm:block"
+              priority
+            />
+            <Image
+              src={imgShowroomMob}
+              alt="Шоурум ссылка"
+              width="0"
+              height="0"
+              className="block sm:hidden"
+              priority
+            />
+          </Link>
         </div>
       </section>
 
@@ -367,7 +390,7 @@ export default function Home() {
         <div className="lg:container mx-auto sm:pr-5">
           <div className="flex flex-col sm:flex-row mt-12 sm:mt-20 px-3 sm:px-0 gap-10">
             <div className="w-full sm:w-[55%]">
-              <h2 className="title_main mb-10 -mt-4">О НАС</h2>
+              <h2 className="title_main mb-6 sm:mb-10 -mt-4">О НАС</h2>
               <p className="text-left mr-auto text-2xl sm:text-3xl lg:text-4xl ">
                 ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
                 впечатлений и эстетики. Здесь Вас ждут магазины премиальных
@@ -467,7 +490,7 @@ export default function Home() {
 
       <section className="mt-20">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-20 mb-10 md:mb-0">КОНТАКТЫ</h2>
+          <h2 className="title_main mt-20 mb-6 sm:mb-10 md:mb-0">КОНТАКТЫ</h2>
           <div className="pr-5 flex flex-col md:flex-row gap-12">
             <div className="flex flex-col w-fill md:w-1/3 pl-3 justify-between gap-5">
               <div className="flex flex-row w-fill items-center">
