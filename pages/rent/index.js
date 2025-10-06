@@ -25,17 +25,17 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-4-floor.jpg',
+      src: '/rent_img/1-5-floor.jpg',
       alt: '1 этаж',
     },
     {
       id: 2,
-      src: '/rent_img/2-5-floor.jpg',
+      src: '/rent_img/2-6-floor.jpg',
       alt: '2 этаж',
     },
     {
       id: 3,
-      src: '/rent_img/3-5-floor.jpg',
+      src: '/rent_img/3-6-floor.jpg',
       alt: '3 этаж',
     },
   ];
@@ -87,7 +87,7 @@ function Rent() {
             ))}
           </ul>
           <h3 className="text-xl text-center sm:text-3xl md:text-4xl my-10">
-            БОНУС: бесплатная рекламная поддрежка в течении 2 месяцев для новых
+            БОНУС: бесплатная рекламная поддержка в течении 2 месяцев для новых
             Арендаторов
           </h3>
 

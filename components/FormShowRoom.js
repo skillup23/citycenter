@@ -7,6 +7,7 @@ function FormShowRoom() {
     nameClient: '',
     phone: '',
     stilist: '',
+    comment: '',
     agreement: false,
     error: '',
     success: false,
@@ -48,6 +49,7 @@ function FormShowRoom() {
           nameClient: '',
           phone: '',
           stilist: '',
+          comment: '',
           agreement: false,
           error: '',
           success: false,
@@ -100,7 +102,7 @@ function FormShowRoom() {
             placeholder="ТЕЛЕФОН"
           />
         </div>
-        <div className="w-full flex flex-col sm:flex-row ">
+        <div className="w-full flex flex-col sm:flex-row gap-8 sm:gap-20 lg:gap-40">
           <select
             name="stilist"
             id="stilist"
@@ -117,6 +119,14 @@ function FormShowRoom() {
             <option value="ЛИЛИАНА МУС">ЛИЛИАНА МУС</option>
             <option value="СВЕТЛАНА КОШИКОВА">СВЕТЛАНА КОШИКОВА</option>
           </select>
+          <input
+            type="text"
+            name="comment"
+            className="w-full sm:w-1/3 px-2 text-2xl sm:text-[2.3vw] bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b-2 border-white"
+            value={userInput.comment}
+            onChange={handleChange}
+            placeholder="КОММЕНТАРИЙ"
+          />
         </div>
         <div className="w-full flex flex-col sm:flex-row gap-12 lg:gap-40">
           <label className="flex w-full sm:w-1/3 gap-4 items-center">
