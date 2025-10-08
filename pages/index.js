@@ -27,79 +27,11 @@ export default function Home() {
 
       <SliderMain data={sliderTop} dots={false} />
 
-      <section className="border_section border-b-0">
-        <div className="lg:container mx-auto">
-          <Link href="/rent">
-            <div className="w-fill mt-10 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
-              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
-              кафе и рестораны
-            </div>
-          </Link>
-
-          {/*                      АНОНСЫ КИНО                         */}
-
-          <h2 className="title_main text-[50px] sm:text-[7vw] mt-12 mb-10">
-            Анонсы кинопоказов
-          </h2>
-          <div className="grid grid-cols-3 sm:grid-cols-6 justify-between gap-2 sm:gap-3">
-            {kinoAfisha.map(({ id, img }) => {
-              return (
-                <Link
-                  key={id}
-                  href="https://kinomonitor.ru/cinemas/111/seances"
-                  className="block relative w-full overflow-hidden h-full"
-                  target={'_blank'}
-                >
-                  <Image
-                    src={img}
-                    alt="Киноафиша"
-                    width="0"
-                    height="0"
-                    className="ease-in duration-150 md:grayscale hover:grayscale-0"
-                    priority
-                  />
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/*                      СЛАЙДЕР КИНОТЕАТР                         */}
-
-      <section className="relative mt-10 sm:mt-20" id="kinoteatr">
-        {/* <SliderMain data={sliderCenter} dots={true} /> */}
-        <div className="lg:container mx-auto">
-          <Link
-            href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={'_blank'}
-          >
-            <Image
-              src={kinoBanner}
-              alt="Киноафиша"
-              width="0"
-              height="0"
-              className=""
-              priority
-            />
-          </Link>
-        </div>
-
-        {/* <Image
-          src={text2}
-          alt="slide1"
-          width="0"
-          height="0"
-          sizes="100%"
-          className="absolute top-2 md:top-6 right-0 w-1/12"
-        /> */}
-      </section>
-
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
-      <section className="mb-20 sm:mb-28">
+      <section className="mb-12 sm:mb-20 border_section border-b-0">
         <div className="lg:container mx-auto">
-          <h1 className="title_main mt-10">Новости и акции</h1>
+          <h1 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h1>
           {/* <ShopListMain items={news} classItem="mt-10" /> */}
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
             <Link
@@ -162,11 +94,81 @@ export default function Home() {
         </div>
       </section>
 
+      {/*                      АНОНСЫ КИНО                         */}
+
+      <section className="mb-2 sm:mb-20">
+        <div className="lg:container mx-auto">
+          {/* <Link href="/rent">
+            <div className="w-fill mt-10 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
+              кафе и рестораны
+            </div>
+          </Link> */}
+
+          <h2 className="title_main px-2 sm:px-0 text-[50px] sm:text-[7vw] mt-12 mb-10">
+            Анонсы кинопоказов
+          </h2>
+          <div className="grid grid-cols-3 sm:grid-cols-6 justify-between gap-2 sm:gap-3">
+            {kinoAfisha.map(({ id, img }) => {
+              return (
+                <Link
+                  key={id}
+                  href="https://kinomonitor.ru/cinemas/111/seances"
+                  className="block relative w-full overflow-hidden h-full"
+                  target={'_blank'}
+                >
+                  <Image
+                    src={img}
+                    alt="Киноафиша"
+                    width="0"
+                    height="0"
+                    className="ease-in duration-150 md:grayscale hover:grayscale-0"
+                    priority
+                  />
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/*                      СЛАЙДЕР КИНОТЕАТР                         */}
+
+      <section className="relative mt-2 sm:mt-20" id="kinoteatr">
+        {/* <SliderMain data={sliderCenter} dots={true} /> */}
+        <div className="lg:container mx-auto">
+          <Link
+            href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
+            target={'_blank'}
+          >
+            <Image
+              src={kinoBanner}
+              alt="Киноафиша"
+              width="0"
+              height="0"
+              className=""
+              priority
+            />
+          </Link>
+        </div>
+
+        {/* <Image
+          src={text2}
+          alt="slide1"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="absolute top-2 md:top-6 right-0 w-1/12"
+        /> */}
+      </section>
+
       {/*                      БУТИКИ                         */}
 
-      <section className="mb-20 sm:mb-28 scroll-mt-20" id="bitiki">
+      <section className="mb-12 sm:mb-28 scroll-mt-20" id="bitiki">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-12 sm:-mt-10 mb-6 sm:mb-10">БУТИКИ</h2>
+          <h2 className="title_main px-2 sm:px-0 mt-12 sm:mt-20 mb-6 sm:mb-10">
+            БУТИКИ
+          </h2>
           <ShopListMain items={shopList} />
         </div>
 
@@ -192,6 +194,103 @@ export default function Home() {
         </div>
       </section>
 
+      {/*                      СЦЕНАРИИ                         */}
+
+      <section className="mt-12 sm:mt-24">
+        <div className="lg:container mx-auto sm:pr-5">
+          <div className="flex flex-col sm:flex-row mt-12 sm:mt-20 px-3 sm:px-0 gap-10">
+            <div className="w-full sm:w-[55%]">
+              <h2 className="title_main mb-6 sm:mb-10 -mt-4">О НАС</h2>
+              <p className="text-left mr-auto text-2xl sm:text-3xl lg:text-4xl ">
+                ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
+                впечатлений и эстетики. Здесь Вас ждут магазины премиальных
+                брендов, ресторан итальянской кухни и VIP-кинотеатр, а также
+                уникальные Event-мероприятия для Вас и Ваших близких!
+              </p>
+            </div>
+
+            <div className="w-full sm:w-[45%]">
+              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*                      ДОКУМЕНТЫ                        */}
+
+      <section className="mt-12 sm:mt-20">
+        <DocumentsPage />
+      </section>
+
+      {/*                      КОНТАКТЫ                        */}
+
+      <section className="mt-12 sm:mt-20">
+        <div className="lg:container mx-auto">
+          <h2 className="title_main mb-6 sm:mb-10 md:mb-0">КОНТАКТЫ</h2>
+          <div className="pr-5 flex flex-col md:flex-row gap-12">
+            <div className="flex flex-col w-fill md:w-1/3 pl-3 justify-between gap-5">
+              <div className="flex flex-row w-fill items-center">
+                <HiLocationMarker className="text-lg md:text-xl mr-5" />
+                <h4 className="text-lg md:text-xl">
+                  Г. КРАСНОДАР, УЛ. ИНДУСТРИАЛЬНАЯ, 2
+                </h4>
+              </div>
+              <div className="flex flex-row w-fill items-center">
+                <FaPhoneAlt className="text-lg md:text-xl mr-5" />
+                <Link href="tel:88612134700" className="text-lg md:text-xl">
+                  8 (861) 213 47 00
+                </Link>
+              </div>
+              <div className="flex flex-row w-fill items-center">
+                <MdEmail className="text-lg md:text-xl mr-5" />
+                <Link
+                  href="mailto:info@citycenter.ru"
+                  className="text-lg md:text-xl"
+                >
+                  INFO@CITYCENTER.RU
+                </Link>
+              </div>
+              <div className="flex flex-row w-fill items-start">
+                <RiTimeFill className="text-lg md:text-xl mr-5 mt-1" />
+                <div>
+                  <h4 className="text-lg md:text-xl">ЧАСЫ РАБОТЫ:</h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    УНИВЕРСАМ «ПЕРЕКРЕСТОК» - КРУГЛОСУТОЧНО
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    КИНОТЕАТР «МОНИТОР CITI DE LUXE» - ДО ОКОНЧАНИЯ ПОСЛЕДНЕГО
+                    СЕАНСА
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    КАФЕ И РЕСТОРАН - ДО 22:00
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    МАГАЗИНЫ - С 10:00 ДО 22:00
+                  </h4>
+                </div>
+              </div>
+              <div className="flex flex-row w-fill items-start">
+                <FaBus className="text-lg md:text-xl mr-5 mt-1" />
+                <div>
+                  <h4 className="text-lg md:text-xl">КАК ДОБРАТЬСЯ:</h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    МАРШРУТНОЕ ТАКСИ № 3, 5А, 7А, 8А, 21, 26А, 44, 95
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">
+                    ТРОЛЛЕЙБУСОМ № 9, 10, 15
+                  </h4>
+                  <h4 className="text-lg md:text-xl mt-2">ТРАМВАЕМ № 4, 2</h4>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-row flex-wrap w-full md:w-2/3 items-start content-start">
+              <YandexMap />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <NewsMain /> */}
       {/*                      КИНОТЕАТР ИНФОРМАЦИЯ                        */}
 
       {/* <section className="mt-20">
@@ -383,28 +482,7 @@ export default function Home() {
           />
         </div>
       </section> */}
-
-      {/*                      СЦЕНАРИИ                         */}
-
-      <section className="mt-10 sm:mt-24">
-        <div className="lg:container mx-auto sm:pr-5">
-          <div className="flex flex-col sm:flex-row mt-12 sm:mt-20 px-3 sm:px-0 gap-10">
-            <div className="w-full sm:w-[55%]">
-              <h2 className="title_main mb-6 sm:mb-10 -mt-4">О НАС</h2>
-              <p className="text-left mr-auto text-2xl sm:text-3xl lg:text-4xl ">
-                ТРК «СИТИ ЦЕНТР» — это сочетание изысканного шопинга, ярких
-                впечатлений и эстетики. Здесь Вас ждут магазины премиальных
-                брендов, ресторан итальянской кухни и VIP-кинотеатр, а также
-                уникальные Event-мероприятия для Вас и Ваших близких!
-              </p>
-            </div>
-
-            <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
-            </div>
-          </div>
-
-          {/* <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10 sm:mt-28 lg:mt-64 2xl:mt-40">
+      {/* <div className="grid grid-cols-2 gap-y-8 sm:gap-y-0 sm:flex sm:flex-row mt-10 sm:mt-28 lg:mt-64 2xl:mt-40">
             <Link
               href="/scenarios/meeting"
               className="flex flex-col items-center sm:-mt-20 lg:-mt-72 z-10"
@@ -477,84 +555,6 @@ export default function Home() {
               </div>
             </Link>
           </div> */}
-        </div>
-      </section>
-
-      {/*                      ДОКУМЕНТЫ                        */}
-
-      <section className="mt-20">
-        <DocumentsPage />
-      </section>
-
-      {/*                      КОНТАКТЫ                        */}
-
-      <section className="mt-20">
-        <div className="lg:container mx-auto">
-          <h2 className="title_main mt-20 mb-6 sm:mb-10 md:mb-0">КОНТАКТЫ</h2>
-          <div className="pr-5 flex flex-col md:flex-row gap-12">
-            <div className="flex flex-col w-fill md:w-1/3 pl-3 justify-between gap-5">
-              <div className="flex flex-row w-fill items-center">
-                <HiLocationMarker className="text-lg md:text-xl mr-5" />
-                <h4 className="text-lg md:text-xl">
-                  Г. КРАСНОДАР, УЛ. ИНДУСТРИАЛЬНАЯ, 2
-                </h4>
-              </div>
-              <div className="flex flex-row w-fill items-center">
-                <FaPhoneAlt className="text-lg md:text-xl mr-5" />
-                <Link href="tel:88612134700" className="text-lg md:text-xl">
-                  8 (861) 213 47 00
-                </Link>
-              </div>
-              <div className="flex flex-row w-fill items-center">
-                <MdEmail className="text-lg md:text-xl mr-5" />
-                <Link
-                  href="mailto:info@citycenter.ru"
-                  className="text-lg md:text-xl"
-                >
-                  INFO@CITYCENTER.RU
-                </Link>
-              </div>
-              <div className="flex flex-row w-fill items-start">
-                <RiTimeFill className="text-lg md:text-xl mr-5 mt-1" />
-                <div>
-                  <h4 className="text-lg md:text-xl">ЧАСЫ РАБОТЫ:</h4>
-                  <h4 className="text-lg md:text-xl mt-2">
-                    УНИВЕРСАМ «ПЕРЕКРЕСТОК» - КРУГЛОСУТОЧНО
-                  </h4>
-                  <h4 className="text-lg md:text-xl mt-2">
-                    КИНОТЕАТР «МОНИТОР CITI DE LUXE» - ДО ОКОНЧАНИЯ ПОСЛЕДНЕГО
-                    СЕАНСА
-                  </h4>
-                  <h4 className="text-lg md:text-xl mt-2">
-                    КАФЕ И РЕСТОРАН - ДО 22:00
-                  </h4>
-                  <h4 className="text-lg md:text-xl mt-2">
-                    МАГАЗИНЫ - С 10:00 ДО 22:00
-                  </h4>
-                </div>
-              </div>
-              <div className="flex flex-row w-fill items-start">
-                <FaBus className="text-lg md:text-xl mr-5 mt-1" />
-                <div>
-                  <h4 className="text-lg md:text-xl">КАК ДОБРАТЬСЯ:</h4>
-                  <h4 className="text-lg md:text-xl mt-2">
-                    МАРШРУТНОЕ ТАКСИ № 3, 5А, 7А, 8А, 21, 26А, 44, 95
-                  </h4>
-                  <h4 className="text-lg md:text-xl mt-2">
-                    ТРОЛЛЕЙБУСОМ № 9, 10, 15
-                  </h4>
-                  <h4 className="text-lg md:text-xl mt-2">ТРАМВАЕМ № 4, 2</h4>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-row flex-wrap w-full md:w-2/3 items-start content-start">
-              <YandexMap />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* <NewsMain /> */}
     </Layout>
   );
 }
