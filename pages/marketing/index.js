@@ -5,7 +5,7 @@ import noimg from '@/public/butiks/loaderImg.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { BsFilePdf } from 'react-icons/bs';
+// import { BsFilePdf } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
@@ -83,7 +83,7 @@ function Marketing() {
             </ul>
           </div>
 
-          <Link
+          {/* <Link
             href="/marketing_img/KatalogMarketing.pdf"
             alt="Каталог рекламных поверхностей"
             rel="noopener noreferrer"
@@ -93,9 +93,9 @@ function Marketing() {
           >
             <BsFilePdf className="mr-4 text-3xl" />
             Презентация по рекламным возможностям ТРК «СИТИ ЦЕНТР»
-          </Link>
+          </Link> */}
 
-          <h2 className="title_main">Контакты</h2>
+          <h2 className="title_main mt-10">Контакты</h2>
           <div className="flex flex-col w-full mt-1 md:mt-0 mb-10 gap-2">
             <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               ОТДЕЛ РЕКЛАМЫ, МАРКЕТИНГА И PR
