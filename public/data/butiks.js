@@ -358,37 +358,6 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'womenClothing shoesAndBags',
-    url: 'Karl-Lagerfeld',
-    logo: '/butiks/womenClothing/KarlLagerfeld/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/KarlLagerfeld/3.jpg',
-        alt: 'KarlLagerfeld',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/KarlLagerfeld/2.jpg',
-        alt: 'KarlLagerfeld',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/KarlLagerfeld/1.jpg',
-        alt: 'KarlLagerfeld',
-      },
-    ],
-    description1:
-      'Дух бренда отражает колоссальное наследие и страсть, оставленную маэстро и заложенную в основу ДНК бренда.',
-    description2:
-      'Фирменный стиль бренда заключается в смешении парижского шика и рок-н-ролла. Модный дом KARL LAGERFELD выпускает коллекции одежды, обуви и сумок.',
-    floor: '2 этаж',
-    tel: '+7 861 298 08 46',
-    telUrl: '88612980846',
-    instagram: '',
-  },
-  {
-    id: id++,
     category: 'manClothing underwear',
     url: 'XO',
     logo: '/butiks/menClothing/XO/logo.png',
@@ -1233,47 +1202,6 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'kafeAndRestoran',
-    url: 'LoveAndTrufel',
-    logo: '/butiks/kafe/LoveAndTrufel/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/kafe/LoveAndTrufel/1n.jpg',
-        alt: 'LoveAndTrufel',
-      },
-      {
-        id: 2,
-        src: '/butiks/kafe/LoveAndTrufel/2n.jpg',
-        alt: 'LoveAndTrufel',
-      },
-      {
-        id: 3,
-        src: '/butiks/kafe/LoveAndTrufel/3n.jpg',
-        alt: 'LoveAndTrufel',
-      },
-      {
-        id: 4,
-        src: '/butiks/kafe/LoveAndTrufel/4n.jpg',
-        alt: 'LoveAndTrufel',
-      },
-      {
-        id: 5,
-        src: '/butiks/kafe/LoveAndTrufel/5n.jpg',
-        alt: 'LoveAndTrufel',
-      },
-    ],
-    description1: `Любовь&Трюфель — безукоризненный европейский сервис и безграничная любовь с самых первых минут.`,
-    description2: `Уникальная концепция, дизайн, выполненный в мягкой палитре приятных глазу оттенков, богатое меню и разнообразная винная карта.`,
-    description3: `Визитная карточка ресторана — фирменные бриоши по авторским рецептам.`,
-    floor: '2 этаж',
-    tel: '+7 928 424 42 42',
-    telUrl: '89284244242',
-    instagram: '',
-    video: '/butiks/kafe/LoveAndTrufel/video2.mp4',
-  },
-  {
-    id: id++,
     category: 'glasses giftsAndBook',
     url: 'IqMac',
     logo: '/butiks/glasses/IqMac/logo.png',
@@ -1398,35 +1326,6 @@ export const butiks = [
     floor: '2 этаж',
     tel: '+7 988 489 88 11',
     telUrl: '89884898811',
-    instagram: '',
-  },
-  {
-    id: id++,
-    category: 'manClothing',
-    url: 'NAPAPIJRI',
-    logo: '/butiks/menClothing/NAPAPIJRI/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/menClothing/NAPAPIJRI/1.jpg',
-        alt: 'NAPAPIJRI',
-      },
-      {
-        id: 2,
-        src: '/butiks/menClothing/NAPAPIJRI/2.jpg',
-        alt: 'NAPAPIJRI',
-      },
-      {
-        id: 3,
-        src: '/butiks/menClothing/NAPAPIJRI/3.jpg',
-        alt: 'NAPAPIJRI',
-      },
-    ],
-    description1: `Итальянский бренд Napapijri зародился у подножия горы Монблан. Вдохновением его создательницы стали холодный север и исследователи Арктики. Само название Napapijri — вариация финского слова, которое переводится как «Северный полярный круг». Один из фирменных элементов бренда — флаг Норвегии, самой северной страны Европы, а первым изделием марки стала сумка Bering из вощёного хлопка, названная в честь Витуса Беринга.`,
-    description2: `Napapijri задумывался как бренд для покорителей вершин. Но сегодня теплейшие куртки-анораки, парки, флисовые толстовки, рюкзаки и сумки бренда носят не только путешественники и спортсмены: бренд полюбился многим и в городских условиях. Поэтому Napapijri соединяет в своих коллекциях outdoor-эстетику и стиль urban. Одежда и обувь от Napapijri подойдут и для повседневной жизни, и для активного отдыха.`,
-    floor: '2 этаж',
-    tel: '+7 967 663 99 95',
-    telUrl: '89676639995',
     instagram: '',
   },
   {
@@ -1755,71 +1654,6 @@ export const butiks = [
     tel: '+7 982 782 22 30',
     telUrl: '89827822230',
     instagram: '',
-  },
-  {
-    id: id++,
-    category: 'manClothing underwear',
-    url: 'Vilebrequin',
-    logo: '/butiks/menClothing/Vilebrequin/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/menClothing/Vilebrequin/3.jpg',
-        alt: 'Vilebrequin',
-      },
-      {
-        id: 2,
-        src: '/butiks/menClothing/Vilebrequin/4.jpg',
-        alt: 'Vilebrequin',
-      },
-    ],
-    description1:
-      '15 октября 2024 года французский бренд пляжной моды Vilebrequin открыл новый магазин в ТРК Сити Центр Краснодар (2 этаж). Это событие стало важным шагом в расширении розничной сети бренда и укреплении его позиций на российском рынке.',
-    description2:
-      'Посетители магазина смогут ознакомиться с полным ассортиментом Vilebrequin, включая эксклюзивную капсульную коллекцию Rayures. Особого внимания заслуживает материал, используемый в коллекции — мягкий полиамид с добавлением эластана. Он быстро сохнет и сохраняет форму даже после длительного пребывания в воде, что делает его идеальным для активного пляжного отдыха.',
-    description3:
-      'Открытие магазина Vilebrequin в ТРК Сити Центр Краснодар дает жителям и гостям города уникальную возможность приобщиться к элегантному французскому пляжному стилю, воплощенному в коллекции 2024 года.',
-    floor: '2 этаж',
-    tel: '',
-    telUrl: '',
-    instagram: '',
-  },
-  {
-    id: id++,
-    category: 'womenClothing',
-    url: 'ElenaMiro',
-    logo: '/butiks/womenClothing/ElenaMiro/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/ElenaMiro/1n.jpeg',
-        alt: 'ElenaMiro',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/ElenaMiro/2n.jpeg',
-        alt: 'ElenaMiro',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/ElenaMiro/3n.jpeg',
-        alt: 'ElenaMiro',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/ElenaMiro/4n.jpeg',
-        alt: 'ElenaMiro',
-      },
-    ],
-    description1:
-      'Elena Miro – премиальный бренд женской одежды и аксессуаров родом из Италии.',
-    description2:
-      'В основе ДНК бренда – женственный, элегантный стиль, безупречные выверенные лекала, подчеркивающие все достоинства фигуры, а также инклюзивность и универсальность.',
-    description3: '',
-    floor: '2 этаж',
-    tel: 'elenamiro.ru',
-    telUrl: 'https://elenamiro.ru/',
-    instagram: 'https://elenamiro.ru/',
   },
   {
     id: id++,
@@ -3467,5 +3301,171 @@ export const butiks = [
   //   tel: "+7 861 213 47 16",
   //   telUrl: "88612134716",
   //   instagram: "vanlaack_krd",
+  // },
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'ElenaMiro',
+  //   logo: '/butiks/womenClothing/ElenaMiro/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/ElenaMiro/1n.jpeg',
+  //       alt: 'ElenaMiro',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/ElenaMiro/2n.jpeg',
+  //       alt: 'ElenaMiro',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/ElenaMiro/3n.jpeg',
+  //       alt: 'ElenaMiro',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/ElenaMiro/4n.jpeg',
+  //       alt: 'ElenaMiro',
+  //     },
+  //   ],
+  //   description1:
+  //     'Elena Miro – премиальный бренд женской одежды и аксессуаров родом из Италии.',
+  //   description2:
+  //     'В основе ДНК бренда – женственный, элегантный стиль, безупречные выверенные лекала, подчеркивающие все достоинства фигуры, а также инклюзивность и универсальность.',
+  //   description3: '',
+  //   floor: '2 этаж',
+  //   tel: 'elenamiro.ru',
+  //   telUrl: 'https://elenamiro.ru/',
+  //   instagram: 'https://elenamiro.ru/',
+  // },
+  //   {
+  //   id: id++,
+  //   category: 'womenClothing shoesAndBags',
+  //   url: 'Karl-Lagerfeld',
+  //   logo: '/butiks/womenClothing/KarlLagerfeld/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/KarlLagerfeld/3.jpg',
+  //       alt: 'KarlLagerfeld',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/KarlLagerfeld/2.jpg',
+  //       alt: 'KarlLagerfeld',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/KarlLagerfeld/1.jpg',
+  //       alt: 'KarlLagerfeld',
+  //     },
+  //   ],
+  //   description1:
+  //     'Дух бренда отражает колоссальное наследие и страсть, оставленную маэстро и заложенную в основу ДНК бренда.',
+  //   description2:
+  //     'Фирменный стиль бренда заключается в смешении парижского шика и рок-н-ролла. Модный дом KARL LAGERFELD выпускает коллекции одежды, обуви и сумок.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 298 08 46',
+  //   telUrl: '88612980846',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'manClothing',
+  //   url: 'NAPAPIJRI',
+  //   logo: '/butiks/menClothing/NAPAPIJRI/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/menClothing/NAPAPIJRI/1.jpg',
+  //       alt: 'NAPAPIJRI',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/menClothing/NAPAPIJRI/2.jpg',
+  //       alt: 'NAPAPIJRI',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/menClothing/NAPAPIJRI/3.jpg',
+  //       alt: 'NAPAPIJRI',
+  //     },
+  //   ],
+  //   description1: `Итальянский бренд Napapijri зародился у подножия горы Монблан. Вдохновением его создательницы стали холодный север и исследователи Арктики. Само название Napapijri — вариация финского слова, которое переводится как «Северный полярный круг». Один из фирменных элементов бренда — флаг Норвегии, самой северной страны Европы, а первым изделием марки стала сумка Bering из вощёного хлопка, названная в честь Витуса Беринга.`,
+  //   description2: `Napapijri задумывался как бренд для покорителей вершин. Но сегодня теплейшие куртки-анораки, парки, флисовые толстовки, рюкзаки и сумки бренда носят не только путешественники и спортсмены: бренд полюбился многим и в городских условиях. Поэтому Napapijri соединяет в своих коллекциях outdoor-эстетику и стиль urban. Одежда и обувь от Napapijri подойдут и для повседневной жизни, и для активного отдыха.`,
+  //   floor: '2 этаж',
+  //   tel: '+7 967 663 99 95',
+  //   telUrl: '89676639995',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'manClothing underwear',
+  //   url: 'Vilebrequin',
+  //   logo: '/butiks/menClothing/Vilebrequin/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/menClothing/Vilebrequin/3.jpg',
+  //       alt: 'Vilebrequin',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/menClothing/Vilebrequin/4.jpg',
+  //       alt: 'Vilebrequin',
+  //     },
+  //   ],
+  //   description1:
+  //     '15 октября 2024 года французский бренд пляжной моды Vilebrequin открыл новый магазин в ТРК Сити Центр Краснодар (2 этаж). Это событие стало важным шагом в расширении розничной сети бренда и укреплении его позиций на российском рынке.',
+  //   description2:
+  //     'Посетители магазина смогут ознакомиться с полным ассортиментом Vilebrequin, включая эксклюзивную капсульную коллекцию Rayures. Особого внимания заслуживает материал, используемый в коллекции — мягкий полиамид с добавлением эластана. Он быстро сохнет и сохраняет форму даже после длительного пребывания в воде, что делает его идеальным для активного пляжного отдыха.',
+  //   description3:
+  //     'Открытие магазина Vilebrequin в ТРК Сити Центр Краснодар дает жителям и гостям города уникальную возможность приобщиться к элегантному французскому пляжному стилю, воплощенному в коллекции 2024 года.',
+  //   floor: '2 этаж',
+  //   tel: '',
+  //   telUrl: '',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'kafeAndRestoran',
+  //   url: 'LoveAndTrufel',
+  //   logo: '/butiks/kafe/LoveAndTrufel/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/kafe/LoveAndTrufel/1n.jpg',
+  //       alt: 'LoveAndTrufel',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/kafe/LoveAndTrufel/2n.jpg',
+  //       alt: 'LoveAndTrufel',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/kafe/LoveAndTrufel/3n.jpg',
+  //       alt: 'LoveAndTrufel',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/kafe/LoveAndTrufel/4n.jpg',
+  //       alt: 'LoveAndTrufel',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/kafe/LoveAndTrufel/5n.jpg',
+  //       alt: 'LoveAndTrufel',
+  //     },
+  //   ],
+  //   description1: `Любовь&Трюфель — безукоризненный европейский сервис и безграничная любовь с самых первых минут.`,
+  //   description2: `Уникальная концепция, дизайн, выполненный в мягкой палитре приятных глазу оттенков, богатое меню и разнообразная винная карта.`,
+  //   description3: `Визитная карточка ресторана — фирменные бриоши по авторским рецептам.`,
+  //   floor: '2 этаж',
+  //   tel: '+7 928 424 42 42',
+  //   telUrl: '89284244242',
+  //   instagram: '',
+  //   video: '/butiks/kafe/LoveAndTrufel/video2.mp4',
   // },
 ];
