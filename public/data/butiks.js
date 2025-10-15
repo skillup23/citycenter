@@ -1926,8 +1926,8 @@ export const butiks = [
     description3:
       'Познакомиться поближе с нашими бутиками Вы можете на официальном сайте сети AVENUE VIP www.avenuevip.ru',
     floor: '2 этаж',
-    tel: '+7 918 120 00 13',
-    telUrl: '89181200013',
+    tel: '+7 861 21 87 810',
+    telUrl: '88612187810',
     instagram: '',
   },
 
