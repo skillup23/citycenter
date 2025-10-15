@@ -5,7 +5,7 @@ import news48 from '@/public/news/48.jpg';
 import news49 from '@/public/news/49.jpg';
 import news50 from '@/public/news/50.jpg';
 import news51 from '@/public/news/51.jpg';
-import news52 from '@/public/news/52.jpg';
+import news52 from '@/public/news/52n.jpg';
 import news53 from '@/public/news/53.jpg';
 import news54 from '@/public/news/54.jpg';
 import news55 from '@/public/news/55.jpg';
