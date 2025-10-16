@@ -761,32 +761,32 @@ export const butiks = [
   {
     id: id++,
     category: 'shoesAndBags',
-    url: 'VicMatie',
-    logo: '/butiks/shoesAndBags/VicMatie/logo.png',
+    url: 'Premiata',
+    logo: '/butiks/shoesAndBags/VicMatie/logo1.png',
     image: [
       {
         id: 1,
         src: '/butiks/shoesAndBags/VicMatie/1n.jpg',
-        alt: 'VicMatie',
+        alt: 'Premiata',
       },
       {
         id: 2,
         src: '/butiks/shoesAndBags/VicMatie/2n.jpg',
-        alt: 'VicMatie',
+        alt: 'Premiata',
       },
       {
         id: 3,
         src: '/butiks/shoesAndBags/VicMatie/3n.jpg',
-        alt: 'VicMatie',
+        alt: 'Premiata',
       },
       {
         id: 4,
         src: '/butiks/shoesAndBags/VicMatie/4n.jpg',
-        alt: 'VicMatie',
+        alt: 'Premiata',
       },
     ],
     description1:
-      'Vic Matie – магазин мужской и женской обуви, в котором представлены модели креативных брендов из Италии –  Vic Matie, MoMa, Brecos, Voile Blanche и бренд ортопедической обуви из Германии — Birkenstock. Каждая пара обуви становится первоосновой итальянского стиля: дизайнеры с лёгкостью воплощают в жизнь актуальные тенденции сезонов.',
+      'Premiata – магазин мужской и женской обуви, в котором представлены модели креативных брендов из Италии –  Vic Matie, MoMa, Brecos, Voile Blanche и бренд ортопедической обуви из Германии — Birkenstock. Каждая пара обуви становится первоосновой итальянского стиля: дизайнеры с лёгкостью воплощают в жизнь актуальные тенденции сезонов.',
     description2:
       'Лоферы, туфли, сапоги, ботильоны, кроссовки, сандалии  –  не просто удобная обувь для жизни, а предмет модного искусства.',
     floor: '2 этаж',
@@ -1894,7 +1894,37 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/kafe/MiuCity/1.jpg',
+        alt: 'MiuCity',
+      },
+      {
+        id: 2,
+        src: '/butiks/kafe/MiuCity/2.jpg',
+        alt: 'MiuCity',
+      },
+      {
+        id: 3,
+        src: '/butiks/kafe/MiuCity/3.jpg',
+        alt: 'MiuCity',
+      },
+      {
+        id: 4,
+        src: '/butiks/kafe/MiuCity/4.jpg',
+        alt: 'MiuCity',
+      },
+      {
+        id: 5,
+        src: '/butiks/kafe/MiuCity/5.jpg',
+        alt: 'MiuCity',
+      },
+      {
+        id: 6,
+        src: '/butiks/kafe/MiuCity/6.jpg',
+        alt: 'MiuCity',
+      },
+      {
+        id: 7,
+        src: '/butiks/kafe/MiuCity/7.jpg',
         alt: 'MiuCity',
       },
     ],
@@ -1928,6 +1958,28 @@ export const butiks = [
     floor: '2 этаж',
     tel: '+7 861 21 87 810',
     telUrl: '88612187810',
+    instagram: '',
+  },
+  {
+    id: id++,
+    category: 'womenClothing',
+    url: 'Dexterior',
+    logo: '/butiks/womenClothing/Dexterior/logo.jpg',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/womenClothing/Dexterior/1.jpg',
+        alt: 'Dexterior',
+      },
+    ],
+    description1:
+      'Бренд создаёт коллекции для женщин, которые ценят элегантность, утончённость и комфорт. В каждой вещи — ДНК высокой моды и энергия современной Италии.',
+    description2:
+      'Приходите за образами, в которых легко быть собой — уверенной и стильной.',
+    description3: '',
+    floor: '2 этаж',
+    tel: '',
+    telUrl: '',
     instagram: '',
   },
 
