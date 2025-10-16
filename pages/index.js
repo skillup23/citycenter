@@ -6,7 +6,7 @@ import SliderMain from '@/components/SliderMain';
 import VideoMain from '@/components/VideoMain';
 import YandexMap from '@/components/YandexMap';
 import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
-import news50 from '@/public/news/50.jpg';
+import news49 from '@/public/news/49.jpg';
 import news52 from '@/public/news/52n.jpg';
 import news51 from '@/public/news/51.jpg';
 import news55 from '@/public/news/55.jpg';
@@ -81,14 +81,14 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
-                src={news50}
+                src={news49}
                 alt="Новость"
                 width="0"
                 height="0"
                 style={{ width: '100%', height: '100%' }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/50.jpg")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/49.jpg")]'></div>
             </Link>
           </div>
         </div>
