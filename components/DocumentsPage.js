@@ -1,5 +1,5 @@
-import DocumentPdf from "@/components/DocumentPdf";
-import { useState } from "react";
+import DocumentPdf from '@/components/DocumentPdf';
+import { useState } from 'react';
 
 function DocumentsPage() {
   const [isGeneralDocs, setGeneralDocs] = useState(true);
@@ -31,7 +31,7 @@ function DocumentsPage() {
         <div
           onClick={activeGeneralDocs}
           className={`link_kino w-full sm:w-1/3 text-base sm:text-xl md:text-2xl cursor-pointer ${
-            isGeneralDocs ? "bg-black text-white" : ""
+            isGeneralDocs ? 'bg-black text-white' : ''
           }`}
         >
           Общие документы
@@ -39,7 +39,7 @@ function DocumentsPage() {
         <div
           onClick={activePersonalData}
           className={`link_kino w-full sm:w-1/3 text-base sm:text-xl md:text-2xl cursor-pointer ${
-            isPersonalData ? "bg-black text-white" : ""
+            isPersonalData ? 'bg-black text-white' : ''
           }`}
         >
           Персональные данные
@@ -47,7 +47,7 @@ function DocumentsPage() {
         <div
           onClick={activeArchDocs}
           className={`link_kino w-full sm:w-1/3 text-base sm:text-xl md:text-2xl cursor-pointer ${
-            isArchDocs ? "bg-black text-white" : ""
+            isArchDocs ? 'bg-black text-white' : ''
           }`}
         >
           Архив документов
@@ -56,110 +56,110 @@ function DocumentsPage() {
 
       <div
         className={`${
-          isGeneralDocs ? "" : "hidden"
+          isGeneralDocs ? '' : 'hidden'
         } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
           href={
-            "/docs/Правила для Арендаторов ТРК Сити Центр.Версия от 15.10.2025.pdf"
+            '/docs/Правила для Арендаторов ТРК Сити Центр.Версия от15.10.2025.pdf'
           }
-          title={"Правила для Арендаторов ТРК «Сити Центр»"}
-          date={"Версия от 15.10.2025"}
+          title={'Правила для Арендаторов ТРК «Сити Центр»'}
+          date={'Версия от 15.10.2025'}
         />
         <DocumentPdf
           href={
-            "/docs/Регламент Работ для Арендаторов ТРК Сити Центр.Версия от 15.10.2025.pdf"
+            '/docs/Регламент Работ для Арендаторов ТРК Сити Центр.Версия от15.10.2025.pdf'
           }
-          title={"Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 15.10.2025"}
+          title={'Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 15.10.2025'}
         />
         <DocumentPdf
-          href={"/docs/Правила посещения ТРК СИТИ ЦЕНТР от 31.07.2025.pdf"}
-          title={"Правила посещения ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 31.07.2025"}
+          href={'/docs/Правила посещения ТРК СИТИ ЦЕНТР от 31.07.2025.pdf'}
+          title={'Правила посещения ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 31.07.2025'}
         />
         <DocumentPdf
-          href={"/docs/archive25-09-23.zip"}
+          href={'/docs/archive25-09-23.zip'}
           title={
-            "СТИМУЛИРУЮЩАЯ АКЦИЯ «День рождения ТРК\u00A0«Сити\u00A0Центр»"
+            'СТИМУЛИРУЮЩАЯ АКЦИЯ «День рождения ТРК\u00A0«Сити\u00A0Центр»'
           }
-          date={"скачать zip-архив с информацией"}
+          date={'скачать zip-архив с информацией'}
         />
       </div>
 
       <div
         className={`${
-          isPersonalData ? "" : "hidden"
+          isPersonalData ? '' : 'hidden'
         } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
-          href={"/docs/Политика перс данных.pdf"}
+          href={'/docs/Политика перс данных.pdf'}
           title={`Политика обработки персональных данных в\u00A0ТРК\u00A0«Сити\u00A0Центр»`}
-          date={"Версия от 25.08.2025"}
+          date={'Версия от 25.08.2025'}
         />
         <DocumentPdf
-          href={"/docs/Согласие на обработку перс данных стимулирующих.pdf"}
+          href={'/docs/Согласие на обработку перс данных стимулирующих.pdf'}
           title={`Согласие на обработку персональных данных`}
-          date={"Версия от 25.08.2025"}
+          date={'Версия от 25.08.2025'}
         />
       </div>
 
       <div
         className={`${
-          isArchDocs ? "" : "hidden"
+          isArchDocs ? '' : 'hidden'
         } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
           href={
-            "/docs/Правила для Арендаторов ТРК «Сити Центр». Версия от 04.09.2025.pdf"
+            '/docs/Правила для Арендаторов ТРК «Сити Центр». Версия от 04.09.2025.pdf'
           }
-          title={"Правила для Арендаторов ТРК «Сити Центр»"}
-          date={"Версия от 04.09.2025"}
+          title={'Правила для Арендаторов ТРК «Сити Центр»'}
+          date={'Версия от 04.09.2025'}
         />
         <DocumentPdf
           href={
-            "/docs/РЕГЛАМЕНТ РАБОТ ДЛЯ АРЕНДАТОРОВ ТРК СИТИЦЕНТР. ВЕРСИЯ ОТ 25.02.2025 в2.pdf"
+            '/docs/РЕГЛАМЕНТ РАБОТ ДЛЯ АРЕНДАТОРОВ ТРК СИТИЦЕНТР. ВЕРСИЯ ОТ 25.02.2025 в2.pdf'
           }
-          title={"Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 27.02.2025"}
+          title={'Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 27.02.2025'}
         />
         <DocumentPdf
           href={
-            "/docs/Правила для Арендаторов ТРК «Сити Центр». Версия от 17.06.2024.pdf"
+            '/docs/Правила для Арендаторов ТРК «Сити Центр». Версия от 17.06.2024.pdf'
           }
-          title={"Правила для Арендаторов ТРК «Сити Центр»"}
-          date={"Версия от 17.06.2024"}
+          title={'Правила для Арендаторов ТРК «Сити Центр»'}
+          date={'Версия от 17.06.2024'}
         />
         <DocumentPdf
           href={
-            "/docs/arch/Правила для Арендаторов ТРК «Сити Центр». Версия от 28.05.2024 .pdf"
+            '/docs/arch/Правила для Арендаторов ТРК «Сити Центр». Версия от 28.05.2024 .pdf'
           }
-          title={"Правила для Арендаторов ТРК «Сити Центр»"}
-          date={"Версия от 28.05.2024"}
+          title={'Правила для Арендаторов ТРК «Сити Центр»'}
+          date={'Версия от 28.05.2024'}
         />
         <DocumentPdf
           href={
-            "/docs/arch/Регламент Работ для Арендаторов ТРК «Сити Центр». Версия от 09.04.2024 .pdf"
+            '/docs/arch/Регламент Работ для Арендаторов ТРК «Сити Центр». Версия от 09.04.2024 .pdf'
           }
-          title={"Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 09.04.2024"}
+          title={'Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 09.04.2024'}
         />
         <DocumentPdf
           href={
-            "/docs/arch/Регламент Работ для Арендаторов ТРК «Сити Центр». Версия от 27.05.2024.pdf"
+            '/docs/arch/Регламент Работ для Арендаторов ТРК «Сити Центр». Версия от 27.05.2024.pdf'
           }
-          title={"Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 27.05.2024"}
+          title={'Регламент Работ для Арендаторов ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 27.05.2024'}
         />
         <DocumentPdf
-          href={"/docs/Правила посещения ТРК СИТИ ЦЕНТР от 28.08.2024.pdf"}
-          title={"Правила посещения ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 28.08.2024"}
+          href={'/docs/Правила посещения ТРК СИТИ ЦЕНТР от 28.08.2024.pdf'}
+          title={'Правила посещения ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 28.08.2024'}
         />
         <DocumentPdf
-          href={"/docs/Правила посещения ТРК СИТИ ЦЕНТР от 10.01.2025.pdf"}
-          title={"Правила посещения ТРК\u00A0«Сити\u00A0Центр»"}
-          date={"Версия от 10.01.2025"}
+          href={'/docs/Правила посещения ТРК СИТИ ЦЕНТР от 10.01.2025.pdf'}
+          title={'Правила посещения ТРК\u00A0«Сити\u00A0Центр»'}
+          date={'Версия от 10.01.2025'}
         />
       </div>
     </div>
