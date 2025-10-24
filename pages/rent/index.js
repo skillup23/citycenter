@@ -30,7 +30,7 @@ function Rent() {
     },
     {
       id: 2,
-      src: '/rent_img/2-8-floor.jpg',
+      src: '/rent_img/2-9-floor.jpg',
       alt: '2 этаж',
     },
     {
