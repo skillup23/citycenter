@@ -1938,9 +1938,9 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 'vipavenue',
     category: 'womenClothing',
-    url: 'VIPAVENUE',
+    url: 'vipavenue',
     logo: '/butiks/womenClothing/VIPAVENUE/logo.png',
     image: [
       {
