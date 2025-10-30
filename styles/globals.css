@@ -189,10 +189,38 @@ select:focus {
   }
 }
 
+.slick-prev,
+.slick-next {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+}
+
+.slick-prev {
+  left: 30px;
+  z-index: 10;
+}
+
+.slick-next {
+  right: 30px;
+}
+
 @media (min-width: 768px) {
   .yaMapMain {
     box-sizing: border-box;
     width: 55vw;
     height: 500px;
+  }
+
+  .slick-prev {
+    left: 25vw;
+  }
+
+  .slick-next {
+    right: 25vw;
   }
 }

@@ -35,7 +35,7 @@ function Rent() {
     },
     {
       id: 3,
-      src: '/rent_img/3-8-floor.jpg',
+      src: '/rent_img/3-9-floor.jpg',
       alt: '3 этаж',
     },
   ];
