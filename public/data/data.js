@@ -127,6 +127,30 @@ const sliderCenter = [
   // },
 ];
 
+// __________________Слайдер VipAvenue____________________
+const sliderVipAvenue = [
+  {
+    id: 1,
+    src: '/butiks/womenClothing/VIPAVENUE/slider-1.jpg',
+    alt: 'Актуальный образ 1',
+  },
+  {
+    id: 2,
+    src: '/butiks/womenClothing/VIPAVENUE/slider-2.jpg',
+    alt: 'Актуальный образ 2',
+  },
+  {
+    id: 3,
+    src: '/butiks/womenClothing/VIPAVENUE/slider-3.jpg',
+    alt: 'Актуальный образ 3',
+  },
+  {
+    id: 4,
+    src: '/butiks/womenClothing/VIPAVENUE/slider-4.jpg',
+    alt: 'Актуальный образ 4',
+  },
+];
+
 // __________________Стилисты Шоурум____________________
 const stilistShowRoom = [
   {
@@ -800,4 +824,5 @@ export {
   sliderTop,
   starsInCity,
   stilistShowRoom,
+  sliderVipAvenue,
 };
