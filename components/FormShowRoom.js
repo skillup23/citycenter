@@ -67,8 +67,16 @@ function FormShowRoom() {
     setToastType(type);
     setTimeout(() => {
       clearToast();
-    }, 3000);
+    }, 10000);
   };
+
+  // const showToast2 = () => {
+  //   setToastMessage('Сообщение успешно отправлено!');
+  //   setToastType('success');
+  //   setTimeout(() => {
+  //     clearToast();
+  //   }, 10000);
+  // };
 
   const clearToast = () => {
     setToastMessage('');
@@ -76,7 +84,8 @@ function FormShowRoom() {
   };
 
   return (
-    <>
+    <div className="relative">
+      {/* <div onClick={showToast2}>тест</div> */}
       <form
         onSubmit={handleSubmit}
         className="w-full mt-6 sm:mt-20 flex flex-col gap-8 sm:gap-16"
@@ -151,7 +160,7 @@ function FormShowRoom() {
           </label>
           <button
             type="submit"
-            className="w-full sm:w-1/3 py-2 sm:py-2 mb-10 sm:mb-0 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
+            className="w-full sm:w-1/3 py-2 sm:py-2 mb-6 sm:mb-0 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
           >
             Отправить
           </button>
@@ -160,37 +169,35 @@ function FormShowRoom() {
 
       {toastMessage && (
         <div
-          className={`toast mb-4 text-lg text-center sm:text-start sm:text-[2vw] ${toastType}`}
+          className={`w-full md:w-1/3 -mt-6 md:mt-0 mb-6 md:mb-0 p-4 mb:p-8 bg-white text-[#1e1a1b] text-lg text-center sm:text-[2vw] animate-slideUp ${toastType}`}
           onClick={clearToast}
         >
           {toastMessage}
         </div>
       )}
-    </>
+    </div>
   );
 }
 
 export default FormShowRoom;
 
-export const styles = {
-  toast: `
- position: fixed;
- bottom: 10px;
- right: 20px;
- padding: 10px 15px;
- border-radius: 5px;
- font-size: 16px;
- cursor: pointer;
- z-index: 9999;
- `,
-  success: `
- background-color: #d4edda;
- border: 1px solid #c3e6cb;
- color: #155724;
- `,
-  error: `
- background-color: #f8d7da;
- border: 1px solid #f5c6cb;
- color: #721c24;
- `,
-};
+// export const styles = {
+//   toast: `
+//  bottom: 10px;
+//  right: 20px;
+//  padding: 10px 15px;
+//  border-radius: 5px;
+//  font-size: 16px;
+//  cursor: pointer;
+//  z-index: 9999;
+//  background-color: #ffffff;
+//  `,
+//   success: `
+//  border: 1px solid #c3e6cb;
+//  color: #155724;
+//  `,
+//   error: `
+//  border: 1px solid #f5c6cb;
+//  color: #721c24;
+//  `,
+// };
