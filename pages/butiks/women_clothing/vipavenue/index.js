@@ -33,7 +33,7 @@ function Vipavenue() {
     <Layout title="VIPAVENUE - бутик в ТРК «СИТИ ЦЕНТР» ">
       <Butik butik={butik}></Butik>
 
-      <div className="mt-10 -mb-16 pt-8 pb-16 sm:pb-8 bg-white">
+      <div className="mt-10 -mb-2 sm:-mb-16 pt-8 pb-16 sm:pb-8 bg-white">
         <h2 className="title_main text-black text-center px-2 sm:px-0 text-[40px] sm:text-[3vw]">
           Актуальные образы
         </h2>
@@ -41,12 +41,20 @@ function Vipavenue() {
           <SliderVipAvenue data={sliderVipAvenue} />
         </div>
 
-        <Link
-          href="#"
-          className="w-72 my-10 mx-auto block text-center text-xl sm:text-3xl md:text-4xl border-2 p-2 border-black hover:bg-black text-black hover:text-white ease-in duration-200"
-        >
-          Получить скидку
-        </Link>
+        <div className="lg:container mx-auto px-4 lg:px-0">
+          <Link
+            href="https://vipavenue.ru/"
+            target="_blank"
+            className="w-72 my-10 mx-auto block text-center text-2xl sm:text-3xl md:text-4xl border-2 p-2 border-black hover:bg-black text-black hover:text-white ease-in duration-200"
+          >
+            Получить подарок*
+          </Link>
+
+          <p className="text-black text-center">
+            *При личном получении онлайн-заказа в ТРК «СИТИ ЦЕНТР»
+            VIPAVENUE&nbsp;дарит 5% дополнительно
+          </p>
+        </div>
       </div>
     </Layout>
   );
