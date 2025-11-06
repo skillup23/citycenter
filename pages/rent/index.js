@@ -4,7 +4,7 @@ import noimg from '@/public/butiks/loaderImg.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { BsFilePdf } from 'react-icons/bs';
+// import { BsFilePdf } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
@@ -91,7 +91,7 @@ function Rent() {
             Арендаторов
           </h3>
 
-          <div className="flex flex-wrap gap-6 justify-center">
+          {/* <div className="flex flex-wrap gap-6 justify-center">
             <Link
               href="/docs/Презентация СИТИЦЕНТР 26.07.2025.pdf"
               target="_blank"
@@ -116,10 +116,10 @@ function Rent() {
               <BsFilePdf className="mr-4 text-3xl" />
               Регламент работ
             </Link>
-          </div>
+          </div> */}
 
           <h2 className="title_main mt-10">Контакты</h2>
-          <div className="mt-10 w-fill md:w-11/12 m-auto inline-flex flex-row flex-wrap justify-between px-6 md:px-0">
+          <div className="mt-10 mb-10 w-fill md:w-11/12 m-auto inline-flex flex-row flex-wrap justify-between px-6 md:px-0">
             <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
               <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
                 ТРК «СИТИ ЦЕНТР»
