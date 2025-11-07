@@ -43,7 +43,7 @@ function Vipavenue() {
 
         <div className="lg:container mx-auto px-4 lg:px-0">
           <Link
-            href="https://vipavenue.ru/"
+            href="https://vipavenue.ru/blog/vipavenue-s-new-project-in-krasnodar-this-fall/"
             target="_blank"
             className="w-72 my-10 mx-auto block text-center text-2xl sm:text-3xl md:text-4xl border-2 p-2 border-black hover:bg-black text-black hover:text-white ease-in duration-200"
           >
