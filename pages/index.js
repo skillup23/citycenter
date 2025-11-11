@@ -6,10 +6,10 @@ import SliderMain from "@/components/SliderMain";
 import VideoMain from "@/components/VideoMain";
 import YandexMap from "@/components/YandexMap";
 import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
-import news55 from "@/public/news/55.jpg";
-import news56 from "@/public/news/56.jpg";
-import news57 from "@/public/news/57.jpg";
 import news58 from "@/public/news/58.jpg";
+import news59 from "@/public/news/59.jpg";
+import news60 from "@/public/news/60.jpg";
+import news61 from "@/public/news/61.jpg";
 import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
 import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
 import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
@@ -39,6 +39,48 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news61}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: "100%", height: "100%" }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/61.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new2"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news60}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: "100%", height: "100%" }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/60.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new3"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news59}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: "100%", height: "100%" }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/59.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new4"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news58}
                 alt="Новость"
                 width="0"
@@ -48,48 +90,6 @@ export default function Home() {
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/58.jpg")]'></div>
             </Link>
-            <Link
-              href="/news#new2"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news57}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: "100%", height: "100%" }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/57.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new3"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news56}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: "100%", height: "100%" }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/56.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new4"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news55}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: "100%", height: "100%" }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/55.jpg")]'></div>
-            </Link>
           </div>
         </div>
       </section>
@@ -98,12 +98,11 @@ export default function Home() {
 
       <section className="mb-2 sm:mb-20">
         <div className="lg:container mx-auto">
-          {/* <Link href="/rent">
-            <div className="w-fill mt-10 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
-              ТРК «СИТИ ЦЕНТР» приглашает к сотрудничеству цветочные магазины,
-              кафе и рестораны
-            </div>
-          </Link> */}
+          <div className="w-fill mt-10 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+            Вы&nbsp;по‑прежнему&nbsp;оффлайн?
+            В&nbsp;«Сити&nbsp;Центре»&nbsp;вы&nbsp;вновь&nbsp;в&nbsp;онлайне:
+            созвониться,&nbsp;отправить&nbsp;файлы,&nbsp;вызвать&nbsp;такси&nbsp;—&nbsp;легко
+          </div>
 
           <h2 className="title_main px-2 sm:px-0 text-[50px] sm:text-[7vw] mt-12 mb-10">
             Анонсы кинопоказов
