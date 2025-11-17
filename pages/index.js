@@ -1,24 +1,24 @@
 // import ImageLink from '@/components/ImageLink';
-import DocumentsPage from "@/components/DocumentsPage";
-import Layout from "@/components/Layout";
-import ShopListMain from "@/components/ShopListMain";
-import SliderMain from "@/components/SliderMain";
-import VideoMain from "@/components/VideoMain";
-import YandexMap from "@/components/YandexMap";
-import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
-import news58 from "@/public/news/58.jpg";
-import news59 from "@/public/news/59.jpg";
-import news60 from "@/public/news/60.jpg";
-import news61 from "@/public/news/61.jpg";
-import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
-import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
-import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
-import Image from "next/image";
-import Link from "next/link";
-import { FaBus, FaPhoneAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import { RiTimeFill } from "react-icons/ri";
+import DocumentsPage from '@/components/DocumentsPage';
+import Layout from '@/components/Layout';
+import ShopListMain from '@/components/ShopListMain';
+import SliderMain from '@/components/SliderMain';
+import VideoMain from '@/components/VideoMain';
+import YandexMap from '@/components/YandexMap';
+import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
+import news58 from '@/public/news/58.jpg';
+import news59 from '@/public/news/59.jpg';
+import news60 from '@/public/news/60.jpg';
+import news61 from '@/public/news/61.jpg';
+import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
+import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
+import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaBus, FaPhoneAlt } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { RiTimeFill } from 'react-icons/ri';
 
 export default function Home() {
   return (
@@ -31,6 +31,11 @@ export default function Home() {
 
       <section className="mb-12 sm:mb-20 border_section border-b-0">
         <div className="lg:container mx-auto">
+          <div className="w-fill mt-10 py-6 bg-[#881012] text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
+            Вы&nbsp;по‑прежнему&nbsp;оффлайн?
+            В&nbsp;«Сити&nbsp;Центре»&nbsp;вы&nbsp;вновь&nbsp;в&nbsp;онлайне:
+            созвониться,&nbsp;отправить&nbsp;файлы,&nbsp;вызвать&nbsp;такси&nbsp;—&nbsp;легко
+          </div>
           <h1 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h1>
           {/* <ShopListMain items={news} classItem="mt-10" /> */}
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
@@ -43,7 +48,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/61.jpg")]'></div>
@@ -57,7 +62,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/60.jpg")]'></div>
@@ -71,7 +76,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/59.jpg")]'></div>
@@ -85,7 +90,7 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/58.jpg")]'></div>
@@ -98,12 +103,6 @@ export default function Home() {
 
       <section className="mb-2 sm:mb-20">
         <div className="lg:container mx-auto">
-          <div className="w-fill mt-10 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
-            Вы&nbsp;по‑прежнему&nbsp;оффлайн?
-            В&nbsp;«Сити&nbsp;Центре»&nbsp;вы&nbsp;вновь&nbsp;в&nbsp;онлайне:
-            созвониться,&nbsp;отправить&nbsp;файлы,&nbsp;вызвать&nbsp;такси&nbsp;—&nbsp;легко
-          </div>
-
           <h2 className="title_main px-2 sm:px-0 text-[50px] sm:text-[7vw] mt-12 mb-10">
             Анонсы кинопоказов
           </h2>
@@ -114,7 +113,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden h-full"
-                  target={"_blank"}
+                  target={'_blank'}
                 >
                   <Image
                     src={img}
@@ -138,7 +137,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={"_blank"}
+            target={'_blank'}
           >
             <Image
               src={kinoBanner}
@@ -209,7 +208,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={"/site_img/city_FHD_6.mp4"} />
+              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
             </div>
           </div>
         </div>
