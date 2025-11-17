@@ -68,7 +68,7 @@ const menu = [
 const sliderTop = [
   {
     id: 1,
-    src: '/slide_main/m_15.jpg',
+    src: '/slide_main/m_12.jpg',
     alt: 'Изображение 1',
   },
   // {
