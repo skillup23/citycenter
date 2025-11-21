@@ -1,24 +1,24 @@
 // import ImageLink from '@/components/ImageLink';
-import DocumentsPage from '@/components/DocumentsPage';
-import Layout from '@/components/Layout';
-import ShopListMain from '@/components/ShopListMain';
-import SliderMain from '@/components/SliderMain';
-import VideoMain from '@/components/VideoMain';
-import YandexMap from '@/components/YandexMap';
-import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
-import news62 from '@/public/news/62.jpg';
-import news63 from '@/public/news/63.jpg';
-import news60 from '@/public/news/60.jpg';
-import news61 from '@/public/news/61.jpg';
-import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
-import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
-import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaBus, FaPhoneAlt } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { RiTimeFill } from 'react-icons/ri';
+import DocumentsPage from "@/components/DocumentsPage";
+import Layout from "@/components/Layout";
+import ShopListMain from "@/components/ShopListMain";
+import SliderMain from "@/components/SliderMain";
+import VideoMain from "@/components/VideoMain";
+import YandexMap from "@/components/YandexMap";
+import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
+import news61 from "@/public/news/61.jpg";
+import news62 from "@/public/news/62.jpg";
+import news63 from "@/public/news/63.jpg";
+import news64 from "@/public/news/64.jpg";
+import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
+import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
+import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
+import Image from "next/image";
+import Link from "next/link";
+import { FaBus, FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
+import { RiTimeFill } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -44,17 +44,31 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news64}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: "100%", height: "100%" }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/64.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new2"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news63}
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/63.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new2"
+              href="/news#new3"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -62,13 +76,13 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/62.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new3"
+              href="/news#new4"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -76,24 +90,10 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 priority
               />
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/61.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new4"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news60}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/60.jpg")]'></div>
             </Link>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden h-full"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   <Image
                     src={img}
@@ -137,7 +137,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={'_blank'}
+            target={"_blank"}
           >
             <Image
               src={kinoBanner}
@@ -208,7 +208,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
+              <VideoMain videoLink={"/site_img/city_FHD_6.mp4"} />
             </div>
           </div>
         </div>
