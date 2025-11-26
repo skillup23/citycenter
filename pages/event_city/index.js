@@ -1,9 +1,9 @@
-import ImageLink from "@/components/ImageLink";
-import Layout from "@/components/Layout";
-import { eventArray } from "@/public/data/data";
-import eventText from "@/public/event_city/смотреть-фотоотчет.png";
-import Image from "next/image";
-import Link from "next/link";
+import ImageLink from '@/components/ImageLink';
+import Layout from '@/components/Layout';
+import { eventArray } from '@/public/data/data';
+import eventText from '@/public/event_city/смотреть-фотоотчет.png';
+import Image from 'next/image';
+import Link from 'next/link';
 
 function EventCity() {
   return (
@@ -21,7 +21,7 @@ function EventCity() {
                 <ImageLink
                   href={item.link}
                   src={item.img}
-                  width="72"
+                  width="128"
                   alt={item.text}
                   cssClass=""
                   target={item.target}
