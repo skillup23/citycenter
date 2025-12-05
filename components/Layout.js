@@ -1,7 +1,8 @@
-import Head from "next/head";
-import ButtonRight from "./ButtonRight";
-import Footer from "./Footer";
-import Header from "./Header";
+import Head from 'next/head';
+import ButtonRight from './ButtonRight';
+import Footer from './Footer';
+import Header from './Header';
+import CookieBanner from './CookieBanner';
 
 function Layout({ children, title, description }) {
   return (
@@ -12,7 +13,7 @@ function Layout({ children, title, description }) {
         </title>
         <meta
           name="description"
-          content={description ? description : "Официальный сайт"}
+          content={description ? description : 'Официальный сайт'}
         />
         <meta name="yandex-verification" content="e9baee5e56dc6985" />
         <link rel="icon" href="/favicon-12.ico" />
@@ -21,6 +22,7 @@ function Layout({ children, title, description }) {
       <main className="flex-auto">{children}</main>
       <Footer />
       <ButtonRight />
+      <CookieBanner />
     </div>
   );
 }
