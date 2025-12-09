@@ -824,6 +824,65 @@ const kinoAfisha = [
   },
 ];
 
+const logosData = [
+  {
+    id: 1,
+    name: 'Bogner',
+    url: 'https://google.com',
+    image: '/butiks/womenClothing/Bogner/logo.png',
+    alt: 'Bogner Logo',
+  },
+  {
+    id: 2,
+    name: 'GMT',
+    url: 'https://apple.com',
+    image: '/butiks/clocks/GMT/logo.png',
+    alt: 'GMT Logo',
+  },
+  {
+    id: 3,
+    name: 'VIPAVENUE',
+    url: 'https://microsoft.com',
+    image: '/butiks/womenClothing/VIPAVENUE/logo.png',
+    alt: 'VIPAVENUE Logo',
+  },
+  {
+    id: 4,
+    name: 'Галерея времени',
+    url: 'https://amazon.com',
+    image: '/butiks/clocks/TimeGalery/logo.png',
+    alt: 'TimeGalery Logo',
+  },
+  {
+    id: 5,
+    name: 'Paul&Shark',
+    url: 'https://meta.com',
+    image: '/butiks/womenClothing/Paul-shark/logo.png',
+    alt: 'Paul&Shark Logo',
+  },
+  {
+    id: 6,
+    name: 'ConceptStore',
+    url: 'https://netflix.com',
+    image: '/butiks/womenClothing/ConceptStore/logo1.png',
+    alt: 'ConceptStore Logo',
+  },
+  {
+    id: 7,
+    name: 'COSMOSTORE',
+    url: 'https://tesla.com',
+    image: '/butiks/womenClothing/COSMO-STORE/logo.png',
+    alt: 'COSMOSTORE Logo',
+  },
+  {
+    id: 8,
+    name: 'DonBazilio',
+    url: 'https://spotify.com',
+    image: '/butiks/kafe/DonBazilio/logo.png',
+    alt: 'DonBazilio Logo',
+  },
+];
+
 export {
   birthday,
   champion,
@@ -843,4 +902,5 @@ export {
   stilistShowRoom,
   sliderVipAvenue,
   birthday2025,
+  logosData,
 };
