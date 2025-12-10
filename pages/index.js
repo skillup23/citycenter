@@ -1,6 +1,7 @@
 // import ImageLink from '@/components/ImageLink';
 import DocumentsPage from "@/components/DocumentsPage";
 import Layout from "@/components/Layout";
+// import MarqueeLogos from '@/components/MarqueeLogos';
 import ShopListMain from "@/components/ShopListMain";
 import SliderMain from "@/components/SliderMain";
 import VideoMain from "@/components/VideoMain";
@@ -26,6 +27,11 @@ export default function Home() {
       {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
 
       <SliderMain data={sliderTop} dots={false} />
+
+      {/*                      БЕГУЩАЯ СТРОКА                         */}
+      {/* <section className="border_section">
+        <MarqueeLogos />
+      </section> */}
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
@@ -112,15 +118,15 @@ export default function Home() {
                 <Link
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
-                  className="block relative w-full overflow-hidden h-full"
+                  className="block relative w-full overflow-hidden aspect-[3/5]"
                   target={"_blank"}
                 >
                   <Image
                     src={img}
                     alt="Киноафиша"
-                    width="0"
-                    height="0"
-                    className="ease-in duration-150 md:grayscale hover:grayscale-0"
+                    width={0}
+                    height={0}
+                    className="w-full h-full ease-in duration-150 md:grayscale hover:grayscale-0"
                     priority
                   />
                 </Link>
@@ -132,7 +138,7 @@ export default function Home() {
 
       {/*                      СЛАЙДЕР КИНОТЕАТР                         */}
 
-      <section className="relative mt-2 sm:mt-20" id="kinoteatr">
+      <section className="relative mt-10 sm:mt-20" id="kinoteatr">
         {/* <SliderMain data={sliderCenter} dots={true} /> */}
         <div className="lg:container mx-auto">
           <Link
