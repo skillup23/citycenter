@@ -33,7 +33,7 @@ const SliderMain = ({ data, dots }) => {
     ),
   };
   return (
-    <section>
+    <section className="mt-2">
       <Slider {...settings}>
         {data.map(({ id, src, alt }) => (
           <div key={id}>
