@@ -1,16 +1,17 @@
 // import ImageLink from '@/components/ImageLink';
 import DocumentsPage from "@/components/DocumentsPage";
 import Layout from "@/components/Layout";
+import MarqueeLogos from "@/components/MarqueeLogos";
 // import MarqueeLogos from '@/components/MarqueeLogos';
 import ShopListMain from "@/components/ShopListMain";
 import SliderMain from "@/components/SliderMain";
 import VideoMain from "@/components/VideoMain";
 import YandexMap from "@/components/YandexMap";
 import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
-import news66 from "@/public/news/66.jpg";
-import news67 from "@/public/news/67.jpg";
-import news68 from "@/public/news/68.jpg";
-import news69 from "@/public/news/69.jpg";
+import news66 from "@/public/news/70.jpg";
+import news67 from "@/public/news/71.jpg";
+import news68 from "@/public/news/72.jpg";
+import news69 from "@/public/news/73.jpg";
 import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
 import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
 import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
@@ -24,14 +25,13 @@ import { RiTimeFill } from "react-icons/ri";
 export default function Home() {
   return (
     <Layout title="ГЛАВНАЯ">
-      {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-
-      <SliderMain data={sliderTop} dots={false} />
-
       {/*                      БЕГУЩАЯ СТРОКА                         */}
-      {/* <section className="border_section">
+      <section className="border_section border-t-0">
         <MarqueeLogos />
-      </section> */}
+      </section>
+
+      {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
+      <SliderMain data={sliderTop} dots={false} />
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
@@ -57,7 +57,7 @@ export default function Home() {
                 style={{ width: "100%", height: "100%" }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/69.jpg")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/73.jpg")]'></div>
             </Link>
             <Link
               href="/news#new2"
@@ -71,7 +71,7 @@ export default function Home() {
                 style={{ width: "100%", height: "100%" }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/68.jpg")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/72.jpg")]'></div>
             </Link>
             <Link
               href="/news#new3"
@@ -85,7 +85,7 @@ export default function Home() {
                 style={{ width: "100%", height: "100%" }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/67.jpg")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/71.jpg")]'></div>
             </Link>
             <Link
               href="/news#new4"
@@ -99,7 +99,7 @@ export default function Home() {
                 style={{ width: "100%", height: "100%" }}
                 priority
               />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/66.jpg")]'></div>
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/70.jpg")]'></div>
             </Link>
           </div>
         </div>
