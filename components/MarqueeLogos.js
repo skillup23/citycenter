@@ -7,7 +7,7 @@ export default function MarqueeLogos() {
   const logosDuplicated = [...logosData, ...logosData];
 
   return (
-    <div className="relative overflow-hidden py-8 ">
+    <div className="relative overflow-hidden py-6 sm:py-8 ">
       <div className="marquee-container relative">
         {/* Первая бегущая строка */}
         <div className="marquee-track flex animate-marquee whitespace-nowrap">
@@ -34,7 +34,7 @@ export default function MarqueeLogos() {
         </div>
 
         {/* Вторая бегущая строка для плавного перехода */}
-        {/* <div className="marquee-track flex animate-marquee2 whitespace-nowrap absolute top-0">
+        <div className="marquee-track flex animate-marquee2 whitespace-nowrap absolute top-0">
           {logosDuplicated.map((logo, index) => (
             <div
               key={`${logo.id}-${index}-duplicate`}
@@ -54,7 +54,7 @@ export default function MarqueeLogos() {
               </Link>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );
