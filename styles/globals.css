@@ -1,6 +1,6 @@
-@import url('../public/fonts/stylesheet.css');
-@import '~slick-carousel/slick/slick.css';
-@import '~slick-carousel/slick/slick-theme.css';
+@import url("../public/fonts/stylesheet.css");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 @tailwind base;
 @tailwind components;
@@ -18,7 +18,7 @@
   .slick-active {
     width: 10px;
     height: 10px;
-    border-radius: '50px';
+    border-radius: "50px";
     background-color: black;
   }
   .border_section {
@@ -67,7 +67,7 @@
 } */
 
 :root {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
 }
 
 * {
@@ -226,6 +226,7 @@ select:focus {
 }
 
 /*------------- Бегущая строка ----------------*/
+/* Основные keyframes */
 @keyframes marquee {
   0% {
     transform: translateX(0%);
@@ -244,19 +245,66 @@ select:focus {
   }
 }
 
+/* Вендорные префиксы для WebKit (Chrome, Safari, Яндекс.Браузер) */
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+  }
+}
+
+@-webkit-keyframes marquee2 {
+  0% {
+    -webkit-transform: translateX(50%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+/* Вендорные префиксы для Firefox */
+@-moz-keyframes marquee {
+  0% {
+    -moz-transform: translateX(0%);
+  }
+  100% {
+    -moz-transform: translateX(-50%);
+  }
+}
+
+@-moz-keyframes marquee2 {
+  0% {
+    -moz-transform: translateX(50%);
+  }
+  100% {
+    -moz-transform: translateX(0%);
+  }
+}
+
+/* Классы с вендорными префиксами */
 .animate-marquee {
   animation: marquee 30s linear infinite;
+  -webkit-animation: marquee 30s linear infinite;
+  -moz-animation: marquee 30s linear infinite;
+  will-change: transform; /* Важно для производительности */
 }
 
 .animate-marquee2 {
   animation: marquee2 30s linear infinite;
+  -webkit-animation: marquee2 30s linear infinite;
+  -moz-animation: marquee2 30s linear infinite;
+  will-change: transform;
 }
 
 .marquee-container {
   width: 100%;
+  position: relative;
 }
 
 .marquee-track {
   display: flex;
   width: fit-content;
+  flex-shrink: 0; /* Важно для предотвращения сжатия */
 }
