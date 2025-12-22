@@ -28,8 +28,16 @@ import news71 from '@/public/news/71.jpg';
 import news72 from '@/public/news/72.jpg';
 import news73 from '@/public/news/73.jpg';
 import news74 from '@/public/news/74.jpg';
+import news75 from '@/public/news/75.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news75,
+    text: [
+      'В преддверии новогодних праздников хотим обратить ваше внимание на график работы ТРК «СИТИ ЦЕНТР» 🤍',
+    ],
+  },
   {
     id: id++,
     img1: news74,
