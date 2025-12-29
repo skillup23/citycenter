@@ -22,14 +22,7 @@ const SliderMain = ({ data, dots }) => {
       </div>
     ),
     customPaging: () => (
-      <div
-        style={{
-          width: '8px',
-          height: '8px',
-          borderRadius: '50px',
-          backgroundColor: '#ddd',
-        }}
-      ></div>
+      <div className="w-2 h-2 rounded-full bg-gray-200"></div>
     ),
   };
   return (
