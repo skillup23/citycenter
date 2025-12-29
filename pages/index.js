@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-      <SliderMain data={sliderTop} dots={false} />
+      <SliderMain data={sliderTop} dots={true} />
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
