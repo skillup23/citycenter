@@ -1,20 +1,20 @@
-import Layout from '@/components/Layout';
-import Popup from '@/components/Popup';
-import noimg from '@/public/butiks/loaderImg.png';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
+import Layout from "@/components/Layout";
+import Popup from "@/components/Popup";
+import noimg from "@/public/butiks/loaderImg.png";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 // import { BsFilePdf } from 'react-icons/bs';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
+import { FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
 
 function Rent() {
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
     src: noimg,
-    alt: 'Описание',
+    alt: "Описание",
   });
 
   function test(id, src, alt) {
@@ -25,18 +25,18 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-8-floor.jpg',
-      alt: '1 этаж',
+      src: "/rent_img/1-9-floor.jpg",
+      alt: "1 этаж",
     },
     {
       id: 2,
-      src: '/rent_img/2-9-floor.jpg',
-      alt: '2 этаж',
+      src: "/rent_img/2-10-floor.jpg",
+      alt: "2 этаж",
     },
     {
       id: 3,
-      src: '/rent_img/3-9-floor.jpg',
-      alt: '3 этаж',
+      src: "/rent_img/3-10-floor.jpg",
+      alt: "3 этаж",
     },
   ];
 
@@ -119,12 +119,12 @@ function Rent() {
           </div> */}
 
           <h2 className="title_main mt-10">Контакты</h2>
-          <div className="mt-10 mb-10 w-fill md:w-11/12 m-auto inline-flex flex-row flex-wrap justify-between px-6 md:px-0">
-            <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+          <div className="mt-6 sm:mt-10 mb-10 w-fill md:w-11/12 m-auto inline-flex flex-row flex-wrap justify-between px-6 md:px-0 gap-2">
+            <div className="flex flex-col w-full sm:w-1/2">
+              <h4 className="mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                 ТРК «СИТИ ЦЕНТР»
               </h4>
-              <ul>
+              <ul className="mt-auto">
                 <li className="flex flex-row w-fill items-center mt-1">
                   <HiLocationMarker className="text-xl mr-5" />
                   <h4 className="text-lg md:text-xl lg:text-2xl">
@@ -159,10 +159,10 @@ function Rent() {
             </div>
 
             <div
-              className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-10 sm:mt-0"
+              className="flex flex-col w-full sm:w-1/2 md:w-1/3 mt-6 sm:mt-0"
               id="rent-contact"
             >
-              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:h-[100px] lg:h-[120px]">
+              <h4 className="mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                 ОТДЕЛ АРЕНДНЫХ <br></br>ОТНОШЕНИЙ
               </h4>
               <ul>
