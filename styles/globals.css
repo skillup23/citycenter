@@ -1,6 +1,6 @@
-@import url('../public/fonts/stylesheet.css');
-@import '~slick-carousel/slick/slick.css';
-@import '~slick-carousel/slick/slick-theme.css';
+@import url("../public/fonts/stylesheet.css");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 @tailwind base;
 @tailwind components;
@@ -78,7 +78,7 @@
 } */
 
 :root {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
 }
 
 * {
@@ -207,17 +207,17 @@ select:focus {
 
 .slick-prev:before,
 .slick-next:before {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 40px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
 }
 
 .slick-prev {
-  left: 30px;
+  left: 10px;
   z-index: 10;
 }
 
 .slick-next {
-  right: 30px;
+  right: 10px;
 }
 
 @media (min-width: 768px) {
@@ -228,11 +228,14 @@ select:focus {
   }
 
   .slick-prev {
-    left: 25vw;
+    left: 1vw;
   }
-
   .slick-next {
-    right: 25vw;
+    right: 2vw;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px;
   }
 }
 

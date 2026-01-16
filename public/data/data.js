@@ -4,63 +4,63 @@ let id = 0;
 const menu = [
   {
     id: id++,
-    name: 'Бутики',
-    link: '/#bitiki',
+    name: "Бутики",
+    link: "/#bitiki",
   },
   {
     id: id++,
-    name: 'Рестораны',
-    link: '/butiks/kafe',
+    name: "Oysters",
+    link: "/butiks/kafe/4",
   },
   {
     id: id++,
-    name: 'VIP шоурум',
-    link: '/showroom',
+    name: "VIP шоурум",
+    link: "/showroom",
   },
   {
     id: id++,
-    name: 'Сервисы',
-    link: '/services',
+    name: "Сервисы",
+    link: "/services",
   },
   {
     id: id++,
-    name: 'Кинотеатр',
-    link: '/events',
+    name: "Кинотеатр",
+    link: "/events",
   },
   {
     id: id++,
-    name: 'Детям',
-    link: '/butiks/children',
+    name: "Детям",
+    link: "/butiks/children",
   },
   {
     id: id++,
-    name: 'Сервисы',
-    link: '/services',
+    name: "Сервисы",
+    link: "/services",
   },
   {
     id: id++,
-    name: 'Контакты',
-    link: '/contacts',
+    name: "Контакты",
+    link: "/contacts",
   },
   {
     id: id++,
-    name: 'Парковка',
-    link: '/parking',
+    name: "Парковка",
+    link: "/parking",
   },
   {
     id: id++,
-    name: 'Арендаторам',
-    link: '/rent',
+    name: "Арендаторам",
+    link: "/rent",
   },
   {
     id: id++,
-    name: 'Рекламодателям',
-    link: '/marketing',
+    name: "Рекламодателям",
+    link: "/marketing",
   },
   {
     id: id++,
-    name: 'Юридическая информация',
-    link: '/documents',
+    name: "Юридическая информация",
+    link: "/documents",
   },
 ];
 
@@ -68,8 +68,13 @@ const menu = [
 const sliderTop = [
   {
     id: 1,
-    src: '/slide_main/m_12.jpg',
-    alt: 'Изображение 1',
+    src: "/slide_main/m_12.jpg",
+    alt: "Изображение 1",
+  },
+  {
+    id: 1,
+    src: "/slide_main/m_9.jpg",
+    alt: "Изображение 1",
   },
   // {
   //   id: 2,
@@ -87,8 +92,8 @@ const sliderTop = [
 const sliderCenter = [
   {
     id: 1,
-    src: '/slide_main/kino-banner-12.jpg',
-    alt: 'Кинобаннер 1',
+    src: "/slide_main/kino-banner-12.jpg",
+    alt: "Кинобаннер 1",
   },
   // {
   //   id: 1,
@@ -131,23 +136,23 @@ const sliderCenter = [
 const sliderVipAvenue = [
   {
     id: 1,
-    src: '/butiks/womenClothing/VIPAVENUE/slider-1.jpg',
-    alt: 'Актуальный образ 1',
+    src: "/butiks/womenClothing/VIPAVENUE/slider-1.jpg",
+    alt: "Актуальный образ 1",
   },
   {
     id: 2,
-    src: '/butiks/womenClothing/VIPAVENUE/slider-2.jpg',
-    alt: 'Актуальный образ 2',
+    src: "/butiks/womenClothing/VIPAVENUE/slider-2.jpg",
+    alt: "Актуальный образ 2",
   },
   {
     id: 3,
-    src: '/butiks/womenClothing/VIPAVENUE/slider-3.jpg',
-    alt: 'Актуальный образ 3',
+    src: "/butiks/womenClothing/VIPAVENUE/slider-3.jpg",
+    alt: "Актуальный образ 3",
   },
   {
     id: 4,
-    src: '/butiks/womenClothing/VIPAVENUE/slider-4.jpg',
-    alt: 'Актуальный образ 4',
+    src: "/butiks/womenClothing/VIPAVENUE/slider-4.jpg",
+    alt: "Актуальный образ 4",
   },
 ];
 
@@ -155,199 +160,199 @@ const sliderVipAvenue = [
 const stilistShowRoom = [
   {
     id: 1,
-    foto: '/showroom_img/s1.png',
-    title: 'АННА ПИНЧУК',
-    subtitle: 'СТИЛИСТ-ИМИДЖМЕЙКЕР',
+    foto: "/showroom_img/s1.png",
+    title: "АННА ПИНЧУК",
+    subtitle: "СТИЛИСТ-ИМИДЖМЕЙКЕР",
     text: [
-      'Аудитория: мужчины и женщины 35-40+',
-      'Шопинг занимает 2 часа',
+      "Аудитория: мужчины и женщины 35-40+",
+      "Шопинг занимает 2 часа",
       // 'Стоимость: 7.800₽/час ( для нас 5.000₽/час )',
     ],
     image: [
       {
         id: 1,
-        src: '/showroom_img/s1-1.png',
-        alt: 'пример 1',
+        src: "/showroom_img/s1-1.png",
+        alt: "пример 1",
       },
       {
         id: 2,
-        src: '/showroom_img/s1-2.png',
-        alt: 'пример 2',
+        src: "/showroom_img/s1-2.png",
+        alt: "пример 2",
       },
       {
         id: 3,
-        src: '/showroom_img/s1-3.png',
-        alt: 'пример 3',
+        src: "/showroom_img/s1-3.png",
+        alt: "пример 3",
       },
       {
         id: 4,
-        src: '/showroom_img/s1-4.png',
-        alt: 'пример 4',
+        src: "/showroom_img/s1-4.png",
+        alt: "пример 4",
       },
     ],
   },
   {
     id: 2,
-    foto: '/showroom_img/s2.png',
-    title: 'ГАЛИНА ДЕБРОВА',
-    subtitle: 'МУЖСКОЙ СТИЛИСТ',
+    foto: "/showroom_img/s2.png",
+    title: "ГАЛИНА ДЕБРОВА",
+    subtitle: "МУЖСКОЙ СТИЛИСТ",
     text: [
-      'Аудитория: мужчины 38+',
-      'Шопинг занимает 2-3 часа',
+      "Аудитория: мужчины 38+",
+      "Шопинг занимает 2-3 часа",
       // 'Стоимость: 30.000₽ ( для нас 15.000-20.000₽ )',
     ],
     image: [
       {
         id: 1,
-        src: '/showroom_img/s2-1.jpg',
-        alt: 'пример 1',
+        src: "/showroom_img/s2-1.jpg",
+        alt: "пример 1",
       },
       {
         id: 2,
-        src: '/showroom_img/s2-2.jpg',
-        alt: 'пример 2',
+        src: "/showroom_img/s2-2.jpg",
+        alt: "пример 2",
       },
       {
         id: 3,
-        src: '/showroom_img/s2-3.jpg',
-        alt: 'пример 3',
+        src: "/showroom_img/s2-3.jpg",
+        alt: "пример 3",
       },
       {
         id: 4,
-        src: '/showroom_img/s2-4.jpg',
-        alt: 'пример 4',
+        src: "/showroom_img/s2-4.jpg",
+        alt: "пример 4",
       },
     ],
   },
   {
     id: 3,
-    foto: '/showroom_img/s3.png',
-    title: 'МАРИНА КЛИМЕНКО',
-    subtitle: 'СТИЛИСТ',
+    foto: "/showroom_img/s3.png",
+    title: "МАРИНА КЛИМЕНКО",
+    subtitle: "СТИЛИСТ",
     text: [
-      'Аудитория: женщины и мужчины 30+',
-      'Шопинг занимает 2-3 часа',
+      "Аудитория: женщины и мужчины 30+",
+      "Шопинг занимает 2-3 часа",
       // 'Стоимость: 5.000₽/час',
     ],
     image: [
       {
         id: 1,
-        src: '/showroom_img/s3-1.png',
-        alt: 'пример 1',
+        src: "/showroom_img/s3-1.png",
+        alt: "пример 1",
       },
       {
         id: 2,
-        src: '/showroom_img/s3-2.png',
-        alt: 'пример 2',
+        src: "/showroom_img/s3-2.png",
+        alt: "пример 2",
       },
       {
         id: 3,
-        src: '/showroom_img/s3-3.png',
-        alt: 'пример 3',
+        src: "/showroom_img/s3-3.png",
+        alt: "пример 3",
       },
       {
         id: 4,
-        src: '/showroom_img/s3-4.png',
-        alt: 'пример 4',
+        src: "/showroom_img/s3-4.png",
+        alt: "пример 4",
       },
     ],
   },
   {
     id: 4,
-    foto: '/showroom_img/s4.png',
-    title: 'АНЖЕЛИКА ВАРТАНЬЯН',
-    subtitle: 'СТИЛИСТ',
+    foto: "/showroom_img/s4.png",
+    title: "АНЖЕЛИКА ВАРТАНЬЯН",
+    subtitle: "СТИЛИСТ",
     text: [
-      'Аудитория: женщины и мужчины от 23 до 60 лет',
-      'Шопинг занимает 2-3 часа',
+      "Аудитория: женщины и мужчины от 23 до 60 лет",
+      "Шопинг занимает 2-3 часа",
       // 'Стоимость: 20.000₽/час ( для нас каждый последующий 3.000₽ )',
     ],
     image: [
       {
         id: 1,
-        src: '/showroom_img/s4-1.jpg',
-        alt: 'пример 1',
+        src: "/showroom_img/s4-1.jpg",
+        alt: "пример 1",
       },
       {
         id: 2,
-        src: '/showroom_img/s4-2.jpg',
-        alt: 'пример 2',
+        src: "/showroom_img/s4-2.jpg",
+        alt: "пример 2",
       },
       {
         id: 3,
-        src: '/showroom_img/s4-3.jpg',
-        alt: 'пример 3',
+        src: "/showroom_img/s4-3.jpg",
+        alt: "пример 3",
       },
       {
         id: 4,
-        src: '/showroom_img/s4-4.jpg',
-        alt: 'пример 4',
+        src: "/showroom_img/s4-4.jpg",
+        alt: "пример 4",
       },
     ],
   },
   {
     id: 5,
-    foto: '/showroom_img/s5.png',
-    title: 'ЛИЛИАНА МУС',
-    subtitle: 'СТИЛИСТ',
+    foto: "/showroom_img/s5.png",
+    title: "ЛИЛИАНА МУС",
+    subtitle: "СТИЛИСТ",
     text: [
-      'Аудитория: женщины любого возраста',
-      'Шопинг занимает 2-3 часа, возможен онлайн персональный шопинг',
+      "Аудитория: женщины любого возраста",
+      "Шопинг занимает 2-3 часа, возможен онлайн персональный шопинг",
       // 'Стоимость: Образ - от 5.000₽, подбор гардероба - от 20.000₽',
     ],
     image: [
       {
         id: 1,
-        src: '/showroom_img/s5-1.jpg',
-        alt: 'пример 1',
+        src: "/showroom_img/s5-1.jpg",
+        alt: "пример 1",
       },
       {
         id: 2,
-        src: '/showroom_img/s5-2.jpg',
-        alt: 'пример 2',
+        src: "/showroom_img/s5-2.jpg",
+        alt: "пример 2",
       },
       {
         id: 3,
-        src: '/showroom_img/s5-3.jpg',
-        alt: 'пример 3',
+        src: "/showroom_img/s5-3.jpg",
+        alt: "пример 3",
       },
       {
         id: 4,
-        src: '/showroom_img/s5-4.jpg',
-        alt: 'пример 4',
+        src: "/showroom_img/s5-4.jpg",
+        alt: "пример 4",
       },
     ],
   },
   {
     id: 6,
-    foto: '/showroom_img/s6.png',
-    title: 'СВЕТЛАНА КОШИКОВА',
-    subtitle: 'СТИЛИСТ',
+    foto: "/showroom_img/s6.png",
+    title: "СВЕТЛАНА КОШИКОВА",
+    subtitle: "СТИЛИСТ",
     text: [
-      'Аудитория: мужчины и женщины любого возраста',
-      'Шопинг занимает 1,5 часа',
+      "Аудитория: мужчины и женщины любого возраста",
+      "Шопинг занимает 1,5 часа",
       // 'Стоимость: 15.000₽',
     ],
     image: [
       {
         id: 1,
-        src: '/showroom_img/s6-1.jpg',
-        alt: 'пример 1',
+        src: "/showroom_img/s6-1.jpg",
+        alt: "пример 1",
       },
       {
         id: 2,
-        src: '/showroom_img/s6-2.jpg',
-        alt: 'пример 2',
+        src: "/showroom_img/s6-2.jpg",
+        alt: "пример 2",
       },
       {
         id: 3,
-        src: '/showroom_img/s6-3.jpg',
-        alt: 'пример 3',
+        src: "/showroom_img/s6-3.jpg",
+        alt: "пример 3",
       },
       {
         id: 4,
-        src: '/showroom_img/s6-4.jpg',
-        alt: 'пример 4',
+        src: "/showroom_img/s6-4.jpg",
+        alt: "пример 4",
       },
     ],
   },
@@ -358,74 +363,74 @@ const stilistShowRoom = [
 const shopList = [
   {
     id: 1,
-    title: 'Женская одежда',
-    link: '/butiks/women_clothing',
+    title: "Женская одежда",
+    link: "/butiks/women_clothing",
     url: 'bg-[url("../public/site_img/shops/1.jpg")]',
   },
   {
     id: 2,
-    title: 'Мужская одежда',
-    link: '/butiks/men_clothing',
+    title: "Мужская одежда",
+    link: "/butiks/men_clothing",
     url: 'bg-[url("../public/site_img/shops/2.jpg")]',
   },
   {
     id: 3,
-    title: 'Для детей',
-    link: '/butiks/children',
+    title: "Для детей",
+    link: "/butiks/children",
     url: 'bg-[url("../public/site_img/shops/3.jpg")]',
   },
   {
     id: 4,
-    title: 'Купальники и нижнее белье',
-    link: '/butiks/underwear',
+    title: "Купальники и нижнее белье",
+    link: "/butiks/underwear",
     url: 'bg-[url("../public/site_img/shops/4.jpg")]',
   },
   {
     id: 5,
-    title: 'Ювелирные изделия и часы',
-    link: '/butiks/clocks',
+    title: "Ювелирные изделия и часы",
+    link: "/butiks/clocks",
     url: 'bg-[url("../public/site_img/shops/5.jpg")]',
   },
   {
     id: 6,
-    title: 'Обувь и сумки',
-    link: '/butiks/shoes_and_bags',
+    title: "Обувь и сумки",
+    link: "/butiks/shoes_and_bags",
     url: 'bg-[url("../public/site_img/shops/6.jpg")]',
   },
   {
     id: 7,
-    title: 'КОСМЕТИКА И ПАРФЮМЕРИЯ',
-    link: '/butiks/cosmetics',
+    title: "КОСМЕТИКА И ПАРФЮМЕРИЯ",
+    link: "/butiks/cosmetics",
     url: 'bg-[url("../public/site_img/shops/7.jpg")]',
   },
   {
     id: 8,
-    title: 'Интерьер',
-    link: '/butiks/interior',
+    title: "Интерьер",
+    link: "/butiks/interior",
     url: 'bg-[url("../public/site_img/shops/8.jpg")]',
   },
   {
     id: 9,
-    title: 'Подарки и книги',
-    link: '/butiks/gifts_and_books',
+    title: "Подарки и книги",
+    link: "/butiks/gifts_and_books",
     url: 'bg-[url("../public/site_img/shops/9.jpg")]',
   },
   {
     id: 10,
-    title: 'Очки и аксессуары',
-    link: '/butiks/glasses',
+    title: "Очки и аксессуары",
+    link: "/butiks/glasses",
     url: 'bg-[url("../public/site_img/shops/10.jpg")]',
   },
   {
     id: 11,
-    title: 'РЕСТОРАНЫ И КАФЕ',
-    link: '/butiks/kafe',
+    title: "РЕСТОРАНЫ И КАФЕ",
+    link: "/butiks/kafe",
     url: 'bg-[url("../public/site_img/shops/11.jpg")]',
   },
   {
     id: 12,
-    title: 'Развлечения',
-    link: '/butiks/game',
+    title: "Развлечения",
+    link: "/butiks/game",
     url: 'bg-[url("../public/site_img/shops/12.jpg")]',
   },
 ];
@@ -434,23 +439,23 @@ const shopList = [
 const galleryVesna = [
   {
     id: 1,
-    src: '/gallery/vesna/1.jpg',
+    src: "/gallery/vesna/1.jpg",
   },
   {
     id: 2,
-    src: '/gallery/vesna/2.jpg',
+    src: "/gallery/vesna/2.jpg",
   },
   {
     id: 3,
-    src: '/gallery/vesna/3.jpg',
+    src: "/gallery/vesna/3.jpg",
   },
   {
     id: 4,
-    src: '/gallery/vesna/4.jpg',
+    src: "/gallery/vesna/4.jpg",
   },
   {
     id: 5,
-    src: '/gallery/vesna/5.jpg',
+    src: "/gallery/vesna/5.jpg",
   },
 ];
 const galleryBigCinema = [
@@ -568,258 +573,258 @@ const giorgioFakoshima = [
   205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218,
 ];
 
-import event5 from '@/public/event_city/1_june/1.jpg';
-import event18 from '@/public/event_city/Aromat/1.jpg';
-import event17 from '@/public/event_city/Audi/2.jpg';
-import event6 from '@/public/event_city/Birthday/1.jpg';
-import event29 from '@/public/event_city/Birthday2025/1.jpg';
-import event14 from '@/public/event_city/CinemaVine/1.jpg';
-import event11 from '@/public/event_city/ConceptStore/1.jpg';
-import event21 from '@/public/event_city/FashionDay/1.jpg';
-import event23 from '@/public/event_city/FirstLady/1.jpg';
-import event1 from '@/public/event_city/Flamenko/1.jpg';
-import event27 from '@/public/event_city/GastroKod/1.jpg';
-import event13 from '@/public/event_city/Giorgio/1.jpg';
-import event26 from '@/public/event_city/HappyBith2024/1.jpg';
-import event28 from '@/public/event_city/Impressia/1.jpg';
-import event7 from '@/public/event_city/KUBAN_DESIGNSTORE_open/1.jpg';
-import event16 from '@/public/event_city/Miller/1.jpg';
-import event19 from '@/public/event_city/MissKrasnodar/1.jpg';
-import event8 from '@/public/event_city/ModniyBrend/1.jpg';
-import event24 from '@/public/event_city/MysikaBalet/1.jpg';
-import event3 from '@/public/event_city/ONEDAYkids/1.jpg';
-import event12 from '@/public/event_city/OtherCinema/1.jpg';
-import event22 from '@/public/event_city/OtherCinema2/1.jpg';
-import event10 from '@/public/event_city/Papaya/1.jpg';
-import event15 from '@/public/event_city/ParfumeGiorgio/1.jpg';
-import event4 from '@/public/event_city/Pasxa/1.jpg';
-import event9 from '@/public/event_city/StarsInCity/1.jpg';
-import event25 from '@/public/event_city/Teatr/1.jpg';
-import event2 from '@/public/event_city/Vesna/1.jpg';
-import event20 from '@/public/event_city/Zabeg/1.jpg';
-import event30 from '@/public/event_city/GiorgioFakoshima/1.jpg';
+import event5 from "@/public/event_city/1_june/1.jpg";
+import event18 from "@/public/event_city/Aromat/1.jpg";
+import event17 from "@/public/event_city/Audi/2.jpg";
+import event6 from "@/public/event_city/Birthday/1.jpg";
+import event29 from "@/public/event_city/Birthday2025/1.jpg";
+import event14 from "@/public/event_city/CinemaVine/1.jpg";
+import event11 from "@/public/event_city/ConceptStore/1.jpg";
+import event21 from "@/public/event_city/FashionDay/1.jpg";
+import event23 from "@/public/event_city/FirstLady/1.jpg";
+import event1 from "@/public/event_city/Flamenko/1.jpg";
+import event27 from "@/public/event_city/GastroKod/1.jpg";
+import event13 from "@/public/event_city/Giorgio/1.jpg";
+import event30 from "@/public/event_city/GiorgioFakoshima/1.jpg";
+import event26 from "@/public/event_city/HappyBith2024/1.jpg";
+import event28 from "@/public/event_city/Impressia/1.jpg";
+import event7 from "@/public/event_city/KUBAN_DESIGNSTORE_open/1.jpg";
+import event16 from "@/public/event_city/Miller/1.jpg";
+import event19 from "@/public/event_city/MissKrasnodar/1.jpg";
+import event8 from "@/public/event_city/ModniyBrend/1.jpg";
+import event24 from "@/public/event_city/MysikaBalet/1.jpg";
+import event3 from "@/public/event_city/ONEDAYkids/1.jpg";
+import event12 from "@/public/event_city/OtherCinema/1.jpg";
+import event22 from "@/public/event_city/OtherCinema2/1.jpg";
+import event10 from "@/public/event_city/Papaya/1.jpg";
+import event15 from "@/public/event_city/ParfumeGiorgio/1.jpg";
+import event4 from "@/public/event_city/Pasxa/1.jpg";
+import event9 from "@/public/event_city/StarsInCity/1.jpg";
+import event25 from "@/public/event_city/Teatr/1.jpg";
+import event2 from "@/public/event_city/Vesna/1.jpg";
+import event20 from "@/public/event_city/Zabeg/1.jpg";
 
 //              Мероприятия
 const eventArray = [
   {
     id: id++,
-    link: '/event_city/giorgio-fakoshima',
+    link: "/event_city/giorgio-fakoshima",
     img: event30,
-    text: 'GiorgioFakoshima',
-    target: '',
+    text: "GiorgioFakoshima",
+    target: "",
   },
   {
     id: id++,
-    link: '/event_city/birthday2025',
+    link: "/event_city/birthday2025",
     img: event29,
-    text: 'ДЕНЬ РОЖДЕНИЯ 2025',
-    target: '',
+    text: "ДЕНЬ РОЖДЕНИЯ 2025",
+    target: "",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/795083-impressiya-5-0/?sphrase_id=2117673',
+    link: "https://geometria.ru/reportage/795083-impressiya-5-0/?sphrase_id=2117673",
     img: event28,
-    text: 'Импрессия 5.0',
-    target: '_blank',
+    text: "Импрессия 5.0",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/793928-proekt-gastro-kod-yuga/',
+    link: "https://geometria.ru/reportage/793928-proekt-gastro-kod-yuga/",
     img: event27,
-    text: 'Проект Гастро Код Юга',
-    target: '_blank',
+    text: "Проект Гастро Код Юга",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/790551-den-rozhdeniya-trk-siti-tsentr-20-let/',
+    link: "https://geometria.ru/reportage/790551-den-rozhdeniya-trk-siti-tsentr-20-let/",
     img: event26,
-    text: 'ДЕНЬ РОЖДЕНИЯ ТРК «СИТИ ЦЕНТР»',
-    target: '_blank',
+    text: "ДЕНЬ РОЖДЕНИЯ ТРК «СИТИ ЦЕНТР»",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/790257-seriya-immersivnykh-sobytiy-teatralnye-sezony-postanovka-teatra-veritas-v-trk-siti-tsentr/',
+    link: "https://geometria.ru/reportage/790257-seriya-immersivnykh-sobytiy-teatralnye-sezony-postanovka-teatra-veritas-v-trk-siti-tsentr/",
     img: event25,
-    text: '«Театральные сезоны»',
-    target: '_blank',
+    text: "«Театральные сезоны»",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://yanaaleksann18.wfolio.pro/disk/09-11-2024-siti-tsentr-ok-3-n77ksf',
+    link: "https://yanaaleksann18.wfolio.pro/disk/09-11-2024-siti-tsentr-ok-3-n77ksf",
     img: event24,
-    text: 'Музыка&Балет 9.11.2024',
-    target: '_blank',
+    text: "Музыка&Балет 9.11.2024",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447',
+    link: "https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447",
     img: event23,
-    text: 'Клуб первых леди',
-    target: '_blank',
+    text: "Клуб первых леди",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447',
+    link: "https://geometria.ru/reportage/789251-drugoe-kino/?sphrase_id=1356447",
     img: event22,
-    text: 'Другое Кино',
-    target: '_blank',
+    text: "Другое Кино",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://vk.com/album-16899955_303885732',
+    link: "https://vk.com/album-16899955_303885732",
     img: event21,
-    text: 'CITY FASHION DAY',
-    target: '_blank',
+    text: "CITY FASHION DAY",
+    target: "_blank",
   },
   {
     id: id++,
-    link: '/event_city/stars_in_city/',
+    link: "/event_city/stars_in_city/",
     img: event9,
-    text: 'Звезды в Сити',
-    target: '',
+    text: "Звезды в Сити",
+    target: "",
   },
   {
     id: id++,
-    link: '/event_city/day_young_brand/',
+    link: "/event_city/day_young_brand/",
     img: event8,
-    text: 'День Модного Бренда',
-    target: '',
+    text: "День Модного Бренда",
+    target: "",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/786030-kuban-design-store-otkrytie/',
+    link: "https://geometria.ru/reportage/786030-kuban-design-store-otkrytie/",
     img: event7,
-    text: 'KUBAN DESIGNSTORE OPEN',
-    target: '_blank',
+    text: "KUBAN DESIGNSTORE OPEN",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/783594-odin-den-s-blogerami-i-detmi-siti-tsentr/',
+    link: "https://geometria.ru/reportage/783594-odin-den-s-blogerami-i-detmi-siti-tsentr/",
     img: event3,
-    text: 'ONE DAY kids',
-    target: '_blank',
+    text: "ONE DAY kids",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/782706-paskhalnye-master-klassy-v-trk-siti-tsentr/',
+    link: "https://geometria.ru/reportage/782706-paskhalnye-master-klassy-v-trk-siti-tsentr/",
     img: event4,
-    text: 'Пасхальный мастер класс',
-    target: '_blank',
+    text: "Пасхальный мастер класс",
+    target: "_blank",
   },
   {
     id: id++,
-    link: '/event_city/birthday',
+    link: "/event_city/birthday",
     img: event6,
-    text: 'День рождения сити центра',
-    target: '',
+    text: "День рождения сити центра",
+    target: "",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/775785-otkrytie-flagmanskogo-magazina-rossiyskogo-brenda-zhenskoy-odezhdy-papaya-papaya/',
+    link: "https://geometria.ru/reportage/775785-otkrytie-flagmanskogo-magazina-rossiyskogo-brenda-zhenskoy-odezhdy-papaya-papaya/",
     img: event10,
-    text: 'Открытие магазина PAPAYA',
-    target: '_blank',
+    text: "Открытие магазина PAPAYA",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/774521-den-rozhdeniya-concept-store-1god/',
+    link: "https://geometria.ru/reportage/774521-den-rozhdeniya-concept-store-1god/",
     img: event11,
-    text: 'День Рождения Concept Store',
-    target: '_blank',
+    text: "День Рождения Concept Store",
+    target: "_blank",
   },
   {
     id: id++,
-    link: '/event_city/1_june',
+    link: "/event_city/1_june",
     img: event5,
-    text: 'День защиты детей',
-    target: '',
+    text: "День защиты детей",
+    target: "",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/727490-monitor-siti-de-luxe-drugoe-kino/',
+    link: "https://geometria.ru/reportage/727490-monitor-siti-de-luxe-drugoe-kino/",
     img: event12,
-    text: 'МОНИТОР «Другое Кино»',
-    target: '_blank',
+    text: "МОНИТОР «Другое Кино»",
+    target: "_blank",
   },
   {
     id: id++,
-    link: '/event_city/vesna_v_citycenter/',
+    link: "/event_city/vesna_v_citycenter/",
     img: event2,
-    text: 'ВЕСНА В ТРК «СИТИ ЦЕНТР»',
-    target: '',
+    text: "ВЕСНА В ТРК «СИТИ ЦЕНТР»",
+    target: "",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/723868-sedmaya-vesna-v-giorgio-siti-tsentr/',
+    link: "https://geometria.ru/reportage/723868-sedmaya-vesna-v-giorgio-siti-tsentr/",
     img: event13,
-    text: 'Седьмая весна в GIORGIO',
-    target: '_blank',
+    text: "Седьмая весна в GIORGIO",
+    target: "_blank",
   },
   {
     id: id++,
-    link: '/event_city/flamenko/',
+    link: "/event_city/flamenko/",
     img: event1,
-    text: 'ФОТОВЫСТАВКА «ФЛАМЕНКО»',
-    target: '',
+    text: "ФОТОВЫСТАВКА «ФЛАМЕНКО»",
+    target: "",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/684923-zvyezdnaya-premera-filma-v-vinnom-otrazhenii-v-kinoteatre-monitor-siti-de-luxe/',
+    link: "https://geometria.ru/reportage/684923-zvyezdnaya-premera-filma-v-vinnom-otrazhenii-v-kinoteatre-monitor-siti-de-luxe/",
     img: event14,
     text: 'Фильм "В винном отражении"',
-    target: '_blank',
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/683920-parfyumernyi-butik-giorgio-seks-kotiki-i-rock-n-roll/',
+    link: "https://geometria.ru/reportage/683920-parfyumernyi-butik-giorgio-seks-kotiki-i-rock-n-roll/",
     img: event15,
-    text: 'Парфюмерный бутик Giorgio',
-    target: '_blank',
+    text: "Парфюмерный бутик Giorgio",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/26696-pervaya-personalnaya-vystavka-khudozhnitsy-aleksandry-miller/',
+    link: "https://geometria.ru/reportage/26696-pervaya-personalnaya-vystavka-khudozhnitsy-aleksandry-miller/",
     img: event16,
-    text: 'Выставка Александры Миллер',
-    target: '_blank',
+    text: "Выставка Александры Миллер",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/7082-siti-tsentr-zakrytyi-pokaz-filma-mstiteli-final-ot-audi-tsentra-kuban-i-audi-tsentra-krasnodar/',
+    link: "https://geometria.ru/reportage/7082-siti-tsentr-zakrytyi-pokaz-filma-mstiteli-final-ot-audi-tsentra-kuban-i-audi-tsentra-krasnodar/",
     img: event17,
-    text: 'Показ фильма от Ауди Центра',
-    target: '_blank',
+    text: "Показ фильма от Ауди Центра",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/434733-prezentatsiya-aromata-ot-maestro-laurent-mazzone-korolevskie-grezy-v-parfyumernom-butike-giorgio/',
+    link: "https://geometria.ru/reportage/434733-prezentatsiya-aromata-ot-maestro-laurent-mazzone-korolevskie-grezy-v-parfyumernom-butike-giorgio/",
     img: event18,
-    text: 'Презентация аромата Giorgio',
-    target: '_blank',
+    text: "Презентация аромата Giorgio",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/149162-1-08-trk-siti-tsentr-miss-krasnodar-2008/',
+    link: "https://geometria.ru/reportage/149162-1-08-trk-siti-tsentr-miss-krasnodar-2008/",
     img: event19,
-    text: 'МИСС КРАСНОДАР 2008',
-    target: '_blank',
+    text: "МИСС КРАСНОДАР 2008",
+    target: "_blank",
   },
   {
     id: id++,
-    link: 'https://geometria.ru/reportage/139510-trk-siti-tsentr-zabeg-na-shpilkakh/',
+    link: "https://geometria.ru/reportage/139510-trk-siti-tsentr-zabeg-na-shpilkakh/",
     img: event20,
-    text: 'Забег на шпильках',
-    target: '_blank',
+    text: "Забег на шпильках",
+    target: "_blank",
   },
 ];
 
 // __________________Афиша кино____________________
-import kino1 from '@/public/kino/kino-1.jpg';
-import kino2_1 from '@/public/kino/kino-2-1.jpg';
-import kino3_1 from '@/public/kino/kino-3-1.jpg';
-import kino4 from '@/public/kino/kino-4.jpg';
-import kino5 from '@/public/kino/kino-5.jpg';
-import kino6 from '@/public/kino/kino-6.jpg';
+import kino1 from "@/public/kino/kino-1.jpg";
+import kino2_1 from "@/public/kino/kino-2-1.jpg";
+import kino3_1 from "@/public/kino/kino-3-1.jpg";
+import kino4 from "@/public/kino/kino-4.jpg";
+import kino5 from "@/public/kino/kino-5.jpg";
+import kino6 from "@/public/kino/kino-6.jpg";
 
 const kinoAfisha = [
   {
@@ -851,59 +856,59 @@ const kinoAfisha = [
 const logosData = [
   {
     id: 1,
-    name: 'Bogner',
-    url: '/butiks/women_clothing/5',
-    image: '/butiks/womenClothing/Bogner/logo.png',
-    alt: 'Bogner Logo',
+    name: "Bogner",
+    url: "/butiks/women_clothing/5",
+    image: "/butiks/womenClothing/Bogner/logo.png",
+    alt: "Bogner Logo",
   },
   {
     id: 2,
-    name: 'GMT',
-    url: '/butiks/clocks/18',
-    image: '/butiks/clocks/GMT/logo.png',
-    alt: 'GMT Logo',
+    name: "GMT",
+    url: "/butiks/clocks/18",
+    image: "/butiks/clocks/GMT/logo.png",
+    alt: "GMT Logo",
   },
   {
     id: 3,
-    name: 'VIPAVENUE',
-    url: '/butiks/women_clothing/vipavenue',
-    image: '/butiks/womenClothing/VIPAVENUE/logo.png',
-    alt: 'VIPAVENUE Logo',
+    name: "VIPAVENUE",
+    url: "/butiks/women_clothing/vipavenue",
+    image: "/butiks/womenClothing/VIPAVENUE/logo.png",
+    alt: "VIPAVENUE Logo",
   },
   {
     id: 4,
-    name: 'Галерея времени',
-    url: '/butiks/clocks/17',
-    image: '/butiks/clocks/TimeGalery/logo.png',
-    alt: 'TimeGalery Logo',
+    name: "Галерея времени",
+    url: "/butiks/clocks/17",
+    image: "/butiks/clocks/TimeGalery/logo.png",
+    alt: "TimeGalery Logo",
   },
   {
     id: 5,
-    name: 'Paul&Shark',
-    url: '/butiks/women_clothing/4',
-    image: '/butiks/womenClothing/Paul-shark/logo.png',
-    alt: 'Paul&Shark Logo',
+    name: "Paul&Shark",
+    url: "/butiks/women_clothing/4",
+    image: "/butiks/womenClothing/Paul-shark/logo.png",
+    alt: "Paul&Shark Logo",
   },
   {
     id: 6,
-    name: 'ConceptStore',
-    url: '/butiks/women_clothing/38',
-    image: '/butiks/womenClothing/ConceptStore/logo1.png',
-    alt: 'ConceptStore Logo',
+    name: "ConceptStore",
+    url: "/butiks/women_clothing/38",
+    image: "/butiks/womenClothing/ConceptStore/logo1.png",
+    alt: "ConceptStore Logo",
   },
   {
     id: 7,
-    name: 'COSMOSTORE',
-    url: '/butiks/women_clothing/1',
-    image: '/butiks/womenClothing/COSMO-STORE/logo.png',
-    alt: 'COSMOSTORE Logo',
+    name: "COSMOSTORE",
+    url: "/butiks/women_clothing/1",
+    image: "/butiks/womenClothing/COSMO-STORE/logo.png",
+    alt: "COSMOSTORE Logo",
   },
   {
     id: 8,
-    name: 'DonBazilio',
-    url: '/butiks/kafe/43',
-    image: '/butiks/kafe/DonBazilio/logo.png',
-    alt: 'DonBazilio Logo',
+    name: "DonBazilio",
+    url: "/butiks/kafe/43",
+    image: "/butiks/kafe/DonBazilio/logo.png",
+    alt: "DonBazilio Logo",
   },
 ];
 
@@ -916,6 +921,7 @@ export {
   flamenko,
   galleryBigCinema,
   galleryVesna,
+  giorgioFakoshima,
   june,
   kinoAfisha,
   logosData,
@@ -927,5 +933,4 @@ export {
   sliderVipAvenue,
   starsInCity,
   stilistShowRoom,
-  giorgioFakoshima,
 };
