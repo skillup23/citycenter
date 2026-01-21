@@ -1,26 +1,26 @@
 // import ImageLink from '@/components/ImageLink';
-import DocumentsPage from "@/components/DocumentsPage";
-import Layout from "@/components/Layout";
-import MarqueeLogos from "@/components/MarqueeLogos";
+import DocumentsPage from '@/components/DocumentsPage';
+import Layout from '@/components/Layout';
+import MarqueeLogos from '@/components/MarqueeLogos';
 // import MarqueeLogos from '@/components/MarqueeLogos';
-import ShopListMain from "@/components/ShopListMain";
-import SliderMain from "@/components/SliderMain";
-import VideoMain from "@/components/VideoMain";
-import YandexMap from "@/components/YandexMap";
-import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
-import news75 from "@/public/news/75.jpg";
-import news76 from "@/public/news/76.jpg";
-import news78 from "@/public/news/78.jpg";
-import news77 from "@/public/services/ChistoBlisto/logo.jpg";
-import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
-import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
-import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
-import Image from "next/image";
-import Link from "next/link";
-import { FaBus, FaPhoneAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import { RiTimeFill } from "react-icons/ri";
+import ShopListMain from '@/components/ShopListMain';
+import SliderMain from '@/components/SliderMain';
+import VideoMain from '@/components/VideoMain';
+import YandexMap from '@/components/YandexMap';
+import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
+import news79 from '@/public/news/79.jpg';
+import news80 from '@/public/news/80.jpg';
+import news78 from '@/public/news/78.jpg';
+import news77 from '@/public/services/ChistoBlisto/logo.jpg';
+import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
+import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
+import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaBus, FaPhoneAlt } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
+import { RiTimeFill } from 'react-icons/ri';
 
 export default function Home() {
   return (
@@ -50,18 +50,46 @@ export default function Home() {
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
+                src={news80}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/80.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new2"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
+                src={news79}
+                alt="Новость"
+                width="0"
+                height="0"
+                style={{ width: '100%', height: '100%' }}
+                priority
+              />
+              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/79.jpg")]'></div>
+            </Link>
+            <Link
+              href="/news#new3"
+              className="block relative w-full overflow-hidden h-full"
+            >
+              <Image
                 src={news78}
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
               />
 
               <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/78.jpg")]'></div>
             </Link>
             <Link
-              href="/news#new2"
+              href="/news#new4"
               className="block relative w-full overflow-hidden h-full"
             >
               <Image
@@ -69,40 +97,11 @@ export default function Home() {
                 alt="Новость"
                 width="0"
                 height="0"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: '100%', height: '100%' }}
                 priority
                 className=""
               />
               <div className='background_scale bg-center duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/services/ChistoBlisto/logo.jpg")]'></div>
-            </Link>
-
-            <Link
-              href="/news#new3"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news76}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: "100%", height: "100%" }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/76.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new4"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news75}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: "100%", height: "100%" }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/75.jpg")]'></div>
             </Link>
           </div>
         </div>
@@ -122,7 +121,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden aspect-[3/5]"
-                  target={"_blank"}
+                  target={'_blank'}
                 >
                   <Image
                     src={img}
@@ -146,7 +145,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={"_blank"}
+            target={'_blank'}
           >
             <Image
               src={kinoBanner}
@@ -217,7 +216,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={"/site_img/city_FHD_6.mp4"} />
+              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
             </div>
           </div>
         </div>
