@@ -1,12 +1,18 @@
-import FormShowRoom from "@/components/FormShowRoom";
-import Layout from "@/components/Layout";
-import { stilistShowRoom } from "@/public/data/data";
-import Image from "next/image";
-import Link from "next/link";
+import FormShowRoom from '@/components/FormShowRoom';
+import Layout from '@/components/Layout';
+import { stilistShowRoom } from '@/public/data/data';
+import Image from 'next/image';
+import Link from 'next/link';
 
 function ShowRoom() {
   return (
-    <Layout title="Шоурум для VIP‑клиентов">
+    <Layout
+      title="Шоурум для VIP‑клиентов"
+      description="Представляем вам уникальную услугу, которая позволит раскрыть всю
+            палитру вашей индивидуальности. выберете персонального стилиста,
+            который профессионально создаст ваш идеальный образ из лучших
+            коллекций элитных бутиков ТРК «СИТИ ЦЕНТР»."
+    >
       <div className="h-[25vh] sm:h-[89vh] bg-[url('/showroom_img/showroomMain.png')] bg-cover"></div>
 
       <section className="mt-10">
@@ -47,7 +53,7 @@ function ShowRoom() {
                         alt={id}
                         width="400"
                         height="800"
-                        style={{ width: "100%", height: "100%" }}
+                        style={{ width: '100%', height: '100%' }}
                         priority
                       />
                     </div>
@@ -76,7 +82,7 @@ function ShowRoom() {
                           alt={alt}
                           width="416"
                           height="834"
-                          style={{ width: "100%", height: "100%" }}
+                          style={{ width: '100%', height: '100%' }}
                           priority
                         />
                       </div>
@@ -89,7 +95,7 @@ function ShowRoom() {
                     </div>
                   </Link>
                 </div>
-              )
+              ),
             )}
           </div>
 
