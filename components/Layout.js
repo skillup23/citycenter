@@ -13,7 +13,9 @@ function Layout({ children, title, description }) {
         </title>
         <meta
           name="description"
-          content={description ? description : 'Официальный сайт'}
+          content={
+            description ? description : 'Официальный сайт ТРК "СИТИ ЦЕНТР"'
+          }
         />
         <meta name="yandex-verification" content="e9baee5e56dc6985" />
         <link rel="icon" href="/favicon-12.ico" />
