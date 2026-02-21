@@ -68,13 +68,18 @@ const menu = [
 const sliderTop = [
   {
     id: 1,
+    src: "/slide_main/m_20.jpg",
+    alt: "День защитника Отечества",
+  },
+  {
+    id: 2,
     src: "/slide_main/m_12.jpg",
     alt: "Изображение 1",
   },
   {
-    id: 1,
+    id: 3,
     src: "/slide_main/m_9.jpg",
-    alt: "Изображение 1",
+    alt: "Изображение 2",
   },
   // {
   //   id: 2,
