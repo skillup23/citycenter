@@ -86,19 +86,19 @@ function Contacts() {
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <Link
-                    href="tel:899649049146"
+                    href="tel:89094441180"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    +7 (964) 90 49 146
+                    +7 (909) 444-11-80
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <MdEmail className="text-xl mr-5" />
                   <Link
-                    href="mailto:aliona.ch@expertmedia-ug.ru"
+                    href="mailto:ostapchenko_o@alpha-am.ru"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    aliona.ch@expertmedia-ug.ru
+                    ostapchenko_o@alpha-am.ru
                   </Link>
                 </li>
               </ul>
