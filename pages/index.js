@@ -7,7 +7,12 @@ import ShopListMain from '@/components/ShopListMain';
 import SliderMain from '@/components/SliderMain';
 import VideoMain from '@/components/VideoMain';
 import YandexMap from '@/components/YandexMap';
-import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
+import {
+  kinoAfisha,
+  shopList,
+  sliderTop,
+  sliderTopMob,
+} from '@/public/data/data';
 // import news82 from '@/public/news/82.jpg';
 // import news79 from '@/public/news/79.jpg';
 // import news80 from '@/public/news/80.jpg';
@@ -32,7 +37,13 @@ export default function Home() {
       </section>
 
       {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-      <SliderMain data={sliderTop} dots={true} />
+      <div className="hidden sm:block">
+        <SliderMain data={sliderTop} dots={true} />
+      </div>
+
+      <div className="block sm:hidden">
+        <SliderMain data={sliderTopMob} dots={false} />
+      </div>
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
