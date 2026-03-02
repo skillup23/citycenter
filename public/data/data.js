@@ -66,21 +66,21 @@ const menu = [
 
 // __________________Верхний слайдер___________________
 const sliderTop = [
+  {
+    id: 1,
+    src: '/slide_main/m_21.jpg',
+    alt: 'Лекция Андрея Ступаченко',
+  },
   // {
-  //   id: 1,
-  //   src: "/slide_main/m_20.jpg",
-  //   alt: "День защитника Отечества",
+  //   id: 2,
+  //   src: '/slide_main/m_12.jpg',
+  //   alt: 'Изображение 1',
   // },
-  {
-    id: 2,
-    src: '/slide_main/m_12.jpg',
-    alt: 'Изображение 1',
-  },
-  {
-    id: 3,
-    src: '/slide_main/m_9.jpg',
-    alt: 'Изображение 2',
-  },
+  // {
+  //   id: 3,
+  //   src: '/slide_main/m_9.jpg',
+  //   alt: 'Изображение 2',
+  // },
   // {
   //   id: 2,
   //   src: '/slide_main/m_17.jpg',
@@ -91,6 +91,14 @@ const sliderTop = [
   //   src: "/slide_main/m_11.jpg",
   //   alt: "Изображение 2",
   // },
+];
+
+const sliderTopMob = [
+  {
+    id: 1,
+    src: '/slide_main/m_21_m.webp',
+    alt: 'Лекция Андрея Ступаченко',
+  },
 ];
 
 // __________________Слайдер Кино____________________
@@ -935,6 +943,7 @@ export {
   shopList,
   sliderCenter,
   sliderTop,
+  sliderTopMob,
   sliderVipAvenue,
   starsInCity,
   stilistShowRoom,
