@@ -1,49 +1,47 @@
 // import ImageLink from '@/components/ImageLink';
-import DocumentsPage from '@/components/DocumentsPage';
-import Layout from '@/components/Layout';
-import MarqueeLogos from '@/components/MarqueeLogos';
+import DocumentsPage from "@/components/DocumentsPage";
+import Layout from "@/components/Layout";
+import MarqueeLogos from "@/components/MarqueeLogos";
 // import MarqueeLogos from '@/components/MarqueeLogos';
-import ShopListMain from '@/components/ShopListMain';
-import SliderMain from '@/components/SliderMain';
-import VideoMain from '@/components/VideoMain';
-import YandexMap from '@/components/YandexMap';
-import {
-  kinoAfisha,
-  shopList,
-  sliderTop,
-  sliderTopMob,
-} from '@/public/data/data';
+import ShopListMain from "@/components/ShopListMain";
+import SliderMain from "@/components/SliderMain";
+import VideoMain from "@/components/VideoMain";
+import YandexMap from "@/components/YandexMap";
+import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
 // import news82 from '@/public/news/82.jpg';
 // import news79 from '@/public/news/79.jpg';
 // import news80 from '@/public/news/80.jpg';
 // import news81 from '@/public/news/81.jpg';
-import { arrayNews } from '@/public/data/news';
-import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
-import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
-import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaBus, FaPhoneAlt } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { RiTimeFill } from 'react-icons/ri';
+import { arrayNews } from "@/public/data/news";
+import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
+import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
+import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
+import Image from "next/image";
+import Link from "next/link";
+import { FaBus, FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
+import { RiTimeFill } from "react-icons/ri";
 
 export default function Home() {
   return (
     <Layout title="ГЛАВНАЯ">
+      <h1 class="sr-only">
+        ТРЦ Сити Центр Краснодар: магазины, рестораны, кинотеатр
+      </h1>
       {/*                      БЕГУЩАЯ СТРОКА                         */}
       <section className="border_section border-t-0">
         <MarqueeLogos />
       </section>
 
       {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-      <div className="hidden sm:block">
+      <div>
         <SliderMain data={sliderTop} dots={true} />
       </div>
 
-      <div className="block sm:hidden">
+      {/* <div className="block sm:hidden">
         <SliderMain data={sliderTopMob} dots={false} />
-      </div>
+      </div> */}
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
@@ -54,7 +52,7 @@ export default function Home() {
             В&nbsp;«Сити&nbsp;Центре»&nbsp;вы&nbsp;вновь&nbsp;в&nbsp;онлайне:
             созвониться,&nbsp;отправить&nbsp;файлы,&nbsp;вызвать&nbsp;такси&nbsp;—&nbsp;легко
           </div>
-          <h1 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h1>
+          <h2 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h2>
           {/* <ShopListMain items={news} classItem="mt-10" /> */}
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-4">
             {arrayNews.slice(0, 4).map(({ id, img1, text, link }) => {
@@ -155,7 +153,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden aspect-[3/5]"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   <Image
                     src={img}
@@ -179,7 +177,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={'_blank'}
+            target={"_blank"}
           >
             <Image
               src={kinoBanner}
@@ -250,7 +248,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
+              <VideoMain videoLink={"/site_img/city_FHD_6.mp4"} />
             </div>
           </div>
         </div>

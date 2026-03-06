@@ -135,7 +135,7 @@ export const butiks = [
     instagram: 'krd_marccain',
   },
   {
-    id: id++,
+    id: 'oysters',
     category: 'kafeAndRestoran',
     url: 'Oysters',
     logo: '/butiks/kafe/Oysters/logo.png',
