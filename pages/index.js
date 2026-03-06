@@ -31,6 +31,9 @@ import { RiTimeFill } from 'react-icons/ri';
 export default function Home() {
   return (
     <Layout title="ГЛАВНАЯ">
+      <h1 class="sr-only">
+        ТРЦ Сити Центр Краснодар: магазины, рестораны, кинотеатр
+      </h1>
       {/*                      БЕГУЩАЯ СТРОКА                         */}
       <section className="border_section border-t-0">
         <MarqueeLogos />
@@ -54,7 +57,7 @@ export default function Home() {
             В&nbsp;«Сити&nbsp;Центре»&nbsp;вы&nbsp;вновь&nbsp;в&nbsp;онлайне:
             созвониться,&nbsp;отправить&nbsp;файлы,&nbsp;вызвать&nbsp;такси&nbsp;—&nbsp;легко
           </div>
-          <h1 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h1>
+          <h2 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h2>
           {/* <ShopListMain items={news} classItem="mt-10" /> */}
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-4">
             {arrayNews.slice(0, 4).map(({ id, img1, text, link }) => {

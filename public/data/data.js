@@ -10,7 +10,7 @@ const menu = [
   {
     id: id++,
     name: 'Oysters',
-    link: '/butiks/kafe/4',
+    link: '/butiks/kafe/oysters',
   },
   {
     id: id++,
