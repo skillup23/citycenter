@@ -1,32 +1,27 @@
 // import ImageLink from '@/components/ImageLink';
-import DocumentsPage from '@/components/DocumentsPage';
-import Layout from '@/components/Layout';
-import MarqueeLogos from '@/components/MarqueeLogos';
+import DocumentsPage from "@/components/DocumentsPage";
+import Layout from "@/components/Layout";
+import MarqueeLogos from "@/components/MarqueeLogos";
 // import MarqueeLogos from '@/components/MarqueeLogos';
-import ShopListMain from '@/components/ShopListMain';
-import SliderMain from '@/components/SliderMain';
-import VideoMain from '@/components/VideoMain';
-import YandexMap from '@/components/YandexMap';
-import {
-  kinoAfisha,
-  shopList,
-  sliderTop,
-  sliderTopMob,
-} from '@/public/data/data';
+import ShopListMain from "@/components/ShopListMain";
+import SliderMain from "@/components/SliderMain";
+import VideoMain from "@/components/VideoMain";
+import YandexMap from "@/components/YandexMap";
+import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
 // import news82 from '@/public/news/82.jpg';
 // import news79 from '@/public/news/79.jpg';
 // import news80 from '@/public/news/80.jpg';
 // import news81 from '@/public/news/81.jpg';
-import { arrayNews } from '@/public/data/news';
-import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
-import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
-import kinoBanner from '@/public/slide_main/kino-banner-12.jpg';
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaBus, FaPhoneAlt } from 'react-icons/fa';
-import { HiLocationMarker } from 'react-icons/hi';
-import { MdEmail } from 'react-icons/md';
-import { RiTimeFill } from 'react-icons/ri';
+import { arrayNews } from "@/public/data/news";
+import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
+import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
+import kinoBanner from "@/public/slide_main/kino-banner-12.jpg";
+import Image from "next/image";
+import Link from "next/link";
+import { FaBus, FaPhoneAlt } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
+import { RiTimeFill } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -40,13 +35,13 @@ export default function Home() {
       </section>
 
       {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-      <div className="hidden sm:block">
+      <div>
         <SliderMain data={sliderTop} dots={true} />
       </div>
 
-      <div className="block sm:hidden">
+      {/* <div className="block sm:hidden">
         <SliderMain data={sliderTopMob} dots={false} />
-      </div>
+      </div> */}
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
@@ -158,7 +153,7 @@ export default function Home() {
                   key={id}
                   href="https://kinomonitor.ru/cinemas/111/seances"
                   className="block relative w-full overflow-hidden aspect-[3/5]"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   <Image
                     src={img}
@@ -182,7 +177,7 @@ export default function Home() {
         <div className="lg:container mx-auto">
           <Link
             href="https://wa.me/79994120012?text=Добрый%20день.%20Расскажите,%20пожалуйста,%20об%20условиях%20аренды%20кинозала"
-            target={'_blank'}
+            target={"_blank"}
           >
             <Image
               src={kinoBanner}
@@ -253,7 +248,7 @@ export default function Home() {
             </div>
 
             <div className="w-full sm:w-[45%]">
-              <VideoMain videoLink={'/site_img/city_FHD_6.mp4'} />
+              <VideoMain videoLink={"/site_img/city_FHD_6.mp4"} />
             </div>
           </div>
         </div>
