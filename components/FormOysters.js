@@ -124,7 +124,7 @@ function FormOysters() {
               className="-mt-1 w-8 h-8 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
               required
             />
-            <p className="text-sm sm:text-[2vw]">
+            <p className="text-[2vw] 2xl:text-4xl">
               Я согласен на{" "}
               <Link
                 href={"/docs/Политика перс данных.pdf"}
@@ -138,7 +138,7 @@ function FormOysters() {
 
           <button
             type="submit"
-            className="w-full mt-auto py-2 sm:py-4 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#FBF79F]"
+            className="w-full mt-auto py-2 sm:py-4 text-2xl sm:text-[2.3vw] 2xl:text-4xl bg-white text-[#1e1a1b] hover:bg-[#FBF79F]"
           >
             {buttomText}
           </button>
@@ -147,7 +147,7 @@ function FormOysters() {
 
       {toastMessage && (
         <div
-          className={`absolute w-full bottom-0 p-4 bg-white text-[#1e1a1b] text-lg text-center sm:text-[2vw] z-50 animate-slideUp ${toastType}`}
+          className={`absolute w-full bottom-0 p-4 bg-white text-[#1e1a1b] text-lg text-center sm:text-[2vw] 2xl:text-4xl z-50 animate-slideUp ${toastType}`}
           onClick={clearToast}
         >
           {toastMessage}

@@ -292,7 +292,7 @@ function Oysters() {
           </div>
 
           <div className="mt-6 flex gap-6">
-            <div className="w-[29%]">
+            <div className="w-[29%] 2xl:w-[24.3%]">
               <VideoMain
                 videoLink={"/butiks/kafe/Oysters/oRestoraneVideo1.mp4"}
               />
@@ -328,7 +328,7 @@ function Oysters() {
 
             <div className="w-1/2 flex flex-col gap-6">
               <div className="flex gap-6">
-                <div className="w-[59%]">
+                <div className="w-[59%] 2xl:w-[49%]">
                   <VideoMain
                     videoLink={"/butiks/kafe/Oysters/oRestoraneVideo2.mp4"}
                   />
@@ -430,7 +430,7 @@ function Oysters() {
 
       <section className="pt-[120px]">
         <div className="lg:container mx-auto">
-          <h2 className="text-[3.65vw] leading-none">
+          <h2 className="text-[3.65vw] 2xl:text-6xl leading-none">
             Подарите себе день, наполненный вкусом моря и эстетикой роскоши.
             Ждем вас в Oysters! 🥂
           </h2>
