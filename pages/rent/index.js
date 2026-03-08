@@ -91,33 +91,6 @@ function Rent() {
             Арендаторов
           </h3>
 
-          {/* <div className="flex flex-wrap gap-6 justify-center">
-            <Link
-              href="/docs/Презентация СИТИЦЕНТР 26.07.2025.pdf"
-              target="_blank"
-              className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
-            >
-              <BsFilePdf className="mr-4 text-3xl" />
-              Презентация ТРК «СИТИ ЦЕНТР»
-            </Link>
-            <Link
-              href="/docs/Правила для Арендаторов ТРК «Сити Центр». Версия от 04.09.2025.pdf"
-              target="_blank"
-              className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
-            >
-              <BsFilePdf className="mr-4 text-3xl" />
-              Правила для Арендаторов
-            </Link>
-            <Link
-              href="/docs/РЕГЛАМЕНТ РАБОТ ДЛЯ АРЕНДАТОРОВ ТРК СИТИЦЕНТР. ВЕРСИЯ ОТ 25.02.2025 в2.pdf"
-              target="_blank"
-              className="text-xl sm:text-3xl md:text-4xl border-2 p-2 border-zinc-300 inline-flex items-center"
-            >
-              <BsFilePdf className="mr-4 text-3xl" />
-              Регламент работ
-            </Link>
-          </div> */}
-
           <h2 className="title_main mt-10">Контакты</h2>
           <div className="mt-6 sm:mt-10 mb-10 w-fill md:w-11/12 m-auto inline-flex flex-row flex-wrap justify-between px-6 md:px-0 gap-2">
             <div className="flex flex-col w-full sm:w-1/2">

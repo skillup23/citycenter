@@ -8,10 +8,6 @@ import SliderMain from "@/components/SliderMain";
 import VideoMain from "@/components/VideoMain";
 import YandexMap from "@/components/YandexMap";
 import { kinoAfisha, shopList, sliderTop } from "@/public/data/data";
-// import news82 from '@/public/news/82.jpg';
-// import news79 from '@/public/news/79.jpg';
-// import news80 from '@/public/news/80.jpg';
-// import news81 from '@/public/news/81.jpg';
 import { arrayNews } from "@/public/data/news";
 import imgShowroom from "@/public/showroom_img/showroomMainResize.png";
 import imgShowroomMob from "@/public/showroom_img/showroomMainResizeMob.png";
@@ -75,67 +71,6 @@ export default function Home() {
               );
             })}
           </div>
-
-          {/* <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 w-full gap-2">
-            <Link
-              href="/news#new1"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news82}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/82.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new2"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news81}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/81.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new3"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news80}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-              />
-
-              <div className='background_scale duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/80.jpg")]'></div>
-            </Link>
-            <Link
-              href="/news#new4"
-              className="block relative w-full overflow-hidden h-full"
-            >
-              <Image
-                src={news79}
-                alt="Новость"
-                width="0"
-                height="0"
-                style={{ width: '100%', height: '100%' }}
-                priority
-                className=""
-              />
-              <div className='background_scale bg-center duration-300 text-center text-2xl md:text-3xl sm:text-4xl p-6 bg-[url("../public/news/79.jpg")]'></div>
-            </Link>
-          </div> */}
         </div>
       </section>
 
