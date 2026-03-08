@@ -17,14 +17,14 @@ function MenuOystersBlock({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
             alt="Меню ресторана"
             width="372"
             height="441"
-            className="hover:scale-[1.02] ease-in duration-200"
+            className="w-full hover:scale-[1.02] ease-in duration-200"
           />
           <Image
             src={menu3}
             alt="Меню ресторана"
             width="372"
             height="441"
-            className="hover:scale-[1.02] ease-in duration-200"
+            className="w-full hover:scale-[1.02] ease-in duration-200"
           />
         </div>
       </div>
@@ -36,14 +36,14 @@ function MenuOystersBlock({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
             alt="Меню ресторана"
             width="372"
             height="441"
-            className="hover:scale-[1.02] ease-in duration-200"
+            className="w-full hover:scale-[1.02] ease-in duration-200"
           />
           <Image
             src={menu5}
             alt="Меню ресторана"
             width="372"
             height="441"
-            className="hover:scale-[1.02] ease-in duration-200"
+            className="w-full hover:scale-[1.02] ease-in duration-200"
           />
         </div>
         <Image
