@@ -432,7 +432,7 @@ export default function Home() {
         </div>
       </section> */}
 
-      {/*                      ДЕТЯМ                        */}
+      {/*                      ДЕТЯ                       */}
 
       {/* <section className="mb-20 sm:mb-28" id="detyam">
         <div className="lg:container mx-auto">
