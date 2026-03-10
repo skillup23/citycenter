@@ -1,47 +1,47 @@
-import FormOysters from "@/components/FormOysters";
-import Layout from "@/components/Layout";
-import FeedBackOysters from "@/components/oysters/FeedBackOysters";
-import MenuOystersBlock from "@/components/oysters/MenuOystersBlock";
-import VideoMain from "@/components/VideoMain";
-import endImage from "@/public/butiks/kafe/Oysters/EndImage.jpg";
-import imageFeedBack from "@/public/butiks/kafe/Oysters/imageFeedBack.jpg";
-import crabOrange from "@/public/butiks/kafe/Oysters/krabOrange.png";
-import krabWhite from "@/public/butiks/kafe/Oysters/krabWhite.png";
-import logo from "@/public/butiks/kafe/Oysters/logo.png";
-import logoCity from "@/public/butiks/kafe/Oysters/logoCity.png";
-import menu1 from "@/public/butiks/kafe/Oysters/menu/menu1.jpg";
-import menu10 from "@/public/butiks/kafe/Oysters/menu/menu10.jpg";
-import menu11 from "@/public/butiks/kafe/Oysters/menu/menu11.jpg";
-import menu12 from "@/public/butiks/kafe/Oysters/menu/menu12.jpg";
-import menu2 from "@/public/butiks/kafe/Oysters/menu/menu2.jpg";
-import menu3 from "@/public/butiks/kafe/Oysters/menu/menu3.jpg";
-import menu4 from "@/public/butiks/kafe/Oysters/menu/menu4.jpg";
-import menu5 from "@/public/butiks/kafe/Oysters/menu/menu5.jpg";
-import menu6 from "@/public/butiks/kafe/Oysters/menu/menu6.jpg";
-import menu7 from "@/public/butiks/kafe/Oysters/menu/menu7.jpg";
-import menu8 from "@/public/butiks/kafe/Oysters/menu/menu8.jpg";
-import menu9 from "@/public/butiks/kafe/Oysters/menu/menu9.jpg";
-import oRestorane1 from "@/public/butiks/kafe/Oysters/oRestorane1.jpg";
-import oRestorane10 from "@/public/butiks/kafe/Oysters/oRestorane10.jpg";
-import oRestorane2 from "@/public/butiks/kafe/Oysters/oRestorane2.jpg";
-import oRestorane3 from "@/public/butiks/kafe/Oysters/oRestorane3.jpg";
-import oRestorane4 from "@/public/butiks/kafe/Oysters/oRestorane4.jpg";
-import oRestorane5 from "@/public/butiks/kafe/Oysters/oRestorane5.jpg";
-import oRestorane6 from "@/public/butiks/kafe/Oysters/oRestorane6.jpg";
-import oRestorane7 from "@/public/butiks/kafe/Oysters/oRestorane7.jpg";
-import oRestorane8 from "@/public/butiks/kafe/Oysters/oRestorane8.jpg";
-import oRestorane9 from "@/public/butiks/kafe/Oysters/oRestorane9.jpg";
-import ravnoWhite from "@/public/butiks/kafe/Oysters/ravnoWhite.png";
-import SalesFotoMan from "@/public/butiks/kafe/Oysters/SalesFotoMan.jpg";
-import tableWhiteIcon from "@/public/butiks/kafe/Oysters/tableWhiteIcon.png";
-import telegramIcon from "@/public/butiks/kafe/Oysters/telegram-icon.png";
-import vinoIcon from "@/public/butiks/kafe/Oysters/vinoIcon.png";
-import yandexGoodPlace from "@/public/butiks/kafe/Oysters/yandexGoodPlace.png";
-import ystriciWhite from "@/public/butiks/kafe/Oysters/ystriciWhite.png";
-import ystriciWhiteTwo from "@/public/butiks/kafe/Oysters/ystriciWhiteTwo.png";
-import Image from "next/image";
-import Link from "next/link";
-import { BsFilePdf } from "react-icons/bs";
+import FormOysters from '@/components/FormOysters';
+import Layout from '@/components/Layout';
+import FeedBackOysters from '@/components/oysters/FeedBackOysters';
+import MenuOystersBlock from '@/components/oysters/MenuOystersBlock';
+import VideoMain from '@/components/VideoMain';
+import endImage from '@/public/butiks/kafe/Oysters/EndImage.jpg';
+import imageFeedBack from '@/public/butiks/kafe/Oysters/imageFeedBack.jpg';
+import crabOrange from '@/public/butiks/kafe/Oysters/krabOrange.png';
+import krabWhite from '@/public/butiks/kafe/Oysters/krabWhite.png';
+import logo from '@/public/butiks/kafe/Oysters/logo.png';
+import logoCity from '@/public/butiks/kafe/Oysters/logoCity.png';
+import menu1 from '@/public/butiks/kafe/Oysters/menu/menu1.jpg';
+import menu10 from '@/public/butiks/kafe/Oysters/menu/menu10.jpg';
+import menu11 from '@/public/butiks/kafe/Oysters/menu/menu11.jpg';
+import menu12 from '@/public/butiks/kafe/Oysters/menu/menu12.jpg';
+import menu2 from '@/public/butiks/kafe/Oysters/menu/menu2.jpg';
+import menu3 from '@/public/butiks/kafe/Oysters/menu/menu3.jpg';
+import menu4 from '@/public/butiks/kafe/Oysters/menu/menu4.jpg';
+import menu5 from '@/public/butiks/kafe/Oysters/menu/menu5.jpg';
+import menu6 from '@/public/butiks/kafe/Oysters/menu/menu6.jpg';
+import menu7 from '@/public/butiks/kafe/Oysters/menu/menu7.jpg';
+import menu8 from '@/public/butiks/kafe/Oysters/menu/menu8.jpg';
+import menu9 from '@/public/butiks/kafe/Oysters/menu/menu9.jpg';
+import oRestorane1 from '@/public/butiks/kafe/Oysters/oRestorane1.jpg';
+import oRestorane10 from '@/public/butiks/kafe/Oysters/oRestorane10.jpg';
+import oRestorane2 from '@/public/butiks/kafe/Oysters/oRestorane2.jpg';
+import oRestorane3 from '@/public/butiks/kafe/Oysters/oRestorane3.jpg';
+import oRestorane4 from '@/public/butiks/kafe/Oysters/oRestorane4.jpg';
+import oRestorane5 from '@/public/butiks/kafe/Oysters/oRestorane5.jpg';
+import oRestorane6 from '@/public/butiks/kafe/Oysters/oRestorane6.jpg';
+import oRestorane7 from '@/public/butiks/kafe/Oysters/oRestorane7.jpg';
+import oRestorane8 from '@/public/butiks/kafe/Oysters/oRestorane8.jpg';
+import oRestorane9 from '@/public/butiks/kafe/Oysters/oRestorane9.jpg';
+import ravnoWhite from '@/public/butiks/kafe/Oysters/ravnoWhite.png';
+import SalesFotoMan from '@/public/butiks/kafe/Oysters/SalesFotoMan.jpg';
+import tableWhiteIcon from '@/public/butiks/kafe/Oysters/tableWhiteIcon.png';
+import telegramIcon from '@/public/butiks/kafe/Oysters/telegram-icon.png';
+import vinoIcon from '@/public/butiks/kafe/Oysters/vinoIcon.png';
+import yandexGoodPlace from '@/public/butiks/kafe/Oysters/yandexGoodPlace.png';
+import ystriciWhite from '@/public/butiks/kafe/Oysters/ystriciWhite.png';
+import ystriciWhiteTwo from '@/public/butiks/kafe/Oysters/ystriciWhiteTwo.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { BsFilePdf } from 'react-icons/bs';
 
 function Oysters() {
   return (
@@ -154,7 +154,7 @@ function Oysters() {
               </div>
 
               <h4 className="mt-20 w-11/12 oysters_text">
-                чтобы воспользоваться акцией - введите промокод{" "}
+                чтобы воспользоваться акцией - введите промокод{' '}
                 <span className="text-[#FBF79F]">«СИТИ ЦЕНТР»</span> при
                 бронировании столика или скажите его своему официанту.
               </h4>
@@ -253,7 +253,7 @@ function Oysters() {
             </div>
           </div>
 
-          <FeedBackOysters classMarginTop={"mt-0"} classVisible={"hidden"} />
+          <FeedBackOysters classMarginTop={'mt-0'} classVisible={'hidden'} />
         </div>
       </section>
 
@@ -262,10 +262,10 @@ function Oysters() {
           <h2 className="oysters_title">о ресторане</h2>
           <p className="mt-16 oysters_text indent-16">
             Oysters — твое место безупречного вкуса в ТРК «СИТИ ЦЕНТР». Мы
-            превратили гастрономию в&nbsp;искусство: от{" "}
+            превратили гастрономию в&nbsp;искусство: от{' '}
             <span className="text-[#FBF79F]">
               живых королевских крабов и премиальных устриц Жилардо
-            </span>{" "}
+            </span>{' '}
             до атмосферных вечеров под звуки живой скрипки.
           </p>
 
@@ -292,24 +292,24 @@ function Oysters() {
           </div>
 
           <div className="mt-6 flex gap-6">
-            <div className="w-[29%] 2xl:w-[24.3%]">
+            <div className="flex-1">
               <VideoMain
-                videoLink={"/butiks/kafe/Oysters/oRestoraneVideo1.mp4"}
+                videoLink={'/butiks/kafe/Oysters/oRestoraneVideo1.mp4'}
               />
             </div>
 
-            <div>
+            <div className="flex-[3] relative overflow-hidden">
               <Image
                 src={oRestorane3}
                 alt="Фото ресторана"
-                width="1164"
-                height="661"
+                fill
+                className="object-cover"
               />
             </div>
           </div>
 
           <div className="mt-6 flex gap-6">
-            <div className="w-1/2">
+            <div className="flex-[2]">
               <p className="mt-8 mb-14 oysters_text">
                 элегантная подача блюд морской кухни, приготовленных на ваших
                 глазах
@@ -326,66 +326,74 @@ function Oysters() {
               </p>
             </div>
 
-            <div className="w-1/2 flex flex-col gap-6">
+            <div className="flex-[2] flex flex-col gap-6">
               <div className="flex gap-6">
-                <div className="w-[59%] 2xl:w-[49%]">
+                <div className="w-[50%]">
                   <VideoMain
-                    videoLink={"/butiks/kafe/Oysters/oRestoraneVideo2.mp4"}
+                    videoLink={'/butiks/kafe/Oysters/oRestoraneVideo2.mp4'}
                   />
                 </div>
+                <div className="flex-1 relative overflow-hidden">
+                  <Image
+                    src={oRestorane9}
+                    alt="Фото ресторана"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div className="flex-1 relative overflow-hidden">
                 <Image
-                  src={oRestorane9}
+                  src={oRestorane10}
                   alt="Фото ресторана"
-                  width="372"
-                  height="661"
+                  fill
+                  className="object-cover"
                 />
               </div>
-              <Image
-                src={oRestorane10}
-                alt="Фото ресторана"
-                width="769"
-                height="479"
-              />
             </div>
           </div>
 
-          <div className="mt-6 flex gap-6">
-            <div className="w-1/2">
+          <div className="mt-6 flex gap-6 items-stretch">
+            <div className="flex-[0_0_calc(50%-12px)] relative">
               <Image
                 src={oRestorane5}
                 alt="Фото ресторана"
-                width="768"
-                height="940"
+                width={768}
+                height={940}
+                className="w-full h-auto block"
               />
             </div>
 
-            <div className="w-1/2">
-              <div className="h-full flex gap-6">
-                <div className="h-full flex flex-col justify-between">
-                  <Image
-                    src={oRestorane6}
-                    alt="Фото ресторана"
-                    width="372"
-                    height="458"
-                  />
-                  <Image
-                    src={oRestorane7}
-                    alt="Фото ресторана"
-                    width="372"
-                    height="458"
-                  />
-                </div>
+            <div className="flex-[0_0_calc(25%-12px)] flex flex-col gap-6">
+              <div className="flex-1 relative overflow-hidden">
                 <Image
-                  src={oRestorane8}
+                  src={oRestorane6}
                   alt="Фото ресторана"
-                  width="372"
-                  height="940"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex-1 relative overflow-hidden">
+                <Image
+                  src={oRestorane7}
+                  alt="Фото ресторана"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>
+
+            <div className="flex-[0_0_calc(25%-12px)] relative overflow-hidden">
+              <Image
+                src={oRestorane8}
+                alt="Фото ресторана"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
 
-          <FeedBackOysters classMarginTop={"mt-20"} classVisible={""} />
+          <FeedBackOysters classMarginTop={'mt-20'} classVisible={''} />
         </div>
       </section>
 
@@ -424,7 +432,7 @@ function Oysters() {
             </div>
           </Link>
 
-          <FeedBackOysters classMarginTop={"mt-20"} classVisible={""} />
+          <FeedBackOysters classMarginTop={'mt-20'} classVisible={''} />
         </div>
       </section>
 
@@ -486,7 +494,7 @@ function Oysters() {
             </tbody>
           </table>
 
-          <FeedBackOysters classMarginTop={"mt-6"} classVisible={""} />
+          <FeedBackOysters classMarginTop={'mt-6'} classVisible={''} />
         </div>
       </section>
     </Layout>
