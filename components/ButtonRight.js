@@ -1,8 +1,7 @@
-import React from 'react';
-import phone from '@/public/site_img/phone-link.png';
-import mail from '@/public/site_img/mail-link.png';
-import event from '@/public/site_img/ikonka-event.png';
-import ImageLink from './ImageLink';
+import event from "@/public/site_img/ikonka-event.png";
+import mail from "@/public/site_img/mail-link.png";
+import phone from "@/public/site_img/phone-link.png";
+import ImageLink from "./ImageLink";
 
 function ButtonRight() {
   return (
@@ -26,7 +25,7 @@ function ButtonRight() {
         src={event}
         alt="События"
         width={20}
-        cssClass="mt-2 md:mt-3"
+        cssClass="hidden md:block mt-2 md:mt-3"
       />
     </div>
   );
