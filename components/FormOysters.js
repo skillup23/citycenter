@@ -1,28 +1,48 @@
-import axios from "axios";
-import Link from "next/link";
-import { useState } from "react";
+import axios from 'axios';
+import Link from 'next/link';
+import { useState } from 'react';
 
 function FormOysters() {
   const [userInput, setUserInput] = useState({
-    nameClient: "",
-    phone: "",
-    promocod: "",
+    nameClient: '',
+    phone: '',
+    promocod: '',
     agreement: false,
-    error: "",
+    error: '',
     success: false,
   });
 
-  const [toastMessage, setToastMessage] = useState("");
-  const [toastType, setToastType] = useState("");
-  const [buttomText, setButtomText] = useState("Отправить");
+  const [toastMessage, setToastMessage] = useState('');
+  const [toastType, setToastType] = useState('');
+  const [buttomText, setButtomText] = useState('Отправить');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    if (name === "agreement") {
+    if (name === 'agreement') {
       setUserInput({
         ...userInput,
         [name]: e.target.checked,
       });
+    } else if (name === 'phone') {
+      // 1. Очищаем от всего, кроме цифр и самого первого плюса
+      let cleaned = value.replace(/(?!^\+)[^\d]/g, '');
+
+      // 2. Если в начале 8 — меняем на +7
+      if (cleaned.startsWith('8')) {
+        cleaned = '+7' + cleaned.substring(1);
+      }
+      // 3. Если в начале 7 (без плюса) — добавляем плюс
+      else if (cleaned.startsWith('7') && !cleaned.startsWith('+7')) {
+        cleaned = '+7' + cleaned.substring(1);
+      }
+
+      // 4. Ограничиваем длину (+7 и 10 цифр = 12 символов)
+      if (cleaned.length <= 12) {
+        setUserInput({
+          ...userInput,
+          [name]: cleaned,
+        });
+      }
     } else {
       setUserInput({
         ...userInput,
@@ -34,37 +54,37 @@ function FormOysters() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     clearToast();
-    setButtomText("Отправка...");
+    setButtomText('Отправка...');
 
     if (!userInput.agreement) {
-      showToast("Необходимо согласиться с обработкой данных", "error");
+      showToast('Необходимо согласиться с обработкой данных', 'error');
       return;
     }
 
     try {
       const response = await axios.post(
-        "/api/send-telegram-oysters",
+        '/api/send-telegram-oysters',
         userInput,
       );
 
       if (response.status === 200) {
         showToast(
-          "Сообщение успешно отправлено! \n Ожидайте звонка из ресторана.",
-          "success",
+          'Сообщение успешно отправлено! \n Ожидайте звонка из ресторана.',
+          'success',
         );
         setUserInput({
-          nameClient: "",
-          phone: "",
-          promocod: "",
+          nameClient: '',
+          phone: '',
+          promocod: '',
           agreement: false,
-          error: "",
+          error: '',
           success: false,
         });
       } else {
-        showToast("Произошла ошибка при отправке", "error");
+        showToast('Произошла ошибка при отправке', 'error');
       }
     } catch (error) {
-      showToast("Произошла ошибка при отправке", "error");
+      showToast('Произошла ошибка при отправке', 'error');
     }
   };
 
@@ -72,14 +92,14 @@ function FormOysters() {
     setToastMessage(message);
     setToastType(type);
     setTimeout(() => {
-      setButtomText("Отправить");
+      setButtomText('Отправить');
       clearToast();
     }, 30000);
   };
 
   const clearToast = () => {
-    setToastMessage("");
-    setToastType("");
+    setToastMessage('');
+    setToastType('');
   };
 
   return (
@@ -97,7 +117,7 @@ function FormOysters() {
           />
           <input
             type="tel"
-            pattern="[0-9]*"
+            pattern="^\+7[0-9]{10}$"
             name="phone"
             value={userInput.phone}
             onChange={handleChange}
@@ -125,9 +145,9 @@ function FormOysters() {
               required
             />
             <p className="text-[2vw] 2xl:text-4xl">
-              Я согласен на{" "}
+              Я согласен на{' '}
               <Link
-                href={"/docs/Политика перс данных.pdf"}
+                href={'/docs/Политика перс данных.pdf'}
                 target="_blank"
                 className="underline"
               >
