@@ -23,6 +23,26 @@ function FormShowRoom() {
         ...userInput,
         [name]: e.target.checked,
       });
+    } else if (name === 'phone') {
+      // 1. Очищаем от всего, кроме цифр и самого первого плюса
+      let cleaned = value.replace(/(?!^\+)[^\d]/g, '');
+
+      // 2. Если в начале 8 — меняем на +7
+      if (cleaned.startsWith('8')) {
+        cleaned = '+7' + cleaned.substring(1);
+      }
+      // 3. Если в начале 7 (без плюса) — добавляем плюс
+      else if (cleaned.startsWith('7') && !cleaned.startsWith('+7')) {
+        cleaned = '+7' + cleaned.substring(1);
+      }
+
+      // 4. Ограничиваем длину (+7 и 10 цифр = 12 символов)
+      if (cleaned.length <= 12) {
+        setUserInput({
+          ...userInput,
+          [name]: cleaned,
+        });
+      }
     } else {
       setUserInput({
         ...userInput,
@@ -102,7 +122,7 @@ function FormShowRoom() {
           />
           <input
             type="tel"
-            pattern="[0-9]*"
+            pattern="^\+7[0-9]{10}$"
             name="phone"
             value={userInput.phone}
             onChange={handleChange}
