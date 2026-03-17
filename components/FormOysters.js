@@ -105,11 +105,11 @@ function FormOysters() {
   return (
     <div className="h-full relative">
       <form onSubmit={handleSubmit} className="h-full gap-8 sm:gap-16">
-        <div className="h-full flex flex-col gap-28 2xl:gap-[120px]">
+        <div className="h-full flex flex-col gap-10 md:gap-28 2xl:gap-[120px]">
           <input
             type="text"
             name="nameClient"
-            className="w-11/12 px-2 text-[2.4vw] leading-none 2xl:text-4xl bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b-2 border-white"
+            className="w-11/12 px-2 py-2 md:py-0 text-[6vw] md:text-[2.4vw] leading-none 2xl:text-4xl bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b md:border-b-2 border-white"
             value={userInput.nameClient}
             onChange={handleChange}
             required
@@ -121,30 +121,30 @@ function FormOysters() {
             name="phone"
             value={userInput.phone}
             onChange={handleChange}
-            className="w-11/12 px-2 text-[2.4vw] leading-none 2xl:text-4xl bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b-2 border-white"
+            className="w-11/12 px-2 py-2 md:py-0 text-[6vw] md:text-[2.4vw] leading-none 2xl:text-4xl bg-[#1e1a1b] text-white placeholder:text-white rounded-none border-b md:border-b-2 border-white"
             required
             placeholder="ТЕЛЕФОН"
           />
           <input
             type="text"
             name="promocod"
-            className="w-11/12 px-2 text-[2.4vw] leading-none 2xl:text-4xl bg-[#1e1a1b] text-[#FBF79F] placeholder:text-[#FBF79F] rounded-none border-b-2 border-white"
+            className="w-11/12 px-2 py-2 md:py-0 text-[6vw] md:text-[2.4vw] leading-none 2xl:text-4xl bg-[#1e1a1b] text-[#FBF79F] placeholder:text-[#FBF79F] rounded-none border-b md:border-b-2 border-white"
             value={userInput.promocod}
             onChange={handleChange}
             required
             placeholder="ПРОМОКОД"
           />
 
-          <label className="flex w-11/12 gap-4 items-center">
+          <label className="flex w-11/12 gap-2 md:gap-4 items-center">
             <input
               type="checkbox"
               name="agreement"
               checked={userInput.agreement}
               onChange={handleChange}
-              className="-mt-1 w-8 h-8 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
+              className="-mt-1 w-7 h-7 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
               required
             />
-            <p className="text-[2vw] 2xl:text-4xl">
+            <p className="text-[4vw] md:text-[2vw] 2xl:text-4xl">
               Я согласен на{' '}
               <Link
                 href={'/docs/Политика перс данных.pdf'}
