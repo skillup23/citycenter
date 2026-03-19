@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 function MenuOystersBlock({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
   return (
-    <div className="mt-6 flex gap-6">
-      <div className="flex flex-col flex-1 gap-6">
+    <div className="mt-4 md:mt-6 flex flex-col md:flex-row gap-4 md:gap-6">
+      <div className="flex flex-col flex-1 gap-4 md:gap-6">
         <div className="flex-1 overflow-hidden">
           <Image
             src={menu1}
@@ -14,7 +14,7 @@ function MenuOystersBlock({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
           />
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex gap-4 md:gap-6">
           <div className="flex-1 overflow-hidden">
             <Image
               src={menu2}
@@ -37,8 +37,8 @@ function MenuOystersBlock({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
         </div>
       </div>
 
-      <div className="flex flex-col flex-1 gap-6">
-        <div className="flex gap-6">
+      <div className="flex flex-col-reverse md:flex-col flex-1 gap-4 md:gap-6">
+        <div className="flex gap-4 md:gap-6">
           <div className="flex-1 overflow-hidden">
             <Image
               src={menu4}

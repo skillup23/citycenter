@@ -6,7 +6,7 @@ function FormOysters() {
   const [userInput, setUserInput] = useState({
     nameClient: '',
     phone: '',
-    promocod: '',
+    promocod: 'СИТИ ЦЕНТР',
     agreement: false,
     error: '',
     success: false,
@@ -132,7 +132,7 @@ function FormOysters() {
             value={userInput.promocod}
             onChange={handleChange}
             required
-            placeholder="ПРОМОКОД"
+            placeholder="СИТИ ЦЕНТР"
           />
 
           <label className="flex w-11/12 gap-2 md:gap-4 items-center">
