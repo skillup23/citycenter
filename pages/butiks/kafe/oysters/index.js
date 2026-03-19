@@ -191,6 +191,7 @@ function Oysters() {
         </div>
       </section>
 
+      {/* +++++++ Почему к нам? ++++++++ */}
       <section className="pt-14 md:pt-[120px]">
         <div className="lg:container mx-4 md:mx-auto">
           <h2 className="oysters_title text-center md:text-start">
@@ -252,6 +253,7 @@ function Oysters() {
         </div>
       </section>
 
+      {/* +++++++ Забронировать столик ++++++++ */}
       <section className="pt-14 md:pt-[120px]" id="formfeed">
         <div className="lg:container mx-4 md:mx-auto">
           <div className="h-full flex flex-col-reverse md:flex-row gap-6">
@@ -281,11 +283,12 @@ function Oysters() {
         </div>
       </section>
 
-      <section className="pt-[120px]">
-        <div className="lg:container mx-auto">
+      {/* +++++++ О ресторане ++++++++ */}
+      <section className="pt-14 md:pt-[120px]">
+        <div className="lg:container mx-4 md:mx-auto">
           <h2 className="oysters_title">о ресторане</h2>
-          <p className="mt-16 oysters_text">
-            Oysters — твое место безупречного вкуса в ТРК «СИТИ ЦЕНТР». Мы
+          <p className="mt-6 md:mt-16 oysters_text">
+            Oysters — твое место безупречного вкуса в ТРК «СИТИ&nbsp;ЦЕНТР». Мы
             превратили гастрономию в&nbsp;искусство: от{' '}
             <span className="text-[#FBF79F]">
               живых королевских крабов и премиальных устриц Жилардо
@@ -293,7 +296,8 @@ function Oysters() {
             до атмосферных вечеров под звуки живой скрипки.
           </p>
 
-          <div className="mt-20 flex gap-6">
+          {/*+++++++++ 1 блок О Ресторане ПК версия ++++++++++*/}
+          <div className="hidden md:flex mt-20 gap-6">
             <div className="w-1/2">
               <Image
                 src={oRestorane1}
@@ -315,7 +319,8 @@ function Oysters() {
             </div>
           </div>
 
-          <div className="mt-6 flex gap-6">
+          {/*+++++++++ 2 блок О Ресторане ПК версия ++++++++++*/}
+          <div className="hidden md:flex mt-6 gap-6">
             <div className="flex-1">
               <VideoMain
                 videoLink={'/butiks/kafe/Oysters/oRestoraneVideo1.mp4'}
@@ -331,8 +336,8 @@ function Oysters() {
               />
             </div>
           </div>
-
-          <div className="mt-6 flex gap-6">
+          {/*+++++++++ 3 блок О Ресторане ПК версия ++++++++++*/}
+          <div className="hidden md:flex mt-6 gap-6">
             <div className="flex-[2]">
               <p className="mt-8 mb-14 oysters_text">
                 элегантная подача блюд морской кухни, приготовленных на ваших
@@ -349,7 +354,6 @@ function Oysters() {
                 <br /> это гастрономическое событие
               </p>
             </div>
-
             <div className="flex-[2] flex flex-col gap-6">
               <div className="flex gap-6">
                 <div className="w-[50%]">
@@ -377,7 +381,8 @@ function Oysters() {
             </div>
           </div>
 
-          <div className="mt-6 flex gap-6 items-stretch">
+          {/*+++++++++ 4 блок О Ресторане ПК версия ++++++++++*/}
+          <div className="hidden md:flex mt-6 gap-6 items-stretch">
             <div className="flex-[0_0_calc(50%-12px)] relative">
               <Image
                 src={oRestorane5}
@@ -417,12 +422,109 @@ function Oysters() {
             </div>
           </div>
 
-          <FeedBackOysters classMarginTop={'mt-20'} classVisible={''} />
+          {/*+++++++++ 1 блок О Ресторане Мобильная версия ++++++++++*/}
+          <div className="mt-6 flex flex-col gap-4 md:hidden">
+            <Image
+              src={oRestorane2}
+              alt="Фото ресторана"
+              width="360"
+              height="163"
+              className="w-full"
+            />
+
+            <div className="grid grid-cols-2 gap-4">
+              <div className="flex flex-col gap-4">
+                <Image
+                  src={oRestorane1}
+                  alt="Фото ресторана"
+                  width="768"
+                  height="519"
+                />
+                <VideoMain
+                  videoLink={'/butiks/kafe/Oysters/oRestoraneVideo1.mp4'}
+                />
+              </div>
+              <div className="flex flex-col justify-between gap-4">
+                <p className="h-[14%] oysters_text text-end">
+                  уютная атмосфера и эстетика настоящего luxury-формата
+                </p>
+                <div className="h-[43%] relative overflow-hidden">
+                  <Image
+                    src={oRestorane4}
+                    alt="Фото ресторана"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                <div className="h-[43%] relative overflow-hidden">
+                  <Image
+                    src={oRestorane7}
+                    alt="Фото ресторана"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <Image
+              src={oRestorane3}
+              alt="Фото ресторана"
+              width="360"
+              height="204"
+              className="w-full"
+            />
+
+            <div className="grid grid-cols-2 gap-4">
+              <div className="flex flex-col justify-between gap-4">
+                <p className="oysters_text">
+                  элегантная подача блюд&nbsp;морской кухни, приготовленных на
+                  ваших&nbsp;глазах
+                </p>
+                <div className="h-[70%] relative overflow-hidden">
+                  <Image
+                    src={oRestorane6}
+                    alt="Фото ресторана"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <VideoMain
+                videoLink={'/butiks/kafe/Oysters/oRestoraneVideo2.mp4'}
+              />
+            </div>
+
+            <Image
+              src={oRestorane10}
+              alt="Фото ресторана"
+              width="360"
+              height="224"
+              className="w-full"
+            />
+
+            <p className="oysters_text">
+              Сочно, нежно, ярко. <br /> В Oysters краб — это не просто блюдо,
+              <br /> это гастрономическое событие
+            </p>
+
+            <Image
+              src={oRestorane5}
+              alt="Фото ресторана"
+              width="360"
+              height="224"
+              className="w-full"
+            />
+          </div>
+
+          <FeedBackOysters classMarginTop={'mt-6 md:mt-20'} classVisible={''} />
         </div>
       </section>
 
-      <section className="pt-[120px]">
-        <div className="lg:container mx-auto">
+      {/* +++++++ Меню ++++++++ */}
+      <section className="pt-14 md:pt-[120px]">
+        <div className="lg:container mx-4 md:mx-auto">
           <h2 className="oysters_title">меню</h2>
           <div className="mt-14">
             <MenuOystersBlock
@@ -448,22 +550,23 @@ function Oysters() {
             target="_blank"
             className="w-1/2"
           >
-            <div className="mt-20 py-2 lg:py-5 flex items-center justify-center gap-[10px] text-white text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-center border border-white hover:border-[#FBF79F]">
-              <BsFilePdf className="-mt-1 text-3xl 2xl:text-4xl leading-none" />
-              <h4 className="mt-1 oysters_text">
+            <div className="mt-6 md:mt-20 py-3 md:py-2 lg:py-5 flex items-center justify-center gap-[10px] text-white text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-center border border-white hover:border-[#FBF79F]">
+              <BsFilePdf className="mt-0 md:-mt-1 text-2xl md:text-3xl 2xl:text-4xl leading-none" />
+              <h4 className="mt-0 md:mt-1 oysters_text">
                 посмотреть полное меню ресторана
               </h4>
             </div>
           </Link>
 
-          <FeedBackOysters classMarginTop={'mt-20'} classVisible={''} />
+          <FeedBackOysters classMarginTop={'mt-6 md:mt-20'} classVisible={''} />
         </div>
       </section>
 
-      <section className="pt-[120px]">
-        <div className="lg:container mx-auto">
-          <h2 className="text-[3.65vw] 2xl:text-6xl leading-none">
+      <section className="pt-14 md:pt-[120px]">
+        <div className="lg:container mx-4 md:mx-auto">
+          <h2 className="text-[6vw] md:text-[3.65vw] 2xl:text-6xl leading-none">
             Подарите себе день, наполненный вкусом моря и эстетикой роскоши.
+            <br />
             Ждем вас в Oysters! 🥂
           </h2>
 
@@ -473,21 +576,21 @@ function Oysters() {
               alt="Краб и мидии"
               width="1920"
               height="1000"
-              className="mt-20"
+              className="mt-6 md:mt-20"
             />
             <Image
               src={yandexGoodPlace}
               alt="Яндекс хорошее место"
               width="212"
               height="358"
-              className="absolute -bottom-40 right-0 w-[150px]"
+              className="absolute -bottom-12 md:-bottom-40 right-0 w-12 md:w-[150px]"
             />
           </div>
 
-          <table class="table-auto mt-12 oysters_text border-separate border-spacing-y-8">
+          <table class="table-auto mt-0 md:mt-12 oysters_text border-separate border-spacing-y-8">
             <tbody>
               <tr>
-                <td class="pr-40">режим работы:</td>
+                <td class="pr-20 md:pr-40">режим работы:</td>
                 <td>с 12:00 до 21:00</td>
               </tr>
               <tr>
@@ -504,21 +607,27 @@ function Oysters() {
               </tr>
               <tr>
                 <td>соцсети: </td>
-                <td className="flex items-center gap-2">
-                  <Image
-                    src={telegramIcon}
-                    alt="телеграм иконка"
-                    width="48"
-                    height="48"
-                    className="-mt-1 w-8 2xl:w-10"
-                  />
-                  oysters_krd
+                <td>
+                  <Link
+                    href="https://t.me/oysters_krd"
+                    className="flex items-center gap-2"
+                    target="_blank"
+                  >
+                    <Image
+                      src={telegramIcon}
+                      alt="телеграм иконка"
+                      width="48"
+                      height="48"
+                      className="md:-mt-1 w-8 2xl:w-10"
+                    />
+                    oysters_krd
+                  </Link>
                 </td>
               </tr>
             </tbody>
           </table>
 
-          <FeedBackOysters classMarginTop={'mt-6'} classVisible={''} />
+          <FeedBackOysters classMarginTop={'mt-6 mb-6'} classVisible={''} />
         </div>
       </section>
     </Layout>
