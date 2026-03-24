@@ -102,7 +102,7 @@ function ShowRoom() {
           <h3 className="mt-14 sm:mt-20 show_room_title leading-none">
             заказать услуги стилиста
           </h3>
-          <h5 className="text-xl sm:text-[2.3vw]">
+          <h5 className="text-xl sm:text-[2.3vw] leading-none">
             оставьте контактны данные и выберете специалиста,
             мы&nbsp;вам&nbsp;перезвоним
           </h5>

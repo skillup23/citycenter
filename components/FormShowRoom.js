@@ -15,6 +15,7 @@ function FormShowRoom() {
 
   const [toastMessage, setToastMessage] = useState('');
   const [toastType, setToastType] = useState('');
+  const [buttomText, setButtomText] = useState('Отправить');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,8 +36,12 @@ function FormShowRoom() {
       else if (cleaned.startsWith('7') && !cleaned.startsWith('+7')) {
         cleaned = '+7' + cleaned.substring(1);
       }
+      // 4. Если в начале 9 добавляем плюс +79
+      else if (cleaned.startsWith('9') && !cleaned.startsWith('+79')) {
+        cleaned = '+79' + cleaned.substring(1);
+      }
 
-      // 4. Ограничиваем длину (+7 и 10 цифр = 12 символов)
+      // 5. Ограничиваем длину (+7 и 10 цифр = 12 символов)
       if (cleaned.length <= 12) {
         setUserInput({
           ...userInput,
@@ -54,6 +59,7 @@ function FormShowRoom() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     clearToast();
+    setButtomText('Отправка...');
 
     if (!userInput.agreement) {
       showToast('Необходимо согласиться с обработкой данных', 'error');
@@ -74,6 +80,7 @@ function FormShowRoom() {
           error: '',
           success: false,
         });
+        setButtomText('Отправить');
       } else {
         showToast('Произошла ошибка при отправке', 'error');
       }
@@ -167,7 +174,7 @@ function FormShowRoom() {
               className="w-8 h-8 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
               required
             />
-            <p className="text-lg sm:text-[1.4vw]">
+            <p className="text-lg sm:text-[1.4vw] leading-none">
               Я согласен на обработку{' '}
               <Link
                 href={'/docs/Политика перс данных.pdf'}
@@ -180,16 +187,16 @@ function FormShowRoom() {
           </label>
           <button
             type="submit"
-            className="w-full sm:w-1/3 py-2 sm:py-2 mb-6 sm:mb-0 text-2xl sm:text-[2.3vw] bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
+            className="w-full md:w-1/3 mt-auto py-2 sm:py-4 text-2xl sm:text-[2.3vw] 2xl:text-4xl bg-white text-[#1e1a1b] hover:bg-[#1e1a1b] hover:text-white border-white border"
           >
-            Отправить
+            {buttomText}
           </button>
         </div>
       </form>
 
       {toastMessage && (
         <div
-          className={`w-full md:w-1/3 -mt-6 md:mt-0 mb-6 md:mb-0 p-4 mb:p-8 bg-white text-[#1e1a1b] text-lg text-center sm:text-[2vw] animate-slideUp ${toastType}`}
+          className={`absolute md:relative w-full bottom-6 p-4 bg-white text-[#1e1a1b] text-[5.5vw] text-center sm:text-[2vw] 2xl:text-4xl z-50 animate-slideUp ${toastType}`}
           onClick={clearToast}
         >
           {toastMessage}
