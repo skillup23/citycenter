@@ -29,7 +29,11 @@ function FeedBackOysters({ classMarginTop, classVisible }) {
           </div>
         </Link>
 
-        <Link href="https://t.me/oysters_krd" className="w-1/2" target="_blank">
+        <Link
+          href="https://t.me/@Oysters_krd_city"
+          className="w-1/2"
+          target="_blank"
+        >
           <div className="mt-6 py-3 px-2 md:px-8 lg:py-[14px] lg:px-16 flex items-center justify-center gap-[10px] text-white text-[4.2vw] md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-center border border-white hover:border-[#FBF79F]">
             <Image
               src={telegramIcon}

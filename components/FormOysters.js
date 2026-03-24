@@ -31,12 +31,16 @@ function FormOysters() {
       if (cleaned.startsWith('8')) {
         cleaned = '+7' + cleaned.substring(1);
       }
-      // 3. Если в начале 7 (без плюса) — добавляем плюс
+      // 4. Если в начале 7 (без плюса) — добавляем плюс
       else if (cleaned.startsWith('7') && !cleaned.startsWith('+7')) {
         cleaned = '+7' + cleaned.substring(1);
       }
+      // 4. Если в начале 9 добавляем плюс +79
+      else if (cleaned.startsWith('9') && !cleaned.startsWith('+79')) {
+        cleaned = '+79' + cleaned.substring(1);
+      }
 
-      // 4. Ограничиваем длину (+7 и 10 цифр = 12 символов)
+      // 5. Ограничиваем длину (+7 и 10 цифр = 12 символов)
       if (cleaned.length <= 12) {
         setUserInput({
           ...userInput,
