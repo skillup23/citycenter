@@ -111,7 +111,7 @@ function FormShowRoom() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative mb-6 sm:mb-0">
       {/* <div onClick={showToast2}>тест</div> */}
       <form
         onSubmit={handleSubmit}
