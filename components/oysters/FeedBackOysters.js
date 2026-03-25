@@ -30,7 +30,7 @@ function FeedBackOysters({ classMarginTop, classVisible }) {
         </Link>
 
         <Link
-          href="https://t.me/@Oysters_krd_city"
+          href="https://t.me/Oysters_krd_city"
           className="w-1/2"
           target="_blank"
         >
