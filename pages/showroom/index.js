@@ -18,7 +18,7 @@ function ShowRoom() {
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
           <h1 className="mt-10 mb-8 sm:mt-14 sm:mb-14 lg:mt-20 lg:mb-20 show_room_title">
-            VIP Showroom - это новый уровень шопинга
+            ШОУРУМ - это новый уровень шопинга
           </h1>
 
           <p className="mb-14 lg:mb-20 text-[5.3vw] lg:text-3xl xl:text-5xl indent-6 sm:indent-16 leading-none sm:leading-normal">

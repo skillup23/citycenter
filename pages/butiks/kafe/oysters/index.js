@@ -46,7 +46,7 @@ import { BsFilePdf } from 'react-icons/bs';
 function Oysters() {
   return (
     <Layout
-      title="Ресторан устриц Oysters в в ТРЦ «Сити Центр»"
+      title="Ресторан устриц Oysters в в ТРК «Сити Центр»"
       description="Oysters — твое место безупречного вкуса в ТРК «Сити Центр». Мы превратили гастрономию в искусство: от живых королевских крабов и премиальных устриц Жилардо до атмосферных вечеров под звуки живой скрипки."
     >
       <section className='relative w-full h-[33vh] lg:h-[89vh] mb-[5.8vh] md:mb-0 pt-8 md:pt-20 2xl:pt-[120px] pb-24 bg-[url("../public/butiks/kafe/Oysters/firstScreenMob.jpg")] md:bg-[url("../public/butiks/kafe/Oysters/firstScreen2.jpg")] bg-center bg-cover'>
@@ -106,7 +106,7 @@ function Oysters() {
         <div className="lg:container mx-4 lg:mx-auto">
           <div>
             <h2 className="oysters_title w-2/3 md:w-full">
-              Ресторан устриц в&nbsp;ТРЦ&nbsp;«СИТИ ЦЕНТР»
+              Ресторан устриц в&nbsp;ТРК&nbsp;«СИТИ ЦЕНТР»
             </h2>
             <p className="mt-6 md:mt-16 2xl:mt-20 oysters_text">
               Свежие устрицы, утончённая подача, безупречный вкус и&nbsp;особое
@@ -246,7 +246,7 @@ function Oysters() {
                 className="w-20 md:w-[185px] 2xl:w-[200px] h-auto md:h-[182px] 2xl:h-[197px]"
               />
               <h4 className="mt-4 md:mt-6 max-w-[125px] md:max-w-[272px] oysters_text text-center">
-                Удобно в ТРЦ Сити&nbsp;Центр
+                Удобно в ТРК Сити&nbsp;Центр
               </h4>
             </div>
           </div>
@@ -264,7 +264,7 @@ function Oysters() {
             >
               <h2 className="oysters_title">забронировать столик</h2>
               <h4 className="mt-2 text-[4.4vw]  md:text-[2.4vw] leading-none 2xl:text-4xl">
-                оставьте контактны данные , и мы вам перезвоним
+                оставьте контактные данные , и мы вам перезвоним
               </h4>
               <div className="mt-10 md:mt-28 2xl:mt-[120px] h-full">
                 <FormOysters />
@@ -594,7 +594,7 @@ function Oysters() {
             <tbody>
               <tr>
                 <td class="pr-20 md:pr-40">режим работы:</td>
-                <td>с 12:00 до 21:00</td>
+                <td>с 12:00 до 22:00</td>
               </tr>
               <tr>
                 <td>телефон:</td>

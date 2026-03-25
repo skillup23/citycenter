@@ -14,7 +14,7 @@ const menu = [
   },
   {
     id: id++,
-    name: 'VIP шоурум',
+    name: 'ШОУРУМ',
     link: '/showroom',
   },
   {
