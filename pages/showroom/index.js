@@ -1,8 +1,8 @@
-import FormShowRoom from '@/components/FormShowRoom';
-import Layout from '@/components/Layout';
-import { stilistShowRoom } from '@/public/data/data';
-import Image from 'next/image';
-import Link from 'next/link';
+import FormShowRoom from "@/components/FormShowRoom";
+import Layout from "@/components/Layout";
+import { stilistShowRoom } from "@/public/data/data";
+import Image from "next/image";
+import Link from "next/link";
 
 function ShowRoom() {
   return (
@@ -53,13 +53,13 @@ function ShowRoom() {
                         alt={id}
                         width="400"
                         height="800"
-                        style={{ width: '100%', height: '100%' }}
+                        style={{ width: "100%", height: "100%" }}
                         priority
                       />
                     </div>
-                    <h4 className="mt-6 sm:mt-0 show_room_title">{title}</h4>
+                    <h4 className="mt-6 sm:mt-3 show_room_title">{title}</h4>
                     <p className="show_room_text">{subtitle}</p>
-                    <div className="mt-6 sm:mt-0">
+                    <div className="mt-6 sm:mt-3 mb-0 sm:mb-3">
                       {text.map((item, index) => (
                         <p key={index} className="show_room_text">
                           {item}
@@ -82,7 +82,7 @@ function ShowRoom() {
                           alt={alt}
                           width="416"
                           height="834"
-                          style={{ width: '100%', height: '100%' }}
+                          style={{ width: "100%", height: "100%" }}
                           priority
                         />
                       </div>
