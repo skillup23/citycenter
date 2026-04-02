@@ -78,7 +78,7 @@ export default function Home() {
 
       <section className="mb-2 sm:mb-20">
         <div className="lg:container mx-auto">
-          <h2 className="title_main px-2 sm:px-0 text-[50px] sm:text-[7vw] mt-12 mb-10">
+          <h2 className="title_main px-2 sm:px-0 text-[50px] sm:text-[7vw] 2xl:text-[135px] mt-12 mb-10">
             Анонсы кинопоказов
           </h2>
           <div className="grid grid-cols-3 sm:grid-cols-6 justify-between gap-2 sm:gap-3">
