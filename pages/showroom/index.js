@@ -1,8 +1,8 @@
-import FormShowRoom from "@/components/FormShowRoom";
-import Layout from "@/components/Layout";
-import { stilistShowRoom } from "@/public/data/data";
-import Image from "next/image";
-import Link from "next/link";
+import FormShowRoom from '@/components/FormShowRoom';
+import Layout from '@/components/Layout';
+import { stilistShowRoom } from '@/public/data/data';
+import Image from 'next/image';
+import Link from 'next/link';
 
 function ShowRoom() {
   return (
@@ -53,7 +53,7 @@ function ShowRoom() {
                         alt={id}
                         width="400"
                         height="800"
-                        style={{ width: "100%", height: "100%" }}
+                        style={{ width: '100%', height: '100%' }}
                         priority
                       />
                     </div>
@@ -82,7 +82,7 @@ function ShowRoom() {
                           alt={alt}
                           width="416"
                           height="834"
-                          style={{ width: "100%", height: "100%" }}
+                          style={{ width: '100%', height: '100%' }}
                           priority
                         />
                       </div>
@@ -102,7 +102,7 @@ function ShowRoom() {
           <h3 className="mt-14 sm:mt-20 show_room_title leading-none">
             заказать услуги стилиста
           </h3>
-          <h5 className="text-xl sm:text-[2.3vw] leading-none">
+          <h5 className="text-xl sm:text-[2.3vw] 2xl:text-[60px] leading-none">
             оставьте контактны данные и выберете специалиста,
             мы&nbsp;вам&nbsp;перезвоним
           </h5>

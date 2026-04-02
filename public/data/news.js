@@ -35,9 +35,20 @@ import news94 from '@/public/news/94.jpg';
 import news95 from '@/public/news/95.jpg';
 import news96 from '@/public/news/96.jpg';
 import news97 from '@/public/news/97.jpg';
+import news98 from '@/public/news/98.jpg';
 import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news98,
+    text: [
+      'Новые вкусы уже ждут вас 🤍',
+      'В ресторане Oysters в ТРК «СИТИ ЦЕНТР» обновили меню — ещё больше изысканных сочетаний, свежих ингредиентов и гастрономического удовольствия.',
+      'Попробуйте новинки, откройте для себя новые вкусы и проведите время в атмосфере уюта и эстетики ✨',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news97,
@@ -55,7 +66,7 @@ const arrayNews = [
       'Это пространство для тех, кто стремится к юридической безопасности, внутреннему балансу и уверенности в себе.',
       'Билеты уже в продаже — в кассе кинотеатра и на сайте kinomonitor.ru',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -67,7 +78,7 @@ const arrayNews = [
       'Оцените уровень комфорта и эстетики в ESTETICA VISION ✨',
       '📍1 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -84,7 +95,7 @@ const arrayNews = [
       'Подробности и бронирование:',
       '+7 918 333-17-77',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -95,7 +106,6 @@ const arrayNews = [
       'Желаем, чтобы каждый ваш день начинался с улыбки, интересных событий и приятных сюрпризов!',
       'ТРК «Сити Центр» всегда ждет вас за хорошими впечатлениями и стильным настроением. Поздравляем с 8 Марта!',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,

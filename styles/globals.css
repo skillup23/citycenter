@@ -42,7 +42,7 @@
     @apply flex w-1/4 items-center justify-center py-4 bg-white text-black ease-in duration-200 hover:bg-black hover:text-white;
   }
   .show_room_title {
-    @apply text-4xl lg:text-5xl xl:text-[5.2vw] 2xl:text-[5.2vw] leading-none;
+    @apply text-4xl lg:text-5xl xl:text-[5.2vw] 2xl:text-[100px] leading-none;
   }
   .show_room_subtitle {
     @apply text-2xl md:text-3xl lg:text-4xl xl:text-[5.1vw] 2xl:text-[5vw] leading-none;
@@ -60,6 +60,17 @@
   @media (min-width: 640px) {
     .title_main {
       font-size: 7vw;
+      line-height: 1.2;
+    }
+    .subtitle_main {
+      font-size: 2vw;
+      line-height: 1.4;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .title_main {
+      font-size: 135px;
       line-height: 1.2;
     }
     .subtitle_main {
