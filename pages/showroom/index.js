@@ -13,7 +13,7 @@ function ShowRoom() {
             который профессионально создаст ваш идеальный образ из лучших
             коллекций элитных бутиков ТРК «СИТИ ЦЕНТР»."
     >
-      <div className="h-[25vh] sm:h-[89vh] bg-[url('/showroom_img/showroomMain.png')] bg-cover"></div>
+      <div className="h-[13.5vh] md:h-[25vh] lg:h-[35vh] xl:h-[45vh] 2xl:h-[53vh] bg-[url('/showroom_img/showroomMainRus.jpg')] bg-cover bg-no-repeat"></div>
 
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
@@ -21,7 +21,7 @@ function ShowRoom() {
             ШОУРУМ - это новый уровень шопинга
           </h1>
 
-          <p className="mb-14 lg:mb-20 text-[5.3vw] lg:text-3xl xl:text-5xl indent-6 sm:indent-16 leading-none sm:leading-normal">
+          <p className="mb-14 lg:mb-20 text-[5.3vw] sm:text-2xl md:text-3xl xl:text-5xl indent-6 sm:indent-16 leading-none sm:leading-normal">
             Представляем вам уникальную услугу, которая позволит раскрыть всю
             палитру вашей индивидуальности. выберете персонального стилиста,
             который профессионально создаст ваш идеальный образ из лучших
