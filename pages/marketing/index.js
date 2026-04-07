@@ -8,6 +8,7 @@ import { useState } from 'react';
 // import { BsFilePdf } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { FaUser } from 'react-icons/fa';
 
 function Marketing() {
   const [isOpen, setOpen] = useState(false);
@@ -96,36 +97,70 @@ function Marketing() {
           </Link> */}
 
           <h2 className="title_main mt-10">Контакты</h2>
-          <div className="flex flex-col w-full mt-1 md:mt-0 mb-10 gap-2">
-            <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-              ОТДЕЛ РЕКЛАМЫ, МАРКЕТИНГА И PR
-            </h4>
-            <ul>
-              <li className="flex flex-row w-fill items-center mt-1">
-                <FaPhoneAlt className="text-xl mr-5" />
-                <Link
-                  href="tel:89094441180"
-                  className="text-lg md:text-xl lg:text-2xl"
-                >
-                  +7 (909) 444-11-80
-                </Link>
-              </li>
-              <li className="flex flex-row w-fill items-center mt-1">
-                <MdEmail className="text-xl mr-5" />
-                <Link
-                  href="mailto:ostapchenko_o@alpha-am.ru"
-                  className="text-lg md:text-xl lg:text-2xl"
-                >
-                  ostapchenko_o@alpha-am.ru
-                </Link>
-              </li>
-              {/* <li className="flex flex-row w-fill items-center mt-1">
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col w-full mt-1 md:mt-0 mb-4 gap-2">
+              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                ОТДЕЛ РЕКЛАМЫ, МАРКЕТИНГА И PR
+              </h4>
+              <ul>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link
+                    href="tel:89094441180"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
+                    +7 (909) 444-11-80
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <MdEmail className="text-xl mr-5" />
+                  <Link
+                    href="mailto:ostapchenko_o@alpha-am.ru"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
+                    ostapchenko_o@alpha-am.ru
+                  </Link>
+                </li>
+                {/* <li className="flex flex-row w-fill items-center mt-1">
                 <h4 className="text-lg md:text-xl lg:text-2xl">
                   Инсайд девелопмент - оператор по продаже рекламы и промо в ТРК
                   «СИТИ ЦЕНТР»
                 </h4>
               </li> */}
-            </ul>
+              </ul>
+            </div>
+
+            <div className="flex flex-col w-full mt-1 md:mt-0 mb-10 gap-2">
+              <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                Продажи рекламы в ТРК «Сити Центр»
+              </h4>
+              <ul>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaPhoneAlt className="text-xl mr-5" />
+                  <Link
+                    href="tel:89165964075"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
+                    +7 (916) 596 40 75
+                  </Link>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <FaUser className="text-xl mr-5" />
+                  <h4 className="text-lg md:text-xl lg:text-2xl">
+                    Алена Пантюхина
+                  </h4>
+                </li>
+                <li className="flex flex-row w-fill items-center mt-1">
+                  <MdEmail className="text-xl mr-5" />
+                  <Link
+                    href="mailto:alena.pantyukhina@ambitica.ru"
+                    className="text-lg md:text-xl lg:text-2xl"
+                  >
+                    alena.pantyukhina@ambitica.ru
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
