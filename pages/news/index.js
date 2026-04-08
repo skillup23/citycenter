@@ -1,6 +1,6 @@
-import Layout from "@/components/Layout";
-import OneNews from "@/components/OneNews";
-import { arrayNews } from "@/public/data/news";
+import Layout from '@/components/Layout';
+import OneNews from '@/components/OneNews';
+import { arrayNews } from '@/public/data/news';
 
 function News() {
   return (
@@ -12,7 +12,7 @@ function News() {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 sm:mb-0">НОВОСТИ</h1>
 
-          {arrayNews.map(({ id, img1, img2, img3, img4, text }) => (
+          {arrayNews.map(({ id, img1, img2, img3, img4, img5, text }) => (
             <OneNews
               key={id}
               id={id}
@@ -20,6 +20,7 @@ function News() {
               img2={img2}
               img3={img3}
               img4={img4}
+              img5={img5}
               text={text}
             />
           ))}
