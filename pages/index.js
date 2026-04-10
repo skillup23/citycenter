@@ -231,8 +231,8 @@ export default function Home() {
                     УНИВЕРСАМ «ПЕРЕКРЕСТОК» - КРУГЛОСУТОЧНО
                   </h4>
                   <h4 className="text-lg md:text-xl mt-2">
-                    КИНОТЕАТР «МОНИТОР CITI DE LUXE» - ДО ОКОНЧАНИЯ ПОСЛЕДНЕГО
-                    СЕАНСА
+                    КИНОТЕАТР «МОНИТОР СИТИ» - ДО ОКОНЧАНИЯ
+                    ПОСЛЕДНЕГО&nbsp;СЕАНСА
                   </h4>
                   <h4 className="text-lg md:text-xl mt-2">
                     КАФЕ И РЕСТОРАН - ДО 22:00
