@@ -12,18 +12,22 @@ function News() {
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 sm:mb-0">НОВОСТИ</h1>
 
-          {arrayNews.map(({ id, img1, img2, img3, img4, img5, text }) => (
-            <OneNews
-              key={id}
-              id={id}
-              img1={img1}
-              img2={img2}
-              img3={img3}
-              img4={img4}
-              img5={img5}
-              text={text}
-            />
-          ))}
+          {arrayNews.map(
+            ({ id, img1, img2, img3, img4, img5, text, url, urltext }) => (
+              <OneNews
+                key={id}
+                id={id}
+                img1={img1}
+                img2={img2}
+                img3={img3}
+                img4={img4}
+                img5={img5}
+                text={text}
+                url={url}
+                urltext={urltext}
+              />
+            ),
+          )}
         </div>
       </section>
     </Layout>

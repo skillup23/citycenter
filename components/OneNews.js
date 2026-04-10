@@ -1,7 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
-function OneNews({ id, img1, img2, img3, img4, img5, text }) {
+function OneNews({ id, img1, img2, img3, img4, img5, text, url, urltext }) {
   return (
     <div
       className="w-full flex flex-col items-start sm:flex-row gap-8 py-8 sm:py-10 flex-wrap border-b-2 scroll-mt-20"
@@ -72,6 +73,16 @@ function OneNews({ id, img1, img2, img3, img4, img5, text }) {
           {text.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
+
+          {!url ? (
+            ''
+          ) : (
+            <Link href={url} className="mt-2 " target="_blank">
+              <p className="underline text-xl text-center sm:text-left text-red-500 hover:text-white">
+                {urltext}
+              </p>
+            </Link>
+          )}
         </div>
       </div>
     </div>
