@@ -11,6 +11,8 @@ const YandexMap = () => (
           zoom: 17,
           controls: ['zoomControl', 'fullscreenControl'],
         }}
+        width="100%"
+        height="500px"
         className="yaMapMain"
         modules={['control.ZoomControl', 'control.FullscreenControl']}
       >
@@ -26,6 +28,14 @@ const YandexMap = () => (
     <style jsx>{`
       .map {
         margin-top: 0px;
+      }
+      .map-container {
+        width: 100%;
+        margin-top: 0px;
+      }
+
+      :global(.yaMapMain) {
+        width: 100% !important;
       }
     `}</style>
   </div>

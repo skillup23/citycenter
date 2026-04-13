@@ -200,7 +200,7 @@ export default function Home() {
       <section className="mt-12 sm:mt-20">
         <div className="lg:container mx-auto">
           <h2 className="title_main mb-6 sm:mb-10 md:mb-0">КОНТАКТЫ</h2>
-          <div className="pr-5 flex flex-col md:flex-row gap-12">
+          <div className="flex flex-col md:flex-row gap-12">
             <div className="flex flex-col w-fill md:w-1/3 pl-3 justify-between gap-5">
               <div className="flex flex-row w-fill items-center">
                 <HiLocationMarker className="text-lg md:text-xl mr-5" />
@@ -256,7 +256,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row flex-wrap w-full md:w-2/3 items-start content-start">
+            <div className="w-full md:w-2/3">
               <YandexMap />
             </div>
           </div>
