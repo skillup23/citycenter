@@ -48,8 +48,6 @@ const arrayNews = [
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
     link: '/news#new1',
-    url: 'https://forms.yandex.ru/u/69a314d24936393cba7ff53c',
-    urltext: 'Регистрация на мероприятие',
   },
   {
     id: id++,
@@ -64,8 +62,6 @@ const arrayNews = [
       '— модный показ и тренды сезона от Галины Дебровой',
     ],
     link: '/news#new2',
-    url: 'https://forms.yandex.ru/u/69a314d24936393cba7ff53c',
-    urltext: 'Регистрация на мероприятие',
   },
   {
     id: id++,
@@ -80,6 +76,7 @@ const arrayNews = [
     ],
     link: '/news#new3',
     url: 'https://forms.yandex.ru/u/69a314d24936393cba7ff53c',
+    urltext: 'Регистрация на мероприятие',
   },
   {
     id: id++,
