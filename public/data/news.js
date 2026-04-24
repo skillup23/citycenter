@@ -80,7 +80,6 @@ const arrayNews = [
     ],
     link: '/news#new3',
     url: 'https://forms.yandex.ru/u/69a314d24936393cba7ff53c',
-    urltext: 'Регистрация на мероприятие',
   },
   {
     id: id++,
