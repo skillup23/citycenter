@@ -9,6 +9,7 @@ import news103 from "@/public/news/103.jpg";
 import news104 from "@/public/news/104.jpg";
 import news105 from "@/public/news/105.jpg";
 import news106 from "@/public/news/106.jpg";
+import news107 from "@/public/news/107.jpg";
 import news80 from "@/public/news/80.jpg";
 import news81 from "@/public/news/81.jpg";
 import news82 from "@/public/news/82.jpg";
@@ -38,6 +39,17 @@ import news99 from "@/public/news/99.jpg";
 const arrayNews = [
   {
     id: id++,
+    img1: news107,
+    text: [
+      "С Праздником Весны и Труда!",
+      "Пусть этот день станет добрым напоминанием о важности баланса — между делом и отдыхом, движением и вдохновением.",
+      "Желаем вам лёгкости на душе, внутренней гармонии и искреннего удовольствия от каждого дня 🤍",
+      "С наилучшими пожеланиями, ТРК «СИТИ ЦЕНТР»",
+    ],
+    link: "/news#new1",
+  },
+  {
+    id: id++,
     img1: news106,
     text: [
       "Время обновить пространство и наполнить дом атмосферой весны ✨",
@@ -48,7 +60,7 @@ const arrayNews = [
       "📍 2 этаж, ТРК «СИТИ ЦЕНТР»",
       "📞 +7 861 204 01 49",
     ],
-    link: "/news#new1",
+    link: "/news#new2",
   },
   {
     id: id++,
@@ -62,7 +74,7 @@ const arrayNews = [
       "Не упустите шанс приобрести любимое бельё выгодно 🤍",
       "📍 2 этаж, ТРК «СИТИ ЦЕНТР»",
     ],
-    link: "/news#new2",
+    link: "/news#new3",
   },
   {
     id: id++,
@@ -76,7 +88,7 @@ const arrayNews = [
       "— разборы от психологов Альбины Абдул и Марины Шастовой",
       "— модный показ и тренды сезона от Галины Дебровой",
     ],
-    link: "/news#new3",
+    link: "/news#new4",
   },
   {
     id: id++,
@@ -89,7 +101,6 @@ const arrayNews = [
       "Участие бесплатное 🤍",
       "Количество мест ограничено!",
     ],
-    link: "/news#new4",
     url: "https://forms.yandex.ru/u/69a314d24936393cba7ff53c",
     urltext: "Регистрация на мероприятие",
   },
