@@ -10,6 +10,10 @@ import news104 from "@/public/news/104.jpg";
 import news105 from "@/public/news/105.jpg";
 import news106 from "@/public/news/106.jpg";
 import news107 from "@/public/news/107.jpg";
+import news108_1 from "@/public/news/108-1.jpg";
+import news108_2 from "@/public/news/108-2.jpg";
+import news108_3 from "@/public/news/108-3.jpg";
+import news108_4 from "@/public/news/108-4.jpg";
 import news80 from "@/public/news/80.jpg";
 import news81 from "@/public/news/81.jpg";
 import news82 from "@/public/news/82.jpg";
@@ -39,6 +43,23 @@ import news99 from "@/public/news/99.jpg";
 const arrayNews = [
   {
     id: id++,
+    img1: news108_1,
+    img2: news108_2,
+    img3: news108_3,
+    img4: news108_4,
+    text: [
+      "KINEXT CITY",
+      "— это пространство, где функциональный и силовой тренинг на премиальном оборудовании сочетаются с уникальными студийными форматами нового поколения.",
+      "Pilates, TRX, REAXING, иммерсивная ICG-студия — вы выбираете формат под своё настроение и цель, пользуясь приватностью и комфортом в любое время дня.",
+      "Ваше пространство для силы, восстановления и баланса.",
+      "KINEXT CITY — когда фитнес становится образом жизни.",
+      "Предпродажи открыты. Специальная стоимость доступна только на старте продаж 🤍",
+      "📍2 этаж, ТРК «СИТИ ЦЕНТР»",
+    ],
+    link: "/news#new1",
+  },
+  {
+    id: id++,
     img1: news107,
     text: [
       "С Праздником Весны и Труда!",
@@ -46,7 +67,7 @@ const arrayNews = [
       "Желаем вам лёгкости на душе, внутренней гармонии и искреннего удовольствия от каждого дня 🤍",
       "С наилучшими пожеланиями, ТРК «СИТИ ЦЕНТР»",
     ],
-    link: "/news#new1",
+    link: "/news#new2",
   },
   {
     id: id++,
@@ -60,7 +81,7 @@ const arrayNews = [
       "📍 2 этаж, ТРК «СИТИ ЦЕНТР»",
       "📞 +7 861 204 01 49",
     ],
-    link: "/news#new2",
+    link: "/news#new3",
   },
   {
     id: id++,
@@ -74,7 +95,7 @@ const arrayNews = [
       "Не упустите шанс приобрести любимое бельё выгодно 🤍",
       "📍 2 этаж, ТРК «СИТИ ЦЕНТР»",
     ],
-    link: "/news#new3",
+    link: "/news#new4",
   },
   {
     id: id++,
@@ -88,7 +109,6 @@ const arrayNews = [
       "— разборы от психологов Альбины Абдул и Марины Шастовой",
       "— модный показ и тренды сезона от Галины Дебровой",
     ],
-    link: "/news#new4",
   },
   {
     id: id++,
