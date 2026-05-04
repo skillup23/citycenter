@@ -66,11 +66,11 @@ const menu = [
 
 // __________________Верхний слайдер___________________
 const sliderTop = [
-  // {
-  //   id: 1,
-  //   src: '/slide_main/m_21.jpg',
-  //   alt: 'Лекция Андрея Ступаченко',
-  // },
+  {
+    id: 1,
+    src: "/slide_main/m_22.jpg",
+    alt: "День Победы",
+  },
   {
     id: 2,
     src: "/slide_main/m_12.jpg",
