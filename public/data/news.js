@@ -16,6 +16,7 @@ import news108_3 from "@/public/news/108-3.jpg";
 import news108_4 from "@/public/news/108-4.jpg";
 import news109 from "@/public/news/109.jpg";
 import news110 from "@/public/news/110.jpg";
+import news111 from "@/public/news/111.jpg";
 import news80 from "@/public/news/80.jpg";
 import news81 from "@/public/news/81.jpg";
 import news82 from "@/public/news/82.jpg";
@@ -45,6 +46,17 @@ import news99 from "@/public/news/99.jpg";
 const arrayNews = [
   {
     id: id++,
+    img1: news111,
+    text: [
+      "Искусство, воплощённое в украшениях ✨",
+      "В бутике Renaissance представлена коллекция Annamaria Cammilli — изысканная, выразительная и по-настоящему завораживающая.",
+      "Плавные линии, уникальные формы и фирменные оттенки золота создают украшения, от которых невозможно оторвать взгляд.",
+      "📍1 этаж, ТРК «СИТИ ЦЕНТР»",
+    ],
+    link: "/news#new1",
+  },
+  {
+    id: id++,
     img1: news110,
     text: [
       "Волшебный вечер ✨",
@@ -56,7 +68,7 @@ const arrayNews = [
     ],
     url: "https://kinomonitor.ru",
     urltext: "🎟 Билеты уже в продаже на kinomonitor.ru",
-    link: "/news#new1",
+    link: "/news#new2",
   },
   {
     id: id++,
@@ -71,7 +83,7 @@ const arrayNews = [
       "📍2 этаж, ТРК «СИТИ ЦЕНТР»",
       "📞 +7 (938) 41-069-51",
     ],
-    link: "/news#new2",
+    link: "/news#new3",
   },
   {
     id: id++,
@@ -88,7 +100,7 @@ const arrayNews = [
       "Предпродажи открыты. Специальная стоимость доступна только на старте продаж 🤍",
       "📍2 этаж, ТРК «СИТИ ЦЕНТР»",
     ],
-    link: "/news#new3",
+    link: "/news#new4",
   },
   {
     id: id++,
@@ -99,7 +111,6 @@ const arrayNews = [
       "Желаем вам лёгкости на душе, внутренней гармонии и искреннего удовольствия от каждого дня 🤍",
       "С наилучшими пожеланиями, ТРК «СИТИ ЦЕНТР»",
     ],
-    link: "/news#4",
   },
   {
     id: id++,
