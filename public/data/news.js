@@ -17,6 +17,7 @@ import news108_4 from "@/public/news/108-4.jpg";
 import news109 from "@/public/news/109.jpg";
 import news110 from "@/public/news/110.jpg";
 import news111 from "@/public/news/111.jpg";
+import news112 from "@/public/news/112.jpg";
 import news80 from "@/public/news/80.jpg";
 import news81 from "@/public/news/81.jpg";
 import news82 from "@/public/news/82.jpg";
@@ -44,6 +45,18 @@ import news99 from "@/public/news/99.jpg";
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news112,
+    text: [
+      "С Днём Великой Победы!",
+      "Этот день напоминает о силе человеческого духа, мужестве и ценности мира.",
+      "9 Мая — важная дата, которая объединяет поколения памятью, уважением и благодарностью.",
+      "Пусть в каждом доме сегодня звучат тёплые слова, истории семей и искренние воспоминания 🤍",
+      "С любовью, ТРК «СИТИ ЦЕНТР»",
+    ],
+    link: "/news#new1",
+  },
   {
     id: id++,
     img1: news111,
