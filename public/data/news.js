@@ -25,6 +25,7 @@ import news116 from '@/public/news/116.jpg';
 import news116_1 from '@/public/news/116-1.jpg';
 import news116_2 from '@/public/news/116-2.jpg';
 import news116_3 from '@/public/news/116-3.jpg';
+import news117 from '@/public/news/117.jpg';
 import news80 from '@/public/news/80.jpg';
 import news81 from '@/public/news/81.jpg';
 import news82 from '@/public/news/82.jpg';
@@ -54,6 +55,19 @@ import news99 from '@/public/news/99.jpg';
 const arrayNews = [
   {
     id: id++,
+    img1: news117,
+    text: [
+      'Яркая весна в Marc Cain',
+      'В бутике действует скидка -50% на выделенный ассортимент весенней коллекции ✨',
+      'Сочные оттенки, смелые принты, премиальные ткани и безупречный крой — всё для стильных образов этого сезона.',
+      'Добавьте красок в свой гардероб и найдите новые любимые сочетания 🤍',
+      'Количество товара ограничено — ждём вас на примерку!',
+      '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
+    ],
+    link: '/news#new1',
+  },
+  {
+    id: id++,
     img1: news116,
     img2: news116_1,
     img3: news116_2,
@@ -65,7 +79,7 @@ const arrayNews = [
       'Pop-up пространство будет работать до 30 июня.',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -78,7 +92,7 @@ const arrayNews = [
       'Погрузитесь в атмосферу высокого искусства вместе с ТРК «СИТИ ЦЕНТР».',
       ' ',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
     url: 'https://kinomonitor.ru',
     urltext: '🎟 Билеты уже в продаже на kinomonitor.ru',
   },
@@ -93,7 +107,7 @@ const arrayNews = [
       'Порадуйте себя красивым бельём на особых условиях в Эстель Адони.',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -105,7 +119,6 @@ const arrayNews = [
       'Лаконично. Комфортно. По-летнему элегантно 😍',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
