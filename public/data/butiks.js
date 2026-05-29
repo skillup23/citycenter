@@ -1984,42 +1984,42 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/interior/Togas/1.jpg',
+        src: '/butiks/interior/Togas/1-1.jpg',
         alt: 'Togas',
       },
       {
         id: 2,
-        src: '/butiks/interior/Togas/2.jpg',
+        src: '/butiks/interior/Togas/2-1.jpg',
         alt: 'Togas',
       },
       {
         id: 3,
-        src: '/butiks/interior/Togas/3.jpg',
+        src: '/butiks/interior/Togas/3-1.jpg',
         alt: 'Togas',
       },
       {
         id: 4,
-        src: '/butiks/interior/Togas/4.jpg',
+        src: '/butiks/interior/Togas/4-1.jpg',
         alt: 'Togas',
       },
       {
         id: 5,
-        src: '/butiks/interior/Togas/5.jpg',
+        src: '/butiks/interior/Togas/5-1.jpg',
         alt: 'Togas',
       },
       {
         id: 6,
-        src: '/butiks/interior/Togas/6.jpg',
+        src: '/butiks/interior/Togas/6-1.jpg',
         alt: 'Togas',
       },
       {
         id: 7,
-        src: '/butiks/interior/Togas/7.jpg',
+        src: '/butiks/interior/Togas/7-1.jpg',
         alt: 'Togas',
       },
       {
         id: 8,
-        src: '/butiks/interior/Togas/8.jpg',
+        src: '/butiks/interior/Togas/8-1.jpg',
         alt: 'Togas',
       },
     ],
@@ -2027,7 +2027,8 @@ export const butiks = [
       'С 1926 года бренд, рожденный в Греции, задаёт стандарты элегантности и безупречного качества в мире текстиля и интерьерных решений. Бутики Togas представлены в самых изысканных уголках мира, оставаясь символом утончённого вкуса и традиций высокого стиля.',
     description2:
       'Каждая коллекция — результат уникальных разработок, внимания к деталям и многолетнего опыта. Постельное бельё, текстиль, мебель, аксессуары и одежда от Togas — это воплощение философии жизни, где красота, комфорт и совершенство находятся в идеальном балансе.',
-    description3: ' ',
+    description3:
+      'Для всех новых клиентов Togas подготовил эксклюзивное предложение. Узнать подробную информацию можно у экспертов бутика Togas.',
     floor: '2 этаж',
     tel: '+7 861 204 01 49',
     telUrl: '88612040149',
