@@ -28,6 +28,7 @@ import news116 from '@/public/news/116.jpg';
 import news117 from '@/public/news/117.jpg';
 import news118 from '@/public/news/118.jpg';
 import news119 from '@/public/news/119.jpg';
+import news120 from '@/public/news/120.jpg';
 import news80 from '@/public/news/80.jpg';
 import news81 from '@/public/news/81.jpg';
 import news82 from '@/public/news/82.jpg';
@@ -57,6 +58,18 @@ import news99 from '@/public/news/99.jpg';
 const arrayNews = [
   {
     id: id++,
+    img1: news120,
+    text: [
+      'Танцы, музыка и атмосфера настоящего праздника 💃🏼',
+      '31 мая в 16:00 приглашаем вас в на яркую концертную программу с участием коллектива армянского танца «Арин-Берд» ',
+      'Гостей ждут национальные танцы, живое музыкальное сопровождение, выступления творческих коллективов ❤️',
+      'Погрузитесь в атмосферу традиций, ритма и ярких эмоций вместе с нами! ',
+      '📍 ТРК «СИТИ ЦЕНТР»',
+    ],
+    link: '/news#new1',
+  },
+  {
+    id: id++,
     img1: news119,
     text: [
       'Парфюмерные тонкости ✨',
@@ -67,7 +80,7 @@ const arrayNews = [
       'Количество мест ограничено!',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -80,7 +93,7 @@ const arrayNews = [
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
       '📞 +7 861 204 01 49',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -93,7 +106,7 @@ const arrayNews = [
       'Количество товара ограничено — ждём вас на примерку!',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -108,7 +121,6 @@ const arrayNews = [
       'Pop-up пространство будет работать до 30 июня.',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
