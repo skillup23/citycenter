@@ -26,9 +26,28 @@ import news118 from '@/public/news/118.jpg';
 import news119 from '@/public/news/119.jpg';
 import news120 from '@/public/news/120.jpg';
 import news121 from '@/public/news/121.jpg';
+import news122 from '@/public/news/122.jpg';
+import news122_1 from '@/public/news/122-1.jpg';
+import news122_2 from '@/public/news/122-2.jpg';
+import news122_3 from '@/public/news/122-3.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news122,
+    img2: news122_1,
+    img3: news122_2,
+    img4: news122_3,
+    text: [
+      'Дом начинается с деталей 🛍️',
+      'Togas — бренд с почти вековой историей, который с 1926 года создаёт текстиль и предметы интерьера, объединяющие элегантность, комфорт и безупречное качество.',
+      'Постельное бельё, текстиль для дома, мебель, аксессуары и одежда — каждая коллекция создаётся с особым вниманием к деталям и вдохновлена философией красивой жизни ❤️',
+      'Если вы цените уют, эстетику и высокий стиль, обязательно загляните в бутик Togas в ТРК «СИТИ ЦЕНТР».',
+      '🤍 Для новых клиентов действует эксклюзивное предложение. Подробности уточняйте у консультантов бутика.',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news121,
