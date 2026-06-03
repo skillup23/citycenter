@@ -134,29 +134,29 @@ export const butiks = [
     telUrl: '89898104161',
     instagram: 'krd_marccain',
   },
-  {
-    id: 'oysters',
-    category: 'kafeAndRestoran',
-    url: 'Oysters',
-    logo: '/butiks/kafe/Oysters/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/loaderImgSmall.png',
-        alt: 'Oysters',
-      },
-    ],
-    description1:
-      'Устричный ресторан Oysters! Теперь атмосфера безупречного шопинга дополняется изысканными морскими деликатесами и эстетикой настоящего luxury-формата 🥂',
-    description2:
-      'Свежие устрицы, утончённая подача, безупречный вкус и особое настроение — всё, чтобы превратить обычный визит в ТРК «СИТИ ЦЕНТР» в настоящее гастрономическое удовольствие.',
-    description3:
-      'Приглашаем открыть для себя новый уровень гастрономии и позволить себе чуть больше роскоши в Oysters 🤍',
-    floor: '1 этаж',
-    tel: '',
-    telUrl: '',
-    instagram: '',
-  },
+  // {
+  //   id: 'oysters',
+  //   category: 'kafeAndRestoran',
+  //   url: 'Oysters',
+  //   logo: '/butiks/kafe/Oysters/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/loaderImgSmall.png',
+  //       alt: 'Oysters',
+  //     },
+  //   ],
+  //   description1:
+  //     'Устричный ресторан Oysters! Теперь атмосфера безупречного шопинга дополняется изысканными морскими деликатесами и эстетикой настоящего luxury-формата 🥂',
+  //   description2:
+  //     'Свежие устрицы, утончённая подача, безупречный вкус и особое настроение — всё, чтобы превратить обычный визит в ТРК «СИТИ ЦЕНТР» в настоящее гастрономическое удовольствие.',
+  //   description3:
+  //     'Приглашаем открыть для себя новый уровень гастрономии и позволить себе чуть больше роскоши в Oysters 🤍',
+  //   floor: '1 этаж',
+  //   tel: '',
+  //   telUrl: '',
+  //   instagram: '',
+  // },
   {
     id: id++,
     category: 'womenClothing manClothing',
