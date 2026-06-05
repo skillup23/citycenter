@@ -549,42 +549,6 @@ export const butiks = [
   {
     id: id++,
     category: 'clocks',
-    url: 'FreyWille',
-    logo: '/butiks/clocks/FreyWille/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/clocks/FreyWille/1n.jpg',
-        alt: 'Freywille',
-      },
-      {
-        id: 2,
-        src: '/butiks/clocks/FreyWille/2n.jpg',
-        alt: 'Freywille',
-      },
-      {
-        id: 3,
-        src: '/butiks/clocks/FreyWille/3n.jpg',
-        alt: 'Freywille',
-      },
-      {
-        id: 4,
-        src: '/butiks/clocks/FreyWille/4n.jpg',
-        alt: 'Freywille',
-      },
-    ],
-    description1:
-      'Австрийский ювелирный дом FREYWILLE создает высокохудожественные изделия из драгоценной эмали ручной работы. Лимитированные объемы производства – гарантия высочайших стандартов качества всех изделий. Художественный дизайн – главная деталь любого ювелирного изделия FREYWILLE.',
-    description2:
-      'В бутике вы можете приобрести: серьги, кулоны, браслеты, кольца, часы, броши, клатчи, шелковые шарфы, галстуки, запонки, зажимы для галстука и письменные принадлежности.',
-    floor: '2 этаж',
-    tel: '+7 861 213 48 58',
-    telUrl: '88612134858',
-    instagram: 'freywille_ru',
-  },
-  {
-    id: id++,
-    category: 'clocks',
     url: 'GoldLarec',
     logo: '/butiks/clocks/GoldLarec/logo2.png',
     image: [
@@ -768,37 +732,6 @@ export const butiks = [
     tel: '+7 861 213 47 31',
     telUrl: '88612134731',
     instagram: '',
-  },
-  {
-    id: id++,
-    category: 'shoesAndBags',
-    url: 'Fabi',
-    logo: '/butiks/shoesAndBags/Fabi/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/shoesAndBags/Fabi/1n.jpg',
-        alt: 'Fabi',
-      },
-      {
-        id: 2,
-        src: '/butiks/shoesAndBags/Fabi/2n.jpg',
-        alt: 'Fabi',
-      },
-      {
-        id: 3,
-        src: '/butiks/shoesAndBags/Fabi/3n.jpg',
-        alt: 'Fabi',
-      },
-    ],
-    description1:
-      'Европейский бренд обуви Fabi – один из тех, чью новую коллекцию ждут с замиранием сердца.',
-    description2:
-      'Вся обувь Fabi проходит строгий контроль качества, поэтому обувь этой марки – не только роскошь, но и надежность. Продукция в бутике представлена в двух линейках: Fabi Couture, эксклюзивная обувь из которой сделана из экзотической кожи и богато декорирована, и Fabi Collection – на каждый день.',
-    floor: '2 этаж',
-    tel: '+7 861 231 47 86',
-    telUrl: '88612314786',
-    instagram: 'fabi_krd',
   },
   {
     id: id++,
@@ -1579,56 +1512,6 @@ export const butiks = [
   {
     id: id++,
     category: 'womenClothing',
-    url: 'Kiara',
-    logo: '/butiks/womenClothing/Kiara/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/Kiara/1.jpg',
-        alt: 'Kiara',
-      },
-      {
-        id: 2,
-        src: '/butiks/womenClothing/Kiara/2.jpg',
-        alt: 'Kiara',
-      },
-      {
-        id: 3,
-        src: '/butiks/womenClothing/Kiara/3.jpg',
-        alt: 'Kiara',
-      },
-      {
-        id: 4,
-        src: '/butiks/womenClothing/Kiara/4.jpg',
-        alt: 'Kiara',
-      },
-      {
-        id: 6,
-        src: '/butiks/womenClothing/Kiara/6.jpg',
-        alt: 'Kiara',
-      },
-      {
-        id: 7,
-        src: '/butiks/womenClothing/Kiara/7.jpg',
-        alt: 'Kiara',
-      },
-      {
-        id: 8,
-        src: '/butiks/womenClothing/Kiara/8.jpg',
-        alt: 'Kiara',
-      },
-    ],
-    description1: `KIARA — это баланс между комфортом и красотой, женственные силуэты в сочетании с авторскими элементами дизайна.`,
-    description2: `Одежда KIARA это изысканность минимализма, простота линий в сочетании с привлекательностью модных тенденций. Особенность коллекций KIARA в том, что изделия можно надеть, как на выход, так и в повседневной жизни, это всегда будет выглядеть уместно, стильно и изысканно. Классный аутфит откроет любые двери в деловой и личной жизни. Приносит хорошее настроение, уверенность в себе. Эффектные наряды акцентируют внимание на достоинствах фигуры. Коллекции привлекают оригинальностью, необычными фасонами.`,
-    description3: `Только премиальные материалы и благородные фактуры. Разнообразие трендовых оттенков, модные силуэты, капсульное решение коллекции, сочетание комфорта и простоты, но с опрятностью и элегантностью.`,
-    floor: '2 этаж',
-    tel: '+7 982 782 22 30',
-    telUrl: '89827822230',
-    instagram: '',
-  },
-  {
-    id: id++,
-    category: 'womenClothing',
     url: 'MAXCo',
     logo: '/butiks/womenClothing/MAXCo/logo.png',
     image: [
@@ -1855,80 +1738,6 @@ export const butiks = [
     floor: '3 этаж',
     tel: '+7 918 940 70 70',
     telUrl: '89189407070',
-    instagram: '',
-  },
-  {
-    id: id++,
-    category: 'kafeAndRestoran',
-    url: 'MiuCity',
-    logo: '/butiks/kafe/MiuCity/logo1.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/kafe/MiuCity/1.jpg',
-        alt: 'MiuCity',
-      },
-      {
-        id: 2,
-        src: '/butiks/kafe/MiuCity/2.jpg',
-        alt: 'MiuCity',
-      },
-      {
-        id: 3,
-        src: '/butiks/kafe/MiuCity/3.jpg',
-        alt: 'MiuCity',
-      },
-      {
-        id: 4,
-        src: '/butiks/kafe/MiuCity/4.jpg',
-        alt: 'MiuCity',
-      },
-      {
-        id: 5,
-        src: '/butiks/kafe/MiuCity/5.jpg',
-        alt: 'MiuCity',
-      },
-      {
-        id: 6,
-        src: '/butiks/kafe/MiuCity/6.jpg',
-        alt: 'MiuCity',
-      },
-      {
-        id: 7,
-        src: '/butiks/kafe/MiuCity/7.jpg',
-        alt: 'MiuCity',
-      },
-    ],
-    description1: 'MIU CITY - место для тех, кому важно проявляться',
-    description2:
-      'Напитки и гастрономия в яркой упаковке - как продолжение тебя, твоего стиля и твоих желаний. В меню – specialty кофе, в сочетании с сырами, культовые сэндвичи и вино. Гастролавка со всего мира - испанский хамон, салями, альпийские сыры и конечно игристое вино.',
-    description3: 'MIU CITY - деталь, которая может сказать о тебе больше.',
-    floor: '1 этаж',
-    tel: '+7 918 120 00 13',
-    telUrl: '89181200013',
-    instagram: '',
-  },
-  {
-    id: 'vipavenue',
-    category: 'womenClothing',
-    url: 'vipavenue',
-    logo: '/butiks/womenClothing/VIPAVENUE/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/womenClothing/VIPAVENUE/logo.png',
-        alt: 'VIPAVENUE',
-      },
-    ],
-    description1:
-      'VIPAVENUE – Ваш модный проводник в мир премиальных брендов и высококлассного сервиса. Интернет-бутик является частью фэшн-ритейлера AVENUEVIP, в котором представлены более 750 ведущих мировых и российских брендов. Уже более четырех лет мы работаем, как маркетплейс с самыми проверенными и надежными партнерами на российском рынке, для того, чтобы радовать Вас новым ассортиментом.',
-    description2:
-      'Нашими главными преимуществами являются - персонализированный подход к каждому клиенту, удобство покупок на сайте и в мобильном приложении, возможность примерки перед покупкой, лучшие предложения и акции, еженедельное обновление ассортимента и услуга онлайн-стилиста, который подберет Вам образ для любого случая.',
-    description3:
-      'Познакомиться поближе с нашими бутиками Вы можете на официальном сайте сети AVENUE VIP www.avenuevip.ru',
-    floor: '2 этаж',
-    tel: '+7 861 21 87 810',
-    telUrl: '88612187810',
     instagram: '',
   },
   {
@@ -2420,6 +2229,197 @@ export const butiks = [
   //   tel: '',
   //   telUrl: '',
   //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'kafeAndRestoran',
+  //   url: 'MiuCity',
+  //   logo: '/butiks/kafe/MiuCity/logo1.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/kafe/MiuCity/1.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/kafe/MiuCity/2.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/kafe/MiuCity/3.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/kafe/MiuCity/4.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //     {
+  //       id: 5,
+  //       src: '/butiks/kafe/MiuCity/5.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/kafe/MiuCity/6.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/kafe/MiuCity/7.jpg',
+  //       alt: 'MiuCity',
+  //     },
+  //   ],
+  //   description1: 'MIU CITY - место для тех, кому важно проявляться',
+  //   description2:
+  //     'Напитки и гастрономия в яркой упаковке - как продолжение тебя, твоего стиля и твоих желаний. В меню – specialty кофе, в сочетании с сырами, культовые сэндвичи и вино. Гастролавка со всего мира - испанский хамон, салями, альпийские сыры и конечно игристое вино.',
+  //   description3: 'MIU CITY - деталь, которая может сказать о тебе больше.',
+  //   floor: '1 этаж',
+  //   tel: '+7 918 120 00 13',
+  //   telUrl: '89181200013',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'clocks',
+  //   url: 'FreyWille',
+  //   logo: '/butiks/clocks/FreyWille/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/clocks/FreyWille/1n.jpg',
+  //       alt: 'Freywille',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/clocks/FreyWille/2n.jpg',
+  //       alt: 'Freywille',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/clocks/FreyWille/3n.jpg',
+  //       alt: 'Freywille',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/clocks/FreyWille/4n.jpg',
+  //       alt: 'Freywille',
+  //     },
+  //   ],
+  //   description1:
+  //     'Австрийский ювелирный дом FREYWILLE создает высокохудожественные изделия из драгоценной эмали ручной работы. Лимитированные объемы производства – гарантия высочайших стандартов качества всех изделий. Художественный дизайн – главная деталь любого ювелирного изделия FREYWILLE.',
+  //   description2:
+  //     'В бутике вы можете приобрести: серьги, кулоны, браслеты, кольца, часы, броши, клатчи, шелковые шарфы, галстуки, запонки, зажимы для галстука и письменные принадлежности.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 213 48 58',
+  //   telUrl: '88612134858',
+  //   instagram: 'freywille_ru',
+  // },
+  // {
+  //   id: 'vipavenue',
+  //   category: 'womenClothing',
+  //   url: 'vipavenue',
+  //   logo: '/butiks/womenClothing/VIPAVENUE/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/VIPAVENUE/logo.png',
+  //       alt: 'VIPAVENUE',
+  //     },
+  //   ],
+  //   description1:
+  //     'VIPAVENUE – Ваш модный проводник в мир премиальных брендов и высококлассного сервиса. Интернет-бутик является частью фэшн-ритейлера AVENUEVIP, в котором представлены более 750 ведущих мировых и российских брендов. Уже более четырех лет мы работаем, как маркетплейс с самыми проверенными и надежными партнерами на российском рынке, для того, чтобы радовать Вас новым ассортиментом.',
+  //   description2:
+  //     'Нашими главными преимуществами являются - персонализированный подход к каждому клиенту, удобство покупок на сайте и в мобильном приложении, возможность примерки перед покупкой, лучшие предложения и акции, еженедельное обновление ассортимента и услуга онлайн-стилиста, который подберет Вам образ для любого случая.',
+  //   description3:
+  //     'Познакомиться поближе с нашими бутиками Вы можете на официальном сайте сети AVENUE VIP www.avenuevip.ru',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 21 87 810',
+  //   telUrl: '88612187810',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'womenClothing',
+  //   url: 'Kiara',
+  //   logo: '/butiks/womenClothing/Kiara/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/womenClothing/Kiara/1.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/womenClothing/Kiara/2.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/womenClothing/Kiara/3.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/womenClothing/Kiara/4.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //     {
+  //       id: 6,
+  //       src: '/butiks/womenClothing/Kiara/6.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //     {
+  //       id: 7,
+  //       src: '/butiks/womenClothing/Kiara/7.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //     {
+  //       id: 8,
+  //       src: '/butiks/womenClothing/Kiara/8.jpg',
+  //       alt: 'Kiara',
+  //     },
+  //   ],
+  //   description1: `KIARA — это баланс между комфортом и красотой, женственные силуэты в сочетании с авторскими элементами дизайна.`,
+  //   description2: `Одежда KIARA это изысканность минимализма, простота линий в сочетании с привлекательностью модных тенденций. Особенность коллекций KIARA в том, что изделия можно надеть, как на выход, так и в повседневной жизни, это всегда будет выглядеть уместно, стильно и изысканно. Классный аутфит откроет любые двери в деловой и личной жизни. Приносит хорошее настроение, уверенность в себе. Эффектные наряды акцентируют внимание на достоинствах фигуры. Коллекции привлекают оригинальностью, необычными фасонами.`,
+  //   description3: `Только премиальные материалы и благородные фактуры. Разнообразие трендовых оттенков, модные силуэты, капсульное решение коллекции, сочетание комфорта и простоты, но с опрятностью и элегантностью.`,
+  //   floor: '2 этаж',
+  //   tel: '+7 982 782 22 30',
+  //   telUrl: '89827822230',
+  //   instagram: '',
+  // },
+  // {
+  //   id: id++,
+  //   category: 'shoesAndBags',
+  //   url: 'Fabi',
+  //   logo: '/butiks/shoesAndBags/Fabi/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/shoesAndBags/Fabi/1n.jpg',
+  //       alt: 'Fabi',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/shoesAndBags/Fabi/2n.jpg',
+  //       alt: 'Fabi',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/shoesAndBags/Fabi/3n.jpg',
+  //       alt: 'Fabi',
+  //     },
+  //   ],
+  //   description1:
+  //     'Европейский бренд обуви Fabi – один из тех, чью новую коллекцию ждут с замиранием сердца.',
+  //   description2:
+  //     'Вся обувь Fabi проходит строгий контроль качества, поэтому обувь этой марки – не только роскошь, но и надежность. Продукция в бутике представлена в двух линейках: Fabi Couture, эксклюзивная обувь из которой сделана из экзотической кожи и богато декорирована, и Fabi Collection – на каждый день.',
+  //   floor: '2 этаж',
+  //   tel: '+7 861 231 47 86',
+  //   telUrl: '88612314786',
+  //   instagram: 'fabi_krd',
   // },
   // {
   //   id: id++,
