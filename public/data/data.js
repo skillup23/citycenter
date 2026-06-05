@@ -909,7 +909,7 @@ const logosData = [
   {
     id: 2,
     name: 'GMT',
-    url: '/butiks/clocks/17',
+    url: '/butiks/clocks/16',
     image: '/butiks/clocks/GMT/logo.png',
     alt: 'GMT Logo',
   },
@@ -923,7 +923,7 @@ const logosData = [
   {
     id: 4,
     name: 'Галерея времени',
-    url: '/butiks/clocks/16',
+    url: '/butiks/clocks/15',
     image: '/butiks/clocks/TimeGalery/logo.png',
     alt: 'TimeGalery Logo',
   },
@@ -937,7 +937,7 @@ const logosData = [
   {
     id: 6,
     name: 'ConceptStore',
-    url: '/butiks/women_clothing/37',
+    url: '/butiks/women_clothing/35',
     image: '/butiks/womenClothing/ConceptStore/logo1.png',
     alt: 'ConceptStore Logo',
   },
@@ -951,7 +951,7 @@ const logosData = [
   {
     id: 8,
     name: 'DonBazilio',
-    url: '/butiks/kafe/42',
+    url: '/butiks/kafe/40',
     image: '/butiks/kafe/DonBazilio/logo.png',
     alt: 'DonBazilio Logo',
   },
