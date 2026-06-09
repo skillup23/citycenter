@@ -1,20 +1,20 @@
-import Layout from "@/components/Layout";
-import Popup from "@/components/Popup";
-import noimg from "@/public/butiks/loaderImg.png";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+import Layout from '@/components/Layout';
+import Popup from '@/components/Popup';
+import noimg from '@/public/butiks/loaderImg.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 // import { BsFilePdf } from 'react-icons/bs';
-import { FaPhoneAlt } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from 'react-icons/fa';
+import { HiLocationMarker } from 'react-icons/hi';
+import { MdEmail } from 'react-icons/md';
 
 function Rent() {
   const [isOpen, setOpen] = useState(false);
   const [isModal, setIsModal] = useState({
     id: 1,
     src: noimg,
-    alt: "Описание",
+    alt: 'Описание',
   });
 
   function test(id, src, alt) {
@@ -25,18 +25,18 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: "/rent_img/1-9-floor.jpg",
-      alt: "1 этаж",
+      src: '/rent_img/1-11-floor.jpg',
+      alt: '1 этаж',
     },
     {
       id: 2,
-      src: "/rent_img/2-10-floor.jpg",
-      alt: "2 этаж",
+      src: '/rent_img/2-11-floor.jpg',
+      alt: '2 этаж',
     },
     {
       id: 3,
-      src: "/rent_img/3-10-floor.jpg",
-      alt: "3 этаж",
+      src: '/rent_img/3-11-floor.jpg',
+      alt: '3 этаж',
     },
   ];
 
