@@ -96,7 +96,7 @@ const sliderTop = [
 const sliderTopMob = [
   {
     id: 1,
-    src: "/slide_main/m_21_m.webp",
+    src: "/slide_main/m_23_m.webp",
     alt: "Лекция Андрея Ступаченко",
   },
 ];
