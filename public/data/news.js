@@ -47,7 +47,7 @@ import news130 from '@/public/news/130.jpg';
 import news131 from '@/public/news/131.jpg';
 import news132 from '@/public/news/132.jpg';
 import news133 from '@/public/news/133.jpg';
-import news134 from '@/public/news/133.jpg';
+import news134 from '@/public/news/134.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
