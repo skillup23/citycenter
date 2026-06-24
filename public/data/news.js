@@ -50,9 +50,21 @@ import news133 from '@/public/news/133.jpg';
 import news134 from '@/public/news/134.jpg';
 import news135 from '@/public/news/135.jpg';
 import news136 from '@/public/news/136.jpg';
+import news137 from '@/public/news/137.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news137,
+    text: [
+      '🤩🤩🤩 в «Эстель Адони»',
+      'До 30 июня действует специальное предложение: при покупке комплекта белья или двух бюстгальтеров французского бренда Simone Pérèle вы получаете скидку 20% ❤️',
+      'Simone Pérèle — это воплощение французской элегантности, безупречной посадки и комфорта. Бельё, которое подчёркивает естественную красоту, дарит уверенность и ощущается на теле практически невесомо.',
+      'Порадуйте себя новинками любимого бренда и добавьте в лето ещё больше красоты и комфорта ☀️',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news136,
@@ -65,7 +77,7 @@ const arrayNews = [
     ],
     url: 'https://kinomonitor.ru',
     urltext: '🎟 Билеты уже в продаже на kinomonitor.ru',
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -78,7 +90,7 @@ const arrayNews = [
       'Создайте пространство, где каждая деталь наполнена гармонией, красотой и ощущением спокойствия.',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -94,7 +106,7 @@ const arrayNews = [
     ],
     url: 'https://kinomonitor.ru',
     urltext: '🎟 Билеты уже в продаже на kinomonitor.ru',
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -107,7 +119,6 @@ const arrayNews = [
       'Скидки действуют до 25 июня',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
