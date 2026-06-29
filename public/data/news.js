@@ -51,9 +51,21 @@ import news134 from '@/public/news/134.jpg';
 import news135 from '@/public/news/135.jpg';
 import news136 from '@/public/news/136.jpg';
 import news137 from '@/public/news/137.jpg';
+import news138 from '@/public/news/138.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news138,
+    text: [
+      'Marc Cain весна‑лето 2026',
+      'В бутике уже можно примерить новинки! Особое внимание стоит обратить на линию Summer Flash.',
+      'Лёгкие ткани, расслабленные, но продуманные силуэты — вещи легко собрать и в городской образ, и в отпуск.',
+      'Коллекция делает ставку на современную женственность, комфорт и внимание к деталям 🤍',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news137,
@@ -63,7 +75,7 @@ const arrayNews = [
       'Simone Pérèle — это воплощение французской элегантности, безупречной посадки и комфорта. Бельё, которое подчёркивает естественную красоту, дарит уверенность и ощущается на теле практически невесомо.',
       'Порадуйте себя новинками любимого бренда и добавьте в лето ещё больше красоты и комфорта ☀️',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -77,7 +89,7 @@ const arrayNews = [
     ],
     url: 'https://kinomonitor.ru',
     urltext: '🎟 Билеты уже в продаже на kinomonitor.ru',
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -90,7 +102,7 @@ const arrayNews = [
       'Создайте пространство, где каждая деталь наполнена гармонией, красотой и ощущением спокойствия.',
       '📍 2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -106,7 +118,6 @@ const arrayNews = [
     ],
     url: 'https://kinomonitor.ru',
     urltext: '🎟 Билеты уже в продаже на kinomonitor.ru',
-    link: '/news#new4',
   },
   {
     id: id++,
