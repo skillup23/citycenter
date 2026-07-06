@@ -1843,7 +1843,51 @@ export const butiks = [
     telUrl: '88612040149',
     instagram: 'https://web.telegram.org/k/#@togasofficial',
   },
-
+  {
+    id: id++,
+    category: 'kafeAndRestoran',
+    url: 'CityCafe',
+    logo: '/butiks/kafe/CityCafe/logo.png',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/kafe/CityCafe/1.jpg',
+        alt: 'CityCafe',
+      },
+      {
+        id: 2,
+        src: '/butiks/kafe/CityCafe/2.jpg',
+        alt: 'CityCafe',
+      },
+      {
+        id: 3,
+        src: '/butiks/kafe/CityCafe/3.jpg',
+        alt: 'CityCafe',
+      },
+      {
+        id: 4,
+        src: '/butiks/kafe/CityCafe/4.jpg',
+        alt: 'CityCafe',
+      },
+      {
+        id: 5,
+        src: '/butiks/kafe/CityCafe/5.jpg',
+        alt: 'CityCafe',
+      },
+      {
+        id: 6,
+        src: '/butiks/kafe/CityCafe/6.jpg',
+        alt: 'CityCafe',
+      },
+    ],
+    description1: `Новое уютное пространство, где можно сделать паузу в насыщенном дне, встретиться с друзьями, насладиться ароматным кофе, вкусными блюдами и приятной атмосферой.`,
+    description2: `«Сити Кафе» — место, где каждый визит становится поводом немного замедлиться, отдохнуть и провести время с удовольствием.`,
+    description3: `Приходите знакомиться с новым гастрономическим пространством и открывать для себя любимые вкусы ☕️`,
+    floor: '1 этаж',
+    tel: '+7 (861) 213 47 00',
+    telUrl: '88612134700',
+    instagram: '',
+  },
   //Удаленные
   // {
   //   id: id++,
