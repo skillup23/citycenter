@@ -1764,29 +1764,6 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'services',
-    url: 'ChistoBlisto',
-    logo: '/services/ChistoBlisto/logo.jpg',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/loaderImgSmall.png',
-        alt: 'ChistoBlisto',
-      },
-    ],
-    description1:
-      'Компания Chisto Blisto специализируется на профессиональной реставрации и ремонте кожаных изделий.',
-    description2:
-      'Мы используем качественные материалы, современные технологии и аккуратный ручной труд. Наши мастера бережно восстанавливают обувь, сумки и аксессуары, возвращая им внешний вид и продлевая срок службы.',
-    description3:
-      'Мы ценим доверие клиентов и стремимся к результату, который действительно радует.',
-    floor: '2 этаж',
-    tel: '+7 918 191-68-93',
-    telUrl: '89181916893',
-    instagram: 'https://t.me/chistoblisto_masterskaya',
-  },
-  {
-    id: id++,
     category: 'interior',
     url: 'Togas',
     logo: '/butiks/interior/Togas/logo.png',
@@ -1888,6 +1865,29 @@ export const butiks = [
     telUrl: '88612134700',
     instagram: '',
   },
+  // {
+  //   id: id++,
+  //   category: 'services',
+  //   url: 'ChistoBlisto',
+  //   logo: '/services/ChistoBlisto/logo.jpg',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/loaderImgSmall.png',
+  //       alt: 'ChistoBlisto',
+  //     },
+  //   ],
+  //   description1:
+  //     'Компания Chisto Blisto специализируется на профессиональной реставрации и ремонте кожаных изделий.',
+  //   description2:
+  //     'Мы используем качественные материалы, современные технологии и аккуратный ручной труд. Наши мастера бережно восстанавливают обувь, сумки и аксессуары, возвращая им внешний вид и продлевая срок службы.',
+  //   description3:
+  //     'Мы ценим доверие клиентов и стремимся к результату, который действительно радует.',
+  //   floor: '2 этаж',
+  //   tel: '+7 918 191-68-93',
+  //   telUrl: '89181916893',
+  //   instagram: 'https://t.me/chistoblisto_masterskaya',
+  // },
   //Удаленные
   // {
   //   id: id++,

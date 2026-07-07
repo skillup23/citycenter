@@ -22,6 +22,20 @@ const nextConfig = {
       },
     ],
   },
+  async headers() {
+    return [
+      {
+        // Находит любой файл, заканчивающийся на .pdf в любой папке
+        source: '/:path*(.pdf)',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow',
+          },
+        ],
+      },
+    ];
+  },
   // eslint: {
   //   // Warning: This allows production builds to successfully complete even if
   //   // your project has ESLint errors.
