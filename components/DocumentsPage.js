@@ -93,9 +93,9 @@ function DocumentsPage() {
         } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
-          href={'/docs/Политика перс данных.pdf'}
+          href={'/docs/Политика перс данных 2026.pdf'}
           title={`Политика обработки персональных данных в\u00A0ТРК\u00A0«Сити\u00A0Центр»`}
-          date={'Версия от 25.08.2025'}
+          date={'Версия от 09.07.2026'}
         />
         <DocumentPdf
           href={'/docs/Согласие на обработку перс данных стимулирующих.pdf'}
