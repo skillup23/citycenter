@@ -155,7 +155,7 @@ const CookiePolicy = () => {
                   вы можете связаться с нами:
                 </p>
                 <p className="text-sm text-gray-600">
-                  По электронной почте: privacy@ваш-сайт.ru
+                  По электронной почте: kirichenko_s@alpha-am.ru
                 </p>
               </section>
 
