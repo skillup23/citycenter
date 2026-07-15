@@ -23,6 +23,10 @@ function Layout({ children, title, description, isHome = false }) {
             description ? description : 'Официальный сайт ТРК "СИТИ ЦЕНТР"'
           }
         />
+        <meta
+          name="google-site-verification"
+          content="rJfuiDMY0KWs_9srXAMNQrAU5qtgCU9xsvZrJOpYaeQ"
+        />
         <meta name="yandex-verification" content="e9baee5e56dc6985" />
         <link rel="icon" href="/favicon-12.ico" />
 
