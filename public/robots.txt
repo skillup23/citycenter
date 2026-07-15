@@ -1,4 +1,1 @@
 User-agent: *
-Disallow: /rent_img/prezentRent.pdf
-Disallow: /marketing_img/KatalogMarketing.pdf
-Disallow: /marketing_img/KatalogMarketingOld.pdf
