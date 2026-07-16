@@ -27,22 +27,42 @@ function Marketing() {
     {
       id: 1,
       src: '/marketing_img/1-2.jpg',
-      alt: 'Изображение 1',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
     },
     {
       id: 2,
       src: '/marketing_img/3-2.jpg',
-      alt: 'Изображение 2',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
     },
     {
       id: 3,
       src: '/marketing_img/4-2.jpg',
-      alt: 'Изображение 3',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
     },
     {
       id: 4,
       src: '/marketing_img/5-2.jpg',
-      alt: 'Изображение 4',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
+    },
+    {
+      id: 5,
+      src: '/marketing_img/6-1.jpg',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
+    },
+    {
+      id: 6,
+      src: '/marketing_img/7-1.jpg',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
+    },
+    {
+      id: 7,
+      src: '/marketing_img/8-1.jpg',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
+    },
+    {
+      id: 8,
+      src: '/marketing_img/9-1.jpg',
+      alt: 'Рекламные поверхности ТРК «СИТИ ЦЕНТР»',
     },
   ];
 
@@ -64,7 +84,7 @@ function Marketing() {
           <div className="grid sm:gap-4 grid-cols-1 sm:grid-cols-3 mt-8">
             <VideoMain videoLink={'/marketing_img/video1.mp4'} />
             <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 px-0 col-span-2 mt-4 sm:mt-0 content-between">
-              {foto.map(({ id, src, alt }) => (
+              {foto.slice(0, 4).map(({ id, src, alt }) => (
                 <li
                   onClick={() => test(id, src, alt)}
                   key={id}
@@ -73,8 +93,8 @@ function Marketing() {
                   <Image
                     src={src}
                     alt={alt}
-                    width={500}
-                    height={200}
+                    width={600}
+                    height={300}
                     sizes="100%"
                     className="object-cover ease-in duration-200 hover:scale-105 m-auto"
                     priority
@@ -82,6 +102,25 @@ function Marketing() {
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 mt-4">
+            {foto.slice(4, 8).map(({ id, src, alt }) => (
+              <li
+                onClick={() => test(id, src, alt)}
+                key={id}
+                className="h-full w-full relative overflow-hidden cursor-pointer"
+              >
+                <Image
+                  src={src}
+                  alt={alt}
+                  width={800}
+                  height={400}
+                  sizes="100%"
+                  className="object-cover ease-in duration-200 hover:scale-105 m-auto"
+                  priority
+                />
+              </li>
+            ))}
           </div>
 
           {/* <Link
