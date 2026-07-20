@@ -25,14 +25,16 @@ const nextConfig = {
   async headers() {
     return [
       {
-        // Находит любой файл, заканчивающийся на .pdf в любой папке
-        source: '/:path*(.pdf)',
-        headers: [
-          {
-            key: 'X-Robots-Tag',
-            value: 'noindex, nofollow',
-          },
-        ],
+        source: '/rent_img/prezentRent.pdf',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+      {
+        source: '/marketing_img/KatalogMarketing.pdf',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+      {
+        source: '/marketing_img/KatalogMarketingOld.pdf',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
       },
     ];
   },
