@@ -25,17 +25,17 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-11-floor.jpg',
+      src: '/rent_img/1-12-floor.jpg',
       alt: '1 этаж',
     },
     {
       id: 2,
-      src: '/rent_img/2-11-floor.jpg',
+      src: '/rent_img/2-12-floor.jpg',
       alt: '2 этаж',
     },
     {
       id: 3,
-      src: '/rent_img/3-11-floor.jpg',
+      src: '/rent_img/3-12-floor.jpg',
       alt: '3 этаж',
     },
   ];
