@@ -139,7 +139,7 @@ function Rent() {
                 ОТДЕЛ АРЕНДНЫХ <br></br>ОТНОШЕНИЙ
               </h4>
               <ul>
-                <li className="flex flex-row w-fill items-center mt-1">
+                {/* <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <Link
                     href="tel:88612134844"
@@ -147,23 +147,23 @@ function Rent() {
                   >
                     +7 (861) 213 48 44
                   </Link>
-                </li>
+                </li> */}
                 <li className="flex flex-row w-fill items-center mt-1">
                   <FaPhoneAlt className="text-xl mr-5" />
                   <Link
-                    href="tel:89183500771"
+                    href="tel:89951691945"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    +7 (918) 350 07 71
+                    +7 (995) 169 19 45
                   </Link>
                 </li>
                 <li className="flex flex-row w-fill items-center mt-1">
                   <MdEmail className="text-xl mr-5" />
                   <Link
-                    href="mailto:INFO@CITYCENTER.RU"
+                    href="mailto:arenda@alpha-am.ru"
                     className="text-lg md:text-xl lg:text-2xl"
                   >
-                    INFO@CITYCENTER.RU
+                    arenda@alpha-am.ru
                   </Link>
                 </li>
               </ul>
