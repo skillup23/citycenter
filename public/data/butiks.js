@@ -444,40 +444,6 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'underwear womenClothing',
-    url: 'Laperila',
-    logo: '/butiks/underwear/Laperila/logo.png',
-    image: [
-      {
-        id: 1,
-        src: '/butiks/underwear/Laperila/1n.jpg',
-        alt: 'Laperila',
-      },
-      {
-        id: 2,
-        src: '/butiks/underwear/Laperila/2n.jpg',
-        alt: 'Laperila',
-      },
-      {
-        id: 3,
-        src: '/butiks/underwear/Laperila/3n.jpg',
-        alt: 'Laperila',
-      },
-      {
-        id: 4,
-        src: '/butiks/underwear/Laperila/4n.jpg',
-        alt: 'Laperila',
-      },
-    ],
-    description1:
-      'La Perla – знаменитый итальянский бренд, выпускающий нижнее белье и купальные костюмы, женскую одежду и коллекции мужского белья. И уже не секрет, что каждая представительница прекрасного пола желает хотя бы в жизни раз стать обладательницей предмета коллекции La Perla.',
-    floor: '2 этаж',
-    tel: '+7 918 079 80 80',
-    telUrl: '89180798080',
-    instagram: 'lingerie_krd',
-  },
-  {
-    id: id++,
     category: 'underwear',
     url: 'EstelAdony',
     logo: '/butiks/underwear/EstelAdony/logo.png',
@@ -1865,6 +1831,40 @@ export const butiks = [
     telUrl: '88612134700',
     instagram: '',
   },
+  // {
+  //   id: id++,
+  //   category: 'underwear womenClothing',
+  //   url: 'Laperila',
+  //   logo: '/butiks/underwear/Laperila/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/underwear/Laperila/1n.jpg',
+  //       alt: 'Laperila',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/butiks/underwear/Laperila/2n.jpg',
+  //       alt: 'Laperila',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/butiks/underwear/Laperila/3n.jpg',
+  //       alt: 'Laperila',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/butiks/underwear/Laperila/4n.jpg',
+  //       alt: 'Laperila',
+  //     },
+  //   ],
+  //   description1:
+  //     'La Perla – знаменитый итальянский бренд, выпускающий нижнее белье и купальные костюмы, женскую одежду и коллекции мужского белья. И уже не секрет, что каждая представительница прекрасного пола желает хотя бы в жизни раз стать обладательницей предмета коллекции La Perla.',
+  //   floor: '2 этаж',
+  //   tel: '+7 918 079 80 80',
+  //   telUrl: '89180798080',
+  //   instagram: 'lingerie_krd',
+  // },
   // {
   //   id: id++,
   //   category: 'services',
