@@ -976,6 +976,8 @@ const logosData = [
   },
 ];
 
+const politicaPDF = '/docs/Политика перс данных 2026.pdf';
+
 export {
   birthday,
   birthday2025,
@@ -999,4 +1001,5 @@ export {
   starsInCity,
   stilistShowRoom,
   armenianCulture,
+  politicaPDF,
 };

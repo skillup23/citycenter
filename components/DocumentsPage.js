@@ -1,4 +1,5 @@
 import DocumentPdf from '@/components/DocumentPdf';
+import { politicaPDF } from '@/public/data/data';
 import { useState } from 'react';
 
 function DocumentsPage() {
@@ -93,7 +94,7 @@ function DocumentsPage() {
         } mt-6 md:mt-14 flex flex-col gap-4 md:gap-8`}
       >
         <DocumentPdf
-          href={'/docs/Политика перс данных 2026.pdf'}
+          href={politicaPDF}
           title={`Политика обработки персональных данных в\u00A0ТРК\u00A0«Сити\u00A0Центр»`}
           date={'Версия от 09.07.2026'}
         />

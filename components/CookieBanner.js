@@ -1,8 +1,11 @@
+import { politicaPDF } from '@/public/data/data';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     // БЛОКИРУЕМ Яндекс.Метрику ДО согласия
@@ -21,18 +24,25 @@ const CookieBanner = () => {
       .find((row) => row.startsWith('cookie_consent='))
       ?.split('=')[1];
 
-    if (!cookieValue) {
-      // Показываем баннер СРАЗУ (по закону - до загрузки аналитики)
-      setShowBanner(true);
-    } else if (cookieValue === 'accepted') {
-      // Если согласие уже дано - запускаем Метрику
+    if (cookieValue === 'accepted') {
+      // Если согласие уже дано — инициализируем метрику (работает на всех страницах)
       initializeYandexMetrika();
+    } else if (!cookieValue && pathname !== '/cookie-policy') {
+      // Показываем баннер ТОЛЬКО если согласия нет И мы НЕ на странице политики cookie
+      setShowBanner(true);
+    } else {
+      // Если мы на странице /cookie-policy без согласия — скрываем баннер,
+      // но Метрика остается неактивной (работает stub-заглушка)
+      setShowBanner(false);
     }
-  }, []);
+  }, [pathname]); // Перезапускаем проверку при смене страницы
 
   // Инициализация Яндекс.Метрики после согласия
   const initializeYandexMetrika = () => {
     if (typeof window === 'undefined') return;
+
+    // Предотвращаем повторную загрузку скрипта, если он уже есть
+    if (document.querySelector('script[src*="metrika/tag.js"]')) return;
 
     // Загружаем скрипт Яндекс.Метрики
     const script = document.createElement('script');
@@ -51,17 +61,17 @@ const CookieBanner = () => {
     document.head.appendChild(script);
   };
 
-  // Установка куки на 30 дней
+  // Установка куки на 365 дней
   const setCookie = (value) => {
     const date = new Date();
-    date.setTime(date.getTime() + 30 * 24 * 60 * 60 * 1000);
+    date.setTime(date.getTime() + 365 * 24 * 60 * 60 * 1000);
     const expires = 'expires=' + date.toUTCString();
     document.cookie = `cookie_consent=${value};${expires};path=/;SameSite=Lax`;
 
     // Обязательное уведомление о выборе
     if (value === 'accepted') {
       console.log(
-        'Пользователь согласился на обработку данных Яндекс.Метрикой'
+        'Пользователь согласился на обработку данных Яндекс.Метрикой',
       );
       initializeYandexMetrika();
     } else {
@@ -126,13 +136,20 @@ const CookieBanner = () => {
           </button>
         </div>
 
-        <div className="mt-4 text-center">
+        <div className="mt-4 text-center flex flex-col">
           <Link
             href="/cookie-policy"
             className="text-sm text-black underline"
             target="_blank"
           >
             Политика использования файлов cookie
+          </Link>
+          <Link
+            href={politicaPDF}
+            className="mt-2 text-sm text-black underline"
+            target="_blank"
+          >
+            Политика обработки персональных данных
           </Link>
         </div>
       </div>
