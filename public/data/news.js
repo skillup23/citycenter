@@ -70,12 +70,13 @@ import news150_3 from '@/public/news/150-3.jpg';
 import news150 from '@/public/news/150.jpg';
 import news151 from '@/public/news/151.jpg';
 import news152 from '@/public/news/152.jpg';
+import news153 from '@/public/news/153.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
   {
     id: id++,
-    img1: news152,
+    img1: news153,
     text: [
       'Летняя коллекция одежды Togas 🌊',
       'Милос — там, где вечность встречается с эстетикой. В свой юбилейный год Togas представляет летнюю кампанию, в которой гармонично сочетаются бесценное природное искусство Греции и утонченные образы для идеального летнего отдыха.',
