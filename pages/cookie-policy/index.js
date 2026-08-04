@@ -155,15 +155,16 @@ const CookiePolicy = () => {
                   вы можете связаться с нами:
                 </p>
                 <p className="text-sm text-gray-600">
-                  По электронной почте: kirichenko_s@alpha-am.ru
+                  По электронной почте: ciso@alpha-am.ru
                 </p>
               </section>
 
               <div className="pt-4 border-t border-gray-200">
                 <p className="text-sm text-gray-600">
-                  Последнее обновление: {new Date().toLocaleDateString('ru-RU')}
+                  {/* Последнее обновление: {new Date().toLocaleDateString('ru-RU')} */}
+                  Последнее обновление: 14.07.2026
                 </p>
-                <p className="text-xs text-gray-500 mt-2">
+                <p className="text-sm text-gray-500 mt-2">
                   Эта политика может периодически обновляться. Рекомендуем
                   проверять эту страницу для получения актуальной информации.
                 </p>
