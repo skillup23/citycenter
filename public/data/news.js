@@ -71,9 +71,21 @@ import news150 from '@/public/news/150.jpg';
 import news151 from '@/public/news/151.jpg';
 import news152 from '@/public/news/152.jpg';
 import news153 from '@/public/news/153.jpg';
+import news154 from '@/public/news/154.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news154,
+    text: [
+      'Weekend Max Mara — первое поступление коллекции Осень‑Зима 26/27 🍂',
+      'Приглашаем за обновлением гардероба: безупречный итальянский стиль и вдохновение, которое можно носить уже сейчас. Образы, которые легко впишутся в ваш повседневный и деловой гардероб!',
+      'Заходите примерить и подобрать свой новый образ 🤍',
+      '📍2 этаж, ТРК «СИТИ ЦЕНТР»',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news153,
@@ -85,7 +97,7 @@ const arrayNews = [
       'Летняя коллекция Togas — это источник вдохновения, в котором сочетаются греческое наследие и элегантность, рожденная временем 🤍',
       '📍2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -97,7 +109,7 @@ const arrayNews = [
       'Стоимость участия — 2000₽ + любой напиток в кофейне',
       'Запись по телефону: +7‑989‑003‑02‑01',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -111,7 +123,7 @@ const arrayNews = [
     ],
     url: 'https://kinomonitor.ru',
     urltext: '🎟 Билеты уже в продаже на kinomonitor.ru',
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -126,7 +138,6 @@ const arrayNews = [
       'Акция действует до 31 августа',
       '📍3 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
