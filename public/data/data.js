@@ -204,39 +204,39 @@ const stilistShowRoom = [
       },
     ],
   },
-  {
-    id: 2,
-    foto: '/showroom_img/s2.png',
-    title: 'ГАЛИНА ДЕБРОВА',
-    subtitle: 'МУЖСКОЙ СТИЛИСТ',
-    text: [
-      'Аудитория: мужчины 38+',
-      'Шопинг занимает 2-3 часа',
-      // 'Стоимость: 30.000₽ ( для нас 15.000-20.000₽ )',
-    ],
-    image: [
-      {
-        id: 1,
-        src: '/showroom_img/s2-1.jpg',
-        alt: 'пример 1',
-      },
-      {
-        id: 2,
-        src: '/showroom_img/s2-2.jpg',
-        alt: 'пример 2',
-      },
-      {
-        id: 3,
-        src: '/showroom_img/s2-3.jpg',
-        alt: 'пример 3',
-      },
-      {
-        id: 4,
-        src: '/showroom_img/s2-4.jpg',
-        alt: 'пример 4',
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   foto: '/showroom_img/s2.png',
+  //   title: 'ГАЛИНА ДЕБРОВА',
+  //   subtitle: 'МУЖСКОЙ СТИЛИСТ',
+  //   text: [
+  //     'Аудитория: мужчины 38+',
+  //     'Шопинг занимает 2-3 часа',
+  //     // 'Стоимость: 30.000₽ ( для нас 15.000-20.000₽ )',
+  //   ],
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/showroom_img/s2-1.jpg',
+  //       alt: 'пример 1',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/showroom_img/s2-2.jpg',
+  //       alt: 'пример 2',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/showroom_img/s2-3.jpg',
+  //       alt: 'пример 3',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/showroom_img/s2-4.jpg',
+  //       alt: 'пример 4',
+  //     },
+  //   ],
+  // },
   {
     id: 3,
     foto: '/showroom_img/s3.png',

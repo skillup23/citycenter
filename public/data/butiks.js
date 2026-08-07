@@ -1165,7 +1165,7 @@ export const butiks = [
   },
   {
     id: id++,
-    category: 'womenClothing manClothing',
+    category: 'manClothing',
     url: 'ConceptStore',
     logo: '/butiks/womenClothing/ConceptStore/logo2.png',
     image: [
@@ -1190,8 +1190,8 @@ export const butiks = [
         alt: 'ConceptStore',
       },
     ],
-    description1: `КОНЦЕПТ – Мультибрендовый бутик женской и мужской одежды всемирно известных брендов в сегменте доступной роскоши.`,
-    description2: `Официальный представитель брендов Hugo, Boss, Riani, Olymp, Philippe Model, Joop!,  Parajumpers.`,
+    description1: `КОНЦЕПТ – Мультибрендовый бутик мужской одежды всемирно известных брендов в сегменте доступной роскоши.`,
+    description2: `Официальный представитель брендов Hugo, Boss, Riani, Olymp, Philippe Model, Joop!, Parajumpers.`,
     description3: `Все представленные бренды высокого качества, для самых взыскательных, предпочитающих подчеркивать свою индивидуальность, удивлять возможностью меняться, но при этом оставаться всегда стильными и уверенными в себе.`,
     floor: '2 этаж',
     tel: '+7 988 489 88 11',
