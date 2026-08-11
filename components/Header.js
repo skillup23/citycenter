@@ -1,5 +1,5 @@
 import { menu } from '@/public/data/data';
-import logoKinext from '@/public/site_img/KINEXT-logo.png';
+import logoKinext from '@/public/site_img/Kinext2026.png';
 import logo from '@/public/site_img/logo-nav.png';
 import logoBlack from '@/public/site_img/logoBlackMob.png';
 import logoMonitor2m from '@/public/site_img/лого-монитор-3-black.svg';
