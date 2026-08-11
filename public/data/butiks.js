@@ -1098,7 +1098,7 @@ export const butiks = [
     id: id++,
     category: 'manClothing',
     url: 'Studio',
-    logo: '/butiks/menClothing/Studio/logo.png',
+    logo: '/butiks/menClothing/Studio/logo1.png',
     image: [
       {
         id: 1,
@@ -1132,7 +1132,7 @@ export const butiks = [
     id: id++,
     category: 'manClothing',
     url: 'Gabbiacci',
-    logo: '/butiks/menClothing/Gabbiaacci/logo.png',
+    logo: '/butiks/menClothing/Gabbiaacci/logo1.png',
     image: [
       {
         id: 1,
@@ -1167,7 +1167,7 @@ export const butiks = [
     id: id++,
     category: 'manClothing',
     url: 'ConceptStore',
-    logo: '/butiks/womenClothing/ConceptStore/logo2.png',
+    logo: '/butiks/womenClothing/ConceptStore/logo3.png',
     image: [
       {
         id: 1,
@@ -1202,7 +1202,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'ConceptStoreW',
-    logo: '/butiks/womenClothing/ConceptStoreW/logo2.png',
+    logo: '/butiks/womenClothing/ConceptStoreW/logo3.png',
     image: [
       {
         id: 1,
@@ -1265,7 +1265,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'MesDemoiselles',
-    logo: '/butiks/womenClothing/MesDemoiselles/logo.png',
+    logo: '/butiks/womenClothing/MesDemoiselles/logo1.png',
     image: [
       {
         id: 1,
@@ -1479,7 +1479,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'MAXCo',
-    logo: '/butiks/womenClothing/MAXCo/logo.png',
+    logo: '/butiks/womenClothing/MAXCo/logo1.png',
     image: [
       {
         id: 1,
@@ -1511,7 +1511,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'WeekendMaxMara',
-    logo: '/butiks/womenClothing/WeekendMaxMara/logo.png',
+    logo: '/butiks/womenClothing/WeekendMaxMara/logo1.png',
     image: [
       {
         id: 1,
@@ -1632,7 +1632,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'Fresh',
-    logo: '/butiks/womenClothing/Fresh/logo.png',
+    logo: '/butiks/womenClothing/Fresh/logo1.png',
     image: [
       {
         id: 1,
@@ -1657,7 +1657,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'Guess',
-    logo: '/butiks/womenClothing/Guess/logo.jpg',
+    logo: '/butiks/womenClothing/Guess/logo1.png',
     image: [
       {
         id: 1,
@@ -1710,7 +1710,7 @@ export const butiks = [
     id: id++,
     category: 'womenClothing',
     url: 'Dexterior',
-    logo: '/butiks/womenClothing/Dexterior/logo.jpg',
+    logo: '/butiks/womenClothing/Dexterior/logo.png',
     image: [
       {
         id: 1,

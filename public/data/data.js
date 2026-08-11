@@ -957,7 +957,7 @@ const logosData = [
     id: 6,
     name: 'ConceptStore',
     url: '/butiks/women_clothing/34',
-    image: '/butiks/womenClothing/ConceptStore/logo1.png',
+    image: '/butiks/womenClothing/ConceptStore/logo3.png',
     alt: 'ConceptStore Logo',
   },
   {
