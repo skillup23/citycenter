@@ -68,7 +68,7 @@ const menu = [
 const sliderTop = [
   {
     id: 1,
-    src: '/slide_main/m_23.jpg',
+    src: '/slide_main/m_23-1.jpg',
     alt: 'Лето в Сити',
   },
   {

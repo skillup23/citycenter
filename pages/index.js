@@ -18,6 +18,7 @@ import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
+import sliderImageMob from '@/public/slide_main/m_23m.jpg';
 
 export default function Home() {
   return (
@@ -42,7 +43,15 @@ export default function Home() {
       <div className="block sm:hidden">
         {/* <SliderMain data={sliderTopMob} dots={false} /> */}
         <div className="w-full">
-          <VideoMain videoLink={'/slide_main/video_slide_1.mp4'} />
+          <Image
+            src={sliderImageMob}
+            alt="Новость"
+            width={500}
+            height={500}
+            priority
+            className="ease-in duration-150 md:grayscale-0 hover:grayscale"
+          />
+          {/* <VideoMain videoLink={'/slide_main/video_slide_1.mp4'} /> */}
         </div>
       </div>
 
