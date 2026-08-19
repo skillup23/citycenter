@@ -171,7 +171,7 @@ function Marketing() {
 
             <div className="flex flex-col w-full mt-1 md:mt-0 mb-10 gap-2">
               <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-                Продажи рекламы в ТРК «Сити Центр»
+                Продажа рекламы в ТРК «Сити Центр»
               </h4>
               <ul>
                 <li className="flex flex-row w-fill items-center mt-1">
