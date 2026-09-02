@@ -30,9 +30,21 @@ import news163 from '@/public/news/163.jpg';
 import news164 from '@/public/news/164.jpg';
 import news165 from '@/public/news/165.jpg';
 import news166 from '@/public/news/166.jpg';
+import news167 from '@/public/news/167.jpg';
+import news167_1 from '@/public/news/167-1.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news167,
+    img2: news167_1,
+    text: [
+      'Продолжим праздник после школьной линейки!',
+      'Don Bazilio приглашает учеников и их родителей отметить начало нового учебного года за большим итальянским столом ❤️',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news166,
@@ -43,7 +55,7 @@ const arrayNews = [
       'Пусть этот учебный год будет наполнен успехами, улыбками и красивыми моментами.',
       'С любовью, ТРК «Сити Центр» ✨',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -56,7 +68,7 @@ const arrayNews = [
       'Количество мест ограничено ❤️',
       ' ',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
     url: 'https://gk-siti-tsentr.timepad.ru/event/4160124/',
     urltext: 'Регистрация на мероприятие →',
   },
@@ -75,7 +87,7 @@ const arrayNews = [
       'Создайте себе настроение к началу учебного года: загляните за любимым напитком и получите шанс выиграть ещё больше приятных сюрпризов.',
       '1 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -87,7 +99,6 @@ const arrayNews = [
       'Поговорим о том, как ювелирные акценты становятся частью персонального стиля, как вписывать знаковые украшения в актуальные образы и создавать гармоничные сочетания — вне времени, но в ритме современной моды.',
       'Вас ждёт утро для себя: эстетика, лёгкое общение, стильные рекомендации и особое настроение.',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
