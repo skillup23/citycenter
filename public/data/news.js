@@ -32,9 +32,23 @@ import news165 from '@/public/news/165.jpg';
 import news166 from '@/public/news/166.jpg';
 import news167 from '@/public/news/167.jpg';
 import news167_1 from '@/public/news/167-1.jpg';
+import news168 from '@/public/news/168.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news168,
+    text: [
+      'Летний SALE в ОПТРИКА!',
+      'До 6 сентября в действует выгодная акция:',
+      '— скидка 40% на очки',
+      '— скидка 30% на очковые линзы',
+      'Ваши любимые бренды, стильные оправы и эффектные солнцезащитные очки — всё по специальной летней цене 😍',
+      'Создайте свой безупречный образ в ТРК «СИТИ ЦЕНТР» 🤍',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news167,
@@ -43,7 +57,7 @@ const arrayNews = [
       'Продолжим праздник после школьной линейки!',
       'Don Bazilio приглашает учеников и их родителей отметить начало нового учебного года за большим итальянским столом ❤️',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
   },
   {
     id: id++,
@@ -55,7 +69,7 @@ const arrayNews = [
       'Пусть этот учебный год будет наполнен успехами, улыбками и красивыми моментами.',
       'С любовью, ТРК «Сити Центр» ✨',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -68,7 +82,7 @@ const arrayNews = [
       'Количество мест ограничено ❤️',
       ' ',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
     url: 'https://gk-siti-tsentr.timepad.ru/event/4160124/',
     urltext: 'Регистрация на мероприятие →',
   },
@@ -87,7 +101,6 @@ const arrayNews = [
       'Создайте себе настроение к началу учебного года: загляните за любимым напитком и получите шанс выиграть ещё больше приятных сюрпризов.',
       '1 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
