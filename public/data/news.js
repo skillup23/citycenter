@@ -35,13 +35,13 @@ import news167_1 from '@/public/news/167-1.jpg';
 import news168 from '@/public/news/168.jpg';
 import news169 from '@/public/news/169.jpg';
 import news170 from '@/public/news/170.jpg';
-import news171 from '@/public/news/171.jpg';
+import news171_1 from '@/public/news/171-1.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
   {
     id: id++,
-    img1: news171,
+    img1: news171_1,
     text: [
       'Киноклуб «Монитора» представляет специальный премьерный показ фильма «Твигги» — за шесть дней до всероссийского старта ✨',
       '18 сентября в 19:00 в кинотеатре «МОНИТОР Сити» состоится показ документального фильма о первой супермодели и главной it-girl всех времён — легендарной Твигги.',
