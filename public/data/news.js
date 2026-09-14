@@ -38,8 +38,8 @@ import news170 from '@/public/news/170.jpg';
 import news171_1 from '@/public/news/171-1.jpg';
 import news172 from '@/public/news/172.jpg';
 import news173 from '@/public/news/173.jpg';
-import news174 from '@/public/news/173.jpg';
-import news174_1 from '@/public/news/173.jpg';
+import news174 from '@/public/news/174.jpg';
+import news174_1 from '@/public/news/174-1.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
