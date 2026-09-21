@@ -36,11 +36,11 @@ export default function Home() {
       </section>
 
       {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-      <div className="hidden sm:block">
+      <div className="block">
         <SliderMain data={sliderTop} dots={true} />
       </div>
 
-      <div className="block sm:hidden">
+      <div className="hidden">
         {/* <SliderMain data={sliderTopMob} dots={false} /> */}
         <div className="w-full">
           <Image
