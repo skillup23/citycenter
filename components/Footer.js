@@ -74,7 +74,7 @@ function Footer() {
         </p>
         <p className="text-black">
           Объект по управлением УК «АЛЬФА»{' '}
-          <Link href="alpha-am.ru" target={'_blank'}>
+          <Link href="https://alpha-am.ru" target={'_blank'}>
             alpha-am.ru
           </Link>
         </p>
