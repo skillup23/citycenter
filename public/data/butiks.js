@@ -585,7 +585,7 @@ export const butiks = [
     description1:
       '«Галерея Времени» — сеть премиальных салонов швейцарских часов.',
     description2:
-      'Вы можете быть абсолютно уверены в том, что покупаете подлинные швейцарские часы. «Галерея Времени» официально представляет примиальные бренды, такие как Zenith, Breitling, TAG Heuer, Frederique Constant, Longines, Rado, Raymond Weil, Alpina, Tissot,Casio, Orient, Festina,Jacques Lemans.',
+      'Вы можете быть абсолютно уверены в том, что покупаете подлинные швейцарские часы. «Галерея Времени» официально представляет примиальные бренды, такие как Zenith, Breitling, TAG Heuer, Frederique Constant, Longines, Rado, Raymond Weil, Alpina, Tissot,Casio, Orient, Festina, Jacques Lemans.',
     floor: '1 этаж',
     tel: '+7 861 213 47 76',
     telUrl: '88612134776',
@@ -672,26 +672,26 @@ export const butiks = [
       {
         id: 1,
         src: '/butiks/shoesAndBags/VicMatie/1n.jpg',
-        alt: 'Premiata',
+        alt: 'VIC MATIE',
       },
       {
         id: 2,
         src: '/butiks/shoesAndBags/VicMatie/2n.jpg',
-        alt: 'Premiata',
+        alt: 'VIC MATIE',
       },
       {
         id: 3,
         src: '/butiks/shoesAndBags/VicMatie/3n.jpg',
-        alt: 'Premiata',
+        alt: 'VIC MATIE',
       },
       {
         id: 4,
         src: '/butiks/shoesAndBags/VicMatie/4n.jpg',
-        alt: 'Premiata',
+        alt: 'VIC MATIE',
       },
     ],
     description1:
-      'Premiata – магазин мужской и женской обуви, в котором представлены модели креативных брендов из Италии –  Vic Matie, MoMa, Brecos, Voile Blanche и бренд ортопедической обуви из Германии — Birkenstock. Каждая пара обуви становится первоосновой итальянского стиля: дизайнеры с лёгкостью воплощают в жизнь актуальные тенденции сезонов.',
+      'VIC MATIE – магазин мужской и женской обуви, в котором представлены модели креативных брендов из Италии –  Vic Matie, MoMa, Brecos, Voile Blanche и бренд ортопедической обуви из Германии — Birkenstock. Каждая пара обуви становится первоосновой итальянского стиля: дизайнеры с лёгкостью воплощают в жизнь актуальные тенденции сезонов.',
     description2:
       'Лоферы, туфли, сапоги, ботильоны, кроссовки, сандалии  –  не просто удобная обувь для жизни, а предмет модного искусства.',
     floor: '2 этаж',
@@ -1829,6 +1829,41 @@ export const butiks = [
     floor: '1 этаж',
     tel: '+7 (861) 213 47 00',
     telUrl: '88612134700',
+    instagram: '',
+  },
+  {
+    id: id++,
+    category: 'manClothing',
+    url: 'Bugatti',
+    logo: '/butiks/menClothing/Bugatti/logo.jpg',
+    image: [
+      {
+        id: 1,
+        src: '/butiks/menClothing/Bugatti/1.jpg',
+        alt: 'Bugatti',
+      },
+      {
+        id: 2,
+        src: '/butiks/menClothing/Bugatti/2.jpg',
+        alt: 'Bugatti',
+      },
+      {
+        id: 3,
+        src: '/butiks/menClothing/Bugatti/3.jpg',
+        alt: 'Bugatti',
+      },
+      {
+        id: 4,
+        src: '/butiks/menClothing/Bugatti/4.jpg',
+        alt: 'Bugatti',
+      },
+    ],
+    description1: `Bugatti - олицетворяет современный европейский стиль жизни с итальянской душой. `,
+    description2: `Бренд, который органично сочетает дизайн, культуру и повседневную жизнь.`,
+    description3: `С 1978 года bugatti сочетает современную моду с непринужденной изысканностью — для людей, которые легко переходят от деловых встреч к отдыху и особым моментам.`,
+    floor: '2 этаж',
+    tel: '+7 (967) 663-99-95',
+    telUrl: '89676639995',
     instagram: '',
   },
   // {
