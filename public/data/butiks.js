@@ -1013,7 +1013,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/services/Pharmacy/1.jpg',
         alt: 'Pharmacy',
       },
     ],
@@ -1030,7 +1030,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/services/Repassaj/1.jpg',
+        src: '/services/Repassaj/2.jpg',
         alt: 'Repassaj',
       },
     ],
@@ -1206,7 +1206,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/ConceptStoreW/1n.jpg',
+        src: '/butiks/womenClothing/ConceptStoreW/5n.jpg',
         alt: 'ConceptStoreW',
       },
       {
@@ -1839,7 +1839,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/menClothing/Bugatti/1.jpg',
+        src: '/butiks/menClothing/Bugatti/5.jpg',
         alt: 'Bugatti',
       },
       {
