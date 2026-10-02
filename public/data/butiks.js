@@ -671,21 +671,26 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/shoesAndBags/VicMatie/1n.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/5.jpg',
         alt: 'VIC MATIE',
       },
       {
         id: 2,
-        src: '/butiks/shoesAndBags/VicMatie/2n.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/1n.jpg',
         alt: 'VIC MATIE',
       },
       {
         id: 3,
-        src: '/butiks/shoesAndBags/VicMatie/3n.jpg',
+        src: '/butiks/shoesAndBags/VicMatie/2n.jpg',
         alt: 'VIC MATIE',
       },
       {
         id: 4,
+        src: '/butiks/shoesAndBags/VicMatie/3n.jpg',
+        alt: 'VIC MATIE',
+      },
+      {
+        id: 5,
         src: '/butiks/shoesAndBags/VicMatie/4n.jpg',
         alt: 'VIC MATIE',
       },
@@ -1082,7 +1087,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImgSmall.png',
+        src: '/butiks/glasses/RePremium/1.jpg',
         alt: 'RePremium',
       },
     ],
@@ -1171,7 +1176,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/womenClothing/ConceptStore/1n.jpg',
+        src: '/butiks/womenClothing/ConceptStore/1nn.jpg',
         alt: 'ConceptStore',
       },
       {
@@ -1661,7 +1666,7 @@ export const butiks = [
     image: [
       {
         id: 1,
-        src: '/butiks/loaderImg.png',
+        src: '/butiks/womenClothing/Guess/1.jpg',
         alt: 'Guess',
       },
     ],
