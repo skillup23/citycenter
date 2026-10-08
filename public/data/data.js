@@ -76,11 +76,11 @@ const sliderTop = [
     src: '/slide_main/m_12.jpg',
     alt: 'Изображение 1',
   },
-  {
-    id: 3,
-    src: '/slide_main/m_9.jpg',
-    alt: 'Изображение 2',
-  },
+  // {
+  //   id: 3,
+  //   src: '/slide_main/m_9.jpg',
+  //   alt: 'Изображение 2',
+  // },
   // {
   //   id: 2,
   //   src: '/slide_main/m_17.jpg',
