@@ -38,3 +38,4 @@ yarn-error.log*
 ._package-lock.json
 # создаётся при сборке (scripts/generate-sitemap.mjs)
 /public/sitemap.xml
+.env
