@@ -1,10 +1,17 @@
 import axios from 'axios';
+import https from 'node:https';
+
+// family: 0 позволяет системе выбирать доступный стек автоматически.
+// Если на сервере задана переменная FORCE_IPV6=true, принудительно берем IPv6.
+const isIpv6 = process.env.FORCE_IPV6 === 'true';
+const httpsAgent = new https.Agent({
+  family: isIpv6 ? 6 : 0,
+});
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { nameClient, phone, stilist, comment, agreement } = req.body;
 
-    // Replace with your actual bot token and chat ID
     const botToken = process.env.TELEGRAM_BOT_TOKEN;
     const chatId = process.env.TELEGRAM_CHAT_ID;
 
@@ -19,11 +26,17 @@ export default async function handler(req, res) {
     `;
 
     try {
-      // Send the message via the Telegram Bot API
-      const response = await axios.post(telegramUrl, {
-        chat_id: chatId,
-        text: text,
-      });
+      const response = await axios.post(
+        telegramUrl,
+        {
+          chat_id: chatId,
+          text: text,
+        },
+        {
+          httpsAgent,
+          timeout: 10000,
+        },
+      );
 
       if (response.data.ok) {
         return res
