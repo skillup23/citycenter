@@ -23,7 +23,7 @@ const banners = [
 // loop не нужен: по кругу идёт слайдер, после тизера — баннеры.
 const videoHtml = `
   <video class="w-full h-full object-cover" poster="/video/teaser-poster.jpg"
-    muted playsinline preload="metadata" aria-hidden="true">
+    autoplay muted playsinline preload="auto" aria-hidden="true">
     <source src="/video/teaser-720.mp4" type="video/mp4" media="(max-width: 767px)">
     <source src="/video/teaser-1080.mp4" type="video/mp4">
   </video>`;
@@ -43,12 +43,18 @@ function HeroSlider() {
     clearTimeout(timerRef.current);
     const next = () => sliderRef.current?.slickNext();
 
-    // у копий слайдов для бесконечной прокрутки — класс slick-cloned
+    // Ищем оригинальный первый слайд по data-index="0" без жесткой привязки к slick-active
     const video =
       index === 0
-        ? boxRef.current?.querySelector('.slick-slide.slick-active:not(.slick-cloned) video')
+        ? boxRef.current?.querySelector(
+            '.slick-slide[data-index="0"]:not(.slick-cloned) video',
+          ) ||
+          boxRef.current?.querySelector('.slick-slide:not(.slick-cloned) video')
         : null;
-    boxRef.current?.querySelectorAll('video').forEach((v) => v !== video && v.pause());
+
+    boxRef.current
+      ?.querySelectorAll('video')
+      .forEach((v) => v !== video && v.pause());
     if (reducedMotion.current) return;
 
     if (index !== 0) {
@@ -57,28 +63,41 @@ function HeroSlider() {
     }
 
     const retry = () => {
-      if (attempt < 20) {
-        setTimeout(() => currentRef.current === 0 && showSlide(0, attempt + 1), 150);
+      if (attempt < 30) {
+        setTimeout(
+          () => currentRef.current === 0 && showSlide(0, attempt + 1),
+          150,
+        );
       }
     };
+
     if (!video) {
       retry();
       return;
     }
+
     video.onended = next;
-    if (attempt === 0) video.currentTime = 0;
-    video.play().catch((e) => {
-      // Автозапуск запрещён (энергосбережение) — постер 4 секунды, как баннер
-      if (e?.name === 'NotAllowedError') {
-        timerRef.current = setTimeout(next, BANNER_MS);
-        return;
-      }
-      if (video.paused) retry();
-    });
+    // Браузерам нужно явное выставление свойства muted на узле перед play()
+    video.defaultMuted = true;
+    video.muted = true;
+
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((e) => {
+        // Если браузер заблокировал автоплей из-за энергосбережения
+        if (e?.name === 'NotAllowedError') {
+          timerRef.current = setTimeout(next, BANNER_MS);
+          return;
+        }
+        if (video.paused) retry();
+      });
+    }
   }, []);
 
   useEffect(() => {
-    reducedMotion.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    reducedMotion.current = window.matchMedia(
+      '(prefers-reduced-motion: reduce)',
+    ).matches;
     showSlide(0);
 
     // В фоновой вкладке браузер сам ставит беззвучное видео на паузу.
@@ -118,7 +137,9 @@ function HeroSlider() {
         <ul style={{ margin: '15px' }}> {dots} </ul>
       </div>
     ),
-    customPaging: () => <div className="w-2 h-2 rounded-full bg-gray-200"></div>,
+    customPaging: () => (
+      <div className="w-2 h-2 rounded-full bg-gray-200"></div>
+    ),
   };
 
   return (
@@ -130,12 +151,22 @@ function HeroSlider() {
     >
       <Slider ref={sliderRef} {...settings}>
         <div className="relative w-full h-full">
-          <div className="absolute inset-0" dangerouslySetInnerHTML={{ __html: videoHtml }} />
+          <div
+            className="absolute inset-0"
+            dangerouslySetInnerHTML={{ __html: videoHtml }}
+          />
         </div>
         {banners.map(({ id, src, alt }) => (
           <div key={id} className="relative w-full h-full">
             {/* eager: слайд за краем экрана иначе не грузится до показа и мелькает пустым */}
-            <Image src={src} alt={alt} fill sizes="100vw" loading="eager" className="object-cover" />
+            <Image
+              src={src}
+              alt={alt}
+              fill
+              sizes="100vw"
+              loading="eager"
+              className="object-cover"
+            />
           </div>
         ))}
       </Slider>
