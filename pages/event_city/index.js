@@ -7,10 +7,12 @@ import Link from 'next/link';
 
 function EventCity() {
   return (
-    <Layout title="МЕРОПРИЯТИЯ">
+    <Layout
+      description="События и мероприятия ТРК «Сити Центр» в Краснодаре: выставки, показы мод, концерты, детские праздники и дни рождения комплекса."
+      title="События">
       <section className="mt-10">
         <div className="lg:container mx-auto">
-          <h2 className="title_main mt-10">МЕРОПРИЯТИЯ</h2>
+          <h1 className="title_main mt-10">СОБЫТИЯ</h1>
 
           <div className="flex mt-2 sm:mt-14 flex-wrap gap-y-6 sm:gap-y-14">
             {eventArray.map((item) => (

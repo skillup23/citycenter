@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '@/components/Layout';
 import ListButiks from '@/components/ListButiks';
+import { butiks as allButiks } from '@/public/data/butiks';
 
 //получаем данные бутиков с локальной api
 export const getServerSideProps = async () => {
   try {
-    const response = await fetch(`${process.env.API_HOST}/butiks`);
-    const data = await response.json();
+    const data = allButiks;
 
     if (!data) {
       return {

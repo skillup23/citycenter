@@ -7,7 +7,9 @@ function Parking() {
   const [isOpen2, setOpen2] = useState(false);
 
   return (
-    <Layout title="Парковка">
+    <Layout
+      description="Парковка ТРК «Сити Центр» в Краснодаре: первые 3 часа бесплатно, тарифы и правила пользования парковкой."
+      title="Парковка">
       <style jsx>
         {`
           ul li {
@@ -22,10 +24,10 @@ function Parking() {
       </style>
       <section className="mt-10">
         <div className="lg:container mx-auto">
-          <h2 className="text-3xl sm:text-3xl lg:text-4xl mt-10 md:mt-20 text-center w-4/5 lg:w-2/5 m-auto">
+          <h1 className="text-3xl sm:text-3xl lg:text-4xl mt-10 md:mt-20 text-center w-4/5 lg:w-2/5 m-auto">
             ПРАВИЛА ПОЛЬЗОВАНИЯ ПЛАТНОЙ НЕОХРАНЯЕМОЙ ПАРКОВКОЙ НА ТЕРРИТОРИИ
             ТОРГОВО-РАЗВЛЕКАТЕЛЬНОГО КОМПЛЕКСА «СИТИ ЦЕНТР»*
-          </h2>
+          </h1>
 
           {/* <div className="w-11/12 sm:w-4/5 m-auto mt-20 py-6 bg-white text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center indent-0">
             <h5>Внимание! До конца лета парковка бесплатная!</h5>

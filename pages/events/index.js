@@ -15,7 +15,10 @@ import { sliderCenter } from '@/public/data/data';
 
 function Events() {
   return (
-    <Layout title="События">
+    <Layout
+      description="Кинотеатр «Монитор Сити de Luxe» в ТРК «Сити Центр»: VIP-залы, проекция Sony Digital Cinema 4K, кресла-реклайнеры и еда из ресторана прямо в зал."
+      title="Кинотеатр">
+      <h1 className="sr-only">Кинотеатр «Монитор Сити de Luxe»</h1>
       <section className="relative">
         <SliderMain data={sliderCenter} dots={true} />
         <Image

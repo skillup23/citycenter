@@ -67,7 +67,9 @@ function Marketing() {
   ];
 
   return (
-    <Layout title="Рекламодателям">
+    <Layout
+      description="Реклама в ТРК «Сити Центр» в Краснодаре: лайтбоксы, баннеры и медиаэкран для тысяч посетителей ежедневно. Каталог рекламных возможностей."
+      title="Рекламодателям">
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
           <h1 className="title_main mt-10">Рекламодателям</h1>

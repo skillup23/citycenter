@@ -36,3 +36,5 @@ yarn-error.log*
 
 # mac
 ._package-lock.json
+# создаётся при сборке (scripts/generate-sitemap.mjs)
+/public/sitemap.xml

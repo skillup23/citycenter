@@ -5,7 +5,8 @@ import ImageLink from './ImageLink';
 
 function ButtonRight() {
   return (
-    <div className="fixed top-24 md:top-1/3 right-2 z-50 w-12 md:w-16 lg:w-20">
+    // Внизу справа на всех экранах: на трети высоты кнопки закрывали текст баннеров
+    <div className="fixed bottom-4 right-3 md:bottom-6 md:right-4 z-50 w-11 md:w-12">
       <ImageLink
         href="tel:88612134700"
         src={phone}

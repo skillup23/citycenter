@@ -8,7 +8,9 @@ import { SlSocialVkontakte } from 'react-icons/sl';
 
 function Contacts() {
   return (
-    <Layout title="Контакты">
+    <Layout
+      description="Адрес, телефон и часы работы ТРК «Сити Центр» в Краснодаре: ул. Индустриальная, 2, тел. 8 (861) 213-47-00. Как добраться на транспорте."
+      title="Контакты">
       <section className="mt-10">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10 ml-6 md:ml-0">Контакты</h1>

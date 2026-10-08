@@ -8,15 +8,7 @@ const CookieBanner = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    // БЛОКИРУЕМ Яндекс.Метрику ДО согласия
-    if (typeof window !== 'undefined') {
-      window.ym =
-        window.ym ||
-        function () {
-          // Заглушка пока нет согласия
-          console.log('Yandex Metrika: ожидание согласия пользователя');
-        };
-    }
+    // До согласия Метрика не загружается и window.ym не создаётся
 
     // Проверяем существующее согласие
     const cookieValue = document.cookie
@@ -32,7 +24,7 @@ const CookieBanner = () => {
       setShowBanner(true);
     } else {
       // Если мы на странице /cookie-policy без согласия — скрываем баннер,
-      // но Метрика остается неактивной (работает stub-заглушка)
+      // Метрика остаётся незагруженной
       setShowBanner(false);
     }
   }, [pathname]); // Перезапускаем проверку при смене страницы
@@ -44,19 +36,24 @@ const CookieBanner = () => {
     // Предотвращаем повторную загрузку скрипта, если он уже есть
     if (document.querySelector('script[src*="metrika/tag.js"]')) return;
 
-    // Загружаем скрипт Яндекс.Метрики
+    // Стандартная очередь вызовов: tag.js при загрузке забирает их из ym.a
+    window.ym =
+      window.ym ||
+      function () {
+        (window.ym.a = window.ym.a || []).push(arguments);
+      };
+    window.ym.l = 1 * new Date();
+
     const script = document.createElement('script');
     script.src = 'https://mc.yandex.ru/metrika/tag.js';
     script.async = true;
 
-    script.onload = () => {
-      window.ym(95623671, 'init', {
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-        webvisor: true,
-      });
-    };
+    window.ym(95623671, 'init', {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true,
+    });
 
     document.head.appendChild(script);
   };

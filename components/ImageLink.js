@@ -16,7 +16,8 @@ function ImageLink({ href, src, alt, width, cssClass, target }) {
         // width={width ? width : '300'}
         width="0"
         height="0"
-        sizes="100%"
+        // ширина задаётся классом w-{width} (1 единица Tailwind = 4 px), без width — до w-56
+        sizes={width ? `${Number(width) * 4}px` : '224px'}
         // className="ease-in duration-200 hover:scale-105"
         className={otherClass}
         style={{ width: "100%", height: "auto" }}

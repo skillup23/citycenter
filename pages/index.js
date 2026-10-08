@@ -1,13 +1,12 @@
 // import ImageLink from '@/components/ImageLink';
-import DocumentsPage from '@/components/DocumentsPage';
 import Layout from '@/components/Layout';
 import MarqueeLogos from '@/components/MarqueeLogos';
 // import MarqueeLogos from '@/components/MarqueeLogos';
+import HeroSlider from '@/components/HeroSlider';
 import ShopListMain from '@/components/ShopListMain';
-import SliderMain from '@/components/SliderMain';
 import VideoMain from '@/components/VideoMain';
 import YandexMap from '@/components/YandexMap';
-import { kinoAfisha, shopList, sliderTop } from '@/public/data/data';
+import { kinoAfisha, shopList } from '@/public/data/data';
 import { arrayNews } from '@/public/data/news';
 import imgShowroom from '@/public/showroom_img/showroomMainResize.png';
 import imgShowroomMob from '@/public/showroom_img/showroomMainResizeMob.png';
@@ -18,13 +17,12 @@ import { FaBus, FaPhoneAlt } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
 import { MdEmail } from 'react-icons/md';
 import { RiTimeFill } from 'react-icons/ri';
-import sliderImageMob from '@/public/slide_main/m_23m.jpg';
 
 export default function Home() {
   return (
     <Layout
-      title='ТРК "СИТИ ЦЕНТР" Краснодар – Официальный сайт торгово-развлекательного комплекса'
-      description="Официальный сайт торгово-развлекательного комплекса СИТИ ЦЕНТР в Краснодаре. Информация о магазинах, ресторанах, кинотеатре, услугах и аренде помещений."
+      title="ТРК «Сити Центр» Краснодар — бутики мировых брендов, рестораны, VIP-кинотеатр"
+      description="ТРК «Сити Центр» в Краснодаре: бутики мировых брендов, рестораны, VIP-кинотеатр «Монитор Сити» и события. Ул. Индустриальная, 2."
       isHome={true} // Добавим флаг, что это главная страница
     >
       <h1 className="sr-only">
@@ -35,34 +33,18 @@ export default function Home() {
         <MarqueeLogos />
       </section>
 
-      {/*                      ОСНОВНОЙ СЛАЙДЕР                         */}
-      <div className="block">
-        <SliderMain data={sliderTop} dots={true} />
-      </div>
-
-      <div className="hidden">
-        {/* <SliderMain data={sliderTopMob} dots={false} /> */}
-        <div className="w-full">
-          <Image
-            src={sliderImageMob}
-            alt="Новость"
-            width={500}
-            height={500}
-            priority
-            className="ease-in duration-150 md:grayscale-0 hover:grayscale"
-          />
-          {/* <VideoMain videoLink={'/slide_main/video_slide_1.mp4'} /> */}
-        </div>
+      {/*                      ПЕРВЫЙ ЭКРАН: ТИЗЕР И БАННЕРЫ                         */}
+      <div className="lg:container mx-auto mt-2">
+        <HeroSlider />
       </div>
 
       {/*                      НОВОСТИ И АКЦИИ                        */}
 
       <section className="mb-12 sm:mb-20 border_section border-b-0">
         <div className="lg:container mx-auto">
-          <div className="w-fill mt-10 py-6 bg-[#881012] text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">
-            Вы&nbsp;по‑прежнему&nbsp;офлайн?
-            В&nbsp;«Сити&nbsp;Центре»&nbsp;вы&nbsp;вновь&nbsp;в&nbsp;онлайне:
-            созвониться,&nbsp;отправить&nbsp;файлы,&nbsp;вызвать&nbsp;такси&nbsp;—&nbsp;легко
+          <div className="w-fill mt-10 px-4 py-6 bg-[#881012] text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center [text-wrap:balance]">
+            Вы по‑прежнему офлайн? В&nbsp;«Сити&nbsp;Центре» вы вновь в онлайне:
+            созвониться, отправить файлы, вызвать такси&nbsp;— легко
           </div>
           <h2 className="title_main px-2 sm:px-0 mt-10">Новости и акции</h2>
           {/* <ShopListMain items={news} classItem="mt-10" /> */}
@@ -75,7 +57,7 @@ export default function Home() {
                     alt="Новость"
                     width={500}
                     height={500}
-                    priority
+                    sizes="(max-width: 639px) 50vw, (max-width: 767px) 33vw, 25vw"
                     className="ease-in duration-150 md:grayscale-0 hover:grayscale"
                   />
                   <p className="ml-1 sm:ml-0 md:text-xl">{text[0]}</p>
@@ -86,6 +68,14 @@ export default function Home() {
                 </Link>
               );
             })}
+          </div>
+          <div className="mt-8 flex justify-center">
+            <Link
+              href="/news"
+              className="min-h-[44px] inline-flex items-center px-6 py-2 border-2 border-zinc-300 text-xl md:text-2xl hover:bg-white hover:text-black transition-colors"
+            >
+              Все новости и акции
+            </Link>
           </div>
         </div>
       </section>
@@ -111,8 +101,8 @@ export default function Home() {
                     alt="Киноафиша"
                     width={0}
                     height={0}
+                    sizes="(max-width: 639px) 33vw, 17vw"
                     className="w-full h-full ease-in duration-150 md:grayscale hover:grayscale-0"
-                    priority
                   />
                 </Link>
               );
@@ -132,11 +122,11 @@ export default function Home() {
           >
             <Image
               src={kinoBanner}
-              alt="Киноафиша"
+              alt="Аренда кинозала"
               width="0"
               height="0"
+              sizes="100vw"
               className=""
-              priority
             />
           </Link>
         </div>
@@ -153,7 +143,9 @@ export default function Home() {
 
       {/*                      БУТИКИ                         */}
 
-      <section className="mb-12 sm:mb-28 scroll-mt-20" id="bitiki">
+      <section className="mb-12 sm:mb-28 scroll-mt-20" id="butiki">
+        {/* Старый якорь: ссылки вида /#bitiki уже разосланы */}
+        <span id="bitiki" className="block scroll-mt-20" aria-hidden="true" />
         <div className="lg:container mx-auto">
           <h2 className="title_main px-2 sm:px-0 mt-12 sm:mt-20 mb-6 sm:mb-10">
             БУТИКИ
@@ -168,16 +160,16 @@ export default function Home() {
               alt="Шоурум ссылка"
               width="0"
               height="0"
+              sizes="(max-width: 639px) 1px, 100vw"
               className="hidden sm:block"
-              priority
             />
             <Image
               src={imgShowroomMob}
               alt="Шоурум ссылка"
               width="0"
               height="0"
+              sizes="(max-width: 639px) 100vw, 1px"
               className="block sm:hidden"
-              priority
             />
           </Link>
         </div>
@@ -205,11 +197,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/*                      ДОКУМЕНТЫ                        */}
-
-      <section className="mt-12 sm:mt-20">
-        <DocumentsPage />
-      </section>
 
       {/*                      КОНТАКТЫ                        */}
 

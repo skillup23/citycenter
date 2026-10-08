@@ -30,7 +30,7 @@ function Vipavenue() {
   };
 
   return (
-    <Layout title="VIPAVENUE - бутик в ТРК «СИТИ ЦЕНТР» ">
+    <Layout title="VIPAVENUE">
       <Butik butik={butik}></Butik>
 
       <div className="mt-10 -mb-2 sm:-mb-16 pt-8 pb-16 sm:pb-8 bg-white">

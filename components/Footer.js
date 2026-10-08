@@ -18,9 +18,9 @@ function Footer() {
             src={logoBlack}
             alt="logo"
             fill
-            priority
-            sizes="100%"
-            className="ease-in duration-200 hover:scale-105"
+            sizes="78px"
+            // логотип почти квадратный, а блок на md — 59×78: без contain он растягивается
+            className="object-contain ease-in duration-200 hover:scale-105"
           />
         </Link>
 
@@ -73,7 +73,7 @@ function Footer() {
           © ТРК «СИТИ ЦЕНТР», {new Date().getFullYear()}. Все права защищены
         </p>
         <p className="text-black">
-          Объект по управлением УК «АЛЬФА»{' '}
+          Объект под управлением УК «АЛЬФА»{' '}
           <Link href="https://alpha-am.ru" target={'_blank'}>
             alpha-am.ru
           </Link>

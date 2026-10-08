@@ -1,15 +1,15 @@
 import React from 'react';
 import Layout from '@/components/Layout';
 import ListButiks from '@/components/ListButiks';
+import { butiks as allButiks } from '@/public/data/butiks';
 // import ImageLink from '@/components/ImageLink';
 // import restoran1 from '@/public/site_img/1-дон-базилио.png';
 // import restoran2 from '@/public/site_img/3-френч-кис.png';
 
-//получаем данные бутиков с локального api
+//получаем данные бутиков из public/data/butiks.js
 export const getServerSideProps = async () => {
   try {
-    const response = await fetch(`${process.env.API_HOST}/butiks`);
-    const data = await response.json();
+    const data = allButiks;
 
     if (!data) {
       return {

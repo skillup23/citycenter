@@ -5,7 +5,7 @@ const menu = [
   {
     id: id++,
     name: 'Бутики',
-    link: '/#bitiki',
+    link: '/#butiki',
   },
   {
     id: id++,

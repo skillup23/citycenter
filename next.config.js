@@ -1,6 +1,7 @@
 // /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  poweredByHeader: false,
   // experimental: {
   //   scrollRestoration: true,
   // },
@@ -24,6 +25,12 @@ const nextConfig = {
   },
   async headers() {
     return [
+      {
+        // Видео тяжёлые и меняются редко: браузер держит их 30 дней.
+        // Чтобы новая версия ролика показалась сразу, дайте файлу новое имя.
+        source: '/video/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=2592000' }],
+      },
       {
         source: '/rent_img/prezentRent.pdf',
         headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],

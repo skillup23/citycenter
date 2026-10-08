@@ -41,7 +41,9 @@ function Rent() {
   ];
 
   return (
-    <Layout title="Арендаторам">
+    <Layout
+      description="Аренда помещений в ТРК «Сити Центр» в Краснодаре: премиальный торговый центр с эксклюзивным составом арендаторов. Условия и презентация."
+      title="Арендаторам">
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
           <h1 className="title_main mt-10">Арендаторам</h1>

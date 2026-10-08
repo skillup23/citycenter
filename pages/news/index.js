@@ -5,8 +5,8 @@ import { arrayNews } from '@/public/data/news';
 function News() {
   return (
     <Layout
+      description="Новости и акции ТРК «Сити Центр» в Краснодаре: открытия бутиков, новые коллекции, выставки и праздничные программы."
       title="НОВОСТИ"
-      description="Новогодние праздники в ТРК «СИТИ ЦЕНТР». Новогодний базар «Русские сказки»"
     >
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">

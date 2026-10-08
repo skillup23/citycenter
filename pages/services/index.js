@@ -1,13 +1,13 @@
 // import React, { useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import ImageLink from '@/components/ImageLink';
+import { butiks as allButiks } from '@/public/data/butiks';
 // import { butiks } from '@/public/data/butiks';
 
-// получаем данные бутиков с локального api Старая функция getStaticProps
+// получаем данные бутиков из public/data/butiks.js Старая функция getStaticProps
 export const getServerSideProps = async () => {
   try {
-    const response = await fetch(`${process.env.API_HOST}/butiks`);
-    const data = await response.json();
+    const data = allButiks;
 
     if (!data) {
       return {
@@ -27,7 +27,9 @@ export const getServerSideProps = async () => {
 
 const Services = ({ butiks }) => {
   return (
-    <Layout title="СЕРВИСЫ">
+    <Layout
+      description="Сервисы для посетителей ТРК «Сити Центр» в Краснодаре."
+      title="СЕРВИСЫ">
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">СЕРВИСЫ</h1>

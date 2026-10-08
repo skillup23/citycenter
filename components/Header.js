@@ -25,13 +25,12 @@ function Header() {
   return (
     <header className="sticky top-0 py-2 sm:py-4 my-1 border_section z-50 self-start bg-[#1e191a]">
       <nav className="xl:container flex mx-auto px-3 md:px-5 lg:px-0 justify-between content-center items-center relative">
-        <Link href="http://city.kinext.ru" target={'_blank'}>
+        <Link href="https://city.kinext.ru" target={'_blank'}>
           <Image
             src={logoKinext}
             alt="Лого Kinext"
             width="95"
             height="0"
-            sizes="100%"
             className="mr-2 xl:mr-0"
           />
         </Link>
@@ -42,7 +41,6 @@ function Header() {
             alt="Лого Kinext"
             width="80"
             height="0"
-            sizes="100%"
             className=""
           />
           <Link
@@ -102,7 +100,7 @@ function Header() {
             alt="logo"
             fill
             priority
-            sizes="100%"
+            sizes="65px"
             className="ease-in duration-200 hover:scale-105"
           />
         </Link>
@@ -136,7 +134,6 @@ function Header() {
             alt="Лого Монитор Делюкс"
             width="100"
             height="0"
-            sizes="100%"
             className=""
           />
         </Link>
@@ -193,8 +190,7 @@ function Header() {
                 src={logoBlack}
                 alt="logo"
                 fill
-                priority
-                sizes="100%"
+                sizes="200px"
                 className="ease-in duration-200 hover:scale-105"
               />
             </Link>
@@ -232,7 +228,6 @@ function Header() {
               alt="Лого Монитор Делюкс"
               width="110"
               height="0"
-              sizes="100%"
               className=""
             />
           </Link>
