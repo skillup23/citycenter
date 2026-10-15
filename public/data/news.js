@@ -51,9 +51,35 @@ import news180 from '@/public/news/180.jpg';
 import news181 from '@/public/news/181.jpg';
 import news182 from '@/public/news/182.jpg';
 import news183 from '@/public/news/183.jpg';
+import news184 from '@/public/news/184.jpg';
+import news184_1 from '@/public/news/184-1.jpg';
+import news184_2 from '@/public/news/184-2.jpg';
+import news184_3 from '@/public/news/184-3.jpg';
 // import news77 from '@/public/services/ChistoBlisto/logo.jpg';
 
 const arrayNews = [
+  {
+    id: id++,
+    img1: news184,
+    img2: news184_1,
+    img3: news184_2,
+    img4: news184_3,
+    text: [
+      'Рады сообщить вам приятную новость: в ТРК «Сити Центр» состоялось долгожданное открытие KINEXT CITY! 🤍',
+      'Первый в Краснодаре фитнес-проект формата DELUXE — новое пространство для тренировок, восстановления и заботы о себе.',
+      ' ',
+      'В KINEXT CITY вас ждут:',
+      '— современное оборудование Life Fitness, REAXING, Total Gym и Hammer Strength',
+      '— студии PILATES, TRX Training Center и REAXING;',
+      '— иммерсивная студия ICG;',
+      '— термальный комплекс со спа-бассейнами; — пространства восстановления и лаунж-зоны;',
+      '— спешелти-кофейня с лёгкими закусками и напитками.',
+      ' ',
+      'Здесь можно не только уделить время спорту, но и восстановить силы после насыщенного дня.',
+      'Приглашаем познакомиться с новым фитнес-пространством в ТРК «СИТИ ЦЕНТР» ✨',
+    ],
+    link: '/news#new1',
+  },
   {
     id: id++,
     img1: news183,
@@ -73,7 +99,7 @@ const arrayNews = [
       '🎟 Вход свободный',
       '📍3 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new1',
+    link: '/news#new2',
     url: 'https://gk-siti-tsentr.timepad.ru/event/4238851/',
     urltext:
       'Регистрация на мероприятие → https://gk-siti-tsentr.timepad.ru/event/4238851/',
@@ -97,7 +123,7 @@ const arrayNews = [
       '🎟 Вход свободный',
       '📍3 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new2',
+    link: '/news#new3',
   },
   {
     id: id++,
@@ -115,7 +141,7 @@ const arrayNews = [
       'Загляните в новый бутик и найдите то, в чём будете чувствовать себя прекрасно!',
       '📍2 этаж, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new3',
+    link: '/news#new4',
   },
   {
     id: id++,
@@ -127,7 +153,6 @@ const arrayNews = [
       'С праздником, любимый город и его жители!',
       'С любовью, ТРК «СИТИ ЦЕНТР»',
     ],
-    link: '/news#new4',
   },
   {
     id: id++,
