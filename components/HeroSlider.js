@@ -8,11 +8,16 @@ const BANNER_MS = 4000;
 const banners = [
   {
     id: 'banner-1',
-    src: '/slide_main/banner-1_16x9.webp',
+    src: '/slide_main/banner-3_16x9.webp',
     alt: 'Все люксовые бутики в модном сердце города — ТРК «Сити Центр»',
   },
   {
     id: 'banner-2',
+    src: '/slide_main/banner-1_16x9.webp',
+    alt: 'Все люксовые бутики в модном сердце города — ТРК «Сити Центр»',
+  },
+  {
+    id: 'banner-3',
     src: '/slide_main/banner-2_16x9.webp',
     alt: 'Пока все в массмаркете, ты в «Ситицентре»',
   },
