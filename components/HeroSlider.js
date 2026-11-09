@@ -6,11 +6,11 @@ const BANNER_MS = 4000;
 
 // Баннеры 16:9, как тизер. Важное — в безопасной зоне: на низких экранах края обрезаются
 const banners = [
-  {
-    id: 'banner-1',
-    src: '/slide_main/banner-3_16x9.webp',
-    alt: 'Все люксовые бутики в модном сердце города — ТРК «Сити Центр»',
-  },
+  // {
+  //   id: 'banner-1',
+  //   src: '/slide_main/banner-3_16x9.webp',
+  //   alt: 'С Днем Народного Единства! ТРК «Сити Центр»',
+  // },
   {
     id: 'banner-2',
     src: '/slide_main/banner-1_16x9.webp',
