@@ -25,17 +25,17 @@ function Rent() {
   const foto = [
     {
       id: 1,
-      src: '/rent_img/1-14-floor.jpg',
+      src: '/rent_img/1-15-floor.jpg',
       alt: '1 этаж',
     },
     {
       id: 2,
-      src: '/rent_img/2-14-floor.jpg',
+      src: '/rent_img/2-15-floor.jpg',
       alt: '2 этаж',
     },
     {
       id: 3,
-      src: '/rent_img/3-14-floor.jpg',
+      src: '/rent_img/3-15-floor.jpg',
       alt: '3 этаж',
     },
   ];
@@ -43,7 +43,8 @@ function Rent() {
   return (
     <Layout
       description="Аренда помещений в ТРК «Сити Центр» в Краснодаре: премиальный торговый центр с эксклюзивным составом арендаторов. Условия и презентация."
-      title="Арендаторам">
+      title="Арендаторам"
+    >
       <section className="mt-10">
         <div className="lg:container mx-auto px-4 lg:px-0">
           <h1 className="title_main mt-10">Арендаторам</h1>
