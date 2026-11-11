@@ -1,4 +1,4 @@
-let id = 1;
+// let id = 1;
 
 export const butiks = [
   //Женская одежда    womenClothing
@@ -17,9 +17,11 @@ export const butiks = [
   //Сервисы           services
 
   {
-    id: id++,
+    id: 1,
     category: 'womenClothing manClothing shoesAndBags',
     url: 'cosmo-store',
+    slug: 'cosmo-store',
+    name: 'COSMO STORE',
     logo: '/butiks/womenClothing/COSMO-STORE/logo.png',
     image: [
       {
@@ -48,9 +50,11 @@ export const butiks = [
     instagram: 'cosmostore.krd',
   },
   {
-    id: id++,
+    id: 2,
     category: 'womenClothing',
-    url: 'Twinset-milano',
+    url: 'twinset-milano',
+    slug: 'twinset-milano',
+    name: 'TWINSET MILANO',
     logo: '/butiks/womenClothing/Twinset-milano/logo.png',
     image: [
       {
@@ -94,9 +98,11 @@ export const butiks = [
     instagram: 'twin_set_krasnodar',
   },
   {
-    id: id++,
+    id: 3,
     category: 'womenClothing',
-    url: 'Marccain',
+    url: 'marccain',
+    slug: 'marccain',
+    name: 'MARC CAIN',
     logo: '/butiks/womenClothing/Marccain/logo.png',
     image: [
       {
@@ -134,33 +140,12 @@ export const butiks = [
     telUrl: '89898104161',
     instagram: 'krd_marccain',
   },
-  // {
-  //   id: 'oysters',
-  //   category: 'kafeAndRestoran',
-  //   url: 'Oysters',
-  //   logo: '/butiks/kafe/Oysters/logo.png',
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: '/butiks/loaderImgSmall.png',
-  //       alt: 'Oysters',
-  //     },
-  //   ],
-  //   description1:
-  //     'Устричный ресторан Oysters! Теперь атмосфера безупречного шопинга дополняется изысканными морскими деликатесами и эстетикой настоящего luxury-формата 🥂',
-  //   description2:
-  //     'Свежие устрицы, утончённая подача, безупречный вкус и особое настроение — всё, чтобы превратить обычный визит в ТРК «СИТИ ЦЕНТР» в настоящее гастрономическое удовольствие.',
-  //   description3:
-  //     'Приглашаем открыть для себя новый уровень гастрономии и позволить себе чуть больше роскоши в Oysters 🤍',
-  //   floor: '1 этаж',
-  //   tel: '',
-  //   telUrl: '',
-  //   instagram: '',
-  // },
   {
-    id: id++,
+    id: 4,
     category: 'womenClothing manClothing',
-    url: 'Paul-shark',
+    url: 'paul-shark',
+    slug: 'paul-shark',
+    name: 'Paul & Shark',
     logo: '/butiks/womenClothing/Paul-shark/logo.png',
     image: [
       {
@@ -194,9 +179,11 @@ export const butiks = [
     instagram: 'paulandshark',
   },
   {
-    id: id++,
+    id: 5,
     category: 'womenClothing manClothing',
-    url: 'Bogner',
+    url: 'bogner',
+    slug: 'bogner',
+    name: 'Bogner',
     logo: '/butiks/womenClothing/Bogner/logo.png',
     image: [
       {
@@ -229,44 +216,12 @@ export const butiks = [
     telUrl: '88612134727',
     instagram: 'bogner_krasnodar',
   },
-  // {
-  //   id: id++,
-  //   category: "womenClothing underwear",
-  //   url: "Wolford",
-  //   logo: "/butiks/womenClothing/Wolford/logo.png",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       src: "/butiks/womenClothing/Wolford/1n.jpg",
-  //       alt: "Wolford",
-  //     },
-  //     {
-  //       id: 2,
-  //       src: "/butiks/womenClothing/Wolford/2n.jpg",
-  //       alt: "Wolford",
-  //     },
-  //     {
-  //       id: 3,
-  //       src: "/butiks/womenClothing/Wolford/3n.jpg",
-  //       alt: "Wolford",
-  //     },
-  //     {
-  //       id: 4,
-  //       src: "/butiks/womenClothing/Wolford/4n.jpg",
-  //       alt: "Wolford",
-  //     },
-  //   ],
-  //   description1:
-  //     "Компания Wolford – это всемирно известный бренд в сегменте доступной роскоши, один из лидеров индустрии. Wolford использует в производстве только лучшие ткани, которые облегают женское тело, украшая его и подчеркивая силуэт. Wolford – это всегда идеальное качество, легкий уход, комфорт в использовании, особенное ощущение тканей на коже и безупречный крой.",
-  //   floor: "1 этаж",
-  //   tel: "+7 861 213 47 77",
-  //   telUrl: "88612134767",
-  //   instagram: "wolford_krasnodar",
-  // },
   {
-    id: id++,
+    id: 6,
     category: 'womenClothing manClothing',
-    url: 'PP',
+    url: 'philipp-plein',
+    slug: 'philipp-plein',
+    name: 'Philipp Plein',
     logo: '/butiks/womenClothing/PP/logo.png',
     image: [
       {
@@ -298,9 +253,11 @@ export const butiks = [
     instagram: 'plein_shop_',
   },
   {
-    id: id++,
+    id: 7,
     category: 'womenClothing',
-    url: 'Elizabetta-franchi',
+    url: 'elizabetta-franchi',
+    slug: 'elizabetta-franchi',
+    name: 'Elisabetta Franchi',
     logo: '/butiks/womenClothing/Elizabetta-franchi/logo.png',
     image: [
       {
@@ -332,9 +289,11 @@ export const butiks = [
     instagram: 'fashion_brands_krd',
   },
   {
-    id: id++,
+    id: 8,
     category: 'manClothing underwear',
-    url: 'XO',
+    url: 'xo',
+    slug: 'xo',
+    name: 'X.O.',
     logo: '/butiks/menClothing/XO/logo.png',
     image: [
       {
@@ -373,9 +332,11 @@ export const butiks = [
     instagram: 'xo_man_ru',
   },
   {
-    id: id++,
+    id: 9,
     category: 'underwear womenClothing',
-    url: 'Laperila',
+    url: 'laperila',
+    slug: 'laperila',
+    name: 'La Perla',
     logo: '/butiks/underwear/Laperila/logo.png',
     image: [
       {
@@ -407,9 +368,11 @@ export const butiks = [
     instagram: 'lingerie_krd',
   },
   {
-    id: id++,
+    id: 10,
     category: 'underwear',
-    url: 'WildOrchid',
+    url: 'dikaya-orhideya',
+    slug: 'dikaya-orhideya',
+    name: 'Дикая Орхидея',
     logo: '/butiks/underwear/WildOrchid/logo.png',
     image: [
       {
@@ -443,9 +406,11 @@ export const butiks = [
     instagram: 'wildorchidofficial',
   },
   {
-    id: id++,
+    id: 11,
     category: 'underwear',
-    url: 'EstelAdony',
+    url: 'estelle-adony',
+    slug: 'estelle-adony',
+    name: 'Эстель Адони',
     logo: '/butiks/underwear/EstelAdony/logo.png',
     image: [
       {
@@ -477,9 +442,11 @@ export const butiks = [
     instagram: 'estelle_adony',
   },
   {
-    id: id++,
+    id: 12,
     category: 'clocks',
-    url: 'Renaissance',
+    url: 'renaissance',
+    slug: 'renaissance',
+    name: 'Renaissance',
     logo: '/butiks/clocks/Renaissance/logo.png',
     image: [
       {
@@ -513,9 +480,11 @@ export const butiks = [
     instagram: 'renaissance_boutique',
   },
   {
-    id: id++,
+    id: 13,
     category: 'clocks',
-    url: 'GoldLarec',
+    url: 'zolotoy-larets',
+    slug: 'zolotoy-larets',
+    name: 'Золотой Ларец',
     logo: '/butiks/clocks/GoldLarec/logo2.png',
     image: [
       {
@@ -546,9 +515,11 @@ export const butiks = [
     instagram: 'zolotoylarets',
   },
   {
-    id: id++,
+    id: 14,
     category: 'clocks giftsAndBook',
-    url: 'TimeGalery',
+    url: 'time-gallery',
+    slug: 'time-gallery',
+    name: 'Галерея Времени',
     logo: '/butiks/clocks/TimeGalery/logo.png',
     image: [
       {
@@ -592,9 +563,11 @@ export const butiks = [
     instagram: 'time_gallery.krasnodar',
   },
   {
-    id: id++,
+    id: 15,
     category: 'clocks giftsAndBook',
-    url: 'GMT',
+    url: 'gmt',
+    slug: 'gmt',
+    name: 'GMT',
     logo: '/butiks/clocks/GMT/logo.png',
     image: [
       {
@@ -633,9 +606,11 @@ export const butiks = [
     instagram: 'gmt_krasnodar',
   },
   {
-    id: id++,
+    id: 16,
     category: 'giftsAndBook',
-    url: 'Branche',
+    url: 'branche',
+    slug: 'branche',
+    name: 'Branche',
     logo: '/butiks/clocks/Branche/logo.png',
     image: [
       {
@@ -664,9 +639,11 @@ export const butiks = [
     instagram: 'be.branche',
   },
   {
-    id: id++,
+    id: 17,
     category: 'shoesAndBags',
-    url: 'Premiata',
+    url: 'vic-matie',
+    slug: 'vic-matie',
+    name: 'VIC MATIE',
     logo: '/butiks/shoesAndBags/VicMatie/logo1.png',
     image: [
       {
@@ -705,9 +682,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 18,
     category: 'cosmetics',
-    url: 'ileDeBeaute',
+    url: 'ile-de-beaute',
+    slug: 'ile-de-beaute',
+    name: 'Иль Де Ботэ',
     logo: '/butiks/cosmetics/ileDeBeaute/logo.png',
     image: [
       {
@@ -741,9 +720,11 @@ export const butiks = [
     instagram: 'sephora_russia',
   },
   {
-    id: id++,
+    id: 19,
     category: 'cosmetics',
-    url: 'Perfumery',
+    url: 'giorgio',
+    slug: 'giorgio',
+    name: 'Giorgio',
     logo: '/butiks/cosmetics/Giorgio/logo.png',
     image: [
       {
@@ -782,9 +763,11 @@ export const butiks = [
     instagram: 'giorgio_boutique',
   },
   {
-    id: id++,
+    id: 20,
     category: 'interior giftsAndBook',
-    url: 'Renesans',
+    url: 'renesans',
+    slug: 'renesans',
+    name: 'Ренессанс',
     logo: '/butiks/interior/Renesans/logo.png',
     image: [
       {
@@ -815,9 +798,11 @@ export const butiks = [
     instagram: 'renaissance_boutique',
   },
   {
-    id: id++,
+    id: 21,
     category: 'interior',
-    url: 'DC',
+    url: 'lovec-snov',
+    slug: 'lovec-snov',
+    name: 'Ловец Снов',
     logo: '/butiks/interior/DC/logo1.png',
     image: [
       {
@@ -840,9 +825,11 @@ export const butiks = [
     instagram: 'dream_catchers_rus',
   },
   {
-    id: id++,
+    id: 22,
     category: 'interior giftsAndBook',
-    url: 'LuxuryLiving',
+    url: 'luxury-living',
+    slug: 'luxury-living',
+    name: 'Luxury Living',
     logo: '/butiks/interior/LuxuryLiving/logo.png',
     image: [
       {
@@ -874,9 +861,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 23,
     category: 'giftsAndBook kafeAndRestoran',
-    url: 'French Kiss',
+    url: 'french-kiss',
+    slug: 'french-kiss',
+    name: 'French Kiss',
     logo: '/butiks/giftsAndBook/FrenchKiss/logo.png',
     image: [
       {
@@ -900,9 +889,11 @@ export const butiks = [
     instagram: 'frenchkiss_krd',
   },
   {
-    id: id++,
+    id: 24,
     category: 'services',
-    url: 'HimCLear',
+    url: 'himchistka-premium',
+    slug: 'himchistka-premium',
+    name: 'Химчистка Премиум',
     logo: '/services/HimCLear/logo.png',
     image: [
       {
@@ -925,9 +916,11 @@ export const butiks = [
     telUrl: '89615102560',
   },
   {
-    id: id++,
+    id: 25,
     category: 'services gameCategory children',
-    url: 'Igratoriya',
+    url: 'igratoriya',
+    slug: 'igratoriya',
+    name: 'Игратория',
     logo: '/services/Igratoriya/logo.png',
     image: [
       {
@@ -962,9 +955,11 @@ export const butiks = [
     instagram: 'igratoria',
   },
   {
-    id: id++,
+    id: 26,
     category: 'services',
-    url: 'Perekrestok',
+    url: 'perekrestok',
+    slug: 'perekrestok',
+    name: 'Перекресток',
     logo: '/services/Perekrestok/logo.png',
     image: [
       {
@@ -979,9 +974,11 @@ export const butiks = [
     telUrl: '',
   },
   {
-    id: id++,
+    id: 27,
     category: 'services',
-    url: 'ATMs',
+    url: 'bankomaty',
+    slug: 'bankomaty',
+    name: 'Банкоматы',
     logo: '/services/ATMs/logo1.png',
     image: [
       {
@@ -1011,9 +1008,11 @@ export const butiks = [
     telUrl: '',
   },
   {
-    id: id++,
+    id: 28,
     category: 'services',
-    url: 'Pharmacy',
+    url: 'apteka',
+    slug: 'apteka',
+    name: 'Аптека',
     logo: '/services/Pharmacy/logo.png',
     image: [
       {
@@ -1028,9 +1027,11 @@ export const butiks = [
     telUrl: '',
   },
   {
-    id: id++,
+    id: 29,
     category: 'services',
-    url: 'Repassaj',
+    url: 'repassaj',
+    slug: 'repassaj',
+    name: 'Репассаж',
     logo: '/services/Repassaj/logo.png',
     image: [
       {
@@ -1045,9 +1046,11 @@ export const butiks = [
     telUrl: '',
   },
   {
-    id: id++,
+    id: 30,
     category: 'gameCategory',
-    url: 'Cinema',
+    url: 'cinema',
+    slug: 'cinema',
+    name: 'Кинотеатр «МОНИТОР Сity de Luxe»',
     logo: '/butiks/gameCategory/cinema/logo.png',
     image: [
       {
@@ -1080,9 +1083,11 @@ export const butiks = [
     instagram: 'KINOMONITOR',
   },
   {
-    id: id++,
+    id: 31,
     category: 'glasses giftsAndBook',
-    url: 'RePremium',
+    url: 're-premium',
+    slug: 're-premium',
+    name: 'Re:Premium',
     logo: '/butiks/glasses/RePremium/logo.png',
     image: [
       {
@@ -1100,9 +1105,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 32,
     category: 'manClothing',
-    url: 'Studio',
+    url: 'studio',
+    slug: 'studio',
+    name: 'STUDIO',
     logo: '/butiks/menClothing/Studio/logo1.png',
     image: [
       {
@@ -1134,9 +1141,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 33,
     category: 'manClothing',
-    url: 'Gabbiacci',
+    url: 'gabbiacci',
+    slug: 'gabbiacci',
+    name: 'Gabbiacci',
     logo: '/butiks/menClothing/Gabbiaacci/logo1.png',
     image: [
       {
@@ -1169,9 +1178,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 34,
     category: 'manClothing',
-    url: 'ConceptStore',
+    url: 'koncept-men',
+    slug: 'koncept-men',
+    name: 'КОНЦЕПТ',
     logo: '/butiks/womenClothing/ConceptStore/logo3.png',
     image: [
       {
@@ -1204,9 +1215,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 35,
     category: 'womenClothing',
-    url: 'ConceptStoreW',
+    url: 'koncept-women',
+    slug: 'koncept-women',
+    name: 'КОНЦЕПТ W',
     logo: '/butiks/womenClothing/ConceptStoreW/logo3.png',
     image: [
       {
@@ -1239,9 +1252,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 36,
     category: 'womenClothing',
-    url: 'Braschi',
+    url: 'braschi',
+    slug: 'braschi',
+    name: 'Braschi',
     logo: '/butiks/womenClothing/Braschi/logo.png',
     image: [
       {
@@ -1267,9 +1282,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 37,
     category: 'womenClothing',
-    url: 'MesDemoiselles',
+    url: 'mes-demoiselles',
+    slug: 'mes-demoiselles',
+    name: 'Mes Demoiselles Paris',
     logo: '/butiks/womenClothing/MesDemoiselles/logo1.png',
     image: [
       {
@@ -1317,9 +1334,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 38,
     category: 'children',
-    url: 'MagicToys',
+    url: 'magic-toys',
+    slug: 'magic-toys',
+    name: 'Magic Toys',
     logo: '/butiks/children/MagisToys/logo1.png',
     image: [
       {
@@ -1352,9 +1371,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 39,
     category: 'kafeAndRestoran',
-    url: 'DonBazilio',
+    url: 'don-bazilio',
+    slug: 'don-bazilio',
+    name: 'Don Bazilio',
     logo: '/butiks/kafe/DonBazilio/logo.png',
     image: [
       {
@@ -1389,9 +1410,11 @@ export const butiks = [
     textOtherInfo: 'Меню ресторана',
   },
   {
-    id: id++,
+    id: 40,
     category: 'children gameCategory',
-    url: 'ChildrenInCity',
+    url: 'deti-v-city',
+    slug: 'deti-v-city',
+    name: 'Дети В СИТИ',
     logo: '/butiks/children/ChildrenInCity/logo1.png',
     image: [
       {
@@ -1443,9 +1466,11 @@ export const butiks = [
     // textOtherInfo: 'Сайт «Дети В СИТИ»',
   },
   {
-    id: id++,
+    id: 41,
     category: 'glasses',
-    url: 'Optika',
+    url: 'optrika',
+    slug: 'optrika',
+    name: 'Оптрика',
     logo: '/butiks/glasses/Optika/logo.png',
     image: [
       {
@@ -1481,9 +1506,11 @@ export const butiks = [
     instagram: 'optrika',
   },
   {
-    id: id++,
+    id: 42,
     category: 'womenClothing',
-    url: 'MAXCo',
+    url: 'max-and-co',
+    slug: 'max-and-co',
+    name: 'MAX&Co',
     logo: '/butiks/womenClothing/MAXCo/logo1.png',
     image: [
       {
@@ -1513,9 +1540,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 43,
     category: 'womenClothing',
-    url: 'WeekendMaxMara',
+    url: 'weekend-max-mara',
+    slug: 'weekend-max-mara',
+    name: 'Weekend Max Mara',
     logo: '/butiks/womenClothing/WeekendMaxMara/logo1.png',
     image: [
       {
@@ -1550,9 +1579,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 44,
     category: 'shoesAndBags',
-    url: 'Dance',
+    url: 'dance-kult',
+    slug: 'dance-kult',
+    name: 'Dance культ',
     logo: '/butiks/shoesAndBags/Dance/logo.png',
     image: [
       {
@@ -1562,7 +1593,7 @@ export const butiks = [
       },
     ],
     description1:
-      'Dance культ - в магазине представлена танцевальная обувь ведущих российских производителей фирм Aida и Eckse.',
+      'Dance культ - в магазине представлена танцевальная обувь ведущих российских производителей фирм Aida и Eckse.',
     description2:
       'А также, одежда, аксессуары ,ткани производства Англия, Италия и Корея и фурнитура для пошива танцевальной одежды.',
     description3: '',
@@ -1572,9 +1603,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 45,
     category: 'clocks',
-    url: 'ZOTTY',
+    url: 'zotty',
+    slug: 'zotty',
+    name: 'ZOTTY',
     logo: '/butiks/clocks/ZOTTY/logo.png',
     image: [
       {
@@ -1634,9 +1667,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 46,
     category: 'womenClothing',
-    url: 'Fresh',
+    url: 'fresh',
+    slug: 'fresh',
+    name: 'Fresh',
     logo: '/butiks/womenClothing/Fresh/logo1.png',
     image: [
       {
@@ -1659,9 +1694,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 47,
     category: 'womenClothing',
-    url: 'Guess',
+    url: 'guess',
+    slug: 'guess',
+    name: 'Guess',
     logo: '/butiks/womenClothing/Guess/logo1.png',
     image: [
       {
@@ -1681,9 +1718,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 48,
     category: 'interior',
-    url: 'Evergreen',
+    url: 'evergreen',
+    slug: 'evergreen',
+    name: 'Evergreen',
     logo: '/butiks/interior/Evergreen/logo1.png',
     image: [
       {
@@ -1712,9 +1751,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 49,
     category: 'womenClothing',
-    url: 'Dexterior',
+    url: 'd-exterior',
+    slug: 'd-exterior',
+    name: 'D.Exterior',
     logo: '/butiks/womenClothing/Dexterior/logo.png',
     image: [
       {
@@ -1734,9 +1775,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 50,
     category: 'interior',
-    url: 'Togas',
+    url: 'togas',
+    slug: 'togas',
+    name: 'Togas',
     logo: '/butiks/interior/Togas/logo.png',
     image: [
       {
@@ -1792,9 +1835,11 @@ export const butiks = [
     instagram: 'https://web.telegram.org/k/#@togasofficial',
   },
   {
-    id: id++,
+    id: 51,
     category: 'kafeAndRestoran',
-    url: 'CityCafe',
+    url: 'city-cafe',
+    slug: 'city-cafe',
+    name: 'СИТИ Кафе',
     logo: '/butiks/kafe/CityCafe/logo.png',
     image: [
       {
@@ -1837,9 +1882,11 @@ export const butiks = [
     instagram: '',
   },
   {
-    id: id++,
+    id: 52,
     category: 'manClothing',
-    url: 'Bugatti',
+    url: 'bugatti',
+    slug: 'bugatti',
+    name: 'Bugatti',
     logo: '/butiks/menClothing/Bugatti/logo.jpg',
     image: [
       {
@@ -1871,7 +1918,63 @@ export const butiks = [
     telUrl: '89676639995',
     instagram: '',
   },
-
+  // {
+  //   id: id++,
+  //   category: "womenClothing underwear",
+  //   url: "Wolford",
+  //   logo: "/butiks/womenClothing/Wolford/logo.png",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: "/butiks/womenClothing/Wolford/1n.jpg",
+  //       alt: "Wolford",
+  //     },
+  //     {
+  //       id: 2,
+  //       src: "/butiks/womenClothing/Wolford/2n.jpg",
+  //       alt: "Wolford",
+  //     },
+  //     {
+  //       id: 3,
+  //       src: "/butiks/womenClothing/Wolford/3n.jpg",
+  //       alt: "Wolford",
+  //     },
+  //     {
+  //       id: 4,
+  //       src: "/butiks/womenClothing/Wolford/4n.jpg",
+  //       alt: "Wolford",
+  //     },
+  //   ],
+  //   description1:
+  //     "Компания Wolford – это всемирно известный бренд в сегменте доступной роскоши, один из лидеров индустрии. Wolford использует в производстве только лучшие ткани, которые облегают женское тело, украшая его и подчеркивая силуэт. Wolford – это всегда идеальное качество, легкий уход, комфорт в использовании, особенное ощущение тканей на коже и безупречный крой.",
+  //   floor: "1 этаж",
+  //   tel: "+7 861 213 47 77",
+  //   telUrl: "88612134767",
+  //   instagram: "wolford_krasnodar",
+  // },
+  // {
+  //   id: 'oysters',
+  //   category: 'kafeAndRestoran',
+  //   url: 'Oysters',
+  //   logo: '/butiks/kafe/Oysters/logo.png',
+  //   image: [
+  //     {
+  //       id: 1,
+  //       src: '/butiks/loaderImgSmall.png',
+  //       alt: 'Oysters',
+  //     },
+  //   ],
+  //   description1:
+  //     'Устричный ресторан Oysters! Теперь атмосфера безупречного шопинга дополняется изысканными морскими деликатесами и эстетикой настоящего luxury-формата 🥂',
+  //   description2:
+  //     'Свежие устрицы, утончённая подача, безупречный вкус и особое настроение — всё, чтобы превратить обычный визит в ТРК «СИТИ ЦЕНТР» в настоящее гастрономическое удовольствие.',
+  //   description3:
+  //     'Приглашаем открыть для себя новый уровень гастрономии и позволить себе чуть больше роскоши в Oysters 🤍',
+  //   floor: '1 этаж',
+  //   tel: '',
+  //   telUrl: '',
+  //   instagram: '',
+  // },
   // {
   //   id: id++,
   //   category: 'manClothing',

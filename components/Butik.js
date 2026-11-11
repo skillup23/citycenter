@@ -34,6 +34,7 @@ function Butik(butik) {
     video,
     otherInfo,
     textOtherInfo,
+    name,
   } = butik.butik || {};
 
   //Если объекта нет, то указать что Бутика не существует и предложить вернуться назад
@@ -87,6 +88,10 @@ function Butik(butik) {
               sizes="100%"
               className="self-center w-52 h-auto"
             />
+            <h1 className="text-2xl sm:text-3xl font-bold uppercase tracking-wide mt-6 mb-2 self-center md:self-start ">
+              {name || url}
+            </h1>
+
             <div className="mt-5 md:mt-0">
               <p className="text-lg sm:text-xl text-justify tracking-wide">
                 {!description1

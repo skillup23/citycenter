@@ -111,7 +111,7 @@ function Header() {
           className="ml-3 mr-3 cursor-pointer text-3xl md:text-4xl block lg:hidden"
         />
 
-        {menu.slice(7, 11).map(({ id, name, link }) => {
+        {menu.slice(6, 10).map(({ id, name, link }) => {
           return (
             <Link
               key={id}

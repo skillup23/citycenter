@@ -1,83 +1,127 @@
-import { menu } from '@/public/data/data';
+import { menu, politicaPDF } from '@/public/data/data';
 import logoBlack from '@/public/site_img/logoBlack.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { SlSocialVkontakte } from 'react-icons/sl';
+import { FiClock, FiMapPin, FiPhone } from 'react-icons/fi';
 
 function Footer() {
   return (
-    <footer className="shrink-0 bg-white py-5 sm:mt-16">
-      <nav className="lg:container mx-auto flex justify-between items-center min-[320px]:px-3 min-[400px]:px-6 sm:px-2">
-        <Link
-          href="/"
-          // className="w-[75px] h-[35px] lg:w-[100px] lg:h-[51px] xl:w-[62px] xl:h-[80px] relative"
-          className="w-[70px] h-[70px] md:w-[59px] md:h-[78px] xl:w-[62px] xl:h-[62px] relative"
-        >
-          <Image
-            src={logoBlack}
-            alt="logo"
-            fill
-            sizes="78px"
-            // логотип почти квадратный, а блок на md — 59×78: без contain он растягивается
-            className="object-contain ease-in duration-200 hover:scale-105"
-          />
-        </Link>
+    <footer className="shrink-0 bg-white border-t border-neutral-200 pt-12 pb-8 sm:mt-16 text-black">
+      <div className="container mx-auto px-4 lg:px-8">
+        {/* Основная сетка футера */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-10 border-b border-neutral-200">
+          {/* Колонка 1: Логотип, адрес и телефон (4 колонки) */}
+          <div className="lg:col-span-4 flex sm:flex-col items-start justify-between gap-4">
+            <Link href="/" className="w-[70px] h-[70px] relative inline-block">
+              <Image
+                src={logoBlack}
+                alt="ТРК Сити Центр"
+                fill
+                sizes="70px"
+                className="object-contain transition-transform duration-200 hover:scale-105"
+              />
+            </Link>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:flex items-center justify-between gap-x-8 gap-y-4 sm:gap-4 md:gap-4 lg:gap-6 xl:gap-8 2xl:gap-12">
-          {menu.slice(0, 5).map(({ id, name, link }) => {
-            return (
+            <div className="flex flex-col gap-2.5 text-sm sm:text-base text-neutral-800 sm:mt-2">
+              <div className="flex items-center gap-2.5">
+                <FiPhone className="text-lg shrink-0 mt-0.5 text-neutral-500" />
+                <a
+                  href="tel:+78612134700"
+                  className="text-xl font-bold hover:opacity-75 transition-opacity"
+                >
+                  8 861 213 47 00
+                </a>
+              </div>
+
+              <div className="flex items-center gap-2.5">
+                <FiMapPin className="text-lg shrink-0 mt-0.5 text-neutral-500" />
+                <span className="text-sm sm:text-base">
+                  г. Краснодар, ул. Индустриальная, 2
+                </span>
+              </div>
+
+              <div className="flex items-start gap-2.5">
+                <FiClock className="text-lg shrink-0 mt-0.5 text-neutral-500" />
+                <div>
+                  <p className="text-base font-semibold">10:00 — 22:00</p>
+                  <p className="text-xs text-neutral-500">ежедневно</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Колонка 2: Разделы сайта (5 колонок) */}
+          <div className="lg:col-span-5 grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-3 content-start">
+            {menu.slice(0, 12).map(({ id, name, link }) => (
               <Link
                 key={id}
                 href={link}
-                className="text-lg sm:text-xl xl:text-2xl ease-in duration-200 hover:scale-105 text-black text-center"
+                className="text-base uppercase tracking-wider text-neutral-700 hover:text-black transition-colors"
               >
                 {name}
               </Link>
-            );
-          })}
-          {menu.slice(7, 8).map(({ id, name, link }) => {
-            return (
+            ))}
+          </div>
+
+          {/* Колонка 3: Соцсети в стиле Ситицентра (3 колонки) */}
+          <div className="lg:col-span-3 flex flex-col items-start lg:items-end gap-4">
+            <span className="text-base font-semibold uppercase tracking-widest text-neutral-400">
+              Присоединяйтесь к нам
+            </span>
+            <div className="flex gap-4">
               <Link
-                key={id}
-                href={link}
-                className="text-lg sm:text-xl xl:text-2xl ease-in duration-200 hover:scale-105 text-black text-center"
+                href="https://vk.com/trkcitycentr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-full border border-neutral-300 flex items-center justify-center text-xl transition-all duration-200 hover:bg-black hover:text-white hover:border-black"
+                aria-label="ВКонтакте"
               >
-                {name}
+                <SlSocialVkontakte />
               </Link>
-            );
-          })}
-          {menu.slice(11, 12).map(({ id, name, link }) => {
-            return (
               <Link
-                key={id}
-                href={link}
-                className="text-lg sm:text-xl xl:text-2xl ease-in duration-200 hover:scale-105 text-black text-center col-span-3 sm:col-span-2"
+                href="https://t.me/ciiitycenter"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-full border border-neutral-300 flex items-center justify-center text-xl transition-all duration-200 hover:bg-black hover:text-white hover:border-black"
+                aria-label="Telegram"
               >
-                {name}
+                <FaTelegramPlane />
               </Link>
-            );
-          })}
+            </div>
+          </div>
         </div>
-        <div className="hidden sm:flex ml-6">
-          <Link href="https://vk.com/trkcitycentr" target={'_blank'}>
-            <SlSocialVkontakte className="text-xl sm:text-3xl xl:text-4xl ease-in duration-200 hover:scale-105 text-black mr-5" />
+
+        {/* Нижняя служебная плашка */}
+        <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-base text-neutral-500">
+          <p>
+            © ТРК «СИТИ ЦЕНТР», {new Date().getFullYear()}. Все права защищены.
+          </p>
+
+          <Link
+            href={politicaPDF}
+            target="_blank"
+            className="px-2 sm:px-6 py-2 mb:py-4 flex items-center underline hover:text-black transition-colors"
+          >
+            <div className="flex flex-col gap-1 lg:gap-2">
+              <p className="text-base">
+                Политика обработки персональных данных
+              </p>
+            </div>
           </Link>
-          <Link href="https://t.me/ciiitycenter" target={'_blank'}>
-            <FaTelegramPlane className="text-xl sm:text-3xl xl:text-4xl ease-in duration-200 hover:scale-105 text-black" />
-          </Link>
+          <p>
+            Объект под управлением УК «АЛЬФА»{' '}
+            <Link
+              href="https://alpha-am.ru"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-black transition-colors"
+            >
+              alpha-am.ru
+            </Link>
+          </p>
         </div>
-      </nav>
-      <div className="lg:container mx-auto mt-8 sm:mt-4 flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-8 min-[320px]:px-3 min-[400px]:px-6 sm:px-2">
-        <p className="text-black">
-          © ТРК «СИТИ ЦЕНТР», {new Date().getFullYear()}. Все права защищены
-        </p>
-        <p className="text-black">
-          Объект под управлением УК «АЛЬФА»{' '}
-          <Link href="https://alpha-am.ru" target={'_blank'}>
-            alpha-am.ru
-          </Link>
-        </p>
       </div>
     </footer>
   );
