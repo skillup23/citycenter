@@ -58,7 +58,7 @@ function Butik(butik) {
   } else {
     //Возвращаем бутик
     return (
-      <section className="mt-10">
+      <section className="mt-2">
         <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap gap-10 px-5 md:px-0">
           <div className="w-full md:w-1/2 order-last md:order-first">
             {!video ? (

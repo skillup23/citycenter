@@ -4,6 +4,7 @@ import ButtonRight from './ButtonRight';
 import Footer from './Footer';
 import Header from './Header';
 import CookieBanner from './CookieBanner';
+import Breadcrumbs from './Breadcrumbs';
 
 const SITE = 'https://www.citycenter.ru';
 const NAME = 'ТРК «Сити Центр»';
@@ -84,6 +85,7 @@ function Layout({ children, title, description, image, isHome = false }) {
         />
       </Head>
       <Header />
+      {!isHome && <Breadcrumbs currentTitle={title} />}
       <main className="flex-auto">{children}</main>
       <Footer />
       <ButtonRight />
