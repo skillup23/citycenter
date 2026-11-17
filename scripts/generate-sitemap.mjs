@@ -84,11 +84,13 @@ const urls = staticPages(PAGES).map(({ path, file }) => ({
 
 for (const [section, category] of Object.entries(BUTIK_SECTIONS)) {
   for (const b of butiks.filter((b) => b.category.includes(category))) {
-    urls.push({ path: `/butiks/${section}/${b.id}`, lastmod: dataDate });
+    const slug = b.slug || b.url || b.id;
+    urls.push({ path: `/butiks/${section}/${slug}`, lastmod: dataDate });
   }
 }
 for (const b of butiks.filter((b) => b.category.includes('services'))) {
-  urls.push({ path: `/services/${b.id}`, lastmod: dataDate });
+  const slug = b.slug || b.url || b.id;
+  urls.push({ path: `/services/${slug}`, lastmod: dataDate });
 }
 
 urls.sort((a, b) =>
