@@ -2,21 +2,15 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { useRef, useEffect } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import SliderBytik from '@/components/SliderBytik';
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 import { BiFoodMenu } from 'react-icons/bi';
+import { FiExternalLink } from 'react-icons/fi';
 // import { BsInstagram } from 'react-icons/bs';
 import Layout from './Layout';
 
 function Butik(butik) {
   const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (videoRef && videoRef.current) {
-      videoRef.current.play();
-    }
-  }, [videoRef]);
   //используется для кнопки назад
   const router = useRouter();
   //вытаскиваем данные из объекта
@@ -35,10 +29,39 @@ function Butik(butik) {
     otherInfo,
     textOtherInfo,
     name,
+    site,
   } = butik.butik || {};
 
+  useEffect(() => {
+    const el = videoRef.current;
+    if (el && video) {
+      el.defaultMuted = true;
+      el.muted = true;
+      el.play().catch(() => {
+        // Игнорируем блокировку автоплея в режиме энергосбережения
+      });
+    }
+  }, [video]);
+
+  // 1. Нормализуем саму ссылку (добавляем https://, если забыли, и убираем пробелы)
+  const normalizedSite = site
+    ? site.trim().startsWith('http')
+      ? site.trim()
+      : `https://${site.trim()}`
+    : '';
+
+  // 2. Получаем красивый текст без протокола, www и пути
+  let displayText = normalizedSite;
+  if (normalizedSite) {
+    try {
+      displayText = new URL(normalizedSite).hostname.replace(/^www\./, '');
+    } catch {
+      displayText = site.trim();
+    }
+  }
+
   //Если объекта нет, то указать что Бутика не существует и предложить вернуться назад
-  if (!butik) {
+  if (!butik?.butik) {
     return (
       <Layout title={url}>
         <h2 className="text-3xl text-center mt-20">
@@ -66,15 +89,14 @@ function Butik(butik) {
             ) : (
               <video
                 controls
-                ref={videoRef}
+                autoPlay
                 loop
                 muted
-                playsinline
-                style={{ width: '100%', height: '100%' }}
-                type="video/mp4"
-                className=""
+                playsInline
+                ref={videoRef}
+                className="w-full h-full object-cover"
               >
-                <source src={video} />
+                <source src={video} type="video/mp4" />
               </video>
             )}
           </div>
@@ -86,7 +108,7 @@ function Butik(butik) {
               width={200}
               height={0}
               sizes="100%"
-              className="self-center w-52 h-auto"
+              className="self-center w-36 h-auto"
             />
             <h1 className="text-2xl sm:text-3xl font-bold uppercase tracking-wide mt-6 mb-2 self-center md:self-start ">
               {name || url}
@@ -106,40 +128,54 @@ function Butik(butik) {
               </p>
             </div>
             <div>
-              <div className="flex flex-row w-fill items-center mt-6">
-                <FaMapMarkerAlt className="text-2xl sm:text-3xl mr-5" />
+              <div className="flex flex-row w-full items-center mt-6">
+                <FaMapMarkerAlt className="text-2xl sm:text-2xl mr-5" />
                 <h4 className="text-xl sm:text-2xl">{floor}</h4>
               </div>
-              {!telUrl ? (
-                ''
-              ) : (
-                <div className="flex flex-row w-fill items-center mt-2">
-                  <FaPhoneAlt className="text-xl sm:text-2xl mr-5" />
-                  <Link href={telUrl} className="text-xl sm:text-2xl">
+              {telUrl && (
+                <div className="flex flex-row w-full items-center mt-2">
+                  <FaPhoneAlt className="text-xl sm:text-2xl mr-5 shrink-0" />
+                  <a
+                    href={`tel:${telUrl}`}
+                    className="text-xl sm:text-2xl hover:underline"
+                  >
                     {tel}
-                  </Link>
+                  </a>
                 </div>
               )}
 
-              {!otherInfo ? (
-                ''
-              ) : (
-                <div className="flex flex-row w-fill items-center mt-2">
-                  <BiFoodMenu className="text-xl sm:text-2xl mr-5" />
-                  <Link
+              {otherInfo && (
+                <div className="flex flex-row w-full items-center mt-2">
+                  <BiFoodMenu className="text-xl sm:text-2xl mr-5 shrink-0" />
+                  <a
                     href={otherInfo}
-                    className="text-xl sm:text-2xl"
                     target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl sm:text-2xl hover:underline"
                   >
                     {textOtherInfo}
-                  </Link>
+                  </a>
+                </div>
+              )}
+
+              {normalizedSite && (
+                <div className="flex flex-row w-full items-center mt-2">
+                  <FiExternalLink className="text-xl sm:text-2xl mr-5 shrink-0" />
+                  <a
+                    href={normalizedSite}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl sm:text-2xl hover:underline break-all"
+                  >
+                    {displayText}
+                  </a>
                 </div>
               )}
 
               {/* {!instagram ? (
                 ''
               ) : (
-                <div className="flex flex-row w-fill items-center mt-2">
+                <div className="flex flex-row w-full items-center mt-2">
                   <BsInstagram className="text-2xl sm:text-3xl mr-5" />
                   <Link
                     href={`https://www.instagram.com/${instagram}`}

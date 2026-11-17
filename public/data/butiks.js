@@ -48,6 +48,7 @@ export const butiks = [
     tel: '+7 861 213 47 31',
     telUrl: '88612134731',
     instagram: 'cosmostore.krd',
+    site: 'https://cosmo-store.online/',
   },
   {
     id: 2,
@@ -96,6 +97,7 @@ export const butiks = [
     tel: '+7 861 213 47 82',
     telUrl: '88612134782',
     instagram: 'twin_set_krasnodar',
+    site: 'https://twinset.ru/',
   },
   {
     id: 3,
@@ -139,6 +141,7 @@ export const butiks = [
     tel: '+7 989 810 41 61',
     telUrl: '89898104161',
     instagram: 'krd_marccain',
+    site: 'https://marc-cain-krd.ru/',
   },
   {
     id: 4,
@@ -177,6 +180,7 @@ export const butiks = [
     tel: '+7 861 213 47 25',
     telUrl: '88612134725',
     instagram: 'paulandshark',
+    site: 'https://shark-online.ru/',
   },
   {
     id: 5,
@@ -215,6 +219,7 @@ export const butiks = [
     tel: '+7 8612 13 47 27',
     telUrl: '88612134727',
     instagram: 'bogner_krasnodar',
+    site: 'https://bogner.com/',
   },
   {
     id: 6,
@@ -251,6 +256,7 @@ export const butiks = [
     tel: '+7 988 243 70 00',
     telUrl: '89882437000',
     instagram: 'plein_shop_',
+    site: 'http://plein.com/ru/home',
   },
   {
     id: 7,
@@ -287,6 +293,7 @@ export const butiks = [
     tel: '+7 861 213 47 14',
     telUrl: '88612134714',
     instagram: 'fashion_brands_krd',
+    site: 'http://elisabettafranchi.com/',
   },
   {
     id: 8,
@@ -330,6 +337,7 @@ export const butiks = [
     tel: '+7 861 213 47 23',
     telUrl: '88612134723',
     instagram: 'xo_man_ru',
+    site: 'https://xo-man.ru/',
   },
   {
     id: 9,
@@ -366,6 +374,7 @@ export const butiks = [
     tel: '+7 918 079 80 80',
     telUrl: '89180798080',
     instagram: 'lingerie_krd',
+    site: '',
   },
   {
     id: 10,
@@ -404,6 +413,7 @@ export const butiks = [
     tel: '+7 861 213 47 15',
     telUrl: '88612134715',
     instagram: 'wildorchidofficial',
+    site: 'https://www.wildorchid.ru/?utm_campaign=yandex&utm_medium=shops&utm_source=maps',
   },
   {
     id: 11,
@@ -440,6 +450,7 @@ export const butiks = [
     tel: '+7 861 213 48 55',
     telUrl: '88612134855',
     instagram: 'estelle_adony',
+    site: 'http://www.estelle.ru/',
   },
   {
     id: 12,
@@ -478,6 +489,7 @@ export const butiks = [
     tel: '+7 995 169 85 80',
     telUrl: '89951698580',
     instagram: 'renaissance_boutique',
+    site: '',
   },
   {
     id: 13,
@@ -513,6 +525,7 @@ export const butiks = [
     tel: '8 (861) 267-75-55',
     telUrl: '88612677555',
     instagram: 'zolotoylarets',
+    site: 'https://zolar.ru/',
   },
   {
     id: 14,
@@ -561,6 +574,7 @@ export const butiks = [
     tel: '+7 861 213 47 76',
     telUrl: '88612134776',
     instagram: 'time_gallery.krasnodar',
+    site: 'https://time-gallery.ru/',
   },
   {
     id: 15,
@@ -604,6 +618,7 @@ export const butiks = [
     tel: '+7 861 262 60 26',
     telUrl: '88612626026',
     instagram: 'gmt_krasnodar',
+    site: 'http://www.gmt-krasnodar.ru/',
   },
   {
     id: 16,
@@ -637,6 +652,7 @@ export const butiks = [
     tel: '+7 861 213 48 13',
     telUrl: '88612134813',
     instagram: 'be.branche',
+    site: '',
   },
   {
     id: 17,
@@ -680,6 +696,7 @@ export const butiks = [
     tel: '+7 861 213 47 31',
     telUrl: '88612134731',
     instagram: '',
+    site: 'http://cosmo-store.online/',
   },
   {
     id: 18,
@@ -718,6 +735,7 @@ export const butiks = [
     tel: '+7 861 213 48 48',
     telUrl: '88612134848',
     instagram: 'sephora_russia',
+    site: 'https://iledebeaute.ru/',
   },
   {
     id: 19,
@@ -761,6 +779,7 @@ export const butiks = [
     tel: '+7 861 213 47 40',
     telUrl: '88612134740',
     instagram: 'giorgio_boutique',
+    site: 'https://giardinomagico.com/',
   },
   {
     id: 20,
@@ -796,6 +815,7 @@ export const butiks = [
     tel: '+7 918 697 04 77',
     telUrl: '89186970477',
     instagram: 'renaissance_boutique',
+    site: 'https://renessans.su/',
   },
   {
     id: 21,
@@ -823,6 +843,7 @@ export const butiks = [
     tel: '+7 929 850 14 62',
     telUrl: '89298501462',
     instagram: 'dream_catchers_rus',
+    site: 'https://7ug.ru/',
   },
   {
     id: 22,
@@ -859,6 +880,7 @@ export const butiks = [
     tel: '+7 (989) 235-19-33',
     telUrl: '89892351933',
     instagram: '',
+    site: 'http://luxuryliving-group.ru/',
   },
   {
     id: 23,
@@ -887,6 +909,7 @@ export const butiks = [
     tel: '+7 938 43 07 564',
     telUrl: '89384307564',
     instagram: 'frenchkiss_krd',
+    site: 'https://frenchkiss.ru/',
   },
   {
     id: 24,
@@ -914,6 +937,7 @@ export const butiks = [
     floor: '2 этаж',
     tel: '+7 961 510 25 60',
     telUrl: '89615102560',
+    site: 'http://premiumdryclean.ru/',
   },
   {
     id: 25,
@@ -953,6 +977,7 @@ export const butiks = [
     tel: '+7 988 470 19 63',
     telUrl: '89884701963',
     instagram: 'igratoria',
+    site: 'http://www.igratoria.com/',
   },
   {
     id: 26,
@@ -972,6 +997,7 @@ export const butiks = [
     floor: '1 этаж',
     tel: '',
     telUrl: '',
+    site: '',
   },
   {
     id: 27,
@@ -1006,6 +1032,7 @@ export const butiks = [
     floor: '1 этаж',
     tel: '',
     telUrl: '',
+    site: '',
   },
   {
     id: 28,
@@ -1025,6 +1052,7 @@ export const butiks = [
     floor: '1 этаж',
     tel: '',
     telUrl: '',
+    site: '',
   },
   {
     id: 29,
@@ -1044,6 +1072,7 @@ export const butiks = [
     floor: '1 этаж',
     tel: '',
     telUrl: '',
+    site: '',
   },
   {
     id: 30,
@@ -1081,6 +1110,7 @@ export const butiks = [
     tel: '+7 999 412 00 12',
     telUrl: '89994120012',
     instagram: 'KINOMONITOR',
+    site: 'http://www.kinomonitor.ru/',
   },
   {
     id: 31,
@@ -1103,6 +1133,7 @@ export const butiks = [
     tel: '',
     telUrl: '',
     instagram: '',
+    site: 'http://krasnodar.stores-apple.com/?utm_content=site&utm_medium=cpc&utm_source=ymaps_krasnodar_city',
   },
   {
     id: 32,
@@ -1139,6 +1170,7 @@ export const butiks = [
     tel: '+7 928 432 55 00',
     telUrl: '89284325500',
     instagram: '',
+    site: '',
   },
   {
     id: 33,
@@ -1176,6 +1208,7 @@ export const butiks = [
     tel: '+7 953 090 67 23',
     telUrl: '89530906723',
     instagram: '',
+    site: '',
   },
   {
     id: 34,
@@ -1213,6 +1246,7 @@ export const butiks = [
     tel: '+7 988 489 88 11',
     telUrl: '89884898811',
     instagram: '',
+    site: '',
   },
   {
     id: 35,
@@ -1250,6 +1284,7 @@ export const butiks = [
     tel: '+7 918 151 23 23',
     telUrl: '89181512323',
     instagram: '',
+    site: 'https://concept-store-industrialnaja-ulitsa.clients.site/',
   },
   {
     id: 36,
@@ -1280,6 +1315,7 @@ export const butiks = [
     tel: '+7 988 245 00 50',
     telUrl: '89181512323',
     instagram: '',
+    site: 'https://concept-store-w-industrialnaja-ulitsa.clients.site/',
   },
   {
     id: 37,
@@ -1332,6 +1368,7 @@ export const butiks = [
     tel: '+7 861 213 47 82',
     telUrl: '88612134782',
     instagram: '',
+    site: 'https://maisonovelle.ru/',
   },
   {
     id: 38,
@@ -1369,6 +1406,7 @@ export const butiks = [
     tel: '+7 918 026 00 06',
     telUrl: '89180260006',
     instagram: '',
+    site: 'https://vk.ru/magictoys.krasnodar',
   },
   {
     id: 39,
@@ -1406,6 +1444,7 @@ export const butiks = [
     tel: '+7 918 120 00 13',
     telUrl: '89181200013',
     instagram: '',
+    site: 'https://menusa.app/11f1067737784cf58c97dbb9e208c366',
     otherInfo: 'https://madyar.ru/ru/restaurants/don-bazilio/dishes',
     textOtherInfo: 'Меню ресторана',
   },
@@ -1462,6 +1501,7 @@ export const butiks = [
     tel: '+7 918 333 17 77',
     telUrl: '89183331777',
     instagram: '',
+    site: 'https://remarked.online/populyarnye-v-city',
     // otherInfo: 'https://detivcity.ru/',
     // textOtherInfo: 'Сайт «Дети В СИТИ»',
   },
@@ -1504,6 +1544,7 @@ export const butiks = [
     tel: '+7 861 213 47 56',
     telUrl: '88612134756',
     instagram: 'optrika',
+    site: 'http://catalog.optrika.com/',
   },
   {
     id: 42,
@@ -1538,6 +1579,7 @@ export const butiks = [
     tel: '+7 (928) 199 07 90',
     telUrl: '89281990790',
     instagram: '',
+    site: 'https://world.maxandco.com/home',
   },
   {
     id: 43,
@@ -1577,6 +1619,7 @@ export const butiks = [
     tel: '+7 (928) 193 40 03',
     telUrl: '89281934003',
     instagram: '',
+    site: 'http://world.weekendmaxmara.com/',
   },
   {
     id: 44,
@@ -1601,6 +1644,7 @@ export const butiks = [
     tel: '+7 (989) 120 37 77',
     telUrl: '89891203777',
     instagram: '',
+    site: 'https://www.eckse.com/partners/',
   },
   {
     id: 45,
@@ -1665,6 +1709,7 @@ export const butiks = [
     tel: '',
     telUrl: '',
     instagram: '',
+    site: 'https://zotty.jewelry/',
   },
   {
     id: 46,
@@ -1692,6 +1737,7 @@ export const butiks = [
     tel: '+7 988 244 07 43',
     telUrl: '89882440743',
     instagram: '',
+    site: '',
   },
   {
     id: 47,
@@ -1716,6 +1762,7 @@ export const butiks = [
     tel: '+7 967 663 99 95',
     telUrl: '89676639995',
     instagram: '',
+    site: 'https://guess.ru/',
   },
   {
     id: 48,
@@ -1749,6 +1796,7 @@ export const butiks = [
     tel: '+7 918 940 70 70',
     telUrl: '89189407070',
     instagram: '',
+    site: 'https://evergreenyug.ru/',
   },
   {
     id: 49,
@@ -1773,6 +1821,7 @@ export const butiks = [
     tel: '+7 918 64 77 770',
     telUrl: '89186477770',
     instagram: '',
+    site: '',
   },
   {
     id: 50,
@@ -1833,6 +1882,7 @@ export const butiks = [
     tel: '+7 861 204 01 49',
     telUrl: '88612040149',
     instagram: 'https://web.telegram.org/k/#@togasofficial',
+    site: 'https://www.togas.com/ru/',
   },
   {
     id: 51,
@@ -1880,6 +1930,7 @@ export const butiks = [
     tel: '+7 (861) 213 47 00',
     telUrl: '88612134700',
     instagram: '',
+    site: '',
   },
   {
     id: 52,
@@ -1917,6 +1968,7 @@ export const butiks = [
     tel: '+7 (967) 663-99-95',
     telUrl: '89676639995',
     instagram: '',
+    site: 'https://bugatti-m.ru/',
   },
   {
     id: 53,
@@ -1947,6 +1999,7 @@ export const butiks = [
     tel: '+7 967 663 99 95',
     telUrl: '89676639995',
     instagram: '',
+    site: 'https://marcandre.com/',
   },
   // {
   //   id: id++,
