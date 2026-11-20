@@ -29,7 +29,8 @@ const Services = ({ butiks }) => {
   return (
     <Layout
       description="Сервисы для посетителей ТРК «Сити Центр» в Краснодаре."
-      title="СЕРВИСЫ">
+      title="СЕРВИСЫ"
+    >
       <section className="mt-10 relative">
         <div className="lg:container mx-auto">
           <h1 className="title_main mt-10">СЕРВИСЫ</h1>
@@ -38,13 +39,13 @@ const Services = ({ butiks }) => {
             {butiks &&
               butiks
                 .filter((item) => item.category.includes(`services`)) //*фильтруем по категории для отображения нужных на странице
-                .map(({ id, logo, url }) => (
+                .map(({ id, logo, slug, url, name }) => (
                   <ImageLink
                     key={id}
-                    href={`/services/${id}`}
+                    href={`/services/${slug || url || id}`}
                     src={logo}
                     // width={20}
-                    alt={url}
+                    alt={name || slug || url}
                   />
                 ))}
           </div>
