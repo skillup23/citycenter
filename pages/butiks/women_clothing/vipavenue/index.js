@@ -24,6 +24,10 @@ function Vipavenue() {
 
 export default Vipavenue;
 
+export async function getServerSideProps() {
+  return { notFound: true };
+}
+
 // import Butik from '@/components/Butik';
 // import Layout from '@/components/Layout';
 // import SliderVipAvenue from '@/components/SliderVipAvenue';

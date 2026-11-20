@@ -17,7 +17,8 @@ function Events() {
   return (
     <Layout
       description="Кинотеатр «Монитор Сити de Luxe» в ТРК «Сити Центр»: VIP-залы, проекция Sony Digital Cinema 4K, кресла-реклайнеры и еда из ресторана прямо в зал."
-      title="Кинотеатр">
+      title="Кинотеатр"
+    >
       <h1 className="sr-only">Кинотеатр «Монитор Сити de Luxe»</h1>
       <section className="relative">
         <SliderMain data={sliderCenter} dots={true} />
@@ -33,7 +34,7 @@ function Events() {
       <section className="mt-20" id="cinemacontacts">
         <div className="lg:container mx-auto pr-5 flex flex-row gap-12">
           <div className="pl-3">
-            <div className="flex gap-12 w-1/2 mb-12 items-start">
+            <div className="flex gap-12 w-1/3 sm:w-1/2 mb-12 items-start">
               <Image
                 src={logoMonitor1}
                 alt="Лого Монитор"

@@ -27,6 +27,11 @@ const BUTIK_SECTIONS = {
   women_clothing: 'womenClothing',
 };
 
+const IGNORED_PATHS = [
+  '/butiks/women_clothing/vipavenue',
+  '/butiks/kafe/oysters',
+];
+
 function lastCommitDate(file) {
   try {
     const d = execFileSync('git', ['log', '-1', '--format=%cs', '--', file], {
@@ -55,6 +60,7 @@ function staticPages(dir) {
       name === '404.js'
     )
       continue;
+
     const route =
       '/' +
       relative(PAGES, full)
@@ -62,8 +68,14 @@ function staticPages(dir) {
         .join('/')
         .replace(/(\/)?index\.js$/, '')
         .replace(/\.js$/, '');
+
+    const cleanRoute = route === '/' ? '/' : route.replace(/\/$/, '');
+
+    // Пропускаем временно отключенные страницы
+    if (IGNORED_PATHS.includes(cleanRoute)) continue;
+
     out.push({
-      path: route === '/' ? '/' : route.replace(/\/$/, ''),
+      path: cleanRoute,
       file: full,
     });
   }

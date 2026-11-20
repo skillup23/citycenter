@@ -71,9 +71,11 @@ function ImageGallery({ title, array, linkBegin, linkEnd, linkCloud }) {
 
   return (
     <Layout title={title}>
-      <section className="mt-10">
+      <section className="mt-4">
         <div className="container mx-auto">
-          <h2 className="title_main mt-10">{title}</h2>
+          <h1 className="title_main text-5xl sm:text-8xl px-4 sm:px-0">
+            {title}
+          </h1>
 
           <ul className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 px-4 sm:px-0 mt-4">
             {array.map((item, index) => (
